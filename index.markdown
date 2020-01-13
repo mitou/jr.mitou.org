@@ -84,8 +84,9 @@ layout: default
   <div class="qanda">
     {% for faq in site.data.faq %}
     <div class="qanda-one">
-      <p>{{faq.q}}</p>
-      <p>{{faq.a}}</p>
+      <input type="checkbox" id="faq_{{faq.q}}">
+      <label for="faq_{{faq.q}}">{{faq.q}}</label>
+      <p class="qanda-a">{{faq.a}}</p>
     </div>
     {% endfor %}
   </div>

@@ -55,8 +55,21 @@ h2{
     width: 100%;
   }
 }
+.qanda-a{
+  height: 0;
+  opacity: 0;
+  transition: .3s;
+}
 .qanda-one{
   text-align: left;
+  input{
+    display: none;
+  }
+  input:checked ~ .qanda-a{
+    height: auto;
+    opacity: 1;
+    padding: 10px 0;
+  }
 }
 .service{
   display: flex;
