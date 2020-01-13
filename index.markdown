@@ -4,3 +4,4 @@
 
 layout: default
 ---
+{% include articles.html %}
