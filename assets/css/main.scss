@@ -4,7 +4,7 @@ $main-color: rgb(40, 161, 58);
 $text-green: rgb(14, 110, 52);
 * {
   box-sizing: border-box;
-  line-height: 2em;
+  line-height: 1.8em;
 }
 
 a{
@@ -39,9 +39,26 @@ h2{
 }
 
 .pm{
-  padding: 24px;
+  padding: 12px;
   text-align: left;
   width: 50%;
+  img{
+    width: 100%;
+  }
+  & > div{
+    float: left;
+    padding-right: 12px;
+  }
+}
+.pm-left{
+  width: 30%;
+  p{
+    font-size: 14px;
+  }
+}
+.pm-right{
+  margin: 0;
+  width: 70%;
 }
 .projects,.pms{
   display: flex;
