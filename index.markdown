@@ -4,6 +4,39 @@
 
 layout: default
 ---
+<section id="about">
+  <h2>未踏ジュニアとは？</h2>
+  <p>独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を対象とした、ミニ未踏です。
+  そもそも未踏って？というかたはこちらをご覧ください。</p>
+  <div class="service">
+    <div class="service-one">
+      <h3>メンタリングの提供</h3>
+      <p>担当のプロジェクトマネージャ（PM）をはじめ、未踏卒業生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。</p>
+    </div>
+    <div class="service-one">
+      <h3>開発資金の援助</h3>
+      <p>各グループ50万円を上限として、開発資金の援助を行います。</p>
+    </div>
+    <div class="service-one">
+      <h3>開発場所の援助</h3>
+      <p>必要に応じて、開発場所及び工作機材の援助を行います。</p>
+    </div>
+    <div class="service-one">
+      <h3>未踏ジュニアスーパークリエータの認定</h3>
+      <p>特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや首都大学東京に推薦枠で出願できます。</p>
+    </div>
+  </div>
+  <h2>未踏インタビュー - Why Mitou?</h2>
+  <p>未踏関係者に『なんで未踏?』という質問をしてみました。
+未踏について一歩深く知るキッカケになれば嬉しいです ;)</p>
+  <iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg&disable_polymer=true" class="button">YouTubeで視聴する</a>
+
+  <h2>オンライン説明会（録画版）</h2>
+  <p>2019年2月3日に収録した説明会の動画です。2019年度未踏ジュニアのものですので、2020年度は多少内容が変更になる可能性があります。</p>
+  <iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd&disable_polymer=true" class="button">YouTubeで視聴する</a>
+</section>
 {% include articles.html %}
 <section>
   <h2>2019年度の採択者及び成果</h2>
