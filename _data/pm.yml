@@ -1,0 +1,88 @@
+- name: 佐藤 彩夏
+  affiliation: クックパッド株式会社
+  interested: 自分自身あるいは具体的な誰かの課題にチャレンジし、その人を幸せにする熱意を持っている人
+  bio: 東京大学大学院学際情報学府博士課程修了。博士（学際情報）。2009年度未踏ユースクリエータ。大学では、ヒューマンコンピュータインタラクション（HCI）の分野において、調理支援、運動支援などの日常生活の行動支援研究に従事。現在、クックパッドのスマートキッチン事業部にて、ハードウェアを含むコンセプト開発およびUXデザインに従事。趣味は家具作り、3Dプリンティング、アクセサリー作りなどのDIY全般。
+  facebook: sugar.ayaka
+  web: https://ayakasato.com/
+
+- name: 神武 里奈
+  affiliation: 株式会社ディー・エヌ・エー
+  interested: 未踏で楽しい提案！
+  bio: 将来の夢は「ポケモンマスター」。未踏「スーパークリエイター」に認定されて以降、ものづくりの楽しさに目覚める。多くのハッカソンやコンテストに参加し、25以上の賞を獲得。筑波大学大学院卒業。現在はDeNAで<a href="https://www.mangabox.me/">マンガボックス</a>のiOSアプリ開発を行う。
+  facebook: koooootake
+  twitter: koooootake
+  web: https://koooootake.com/
+
+- name: 小室 真紀
+  affiliation: 株式会社スイッチエデュケーション
+  interested: まずは自分の周り3人を面白がらせ、楽しませるような提案を待っています。
+  bio: スイッチエデュケーション代表取締役社長。お茶の水女子大学人間文化創成科学研究科博士課程修了。博士（理学）。2009年度未踏OG。2012年より株式会社スイッチサイエンスにて、専門家ではない普通の人に最先端の科学技術を使ったものづくりを普及させる活動に従事。2017年より現職。教育向けマイコンボードmicro:bitを中心に、プログラミングして動く物を作ることを通した学びを推進する活動を行っている。
+  facebook: MKnkgw
+  twitter: MKnkgw
+
+- name: 笹田 耕一
+  affiliation: クックパッド株式会社
+  interested: アプリケーションを支える基盤技術の開発に熱意を持って取り組める方。
+  bio: 大学在学時からRuby向け仮想マシンYARVを開発し、2007年に「Ruby 1.9」に採用される。以降、Rubyコミッターとして、言語処理系の高速化に従事し、仮想マシンやガーベージコレクションの性能改善などを行なう。東京大学大学院情報理工学系研究科助手、助教、講師、株式会社セールスフォース・ドットコム、Heroku, Inc.を経て、クックパッドにてRubyインタプリタ開発に従事。博士（情報理工学）。未踏ユーススーパークリエータ（2004）。
+  github: ko1
+
+- name: 西尾 泰和
+  affiliation: サイボウズ・ラボ
+  interested: どんどん新しいことにチャレンジする人。
+  bio: 2002年度スーパークリエータ。2006年、24歳で博士(理学)取得。2007年よりサイボウズ・ラボにて、チームワークや知的生産性を高めるソフトウェアの研究に従事。著書に<a href="http://nhiro.org/langbook/">「コーディングを支える技術」</a><a href="https://www.oreilly.co.jp/books/9784873116839/">「word2vecによる自然言語処理」</a>など。2014年技術経営修士取得。2015年より一般社団法人未踏の理事を兼任。2級知的財産管理技能士。
+  facebook: nishiohirokazu
+  twitter: nishio
+  github: nishio
+
+- name: 安川 要平
+  affiliation: YassLab 株式会社, 一般社団法人 CoderDojo Japan
+  interested: スクリプト言語やWebの特長を活かしたプロジェクト。応募時点で動くプロトタイプがあると素晴らしいですね ;)
+  bio: <a href="https://yasslab.jp/">YassLab</a> 代表取締役。<a href="https://coderdojo.jp/">CoderDojo Japan</a> 代表理事。早稲田大学情報理工学科卒 (修士)。米国留学中に開発した震災対策アプリのヒットを契機に、沖縄と東京を拠点にした<a href="https://speakerdeck.com/yasslab/remote-first-company">完全リモートワーク制の会社</a>を起業。<a href="https://railstutorial.jp/">Railsチュートリアル</a>や<a href="https://railsguides.jp/">Railsガイド</a>を開発し、AIITや筑波大学、琉球大学や工学院大学などで採用。2012年度未踏スーパークリエータ、TEDxRyukyuスピーカー。
+  facebook: yasulab
+  twitter: yasulab
+  github: yasulab
+
+- name: 米辻 泰山
+  affiliation: Preferred Networks
+  interested: できるかも、できたら絶対楽しい、という思いのこもった提案
+  bio: Preferred NetworkにてAmazon Picking ChallengeやCeaTec展示会等でのロボット開発を行った後、Chainerを用いた自動着色サービス<a href="https://paintschainer.preferred.tech/">PaintsChainer</a>を開発。 大学時代は東京大学ロボコンサークルRoboTechに所属しメカニックを担当。 未踏人材育成発掘事業ではwebマンガをテーマに<a href="http://www.ecomaki.com/">"ecomaki"</a>を開発リリース。
+  twitter: tai2an
+  web: https://paintschainer.preferred.tech/
+
+- name: 鈴木 遼
+  affiliation: 早稲田大学
+  interested: 「コンピューターって面白い！」もしくは「コンピューターを使って何かを作りたい！」と思う人が増えるようなプロジェクト
+  bio: 2013年度未踏スーパークリエータ。ゲームやメディアアートを簡単に作れる C++ ライブラリ <a href="https://siv3d.jp/">Siv3D</a> と、ビジュアルプログラミング言語 <a href="https://enrect.org/">Enrect</a> の開発者。早稲田大学メディアデザイン研究室博士後期課程、早稲田情報科学ジュニア・アカデミー講師。著書に「冒険で学ぶ はじめてのプログラミング」。
+  facebook: Reputeless
+  twitter: Reputeless
+  github: Reputeless
+
+- name: 寺本 大輝
+  affiliation: ハックフォープレイ株式会社
+  interested: あなたが人より「面白がれる」こと。他人が何と言おうと、あなたにとっては超面白くて、四六時中そのことを考えていて、誰かに語りたいと思える提案
+  bio: プログラミングの楽しさを広めるため<a href="https://hackforplay.xyz/">HackforPlay</a>を開発。CVCK Awardで受賞したことをキッカケに石川県金沢市で起業。2015年度スーパークリエータ。様々なプログラミング教材を開発するほか、<a href="https://www.facebook.com/coderdojo.kanazawa/">CoderDojo Kanazawa</a>を立ち上げ、小・中学生向けの教室を開いている。
+  facebook: hackforplay.teramotodaiki
+  twitter: teramotodaiki
+  github: teramotodaiki
+
+- name: 関 喜史
+  affiliation: 株式会社Gunosy
+  interested: サービスの作り方を学んで、自分の周りの人、さらには世界中の人に届けられるようなサービスを生み出したい人の提案を待っています
+  bio: 東京大学工学部卒業、同大学院工学系研究科博士課程修了。博士(工学)。2011年度未踏OB。大学院在籍中にGunosy（グノシー）を共同開発し、2012年当社創業。 創業期からニュース配信ロジックの開発を担当し、推薦システムを中心としたウェブマイニング、機械学習応用、自然言語処理応用を専門とする。2017年4月より東京大学客員研究員に着任。
+  facebook: yoshifumi.seki
+  twitter: YoshifumiSeki
+
+- name: 石井 翔
+  affiliation: AltLayer株式会社/東京工業大学
+  interested: 今この瞬間必要ではないかもしれないが、あなたが考える未来で必要とされるようなアプリケーション/ライブラリ
+  bio: 2016年度未踏スーパークリエータ。2018年度未踏アドバンストイノベータ。未踏事業では「Web開発に親和するWeb3Dライブラリ」として採択され、このプロジェクトで開発したOSSのWebGLフレームワーク<a href="https://grimoire.gl/">Grimoire.js</a>の開発者。 未踏アドバンスト事業では「Web技術を活用したARクラウド」で採択され、AltLayer株式会社を創業。 8歳からプログラミングを始め、主にリアルタイムCG技術やWeb技術を中心に活動している。チームプロジェクトが好き。
+  facebook: kakeru1994
+  twitter: kyasbal_1994
+  github: kyasbal-1994
+
+- name: 鵜飼 佑
+  affiliation: 未踏ジュニア代表
+  interested: あなたがやらなければ多分誰もやらないプロジェクト
+  bio: 東京大学大学院にて水中ロボットを用いた水泳支援システムの研究開発を行い、2011年度スーパークリエータに認定される。 MicrosoftのOfficeやMinecraft開発チームにてOffice LensやMinecraft Hour of Code Designerといった教育関連の製品のProgram Managerを務める。King's College LondonのComputing in Education専攻に留学後、文部科学省にてプログラミング教育プロジェクトオフィサーとして主に小学校におけるプログラミング教育を推進。
+  facebook: ukai.yu
+  twitter: ukkaripon
