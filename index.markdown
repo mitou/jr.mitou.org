@@ -79,3 +79,14 @@ layout: default
     {% endfor %}
   </div>
 </section>
+<section id="faq">
+  <h2>よくある質問</h2>
+  <div class="">
+    {% for faq in site.data.faq %}
+    <div class="">
+      <p>{{faq.q}}</p>
+      <p>{{faq.a}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
