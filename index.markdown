@@ -90,3 +90,9 @@ layout: default
     {% endfor %}
   </div>
 </section>
+<section id="contact">
+  <h2>コンタクト</h2>
+  <p>お返事が遅くなる場合もありますが、ご了承ください。<br>チラシの配布にご協力頂ける方は、<a href="https://goo.gl/forms/LbmaEz1kNrN1WFgt2">こちらのフォーム</a>より請求をお願いいたします。</p>
+  <a href="mailto:jr@mitou.org">jr@mitou.org</a>
+  <a href="/privacy-policy.html">プライバシーポリシー</a>
+</section>
