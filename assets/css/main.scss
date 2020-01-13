@@ -1,0 +1,79 @@
+---
+---
+$main-color: rgb(40, 161, 58);
+$text-green: rgb(14, 110, 52);
+* {
+  box-sizing: border-box;
+  line-height: 2em;
+}
+
+a{
+  color: $text-green;
+}
+
+body{
+  margin: 0;
+
+}
+h2{
+  margin-top: 2em;
+}
+
+.button{
+  background-color: $main-color;
+  color: #fff;
+  border-radius: 2em;
+  display: block;
+  margin: auto;
+  padding: 12px;
+  text-decoration: none;
+  width: 20%;
+}
+
+.main{
+  text-align: center;
+  section{
+    width: 100%;
+    padding: 24px 12vw;
+  }
+}
+
+.pm{
+  padding: 24px;
+  text-align: left;
+  width: 50%;
+}
+.projects,.pms{
+  display: flex;
+  flex-wrap: wrap;
+}
+.project{
+  padding: 24px;
+  text-align: left;
+  width: 50%;
+  iframe{
+    width: 100%;
+  }
+}
+.qanda-one{
+  text-align: left;
+}
+.service{
+  display: flex;
+}
+.service-one{
+  padding: 12px;
+  width: 25%;
+  h3{
+    text-align: center;
+  }
+}
+
+
+#articles, #results{
+  ul{
+    list-style: none;
+    padding: 0 12vw;
+    text-align: left;
+  }
+}

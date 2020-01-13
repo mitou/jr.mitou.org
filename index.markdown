@@ -38,7 +38,7 @@ layout: default
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd&disable_polymer=true" class="button">YouTubeで視聴する</a>
 </section>
 {% include articles.html %}
-<section>
+<section id="results">
   <h2>2019年度の採択者及び成果</h2>
   <ul>
     {% for pj in site.data.projects.nineteen %}
@@ -81,9 +81,9 @@ layout: default
 </section>
 <section id="faq">
   <h2>よくある質問</h2>
-  <div class="">
+  <div class="qanda">
     {% for faq in site.data.faq %}
-    <div class="">
+    <div class="qanda-one">
       <p>{{faq.q}}</p>
       <p>{{faq.a}}</p>
     </div>
