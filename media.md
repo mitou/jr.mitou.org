@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <section id="articles">
   <h2>メディア掲載</h2>
   <ul>

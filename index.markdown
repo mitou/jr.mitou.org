@@ -37,7 +37,15 @@ layout: default
   <iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd&disable_polymer=true" class="button">YouTubeで視聴する</a>
 </section>
-{% include articles.html %}
+<section id="articles">
+  <h2>メディア掲載</h2>
+  <ul>
+    {% for article in site.data.articles limit:10 %}
+    <li><span>{{article.date}}</span><a href="{{article.url}}">{{article.title}}</a></li>
+    {% endfor %}
+  </ul>
+  <a href="/media" class="button">すべて見る</a>
+</section>
 <section id="results">
   <h2>2019年度の採択者及び成果</h2>
   <ul>
