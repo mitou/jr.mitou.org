@@ -53,6 +53,7 @@ layout: default
     <li><a href="#{{pj.id}}">{% if pj.sp-creator %}<span>☆ </span>{% endif %}{{pj.title}}</a></li>
     {% endfor %}
   </ul>
+  <a href="/past-projects" class="button">過去の採択者/成果を見る</a>
   <div class="projects">
     {% for pj in site.data.projects.nineteen %}
     <div class="project" id="{{pj.id}}">
