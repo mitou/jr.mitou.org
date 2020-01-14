@@ -5,8 +5,9 @@
 layout: default
 ---
 <section id="about">
-  <h2>未踏ジュニアとは？</h2>
-  <p>独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を対象とした、ミニ未踏です。
+  <p class="subtitle">未踏ジュニアとは？</p>
+  <h2 class="s-title">独創的なアイデアを持つ<br>小中高生クリエイターを援助するプログラム</h2>
+  <p>独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を対象とした、ミニ未踏です。<br>
   そもそも未踏って？というかたはこちらをご覧ください。</p>
   <div class="service">
     <div class="service-one">
@@ -67,6 +68,8 @@ layout: default
   </div>
 </section>
 <section id="project-manager">
+  <p class="subtitle">プロジェクトマネージャー</p>
+  <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br>エンジニア・専門家の指導が受けられます。</h2>
   <h2>2019年度プロジェクトマネージャ</h2>
   <div class="pms">
     {% for pm in site.data.pm %}
