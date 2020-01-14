@@ -20,6 +20,17 @@ body{
 h2{
   margin-top: 2em;
 }
+header{
+  background-color: $main-color;
+  height: 80px;
+  padding: 24px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  a{
+    color: #fff;
+  }
+}
 
 .button{
   background-color: $main-color;
@@ -33,6 +44,7 @@ h2{
 }
 
 .main{
+  margin-top: 80px;
   text-align: center;
   section{
     width: 100%;
