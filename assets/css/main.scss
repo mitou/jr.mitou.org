@@ -2,8 +2,10 @@
 ---
 $main-color: rgb(40, 161, 58);
 $text-green: rgb(14, 110, 52);
+$lightgray: #e1e8f0;
 * {
   box-sizing: border-box;
+  color: #333;
   line-height: 1.8em;
 }
 
@@ -87,6 +89,15 @@ h2{
     opacity: 1;
     padding: 10px 0;
   }
+  label{
+    background-color: #fff;
+    border-radius: 4px;
+    display: block;
+    padding: 12px;
+  }
+  p{
+    margin: 4px;
+  }
 }
 .results-radio, .results-pjs{
   display: none;
@@ -112,4 +123,11 @@ h2{
     padding: 0 12vw;
     text-align: left;
   }
+}
+
+#about{
+  background-color: $lightgray;
+}
+#faq{
+  background-color: $lightgray;
 }
