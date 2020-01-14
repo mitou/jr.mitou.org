@@ -70,30 +70,7 @@ layout: default
 <section id="project-manager">
   <p class="subtitle">プロジェクトマネージャー</p>
   <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br>エンジニア・専門家の指導が受けられます。</h2>
-  <h2>2019年度プロジェクトマネージャ</h2>
-  <div class="pms">
-    {% for pm in site.data.pm %}
-      <div class="pm">
-        <div class="pm-left">
-          <img src="{{pm.img}}" alt="{{pm.name}}">
-          <h3>{{pm.name}}</h3>
-          <p>{{pm.affiliation}}</p>
-          <div class="pm-sns">
-            {% if pm.facebook %}<a href="https://www.facebook.com/{{pm.facebook}}">facebook</a>{%endif%}
-            {% if pm.twitter %}<a href="https://twitter.com/{{pm.twitter}}">twitter</a>{%endif%}
-            {% if pm.web %}<a href="{{pm.web}}">website</a>{%endif%}
-            {% if pm.github %}<a href="https://github.com/{{pm.github}}">github</a>{%endif%}
-          </div>
-        </div>
-        <div class="pm-right">
-          <h4>こんな人・こんな提案を待っています</h4>
-          <p>{{pm.interested}}</p>
-          <h4>略歴</h4>
-          <p>{{pm.bio}}</p>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
+  <a href="/pm" class="button">2019年度プロジェクトマネージャー</a>
 </section>
 <section id="faq">
   <h2>よくある質問</h2>
@@ -111,5 +88,6 @@ layout: default
   <h2>コンタクト</h2>
   <p>お返事が遅くなる場合もありますが、ご了承ください。<br>チラシの配布にご協力頂ける方は、<a href="https://goo.gl/forms/LbmaEz1kNrN1WFgt2">こちらのフォーム</a>より請求をお願いいたします。</p>
   <a href="mailto:jr@mitou.org">jr@mitou.org</a>
+  <iframe name="f285ee6871c3bb8" width="1000px" height="1000px" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.8/plugins/page.php?adapt_container_width=true&amp;app_id=158647657952679&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D45%23cb%3Df1867d0e5f9a8f%26domain%3Djr.mitou.org%26origin%3Dhttps%253A%252F%252Fjr.mitou.org%252Ff2db495e8015cc%26relation%3Dparent.parent&amp;container_width=1470&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2F%25E6%259C%25AA%25E8%25B8%258F%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%258B%25E3%2582%25A2-256249264788982%2F&amp;locale=ja_JP&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline" style="border: none; visibility: visible; width: 340px; height: 500px;" class=""></iframe>
   <a href="/privacy-policy.html">プライバシーポリシー</a>
 </section>
