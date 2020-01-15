@@ -127,6 +127,41 @@ header{
     text-align: center;
   }
 }
+
+.sponsor-one{
+  margin: auto;
+}
+.sponsor-img{
+  width: 100%;
+}
+.sponsors-list-eq, .sponsors-list-media{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 555px;
+  margin: auto;
+}
+.sponsors-list-eq{
+  max-width: 555px;
+}
+.sponsors-list-media{
+  max-width: 370px;
+}
+
+.sponsor-gold{
+  width: 300px;
+}
+.sponsor-silver{
+  width: 200px;
+}
+.sponsor-bronze{
+  width: 175px;
+}
+.sponsor-eq, .sponsor-media{
+  margin: 10px;
+  width: 165px;
+}
+
+
 .subtitle{
   margin: 0;
   font-weight: bold;

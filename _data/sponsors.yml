@@ -1,0 +1,24 @@
+gold: # ゴールドスポンサー
+  # - name: 会社名
+  #  img: ./assets/img/sponsor 内のロゴ写真のパス
+  #  url: 会社のホームページ
+
+silver: # シルバースポンサー
+  # - name: 会社名
+  #  img: ./assets/img/sponsor 内のロゴ写真のパス
+  #  url: 会社のホームページ
+
+bronze: # ブロンズスポンサー
+  # - name: 会社名
+  #  img: ./assets/img/sponsor 内のロゴ写真のパス
+  #  url: 会社のホームページ
+
+equipment: # 機材・教材提供
+  # - name: 会社名
+  #  img: ./assets/img/sponsor 内のロゴ写真のパス
+  #  url: 会社のホームページ
+
+media: # メディアパートナー
+  # - name: 会社名
+  #  img: ./assets/img/sponsor 内のロゴ写真のパス
+  #  url: 会社のホームページ
