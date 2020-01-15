@@ -74,6 +74,12 @@ header{
   margin: 0;
   width: 70%;
 }
+.post{
+  text-align: left;
+  margin: auto;
+  max-width: 1000px;
+  width: 80vw;
+}
 .projects,.pms{
   display: flex;
   flex-wrap: wrap;
