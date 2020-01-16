@@ -41,6 +41,10 @@ header{
   padding: 12px;
   text-decoration: none;
   width: 20%;
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
 footer{
   background-color: $lightgray;
   text-align: center;
@@ -83,10 +87,6 @@ footer{
   margin: auto;
   max-width: 1000px;
   width: 80vw;
-}
-.projects,.pms{
-  display: flex;
-  flex-wrap: wrap;
 }
 .project{
   padding: 24px;

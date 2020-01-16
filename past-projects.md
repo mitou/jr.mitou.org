@@ -15,7 +15,7 @@ layout: default
       <li><a href="#{{pj.id}}">{% if pj.sp-creator %}<span>☆ </span>{% endif %}{{pj.title}}</a></li>
       {% endfor %}
     </ul>
-    <div class="projects">
+    <div class="projects flex">
       {% for pj in site.data.projects.nineteen %}
         {% include project.html %}
       {% endfor %}
@@ -29,7 +29,7 @@ layout: default
       <li><a href="#{{pj.id}}">{% if pj.sp-creator %}<span>☆ </span>{% endif %}{{pj.title}}</a></li>
       {% endfor %}
     </ul>
-    <div class="projects">
+    <div class="projects flex">
       {% for pj in site.data.projects.eighteen %}
         {% include project.html %}
       {% endfor %}
@@ -43,7 +43,7 @@ layout: default
       <li><a href="#{{pj.id}}">{% if pj.sp-creator %}<span>☆ </span>{% endif %}{{pj.title}}</a></li>
       {% endfor %}
     </ul>
-    <div class="projects">
+    <div class="projects flex">
       {% for pj in site.data.projects.seventeen %}
         {% include project.html %}
       {% endfor %}
@@ -57,7 +57,7 @@ layout: default
       <li><a href="#{{pj.id}}">{% if pj.sp-creator %}<span>☆ </span>{% endif %}{{pj.title}}</a></li>
       {% endfor %}
     </ul>
-    <div class="projects">
+    <div class="projects flex">
       {% for pj in site.data.projects.sixteen %}
         {% include project.html %}
       {% endfor %}

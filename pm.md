@@ -3,7 +3,7 @@ layout: default
 ---
 <section id="project-manager">
 <h2>2019年度プロジェクトマネージャ</h2>
-<div class="pms">
+<div class="pms flex">
   {% for pm in site.data.pm %}
     <div class="pm">
       <div class="pm-left">
