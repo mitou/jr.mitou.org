@@ -18,7 +18,6 @@ nineteen:
     description: pirkaは、チャットで会話するにつれてあなたの言葉遣いや知識を学習し、個性が出る人工知能です。いわば、「世界に一つの、あなただけのAI」。感情や好みまで自分そっくりのその姿に、きっと親近感が湧きます。
     id: itoi
     youtube: tZHVhEjqX1g
-    sp-creator: false
 
   - title: neulot - 生体信号を用いたインターフェイスの開発
     name: 迫田 大翔 (関PM)
@@ -39,7 +38,6 @@ nineteen:
     description: ティッシュペーパーのような日用品を買い忘れてしまい、困った経験はありませんか？ ManageStock はそのような問題を解決するために、在庫を IoT などを活用して管理するアプリケーションです。
     id: onomura
     youtube: N1QfbFyjNXg
-    sp-creator: false
 
   - title: リレーマスター
     name: 渡部 晃久 (小室PM)
@@ -74,18 +72,15 @@ nineteen:
     description: Teaは、仮想経済シミュレーションプラットフォームとそれを使用したゲームです。実際の経済のようなシステムを用意し、ユーザーに自由に貨幣やアイテムの交換をしてもらい、貨幣経済をシミュレーションします。様々な社会システムをシミュレートできます。
     id: izumita
     youtube: rW57i1ZSksA
-    sp-creator: false
 
   - title: fresh capsule - 食材管理アプリ
     name: 岸本 純花 (寺本PM)
     description: fresh capsuleは、購入した食材の賞味期限を管理する携帯アプリです。 賞味期限が印字されている部分をスマートフォンで撮影すると、賞味期限がアプリ内のリストに落とし込まれます。
     id: kishimoto
     youtube: vioFrqxlRXQ
-    sp-creator: false
 
   - title: SmartVJ - 参加型の新しいメディアアート
     name: 平川 晴常 (神武PM)
     description: スマートフォン1台で誰でも簡単に参加できる体験型のメディアアートです。映像を映し出すPCとスマートフォンがあればスグに遊ぶことが出来ます。直感的な操作で音楽と映像を彩る新しい体験ができ、皆で作品を作り上げる楽しさを味わえます。
     id: hirakawa
     youtube: oGDGH2dmYKA
-    sp-creator: false
