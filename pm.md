@@ -5,7 +5,7 @@ layout: default
 <h2>2019年度プロジェクトマネージャ</h2>
 <div class="pms flex">
   {% for pm in site.data.pm %}
-    <div class="pm">
+    <div class="pm" id="{{pm.name}}">
       <div class="pm-left">
         <img src="{{pm.img}}" alt="{{pm.name}}">
         <h3>{{pm.name}}</h3>
@@ -17,7 +17,7 @@ layout: default
           {% if pm.github %}<a href="https://github.com/{{pm.github}}">github</a>{%endif%}
         </div>
       </div>
-      <div class="pm-right">
+      <div class="pm-right text-left">
         <h4>こんな人・こんな提案を待っています</h4>
         <p>{{pm.interested}}</p>
         <h4>略歴</h4>
@@ -26,4 +26,52 @@ layout: default
     </div>
   {% endfor %}
 </div>
+</section>
+<section id="supervisor">
+  <h2>スーパーバイザー</h2>
+    <div class="sv-left">
+      <img src="img/takeuchi.png">
+      <h3>竹内 郁雄</h3>
+      <h5>東京大学名誉教授／未踏IT人材発掘・育成事業統括PM／一般社団法人未踏代表理事</h5>
+    </div>
+
+    <div class="sv-right text-left">
+
+      <h5>略歴</h5>
+      <p>1946年、富山県生まれ。1971年にNTT研究所に入所して以来、人工知能をかじったりしていたが、プログラミング言語、中でもLispとその処理系の開発にはまってしまい、通常のプログラミング言語には不自由な人となってしまった。しかし、そのせいか、プログラミング以外のことにもいろいろ首を突っ込むことになってしまった。NTT研究所のあとは、電気通信大学、東京大学、早稲田大学の教授を歴任。</p>
+
+      <h5>メッセージ</h5>
+      <p>未踏事業は2000年に始まってから、どんどん若い人たちを対象にするようにシフトしてきました。ITはもう大人の独占物ではありません。超若いうちからITのセンスを見出して伸ばすことが大事だと思います。そのためには大人と同じ土俵ではなく、むしろ未踏ジュニアというような枠組みの中で伸び伸びと羽を広げていけるようにするのが、ジュニア世代の本当の成長につながると思います。未踏ジュニアでは、ジュニア世代が「教わる」のではなく、良い環境の中でITの才能を自ら発芽・成長させていくことを期待しています。</p>
+    </div>
+</section>
+<section id="operation">
+  <h2>運営委員</h2>
+  <div class="flex">
+
+    <div class="pm">
+      <div class="pm-left">
+        <img src="{{pm.img}}" alt="荒川 淳平">
+        <h3>荒川 淳平</h3>
+        <div class="pm-sns">
+          <a href="https://www.facebook.com/jumpei.arakawa"><i class="fab fa-facebook-square"></i></a>
+        </div>
+      </div>
+      <div class="pm-right text-left">
+        <h4>略歴</h4>
+        <p>東京大学大学院にてファイルシステムの仮想化に関する研究開発に取り組み、2006年度スーパークリエータに認定される。現在は株式会社インフォクラフト／IzumoBASE株式会社で代表取締役、一般社団法人未踏で理事を務める。</p>
+        <h4>一言</h4>
+        <p>アイデアと技術を武器に突き抜けましょう！</p>
+      </div>
+    </div>
+
+    <div class="pm">
+      <div class="pm-left">
+        <img src="{{pm.img}}" alt="鵜飼 佑">
+        <h3>鵜飼 佑</h3>
+      </div>
+      <div class="pm-right text-left">
+        <p>PMも兼任しているので、<a href="/pm#鵜飼%20佑">こちら</a>を参照。</p>
+      </div>
+    </div>
+  </div>
 </section>

@@ -20,6 +20,13 @@ body{
 h2{
   margin-top: 2em;
 }
+section{
+  &::after{
+    content: '';
+    clear:both;
+    display: block;
+  }
+}
 header{
   background-color: $main-color;
   height: 80px;
@@ -62,7 +69,6 @@ footer{
 
 .pm{
   padding: 12px;
-  text-align: left;
   width: 50%;
   img{
     width: 100%;
@@ -171,13 +177,23 @@ footer{
   width: 165px;
 }
 
-
+.sv-right{
+  float: left;
+  width: 50%;
+}
+.sv-left{
+  float: left;
+  width: calc(50% - 2px);
+}
 .subtitle{
   margin: 0;
   font-weight: bold;
 }
 .s-title{
   margin: 12px 0;
+}
+.text-left{
+  text-align: left;
 }
 
 #articles, #results{
