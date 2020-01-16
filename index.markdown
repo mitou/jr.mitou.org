@@ -72,10 +72,19 @@ layout: default
   <p><a href="https://www.mitou.org/">一般社団法人未踏</a>（Mitou Foundation、所在地：東京都渋谷区、代表理事：竹内 郁雄）は、経済産業省所管の独立行政法人情報処理推進機構（IPA、所在地：東京都文京区、理事長：富田 達夫）の事業である未踏事業の OB/OG や関係者を中心に、起業家や クリエータ等、天才的かつ創造的人材を多角的に支援し、日本横断的なネットワークをつくること で、IT を中心とした日本のイノベーションを加速させることを目的に設立された社団法人です。</p>
 </section>
 {% include sponsors.html %}
+<section id="sns">
+  <h2>SNS</h2>
+  <div class="flex">
+  <div class="facebook w-half">
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmitoujr&tabs=timeline&width=340&height=400&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  </div>
+  <div class="twitter w-half">
+    <a class="twitter-timeline" data-height="400" href="https://twitter.com/mitoujr?ref_src=twsrc%5Etfw">Tweets by mitoujr</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+  </div>
+</section>
 <section id="contact">
   <h2>コンタクト</h2>
   <p>お返事が遅くなる場合もありますが、ご了承ください。<br>チラシの配布にご協力頂ける方は、<a href="https://goo.gl/forms/LbmaEz1kNrN1WFgt2">こちらのフォーム</a>より請求をお願いいたします。</p>
   <a href="mailto:jr@mitou.org">jr@mitou.org</a>
-  <iframe name="f285ee6871c3bb8" width="1000px" height="1000px" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.8/plugins/page.php?adapt_container_width=true&amp;app_id=158647657952679&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D45%23cb%3Df1867d0e5f9a8f%26domain%3Djr.mitou.org%26origin%3Dhttps%253A%252F%252Fjr.mitou.org%252Ff2db495e8015cc%26relation%3Dparent.parent&amp;container_width=1470&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2F%25E6%259C%25AA%25E8%25B8%258F%25E3%2582%25B8%25E3%2583%25A5%25E3%2583%258B%25E3%2582%25A2-256249264788982%2F&amp;locale=ja_JP&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline" style="border: none; visibility: visible; width: 340px; height: 500px;" class=""></iframe>
-  <a href="/privacy-policy.html">プライバシーポリシー</a>
 </section>
