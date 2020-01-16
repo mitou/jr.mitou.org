@@ -55,7 +55,7 @@ layout: default
     {% endfor %}
   </ul>
   <a href="/past-projects" class="button">過去の採択者/成果を見る</a>
-  <div class="projects">
+  <div class="projects flex">
     {% for pj in site.data.projects.nineteen %}
       {% include project.html %}
     {% endfor %}
