@@ -57,13 +57,7 @@ layout: default
   <a href="/past-projects" class="button">過去の採択者/成果を見る</a>
   <div class="projects">
     {% for pj in site.data.projects.nineteen %}
-    <div class="project" id="{{pj.id}}">
-      <h3>{{pj.title}}</h3>
-      <p>{{pj.name}}</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/{{pj.youtube}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
-      <h4>概要</h4>
-      <p>{{pj.description}}</p>
-    </div>
+      {% include project.html %}
     {% endfor %}
   </div>
 </section>
@@ -72,18 +66,7 @@ layout: default
   <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br>エンジニア・専門家の指導が受けられます。</h2>
   <a href="/pm" class="button">2019年度プロジェクトマネージャー</a>
 </section>
-<section id="faq">
-  <h2>よくある質問</h2>
-  <div class="qanda">
-    {% for faq in site.data.faq %}
-    <div class="qanda-one">
-      <input type="checkbox" id="faq_{{faq.q}}">
-      <label for="faq_{{faq.q}}">{{faq.q}}</label>
-      <p class="qanda-a">{{faq.a}}</p>
-    </div>
-    {% endfor %}
-  </div>
-</section>
+{% include faq.html %}
 <section>
   <h2>運営団体</h2>
   <p><a href="https://www.mitou.org/">一般社団法人未踏</a>（Mitou Foundation、所在地：東京都渋谷区、代表理事：竹内 郁雄）は、経済産業省所管の独立行政法人情報処理推進機構（IPA、所在地：東京都文京区、理事長：富田 達夫）の事業である未踏事業の OB/OG や関係者を中心に、起業家や クリエータ等、天才的かつ創造的人材を多角的に支援し、日本横断的なネットワークをつくること で、IT を中心とした日本のイノベーションを加速させることを目的に設立された社団法人です。</p>

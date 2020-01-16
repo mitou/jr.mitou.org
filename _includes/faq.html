@@ -1,0 +1,12 @@
+<section id="faq">
+  <h2>よくある質問</h2>
+  <div class="qanda">
+    {% for faq in site.data.faq %}
+    <div class="qanda-one">
+      <input type="checkbox" id="faq_{{faq.q}}">
+      <label for="faq_{{faq.q}}">{{faq.q}}</label>
+      <p class="qanda-a">{{faq.a}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>

@@ -17,13 +17,7 @@ layout: default
     </ul>
     <div class="projects">
       {% for pj in site.data.projects.nineteen %}
-      <div class="project" id="{{pj.id}}">
-        <h3>{{pj.title}}</h3>
-        <p>{{pj.name}}</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{pj.youtube}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
-        <h4>概要</h4>
-        <p>{{pj.description}}</p>
-      </div>
+        {% include project.html %}
       {% endfor %}
     </div>
   </div>
@@ -37,13 +31,7 @@ layout: default
     </ul>
     <div class="projects">
       {% for pj in site.data.projects.eighteen %}
-      <div class="project" id="{{pj.id}}">
-        <h3>{{pj.title}}</h3>
-        <p>{{pj.name}}</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{pj.youtube}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
-        <h4>概要</h4>
-        <p>{{pj.description}}</p>
-      </div>
+        {% include project.html %}
       {% endfor %}
     </div>
   </div>
@@ -57,13 +45,7 @@ layout: default
     </ul>
     <div class="projects">
       {% for pj in site.data.projects.seventeen %}
-      <div class="project" id="{{pj.id}}">
-        <h3>{{pj.title}}</h3>
-        <p>{{pj.name}}</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{pj.youtube}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
-        <h4>概要</h4>
-        <p>{{pj.description}}</p>
-      </div>
+        {% include project.html %}
       {% endfor %}
     </div>
   </div>
@@ -77,13 +59,7 @@ layout: default
     </ul>
     <div class="projects">
       {% for pj in site.data.projects.sixteen %}
-      <div class="project" id="{{pj.id}}">
-        <h3>{{pj.title}}</h3>
-        <p>{{pj.name}}</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{pj.youtube}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
-        <h4>概要</h4>
-        <p>{{pj.description}}</p>
-      </div>
+        {% include project.html %}
       {% endfor %}
     </div>
   </div>
