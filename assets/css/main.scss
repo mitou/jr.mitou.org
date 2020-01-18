@@ -112,6 +112,7 @@ header{
   padding: 12px;
   text-decoration: none;
   width: 30%;
+  min-width: 280px;
 }
 .flex{
   @media screen and (min-width:$phone-width) {
