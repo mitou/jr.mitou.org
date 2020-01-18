@@ -120,9 +120,6 @@ footer{
   padding: 24px;
   text-align: left;
   width: 50%;
-  iframe{
-    width: 100%;
-  }
 }
 .qanda-a{
   height: 0;
@@ -219,6 +216,9 @@ footer{
 }
 .text-left{
   text-align: left;
+}
+.youtube iframe{
+  width: 100%;
 }
 .w-half{
   width: 50%;
