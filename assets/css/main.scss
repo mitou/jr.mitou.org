@@ -3,6 +3,7 @@
 $main-color: rgb(40, 161, 58);
 $text-green: rgb(14, 110, 52);
 $lightgray: #e1e8f0;
+$phone-width: 1180px;
 * {
   box-sizing: border-box;
   color: #333;
@@ -27,6 +28,20 @@ section{
     display: block;
   }
 }
+
+.ph{
+  display: none;
+  @media screen and (max-width:$phone-width) {
+    display: block;
+  }
+}
+.pc{
+  display: block;
+  @media screen and (max-width:$phone-width) {
+    display: none;
+  }
+}
+
 header{
   background-color: $main-color;
   height: 80px;
@@ -48,11 +63,45 @@ header{
   padding: 12px 36px;
 }
 .header-left{
-  margin: 24px;
+  @media screen and (min-width:$phone-width) {
+    margin: 24px;
+  }
   a{
     padding-right: 12px;
   }
 }
+#nav-check:checked + .topnav{
+  display: block;
+}
+.nav-hamburger{
+  font-size: 24px;
+  margin-left: 24px;
+  height: 80px;
+  line-height: 80px;
+  i{
+    color: #fff;
+  }
+}
+@media screen and (max-width:$phone-width) {
+  .topnav{
+    background-color: $main-color;
+    a{
+      display: block;
+      text-align: center;
+    }
+  }
+  .header-button{
+    border-radius: 0;
+    margin:0;
+  }
+  .header-left{
+    a{
+      padding: 0;
+      margin-bottom: 12px;
+    }
+  }
+}
+
 
 .button{
   background-color: $main-color;
@@ -65,8 +114,10 @@ header{
   width: 30%;
 }
 .flex{
-  display: flex;
-  flex-wrap: wrap;
+  @media screen and (min-width:$phone-width) {
+      display: flex;
+      flex-wrap: wrap;
+  }
 }
 footer{
   background-color: $lightgray;
