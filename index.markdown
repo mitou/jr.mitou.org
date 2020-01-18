@@ -11,18 +11,22 @@ layout: default
   そもそも未踏って？というかたはこちらをご覧ください。</p>
   <div class="service">
     <div class="service-one">
+      <i class="fas fa-graduation-cap green"></i>
       <h3>メンタリングの提供</h3>
       <p>担当のプロジェクトマネージャ（PM）をはじめ、未踏卒業生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。</p>
     </div>
     <div class="service-one">
+      <i class="fas fa-dollar-sign green"></i>
       <h3>開発資金の援助</h3>
       <p>各グループ50万円を上限として、開発資金の援助を行います。</p>
     </div>
     <div class="service-one">
+      <i class="fas fa-cog green"></i>
       <h3>開発場所の援助</h3>
       <p>必要に応じて、開発場所及び工作機材の援助を行います。</p>
     </div>
     <div class="service-one">
+      <i class="fas fa-link green"></i>
       <h3>未踏ジュニアスーパークリエータの認定</h3>
       <p>特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや首都大学東京に推薦枠で出願できます。</p>
     </div>
@@ -39,7 +43,7 @@ layout: default
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd&disable_polymer=true" class="button">YouTubeで視聴する</a>
 </section>
 <section id="articles">
-  <h2>メディア掲載</h2>
+  <h2> <i class="far fa-newspaper green"></i> メディア掲載</h2>
   <ul>
     {% for article in site.data.articles limit:10 %}
     <li><span>{{article.date}}</span><a href="{{article.url}}">{{article.title}}</a></li>
@@ -86,5 +90,6 @@ layout: default
 <section id="contact">
   <h2>コンタクト</h2>
   <p>お返事が遅くなる場合もありますが、ご了承ください。<br>チラシの配布にご協力頂ける方は、<a href="https://goo.gl/forms/LbmaEz1kNrN1WFgt2">こちらのフォーム</a>より請求をお願いいたします。</p>
+  <i class="fas fa-envelope green" style="font-size:36px;"></i><br>
   <a href="mailto:jr@mitou.org">jr@mitou.org</a>
 </section>

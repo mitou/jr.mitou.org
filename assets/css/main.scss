@@ -57,7 +57,9 @@ footer{
   text-align: center;
   padding: 24px 0;
 }
-
+.green{
+  color: $main-color;
+}
 .main{
   margin-top: 80px;
   text-align: center;
@@ -88,6 +90,10 @@ footer{
   margin: 0;
   width: 70%;
 }
+.pm-sns{
+  font-size: 36px;
+}
+
 .post{
   text-align: left;
   margin: auto;
@@ -141,6 +147,9 @@ footer{
   width: 25%;
   h3{
     text-align: center;
+  }
+  i{
+    font-size: 48px;
   }
 }
 

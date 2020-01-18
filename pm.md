@@ -11,10 +11,10 @@ layout: default
         <h3>{{pm.name}}</h3>
         <p>{{pm.affiliation}}</p>
         <div class="pm-sns">
-          {% if pm.facebook %}<a href="https://www.facebook.com/{{pm.facebook}}">facebook</a>{%endif%}
-          {% if pm.twitter %}<a href="https://twitter.com/{{pm.twitter}}">twitter</a>{%endif%}
-          {% if pm.web %}<a href="{{pm.web}}">website</a>{%endif%}
-          {% if pm.github %}<a href="https://github.com/{{pm.github}}">github</a>{%endif%}
+          {% if pm.facebook %}<a href="https://www.facebook.com/{{pm.facebook}}"><i class="fab fa-facebook-square green"></i></a>{%endif%}
+          {% if pm.twitter %}<a href="https://twitter.com/{{pm.twitter}}"><i class="fab fa-twitter-square green"></i></a>{%endif%}
+          {% if pm.web %}<a href="{{pm.web}}"><i class="fas fa-globe green"></i></a>{%endif%}
+          {% if pm.github %}<a href="https://github.com/{{pm.github}}"><i class="fab fa-github-square green"></i></a>{%endif%}
         </div>
       </div>
       <div class="pm-right text-left">
@@ -53,7 +53,7 @@ layout: default
         <img src="{{pm.img}}" alt="荒川 淳平">
         <h3>荒川 淳平</h3>
         <div class="pm-sns">
-          <a href="https://www.facebook.com/jumpei.arakawa"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.facebook.com/jumpei.arakawa"><i class="fab fa-facebook-square green"></i></a>
         </div>
       </div>
       <div class="pm-right text-left">
