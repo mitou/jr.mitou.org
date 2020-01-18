@@ -37,9 +37,9 @@ layout: default
   <iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg&disable_polymer=true" class="button">YouTubeで視聴する</a>
 
-  <h2>オンライン説明会（録画版）</h2>
-  <p>2019年2月3日に収録した説明会の動画です。2019年度未踏ジュニアのものですので、2020年度は多少内容が変更になる可能性があります。</p>
-  <iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <h2>2020年度 未踏ジュニア 応募者向け情報まとめ</h2>
+  <p>踏ジュニアを検討している方に役立つ動画を再生リストにまとめました。<br>質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="https://bit.ly/mitoujr-q-box">匿名質問箱</a>でも受付中！</p>
+  <iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd&disable_polymer=true" class="button">YouTubeで視聴する</a>
 </section>
 <section id="articles">
