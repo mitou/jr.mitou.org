@@ -7,7 +7,7 @@ layout: default
 <section id="about">
   <p class="subtitle">未踏ジュニアとは？</p>
   <h2 class="s-title">独創的なアイデアを持つ<br>小中高生クリエイターを援助するプログラム</h2>
-  <p>独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を対象とした、ミニ未踏です。<br>
+  <p>独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を対象とした、ミニ未踏です。<br class="pc">
   そもそも未踏って？というかたはこちらをご覧ください。</p>
   <div class="service flex">
     <div class="service-one">
@@ -18,7 +18,7 @@ layout: default
     <div class="service-one">
       <i class="fas fa-dollar-sign green"></i>
       <h3>開発資金の援助</h3>
-      <p>各グループ50万円を上限として、開発資金の援助を行います。</p>
+      <p>各グループ50万円を上限として、<br class="ph">開発資金の援助を行います。</p>
     </div>
     <div class="service-one">
       <i class="fas fa-cog green"></i>
@@ -32,15 +32,14 @@ layout: default
     </div>
   </div>
   <h2>未踏インタビュー - Why Mitou?</h2>
-  <p>未踏関係者に『なんで未踏?』という質問をしてみました。
-未踏について一歩深く知るキッカケになれば嬉しいです ;)</p>
+  <p>未踏関係者に『なんで未踏?』という質問をしてみました。<br class="pc">未踏について一歩深く知るキッカケになれば嬉しいです ;)</p>
   <div class="youtube">
     <iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
   </div>
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg&disable_polymer=true" class="button">YouTubeで視聴する</a>
 
-  <h2>2020年度 未踏ジュニア 応募者向け情報まとめ</h2>
-  <p>踏ジュニアを検討している方に役立つ動画を再生リストにまとめました。<br>質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="https://bit.ly/mitoujr-q-box">匿名質問箱</a>でも受付中！</p>
+  <h2>2020年度 未踏ジュニア <br class="ph">応募者向け情報まとめ</h2>
+  <p>未踏ジュニアを検討している方に役立つ動画を再生リストにまとめました。<br class="pc">質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="https://bit.ly/mitoujr-q-box">匿名質問箱</a>でも受付中！</p>
   <div class="youtube">
     <iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
   </div>
@@ -71,7 +70,7 @@ layout: default
 </section>
 <section id="project-manager">
   <p class="subtitle">プロジェクトマネージャー</p>
-  <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br>エンジニア・専門家の指導が受けられます。</h2>
+  <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br class="pc">エンジニア・専門家の指導が受けられます。</h2>
   <a href="/pm" class="button">2019年度プロジェクトマネージャー</a>
 </section>
 {% include faq.html %}
@@ -93,7 +92,7 @@ layout: default
 </section>
 <section id="contact">
   <h2>コンタクト</h2>
-  <p>お返事が遅くなる場合もありますが、ご了承ください。<br>チラシの配布にご協力頂ける方は、<a href="https://goo.gl/forms/LbmaEz1kNrN1WFgt2">こちらのフォーム</a>より請求をお願いいたします。</p>
+  <p>お返事が遅くなる場合もありますが、ご了承ください。<br class="pc">チラシの配布にご協力頂ける方は、<a href="https://goo.gl/forms/LbmaEz1kNrN1WFgt2">こちらのフォーム</a>より請求をお願いいたします。</p>
   <i class="fas fa-envelope green" style="font-size:36px;"></i><br>
   <a href="mailto:jr@mitou.org">jr@mitou.org</a>
 </section>
