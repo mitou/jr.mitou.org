@@ -207,12 +207,12 @@ footer{
 .results-radio:checked + .results-pjs{
   display: block;
 }
-.service{
-  display: flex;
-}
 .service-one{
   padding: 12px;
   width: 25%;
+  @media screen and (max-width:$phone-width) {
+    width: 100%;
+  }
   h3{
     text-align: center;
   }
