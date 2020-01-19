@@ -134,6 +134,9 @@ footer{
   section{
     width: 100%;
     padding: 24px 12vw;
+    @media screen and (max-width:$phone-width) {
+      padding: 24px 2vw;
+    }
   }
 }
 
