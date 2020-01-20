@@ -12,7 +12,7 @@ layout: default
     <h2>2019年度の採択者及び成果</h2>
     <ul>
       {% for pj in site.data.projects.nineteen %}
-      <li><a href="#{{pj.id}}">{% if pj.sp-creator %}<span>☆ </span>{% endif %}{{pj.title}}</a></li>
+        {%include sp-creator.html %}
       {% endfor %}
     </ul>
     <div class="projects flex">
@@ -26,7 +26,7 @@ layout: default
     <h2>2018年度の採択者及び成果</h2>
     <ul>
       {% for pj in site.data.projects.eighteen %}
-      <li><a href="#{{pj.id}}">{% if pj.sp-creator %}<span>☆ </span>{% endif %}{{pj.title}}</a></li>
+      {%include sp-creator.html %}
       {% endfor %}
     </ul>
     <div class="projects flex">
@@ -40,7 +40,7 @@ layout: default
     <h2>2017年度の採択者及び成果</h2>
     <ul>
       {% for pj in site.data.projects.seventeen %}
-      <li><a href="#{{pj.id}}">{% if pj.sp-creator %}<span>☆ </span>{% endif %}{{pj.title}}</a></li>
+      {%include sp-creator.html %}
       {% endfor %}
     </ul>
     <div class="projects flex">
@@ -54,7 +54,7 @@ layout: default
     <h2>2016年度の採択者及び成果</h2>
     <ul>
       {% for pj in site.data.projects.sixteen %}
-      <li><a href="#{{pj.id}}">{% if pj.sp-creator %}<span>☆ </span>{% endif %}{{pj.title}}</a></li>
+      {%include sp-creator.html %}
       {% endfor %}
     </ul>
     <div class="projects flex">

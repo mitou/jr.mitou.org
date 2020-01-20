@@ -1,86 +1,99 @@
 nineteen:
   - title: 編模様 (あもーよ) イラスト手編み支援アプリ
-    name: 武田 和樹 (寺本PM)
+    name: 武田 和樹
+    pm: 寺本
     description: 編模様(あもーよ)はイラスト手編みを支援するアプリです。オリジナルの編み図を作り、色が変わるまでの数が表示されることで編み間違いを減らすことができます。自分だけの作品を、時間を忘れて編み続けてしまうほど楽しく簡単に作れるようになります。
     id: takeda
     youtube: irYt3B7l8yg
     sp-creator: true
 
   - title: DetExploit - Windows用OSS脆弱性スキャナー
-    name: 高山 尚樹 (安川PM)
+    name: 高山 尚樹
+    pm: 安川
     description: DetExploitはWindowsにインストールされている脆弱なソフトウェアを検知し、ユーザーに通知するオープンソースの脆弱性スキャナーです。WMIやレジストリなどのWindows独自機能を使い、高精度なスキャンを実現しています。
     id: takayama
     youtube: 0XUID-IQzEk
     sp-creator: true
 
   - title: pirka - 会話を通して成長する人工知能技術
-    name: 糸井 主歩 (西尾PM)
+    name: 糸井 主歩
+    pm: 西尾
     description: pirkaは、チャットで会話するにつれてあなたの言葉遣いや知識を学習し、個性が出る人工知能です。いわば、「世界に一つの、あなただけのAI」。感情や好みまで自分そっくりのその姿に、きっと親近感が湧きます。
     id: itoi
     youtube: tZHVhEjqX1g
 
   - title: neulot - 生体信号を用いたインターフェイスの開発
-    name: 迫田 大翔 (関PM)
+    name: 迫田 大翔
+    pm: 関
     description: 生体信号を用いて人間の運動推定をすることを目的に、頭皮脳波・表面筋電位を計測するデバイスの設計・開発と、デバイスを用いた動作推定のアルゴリズム開発を行いました。 頭皮脳波の計測では右上肢の運動推定を行うことに成功し、表面筋電位センサについては実際に筋電義手メーカに採用していただくことができました。
     id: sakoda
     youtube: p_GIhnvDfFI
     sp-creator: true
 
   - title: abecobe - シンプルかつ難しいパズルゲーム
-    name: 浅野 啓 (鈴木PM)
+    name: 浅野 啓
+    pm: 鈴木
     description: 正反対な主人公と相棒をゴールにぴったり導くパズルゲーム、abecobeが登場しました。操作は上下左右方向のフリックのみ。２つのキャラクターをぴったりゴールに持っていくだけです。制限時間内にどれだけクリアできるでしょうか？
     id: asano
     youtube: B70zjf0Xs6g
     sp-creator: true
 
   - title: ManageStock - 家庭向け在庫管理アプリ
-    name: 小野村 卓也/上念 匠/石崎 碧空 (佐藤PM)
+    name: 小野村 卓也/上念 匠/石崎 碧空
+    pm: 佐藤
     description: ティッシュペーパーのような日用品を買い忘れてしまい、困った経験はありませんか？ ManageStock はそのような問題を解決するために、在庫を IoT などを活用して管理するアプリケーションです。
     id: onomura
     youtube: N1QfbFyjNXg
 
   - title: リレーマスター
-    name: 渡部 晃久 (小室PM)
+    name: 渡部 晃久
+    pm: 小室
     description: センサが埋め込まれた特殊なバトンを持って走るだけで，あらゆる運動を解析するシステムを開発しました。データは専用のwebにアップロードして，あなたの運動をAIで分析・最適化します。“リレーマスター” を利用して，プロに匹敵するパフォーマンスを実現してみませんか？
     id: watanabe
     youtube: 1ylC6bqWiPg
     sp-creator: true
 
   - title: VirtualPresents - 仮想世界で用いるWebサービス
-    name: 國武 悠人/森 優貴 (石井PM)
+    name: 國武 悠人/森 優貴
+    pm: 石井
     description: 仮想世界を彩るためのWebサービスのあり方を模索するプロジェクトです。仮想世界にWeb上から画像を出稿したり、Twitterのようないいね機能を提供することができます。仮想世界とWebという大きく異なる2つの間の架け橋となる概念を提案しました。
     id: kunitake
     youtube: p7KZzZLMLoM
     sp-creator: true
 
   - title: Edge-guided Anime Characters Generation
-    name: 行方 光一 (鵜飼PM)
+    name: 行方 光一
+    pm: 鵜飼
     description: 描きかけの線画を自動で完成させることができる、GANをベースとしたシステムを開発した。これを用いることで初心者でも複雑なイラストを簡単に描くことができるようになる。特に本研究ではアニメの顔画像の生成に焦点をあてた。
     id: namekata
     youtube: OVD5nw1DA5s
     sp-creator: true
 
   - title: Mallet - モバイル端末用簡易アプリ開発環境
-    name: 松田 活 (笹田PM)
+    name: 松田 活
+    pm: 笹田
     description: Malletはスマホやタブレットだけで簡単なアプリを作れる開発環境です。プログラミングに不慣れな方でもブロックを組み合わせてコードを書くことができ、作ったアプリを友達や家族と共有することもできます。
     id: matsuda
     youtube: Tw28ieao9uo
     sp-creator: true
 
   - title: Tea - 仮想経済シミュレーションプラットフォームとゲーム
-    name: 和泉田 済人 (米辻PM)
+    name: 和泉田 済人
+    pm: 米辻
     description: Teaは、仮想経済シミュレーションプラットフォームとそれを使用したゲームです。実際の経済のようなシステムを用意し、ユーザーに自由に貨幣やアイテムの交換をしてもらい、貨幣経済をシミュレーションします。様々な社会システムをシミュレートできます。
     id: izumita
     youtube: rW57i1ZSksA
 
   - title: fresh capsule - 食材管理アプリ
-    name: 岸本 純花 (寺本PM)
+    name: 岸本 純花
+    pm: 寺本
     description: fresh capsuleは、購入した食材の賞味期限を管理する携帯アプリです。 賞味期限が印字されている部分をスマートフォンで撮影すると、賞味期限がアプリ内のリストに落とし込まれます。
     id: kishimoto
     youtube: vioFrqxlRXQ
 
   - title: SmartVJ - 参加型の新しいメディアアート
-    name: 平川 晴常 (神武PM)
+    name: 平川 晴常
+    pm: 神武
     description: スマートフォン1台で誰でも簡単に参加できる体験型のメディアアートです。映像を映し出すPCとスマートフォンがあればスグに遊ぶことが出来ます。直感的な操作で音楽と映像を彩る新しい体験ができ、皆で作品を作り上げる楽しさを味わえます。
     id: hirakawa
     youtube: oGDGH2dmYKA

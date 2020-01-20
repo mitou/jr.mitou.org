@@ -58,7 +58,7 @@ layout: default
   <h2>2019年度の採択者及び成果</h2>
   <ul>
     {% for pj in site.data.projects.nineteen %}
-    <li><a href="#{{pj.id}}">{% if pj.sp-creator %}<span>☆ </span>{% endif %}{{pj.title}}</a></li>
+    {%include sp-creator.html %}
     {% endfor %}
   </ul>
   <a href="/past-projects" class="button">過去の採択者/成果を見る</a>
