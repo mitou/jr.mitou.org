@@ -6,4 +6,8 @@
   </div>
   <h4>概要</h4>
   <p>{{pj.description}}</p>
+  {% if pj.comment %}
+  <h4>{{pj.pm}}PMより一言</h4>
+  <p>{{pj.comment}}</p>
+  {% endif %}
 </div>
