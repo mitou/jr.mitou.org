@@ -172,9 +172,21 @@ footer{
   width: 80vw;
 }
 .project{
+  border-bottom: solid 1px $lightgray;
   padding: 24px;
   text-align: left;
   width: 50%;
+  h4{
+    font-size: .8em;
+    margin: .1em;
+  }
+  p{
+    margin-top: .1em;
+  }
+  @media screen and (max-width:$phone-width) {
+    padding: 4px;
+    width: 100%;
+  }
 }
 .qanda-a{
   height: 0;
