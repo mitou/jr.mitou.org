@@ -2,23 +2,70 @@ gold: # ゴールドスポンサー
   # - name: 会社名
   #  img: ./assets/img/sponsor 内のロゴ写真のパス
   #  url: 会社のホームページ
+  - name: 公益財団法人江副記念リクルート財団
+    img: ezoe2.png
+    url: https://www.recruit-foundation.org/
+
+  - name: フューチャー株式会社
+    img: future.png
+    url: https://www.future.co.jp/
 
 silver: # シルバースポンサー
   # - name: 会社名
   #  img: ./assets/img/sponsor 内のロゴ写真のパス
   #  url: 会社のホームページ
+  - name: 合同会社DMM.com
+    img: DMM.png
+    url: https://www.dmm.com/
 
 bronze: # ブロンズスポンサー
   # - name: 会社名
   #  img: ./assets/img/sponsor 内のロゴ写真のパス
   #  url: 会社のホームページ
+  - name: 株式会社プロコミット
+    img: ProCommit_logo.png
+    url: https://www.procommit.co.jp/
+
+  - name: プロスタキッズ
+    img: prosta.png
+    url: https://programming-kids.jp/
 
 equipment: # 機材・教材提供
   # - name: 会社名
   #  img: ./assets/img/sponsor 内のロゴ写真のパス
   #  url: 会社のホームページ
+  - name: 株式会社アイデミー
+    img: aidemy_logo.png
+    url: https://aidemy.net/
+
+  - name: さくらインターネット株式会社
+    img: sakura.png
+    url: https://www.sakura.ad.jp/
+
+  - name: 株式会社 Progate
+    img: Progate_logo.png
+    url: https://prog-8.com/
+
+  - name: 日本マイクロソフト株式会社
+    img: microsoft.png
+    url: https://www.microsoft.com/ja-jp/
+
+  - name: Micro:bit Educational Foundation
+    img: microbit-logo-stripped.png
+    url: https://microbit.org/
+
+  - name: YassLab 株式会社
+    img: YassLab_logo.png
+    url: https://yasslab.jp/ja/
 
 media: # メディアパートナー
   # - name: 会社名
   #  img: ./assets/img/sponsor 内のロゴ写真のパス
   #  url: 会社のホームページ
+  - name: エドテックジン
+    img: etz_logo_4c.png
+    url: https://edtechzine.jp/
+
+  - name: こどもとIT
+    img: kodomo.png
+    url: https://www.watch.impress.co.jp/kodomo_it/
