@@ -2,6 +2,7 @@
 ---
 $main-color: rgb(40, 161, 58);
 $text-green: rgb(14, 110, 52);
+$shadow-color: rgba($main-color,0.3);
 $lightgray: #e1e8f0;
 $phone-width: 1180px;
 * {
@@ -43,21 +44,23 @@ section{
 }
 
 header{
-  background-color: $main-color;
   height: 80px;
+  background-color: #fff;
+  //border-bottom: solid 4px $main-color;
+  box-shadow: 0 0 16px 1px $shadow-color;
   font-weight: bold;
   position: fixed;
   top: 0;
   width: 100%;
   a{
-    color: #fff;
+    color: $text-green;
     text-decoration: none;
   }
 }
 .header-button{
-  background-color: #fff;
+  background-color: $main-color;
   border-radius: 4px;
-  color: $text-green;
+  color: #fff;
   margin: auto;
   margin-right: 24px;
   padding: 12px 36px;
@@ -79,12 +82,12 @@ header{
   height: 80px;
   line-height: 80px;
   i{
-    color: #fff;
+    color: $main-color;
   }
 }
 @media screen and (max-width:$phone-width) {
   .topnav{
-    background-color: $main-color;
+    background-color: #fff;
     a{
       display: block;
       text-align: center;
