@@ -44,10 +44,13 @@ section{
 }
 
 header{
-  height: 80px;
   background-color: #fff;
   //border-bottom: solid 4px $main-color;
   box-shadow: 0 0 16px 1px $shadow-color;
+  height: 80px;
+  @media screen and (max-width:$phone-width) {
+    height: 60px;
+  }
   font-weight: bold;
   position: fixed;
   top: 0;
@@ -79,8 +82,8 @@ header{
 .nav-hamburger{
   font-size: 24px;
   margin-left: 24px;
-  height: 80px;
-  line-height: 80px;
+  height: 60px;
+  line-height: 60px;
   i{
     color: $main-color;
   }
@@ -141,6 +144,9 @@ footer{
 }
 .main{
   margin-top: 80px;
+  @media screen and (max-width:$phone-width) {
+    margin-top: 60px;
+  }
   text-align: center;
   section{
     width: 100%;
