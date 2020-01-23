@@ -5,6 +5,8 @@
 layout: default
 ---
 <section class="top-img">
+  <a href="{{site.baseurl}}/about" class="button">未踏ジュニアとは？</a>
+  <a href="{{site.baseurl}}/guideline" class="button">募集要項</a>
 </section>
 <section id="about">
   <p class="subtitle">未踏ジュニアとは？</p>
@@ -37,7 +39,7 @@ layout: default
 <section>
   <h2>2020年度 未踏ジュニア <br class="ph">応募者向け情報まとめ</h2>
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
-  <img src="/assets/img/MovieToCreator.png" alt="" width="100%"></a>
+  <img src="{{site.baseurl}}/assets/img/MovieToCreator.png" alt="" width="100%"></a>
   <p>未踏ジュニアを検討している方に役立つ動画を YouTube の再生リストにまとめました。<br class="pc">質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="https://bit.ly/mitoujr-q-box">匿名質問箱</a>でも受付中！</p>
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTubeで視聴する</a>
 </section>
@@ -51,7 +53,7 @@ layout: default
     <li><span>{{article.date}}</span><a href="{{article.url}}">{{article.title}}</a></li>
     {% endfor %}
   </ul>
-  <a href="/media" class="button">すべて見る</a>
+  <a href="{{site.baseurl}}/media" class="button">すべて見る</a>
 </section>
 <section id="results">
   <h2>2019年度の採択者及び成果</h2>
@@ -60,7 +62,7 @@ layout: default
     {%include sp-creator.html %}
     {% endfor %}
   </ul>
-  <a href="/past-projects" class="button">過去の採択者/成果を見る</a>
+  <a href="{{site.baseurl}}/past-projects" class="button">過去の採択者/成果を見る</a>
   <div class="projects flex">
     {% for pj in site.data.projects.nineteen %}
       {% include project.html %}
@@ -70,7 +72,7 @@ layout: default
 <section id="project-manager">
   <p class="subtitle">プロジェクトマネージャー</p>
   <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br class="pc">エンジニア・専門家の指導が受けられます。</h2>
-  <a href="/pm" class="button">2019年度プロジェクトマネージャー</a>
+  <a href="{{site.baseurl}}/pm" class="button">2019年度プロジェクトマネージャー</a>
 </section>
 {% include faq.html %}
 {%include lets-apply.html %}
