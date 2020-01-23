@@ -192,6 +192,22 @@ footer{
     text-align: center;
   }
 }
+.tips{
+  border: dotted 4px $main-color;
+  border-radius: 8px;
+  padding: 16px;
+  &::before{
+    border-right: solid 4px $main-color;
+    content: '\f0eb';
+    color: $main-color;
+    font-family: "FontAwesome";
+    font-size: 24px;
+    height: 100%;
+    padding-right: 16px;
+    margin-right: 12px;
+  }
+}
+
 .post-head{
   background-color: $main-color;
   padding: 10vh 2vw;
