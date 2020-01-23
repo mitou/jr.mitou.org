@@ -33,13 +33,13 @@ layout: default
       <p>特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや首都大学東京に推薦枠で出願できます。</p>
     </div>
   </div>
-
+</section>
+<section>
   <h2>2020年度 未踏ジュニア <br class="ph">応募者向け情報まとめ</h2>
-  <p>未踏ジュニアを検討している方に役立つ動画を再生リストにまとめました。<br class="pc">質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="https://bit.ly/mitoujr-q-box">匿名質問箱</a>でも受付中！</p>
-  <div class="youtube">
-    <iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-  </div>
-  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd&disable_polymer=true" class="button">YouTubeで視聴する</a>
+  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
+  <img src="/assets/img/MovieToCreator.png" alt="" width="100%"></a>
+  <p>未踏ジュニアを検討している方に役立つ動画を YouTube の再生リストにまとめました。<br class="pc">質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="https://bit.ly/mitoujr-q-box">匿名質問箱</a>でも受付中！</p>
+  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTubeで視聴する</a>
 </section>
 <section id="articles">
   <h2> <i class="far fa-newspaper green"></i> メディア掲載</h2>
