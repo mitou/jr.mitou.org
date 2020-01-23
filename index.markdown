@@ -41,6 +41,9 @@ layout: default
   <p>未踏ジュニアを検討している方に役立つ動画を YouTube の再生リストにまとめました。<br class="pc">質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="https://bit.ly/mitoujr-q-box">匿名質問箱</a>でも受付中！</p>
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTubeで視聴する</a>
 </section>
+
+{%include lets-apply.html %}
+
 <section id="articles">
   <h2> <i class="far fa-newspaper green"></i> メディア掲載</h2>
   <ul>
@@ -70,6 +73,7 @@ layout: default
   <a href="/pm" class="button">2019年度プロジェクトマネージャー</a>
 </section>
 {% include faq.html %}
+{%include lets-apply.html %}
 <section>
   <h2>運営団体</h2>
   <p><a href="https://www.mitou.org/">一般社団法人未踏</a>（Mitou Foundation、所在地：東京都渋谷区、代表理事：竹内 郁雄）は、経済産業省所管の独立行政法人情報処理推進機構（IPA、所在地：東京都文京区、理事長：富田 達夫）の事業である未踏事業の OB/OG や関係者を中心に、起業家や クリエータ等、天才的かつ創造的人材を多角的に支援し、日本横断的なネットワークをつくること で、IT を中心とした日本のイノベーションを加速させることを目的に設立された社団法人です。</p>

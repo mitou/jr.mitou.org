@@ -129,6 +129,16 @@ header{
     transition: .3s;
   }
 }
+.button-white{
+  background-color: #fff;
+  color: $main-color;
+  border: solid #fff 4px;
+  &:hover{
+    background-color: $main-color;
+    color: #fff;
+  }
+}
+
 .flex{
   @media screen and (min-width:$phone-width) {
       display: flex;
@@ -356,4 +366,7 @@ footer{
 }
 #faq{
   background-color: $lightgray;
+}
+.lets-apply{
+  background-color: $main-color;
 }
