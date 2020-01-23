@@ -188,6 +188,13 @@ footer{
   max-width: 1000px;
   width: 80vw;
 }
+.post-head{
+  background-color: $main-color;
+  padding: 10vh 2vw;
+  h1{
+    color: #fff;
+  }
+}
 .project{
   //border-bottom: solid 1px $lightgray;
   background-color: #fff;
