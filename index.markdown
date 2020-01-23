@@ -4,6 +4,8 @@
 
 layout: default
 ---
+<section class="top-img">
+</section>
 <section id="about">
   <p class="subtitle">未踏ジュニアとは？</p>
   <h2 class="s-title">独創的なアイデアを持つ<br>小中高生クリエイターを援助するプログラム</h2>

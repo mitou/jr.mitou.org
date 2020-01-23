@@ -207,7 +207,11 @@ footer{
     margin-right: 12px;
   }
 }
-
+.top-img{
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+}
 .post-head{
   background-color: $main-color;
   padding: 10vh 2vw;
