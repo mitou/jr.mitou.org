@@ -76,7 +76,15 @@ header{
     padding-right: 12px;
   }
 }
-#nav-check:checked + .topnav{
+.header-back{
+  background-color: rgba(0, 0, 0, 0.2);
+  display: none;
+  height: 100vh;
+}
+#nav-check:checked ~ .topnav{
+  display: block;
+}
+#nav-check:checked ~ .header-back{
   display: block;
 }
 .nav-hamburger{
