@@ -35,20 +35,16 @@
   <h3>機材・教材提供</h3>
   <div class="sponsors-list-eq">
     {% for sponsor in site.data.sponsors.equipment %}
-    <a href="{{sponsor.url}}">
-      <div class="sponsor-eq sponsor-one">
-        <img src="assets/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img">
-      </div>
+    <a href="{{sponsor.url}}" class="sponsor-eq sponsor-one">
+      <img src="assets/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img">
     </a>
     {% endfor %}
   </div>
   <h3>メディアパートナー</h3>
   <div class="sponsors-list-media">
     {% for sponsor in site.data.sponsors.media %}
-    <a href="{{sponsor.url}}">
-      <div class="sponsor-media sponsor-one">
-        <img src="assets/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img">
-      </div>
+    <a href="{{sponsor.url}}" class="sponsor-media sponsor-one">
+      <img src="assets/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img">
     </a>
     {% endfor %}
   </div>

@@ -333,7 +333,8 @@ footer{
 }
 .sponsor-eq, .sponsor-media{
   margin: 10px;
-  width: 165px;
+  max-width: 165px;
+  width: calc(50% - 20px);
 }
 
 .sv-right{
