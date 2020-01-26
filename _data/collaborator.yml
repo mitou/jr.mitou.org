@@ -1,0 +1,27 @@
+- name: CoderDojo Japan
+  img: CoderDojo Japan Banner.png
+  url: https://coderdojo.jp/
+
+- name: Life is Tech!
+  img: lifeistech-logo.png
+  url: https://life-is-tech.com/
+
+- name: トビタテ！留学JAPAN
+  img: tobitate.png
+  url: https://tobitate.mext.go.jp/
+
+- name: GPA ぐんまプログラミングアワード
+  img: GPA_banner_201803.jpg
+  url: https://www.gp-award.jp/
+
+- name: Tech Kids School
+  img: TKS_1408x300_white.png
+  url: https://techkidsschool.jp/
+
+- name: U-22 プログラミングコンテスト
+  img: U22_banner_234_60.jpg
+  url: https://u22procon.com/
+
+- name: 全国高専プログラミングコンテスト
+  img: linkbnr_kousen.gif
+  url: http://www.procon.gr.jp/

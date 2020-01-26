@@ -315,7 +315,7 @@ footer{
 .sponsor-img{
   width: 100%;
 }
-.sponsors-list-eq, .sponsors-list-media{
+.sponsors-list-eq, .sponsors-list-media, .sponsors-list-clb{
   display: flex;
   flex-wrap: wrap;
   max-width: 555px;
@@ -337,7 +337,7 @@ footer{
 .sponsor-bronze{
   width: 175px;
 }
-.sponsor-eq, .sponsor-media{
+.sponsor-eq, .sponsor-media, .sponsor-clb{
   margin: 10px;
   max-width: 165px;
   width: calc(50% - 20px);
