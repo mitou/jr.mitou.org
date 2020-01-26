@@ -162,6 +162,11 @@ footer{
 .green{
   color: $main-color;
 }
+.list-none{
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
 .main{
   margin-top: 80px;
   @media screen and (max-width:$phone-width) {
