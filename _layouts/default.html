@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>{{site.title}}</title>
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css" />
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script src="https://kit.fontawesome.com/c6331cba56.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="{{site.baseurl}}/assets/img/favicon.ico">
-  </head>
-  <body>
-    {% include header.html %}
-    <div class="main">
-        {{content}}
-    </div>
-    {%include footer.html %}
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{site.title}}</title>
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="https://kit.fontawesome.com/c6331cba56.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="{{site.baseurl}}/assets/img/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  {% include header.html %}
+  <div class="main">
+    {{content}}
+  </div>
+  {%include footer.html %}
+</body>
+
 </html>
