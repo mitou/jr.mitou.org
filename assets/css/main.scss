@@ -246,7 +246,7 @@ footer{
 .project{
   //border-bottom: solid 1px $lightgray;
   background-color: #fff;
-  box-shadow: 0 0 8px 2px $shadow-color;
+  box-shadow: 0 0 6px 1px $shadow-color;
   border-radius: 8px;
   margin: 16px 8px;
   padding: 24px;
@@ -261,7 +261,7 @@ footer{
   }
   @media screen and (max-width:$phone-width) {
     padding: 2vw;
-    width: calc(100% - 4vw);
+    width: calc(100% - 16px);
   }
 }
 .qanda-a{
