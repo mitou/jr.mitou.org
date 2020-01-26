@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<h1>過去の採択者及び成果</h1>
+<div class="page-head">
+  <h1>過去の採択者及び成果</h1>
+</div>
 <section id="results">
   <label for="nineteen">2019</label>
   <label for="eighteen">2018</label>
