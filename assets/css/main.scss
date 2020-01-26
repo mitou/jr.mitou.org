@@ -260,8 +260,8 @@ footer{
     margin-top: .1em;
   }
   @media screen and (max-width:$phone-width) {
-    padding: 8px;
-    width: calc(100% - 16px);
+    padding: 2vw;
+    width: calc(100% - 4vw);
   }
 }
 .qanda-a{
