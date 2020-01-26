@@ -1,14 +1,7 @@
-- name: 佐藤 彩夏
-  affiliation: クックパッド株式会社
-  interested: 自分自身あるいは具体的な誰かの課題にチャレンジし、その人を幸せにする熱意を持っている人
-  bio: 東京大学大学院学際情報学府博士課程修了。博士（学際情報）。2009年度未踏ユースクリエータ。大学では、ヒューマンコンピュータインタラクション（HCI）の分野において、調理支援、運動支援などの日常生活の行動支援研究に従事。現在、クックパッドのスマートキッチン事業部にて、ハードウェアを含むコンセプト開発およびUXデザインに従事。趣味は家具作り、3Dプリンティング、アクセサリー作りなどのDIY全般。
-  facebook: sugar.ayaka
-  web: https://ayakasato.com/
-
 - name: 神武 里奈
   affiliation: 株式会社ディー・エヌ・エー
-  interested: 未踏で楽しい提案！
-  bio: 将来の夢は「ポケモンマスター」。未踏「スーパークリエイター」に認定されて以降、ものづくりの楽しさに目覚める。多くのハッカソンやコンテストに参加し、25以上の賞を獲得。筑波大学大学院卒業。現在はDeNAで<a href="https://www.mangabox.me/">マンガボックス</a>のiOSアプリ開発を行う。
+  interested: 自分が感じた楽しいを楽しく届けたい人
+  bio: 将来の夢は「ポケモンマスター」。未踏「スーパークリエータ」に認定されて以降、ものづくりの楽しさに目覚める。多くのハッカソンやコンテストに参加し、25以上の賞を獲得。現在はDeNAにてiOSアプリケーションの開発やプロダクトマネジメントを行う。
   facebook: koooootake
   twitter: koooootake
   web: https://koooootake.com/
@@ -20,12 +13,6 @@
   facebook: MKnkgw
   twitter: MKnkgw
 
-- name: 笹田 耕一
-  affiliation: クックパッド株式会社
-  interested: アプリケーションを支える基盤技術の開発に熱意を持って取り組める方。
-  bio: 大学在学時からRuby向け仮想マシンYARVを開発し、2007年に「Ruby 1.9」に採用される。以降、Rubyコミッターとして、言語処理系の高速化に従事し、仮想マシンやガーベージコレクションの性能改善などを行なう。東京大学大学院情報理工学系研究科助手、助教、講師、株式会社セールスフォース・ドットコム、Heroku, Inc.を経て、クックパッドにてRubyインタプリタ開発に従事。博士（情報理工学）。未踏ユーススーパークリエータ（2004）。
-  github: ko1
-
 - name: 西尾 泰和
   affiliation: サイボウズ・ラボ
   interested: どんどん新しいことにチャレンジする人。
@@ -35,7 +22,7 @@
   github: nishio
 
 - name: 安川 要平
-  affiliation: YassLab 株式会社, 一般社団法人 CoderDojo Japan
+  affiliation: YassLab 株式会社 / 一般社団法人 CoderDojo Japan
   interested: スクリプト言語やWebの特長を活かしたプロジェクト。応募時点で動くプロトタイプがあると素晴らしいですね ;)
   bio: <a href="https://yasslab.jp/">YassLab</a> 代表取締役。<a href="https://coderdojo.jp/">CoderDojo Japan</a> 代表理事。早稲田大学情報理工学科卒 (修士)。米国留学中に開発した震災対策アプリのヒットを契機に、沖縄と東京を拠点にした<a href="https://speakerdeck.com/yasslab/remote-first-company">完全リモートワーク制の会社</a>を起業。<a href="https://railstutorial.jp/">Railsチュートリアル</a>や<a href="https://railsguides.jp/">Railsガイド</a>を開発し、AIITや筑波大学、琉球大学や工学院大学などで採用。2012年度未踏スーパークリエータ、TEDxRyukyuスピーカー。
   facebook: yasulab
@@ -52,10 +39,10 @@
 - name: 鈴木 遼
   affiliation: 早稲田大学
   interested: 「コンピューターって面白い！」もしくは「コンピューターを使って何かを作りたい！」と思う人が増えるようなプロジェクト
-  bio: 2013年度未踏スーパークリエータ。ゲームやメディアアートを簡単に作れる C++ ライブラリ <a href="https://siv3d.jp/">Siv3D</a> と、ビジュアルプログラミング言語 <a href="https://enrect.org/">Enrect</a> の開発者。早稲田大学メディアデザイン研究室博士後期課程、早稲田情報科学ジュニア・アカデミー講師。著書に「冒険で学ぶ はじめてのプログラミング」。
-  facebook: Reputeless
+  bio: 2013 年度未踏スーパークリエータ。ゲームやメディアアートを簡単に作れる C++ フレームワーク <a href="https://siv3d.github.io/ja-jp/" target="_blank">Siv3D</a>, 子ども向けのプログラミング体験ツール <a href="https://siv3d-for-kids.github.io/" target="_blank">Siv3D for Kids</a> の開発者。早稲田大学メディアデザイン研究室在籍、早稲田情報科学ジュニア・アカデミーをはじめ各所でプログラミング講師。著書に「冒険で学ぶ はじめてのプログラミング」。
   twitter: Reputeless
   github: Reputeless
+  web: https://ryo-suzuki-contact.github.io/
 
 - name: 寺本 大輝
   affiliation: ハックフォープレイ株式会社
@@ -68,7 +55,7 @@
 - name: 関 喜史
   affiliation: 株式会社Gunosy
   interested: サービスの作り方を学んで、自分の周りの人、さらには世界中の人に届けられるようなサービスを生み出したい人の提案を待っています
-  bio: 東京大学工学部卒業、同大学院工学系研究科博士課程修了。博士(工学)。2011年度未踏OB。大学院在籍中にGunosy（グノシー）を共同開発し、2012年当社創業。 創業期からニュース配信ロジックの開発を担当し、推薦システムを中心としたウェブマイニング、機械学習応用、自然言語処理応用を専門とする。2017年4月より東京大学客員研究員に着任。
+  bio: 東京大学工学部卒業、同大学院工学系研究科博士課程修了。博士(工学)。2011年度未踏OB。大学院在籍中にGunosy（グノシー）を共同開発し、2012年当社創業。 創業期からニュース配信ロジックの開発を担当し、推薦システムを中心としたウェブマイニング、機械学習応用、自然言語処理応用を専門とする。
   facebook: yoshifumi.seki
   twitter: YoshifumiSeki
 
