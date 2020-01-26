@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: post
+title: 過去の採択者及び成果
 ---
-<div class="page-head">
-  <h1>過去の採択者及び成果</h1>
-</div>
-<section id="results">
+
+<div>
   <label for="nineteen">2019</label>
   <label for="eighteen">2018</label>
   <label for="seventeen">2017</label>
@@ -69,4 +68,4 @@ layout: default
       {% endfor %}
     </div>
   </div>
-</section>
+</div>
