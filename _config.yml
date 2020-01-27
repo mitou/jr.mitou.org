@@ -21,8 +21,8 @@
 title: 未踏ジュニア
 description: >- # this means to ignore newlines until "baseurl:"
   独創的なアイデアを持つ小中高生クリエイターに対し、各界で活躍するPMやその他専門家による指導、また最大50万円の開発資金の援助を行います。
-baseurl: "/new-mitoujr" # the subpath of your site, e.g. /blog
-url: "http://yuki384.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://jr-staging.mitou.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mitoujr
 
 # Build settings
