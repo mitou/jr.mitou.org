@@ -1,9 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+# ここにコメントかけます
 layout: default
 ---
+
 <section class="top-img">
   <a href="./about" class="button">未踏ジュニアとは？</a>
   <a href="./guideline" class="button">募集要項</a>
