@@ -216,7 +216,12 @@ footer{
     text-align: center;
     border-top: solid 2px $main-color;
     border-bottom: solid 2px $main-color;
-    background-image: repeating-linear-gradient(-45deg, transparent, transparent 4px, rgba($main-color, 0.1) 4px, rgba($main-color, 0.1) 10px )
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 4px, rgba($main-color, 0.1) 4px, rgba($main-color, 0.1) 10px );
+  }
+  h3{
+    border-left: solid 6px $main-color;
+    background-color: rgba($main-color, 0.05);
+    padding: 8px;
   }
 }
 
