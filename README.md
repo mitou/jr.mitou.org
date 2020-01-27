@@ -1,5 +1,5 @@
-# mitoujr新サイト
-未踏ジュニアの新サイトです。
+# 未踏ジュニア
+未踏ジュニアのWebサイトです。
 
 ## 更新の方法
 ### メディア掲載記事
@@ -41,6 +41,8 @@
   twitter: twitter ID。（例：yasulab）
   github: github ID。（例：yasulab）
   web: サイトとか。
- ```
+```
  
- 
+## クレジット
+
+一般社団法人[未踏](https://www.mitou.org/) [未踏ジュニア](https://jr.mitou.org/)実行委員会 &copyright; 2020
