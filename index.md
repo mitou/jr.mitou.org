@@ -47,7 +47,7 @@ layout: default
 
 <section id="articles">
   <h2> <i class="far fa-newspaper green"></i> メディア掲載</h2>
-  <ul>
+  <ul class="list-none">
     {% for article in site.data.articles limit:10 %}
     <li><span>{{ article.date }}</span><a href="{{ article.url }}">{{ article.title }}</a></li>
     {% endfor %}
@@ -58,7 +58,7 @@ layout: default
 
   <h2>2019年度の採択者及び成果</h2>
   <p>2019年度は、127件の応募中、13プロジェクト17人を採択しました。（☆は未踏ジュニアスーパークリエータに認定されました）</p>
-  <ul>
+  <ul class="list-none">
     {% for pj in site.data.projects.nineteen %}
       {% include sp-creator.html %}
     {% endfor %}
