@@ -214,8 +214,12 @@ footer{
   width: 80vw;
   h2{
     text-align: center;
+    border-top: solid 2px $main-color;
+    border-bottom: solid 2px $main-color;
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 4px, rgba($main-color, 0.1) 4px, rgba($main-color, 0.1) 10px )
   }
 }
+
 .tips{
   border: dotted 4px $main-color;
   border-radius: 8px;
