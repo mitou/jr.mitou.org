@@ -184,6 +184,25 @@ footer{
     z-index: -10;
   }
 }
+.heading-line{
+  display: inline-block;
+  position: relative;
+  &::before, &::after{
+    content: '';
+    background-color: $main-color;
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: calc((98vw - 100%)/2);
+    height: 3px;
+  }
+  &::before{
+    margin-left: calc( -1 * ((98vw - 100%)/2) - 8px);
+  }
+  &::after{
+    margin-left: calc(100% + 8px);
+  }
+}
 .list-none{
   list-style: none;
   text-align: left;
