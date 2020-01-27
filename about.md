@@ -2,6 +2,7 @@
 layout: post
 title: 未踏ジュニアとは
 ---
+
 「未踏ジュニアとは？」について説明をしている動画もありますので、もしよかったら見てみてください↓
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4doHI9Q6qRA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
