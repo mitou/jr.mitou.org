@@ -46,7 +46,7 @@ layout: default
 {% include lets-apply.html %}
 
 <section id="articles">
-  <h2> <i class="far fa-newspaper green"></i> メディア掲載</h2>
+  <h2 class="heading-line"><i class="far fa-newspaper green"></i> メディア掲載</h2>
   <ul class="list-none">
     {% for article in site.data.articles limit:10 %}
     <li><span>{{ article.date }}</span><a href="{{ article.url }}">{{ article.title }}</a></li>
@@ -56,7 +56,7 @@ layout: default
 </section>
 <section id="results">
 
-  <h2>2019年度の採択者及び成果</h2>
+  <h2 class="heading-line">2019年度の採択者及び成果</h2>
   <p>2019年度は、127件の応募中、13プロジェクト17人を採択しました。（☆は未踏ジュニアスーパークリエータに認定されました）</p>
   <ul class="list-none">
     {% for pj in site.data.projects.nineteen %}
@@ -69,15 +69,12 @@ layout: default
     <div class="project" id="{{pj.id}}">
       <h3>{{ pj.title }}</h3>
       <p>{{ pj.name }} ({{ pj.pm }}PM)</p>
-      
       <h4>概要</h4>
       <p>{{ pj.description }}</p>
-      
       {% if pj.comment %}
       <h4>{{ pj.pm}}PMより一言</h4>
       <p>{{pj.comment}}</p>
       {% endif %}
-      
       <a href="https://www.youtube.com/watch?v={{pj.youtube}}" target="_blank" class="button">発表動画を見る</a>
     </div>
     {% endfor %}
@@ -86,7 +83,6 @@ layout: default
 
 <section id="project-manager">
   <p class="subtitle">プロジェクトマネージャー</p>
-  
   <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br class="pc">エンジニア・専門家の指導が受けられます。</h2>
   <a href="./pm" class="button">2019年度プロジェクトマネージャー</a>
 </section>
@@ -95,14 +91,14 @@ layout: default
 {% include lets-apply.html %}
 
 <section>
-  <h2>運営団体</h2>
+  <h2 class="heading-line">運営団体</h2>
   <p><a href="https://www.mitou.org/">一般社団法人未踏</a>（Mitou Foundation、所在地：東京都渋谷区、代表理事：竹内 郁雄）は、経済産業省所管の独立行政法人情報処理推進機構（IPA、所在地：東京都文京区、理事長：富田 達夫）の事業である未踏事業の OB/OG や関係者を中心に、起業家や クリエータ等、天才的かつ創造的人材を多角的に支援し、日本横断的なネットワークをつくること で、IT を中心とした日本のイノベーションを加速させることを目的に設立された社団法人です。</p>
 </section>
 
 {% include sponsors.html %}
 
 <section id="sns" class="pc">
-  <h2>SNS</h2>
+  <h2 class="heading-line">SNS</h2>
   <div class="flex">
   <div class="facebook w-half">
     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmitoujr&tabs=timeline&width=340&height=400&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
@@ -114,7 +110,7 @@ layout: default
 </section>
 
 <section id="contact">
-  <h2>コンタクト</h2>
+  <h2 class="heading-line">コンタクト</h2>
   <p>お返事が遅くなる場合もありますが、ご了承ください。<br class="pc">チラシの配布にご協力頂ける方は、<a href="https://goo.gl/forms/LbmaEz1kNrN1WFgt2">こちらのフォーム</a>より請求をお願いいたします。</p>
   <i class="fas fa-envelope green" style="font-size:36px;"></i><br>
   <a href="mailto:jr@mitou.org">jr@mitou.org</a>
