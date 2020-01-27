@@ -45,4 +45,6 @@
  
 ## クレジット
 
-一般社団法人[未踏](https://www.mitou.org/) [未踏ジュニア](https://jr.mitou.org/)実行委員会 &copyright; 2020
+Copyright &copy; since 2016
+一般社団法人 [未踏](https://www.mitou.org/)
+[未踏ジュニア](https://jr.mitou.org/)実行委員会 
