@@ -162,6 +162,25 @@ footer{
 .green{
   color: $main-color;
 }
+.heading-balloon{
+  background-color: $lightgray;
+  display:inline-block;
+  padding: 12px 24px;
+  position: relative;
+  margin-bottom: 40px;
+  &::before{
+    background-color: $lightgray;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: calc(100% - 23px);
+    left: calc(50% - 20px);
+    transform: rotateZ(45deg);
+    z-index: -10;
+  }
+}
 .list-none{
   list-style: none;
   text-align: left;
