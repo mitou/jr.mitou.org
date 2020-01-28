@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mitou/jr.mitou.org.svg?branch=master)](https://travis-ci.org/mitou/jr.mitou.org)
+
 # 未踏ジュニア
 未踏ジュニアのWebサイトです。
 
