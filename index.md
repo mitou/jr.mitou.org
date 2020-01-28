@@ -12,7 +12,6 @@ layout: default
   <p class="subtitle">未踏ジュニアとは？</p>
   <h2 class="s-title">独創的なアイデアを持つ<br>小中高生クリエイターを援助するプログラム</h2>
   <p>独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を対象とした、ミニ未踏です。<br class="pc"></p>
-  <a href="/about" class="button">詳細はこちら</a>
   <div class="service flex">
     <div class="service-one">
       <i class="fas fa-graduation-cap green"></i>
@@ -34,6 +33,7 @@ layout: default
       <h3>未踏ジュニアスーパークリエータの認定</h3>
       <p>特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや首都大学東京に推薦枠で出願できます。</p>
     </div>
+    <a href="/about" class="button">詳細を見る</a>
   </div>
 </section>
 
