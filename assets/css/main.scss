@@ -229,24 +229,11 @@ footer{
 }
 .pm{
   padding: 12px;
+  margin-top: 18px;
   width: 50%;
-  img{
-    width: 100%;
-  }
-  & > div{
-    float: left;
-    padding-right: 12px;
-  }
-}
-.pm-left{
-  width: 30%;
   p{
     font-size: 14px;
   }
-}
-.pm-right{
-  margin: 0;
-  width: 70%;
 }
 .pm-sns{
   font-size: 36px;
@@ -255,6 +242,22 @@ footer{
   border-left: 0 !important;
   background-color: #fff !important;
   padding: 0 !important;
+  margin: 0;
+}
+.pm-img{
+  width: 40%;
+  float: left;
+  padding-right: 24px;
+}
+.pm-info{
+  float: left;
+  width: 60%;
+}
+.pm-comment{
+  clear: both;
+}
+.sv-img{
+  width: 100%;
 }
 
 .post{
@@ -411,10 +414,12 @@ footer{
 .sv-right{
   float: left;
   width: 50%;
+  padding: 12px;
 }
 .sv-left{
   float: left;
   width: calc(50% - 2px);
+  padding: 12px;
 }
 .subtitle{
   margin: 0;
