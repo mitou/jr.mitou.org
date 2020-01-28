@@ -19,9 +19,6 @@ body{
   margin: 0;
   font-family: 'Noto Sans JP', sans-serif;
 }
-h2{
-  margin-top: 2em;
-}
 section{
   &::after{
     content: '';
@@ -265,6 +262,7 @@ footer{
     border-top: solid 2px $main-color;
     border-bottom: solid 2px $main-color;
     background-image: repeating-linear-gradient(-45deg, transparent, transparent 4px, rgba($main-color, 0.1) 4px, rgba($main-color, 0.1) 10px );
+    margin-top: 2em;
   }
   h3{
     border-left: solid 6px $main-color;
