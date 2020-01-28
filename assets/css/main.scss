@@ -75,6 +75,14 @@ header{
     padding-right: 12px;
   }
 }
+.header-logo{
+  vertical-align: top;
+  img{
+    width: 32px;
+    vertical-align: baseline;
+    margin-top: -4px;
+  }
+}
 .header-back{
   background-color: rgba(0, 0, 0, 0.2);
   display: none;
