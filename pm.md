@@ -8,8 +8,8 @@ title: 2019年度プロジェクトマネージャ
     <div class="pm" id="{{ pm.name }}">
       <div class="pm-left">
         <img src="{{ pm.img }}" alt="{{ pm.name }}">
-	
-        <h3>{{ pm.name }}</h3>
+
+        <h3 class="pm-name">{{ pm.name }}</h3>
         <p>{{ pm.affiliation }}</p>
 
         <div class="pm-sns">
@@ -32,9 +32,10 @@ title: 2019年度プロジェクトマネージャ
 </div>
 
 <h2>スーパーバイザー</h2>
+<div style="overflow:hidden;">
 <div class="sv-left">
   <img src="img/takeuchi.png">
-  <h3>竹内 郁雄</h3>
+  <h3 class="pm-name">竹内 郁雄</h3>
   <h5>東京大学名誉教授／未踏IT人材発掘・育成事業統括PM／一般社団法人未踏代表理事</h5>
 </div>
 
@@ -45,13 +46,14 @@ title: 2019年度プロジェクトマネージャ
   <h5>メッセージ</h5>
   <p>未踏事業は2000年に始まってから、どんどん若い人たちを対象にするようにシフトしてきました。ITはもう大人の独占物ではありません。超若いうちからITのセンスを見出して伸ばすことが大事だと思います。そのためには大人と同じ土俵ではなく、むしろ未踏ジュニアというような枠組みの中で伸び伸びと羽を広げていけるようにするのが、ジュニア世代の本当の成長につながると思います。未踏ジュニアでは、ジュニア世代が「教わる」のではなく、良い環境の中でITの才能を自ら発芽・成長させていくことを期待しています。</p>
 </div>
+</div>
 
 <h2>運営委員</h2>
 <div class="flex">
   <div class="pm">
     <div class="pm-left">
       <img src="{{ pm.img }}" alt="荒川 淳平">
-      <h3>荒川 淳平</h3>
+      <h3 class="pm-name">荒川 淳平</h3>
       <div class="pm-sns">
         <a href="https://www.facebook.com/jumpei.arakawa"><i class="fab fa-facebook-square green"></i></a>
       </div>
@@ -67,7 +69,7 @@ title: 2019年度プロジェクトマネージャ
   <div class="pm">
     <div class="pm-left">
       <img src="{{ pm.img }}" alt="鵜飼 佑">
-      <h3>鵜飼 佑</h3>
+      <h3 class="pm-name">鵜飼 佑</h3>
     </div>
     <div class="pm-right text-left">
       <p>PMも兼任しているので、<a href="/pm#鵜飼%20佑">こちら</a>を参照。</p>

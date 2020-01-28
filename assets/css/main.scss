@@ -251,6 +251,11 @@ footer{
 .pm-sns{
   font-size: 36px;
 }
+.pm-name{
+  border-left: 0 !important;
+  background-color: #fff !important;
+  padding: 0 !important;
+}
 
 .post{
   text-align: left;
@@ -263,6 +268,11 @@ footer{
     border-bottom: solid 2px $main-color;
     background-image: repeating-linear-gradient(-45deg, transparent, transparent 4px, rgba($main-color, 0.1) 4px, rgba($main-color, 0.1) 10px );
     margin-top: 2em;
+    &::before{
+      content: '';
+      clear: both;
+      display: block;
+    }
   }
   h3{
     border-left: solid 6px $main-color;
