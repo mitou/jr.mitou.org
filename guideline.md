@@ -14,10 +14,11 @@ title: 応募の手引
 {% include arrow.html %}
 
 ### 2. 申請書類を作成する
-提案するプロジェクトの計画と、自身の開発経験・PR を申請書類に記入します。申請書類のダウンロードはこちら (<a href="https://jr.mitou.org/assets/other/mitoujr_application_2020.zip">Word/Pages</a>/<a href="https://docs.google.com/document/d/1hjDYf2DbFBkXLyrAl9HKKc9sS40XbZ_iN2j-HKZXD9g/edit?usp=sharing">Google Docs</a>)
+提案するプロジェクトの計画と、自身の開発経験・PR を申請書類に記入します。申請書類のダウンロードはこちら ([Word・Pages](https://jr.mitou.org/assets/other/mitoujr_application_2020.zip) / [Google Docs](https://docs.google.com/document/d/1hjDYf2DbFBkXLyrAl9HKKc9sS40XbZ_iN2j-HKZXD9g/edit?usp=sharing))
+
 {% include arrow.html %}
 
-### 3. <a href="https://mitoujr.wufoo.com/forms/p6cginb0iftz5s/">応募フォーム</a>から提案書類をアップロードする (2020/4/4 23:59まで）
+### 3. [応募フォーム](https://mitoujr.wufoo.com/forms/p6cginb0iftz5s/)から提案書類をアップロードする (2020/4/4 23:59まで）
 申請者情報と、オンライン面接の候補日、その他必要な情報を<a href="https://mitoujr.wufoo.com/forms/p6cginb0iftz5s/">応募フォーム</a>に入力し、作成した申請書類をアップロードします。同じ提案を複数回送信した場合、以前の情報は無効になります。
 {% include arrow.html %}
 

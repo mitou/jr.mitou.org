@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 過去の採択者及び成果
+title: 未踏ジュニア採択プロジェクト
 ---
 
 <div>
@@ -11,7 +11,7 @@ title: 過去の採択者及び成果
   <input type="radio" id="nineteen" class="results-radio" name="year" checked>
   
   <div id="pj-nineteen" class="results-pjs">
-    <h2>2019年度の採択者及び成果</h2>
+    <h2>2019年度の採択者と成果</h2>
     <p>2019年度は、127件の応募中、13プロジェクト17人を採択しました。（☆は未踏ジュニアスーパークリエータに認定されました）</p>
     <ul>
       {% for pj in site.data.projects.nineteen %}
