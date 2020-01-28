@@ -4,19 +4,20 @@ layout: default
 ---
 
 <section class="top-img">
-  <a href="./about" class="button">未踏ジュニアとは？</a>
-  <a href="./guideline" class="button">募集要項</a>
+  <a href="/about" class="button">未踏ジュニアとは？</a>
+  <a href="/guideline" class="button">募集要項</a>
 </section>
+
 <section id="about">
   <p class="subtitle">未踏ジュニアとは？</p>
   <h2 class="s-title">独創的なアイデアを持つ<br>小中高生クリエイターを援助するプログラム</h2>
   <p>独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を対象とした、ミニ未踏です。<br class="pc"></p>
-  <a href="./about" class="button">詳細はこちら</a>
+  <a href="/about" class="button">詳細はこちら</a>
   <div class="service flex">
     <div class="service-one">
       <i class="fas fa-graduation-cap green"></i>
       <h3>メンタリングの提供</h3>
-      <p>担当の<a href="./pm">プロジェクトマネージャ（PM）</a>をはじめ、未踏卒業生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。</p>
+      <p>担当の<a href="/pm">プロジェクトマネージャ（PM）</a>をはじめ、未踏卒業生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。</p>
     </div>
     <div class="service-one">
       <i class="fas fa-dollar-sign green"></i>
@@ -35,6 +36,7 @@ layout: default
     </div>
   </div>
 </section>
+
 <section>
   <h2 class="heading-balloon">2020年度 未踏ジュニア <br class="ph">応募者向け情報まとめ</h2>
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
@@ -52,10 +54,10 @@ layout: default
     <li><span class="media-date">{{ article.date }}</span><a href="{{ article.url }}">{{ article.title }}</a></li>
     {% endfor %}
   </ul>
-  <a href="./media" class="button">すべて見る</a>
+  <a href="/media" class="button">すべて見る</a>
 </section>
-<section id="results">
 
+<section id="results">
   <h2 class="heading-line">2019年度の採択者及び成果</h2>
   <p>2019年度は、127件の応募中、13プロジェクト17人を採択しました。（☆は未踏ジュニアスーパークリエータに認定されました）</p>
   <ul class="list-none">
@@ -63,7 +65,7 @@ layout: default
       {% include sp-creator.html %}
     {% endfor %}
   </ul>
-  <a href="./past-projects" class="button">過去の採択者/成果を見る</a>
+  <a href="/past-projects" class="button">過去の採択者/成果を見る</a>
   <div class="projects flex">
     {% for pj in site.data.projects.nineteen %}
     <div class="project" id="{{pj.id}}">
@@ -84,7 +86,7 @@ layout: default
 <section id="project-manager">
   <p class="subtitle">プロジェクトマネージャー</p>
   <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br class="pc">エンジニア・専門家の指導が受けられます。</h2>
-  <a href="./pm" class="button">2019年度プロジェクトマネージャー</a>
+  <a href="/pm" class="button">2019年度プロジェクトマネージャー</a>
 </section>
 
 {% include faq.html %}
