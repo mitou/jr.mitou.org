@@ -10,6 +10,7 @@ twitter_username: mitoujr
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Welcome to Jekyll!
 #
