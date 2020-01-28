@@ -7,7 +7,7 @@ title: 2019年度プロジェクトマネージャ
   {% for pm in site.data.pm %}
     <div class="pm" id="{{ pm.name }}">
       <div class="pm-left">
-        <img src="{{ pm.img }}" alt="{{ pm.name }}">
+        <img src="./assets/img/pm/{{ pm.img }}" alt="{{ pm.name }}">
 
         <h3 class="pm-name">{{ pm.name }}</h3>
         <p>{{ pm.affiliation }}</p>
@@ -34,7 +34,7 @@ title: 2019年度プロジェクトマネージャ
 <h2>スーパーバイザー</h2>
 <div style="overflow:hidden;">
 <div class="sv-left">
-  <img src="img/takeuchi.png">
+  <img src="./assets/img/pm/takeuchi.png">
   <h3 class="pm-name">竹内 郁雄</h3>
   <h5>東京大学名誉教授／未踏IT人材発掘・育成事業統括PM／一般社団法人未踏代表理事</h5>
 </div>
@@ -52,7 +52,7 @@ title: 2019年度プロジェクトマネージャ
 <div class="flex">
   <div class="pm">
     <div class="pm-left">
-      <img src="{{ pm.img }}" alt="荒川 淳平">
+      <img src="./assets/img/pm/arakawa.png" alt="荒川 淳平">
       <h3 class="pm-name">荒川 淳平</h3>
       <div class="pm-sns">
         <a href="https://www.facebook.com/jumpei.arakawa"><i class="fab fa-facebook-square green"></i></a>
@@ -68,7 +68,7 @@ title: 2019年度プロジェクトマネージャ
 
   <div class="pm">
     <div class="pm-left">
-      <img src="{{ pm.img }}" alt="鵜飼 佑">
+      <img src="./assets/img/pm/ukai.png" alt="鵜飼 佑">
       <h3 class="pm-name">鵜飼 佑</h3>
     </div>
     <div class="pm-right text-left">

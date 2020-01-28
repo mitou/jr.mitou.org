@@ -5,6 +5,7 @@
   facebook: koooootake
   twitter: koooootake
   web: https://koooootake.com/
+  img: kohtake.png
 
 - name: 小室 真紀
   affiliation: 株式会社スイッチエデュケーション
@@ -12,6 +13,7 @@
   bio: スイッチエデュケーション代表取締役社長。お茶の水女子大学人間文化創成科学研究科博士課程修了。博士（理学）。2009年度未踏OG。2012年より株式会社スイッチサイエンスにて、専門家ではない普通の人に最先端の科学技術を使ったものづくりを普及させる活動に従事。2017年より現職。教育向けマイコンボードmicro:bitを中心に、プログラミングして動く物を作ることを通した学びを推進する活動を行っている。
   facebook: MKnkgw
   twitter: MKnkgw
+  img: komuro.png
 
 - name: 西尾 泰和
   affiliation: サイボウズ・ラボ
@@ -20,6 +22,7 @@
   facebook: nishiohirokazu
   twitter: nishio
   github: nishio
+  img: nishio.png
 
 - name: 安川 要平
   affiliation: YassLab 株式会社 / 一般社団法人 CoderDojo Japan
@@ -28,6 +31,7 @@
   facebook: yasulab
   twitter: yasulab
   github: yasulab
+  img: yasukawa.png
 
 - name: 米辻 泰山
   affiliation: Preferred Networks
@@ -35,6 +39,7 @@
   bio: Preferred NetworkにてAmazon Picking ChallengeやCeaTec展示会等でのロボット開発を行った後、Chainerを用いた自動着色サービス<a href="https://paintschainer.preferred.tech/">PaintsChainer</a>を開発。 大学時代は東京大学ロボコンサークルRoboTechに所属しメカニックを担当。 未踏人材育成発掘事業ではwebマンガをテーマに<a href="http://www.ecomaki.com/">"ecomaki"</a>を開発リリース。
   twitter: tai2an
   web: https://paintschainer.preferred.tech/
+  img: yonetsuji.png
 
 - name: 鈴木 遼
   affiliation: 早稲田大学
@@ -43,6 +48,7 @@
   twitter: Reputeless
   github: Reputeless
   web: https://ryo-suzuki-contact.github.io/
+  img: suzuki.png
 
 - name: 寺本 大輝
   affiliation: ハックフォープレイ株式会社
@@ -51,6 +57,7 @@
   facebook: hackforplay.teramotodaiki
   twitter: teramotodaiki
   github: teramotodaiki
+  img: teramoto.png
 
 - name: 関 喜史
   affiliation: 株式会社Gunosy
@@ -58,6 +65,7 @@
   bio: 東京大学工学部卒業、同大学院工学系研究科博士課程修了。博士(工学)。2011年度未踏OB。大学院在籍中にGunosy（グノシー）を共同開発し、2012年当社創業。 創業期からニュース配信ロジックの開発を担当し、推薦システムを中心としたウェブマイニング、機械学習応用、自然言語処理応用を専門とする。
   facebook: yoshifumi.seki
   twitter: YoshifumiSeki
+  img: seki.png
 
 - name: 石井 翔
   affiliation: AltLayer株式会社/東京工業大学
@@ -66,6 +74,7 @@
   facebook: kakeru1994
   twitter: kyasbal_1994
   github: kyasbal-1994
+  img: ishii.png
 
 - name: 鵜飼 佑
   affiliation: 未踏ジュニア代表
@@ -73,3 +82,4 @@
   bio: 東京大学大学院にて水中ロボットを用いた水泳支援システムの研究開発を行い、2011年度スーパークリエータに認定される。 MicrosoftのOfficeやMinecraft開発チームにてOffice LensやMinecraft Hour of Code Designerといった教育関連の製品のProgram Managerを務める。King's College LondonのComputing in Education専攻に留学後、文部科学省にてプログラミング教育プロジェクトオフィサーとして主に小学校におけるプログラミング教育を推進。
   facebook: ukai.yu
   twitter: ukkaripon
+  img: ukai.png
