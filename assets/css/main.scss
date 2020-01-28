@@ -161,7 +161,20 @@ footer{
   background-color: $lightgray;
   text-align: center;
   margin-top: 100px;
-  padding: 24px 0;
+  padding: 40px 0;
+  .sns {
+    padding: 20px 4px;
+    a {
+      margin: 0 10px;
+    }
+    i {
+      font-size: 34px;
+    }
+  }
+  .copyright {
+    font-size: 12px;
+    color: #666666;
+  }
 }
 .green{
   color: $main-color;
