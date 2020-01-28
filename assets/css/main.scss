@@ -256,6 +256,22 @@ footer{
 .pm-comment{
   clear: both;
 }
+
+@media screen and (max-width:$phone-width) {
+  .pm{
+    width: 100%;
+    text-align: center;
+  }
+  .pm-img{
+    width: 50%;
+    float: none;
+    padding: 0;
+  }
+  .pm-info{
+    float: none;
+    width: 100%;
+  }
+}
 .sv-img{
   width: 100%;
 }
