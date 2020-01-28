@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/mitou/jr.mitou.org.svg?branch=master)](https://travis-ci.org/mitou/jr.mitou.org)
 
 # 未踏ジュニア
-未踏ジュニアのWebサイトです。
+[![Cover Photo of Mitou Junior](/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
 
 ## 更新の方法
 ### メディア掲載記事
