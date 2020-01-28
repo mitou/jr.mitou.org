@@ -32,7 +32,7 @@ title: 2019年度プロジェクトマネージャ
 <h2>スーパーバイザー</h2>
 <div style="overflow:hidden;">
 <div class="sv-left">
-  <img src="./assets/img/pm/takeuchi.png"  class="sv-img">
+  <img src="./assets/img/pm/takeuchi.png" alt="竹内 郁雄" class="sv-img">
   <h3 class="pm-name">竹内 郁雄</h3>
   <h5>東京大学名誉教授／未踏IT人材発掘・育成事業統括PM／一般社団法人未踏代表理事</h5>
 </div>
