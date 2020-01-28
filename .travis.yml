@@ -1,0 +1,16 @@
+language: ruby
+
+cache:
+  bundler: true
+install:
+- bundle install --without production --deployment
+before_install:
+- gem install bundler
+script:
+- bundle exec rake test
+
+# Run CI tests in any branches updated
+branches:
+  only:
+  - gh-pages
+  - /.*/
