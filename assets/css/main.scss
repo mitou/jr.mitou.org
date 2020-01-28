@@ -305,7 +305,7 @@ footer{
     border-top: solid 2px $main-color;
     border-bottom: solid 2px $main-color;
     background-image: repeating-linear-gradient(-45deg, transparent, transparent 4px, rgba($main-color, 0.1) 4px, rgba($main-color, 0.1) 10px );
-    margin-top: 2em;
+    margin: 4em 0 1em;
     &::before{
       content: '';
       clear: both;
@@ -315,6 +315,7 @@ footer{
   h3{
     border-left: solid 6px $main-color;
     background-color: rgba($main-color, 0.05);
+    margin-top: 2.4em;
     padding: 8px;
   }
 }
