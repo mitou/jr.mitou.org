@@ -44,5 +44,5 @@ PMによっては、この期間に追加の質問や、追加のインタビュ
 <div class="tips">交通費は、各プロジェクトの開発予算とは別に支給されます。</div>
 
 
-<a href="./#faq" class="button">よくある質問</a>
+<a href="/#faq" class="button">よくある質問</a>
 <a href="https://bit.ly/mitoujr-q-box" class="button">質問箱</a>

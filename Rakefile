@@ -14,7 +14,7 @@ task test: [:build] do
     # NOTE: You can ignore file, URL, and response as follows
     #file_ignore: [
     #  /node_modules/,
-    #  "./_site/PATH_TO_IGNORE_FILE
+    #  /_site/PATH_TO_IGNORE_FILE
     #],
     #url_ignore:  %w(coderdojo.com linkedin.com),
     #http_status_ignore: [0, 500, 999],

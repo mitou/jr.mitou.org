@@ -1,6 +1,6 @@
 gold: # ゴールドスポンサー
   # - name: 会社名
-  #  img: ./assets/img/sponsor 内のロゴ写真のパス
+  #  img: /assets/img/sponsor 内のロゴ写真のパス
   #  url: 会社のホームページ
   - name: 公益財団法人江副記念リクルート財団
     img: ezoe2.png
@@ -12,7 +12,7 @@ gold: # ゴールドスポンサー
 
 silver: # シルバースポンサー
   # - name: 会社名
-  #  img: ./assets/img/sponsor 内のロゴ写真のパス
+  #  img: /assets/img/sponsor 内のロゴ写真のパス
   #  url: 会社のホームページ
   - name: 合同会社DMM.com
     img: DMM.png
@@ -20,7 +20,7 @@ silver: # シルバースポンサー
 
 bronze: # ブロンズスポンサー
   # - name: 会社名
-  #  img: ./assets/img/sponsor 内のロゴ写真のパス
+  #  img: /assets/img/sponsor 内のロゴ写真のパス
   #  url: 会社のホームページ
   - name: 株式会社プロコミット
     img: ProCommit_logo.png
@@ -32,7 +32,7 @@ bronze: # ブロンズスポンサー
 
 equipment: # 機材・教材提供
   # - name: 会社名
-  #  img: ./assets/img/sponsor 内のロゴ写真のパス
+  #  img: /assets/img/sponsor 内のロゴ写真のパス
   #  url: 会社のホームページ
   - name: 株式会社アイデミー
     img: aidemy_logo.png
@@ -60,7 +60,7 @@ equipment: # 機材・教材提供
 
 media: # メディアパートナー
   # - name: 会社名
-  #  img: ./assets/img/sponsor 内のロゴ写真のパス
+  #  img: /assets/img/sponsor 内のロゴ写真のパス
   #  url: 会社のホームページ
   - name: エドテックジン
     img: etz_logo_4c.png
