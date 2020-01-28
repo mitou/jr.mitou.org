@@ -65,7 +65,7 @@ layout: default
       {% include sp-creator.html %}
     {% endfor %}
   </ul>
-  <a href="/past-projects" class="button">過去の採択者/成果を見る</a>
+  <a href="/projects" class="button">過去の採択者/成果を見る</a>
   <div class="projects flex">
     {% for pj in site.data.projects.nineteen %}
     <div class="project" id="{{pj.id}}">
