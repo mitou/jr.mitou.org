@@ -14,7 +14,7 @@ title: 応募の手引
 {% include arrow.html %}
 
 ### 2. 申請書類を作成する
-提案するプロジェクトの計画と、自身の開発経験・PR を申請書類に記入します。申請書類のダウンロードはこちら (<a href="./assets/other/mitoujr_application_2020.zip">Word/Pages</a>/<a href="https://docs.google.com/document/d/1hjDYf2DbFBkXLyrAl9HKKc9sS40XbZ_iN2j-HKZXD9g/edit?usp=sharing">Google Docs</a>)
+提案するプロジェクトの計画と、自身の開発経験・PR を申請書類に記入します。申請書類のダウンロードはこちら (<a href="https://jr.mitou.org/assets/other/mitoujr_application_2020.zip">Word/Pages</a>/<a href="https://docs.google.com/document/d/1hjDYf2DbFBkXLyrAl9HKKc9sS40XbZ_iN2j-HKZXD9g/edit?usp=sharing">Google Docs</a>)
 {% include arrow.html %}
 
 ### 3. <a href="https://mitoujr.wufoo.com/forms/p6cginb0iftz5s/">応募フォーム</a>から提案書類をアップロードする (2020/4/4 23:59まで）
