@@ -5,6 +5,7 @@ require 'html-proofer'
 task test: [:build] do
   options = {
     allow_hash_href:  true,
+    assume_extension: true,
     check_opengraph:  true,
     check_favicon:    true,
     check_html:       true,
