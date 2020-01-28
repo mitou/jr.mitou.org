@@ -4,7 +4,8 @@ $main-color: rgb(40, 161, 58);
 $text-green: rgb(14, 110, 52);
 $shadow-color: rgba($main-color,0.3);
 $lightgray: #eff2f6;
-$phone-width: 1180px;
+$phone-width: 800px;
+$header-phone: 1080px;
 * {
   box-sizing: border-box;
   color: #333;
@@ -29,13 +30,13 @@ section{
 
 .ph{
   display: none;
-  @media screen and (max-width:$phone-width) {
+  @media screen and (max-width:$header-phone) {
     display: block;
   }
 }
 .pc{
   display: block;
-  @media screen and (max-width:$phone-width) {
+  @media screen and (max-width:$header-phone) {
     display: none;
   }
 }
@@ -45,7 +46,7 @@ header{
   //border-bottom: solid 4px $main-color;
   box-shadow: 0 0 16px 1px $shadow-color;
   height: 80px;
-  @media screen and (max-width:$phone-width) {
+  @media screen and (max-width:$header-phone) {
     height: 60px;
   }
   font-weight: bold;
@@ -67,7 +68,7 @@ header{
   padding: 12px 36px;
 }
 .header-left{
-  @media screen and (min-width:$phone-width) {
+  @media screen and (min-width:$header-phone) {
     margin: 24px;
   }
   a{
@@ -95,7 +96,13 @@ header{
     color: $main-color;
   }
 }
-@media screen and (max-width:$phone-width) {
+.topnav{
+  @media screen and (min-width:$header-phone) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width:$header-phone) {
   .topnav{
     background-color: #fff;
     a{
@@ -147,10 +154,8 @@ header{
 }
 
 .flex{
-  @media screen and (min-width:$phone-width) {
-      display: flex;
-      flex-wrap: wrap;
-  }
+  display: flex;
+  flex-wrap: wrap;
 }
 footer{
   background-color: $lightgray;
@@ -207,7 +212,7 @@ footer{
 }
 .main{
   margin-top: 80px;
-  @media screen and (max-width:$phone-width) {
+  @media screen and (max-width:$header-phone) {
     margin-top: 60px;
   }
   text-align: center;
