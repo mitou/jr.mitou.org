@@ -58,14 +58,15 @@ layout: default
 </section>
 
 <section id="results">
-  <h2 class="heading-line">2019年度の採択者及び成果</h2>
+  <h2 class="heading-line">2019年度の採択者と成果</h2>
   <p>2019年度は、127件の応募中、13プロジェクト17人を採択しました。（☆は未踏ジュニアスーパークリエータに認定されました）</p>
   <ul class="list-none">
     {% for pj in site.data.projects.nineteen %}
       {% include sp-creator.html %}
     {% endfor %}
   </ul>
-  <a href="/projects" class="button">過去の採択者/成果を見る</a>
+  <a href="/projects" class="button">これまでの採択例を見る</a>
+
   <div class="projects flex">
     {% for pj in site.data.projects.nineteen %}
     <div class="project" id="{{pj.id}}">
