@@ -6,8 +6,11 @@ gem "minima", "~> 2.5" # default theme for new Jekyll sites
 gem 'html-proofer'
 gem 'rake'
 
+gem "liquid-c"
+
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-include-cache"
   # gem 'github-pages' # Uncomment this when being compatible with Jekyl 4.0.0+
 end
 
