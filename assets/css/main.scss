@@ -360,7 +360,7 @@ footer{
   background-color: #fff;
   box-shadow: 0 0 6px 1px $shadow-color;
   border-radius: 8px;
-  margin: 16px 8px;
+  margin: 8px;
   padding: 24px;
   text-align: left;
   width: calc(50% - 16px);
@@ -375,6 +375,11 @@ footer{
     padding: 2vw;
     width: calc(100% - 16px);
   }
+}
+.project-title{
+  margin: 0 !important;
+  background-color: #fff !important;
+  border-left: none !important;
 }
 .qanda-a{
   height: 0;
