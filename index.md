@@ -84,9 +84,9 @@ layout: default
 </section>
 
 <section id="project-manager">
-  <p class="subtitle">プロジェクトマネージャー</p>
+  <p class="subtitle">未踏ジュニア PM (プロジェクト・マネージャー)</p>
   <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br class="pc">エンジニア・専門家の指導が受けられます。</h2>
-  <a href="/pm" class="button">2019年度プロジェクトマネージャー</a>
+  <a href="/pm" class="button">未踏ジュニア PM を見る</a>
 </section>
 
 {% include faq.html %}
