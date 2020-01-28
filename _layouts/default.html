@@ -9,6 +9,13 @@
   <link rel="shortcut icon" href="{{ site.baseurl }}assets/img/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700&display=swap" rel="stylesheet">
 
+  {% if page.title %}
+  <meta property="og:title" content="{{page.title}} | {{site.title}}" />
+  {% else %}
+  <meta property="og:title" content="{{site.title}}" />
+  {% endif %}
+  <meta property="og:image" content="/assets/img/mitoujr_cover_big.png" />
+  <meta name="description" content="{{site.description}}">
 </head>
 
 <body>
