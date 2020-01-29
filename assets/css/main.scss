@@ -385,9 +385,11 @@ footer{
   height: 0;
   opacity: 0;
   transition: .3s;
+  font-size: 0;
 }
 .qanda-one{
   text-align: left;
+  margin-bottom: 4px;
   input{
     display: none;
   }
@@ -395,6 +397,7 @@ footer{
     height: auto;
     opacity: 1;
     padding: 10px 0;
+    font-size: 1em;
   }
   label{
     background-color: #fff;
