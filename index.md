@@ -11,7 +11,7 @@ layout: default
 <section id="about">
   <p class="subtitle">未踏ジュニアとは？</p>
   <h2 class="s-title">独創的なアイデアを持つ<br>小中高生クリエイターを援助するプログラム</h2>
-  <p>独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を対象とした、ミニ未踏です。<br class="pc"></p>
+  <p>独創的なアイデア、卓越した技術を持つ17歳以下の<br class="ph">小中高生及び高専生を対象とした、ミニ未踏です。<br class="pc"></p>
   <div class="service flex">
     <div class="service-one">
       <i class="fas fa-graduation-cap green"></i>
@@ -59,7 +59,8 @@ layout: default
 
 <section id="results">
   <h2 class="heading-line">2019年度のクリエータ</h2>
-  <p>2019年度は、127件の応募中、13プロジェクト17人を採択しました。（☆は未踏ジュニアスーパークリエータに認定されました）</p>
+  <p>2019年度は127件の応募中13プロジェクト17人を採択しました。<br>
+    （☆は未踏ジュニアスーパークリエータに認定されました）</p>
   <ul class="list-none">
     {% for pj in site.data.projects.nineteen %}
       {% include sp-creator.html %}
