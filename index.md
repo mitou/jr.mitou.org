@@ -58,7 +58,7 @@ layout: default
 </section>
 
 <section id="results">
-  <h2 class="heading-line">2019年度の採択者と成果</h2>
+  <h2 class="heading-line">2019年度のクリエータ</h2>
   <p>2019年度は、127件の応募中、13プロジェクト17人を採択しました。（☆は未踏ジュニアスーパークリエータに認定されました）</p>
   <ul class="list-none">
     {% for pj in site.data.projects.nineteen %}
