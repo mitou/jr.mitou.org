@@ -1,1 +1,8 @@
-<li><a href="#{{pj.id}}">{% if pj.sp-creator %}<span>☆ </span>{% endif %}{{pj.name}} {{pj.title}}</a></li>
+<li>
+  {% if pj.sp-creator %}
+  <span>☆ </span>
+  {% else %}
+  <span>　 </span>
+  {% endif %}
+  <a href="#{{pj.id}}">{{pj.name}} {{pj.title}}</a>
+</li>
