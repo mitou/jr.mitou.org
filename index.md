@@ -10,9 +10,11 @@ layout: default
 
 <section id="about">
   <p class="subtitle">未踏ジュニアとは？</p>
-  <h2 class="s-title">独創的なアイデアを持つ<br>小中高生クリエイターを援助するプログラム</h2>
+  <h2 class="s-title">独創的アイデアと卓越した技術を持つ<br>小中高生クリエイター支援プログラム</h2>
+  <!--
   <p>
     独創的なアイデア、卓越した技術を持つ<br class="ph">17歳以下の小中高生及び高専生を対象とした<br class="ph">ミニ未踏です。</p>
+  -->
   <div class="service flex">
     <div class="service-one">
       <i class="fas fa-graduation-cap green"></i>
