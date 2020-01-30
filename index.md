@@ -3,9 +3,10 @@
 layout: default
 ---
 
-<div>
-<img src="/assets/img/people/2019all.png" alt="2019年度未踏ジュニア集合写真" class="top-img">
+<div class="cover-photo">
+  <img src="/assets/img/people/2019all.png" alt="2019年度未踏ジュニア集合写真" class="top-img">
 </div>
+
 <section id="about">
   <p class="subtitle">未踏ジュニアとは？</p>
   <h2 class="s-title">独創的アイデアと卓越した技術を持つ<br>小中高生クリエイター支援プログラム</h2>

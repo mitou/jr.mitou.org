@@ -28,6 +28,9 @@ section{
   }
 }
 
+.cover-photo {
+  background-color: $lightgray;
+}
 .ph{
   display: none;
   @media screen and (max-width:$header-phone) {
