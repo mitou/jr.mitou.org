@@ -91,9 +91,15 @@ layout: default
 <section id="project-manager">
   <p class="subtitle">未踏ジュニア メンター</p>
   <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br>エンジニア・専門家がサポートします。</h2>
-  <a href="/mentor">
-    <img src="/assets/img/2020_pms.png" alt="PM 一覧" width="100%">
+  <div class="pm-list flex">
+  {% for mentor in site.data.pm %}
+  <a href="/mentor#{{mentor.name}}" class="pm-list-one">
+    <img src="/assets/img/pm/{{mentor.img}}" alt="{{mentor.name}}">
+    <p class="pm-list-name pc">{{mentor.name}}</p>
+    <p class="pm-list-af pc">{{mentor.affiliation}}</p>
   </a>
+  {% endfor %}
+  </div>
   <a href="/mentor" class="button">» こんな人・こんな提案を<br>待っています</a>
 </section>
 

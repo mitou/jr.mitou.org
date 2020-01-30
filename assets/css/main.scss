@@ -299,6 +299,27 @@ footer{
 .pm-comment{
   clear: both;
 }
+.pm-list{
+  margin: 36px 0;
+}
+.pm-list-one{
+  width: 16.6%;
+  padding: 14px;
+  @media screen and (max-width:$header-phone) {
+    padding: 4px;
+  }
+  img{
+    width: 100%;
+  }
+}
+.pm-list-name{
+  font-size: 20px;
+  margin: 6px 0;
+}
+.pm-list-af{
+  font-size: 12px;
+  margin: 4px 0;
+}
 
 @media screen and (max-width:$phone-width) {
   .pm{
