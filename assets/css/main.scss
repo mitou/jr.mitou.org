@@ -14,6 +14,14 @@ $header-phone: 950px;
 
 a{
   color: $text-green;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+li {
+  margin: 0.4em auto;
 }
 
 body{
@@ -177,10 +185,6 @@ footer{
   a {
     padding: 5px 15px;    
     display: inline-block;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
   }
   .sns {
     padding: 20px 4px;
