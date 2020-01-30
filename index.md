@@ -94,7 +94,7 @@ layout: default
   <a href="/pm">
     <img src="/assets/img/2020_pms.png" alt="PM 一覧" width="100%">
   </a>
-  <a href="/pm" class="button">未踏ジュニア PM を見る</a>
+  <a href="/pm" class="button">» こんな人・こんな提案を<br>待っています</a>
 </section>
 
 {% include faq.html %}
