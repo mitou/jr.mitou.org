@@ -19,22 +19,22 @@ layout: default
     <div class="service-one">
       <i class="fas fa-graduation-cap green"></i>
       <h3>メンタリングの提供</h3>
-      <p>担当の<a href="/pm">プロジェクトマネージャ（PM）</a>をはじめ、未踏卒業生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。</p>
+      <p>担当の<a href="/pm">プロジェクト・マネージャー (PM)</a> や、<br>未踏卒業生らを中心とする各界で活躍する<br>エンジニア・専門家からサポートが得られます</p>
     </div>
     <div class="service-one">
       <i class="fas fa-dollar-sign green"></i>
       <h3>開発資金の援助</h3>
-      <p>各グループ50万円を上限として、<br class="ph">開発資金の援助を行います。</p>
+      <p>各グループ50万円を上限として、<br class="ph">開発資金の援助があります</p>
     </div>
     <div class="service-one">
       <i class="fas fa-cog green"></i>
-      <h3>開発場所の援助</h3>
-      <p>必要に応じて、開発場所及び工作機材の援助を行います。</p>
+      <h3>開発場所の支援</h3>
+      <p>必要に応じて、開発場所および工作機材の支援が得られます</p>
     </div>
     <div class="service-one">
       <i class="fas fa-link green"></i>
       <h3>未踏ジュニアスーパークリエータ認定</h3>
-      <p>特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや首都大学東京に推薦枠で出願できます。</p>
+      <p>特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや首都大学東京に推薦枠で出願できます</p>
     </div>
     <a href="/about" class="button">詳細を見る</a>
   </div>
