@@ -29,8 +29,8 @@
     sp-creator: スーパークリエータかどうか。（例：true）
 ```
 
-### PMの情報
-[`_data` 内の `pm.yml`](https://github.com/yuki384/new-mitoujr/blob/master/_data/pm.yml) にPMの情報があります。 
+### メンターの情報
+[`_data` 内の `pm.yml`](https://github.com/yuki384/new-mitoujr/blob/master/_data/pm.yml) にメンターの情報があります。 
 
 それぞれの項目は以下のような内容です。
 ```yml
