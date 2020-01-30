@@ -30,7 +30,7 @@ layout: default
     </div>
     <div class="service-one">
       <i class="fas fa-link green"></i>
-      <h3>未踏ジュニアスーパークリエータの認定</h3>
+      <h3>未踏ジュニアスーパークリエータ認定</h3>
       <p>特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや首都大学東京に推薦枠で出願できます。</p>
     </div>
     <a href="/about" class="button">詳細を見る</a>
@@ -59,8 +59,9 @@ layout: default
 
 <section id="results">
   <h2 class="heading-line">2019年度のクリエータ</h2>
-  <p>2019年度は127件の応募中13プロジェクト17人を採択しました。<br>
-    （☆は未踏ジュニアスーパークリエータに認定されました）</p>
+  <p>
+    2019年度は127件の応募が集まり、<br class="ph">13プロジェクト・17名を採択しました。<br>
+    (☆ は未踏ジュニアスーパークリエータ認定者)</p>
   <ul class="list-none">
     {% for pj in site.data.projects.nineteen %}
       {% include sp-creator.html %}
