@@ -18,7 +18,7 @@ layout: default
     <div class="service-one">
       <i class="fas fa-graduation-cap green"></i>
       <h3>メンタリングの提供</h3>
-      <p>担当の<a href="/pm">プロジェクト・マネージャー (PM)</a> や、<br class="ph">未踏卒業生らを中心とする各界で活躍する<br class="ph">エンジニア・専門家からサポートが得られます</p>
+      <p>担当の<a href="/mentor">メンター</a> や、<br class="ph">未踏卒業生らを中心とする各界で活躍する<br class="ph">エンジニア・専門家からサポートが得られます</p>
     </div>
     <div class="service-one">
       <i class="fas fa-dollar-sign green"></i>
@@ -89,12 +89,12 @@ layout: default
 </section>
 
 <section id="project-manager">
-  <p class="subtitle">未踏ジュニア PM (プロジェクト・マネージャー)</p>
+  <p class="subtitle">未踏ジュニア メンター</p>
   <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br>エンジニア・専門家がサポートします。</h2>
-  <a href="/pm">
+  <a href="/mentor">
     <img src="/assets/img/2020_pms.png" alt="PM 一覧" width="100%">
   </a>
-  <a href="/pm" class="button">» こんな人・こんな提案を<br>待っています</a>
+  <a href="/mentor" class="button">» こんな人・こんな提案を<br>待っています</a>
 </section>
 
 {% include faq.html %}

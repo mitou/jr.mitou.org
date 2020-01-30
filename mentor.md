@@ -1,6 +1,6 @@
 ---
 layout: post
-title: プロジェクト・マネージャー紹介
+title: メンター紹介
 ---
 
 <div class="pms flex">
@@ -70,7 +70,7 @@ title: プロジェクト・マネージャー紹介
       <h3 class="pm-name">鵜飼 佑</h3>
     </div>
     <div class="pm-comment text-left">
-      <p>PMも兼任しているので、<a href="/pm#鵜飼%20佑">こちら</a>を参照。</p>
+      <p>メンターも兼任しているので、<a href="/pm#鵜飼%20佑">こちら</a>を参照。</p>
     </div>
   </div>
 </div>
