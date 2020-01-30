@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2019年度プロジェクトマネージャ
+title: プロジェクト・マネージャー紹介
 ---
 
 <div class="pms flex">
