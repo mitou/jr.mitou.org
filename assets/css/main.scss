@@ -76,11 +76,12 @@ header{
   }
 }
 .header-logo{
+  float: left;
   vertical-align: top;
+  height: 100%;
   img{
-    width: 32px;
-    vertical-align: baseline;
-    margin-top: -4px;
+    height: 100%;
+    padding: 16px;
   }
 }
 .header-back{
