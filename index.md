@@ -15,7 +15,7 @@ layout: default
     <div class="service-one">
       <i class="fas fa-graduation-cap green"></i>
       <h3>メンタリングの提供</h3>
-      <p>未踏卒業生らを中心とする各界で活躍する<br class="ph"><a href="#mentors">エンジニアや専門家</a>からサポートが得られます</p>
+      <p>未踏卒業生らを中心に、各界で活躍する<br class="ph"><a href="#mentors">エンジニアや専門家</a>からサポートが得られます</p>
     </div>
     <div class="service-one">
       <i class="fas fa-dollar-sign green"></i>
@@ -87,7 +87,7 @@ layout: default
 
 <section id="mentors">
   <p class="subtitle">未踏ジュニア メンター</p>
-  <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br>エンジニアや専門家がサポートします。</h2>
+  <h2 class="s-title">未踏卒業生らを中心に、各界で活躍する<br>エンジニアや専門家がサポートします</h2>
   <div class="pm-list flex">
   {% for mentor in site.data.pm %}
   <a href="/mentors#{{mentor.name}}" class="pm-list-one">
