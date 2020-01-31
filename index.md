@@ -126,7 +126,11 @@ layout: default
 
 <section id="contact">
   <h2 class="heading-line">お問い合わせ</h2>
-  <p>お返事が遅くなる場合もありますが、ご了承ください。<br class="pc">チラシの配布にご協力頂ける方は、<a href="https://goo.gl/forms/LbmaEz1kNrN1WFgt2">こちらのフォーム</a>より請求をお願いいたします。</p>
+  <p></p>
   <i class="fas fa-envelope green" style="font-size:36px;"></i><br>
   <a href="mailto:jr@mitou.org">jr@mitou.org</a>
+  <p style="color: grey; font-size: 70%; margin-top: 30px;">お返事が遅くなる場合もありますが、ご了承ください。
+    <!--<br class="pc">チラシの配布にご協力頂ける方は、<a href="https://goo.gl/forms/LbmaEz1kNrN1WFgt2">こちらのフォーム</a>より請求をお願いいたします。-->
+  </p>
+  
 </section>
