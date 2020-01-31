@@ -92,8 +92,8 @@ layout: default
     {% for mentor in site.data.pm %}
     <a href="/mentors#{{ mentor.name }}" class="pm-list-one">
       <img src="/assets/img/pm/{{ mentor.img }}" alt="{{ mentor.name }}">
-      <p class="pm-list-name">{{ mentor.name }}</p>
-      <p class="pm-list-af">{{ mentor.affiliation }}</p>
+      <p class="pm-list-name pc">{{ mentor.name }}</p>
+      <p class="pm-list-af pc">{{ mentor.affiliation }}</p>
     </a>
     {% endfor %}
   </div>
