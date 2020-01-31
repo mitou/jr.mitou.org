@@ -32,7 +32,7 @@ layout: default
       <h3>未踏ジュニアスーパークリエータ認定</h3>
       <p>特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや首都大学東京に推薦枠で出願できます</p>
     </div>
-    <a href="/about" class="button">» 詳細を見る</a>
+    <a href="/about" class="button">詳細を見る</a>
   </div>
 </section>
 
@@ -41,7 +41,7 @@ layout: default
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
   <img src="/assets/img/MovieToCreator.png" alt="Movies for Prospective Creators" width="100%"></a>
   <p style="font-size: 96%;">応募者に役立つ動画を YouTube で公開しています。<br>質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="https://bit.ly/mitoujr-q-box">匿名質問箱</a>でも受付中！</p>
-  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">» YouTubeで視聴する</a>
+  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTubeで視聴する</a>
 </section>
 
 {% include lets-apply.html %}
@@ -53,7 +53,7 @@ layout: default
     <li><span class="media-date">{{ article.date }}</span><a href="{{ article.url }}">{{ article.title }}</a></li>
     {% endfor %}
   </ul>
-  <a href="/media" class="button">» すべて見る</a>
+  <a href="/media" class="button">すべて見る</a>
 </section>
 
 <section id="results">
@@ -66,7 +66,7 @@ layout: default
       {% include sp-creator.html %}
     {% endfor %}
   </ul>
-  <a href="/projects" class="button">» これまでの採択例を見る</a>
+  <a href="/projects" class="button">これまでの採択例を見る</a>
 
   <div class="projects flex">
     {% for pj in site.data.projects.nineteen %}
@@ -79,7 +79,7 @@ layout: default
       <h4>{{ pj.pm}}PMより一言</h4>
       <p>{{pj.comment}}</p>
       {% endif %}
-      <a href="https://www.youtube.com/watch?v={{pj.youtube}}" target="_blank" class="button">» 発表動画を見る</a>
+      <a href="https://www.youtube.com/watch?v={{pj.youtube}}" target="_blank" class="button">発表動画を見る</a>
     </div>
     {% endfor %}
   </div>
@@ -97,7 +97,7 @@ layout: default
   </a>
   {% endfor %}
   </div>
-  <a href="/mentors" class="button">» こんな人・こんな提案を<br>待っています</a>
+  <a href="/mentors" class="button">こんな人・こんな提案を<br>待っています</a>
 </section>
 
 {% include faq.html %}
@@ -106,7 +106,7 @@ layout: default
 <section>
   <h2 class="heading-line">運営団体</h2>
   <p><a href="https://www.mitou.org/">一般社団法人未踏</a>（Mitou Foundation、所在地：東京都渋谷区、代表理事：竹内 郁雄）は、経済産業省所管の独立行政法人情報処理推進機構（IPA、所在地：東京都文京区、理事長：富田 達夫）の事業である<a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">未踏事業</a>の OB/OG や関係者を中心に、起業家やクリエータ等、天才的かつ創造的人材を多角的に支援し、日本横断的なネットワークをつくることで、IT を中心とした日本のイノベーションを加速させることを目的に設立された社団法人です。</p>
-  
+
   <img src="/assets/img/sponsor/mitouorg.png" alt="一般社団法人未踏" style="margin-top: 50px; width:60%">
 </section>
 
@@ -132,5 +132,5 @@ layout: default
   <p style="color: grey; font-size: 70%; margin-top: 30px;">お返事が遅くなる場合もありますが、ご了承ください。
     <!--<br class="pc">チラシの配布にご協力頂ける方は、<a href="https://goo.gl/forms/LbmaEz1kNrN1WFgt2">こちらのフォーム</a>より請求をお願いいたします。-->
   </p>
-  
+
 </section>

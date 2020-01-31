@@ -162,6 +162,9 @@ header{
     color: $main-color;
     transition: .3s;
   }
+  &::before{
+    content: '» ';
+  }
 }
 .button-white{
   background-color: #fff;
