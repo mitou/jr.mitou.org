@@ -484,7 +484,9 @@ footer{
   }
 }
 .service-img{
-  width: 80%;
+  max-width: 80%;
+  margin: -24px 0 -36px;
+  height: 50%;
 }
 
 #sponsors{
