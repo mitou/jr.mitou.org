@@ -14,6 +14,7 @@ $header-phone: 950px;
 
 a{
   color: $text-green;
+  font-weight: 500;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -60,7 +61,6 @@ header{
   @media screen and (max-width:$header-phone) {
     height: 60px;
   }
-  font-weight: bold;
   position: fixed;
   top: 0;
   width: 100%;
@@ -68,6 +68,7 @@ header{
   a{
     color: $text-green;
     text-decoration: none;
+    font-weight: 600;
   }
 }
 .header-button{
