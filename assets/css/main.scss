@@ -485,13 +485,13 @@ footer{
 }
 
 .sponsor-gold{
-  width: 300px;
+  max-width: 300px;
 }
 .sponsor-silver, .sponsor-supporter{
-  width: 200px;
+  max-width: 200px;
 }
 .sponsor-bronze{
-  width: 175px;
+  max-width: 175px;
 }
 .sponsor-eq, .sponsor-media, .sponsor-clb{
   margin: 10px;
