@@ -3,6 +3,9 @@ layout: post
 title: 採択後の流れ
 ---
 
+## スケジュール
+![一年のスケジュール](/assets/img/illustration/schedule.svg)
+
 ## メンターとのミーティング
 基本的には、期間中週に一度程度、オンラインでメンターとのミーティングがあります。プログラミングの質問、方針の話でも、なんでも相談できる機会です！
 <a href="/mentors" class="button">メンター紹介</a>
