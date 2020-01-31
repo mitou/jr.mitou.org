@@ -443,10 +443,10 @@ footer{
     transition: .3s;
 
     &:hover{
-      opacity: 0.7;
       font-weight: bold;
       transition: .3s;
       cursor: pointer;
+      text-decoration: underline;
     }
 
   }
