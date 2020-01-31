@@ -481,13 +481,13 @@ footer{
 }
 .sponsors-list-eq, .sponsors-list-media, .sponsors-list-clb{
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
   max-width: 555px;
   margin: auto;
 }
 .sponsors-list-eq{
   max-width: 555px;
+  align-items: center;
 }
 .sponsors-list-media{
   max-width: 370px;
