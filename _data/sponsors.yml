@@ -6,10 +6,6 @@ gold: # ゴールドスポンサー
     img: ezoe2.png
     url: https://www.recruit-foundation.org/
 
-  - name: フューチャー株式会社
-    img: future.png
-    url: https://www.future.co.jp/
-
 silver: # シルバースポンサー
   # - name: 会社名
   #  img: /assets/img/sponsor 内のロゴ写真のパス
@@ -25,10 +21,6 @@ bronze: # ブロンズスポンサー
   - name: 株式会社プロコミット
     img: ProCommit_logo.png
     url: https://www.procommit.co.jp/
-
-  - name: プロスタキッズ
-    img: prosta.png
-    url: https://programming-kids.jp/
 
 equipment: # 機材・教材提供
   # - name: 会社名
