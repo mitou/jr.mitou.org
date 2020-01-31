@@ -10,15 +10,12 @@ layout: default
 <section id="about">
   <p class="subtitle">未踏ジュニアとは？</p>
   <h2 class="s-title">独創的アイデアと卓越した技術を持つ<br>小中高生クリエイター支援プログラム</h2>
-  <!--
-  <p>
-    独創的なアイデア、卓越した技術を持つ<br class="ph">17歳以下の小中高生及び高専生を対象とした<br class="ph">ミニ未踏です。</p>
-  -->
+
   <div class="service flex">
     <div class="service-one">
       <i class="fas fa-graduation-cap green"></i>
       <h3>メンタリングの提供</h3>
-      <p>担当の<a href="/mentor">メンター</a> や、<br class="ph">未踏卒業生らを中心とする各界で活躍する<br class="ph">エンジニア・専門家からサポートが得られます</p>
+      <p>未踏卒業生らを中心とする各界で活躍する<br class="ph"><a href="#mentors">エンジニアや専門家</a>からサポートが得られます</p>
     </div>
     <div class="service-one">
       <i class="fas fa-dollar-sign green"></i>
@@ -88,9 +85,9 @@ layout: default
   </div>
 </section>
 
-<section id="project-manager">
+<section id="mentors">
   <p class="subtitle">未踏ジュニア メンター</p>
-  <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br>エンジニア・専門家がサポートします。</h2>
+  <h2 class="s-title">未踏卒業生らを中心とする、各界で活躍する<br>エンジニアや専門家がサポートします。</h2>
   <div class="pm-list flex">
   {% for mentor in site.data.pm %}
   <a href="/mentor#{{mentor.name}}" class="pm-list-one">
