@@ -86,7 +86,7 @@ layout: default
 </section>
 
 <section id="mentors">
-  <p class="subtitle">未踏ジュニア メンター</p>
+  <p class="subtitle">皆さんのプロジェクトを支援するメンター陣</p>
   <h2 class="s-title">未踏卒業生らを中心に、各界で活躍する<br>エンジニアや専門家がサポートします</h2>
   <div class="pm-list flex">
   {% for mentor in site.data.pm %}
