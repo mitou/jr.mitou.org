@@ -481,6 +481,7 @@ footer{
 }
 .sponsors-list-eq, .sponsors-list-media, .sponsors-list-clb{
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   max-width: 555px;
   margin: auto;
