@@ -19,7 +19,7 @@ title: 未踏ジュニア採択プロジェクト
     </li>
     {% endfor %}
   </ul>
-  <a href="/projects/2019" class="button">2019年度採択プロジェクト</a>
+  <a href="/projects/2019" class="button">» 2019年度採択プロジェクト</a>
   <a href="/projects/2018"><h3>2018年度</h3></a>
   <ul class="list-none">
     {% for pj in site.data.projects.eighteen %}
@@ -33,7 +33,7 @@ title: 未踏ジュニア採択プロジェクト
     </li>
     {% endfor %}
   </ul>
-  <a href="/projects/2018" class="button">2018年度採択プロジェクト</a>
+  <a href="/projects/2018" class="button">» 2018年度採択プロジェクト</a>
   <a href="/projects/2017"><h3>2017年度</h3></a>
   <ul class="list-none">
     {% for pj in site.data.projects.seventeen %}
@@ -47,7 +47,7 @@ title: 未踏ジュニア採択プロジェクト
     </li>
     {% endfor %}
   </ul>
-  <a href="/projects/2017" class="button">2017年度採択プロジェクト</a>
+  <a href="/projects/2017" class="button">» 2017年度採択プロジェクト</a>
   <a href="/projects/2016"><h3>2016年度</h3></a>
   <ul class="list-none">
     {% for pj in site.data.projects.sixteen %}
@@ -61,5 +61,5 @@ title: 未踏ジュニア採択プロジェクト
     </li>
     {% endfor %}
   </ul>
-  <a href="/projects/2016" class="button">2016年度採択プロジェクト</a>
+  <a href="/projects/2016" class="button">» 2016年度採択プロジェクト</a>
 </div>

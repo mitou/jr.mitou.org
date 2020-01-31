@@ -12,14 +12,14 @@ title: 未踏ジュニアとは
 
 [未踏事業](https://www.ipa.go.jp/jinzai/mitou/outline.html)という、経産省所管の独立行政法人情報処理推進機構が主催し実施している、優秀な25歳以下の若者を支援するプログラムがあります。そして、そのOB・OGがボランティアで運営しているのが、**未踏ジュニア** です。
 
-<a href="https://www.ipa.go.jp/jinzai/mitou/outline.html" class="button" target="_blank">未踏事業について詳しく知る</a>
+<a href="https://www.ipa.go.jp/jinzai/mitou/outline.html" class="button" target="_blank">» 未踏事業について詳しく知る</a>
 
 ## 支援
 ### メンタリングの提供
 担当の[メンター](/mentors)をはじめ、未踏卒業生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
 
 <div class="tips">期間中は、オンラインでメンターとの時間を週に一時間ずつくらい取れる仕組みとなっていて、プログラミングの質問、方針の話でも、なんでも相談できる機会があります。</div>
-<a href="/mentors" class="button">メンター紹介</a>
+<a href="/mentors" class="button">» メンター紹介</a>
 
 ### 開発資金の援助
 採択された各グループへ、50万円を上限として開発資金の援助を行います。
@@ -38,4 +38,4 @@ title: 未踏ジュニアとは
 ### 未踏関係者インタビュー
 未踏関係者に『なんで未踏?』という質問をしてみました。未踏について一歩深く知るキッカケになれば嬉しいです ;)
 <div class="youtube"><iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<a href="https://www.youtube.com/playlist?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg&disable_polymer=true" class="button">YouTubeで視聴する</a>
+<a href="https://www.youtube.com/playlist?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg&disable_polymer=true" class="button">» YouTubeで視聴する</a>

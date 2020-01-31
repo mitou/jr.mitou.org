@@ -32,7 +32,7 @@ layout: default
       <h3>未踏ジュニアスーパークリエータ認定</h3>
       <p>特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや首都大学東京に推薦枠で出願できます</p>
     </div>
-    <a href="/about" class="button">詳細を見る</a>
+    <a href="/about" class="button">» 詳細を見る</a>
   </div>
 </section>
 
@@ -41,7 +41,7 @@ layout: default
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
   <img src="/assets/img/MovieToCreator.png" alt="Movies for Prospective Creators" width="100%"></a>
   <p>応募者に役立つ動画を YouTube でまとめています。<br>質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="https://bit.ly/mitoujr-q-box">匿名質問箱</a>でも受付中！</p>
-  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTubeで視聴する</a>
+  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">» YouTubeで視聴する</a>
 </section>
 
 {% include lets-apply.html %}
@@ -53,7 +53,7 @@ layout: default
     <li><span class="media-date">{{ article.date }}</span><a href="{{ article.url }}">{{ article.title }}</a></li>
     {% endfor %}
   </ul>
-  <a href="/media" class="button">すべて見る</a>
+  <a href="/media" class="button">» すべて見る</a>
 </section>
 
 <section id="results">
@@ -66,7 +66,7 @@ layout: default
       {% include sp-creator.html %}
     {% endfor %}
   </ul>
-  <a href="/projects" class="button">これまでの採択例を見る</a>
+  <a href="/projects" class="button">» これまでの採択例を見る</a>
 
   <div class="projects flex">
     {% for pj in site.data.projects.nineteen %}
@@ -79,7 +79,7 @@ layout: default
       <h4>{{ pj.pm}}PMより一言</h4>
       <p>{{pj.comment}}</p>
       {% endif %}
-      <a href="https://www.youtube.com/watch?v={{pj.youtube}}" target="_blank" class="button">発表動画を見る</a>
+      <a href="https://www.youtube.com/watch?v={{pj.youtube}}" target="_blank" class="button">» 発表動画を見る</a>
     </div>
     {% endfor %}
   </div>
