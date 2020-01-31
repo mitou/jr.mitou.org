@@ -443,9 +443,10 @@ footer{
     transition: .3s;
 
     &:hover{
-      background-color: $lightgray;
+      opacity: 0.7;
       font-weight: bold;
       transition: .3s;
+      cursor: pointer;
     }
 
   }
