@@ -14,7 +14,7 @@ title: 未踏ジュニアへの応募の手引き
 {% include arrow.html %}
 
 ### 2. 申請書類を作成する
-提案するプロジェクトの計画と、自身の開発経験・PR を申請書類に記入します。申請書類のダウンロードはこちら ([Word・Pages](https://jr.mitou.org/assets/other/mitoujr_application_2020.zip) / [Google Docs](https://docs.google.com/document/d/1hjDYf2DbFBkXLyrAl9HKKc9sS40XbZ_iN2j-HKZXD9g/edit?usp=sharing))
+提案するプロジェクトの計画と、自身の開発経験・PR を申請書類に記入します。申請書類のダウンロードはこちら ([Word・Pages](https://jr.mitou.org/assets/other/mitoujr_application_2020.zip) / [Google Docs](https://docs.google.com/document/d/1hjDYf2DbFBkXLyrAl9HKKc9sS40XbZ_iN2j-HKZXD9g/edit?usp=sharing))。過去の採択者の応募資料も[コチラ](https://jr.mitou.org/assets/other/2019_application_samples.zip)から公開しています。ご参考になれば幸いです。
 
 {% include arrow.html %}
 
