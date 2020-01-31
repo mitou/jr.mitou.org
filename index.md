@@ -50,7 +50,7 @@ layout: default
   <h2 class="heading-line"><i class="far fa-newspaper green"></i> メディア掲載</h2>
   <ul class="list-none media-list">
     {% for article in site.data.articles limit:10 %}
-    <li><span class="media-date">{{ article.date }}</span><a href="{{ article.url }}">{{ article.title }}</a></li>
+    <li><span class="media-pc-date">{{ article.date }}</span><a href="{{ article.url }}">{{ article.title }}<span class="media-ph-date"> - {{ article.date }}</span></a></li>
     {% endfor %}
   </ul>
   <a href="/media" class="button">すべて見る</a>

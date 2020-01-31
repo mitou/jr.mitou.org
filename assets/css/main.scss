@@ -267,13 +267,26 @@ footer{
     }
   }
 }
-.media-date{
+.media-pc-date{
   background-color: $main-color;
+  display: inline-block;
   color: #fff;
   padding: 4px 8px;
   border-radius: 4px;
   font-weight: bold;
   margin-right: 12px;
+}
+.media-pc-date{
+  display: inline-block;
+  @media screen and (max-width:$header-phone) {
+    display: none;
+  }
+}
+.media-ph-date{
+  display: none;
+  @media screen and (max-width:$header-phone) {
+    display: inline-block;
+  }
 }
 .media-list{
   li{
