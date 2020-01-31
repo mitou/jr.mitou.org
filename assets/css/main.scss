@@ -440,6 +440,14 @@ footer{
     border-radius: 4px;
     display: block;
     padding: 12px;
+    transition: .3s;
+
+    &:hover{
+      background-color: $lightgray;
+      font-weight: bold;
+      transition: .3s;
+    }
+
   }
   p{
     margin: 4px;
