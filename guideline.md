@@ -45,5 +45,5 @@ title: 未踏ジュニアへの応募の手引き
 <div class="tips">交通費は、各プロジェクトの開発予算とは別に支給されます。</div>
 
 
-<a href="/#faq" class="button">» よくある質問</a>
-<a href="https://bit.ly/mitoujr-q-box" class="button">» 匿名質問箱で質問する</a>
+<a href="/#faq" class="button">よくある質問</a>
+<a href="https://bit.ly/mitoujr-q-box" class="button">匿名質問箱で質問する</a>
