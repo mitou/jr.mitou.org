@@ -89,13 +89,13 @@ layout: default
   <p class="subtitle">皆さんのプロジェクトを支援するメンター陣</p>
   <h2 class="s-title">未踏卒業生らを中心に、各界で活躍する<br>エンジニアや専門家がサポートします</h2>
   <div class="pm-list flex">
-  {% for mentor in site.data.pm %}
-  <a href="/mentors#{{mentor.name}}" class="pm-list-one">
-    <img src="/assets/img/pm/{{mentor.img}}" alt="{{mentor.name}}">
-    <p class="pm-list-name pc">{{mentor.name}}</p>
-    <p class="pm-list-af pc">{{mentor.affiliation}}</p>
-  </a>
-  {% endfor %}
+    {% for mentor in site.data.pm %}
+    <a href="/mentors#{{mentor.name}}" class="pm-list-one">
+      <img src="/assets/img/pm/{{mentor.img}}" alt="{{mentor.name}}">
+      <p class="pm-list-name pc">{{mentor.name}}</p>
+      <p class="pm-list-af pc">{{mentor.affiliation}}</p>
+    </a>
+    {% endfor %}
   </div>
   <a href="/mentors" class="button">こんな人・こんな提案を<br>待っています</a>
 </section>
