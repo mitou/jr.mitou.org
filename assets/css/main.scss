@@ -234,11 +234,11 @@ footer{
     display: block;
     position: absolute;
     top: 50%;
-    width: calc((96vw - 100%)/2);
+    width: 36px;
     height: 3px;
   }
   &::before{
-    margin-left: calc( -1 * ((96vw - 100%)/2) - 8px);
+    margin-left: calc( -36px - 8px);
   }
   &::after{
     margin-left: calc(100% + 8px);
