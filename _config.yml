@@ -4,7 +4,7 @@ description: >-
 twitter_username: mitoujr
 
 # the base hostname & protocol for your site, e.g. http://example.com
-url:     "https://jr-staging.mitou.org"
+url:     "https://jr.mitou.org"
 baseurl: "/" # the subpath of your site, e.g. /blog
 
 # Build settings
