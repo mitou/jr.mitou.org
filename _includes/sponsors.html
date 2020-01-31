@@ -1,5 +1,6 @@
 <!-- 以下スポンサー様一覧のHTMLです。
   HTMLは/_includes/sponsors.htmlを、スポンサー情報は/_data/sponsors.ymlを参照してください。 -->
+
 <section id="sponsors">
   <h2 class="heading-line">スポンサー</h2>
   <h3>ゴールドスポンサー</h3>
@@ -43,6 +44,7 @@
     </a>
     {% endfor %}
   </div>
+
   <h3>メディアパートナー</h3>
   <div class="sponsors-list-media">
     {% for sponsor in site.data.sponsors.media %}
@@ -51,10 +53,13 @@
     </a>
     {% endfor %}
   </div>
+
   <p>未踏ジュニア実行委員会では、未踏ジュニアの継続的な活動を支援して頂けるスポンサー様を随時募集しております。</p>
   <p>興味を持って頂いた法人・個人の方は <a href="mailto:jr@mitou.org"><i>jr@mitou.org</i></a> までご連絡頂けますでしょうか。</p>
+
 </section>
-<section id="supporter">
+
+<section id="supporters">
   <h2>後援</h2>
   <div class="sponsors-list-supporter">
     <a href="https://www.mext.go.jp/">
@@ -69,7 +74,8 @@
     </a>
   </div>
 </section>
-<section id="collaborator">
+
+<section id="collaborators">
   <h2>協力団体</h2>
   <div class="sponsors-list-clb">
     {% for c in site.data.collaborator %}
