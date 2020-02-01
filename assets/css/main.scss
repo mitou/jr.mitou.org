@@ -573,6 +573,13 @@ footer{
   width: calc(50% - 20px);
 }
 
+.sponsor-supporter, .sponsor-clb {
+  img {
+    border-radius: 5px;
+    margin-bottom: 4px;
+  }
+}
+
 .sv-right{
   float: left;
   width: 50%;
@@ -605,8 +612,7 @@ footer{
 #about{
   background-color: $lightgray;
 }
-#supporters{}
-#faq, #collaborators,#results{
+#faq, #supporters, #collaborators,#results{
   background-color: $lightgray;
 }
 .lets-apply{
