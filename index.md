@@ -59,10 +59,10 @@ layout: default
 
 <section id="results">
   <h2 class="heading-line">2019年度のクリエータ</h2>
-  <p>
-    2019年度は127件の応募が集まり、<br class="ph">13プロジェクト・17名を採択しました。<br>
+  <p>2019年度は127件の応募が集まり、<br class="ph">13プロジェクト・17名を採択しました。<br>
     (☆ は未踏ジュニアスーパークリエータ認定者)</p>
-  <ul class="list-none">
+
+  <ul class="list-none" style="margin-top: 40px;">
     {% for pj in site.data.projects.nineteen %}
       {% include sp-creator.html %}
     {% endfor %}
