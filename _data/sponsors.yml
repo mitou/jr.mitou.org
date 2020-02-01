@@ -1,31 +1,24 @@
+# こんな感じで書きます ;)
+# - name: 会社名
+#    img: /assets/img/sponsor 内の画像ファイルパス
+#    url: 会社のホームページ
+
 gold: # ゴールドスポンサー
-  # - name: 会社名
-  #  img: /assets/img/sponsor 内のロゴ写真のパス
-  #  url: 会社のホームページ
   - name: 公益財団法人江副記念リクルート財団
     img: recruit-foundation.png
     url: https://www.recruit-foundation.org/
 
 silver: # シルバースポンサー
-  # - name: 会社名
-  #  img: /assets/img/sponsor 内のロゴ写真のパス
-  #  url: 会社のホームページ
   - name: 合同会社DMM.com
     img: dmm.png
     url: https://www.dmm.com/
 
 bronze: # ブロンズスポンサー
-  # - name: 会社名
-  #  img: /assets/img/sponsor 内のロゴ写真のパス
-  #  url: 会社のホームページ
   - name: 株式会社プロコミット
     img: pro-commit.png
     url: https://www.procommit.co.jp/
 
 equipment: # 機材・教材提供
-  # - name: 会社名
-  #  img: /assets/img/sponsor 内のロゴ写真のパス
-  #  url: 会社のホームページ
   - name: 株式会社アイデミー
     img: aidemy.png
     url: https://aidemy.net/
@@ -51,9 +44,6 @@ equipment: # 機材・教材提供
     url: https://yasslab.jp/ja/
 
 media: # メディアパートナー
-  # - name: 会社名
-  #  img: /assets/img/sponsor 内のロゴ写真のパス
-  #  url: 会社のホームページ
   - name: エドテックジン
     img: ed-tech-zine.png
     url: https://edtechzine.jp/
