@@ -68,9 +68,14 @@ title: メンター紹介
       <img src="/assets/img/pm/ukai.png" alt="鵜飼 佑" class="pm-img">
     <div class="pm-info">
       <h3 class="pm-name">鵜飼 佑</h3>
+      <div class="pm-sns">
+        <a href="https://www.facebook.com/ukai.yu"><i class="fab fa-facebook-square green"></i></a>
+	<a href="https://twitter.com/ukkaripon"><i class="fab fa-twitter-square green"></i></a>
+      </div>
     </div>
     <div class="pm-comment text-left">
-      <p>メンターも兼任しているので、<a href="/mentors#鵜飼佑">こちら</a>を参照。</p>
+      <h4>略歴</h4>
+      <p>メンターも兼任しています。詳細は<a href="/mentors#鵜飼佑">メンター欄</a>を参照。</p>
     </div>
   </div>
 </div>
