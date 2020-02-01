@@ -58,6 +58,11 @@ section{
   bottom: 24px;
   font-weight: 500;
   font-size: 14px;
+  transition: all .3s;
+  &:hover{
+    opacity: 0.9;
+    font-weight: bold;
+  }
 }
 .ph{
   display: none;
