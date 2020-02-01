@@ -5,10 +5,10 @@ title: メンター紹介
 
 <div class="pms flex">
   {% for pm in site.data.pm %}
-    <div class="pm" id="{{ pm.name }}">
-      <img src="/assets/img/pm/{{ pm.img }}" alt="{{ pm.name }}" class="pm-img">
+    <div class="pm" id="{{ pm.name.last }}{{ pm.name.first }}">
+      <img src="/assets/img/pm/{{ pm.img }}" alt="{{ pm.name.last }} {{ pm.name.first }}" class="pm-img">
       <div class="pm-info">
-        <h3 class="pm-name">{{ pm.name }}</h3>
+        <h3 class="pm-name">{{ pm.name.last }} {{ pm.name.first }}</h3>
         <p>{{ pm.affiliation }}</p>
         <div class="pm-sns">
           {% if pm.facebook %}<a href="https://www.facebook.com/{{ pm.facebook }}"><i class="fab fa-facebook-square green"></i></a>{% endif %}
@@ -70,7 +70,7 @@ title: メンター紹介
       <h3 class="pm-name">鵜飼 佑</h3>
     </div>
     <div class="pm-comment text-left">
-      <p>メンターも兼任しているので、<a href="/mentors#鵜飼%20佑">こちら</a>を参照。</p>
+      <p>メンターも兼任しているので、<a href="/mentors#鵜飼佑">こちら</a>を参照。</p>
     </div>
   </div>
 </div>
