@@ -40,7 +40,7 @@ layout: default
 <section>
   <h2 class="heading-balloon">応募者向け情報まとめ</h2>
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
-  <img src="/assets/img/MovieToCreator.png" alt="Movies for Prospective Creators" width="100%"></a>
+  <img src="/assets/img/MovieToCreator.png" alt="Movies for Prospective Creators" width="100%" loading="lazy"></a>
   <p style="font-size: 96%;">応募者に役立つ動画を YouTube で公開しています。<br>質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="https://bit.ly/mitoujr-q-box">匿名質問箱</a>でも受付中！</p>
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTubeで視聴する</a>
 </section>
@@ -74,7 +74,7 @@ layout: default
     <div class="project" id="{{ pj.id }}">
       <h3>{{ pj.title }}</h3>
       <p>{{ pj.name }} ({{ pj.pm }}PM)</p>
-      <a href="https://www.youtube.com/watch?v={{pj.youtube}}"><img src="/assets/img/thumbnails/{{ pj.thumbnail }}" alt="{{ pj.title }}" /></a>
+      <a href="https://www.youtube.com/watch?v={{pj.youtube}}"><img src="/assets/img/thumbnails/{{ pj.thumbnail }}" alt="{{ pj.title }}" loading="lazy" /></a>
       <h4>概要</h4>
       <p>{{ pj.description }}</p>
       {% if pj.comment %}
@@ -93,7 +93,7 @@ layout: default
   <div class="pm-list flex">
     {% for mentor in site.data.pm %}
     <a href="/mentors#{{ mentor.name.last }}{{ mentor.name.first }}" class="pm-list-one">
-      <img src="/assets/img/pm/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}">
+      <img src="/assets/img/pm/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" loading="lazy">
       <p class="pm-list-name">{{ mentor.name.last }} <span class="pc-inline-b">{{ mentor.name.first }}</span></p>
       <p class="pm-list-af pc">{{ mentor.affiliation }}</p>
     </a>
@@ -108,8 +108,8 @@ layout: default
 <section id="organizer">
   <h2 class="heading-line">運営団体</h2>
   <p></p>
-  <a href="https://www.mitou.org/"><img src="/assets/img/mitou-foundation.png" alt="一般社団法人未踏"></a>
-  
+  <a href="https://www.mitou.org/"><img src="/assets/img/mitou-foundation.png" alt="一般社団法人未踏" loading="lazy"></a>
+
   <p><a href="https://www.mitou.org/">一般社団法人未踏</a>（Mitou Foundation、所在地：東京都渋谷区、代表理事：竹内 郁雄）は、経済産業省所管の独立行政法人情報処理推進機構（IPA、所在地：東京都文京区、理事長：富田 達夫）の事業である<a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">未踏事業</a>の OB/OG や関係者を中心に、起業家やクリエータ等、天才的かつ創造的人材を多角的に支援し、日本横断的なネットワークをつくることで、IT を中心とした日本のイノベーションを加速させることを目的に設立された社団法人です。</p>
 </section>
 
