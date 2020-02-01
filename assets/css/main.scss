@@ -487,14 +487,10 @@ footer{
   padding: 12px;
   width: 25%;
   @media screen and (max-width:$phone-width) {
-    width: 100%;
+    width: 50%;
   }
-  h3{
-    text-align: center;
-  }
-  i{
-    font-size: 48px;
-  }
+  h3{ text-align: center; }
+  i { font-size: 48px; }
 }
 .service-img{
   max-width: 80%;

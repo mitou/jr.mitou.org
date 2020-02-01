@@ -14,17 +14,17 @@ layout: default
   <div class="service flex">
     <div class="service-one">
       <img src="/assets/img/illustration/mentor.svg" alt="メンター" class="service-img">
-      <h3>メンタリングの提供</h3>
+      <h3>メンタリング</h3>
       <p>未踏卒業生らを中心に、各界で活躍する<br class="ph"><a href="#mentors">エンジニアや専門家</a>からサポートが得られます</p>
     </div>
     <div class="service-one">
       <img src="/assets/img/illustration/money.svg" alt="資金" class="service-img">
-      <h3>開発資金の援助</h3>
+      <h3>開発資金</h3>
       <p>各グループ50万円を上限として、<br class="ph">開発資金の援助があります</p>
     </div>
     <div class="service-one">
       <img src="/assets/img/illustration/place.svg" alt="開発場所" class="service-img">
-      <h3>開発場所の支援</h3>
+      <h3>開発場所</h3>
       <p>必要に応じて、開発場所および工作機材の支援が得られます</p>
     </div>
     <div class="service-one">
