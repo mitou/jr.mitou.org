@@ -457,6 +457,9 @@ footer{
   p{
     margin-top: .1em;
   }
+  img{
+    width: 100%;
+  }
   @media screen and (max-width:$phone-width) {
     padding: 2vw;
     width: calc(100% - 16px);
