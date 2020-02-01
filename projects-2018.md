@@ -6,7 +6,7 @@ permalink: projects/2018
 
   <h2>2018年度の採択者及び成果</h2>
   <p>2018年度は、105件の応募中、12プロジェクト14人を採択しました。（☆は未踏ジュニアスーパークリエータに認定されました）</p>
-  <ul class="list-none">
+  <ul class="project-list">
     {% for pj in site.data.projects.eighteen %}
       {% include sp-creator.html %}
     {% endfor %}
