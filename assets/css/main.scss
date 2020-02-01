@@ -560,9 +560,15 @@ footer{
       content: '';
       display: block;
       background-color: $sub-color;
-      width: 20%;
       height: 8px;
       margin: -12px auto 0;
+      width: 20%;
+      @media screen and (max-width: $header-phone) {
+	width: 25%;
+      }
+      @media screen and (max-width: $phone-width) {
+	width: 45%;
+      }
     }
   }
 }
