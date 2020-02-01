@@ -50,7 +50,7 @@ layout: default
   <h2 class="heading-line"><i class="far fa-newspaper green"></i> メディア掲載</h2>
   <ul class="list-none media-list">
     {% for article in site.data.articles limit:10 %}
-    <li><span class="media-pc-date">{{ article.date }}</span><a href="{{ article.url }}" target="_blank">{{ article.title }} <span class="media-ph-date">- {{ article.date }}</span></a></li>
+    <li><span class="media-pc-date pc-inline-b">{{ article.date }}</span><a href="{{ article.url }}" target="_blank">{{ article.title }} <span class="ph-inline-b">- {{ article.date }}</span></a></li>
     {% endfor %}
   </ul>
   <a href="/media" class="button">すべて見る</a>
@@ -92,7 +92,7 @@ layout: default
     {% for mentor in site.data.pm %}
     <a href="/mentors#{{ mentor.name.last }}{{ mentor.name.first }}" class="pm-list-one">
       <img src="/assets/img/pm/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}">
-      <p class="pm-list-name pc">{{ mentor.name.last }} {{ mentor.name.first }}</p>
+      <p class="pm-list-name">{{ mentor.name.last }} <span class="pc-inline-b">{{ mentor.name.first }}</span></p>
       <p class="pm-list-af pc">{{ mentor.affiliation }}</p>
     </a>
     {% endfor %}
@@ -127,7 +127,7 @@ layout: default
 <section id="contact">
   <h2 class="heading-line">お問い合わせ</h2>
   <p></p>
-  
+
   <i class="fas fa-envelope green" style="font-size:36px;"></i><br>
   <a href="mailto:jr@mitou.org">jr@mitou.org</a>
 
