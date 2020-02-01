@@ -187,7 +187,7 @@ footer{
   margin-top: 20px;
   padding: 40px 0;
   a {
-    padding: 5px 15px;    
+    padding: 5px 15px;
     display: inline-block;
   }
   .sns {
@@ -483,19 +483,28 @@ footer{
 .results-radio:checked + .results-pjs{
   display: block;
 }
+.service{
+  @media screen and (max-width:$phone-width) {
+    display: block;
+  }
+}
 .service-one{
   padding: 12px;
   width: 25%;
   @media screen and (max-width:$phone-width) {
-    width: 50%;
+    width: 100%;
+    margin: 36px 0;
   }
-  h3{ text-align: center; }
-  i { font-size: 48px; }
+  h3{ text-align: center; margin: 12px 0;}
+  i { font-size: 48px; margin: 8px 0;}
 }
 .service-img{
   max-width: 80%;
   margin: -24px 0 -36px;
   height: 50%;
+  @media screen and (max-width:$phone-width) {
+    max-width: 50%;
+  }
 }
 
 #organizer{
