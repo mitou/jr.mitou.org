@@ -34,7 +34,9 @@
 
 それぞれの項目は以下のような内容です。
 ```yml
-- name: 名前（例：安川 要平）
+- name:
+    last: 名字（例：安川）
+    first: 名前 (例: 要平)
   img: 顔写真のパス
   affiliation: 所属（例：YassLab 株式会社, 一般社団法人 CoderDojo Japan）
   interested: こんな提案をお待ちしております（例：スクリプト言語やWebの特長を活かした…（略））
