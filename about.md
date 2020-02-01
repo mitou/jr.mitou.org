@@ -12,7 +12,7 @@ title: 未踏ジュニアとは
 
 [未踏事業](https://www.ipa.go.jp/jinzai/mitou/outline.html)という、経産省所管の独立行政法人情報処理推進機構が主催し実施している、優秀な25歳以下の若者を支援するプログラムがあります。そして、そのOB・OGがボランティアで運営しているのが、**未踏ジュニア** です。
 
-<a href="https://www.ipa.go.jp/jinzai/mitou/outline.html" class="button" target="_blank">未踏事業について詳しく知る</a>
+<a href="https://www.ipa.go.jp/jinzai/mitou/outline.html" class="button" target="_blank">未踏事業について</a>
 
 ## 支援
 ### メンタリングの提供
