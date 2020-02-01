@@ -16,7 +16,7 @@ title: 未踏ジュニア採択プロジェクト
       {% else %}
       <span>　 </span>
       {% endif %}
-      {{ pj.name }} {{ pj.title }}
+      <a href="/projects/2019#{{ pj.id }}">{{ pj.name }} {{ pj.title }}</a>
     </li>
     {% endfor %}
   </ul>
@@ -31,7 +31,7 @@ title: 未踏ジュニア採択プロジェクト
       {% else %}
       <span>　 </span>
       {% endif %}
-      {{ pj.name }} {{ pj.title }}
+      <a href="/projects/2018#{{ pj.id }}">{{ pj.name }} {{ pj.title }}</a>
     </li>
     {% endfor %}
   </ul>
@@ -46,7 +46,7 @@ title: 未踏ジュニア採択プロジェクト
       {% else %}
       <span>　 </span>
       {% endif %}
-      {{ pj.name }} {{ pj.title }}
+      <a href="/projects/2017#{{ pj.id }}">{{ pj.name }} {{ pj.title }}</a>
     </li>
     {% endfor %}
   </ul>
@@ -61,7 +61,7 @@ title: 未踏ジュニア採択プロジェクト
       {% else %}
       <span>　 </span>
       {% endif %}
-      {{ pj.name }} {{ pj.title }}
+      <a href="/projects/2016#{{ pj.id }}">{{ pj.name }} {{ pj.title }}</a>
     </li>
     {% endfor %}
   </ul>
