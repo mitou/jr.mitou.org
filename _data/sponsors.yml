@@ -19,7 +19,7 @@ bronze: # ブロンズスポンサー
   #  img: /assets/img/sponsor 内のロゴ写真のパス
   #  url: 会社のホームページ
   - name: 株式会社プロコミット
-    img: ProCommit_logo.png
+    img: pro-commit.png
     url: https://www.procommit.co.jp/
 
 equipment: # 機材・教材提供
