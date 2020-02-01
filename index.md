@@ -85,6 +85,9 @@ layout: default
     </div>
     {% endfor %}
   </div>
+
+  <a href="/projects" class="button">これまでの採択例を見る</a>
+
 </section>
 
 <section id="mentors">
