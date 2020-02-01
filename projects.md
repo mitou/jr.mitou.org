@@ -16,7 +16,7 @@ title: 未踏ジュニア採択プロジェクト
       {% else %}
       <span>　 </span>
       {% endif %}
-      {{pj.name}} {{pj.title}}
+      {{ pj.name }} {{ pj.title }}
     </li>
     {% endfor %}
   </ul>
@@ -31,7 +31,7 @@ title: 未踏ジュニア採択プロジェクト
       {% else %}
       <span>　 </span>
       {% endif %}
-      {{pj.name}} {{pj.title}}
+      {{ pj.name }} {{ pj.title }}
     </li>
     {% endfor %}
   </ul>
@@ -46,7 +46,7 @@ title: 未踏ジュニア採択プロジェクト
       {% else %}
       <span>　 </span>
       {% endif %}
-      {{pj.name}} {{pj.title}}
+      {{ pj.name }} {{ pj.title }}
     </li>
     {% endfor %}
   </ul>
@@ -61,7 +61,7 @@ title: 未踏ジュニア採択プロジェクト
       {% else %}
       <span>　 </span>
       {% endif %}
-      {{pj.name}} {{pj.title}}
+      {{ pj.name }} {{ pj.title }}
     </li>
     {% endfor %}
   </ul>

@@ -1,13 +1,13 @@
-<div class="project" id="{{pj.id}}">
-  <h3 class="project-title">{{pj.title}}</h3>
-  <p>{{pj.name}} ({{pj.pm}}PM)</p>
+<div class="project" id="{{ pj.id }}">
+  <h3 class="project-title">{{ pj.title }}</h3>
+  <p>{{ pj.name }} ({{ pj.pm }}PM)</p>
   <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/{{pj.youtube}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
   </div>
   <h4>概要</h4>
-  <p>{{pj.description}}</p>
+  <p>{{ pj.description }}</p>
   {% if pj.comment %}
-  <h4>{{pj.pm}}PMより一言</h4>
-  <p>{{pj.comment}}</p>
+  <h4>{{ pj.pm }}PMより一言</h4>
+  <p>{{ pj.comment }}</p>
   {% endif %}
 </div>
