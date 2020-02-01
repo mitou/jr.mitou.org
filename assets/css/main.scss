@@ -177,9 +177,9 @@ header{
 
 
 .button{
-  color: #fff;
-  background-color: $main-color;
-  border: solid $main-color 4px;
+  color: #000;
+  background-color: $sub-color;
+  border: solid #000 2px;
   border-radius: 6px;
   display: block;
   font-weight: bold;
@@ -190,10 +190,11 @@ header{
   transition: .3s;
   width: 30%;
   min-width: 240px;
+  position: relative;
+  box-shadow: 4px 4px 0 1px #000;
   &:hover{
-    background-color: #fff;
-    color: $main-color;
-    transition: .3s;
+    box-shadow: none;
+    transform: translateX(4px)  translateY(4px);
   }
   &::before{
     content: '» ';
