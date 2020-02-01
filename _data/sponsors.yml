@@ -10,7 +10,7 @@ gold: # ゴールドスポンサー
 
 silver: # シルバースポンサー
   - name: 合同会社DMM.com
-    img: dmm.png
+    img: DMM.png
     url: https://www.dmm.com/
 
 bronze: # ブロンズスポンサー
