@@ -3,6 +3,7 @@
 $main-color: rgb(40, 161, 58);
 $text-green: rgb(14, 110, 52);
 $shadow-color: rgba($main-color,0.3);
+$sub-color: #ffed4d;
 $lightgray: #eff2f6;
 $phone-width: 800px;
 $header-phone: 950px;
@@ -515,7 +516,17 @@ footer{
 }
 
 #sponsors{
-  h3 { margin-bottom: 1.7em; }
+  h3 {
+    margin-bottom: 1.7em;
+    &::after{
+      content: '';
+      display: block;
+      background-color: $sub-color;
+      width: 20%;
+      height: 8px;
+      margin: -12px auto 0;
+    }
+  }
 }
 .sponsor-one{
   margin: auto;
