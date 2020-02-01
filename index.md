@@ -15,12 +15,12 @@ layout: default
     <div class="service-one">
       <img src="/assets/img/illustration/mentor.svg" alt="メンター" class="service-img">
       <h3>メンタリング</h3>
-      <p>未踏卒業生らを中心に、各界で活躍する<br class="ph"><a href="#mentors">エンジニアや専門家</a>からサポートが得られます</p>
+      <p>未踏卒業生らを中心に、各界で活躍する<a href="#mentors">エンジニアや専門家</a>からサポートが得られます</p>
     </div>
     <div class="service-one">
       <img src="/assets/img/illustration/money.svg" alt="資金" class="service-img">
       <h3>開発資金</h3>
-      <p>各グループ50万円を上限として、<br class="ph">開発資金の援助があります</p>
+      <p>各グループ50万円を上限として、開発資金の援助があります</p>
     </div>
     <div class="service-one">
       <img src="/assets/img/illustration/place.svg" alt="開発場所" class="service-img">
@@ -30,7 +30,7 @@ layout: default
     <div class="service-one">
       <img src="/assets/img/illustration/sp-creator.svg" alt="スーパークリエータ認定" class="service-img">
       <h3>スーパークリエータ認定</h3>
-      <p>特に顕著な成果を残したクリエータを未踏ジュニアスーパークリエータとして認定します。<a href="https://www.sfc.keio.ac.jp/news/012903.html">慶應義塾大学SFC</a>や<a href="https://www.tmu.ac.jp/entrance/revision/y2021/tayou.html">首都大学東京</a>に推薦枠で出願できます</p>
+      <p>特に顕著な成果を残した方を未踏ジュニアスーパークリエータとして認定します。<a href="https://www.sfc.keio.ac.jp/news/012903.html">慶應義塾大学SFC</a>や<a href="https://www.tmu.ac.jp/entrance/revision/y2021/tayou.html">首都大学東京</a>に推薦枠で出願できます</p>
     </div>
     <a href="/about" class="button">詳細を見る</a>
   </div>
