@@ -50,7 +50,7 @@ layout: default
 <section id="articles">
   <h2 class="heading-line"><i class="far fa-newspaper green"></i> メディア掲載</h2>
   <ul class="list-none media-list">
-    {% for article in site.data.articles limit:10 %}
+    {% for article in site.data.articles limit:5 %}
     <li><span class="media-pc-date pc-inline-b">{{ article.date }}</span><a href="{{ article.url }}" target="_blank">{{ article.title }} <span class="ph-inline-b">- {{ article.date }}</span></a></li>
     {% endfor %}
   </ul>
