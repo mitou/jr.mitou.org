@@ -21,6 +21,7 @@ title: 未踏ジュニア採択プロジェクト
     {% endfor %}
   </ul>
   <a href="/projects/2019" class="button">2019年度の詳細を見る</a>
+
   <a href="/projects/2018"><h3>2018年度</h3></a>
   <ul class="project-list">
     {% for pj in site.data.projects.eighteen %}
@@ -35,6 +36,7 @@ title: 未踏ジュニア採択プロジェクト
     {% endfor %}
   </ul>
   <a href="/projects/2018" class="button">2018年度の詳細を見る</a>
+
   <a href="/projects/2017"><h3>2017年度</h3></a>
   <ul class="project-list">
     {% for pj in site.data.projects.seventeen %}
@@ -49,6 +51,7 @@ title: 未踏ジュニア採択プロジェクト
     {% endfor %}
   </ul>
   <a href="/projects/2017" class="button">2017年度の詳細を見る</a>
+
   <a href="/projects/2016"><h3>2016年度</h3></a>
   <ul class="project-list">
     {% for pj in site.data.projects.sixteen %}
