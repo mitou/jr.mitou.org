@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 未踏ジュニア採択プロジェクト
+title: 未踏ジュニア<br class="ph">採択プロジェクト
 ---
 
 <div class="">
