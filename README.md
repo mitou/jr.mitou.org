@@ -3,6 +3,18 @@
 # 未踏ジュニア
 [![Cover Photo of Mitou Junior](/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
 
+## ブラウザで情報修正を提案する
+
+多分これが一番簡単だと思います...!! 😆
+
+1. 下記の『更新方法』を参考に、修正を提案したい yml ファイルをクリックする
+2. 画面右にある ✎ アイコン (Fork this project and edit this file) をクリックする
+3. 気になる箇所を修正し、修正内容にタイトルと説明文を付け、Propose file change をクリックする
+4. 修正内容を確認し、問題なければ Create pull request をクリックする
+
+以上で完了です。提案された修正内容は運営チームによって再確認され、問題なければ提案された内容が反映されます。もし修正内容に不具合があっても運営側で気付いて修正するので、まずはお気軽に提案してみてください ;)
+
+
 ## メディア記事の更新方法
 [`_data` 内の `articles.yml`](https://github.com/yuki384/new-mitoujr/blob/master/_data/articles.yml) にメディア掲載記事の情報があります。  
 上が新しい情報になるように記述するとよいでしょう。
