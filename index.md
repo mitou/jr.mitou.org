@@ -62,7 +62,7 @@ layout: default
   <p>2019年度は127件の応募が集まり、<br class="ph">13プロジェクト・17名を採択しました。<br>
     (☆ は未踏ジュニアスーパークリエータ認定者)</p>
 
-  <ul class="project-list" style="margin-top: 40px;">
+  <ul class="project-list" style="margin-top: 40px; width: 60%; margin: auto;">
     {% for pj in site.data.projects.nineteen %}
       {% include sp-creator.html %}
     {% endfor %}
