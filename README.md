@@ -3,8 +3,7 @@
 # 未踏ジュニア
 [![Cover Photo of Mitou Junior](/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
 
-## 更新の方法
-### メディア掲載記事
+## メディア記事の更新方法
 [`_data` 内の `articles.yml`](https://github.com/yuki384/new-mitoujr/blob/master/_data/articles.yml) にメディア掲載記事の情報があります。  
 上が新しい情報になるように記述するとよいでしょう。
 
@@ -15,7 +14,7 @@
   date: 公開日時（例：2019/11/20）
  ```
 
-### プロジェクトの情報
+## プロジェクト情報の更新方法
 [`_data` 内の `projects.yml`](https://github.com/yuki384/new-mitoujr/blob/master/_data/projects.yml) にプロジェクト・クリエーターの情報があります。  
 `ninteen:` の下に記述されているものは2019年度です。年度ごとに分かれています。  
 
@@ -29,7 +28,7 @@
     sp-creator: スーパークリエータかどうか。（例：true）
 ```
 
-### メンターの情報
+## メンター情報の更新方法
 [`_data` 内の `pm.yml`](https://github.com/yuki384/new-mitoujr/blob/master/_data/pm.yml) にメンターの情報があります。 
 
 それぞれの項目は以下のような内容です。
@@ -46,7 +45,41 @@
   github: github ID。（例：yasulab）
   web: サイトとか。
 ```
- 
+
+## (任意) ローカル環境で確認したい
+
+ローカル環境のブラウザで確認したい場合は、
+次の手順でローカルサーバーを立ち上げてください。
+
+```
+# Ruby が入っていることを確認
+$ ruby --version
+
+# 必要なライブラリをインストール
+$ bundle install
+
+# ローカルサーバーを立ち上げる
+$ bundle exec jekyll server
+```
+
+無事にローカルサーバーが立ち上がったら、
+[http://localhost:4000/](http://localhost:4000/) でアクセスできます。
+
+### リンク切れはテストで検知できます
+
+内部リンク (アンカー含む) や `alt` 属性の空欄などは次のコマンドでテストできます。
+
+```bash
+# ローカルサーバーの立ち上げは不要です
+$ bundle exec rake test
+```
+
+テスト内容の詳細は [Rakefile](https://github.com/mitou/jr.mitou.org/blob/master/Rakefile) をご参照ください。
+
+上記テストは [Travis CI](https://travis-ci.org/mitou/jr.mitou.org) 上でも動いていて、
+最新の状態は [GitHub の README](https://github.com/mitou/jr.mitou.org#readme) から確認できます。
+
+
 ## クレジット
 
 Copyright &copy; since 2016
