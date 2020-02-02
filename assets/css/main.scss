@@ -332,7 +332,6 @@ footer{
 }
 .pm-sns{
   font-size: 36px;
-  margin-bottom: 20px;
 }
 .pm-name{
   border-left: 0 !important;
@@ -638,6 +637,7 @@ footer{
   float: left;
   width: 50%;
   padding: 12px;
+  h5 { margin-top: 0px; }
 }
 .sv-left{
   float: left;

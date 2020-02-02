@@ -51,7 +51,7 @@ title: メンター紹介
 <div class="flex">
   <div class="pm">
     <img src="/assets/img/pm/arakawa.png" alt="荒川 淳平" class="pm-img">
-    <div class="pm-info">
+    <div class="pm-info" style="padding-bottom: 20px;">
       <h3 class="pm-name">荒川 淳平</h3>
       <div class="pm-sns">
         <a href="https://www.facebook.com/jumpei.arakawa"><i class="fab fa-facebook-square green"></i></a>
@@ -67,7 +67,7 @@ title: メンター紹介
 
   <div class="pm">
       <img src="/assets/img/pm/ukai.png" alt="鵜飼 佑" class="pm-img">
-    <div class="pm-info">
+    <div class="pm-info" style="padding-bottom: 20px;">
       <h3 class="pm-name">鵜飼 佑</h3>
       <div class="pm-sns">
         <a href="https://www.facebook.com/ukai.yu"><i class="fab fa-facebook-square green"></i></a>
