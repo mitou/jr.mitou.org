@@ -121,12 +121,12 @@ layout: default
 <section id="supporters">
   <h2>後援</h2>
   <div class="sponsors-list-supporter">
-    <a href="https://www.mext.go.jp/">
+    <a href="https://www.mext.go.jp/" target="_blank">
       <div class="sponsor-supporter sponsor-one">
         <img src="/assets/img/sponsor/mext.png" alt="文部科学省" class="sponsor-img">
       </div>
     </a>
-    <a href="https://www.meti.go.jp/" class="sponsor-supporter sponsor-one">
+    <a href="https://www.meti.go.jp/" class="sponsor-supporter sponsor-one" target="_blank">
       <div class="sponsor-supporter sponsor-one">
         <img src="/assets/img/sponsor/meti.png" alt="経済産業省" class="sponsor-img">
       </div>
@@ -138,7 +138,7 @@ layout: default
   <h2>協力団体</h2>
   <div class="sponsors-list-clb">
     {% for c in site.data.collaborator %}
-    <a href="{{c.url}}" class="sponsor-clb sponsor-one">
+    <a href="{{c.url}}" class="sponsor-clb sponsor-one" target="_blank">
       <img src="/assets/img/sponsor/{{c.img}}" alt="{{c.name}}" class="sponsor-img">
     </a>
     {% endfor %}

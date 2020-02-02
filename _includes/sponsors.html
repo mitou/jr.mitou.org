@@ -7,40 +7,40 @@
   <h3>ゴールドスポンサー</h3>
   <div class="sponsors-list-gold">
     {% for sponsor in site.data.sponsors.gold %}
-    <a href="{{sponsor.url}}">
+    <a href="{{sponsor.url}}" target="_blank">
       <div class="sponsor-gold sponsor-one">
         <img src="/assets/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img">
       </div>
     </a>
     {% endfor %}
   </div>
-  
+
   <h3>シルバースポンサー</h3>
   <div class="sponsors-list-silver">
     {% for sponsor in site.data.sponsors.silver %}
-    <a href="{{sponsor.url}}">
+    <a href="{{sponsor.url}}" target="_blank">
       <div class="sponsor-silver sponsor-one">
         <img src="/assets/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img">
       </div>
     </a>
     {% endfor %}
   </div>
-  
+
   <h3>ブロンズスポンサー</h3>
   <div class="sponsors-list-bronze">
     {% for sponsor in site.data.sponsors.bronze %}
-    <a href="{{sponsor.url}}">
+    <a href="{{sponsor.url}}" target="_blank">
       <div class="sponsor-bronze sponsor-one">
         <img src="/assets/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img">
       </div>
     </a>
     {% endfor %}
   </div>
-  
+
   <h3>機材・教材提供</h3>
   <div class="sponsors-list-eq">
     {% for sponsor in site.data.sponsors.equipment %}
-    <a href="{{sponsor.url}}" class="sponsor-eq sponsor-one">
+    <a href="{{sponsor.url}}" class="sponsor-eq sponsor-one" target="_blank">
       <img src="/assets/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img">
     </a>
     {% endfor %}
@@ -49,7 +49,7 @@
   <h3>メディアパートナー</h3>
   <div class="sponsors-list-media">
     {% for sponsor in site.data.sponsors.media %}
-    <a href="{{sponsor.url}}" class="sponsor-media sponsor-one">
+    <a href="{{sponsor.url}}" class="sponsor-media sponsor-one" target="_blank">
       <img src="/assets/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img">
     </a>
     {% endfor %}
