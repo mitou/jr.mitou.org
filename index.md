@@ -146,7 +146,7 @@ layout: default
 <section id="collaborators">
   <h2>協力団体</h2>
   <div class="sponsors-list-clb">
-    {% for c in site.data.collaborator %}
+    {% for c in site.data.collaborators %}
     <a href="{{c.url}}" class="sponsor-clb sponsor-one" target="_blank">
       <img src="/assets/img/sponsor/{{c.img}}" alt="{{c.name}}" class="sponsor-img">
     </a>
