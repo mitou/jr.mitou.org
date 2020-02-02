@@ -4,7 +4,7 @@ title: メンター紹介
 ---
 
 <div class="pms flex">
-  {% for pm in site.data.pm %}
+  {% for pm in site.data.pms %}
     <div class="pm" id="{{ pm.name.last }}{{ pm.name.first }}">
       <img src="/assets/img/pm/{{ pm.img }}" alt="{{ pm.name.last }} {{ pm.name.first }}" class="pm-img">
       <div class="pm-info">
