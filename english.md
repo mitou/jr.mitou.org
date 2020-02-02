@@ -19,8 +19,9 @@ If necessary, places to develop will be provided.
 Creators who have achieved outstanding results are certified as Mitou Junior Super Creators. They're eligible to apply for Admission Office Entrance Examinations of Keio University SFC and Tokyo Metropolitan University.
 
 ## Past Projects
-In 2019, we accepted 13 projects (17 individuals) out of 127 applications. 9 of the creators were certified as Mitou Junior Super Creator. The presentation videos and full information are available <a href="/projects/2019">here</a>. <br>
-In 2018, we accepted 12 projects (14 individuals) out of 105 applications. 6 of the creators were certified as Mitou Junior Super Creator. The presentation videos and full information are available <a href="/projects/2018">here</a>
+In 2019, we accepted 13 projects (17 individuals) out of 127 applications. 9 of the creators were certified as Mitou Junior Super Creator. The presentation videos and full information are available <a href="/projects/2019">here</a>.
+
+In 2018, we accepted 12 projects (14 individuals) out of 105 applications. 6 of the creators were certified as Mitou Junior Super Creator. The presentation videos and full information are available <a href="/projects/2018">here</a>.
 
 <h2>Supporting Public Organizations</h2>
 Mitou Junior is officially recognized and supported by the Ministry of Education, Culture, Sports, Science and Technology, and the Ministry of Economy, Trade and Industry.
