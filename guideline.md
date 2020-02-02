@@ -47,3 +47,4 @@ title: 未踏ジュニアへの応募の手引き
 
 <a href="/#faq" class="button">よくある質問</a>
 <a href="https://bit.ly/mitoujr-q-box" class="button">匿名質問箱で質問する</a>
+<a href="/schedule" class="button">採択後の流れ</a>
