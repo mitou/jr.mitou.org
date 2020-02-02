@@ -57,7 +57,7 @@ layout: default
   <a href="/media" class="button">すべて見る</a>
 </section>
 
-<section id="results">
+<section id="projects">
   <h2 class="heading-line">2019年度のクリエータ</h2>
   <p>2019年度は127件の応募が集まり、<br class="ph">13プロジェクト・17名を採択しました。<br>
     (☆ は未踏ジュニアスーパークリエータ認定者)</p>
@@ -69,19 +69,25 @@ layout: default
   </ul>
   <a href="/projects" class="button">これまでの採択例を見る</a>
 
-  <div class="projects flex">
+  <div class="flex">
     {% for pj in site.data.projects.nineteen %}
     <div class="project" id="{{ pj.id }}">
       <h3>{{ pj.title }}</h3>
       <p>{{ pj.name }} ({{ pj.pm }}PM)</p>
-      <a href="https://www.youtube.com/watch?v={{pj.youtube}}"><img src="/assets/img/thumbnails/{{ pj.thumbnail }}" alt="{{ pj.title }}" loading="lazy" /></a>
+      <a href="https://www.youtube.com/watch?v={{pj.youtube}}">
+	<img src="/assets/img/thumbnails/{{ pj.thumbnail }}" alt="{{ pj.title }}" loading="lazy" />
+      </a>
+
       <h4>概要</h4>
       <p>{{ pj.description }}</p>
+
       {% if pj.comment %}
-      <h4>{{ pj.pm}}PMより一言</h4>
-      <p>{{pj.comment}}</p>
+      <h4>{{ pj.pm }}PMより一言</h4>
+      <p>{{ pj.comment }}</p>
       {% endif %}
-      <a href="https://www.youtube.com/watch?v={{ pj.youtube }}" target="_blank" class="button">発表動画を見る</a>
+
+      <a href="https://www.youtube.com/watch?v={{ pj.youtube }}"
+       target="_blank" class="button">発表動画を見る</a>
     </div>
     {% endfor %}
   </div>

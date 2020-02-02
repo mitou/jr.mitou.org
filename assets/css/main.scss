@@ -180,7 +180,6 @@ header{
   }
 }
 
-
 .button{
   color: #000;
   background-color: $sub-color;
@@ -446,6 +445,7 @@ footer{
     color: #fff;
   }
 }
+
 .project{
   //border-bottom: solid 1px $lightgray;
   background-color: #fff;
@@ -455,12 +455,16 @@ footer{
   padding: 24px;
   text-align: left;
   width: calc(50% - 16px);
+
+  display: flex;
+  flex-direction: column;
   h4{
     font-size: .8em;
     margin: .1em;
   }
   p{
     margin-top: .1em;
+    flex-grow: 1;
   }
   img{
     width: 100%;
