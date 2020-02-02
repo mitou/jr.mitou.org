@@ -321,6 +321,7 @@ footer{
     padding: 4px 0;
   }
 }
+
 .pm{
   padding: 12px;
   margin-top: 18px;
@@ -330,13 +331,13 @@ footer{
   }
 }
 .pm-sns{
-  font-size: 36px;
+  font-size: 30px;
 }
 .pm-name{
   border-left: 0 !important;
   background-color: #fff !important;
   padding: 0 !important;
-  margin-top: 0 !important;
+  margin: 0 auto !important;
 }
 .pm-img{
   width: 40%;
@@ -346,6 +347,9 @@ footer{
 .pm-info{
   float: left;
   width: 60%;
+  p {
+    margin: 0px auto;
+  }
 }
 .pm-comment{
   clear: both;

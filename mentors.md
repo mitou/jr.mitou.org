@@ -10,6 +10,7 @@ title: メンター紹介
       <div class="pm-info">
         <h3 class="pm-name">{{ pm.name.last }} {{ pm.name.first }}</h3>
         <p>{{ pm.affiliation }}</p>
+
         <div class="pm-sns">
           {% if pm.facebook %}<a href="https://www.facebook.com/{{ pm.facebook }}"><i class="fab fa-facebook-square green"></i></a>{% endif %}
           {% if pm.twitter %}<a href="https://twitter.com/{{ pm.twitter }}"><i class="fab fa-twitter-square green"></i></a>{%endif%}
