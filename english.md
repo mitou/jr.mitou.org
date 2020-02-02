@@ -42,9 +42,9 @@ Mitou Junior is officially recognized and supported by the Ministry of Education
   <h3>Gold Sponsor</h3>
   <div class="sponsors-list-gold">
     {% for sponsor in site.data.sponsors.gold %}
-    <a href="{{sponsor.url}}" target="_blank">
+    <a href="{{ sponsor.url }}" target="_blank">
       <div class="sponsor-gold sponsor-one">
-        <img src="/assets/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img">
+        <img src="/assets/img/sponsor/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img">
       </div>
     </a>
     {% endfor %}
@@ -53,9 +53,9 @@ Mitou Junior is officially recognized and supported by the Ministry of Education
   <h3>Silver Sponsor</h3>
   <div class="sponsors-list-silver">
     {% for sponsor in site.data.sponsors.silver %}
-    <a href="{{sponsor.url}}" target="_blank">
+    <a href="{{ sponsor.url }}" target="_blank">
       <div class="sponsor-silver sponsor-one">
-        <img src="/assets/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img">
+        <img src="/assets/img/sponsor/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img">
       </div>
     </a>
     {% endfor %}
@@ -64,9 +64,9 @@ Mitou Junior is officially recognized and supported by the Ministry of Education
   <h3>Bronze Sponsor</h3>
   <div class="sponsors-list-bronze">
     {% for sponsor in site.data.sponsors.bronze %}
-    <a href="{{sponsor.url}}" target="_blank">
+    <a href="{{ sponsor.url }}" target="_blank">
       <div class="sponsor-bronze sponsor-one">
-        <img src="/assets/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img">
+        <img src="/assets/img/sponsor/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img">
       </div>
     </a>
     {% endfor %}
