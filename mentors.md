@@ -31,7 +31,7 @@ title: メンター紹介
 </div>
 
 <h2>スーパーバイザー</h2>
-<div style="overflow:hidden;">
+<div class="sv">
   <div class="sv-left">
     <img src="/assets/img/pm/takeuchi.png" alt="竹内 郁雄" class="sv-img">
     <h3 class="pm-name">竹内 郁雄</h3>

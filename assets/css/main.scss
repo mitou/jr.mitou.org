@@ -397,9 +397,6 @@ footer{
     width: 100%;
   }
 }
-.sv-img{
-  width: 100%;
-}
 
 .post{
   text-align: left;
@@ -661,16 +658,34 @@ footer{
   }
 }
 
-.sv-right{
-  float: left;
-  width: 50%;
-  padding: 12px;
-  h5 { margin-top: 0px; }
+.sv{
+  overflow: hidden;
+  @media screen and (max-width: $phone-width) {
+    text-align: center;
+  }
+}
+.sv-img{
+  width: 100%;
+  @media screen and (max-width: $phone-width) {
+    width: 50%;
+  }
 }
 .sv-left{
   float: left;
-  width: calc(50% - 2px);
   padding: 12px;
+  width: calc(50% - 2px);
+  @media screen and (max-width: $phone-width) {
+    width: 100%;
+  }
+}
+.sv-right{
+  float: left;
+  padding: 12px;
+  h5 { margin-top: 0px; }
+  width: 50%;
+  @media screen and (max-width: $phone-width) {
+    width: 100%;
+  }
 }
 .subtitle{
   margin: 10px 0;
