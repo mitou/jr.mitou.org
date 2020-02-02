@@ -12,9 +12,9 @@ title: メンター紹介
         <p>{{ pm.affiliation }}</p>
         <div class="pm-sns">
           {% if pm.facebook %}<a href="https://www.facebook.com/{{ pm.facebook }}"><i class="fab fa-facebook-square green"></i></a>{% endif %}
-          {% if pm.twitter %}<a href="https://twitter.com/{{pm.twitter}}"><i class="fab fa-twitter-square green"></i></a>{%endif%}
+          {% if pm.twitter %}<a href="https://twitter.com/{{ pm.twitter }}"><i class="fab fa-twitter-square green"></i></a>{%endif%}
           {% if pm.web %}<a href="{{pm.web}}"><i class="fas fa-globe green"></i></a>{% endif %}
-          {% if pm.github %}<a href="https://github.com/{{pm.github}}"><i class="fab fa-github-square green"></i></a>{% endif %}
+          {% if pm.github %}<a href="https://github.com/{{ pm.github }}"><i class="fab fa-github-square green"></i></a>{% endif %}
         </div>
       </div>
 
