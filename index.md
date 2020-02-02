@@ -73,17 +73,17 @@ layout: default
     {% for pj in site.data.projects.nineteen %}
     <div class="project" id="{{ pj.id }}">
       <h3>{{ pj.title }}</h3>
-      <p>{{ pj.name }} ({{ pj.pm }}PM)</p>
-      <a href="https://www.youtube.com/watch?v={{pj.youtube}}">
+      <p class="project-name">{{ pj.name }} ({{ pj.pm }}PM)</p>
+      <a href="https://www.youtube.com/watch?v={{ pj.youtube }}">
 	<img src="/assets/img/thumbnails/{{ pj.thumbnail }}" alt="{{ pj.title }}" loading="lazy" />
       </a>
 
       <h4>概要</h4>
-      <p>{{ pj.description }}</p>
+      <p class="project-description">{{ pj.description }}</p>
 
       {% if pj.comment %}
       <h4>{{ pj.pm }}PMより一言</h4>
-      <p>{{ pj.comment }}</p>
+      <p class="project-comment">{{ pj.comment }}</p>
       {% endif %}
 
       <a href="https://www.youtube.com/watch?v={{ pj.youtube }}"

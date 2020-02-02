@@ -461,9 +461,12 @@ footer{
   h4{
     font-size: .8em;
     margin: .1em;
+    margin-top: 16px;
   }
   p{
     margin-top: .1em;
+  }
+  .project-description, .project-comment p{
     flex-grow: 1;
   }
   img{
