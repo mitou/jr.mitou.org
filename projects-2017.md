@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 未踏ジュニア 2017年度 採択プロジェクト
+title: 2017年度<br>採択プロジェクト
 permalink: projects/2017
 ---
 
