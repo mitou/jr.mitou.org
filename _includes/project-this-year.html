@@ -1,0 +1,19 @@
+{% include project-navigation.html %}
+
+<h2 style="margin-top: 0px;">{{ this_year }}年度の採択者及び成果</h2>
+<p>{{ page.description }}</p>
+
+{% assign projects = site.data.projects | where_exp: "pj", "pj.year == this_year" %}
+<ul class="project-list">
+  {% for pj in projects %}
+    {% include creator.html %}
+  {% endfor %}
+</ul>
+
+<div class="projects flex">
+  {% for pj in projects %}
+    {% include project-details.html %}
+  {% endfor %}
+</div>
+
+{% include project-navigation.html %}
