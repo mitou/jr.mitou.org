@@ -5,7 +5,9 @@ title: 未踏ジュニア<br class="ph">採択プロジェクト
 
 <div class="">
   <h2>採択プロジェクト</h2>
-  <p>今までの採択プロジェクトです。☆はスーパークリエータに認定されました。</p>
+  <p>
+    これまでの採択プロジェクトです。☆はスーパークリエータに認定されました。
+  </p>
 
   {% assign projects_2019 = site.data.projects | where_exp: "pj", "pj.year == 2019" %}
   <a href="/projects/2019"><h3>2019年度</h3></a>
