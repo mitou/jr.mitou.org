@@ -355,6 +355,9 @@ footer{
 }
 .pm-comment{
   clear: both;
+  @media screen and (min-width: $phone-width) {
+    padding-top: 10px;
+  }
 }
 .pm-list{
   margin: 60px 0 -10px;
