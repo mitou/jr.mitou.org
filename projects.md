@@ -3,7 +3,7 @@ layout: post
 title: 未踏ジュニア<br class="ph">採択プロジェクト
 ---
 
-<div>
+<div class="projects">
   <h2>採択プロジェクト</h2>
   <p>
     これまでの採択プロジェクトです。☆はスーパークリエータに認定されました。
@@ -13,5 +13,4 @@ title: 未踏ジュニア<br class="ph">採択プロジェクト
   {% include project-list.html year=2018 %}
   {% include project-list.html year=2017 %}
   {% include project-list.html year=2016 %}
-  
 </div>
