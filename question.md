@@ -12,7 +12,7 @@ title: 未踏ジュニア匿名質問箱
  
 @media screen and (max-width: 600px){
   .iframe-form{
-    height: 800px;
+    height: 830px;
     width:  120%;
     margin-left: -30px;
   }
