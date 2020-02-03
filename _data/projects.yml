@@ -6,8 +6,8 @@
   id: takeda
   youtube: irYt3B7l8yg
   thumbnail: amoyo.png
-  sp-creator: 2019
-  hoge: 2019
+  sp-creator: true
+  year: 2019
 
 - title: DetExploit - Windows用OSS脆弱性スキャナー
   name: 高山 尚樹
