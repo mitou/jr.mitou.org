@@ -73,7 +73,7 @@ layout: default
   <div class="flex">
     {% for pj in projects %}
     <div class="project" id="{{ pj.id }}">
-      <h3>{{ pj.title }}</h3>
+      <h3 class="project-title">{{ pj.title }}</h3>
       <p class="project-name">
 	{{ pj.name | remove: '☆' }}
 	({{ pj.pm }}PM)
