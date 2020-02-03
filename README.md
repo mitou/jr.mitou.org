@@ -28,16 +28,16 @@
 
 ## プロジェクト情報の更新方法
 [`_data` 内の `projects.yml`](https://github.com/yuki384/new-mitoujr/blob/master/_data/projects.yml) にプロジェクト・クリエーターの情報があります。  
-`ninteen:` の下に記述されているものは2019年度です。年度ごとに分かれています。  
 
 それぞれの項目は以下のような内容です。
 ```yml
-  - title: プロジェクトのタイトル (例：UTIPS - 家事の情報共有サービス)
-    name: 名前とPM (例：三橋 優希 (安川PM))
-    description: 概要 (例：家事のやり方を共有するWEBサービスを…（略）)
-    id: リンクを貼るためのid。プロジェクトリーダーの苗字英語表記。(例：mihashi)
-    youtube: YouTube上の発表動画ID。www.youtube.com/watch?v=xxxx の "xxxx" 部分。(例: t8kpeE_sNB0)
-    sp-creator: スーパークリエータかどうか。(例：true)
+- title: プロジェクトのタイトル (例：UTIPS - 家事の情報共有サービス)
+  name: 名前とPM (例：三橋 優希 (安川PM))
+  description: 概要 (例：家事のやり方を共有するWEBサービスを…（略）)
+  id: リンクを貼るためのid。プロジェクトリーダーの苗字英語表記。(例：mihashi)
+  youtube: YouTube上の発表動画ID。www.youtube.com/watch?v=xxxx の "xxxx" 部分。(例: t8kpeE_sNB0)
+  sp-creator: スーパークリエータかどうか。(例：true)
+  year: 何年度の採択プロジェクトか。(例: 2018)
 ```
 
 ## メンター情報の更新方法

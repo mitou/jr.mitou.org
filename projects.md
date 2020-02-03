@@ -7,9 +7,10 @@ title: 未踏ジュニア<br class="ph">採択プロジェクト
   <h2>採択プロジェクト</h2>
   <p>今までの採択プロジェクトです。☆はスーパークリエータに認定されました。</p>
 
+  {% assign projects_2019 = site.data.projects | where_exp: "pj", "pj.year == 2019" %}
   <a href="/projects/2019"><h3>2019年度</h3></a>
   <ul class="project-list">
-    {% for pj in site.data.projects.nineteen %}
+    {% for pj in projects_2019 %}
     <li>
       {% if pj.sp-creator %}
       <span>☆ </span>
@@ -25,9 +26,10 @@ title: 未踏ジュニア<br class="ph">採択プロジェクト
   </ul>
   <a href="/projects/2019" class="button">2019年度の詳細を見る</a>
 
+  {% assign projects_2018 = site.data.projects | where_exp: "pj", "pj.year == 2018" %}
   <a href="/projects/2018"><h3>2018年度</h3></a>
   <ul class="project-list">
-    {% for pj in site.data.projects.eighteen %}
+    {% for pj in projects_2018 %}
     <li>
       {% if pj.sp-creator %}
       <span>☆ </span>
@@ -43,9 +45,10 @@ title: 未踏ジュニア<br class="ph">採択プロジェクト
   </ul>
   <a href="/projects/2018" class="button">2018年度の詳細を見る</a>
 
+  {% assign projects_2017 = site.data.projects | where_exp: "pj", "pj.year == 2017" %}
   <a href="/projects/2017"><h3>2017年度</h3></a>
   <ul class="project-list">
-    {% for pj in site.data.projects.seventeen %}
+    {% for pj in projects_2017 %}
     <li>
       {% if pj.sp-creator %}
       <span>☆ </span>
@@ -61,9 +64,10 @@ title: 未踏ジュニア<br class="ph">採択プロジェクト
   </ul>
   <a href="/projects/2017" class="button">2017年度の詳細を見る</a>
 
+  {% assign projects_2016 = site.data.projects | where_exp: "pj", "pj.year == 2016" %}
   <a href="/projects/2016"><h3>2016年度</h3></a>
   <ul class="project-list">
-    {% for pj in site.data.projects.sixteen %}
+    {% for pj in projects_2016 %}
     <li>
       {% if pj.sp-creator %}
       <span>☆ </span>

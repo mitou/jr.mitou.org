@@ -63,14 +63,17 @@ layout: default
     (☆ は未踏ジュニアスーパークリエータ認定者)</p>
 
   <ul class="project-list responsive-list">
-    {% for pj in site.data.projects.nineteen %}
+    {% assign projects = site.data.projects | where_exp: "pj", "pj.year == 2019" %}
+    {% for pj in projects %}
       {% include sp-creator.html %}
+    {% else %}
+      The collection is empty.
     {% endfor %}
   </ul>
   <a href="/projects" class="button">これまでの採択例を見る</a>
 
   <div class="flex">
-    {% for pj in site.data.projects.nineteen %}
+    {% for pj in projects %}
     <div class="project" id="{{ pj.id }}">
       <h3>{{ pj.title }}</h3>
       <p class="project-name">
