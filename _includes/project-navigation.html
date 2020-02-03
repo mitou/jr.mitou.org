@@ -1,0 +1,14 @@
+{% assign this_year = page.name | remove: ".md" | abs %}
+<ul style="list-style: none; text-align: center; padding: 30px 0px;">
+  {% for year in (2016..2019) reversed %}
+    {% if year == this_year %}
+    <li style="display: inline-block; margin: auto 10px;">
+      <b>» {{ year }}</b>
+    </li>
+    {% else %}
+    <li style="display: inline-block; margin: auto 10px;">
+      <a href="/projects/{{ year }}">{{ year }}</a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

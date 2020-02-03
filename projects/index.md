@@ -13,5 +13,4 @@ title: 未踏ジュニア<br class="ph">採択プロジェクト
     {% include project-list.html year=this_year %}
     <a href="/projects/{{ this_year }}" class="button">{{ this_year }}年度の詳細を見る</a>
   {% endfor %}
-
 </div>
