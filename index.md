@@ -70,7 +70,7 @@ layout: default
   </ul>
   <a href="/projects" class="button">これまでの採択例を見る</a>
 
-  <div class="flex">
+  <div class="projects flex">
     {% for pj in projects %}
       {% include project-details.html thumbnail=true %}
     {% endfor %}
