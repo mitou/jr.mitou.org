@@ -78,7 +78,8 @@ layout: default
 	({{ pj.pm }}PM)
       </p>
       <a href="https://www.youtube.com/watch?v={{ pj.youtube }}">
-	<img src="/assets/img/thumbnails/{{ pj.thumbnail }}" alt="{{ pj.title }}" loading="lazy" />
+	<img src="/assets/img/thumbnails/{{ pj.thumbnail }}" alt="{{ pj.title }}"
+	 class="project-thumbnail" loading="lazy" />
       </a>
 
       <h4>概要</h4>
