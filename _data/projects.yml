@@ -6,7 +6,7 @@
   id: takeda
   youtube: irYt3B7l8yg
   thumbnail: amoyo.png
-  sp-creator: true
+  sp_creator: true
   year: 2019
 
 - title: DetExploit - Windows用OSS脆弱性スキャナー
@@ -16,7 +16,7 @@
   id: takayama
   youtube: 0XUID-IQzEk
   thumbnail: DetExploit.jpg
-  sp-creator: true
+  sp_creator: true
   year: 2019
 
 - title: pirka - 会話を通して成長する人工知能技術
@@ -35,7 +35,7 @@
   id: sakoda
   thumbnail: neulot.png
   youtube: p_GIhnvDfFI
-  sp-creator: true
+  sp_creator: true
   year: 2019
 
 - title: abecobe - シンプルかつ難しいパズルゲーム
@@ -45,7 +45,7 @@
   id: asano
   youtube: B70zjf0Xs6g
   thumbnail: abecobe.jpg
-  sp-creator: true
+  sp_creator: true
   year: 2019
 
 - title: ManageStock - 家庭向け在庫管理アプリ
@@ -64,7 +64,7 @@
   id: watanabe
   youtube: 1ylC6bqWiPg
   thumbnail: relay-master.png
-  sp-creator: true
+  sp_creator: true
   year: 2019
 
 - title: VirtualPresents - 仮想世界で用いるWebサービス
@@ -74,7 +74,7 @@
   id: kunitake
   youtube: p7KZzZLMLoM
   thumbnail: VirtualPresents.png
-  sp-creator: true
+  sp_creator: true
   year: 2019
 
 - title: Edge-guided Anime Characters Generation
@@ -84,7 +84,7 @@
   id: namekata
   youtube: OVD5nw1DA5s
   thumbnail: EACG.png
-  sp-creator: true
+  sp_creator: true
   year: 2019
 
 - title: Mallet - モバイル端末用簡易アプリ開発環境
@@ -94,7 +94,7 @@
   id: matsuda
   youtube: Tw28ieao9uo
   thumbnail: Mallet.jpg
-  sp-creator: true
+  sp_creator: true
   year: 2019
 
 - title: Tea - 仮想経済シミュレーションプラットフォームとゲーム
@@ -132,7 +132,7 @@
   comment: Webサービスの開発が初めてでありながら、サービスのコンセプトやデザイン設計、実装や運用、ヒアリング用のテスト環境の構築などがすべて短期間で終えられた点を評価したい。 また、国内や海外のイベントへの積極的展示、言語別にデータを切り変えたヒアリング、ユーザーと対話・協力しながら進めていくスタイルなど、１歩ずつではあるが確実にWebサービスを改善し続けていた点も評価したい。 自分は何をしたいのか」を大切にして今後も１歩ずつ進んでいって欲しい。
   id: mihashi
   youtube: t8kpeE_sNB0
-  sp-creator: true
+  sp_creator: true
   year: 2018
 
 - title: "Let'sえいごパズル! - 変化するキューブで楽しく学ぶ英単語"
@@ -142,7 +142,7 @@
   comment: 彼は応募以前から各種展示会で小学生向けデバイスの展示をしており、その経験から思いついたアイデアである。ブースト会議でのジュニアOBとの議論を通じて、当初の計画のLEDマトリクスよりも技術的難易度の高い液晶ディスプレイにチャレンジする決断をした。 解像度が高くなったことによるメモリ消費の増加や、赤外線通信の精度に悩まされながらも、小学生が実際に使えるものを作りあげた。実際のユーザの振る舞いを観察して知見を得るところまで限られた時間でやり遂げたことが素晴らしい。 これからも、どんどん作りたいものを作り、どんどん難しいことにチャレンジして欲しい。
   id: hirano
   youtube: gqkjUVzhSBU
-  sp-creator: true
+  sp_creator: true
   year: 2018
 
 - title: スマイル会議室 - IoTで会議室の効率的な利用を
@@ -161,7 +161,7 @@
   comment: 新しいブロックチェーンのコンセンサスアルゴリズムを実際に開発し、デモとして体験できるところまで持ってきたことだけで、十分に大きな評価に値する。今後は、Vreath上で動くDAppsを実現するために開発者を巻き込んでいく必要があるが、末神さんが持つ行動力と、ブロックチェーンに関する深い造詣、なによりも圧倒的な情熱があれば、世界をあっと驚かすようなプロジェクトに成長できる可能性を秘めているので、大人の声に惑わされずどんどん開発を進めていってほしい。
   id: suegami
   youtube: Kq7IuLLNC4Y
-  sp-creator: true
+  sp_creator: true
   year: 2018
 
 - title: Corkboard - 位置的に管理するメモサービス
@@ -198,7 +198,7 @@
   comment: 現代人は様々な事をSNSから学び発信し行動へと繋げている。SNSを通じ遠く珍しい体験と触れる我々は、身近にある発見、感動、体験を忘れていないだろうか。そんな問題にも関わらず、それさえもSNSで解決しようというこのプロジェクトは夢に溢れ、ワクワクとさせる。毎週自ら宣言した目標を着実にこなし開発の早かった藤本さんは実際に多くのユーザーテスト、改善を着実に繰り返した。自ら様々な方と交渉し、広げるための手段を着実にこなす行動力もプロジェクトを大きく進められた理由の一つだろう。この経験を通じて多くの人をワクワクさせるプロダクトを広げる未来を強く期待する。
   id: hujimoto
   youtube: KgnWDTXwHTY
-  sp-creator: true
+  sp_creator: true
   year: 2018
 
 - title: Sound in the forest - 複数のスマートフォンによる「動く音」の表現
@@ -208,7 +208,7 @@
   comment: 浪川さんは、複数のスマートフォン（スマホ）を音源とする、新しい立体音響の表現に挑戦した。ウェブ技術のみを用いたヘテロジニアス分散リアルタイム同期という難しい課題に最後まで苦戦していたが、最終成果報告会では、持ち込んだ16台のスマホでの演奏、そして来場者のスマホを用いた100台弱での「風の音」のデモを成功させ、会場を沸かせた。目標はさらに大規模な実演ということで、まだ課題は多いが、ぜひ実現して欲しい。
   id: namikawa
   youtube: H7SCFi0fp7g
-  sp-creator: true
+  sp_creator: true
   year: 2018
 
 - title: Toubans! -LINEで設定・通知できる当番お知らせサービス
@@ -218,7 +218,7 @@
   comment: ソフトウェアを開発するだけでなく、ユーザーのフィードバックをもとに改善のサイクルを回していった点が素晴らしい。　LINE ボットの仕組みは採択時点で既に動作していたため、未踏ジュニアではユーザーがボットを作成できるシステムの開発に挑戦した。実際に使ってもらうには UI を極力シンプルにする必要があったが、身近な課題から出発したアイデアだったため、地に足のついた開発が出来ていた。今後も興味の幅を広げて様々なことにチャレンジして行って欲しい。
   id: nishimura
   youtube: c1R1h4ihcgw
-  sp-creator: true
+  sp_creator: true
   year: 2018
 
 - title: 写して翻訳
@@ -274,7 +274,7 @@
   comment: スマホアプリ等の開発経験を持っていた事、ストーリーの解析という難しいテーマに対し形態素解析という技術的なアプローチを提案出来ていた事から採択。期間中にサーバサイドでのシナリオ形態の素解析プログラム、クライアントサイドでの感情グラフ化等を実現し、実際に幾つかのシナリオについて分析する事ができた事を高く評価したい。将来性の高いテーマなので、これからの発展に期待したい。
   id: sugano
   youtube: 7o0_Q_nBGi4
-  sp-creator: true
+  sp_creator: true
   year: 2017
 
 - title: 見守りフォトスタンド
@@ -284,7 +284,7 @@
   comment: 祖父を見守りたいというモチベーションで、マイコンを用いてセンサやカメラデータを取得し、サーバサイドでデータベース化およびグラフ化、さらに機械学習を用いた取得画像の分類を行った。 電子工作、サーバ、クライアントと非常に広範な開発をこなす高い技術力を評価して採択。期待以上のエンジニアリング能力を発揮してくれた。これからもその開発力を色々な所で活かして貰いたい。
   id: yano
   youtube: lOrb8nH85qo
-  sp-creator: true
+  sp_creator: true
   year: 2017
 
 - title: Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～
@@ -303,7 +303,7 @@
   comment: プログラミング教材は今まさに群雄割拠である。彼は自身の原体験をもとに、テキストプログラミングに移行しやすいブロックプログラミングの形を模索した。今回のプロジェクトで、プログラムの表現方法を考えるだけでなく、実装して実際にユーザに使ってもらったことは高く評価できる。また、彼自身がさらにプログラミングを学ぶことによって、編み出せるアイデアは大いに広がるだろう。今後も時間の許す限り色々な物を作って欲しい。
   id: kato
   youtube: t0Ho0S08hJI
-  sp-creator: true
+  sp_creator: true
   year: 2017
 
 - title: '"聞く"キーボード'
@@ -331,7 +331,7 @@
   comment: 大野さんと鈴木さんは二人とも十分な開発経験を既に持っており、期間中はプロダクト開発手法を作りながら学ぶことに終始フォーカスできた。今回開発した「vamboo」をリリースさせ、ユーザーテストも行い、OSS として英語で公開した成果には「未来の当たり前」を感じさせられた。未踏コミュニティをうまく活用して、今後は僕らの理解できない未踏の領域を切り開いて欲しい。
   id: ohno
   youtube: fejZIj2K9A8
-  sp-creator: true
+  sp_creator: true
   year: 2017
 
 - title: らくらく読み読み
@@ -341,7 +341,7 @@
   comment: 視力の低下で新聞が読みにくくなった人を助けるアプリを開発しました。開発にあたって、新しいプログラミング言語や視線追跡デバイスの使い方、スライドのデザインなどの技術を楽しみながら学び、自分のものにしていきました。プロジェクトの中盤にはユーザテストを行い、実際の使用者と対話をしながらインタフェースを改良しました。このような進め方は人の役に立つアプリを作るうえで大切です。今回技術的に難しく実現できなかった一部の機能は、今後開発の経験を深めていく中で解決方法を見つけられるでしょう。
   id: otsuka
   youtube: jQA4kApjr8s
-  sp-creator: true
+  sp_creator: true
   year: 2017
 
 # 2016年度

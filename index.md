@@ -65,7 +65,7 @@ layout: default
   {% assign projects = site.data.projects | where_exp: "pj", "pj.year == 2019" %}
   <ul class="project-list responsive-list">
     {% for pj in projects %}
-      {% include sp-creator.html %}
+      {% include creator.html %}
     {% endfor %}
   </ul>
   <a href="/projects" class="button">これまでの採択例を見る</a>

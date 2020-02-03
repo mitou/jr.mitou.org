@@ -36,7 +36,7 @@
   description: 概要 (例：家事のやり方を共有するWEBサービスを…（略）)
   id: リンクを貼るためのid。プロジェクトリーダーの苗字英語表記。(例：mihashi)
   youtube: YouTube上の発表動画ID。www.youtube.com/watch?v=xxxx の "xxxx" 部分。(例: t8kpeE_sNB0)
-  sp-creator: スーパークリエータかどうか。(例：true)
+  sp_creator: スーパークリエータかどうか。(例：true)
   year: 何年度の採択プロジェクトか。(例: 2018)
 ```
 
