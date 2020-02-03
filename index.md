@@ -72,28 +72,7 @@ layout: default
 
   <div class="flex">
     {% for pj in projects %}
-    <div class="project" id="{{ pj.id }}">
-      <h3 class="project-title">{{ pj.title }}</h3>
-      <p class="project-name">
-	{{ pj.name | remove: '☆' }}
-	({{ pj.pm }}PM)
-      </p>
-      <a href="https://www.youtube.com/watch?v={{ pj.youtube }}">
-	<img src="/assets/img/thumbnails/{{ pj.thumbnail }}" alt="{{ pj.title }}"
-	 class="project-thumbnail" loading="lazy" />
-      </a>
-
-      <h4>概要</h4>
-      <p class="project-description">{{ pj.description }}</p>
-
-      {% if pj.comment %}
-      <h4>{{ pj.pm }}PMより一言</h4>
-      <p class="project-comment">{{ pj.comment }}</p>
-      {% endif %}
-
-      <a href="https://www.youtube.com/watch?v={{ pj.youtube }}"
-       target="_blank" class="button">発表動画を見る</a>
-    </div>
+      {% include project-details.html thumbnail=true %}
     {% endfor %}
   </div>
 

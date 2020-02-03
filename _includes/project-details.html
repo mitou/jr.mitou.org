@@ -1,16 +1,31 @@
 <div class="project" id="{{ pj.id }}">
   <h3 class="project-title">{{ pj.title }}</h3>
-  <p>
+  <p class="project-name">
     {{ pj.name | remove: '☆' }}
     ({{ pj.pm }}PM)
   </p>
+
+  {% if include.thumbnail == true %}
+  <a href="https://www.youtube.com/watch?v={{ pj.youtube }}">
+    <img src="/assets/img/thumbnails/{{ pj.thumbnail }}" alt="{{ pj.title }}"
+     class="project-thumbnail" loading="lazy" />
+  </a>
+  {% else %}
   <div class="youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/{{pj.youtube}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
   </div>
+  {% endif %}
+
   <h4>概要</h4>
-  <p>{{ pj.description }}</p>
+  <p class="project-description">{{ pj.description }}</p>
+
   {% if pj.comment %}
   <h4>{{ pj.pm }}PMより一言</h4>
-  <p>{{ pj.comment }}</p>
+  <p class="project-comment">{{ pj.comment }}</p>
+  {% endif %}
+
+  {% if include.thumbnail == true %}
+  <a href="https://www.youtube.com/watch?v={{ pj.youtube }}"
+   target="_blank" class="button">発表動画を見る</a>
   {% endif %}
 </div>
