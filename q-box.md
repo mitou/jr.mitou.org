@@ -19,5 +19,11 @@ title: 未踏ジュニア匿名質問箱
 }
 </style>
 
-<p style="text-align:center; padding: 50px 0px 40px;">未踏ジュニアのPMやクリエータに質問が届く、匿名の質問箱です！</p>
+<p style="text-align:center; padding: 50px 0px 40px;">
+  未踏ジュニアのPMやクリエータに質問が届く、匿名の質問箱です！<br>
+  <a href="https://togetter.com/li/1464437" class="button">これまでの質問まとめ</a>
+</p>
+
+
+
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdIRkBQEOh7OUjlvPD7IZDDVwPlms2rcXBPSpib0w25WRLWnQ/viewform?embedded=true" width="100%" class="iframe-form" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
