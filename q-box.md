@@ -21,7 +21,7 @@ title: 未踏ジュニア匿名質問箱
 
 <p style="text-align:center; padding: 50px 0px 40px;">
   未踏ジュニアのPMやクリエータに質問が届く、匿名の質問箱です！<br>
-  <a href="https://togetter.com/li/1464437" class="button">これまでの質問まとめ</a>
+  <a href="https://togetter.com/li/1464437" class="button" target="_blank">これまでの質問まとめ</a>
 </p>
 
 
