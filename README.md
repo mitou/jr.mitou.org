@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/mitou/jr.mitou.org.svg?branch=master)](https://travis-ci.org/mitou/jr.mitou.org)
 
 # 未踏ジュニア
-[![Cover Photo of Mitou Junior](/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
+[![Cover Photo of Mitou Junior](https://jr.mitou.org/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
 
 ## ブラウザで情報修正を提案する
 
