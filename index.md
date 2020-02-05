@@ -155,4 +155,5 @@ layout: default
 
   <p>お返事が遅くなる場合もありますが、ご了承ください。<br>チラシ配布にご協力頂ける方は<a href="https://forms.gle/RJruEWMpfkzDebz99" target="_blank">コチラ</a>からご請求をお願い致します。
   </p>
+  <a href="/q-box" class="button">匿名質問箱はこちら</a>
 </section>
