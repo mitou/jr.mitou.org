@@ -12,6 +12,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-include-cache"
   # gem 'github-pages' # Uncomment this when being compatible with Jekyl 4.0.0+
+  # You can check latest available versions: https://pages.github.com/versions/
 end
 
 # Windows and JRuby does not include zoneinfo files,
