@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 未踏ジュニアへの<br class="ph">応募の手引き
+title: 応募の手引き
 ---
 
 ## 募集要項
