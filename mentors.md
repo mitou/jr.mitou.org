@@ -3,7 +3,7 @@ layout: post
 title: メンター紹介
 ---
 
-## 2020年度メンター
+## 2020年度メンター陣
 
 <div class="mentors flex">
   {% for mentor in site.data.mentors %}
@@ -25,6 +25,16 @@ title: メンター紹介
       <div class="mentor-comment text-left">
         <h4>こんな人・こんな提案を待っています</h4>
         <p>{{ mentor.interested }}</p>
+
+	<h4>これまでの採択プロジェクト</h4>
+	<ul>
+	  {% assign projects = site.data.projects | where: 'mentor_id', mentor.id %}
+	  {% for pj in projects %}
+	    <li><a href="/projects/{{ pj.year }}#{{ pj.id }}">{{ pj.title }}</a></li>
+	  {% else %}
+	    <li>🆕 今年度より採択開始!</li>
+	  {% endfor %}
+	</ul>
 
         <h4>略歴</h4>
         <p>{{ mentor.bio }}</p>
