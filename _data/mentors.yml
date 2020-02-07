@@ -124,3 +124,26 @@
   facebook: btomasato
   twitter: bto
   img: bto.png
+
+# PM Alumni
+
+- id: sasada_kouichi
+  name:
+    last: 笹田
+    first: 耕一
+  affiliation: クックパッド株式会社
+  interested: アプリケーションを支える基盤技術の開発に熱意を持って取り組める方。
+  bio: 大学在学時からRuby向け仮想マシンYARVを開発し、2007年に「Ruby 1.9」に採用される。以降、Rubyコミッターとして、言語処理系の高速化に従事し、仮想マシンやガーベージコレクションの性能改善などを行なう。東京大学大学院情報理工学系研究科助手、助教、講師、株式会社セールスフォース・ドットコム、Heroku, Inc.を経て、クックパッドにてRubyインタプリタ開発に従事。博士（情報理工学）。未踏ユーススーパークリエータ（2004）。
+  github: ko1
+  img: sasada.png
+
+- id: satou_ayaka
+  name:
+    last: 佐藤
+    first: 彩夏
+  affiliation: クックパッド株式会社
+  interested: 自分自身あるいは具体的な誰かの課題にチャレンジし、その人を幸せにする熱意を持っている人
+  bio: 東京大学大学院学際情報学府博士課程修了。博士（学際情報）。2009年度未踏ユースクリエータ。大学では、ヒューマンコンピュータインタラクション（HCI）の分野において、調理支援、運動支援などの日常生活の行動支援研究に従事。現在、クックパッドのスマートキッチン事業部にて、ハードウェアを含むコンセプト開発およびUXデザインに従事。趣味は家具作り、3Dプリンティング、アクセサリー作りなどのDIY全般。
+  facebook: sugar.ayaka
+  web: https://ayakasato.com/
+  img: sato.png
