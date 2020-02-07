@@ -79,13 +79,12 @@ layout: default
   <h2 class="s-title">未踏卒業生らを中心に、各界で活躍する<br>エンジニアや専門家がサポートします</h2>
   <div class="mentor-list flex">
     {% for mentor in site.data.mentors %}
-    {% unless mentor.is_alumni %}
-    <a href="/mentors#{{ mentor.name.last }}{{ mentor.name.first }}" class="mentor-list-one">
-      <img src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" loading="lazy">
-      <p class="mentor-list-name">{{ mentor.name.last }} <span class="pc-inline-b">{{ mentor.name.first }}</span></p>
-      <p class="mentor-list-af pc">{{ mentor.affiliation }}</p>
-    </a>
-    {% endunless %}
+      {% if mentor.is_alumni %} {% continue %} {% endif %}
+      <a href="/mentors#{{ mentor.name.last }}{{ mentor.name.first }}" class="mentor-list-one">
+        <img src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" loading="lazy">
+	<p class="mentor-list-name">{{ mentor.name.last }} <span class="pc-inline-b">{{ mentor.name.first }}</span></p>
+	<p class="mentor-list-af pc">{{ mentor.affiliation }}</p>
+      </a>
     {% endfor %}
   </div>
   <a href="/mentors" class="button">こんな人・こんな提案を<br>待っています</a>

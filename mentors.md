@@ -5,7 +5,7 @@ title: メンター紹介
 
 <div class="mentors flex">
   {% for mentor in site.data.mentors %}
-    {% unless mentor.is_alumni %}
+    {% if mentor.is_alumni %} {% continue %} {% endif %}
     <div class="mentor" id="{{ mentor.name.last }}{{ mentor.name.first }}">
       <img src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" class="mentor-img">
       <div class="mentor-info">
@@ -28,7 +28,6 @@ title: メンター紹介
         <p>{{ mentor.bio }}</p>
       </div>
     </div>
-    {% endunless %}
   {% endfor %}
 </div>
 
