@@ -4,10 +4,10 @@ title: メディア掲載
 ---
 
 <ul class="list-none media-list">
-  {% for article in site.data.articles %}
+  {% for medium in site.data.media %}
   <li>
-    <span class="media-date">{{ article.date }}</span>
-    <a href="{{ article.url }}">{{ article.title }}</a>
+    <span class="media-date">{{ medium.date }}</span>
+    <a href="{{ medium.url }}">{{ medium.title }}</a>
   </li>
   {% endfor %}
 </ul>

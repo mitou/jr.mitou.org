@@ -16,7 +16,7 @@
 
 
 ## メディア掲載の更新方法
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [`articles.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/articles.yml) にメディア掲載記事の情報があります。  
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [`media.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/media.yml) にメディア掲載記事の情報があります。  
 上が新しい情報になるように記述するとよいでしょう。
 
 それぞれの項目は以下のような内容です。
