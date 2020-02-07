@@ -3,17 +3,7 @@
   {% for pj in projects %}
   <li>
     {% for creator_id in pj.creator_ids %}
-      {% assign creator = site.data.creators | where: "id", creator_id | first %}
-      {% if creator.is_spc %}
-        {% if forloop.index > 1 %} / {% endif %}
-        <span>☆ </span>
-      {% elsif forloop.index == 1 %}
-        <span>　</span>
-      {% elsif forloop.index > 1 %}
-        <span>/</span>
-      {% endif %}
-
-      {{ creator.name }}
+      {% include creator.html %}
     {% endfor %}
 
     <a href="{% unless include.internal_link %}/projects/{{ include.year }}{% endunless %}#{{ pj.id }}">

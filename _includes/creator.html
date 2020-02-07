@@ -1,0 +1,21 @@
+{% assign creator = site.data.creators | where: "id", creator_id | first %}
+
+{% if include.is_simple %}
+  {% if forloop.index > 1 %}
+  <span>/</span>
+  {% endif %}
+
+  {{ creator.name }}
+{% else %}
+  {% if creator.is_spc %}
+    {% if forloop.index > 1 %} / {% endif %}
+    <span>☆ </span>
+  {% elsif forloop.index == 1 %}
+    <span>　</span>
+  {% elsif forloop.index > 1 %}
+    <span>/</span>
+  {% endif %}
+
+  {{ creator.name }}
+{% endif %}
+
