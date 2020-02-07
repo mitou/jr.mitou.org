@@ -1,272 +1,272 @@
 # 2019年度
-- id: takeda
+- id: takeda_kazuki
   project_id: amoyo
   name: 武田 和樹
   sp_creator: true
   year: 2019
 
-- id: takayama
+- id: takayama_naoki
   project_id: det_exploit
   name: 高山 尚樹
   sp_creator: true
   year: 2019
 
-- id: itoi
+- id: itoi_mamoru
   project_id: pirka
   name: 糸井 主歩
   year: 2019
 
-- id: sakoda
+- id: sakoda_yamato
   project_id: neulot
   name: 迫田 大翔
   sp_creator: true
   year: 2019
 
-- id: asano
+- id: asano_kei
   project_id: abecobe
   name: 浅野 啓
   sp_creator: true
   year: 2019
 
-- id: onomura
+- id: onomura_takuya
   project_id: manage_stock
   name: 小野村 卓也
   year: 2019
-- id: jounen
+- id: jounen_takumi
   project_id: manage_stock
   name: 上念 匠
   year: 2019
-- id: ishizaki
+- id: ishizaki_sora
   project_id: manage_stock
   name: 石崎 碧空
   year: 2019
 
-- id: watanabe
+- id: watanabe_akihisa
   project_id: relay_master
   name: 渡部 晃久
   sp_creator: true
   year: 2019
 
-- id: kunitake
+- id: kunitake_yuuto
   project_id: virtual_presents
   name: 國武 悠人
   sp_creator: true
   year: 2019
-- id: mori
+- id: mori_yuuki
   project_id: virtual_presents
   name: 森 優貴
   sp_creator: true
   year: 2019
 
-- id: namekata
+- id: namekata_kouichi
   project_id: edge_guided_anime_characters_generation
   name: 行方 光一
   sp_creator: true
   year: 2019
 
-- id: matsuda
+- id: matsuda_katsu
   project_id: mallet
   name: 松田 活
   sp_creator: true
   year: 2019
 
-- id: izumita
+- id: izumita_sumito
   project_id: tea
   name: 和泉田 済人
   year: 2019
 
-- id: kishimoto
+- id: kishimoto_junka
   project_id: fresh_capsule
   name: 岸本 純花
   year: 2019
 
-- id: hirakawa
+- id: hirakawa_haruto
   project_id: smart_vj
   name: 平川 晴常
   year: 2019
 
 # 2018年度
-- id: mihashi
+- id: mihashi_yuuki
   project_id: utips
   name: 三橋 優希
   sp_creator: true
   year: 2018
 
-- id: hirano
+- id: hirano_shoutarou
   project_id: lets_eigo_puzzle
   name: 平野 正太郎
   sp_creator: true
   year: 2018
 
-- id: sato
+- id: satou_rei
   project_id: smile_meeting_room
   name: 佐藤 怜
   year: 2018
 
-- id: suegami
+- id: suegami_sora
   project_id: vreath
   name: 末神 奏宙
   sp_creator: true
   year: 2018
 
-- id: shibahara
+- id: shibahara_yoshinori
   project_id: corkboard
   name: 柴原 佳範
   year: 2018
 
-- id: sueda
+- id: sueda_takahito
   project_id: touch_buy
   name: 末田 貴一
   year: 2018
-- id: takami
+- id: takami_suguru
   project_id: touch_buy
   name: 高見 優
   year: 2018
-- id: sato
+- id: satou_misaki
   project_id: touch_buy
   name: 佐藤 美咲
   year: 2018
 
-- id: saito
+- id: saitou_takeru
   project_id: robot_soccer
   name: 齋藤 尊
   year: 2018
 
-- id: fujimoto
+- id: fujimoto_yui
   project_id: memory_capsule
   name: 藤本 結衣
   sp_creator: true
   year: 2018
 
-- id: namikawa
+- id: namikawa_kousaku
   project_id: sound_in_the_forest
   name: 浪川 洪作
   sp_creator: true
   year: 2018
 
-- id: nishimura
+- id: nishimura_yui
   project_id: toubans
   name: 西村 惟
   sp_creator: true
   year: 2018
 
-- id: kawahara
+- id: kawahara_keitarou
   project_id: camera_translation
   name: 河原 慶太郎
   year: 2018
 
-- id: muto
+- id: mutou_hikaru
   project_id: life_watcher
   name: 武藤 熙麟
   year: 2018
 
 # 2017年度
-- id: sasaki
+- id: sasaki_masato
   project_id: music_reminder
   name: 佐々木 雅斗
   year: 2017
-- id: sutou
+- id: sutou_koutarou
   project_id: music_reminder
   name: 周藤 光太郎
   year: 2017
 
-- id: tanaka
+- id: tanaka_yuutarou
   project_id: papa
   name: 田中 祐太朗
   year: 2017
-- id: nakahara
+- id: nakahara_you
   project_id: papa
   name: 中原 楊
   year: 2017
-- id: nakagawa
+- id: nakagawa_manami
   project_id: papa
   name: 中川 茉奈美
   year: 2017
 
-- id: nakasuji
+- id: nakasuji_ayaka
   project_id: anki_cookie
   name: 中筋 絢香
   year: 2017
 
-- id: sugano
+- id: sugano_kaede
   project_id: narratica
   name: 菅野 楓
   sp_creator: true
   year: 2017
 
-- id: yano
+- id: yano_rei
   project_id: guardian_photo_stand
   name: 矢野 礼伊
   sp_creator: true
   year: 2017
 
-- id: shimoda
+- id: shimoda_tetsunosuke
   project_id: fall_in_friends
   name: 霜田 哲之介
   year: 2017
 
-- id: kato
+- id: kato_syu
   project_id: draw_code
   name: 加藤 周
   sp_creator: true
   year: 2017
 
-- id: nemoto
+- id: nemoto_hibiki
   project_id: listenable_keyboard
   name: 根本 真響
   year: 2017
 
-- id: yamada
+- id: yamada_haruta
   project_id: smile_iot
   name: 山田 陽大
   year: 2017
-- id: adachi
+- id: adachi_motone
   project_id: smile_iot
   name: 足立 素音
   year: 2017
-- id: tajima
+- id: tajima_yuuki
   project_id: smile_iot
   name: 田島 融樹
   year: 2017
-- id: degawa
+- id: degawa_hirokazu
   project_id: smile_iot
   name: 出川 大和
   year: 2017
 
-- id: ohno
+- id: ohno_tomoki
   project_id: vamboo
   name: 大野 智葵
   sp_creator: true
   year: 2017
-- id: suzuki
+- id: suzuki_sousuke
   project_id: vamboo
   name: 鈴木 颯介
   sp_creator: true
   year: 2017
 
-- id: otsuka
+- id: otsuka_rei
   project_id: rakuraku_yomiyomi
   name: 大塚 嶺
   sp_creator: true
   year: 2017
 
 # 2016年度
-- id: fukuzumi
+- id: fukuzumi_jinshirou
   project_id: voice_commander
   name: 福住 仁志朗
   youtube: APUTGg6g0hA
   year: 2016
 
-- id: fukuda
+- id: fukuda_kyouko
   project_id: smart_pen
   name: 福田 恭子
   year: 2016
-- id: kudo
+- id: kudou_reo
   project_id: smart_pen
   name: 工藤 零大
   year: 2016
 
-- id: kimura
+- id: kimura_hiroko
   project_id: vr_picture_book_maker
   name: 木村 皓子
   year: 2016

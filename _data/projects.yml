@@ -1,6 +1,8 @@
 # 2019年度
 - id: amoyo
   title: 編模様 (あもーよ) イラスト手編み支援アプリ
+  creator_ids:
+    - takeda_kazuki
   name: 武田 和樹
   pm: 寺本
   description: 編模様(あもーよ)はイラスト手編みを支援するアプリです。オリジナルの編み図を作り、色が変わるまでの数が表示されることで編み間違いを減らすことができます。自分だけの作品を、時間を忘れて編み続けてしまうほど楽しく簡単に作れるようになります。
@@ -11,6 +13,8 @@
 
 - id: det_exploit
   title: DetExploit - Windows用OSS脆弱性スキャナー
+  creator_ids:
+    - takayama_naoki
   name: 高山 尚樹
   pm: 安川
   description: DetExploitはWindowsにインストールされている脆弱なソフトウェアを検知し、ユーザーに通知するオープンソースの脆弱性スキャナーです。WMIやレジストリなどのWindows独自機能を使い、高精度なスキャンを実現しています。
@@ -21,6 +25,8 @@
 
 - id: pirka
   title: pirka - 会話を通して成長する人工知能技術
+  creator_ids:
+    - itoi_mamoru
   name: 糸井 主歩
   pm: 西尾
   description: pirkaは、チャットで会話するにつれてあなたの言葉遣いや知識を学習し、個性が出る人工知能です。いわば、「世界に一つの、あなただけのAI」。感情や好みまで自分そっくりのその姿に、きっと親近感が湧きます。
@@ -30,6 +36,8 @@
 
 - id: neulot
   title: neulot - 生体信号を用いたインターフェイスの開発
+  creator_id:
+    - sakoda_yamato
   name: 迫田 大翔
   pm: 関
   description: 生体信号を用いて人間の運動推定をすることを目的に、頭皮脳波・表面筋電位を計測するデバイスの設計・開発と、デバイスを用いた動作推定のアルゴリズム開発を行いました。 頭皮脳波の計測では右上肢の運動推定を行うことに成功し、表面筋電位センサについては実際に筋電義手メーカに採用していただくことができました。
@@ -40,6 +48,8 @@
 
 - id: abecobe
   title: abecobe - シンプルかつ難しいパズルゲーム
+  creator_ids:
+    - asano_kei
   name: 浅野 啓
   pm: 鈴木
   description: 正反対な主人公と相棒をゴールにぴったり導くパズルゲーム、abecobeが登場しました。操作は上下左右方向のフリックのみ。２つのキャラクターをぴったりゴールに持っていくだけです。制限時間内にどれだけクリアできるでしょうか？
@@ -50,6 +60,10 @@
 
 - id: manage_stock
   title: ManageStock - 家庭向け在庫管理アプリ
+  creator_ids:
+    - onomura_takuya
+    - jounen_takumi
+    - ishizaki_sora
   name: 小野村 卓也/上念 匠/石崎 碧空
   pm: 佐藤
   description: ティッシュペーパーのような日用品を買い忘れてしまい、困った経験はありませんか？ ManageStock はそのような問題を解決するために、在庫を IoT などを活用して管理するアプリケーションです。
@@ -59,6 +73,8 @@
 
 - id: relay_master
   title: リレーマスター
+  creator_ids:
+    - watanabe_akihisa
   name: 渡部 晃久
   pm: 小室
   description: センサが埋め込まれた特殊なバトンを持って走るだけで，あらゆる運動を解析するシステムを開発しました。データは専用のwebにアップロードして，あなたの運動をAIで分析・最適化します。“リレーマスター” を利用して，プロに匹敵するパフォーマンスを実現してみませんか？
@@ -69,6 +85,9 @@
 
 - id: virtual_presents
   title: VirtualPresents - 仮想世界で用いるWebサービス
+  creator_ids:
+    - kunitake_yuuto
+    - mori_yuuki
   name: 國武 悠人/☆森 優貴
   pm: 石井
   description: 仮想世界を彩るためのWebサービスのあり方を模索するプロジェクトです。仮想世界にWeb上から画像を出稿したり、Twitterのようないいね機能を提供することができます。仮想世界とWebという大きく異なる2つの間の架け橋となる概念を提案しました。
@@ -79,6 +98,8 @@
 
 - id: edge_guided_anime_characters_generation
   title: Edge-guided Anime Characters Generation
+  creator_ids:
+    - namekata_kouichi
   name: 行方 光一
   pm: 鵜飼
   description: 描きかけの線画を自動で完成させることができる、GANをベースとしたシステムを開発した。これを用いることで初心者でも複雑なイラストを簡単に描くことができるようになる。特に本研究ではアニメの顔画像の生成に焦点をあてた。
@@ -89,6 +110,8 @@
 
 - id: mallet
   title: Mallet - モバイル端末用簡易アプリ開発環境
+  creator_ids:
+    - matsuda_katsu
   name: 松田 活
   pm: 笹田
   description: Malletはスマホやタブレットだけで簡単なアプリを作れる開発環境です。プログラミングに不慣れな方でもブロックを組み合わせてコードを書くことができ、作ったアプリを友達や家族と共有することもできます。
@@ -99,6 +122,8 @@
 
 - id: tea
   title: Tea - 仮想経済シミュレーションプラットフォームとゲーム
+  creator_ids:
+    - izumita_sumito
   name: 和泉田 済人
   pm: 米辻
   description: Teaは、仮想経済シミュレーションプラットフォームとそれを使用したゲームです。実際の経済のようなシステムを用意し、ユーザーに自由に貨幣やアイテムの交換をしてもらい、貨幣経済をシミュレーションします。様々な社会システムをシミュレートできます。
@@ -108,6 +133,8 @@
 
 - id: fresh_capsule
   title: fresh capsule - 食材管理アプリ
+  creator_ids:
+    - kishimoto_junka
   name: 岸本 純花
   pm: 寺本
   description: fresh capsuleは、購入した食材の賞味期限を管理する携帯アプリです。 賞味期限が印字されている部分をスマートフォンで撮影すると、賞味期限がアプリ内のリストに落とし込まれます。
@@ -117,6 +144,8 @@
 
 - id: smart_vj
   title: SmartVJ - 参加型の新しいメディアアート
+  creator_ids:
+    - hirakawa_haruto
   name: 平川 晴常
   pm: 神武
   description: スマートフォン1台で誰でも簡単に参加できる体験型のメディアアートです。映像を映し出すPCとスマートフォンがあればスグに遊ぶことが出来ます。直感的な操作で音楽と映像を彩る新しい体験ができ、皆で作品を作り上げる楽しさを味わえます。
@@ -127,6 +156,8 @@
 # 2018年度
 - id: utips
   title: UTIPS - 家事の情報共有サービス
+  creator_ids:
+    - mihashi_yuuki
   name: 三橋 優希
   pm: 安川
   description: 家事のやり方を共有するWEBサービスを開発。ほかの家のやり方を知ることで、よりよい家事をできるように支援。
@@ -137,6 +168,8 @@
 
 - id: lets_eigo_puzzle
   title: "Let'sえいごパズル! - 変化するキューブで楽しく学ぶ英単語"
+  creator_ids:
+    - hirano_shoutarou
   name: 平野 正太郎
   pm: 西尾
   description: 小学生が遊びながら英単語を学べる、赤外線通信ブロックとゲームを開発。
@@ -147,6 +180,8 @@
 
 - id: smile_meeting_room
   title: スマイル会議室 - IoTで会議室の効率的な利用を
+  creator_ids:
+    - satou_rei
   name: 佐藤 怜
   pm: 西尾
   description: IoTデバイスを用いて会議室予約や会議室内の備品の電源などを制御することで会議室の効率的利用を支援。
@@ -156,6 +191,8 @@
 
 - id: vreath
   title: Vreath - 暗号通貨の入手障壁を下げるための、独自合意アルゴリズムの開発
+  creator_ids:
+    - suegami_sora
   name: 末神 奏宙
   pm: 鵜飼
   description: 誰もが簡単に仮想通貨を入手できる、新しいブロックチェーンを実現するための合意アルゴリズムを開発。
@@ -166,6 +203,8 @@
 
 - id: corkboard
   title: Corkboard - 位置的に管理するメモサービス
+  creator_ids:
+    - shibahara_yoshinori
   name: 柴原 佳範
   pm: 鈴木
   description: 使用者の記録や感情を蓄え変化する「森」を基調としたメモ帳アプリのデザインコンセプトを提案
@@ -175,6 +214,10 @@
 
 - id: touch_buy
   title: TouchBuy - VRにおけるECの在り方の模索
+  creator_ids:
+    - sueda_takahito
+    - takami_suguru
+    - satou_misaki
   name: 末田 貴一/高見 優/佐藤 美咲
   pm: 関
   description: VR空間上でECサイトを提供する方法について、様々なプロトタイプを作りながら模索した。
@@ -184,6 +227,8 @@
 
 - id: robot_soccer
   title: 強化学習を用いたロボットサッカーシミュレーション
+  creator_ids:
+    - saitou_takeru
   name: 齋藤 尊
   pm: 米辻
   description: 強化学習を用いた、ロボットサッカーのプレイヤーの開発。
@@ -193,6 +238,8 @@
 
 - id: memory_capsule
   title: メモリーカプセル - カプセルを通して繋がるSNS
+  creator_ids:
+    - fujimoto_yui
   name: 藤本 結衣
   pm: 石井
   description: 場所に紐付いて、仮想カプセルを埋め、それを掘り出すことのできるSNSを開発。
@@ -203,6 +250,8 @@
 
 - id: sound_in_the_forest
   title: Sound in the forest - 複数のスマートフォンによる「動く音」の表現
+  creator_ids:
+    - namikawa_kousaku
   name: 浪川 洪作
   pm: 笹田
   description: 複数のスマートフォン上のウェブブラウザをリアルタイム同期させ、立体音響を実現するシステムの開発。
@@ -213,6 +262,8 @@
 
 - id: toubans
   title: Toubans! -LINEで設定・通知できる当番お知らせサービス
+  creator_ids:
+    - nishimura_yui
   name: 西村 惟
   pm: 寺本
   description: 掃除当番に代表される、学校での「当番」の任命や通知をLINE上でできるようにするサービスの開発。
@@ -223,6 +274,8 @@
 
 - id: camera_translation
   title: 写して翻訳
+  creator_ids:
+    - kawahara_keitarou
   name: 河原 慶太郎
   pm: 和田
   description: 写真を写すことで、そこに写った物体の名前を他の言語に翻訳するスマートフォンアプリの開発。
@@ -233,6 +286,8 @@
 
 - id: life_watcher
   title: Life Watcher - 急変する持病を持つ人のための警報システム
+  creator_ids:
+    - mutou_hikaru
   name: 武藤 熙麟
   pm: 米辻
   description: スマートウォッチ上で動作する、急変する持病を持つ人を助ける警報アプリの開発。
@@ -243,6 +298,9 @@
 # 2017年度
 - id: music_reminder
   title: 個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案
+  creator_ids:
+    - sasaki_masato
+    - sutou_koutarou
   name: 佐々木 雅斗/周藤 光太郎
   pm: 関
   description: カラオケで歌った曲、見た映画等の経験に基づいて、AppleMusicから曲を推薦する新しい仕組みのiOSアプリを開発
@@ -252,6 +310,10 @@
 
 - id: papa
   title: 学校現場における情報共有やスケジューリングを支援するウェブアプリの提案
+  creator_ids:
+    - tanaka_yuutarou
+    - nakahara_you
+    - nakagawa_manami
   name: 田中 祐太朗/中原 楊/中川 茉奈美
   pm: 関
   description: PaPaという、学校での円滑な情報伝達を支援し、日本のIT教育に寄与することを目指したWEBアプリケーションを開発。
@@ -261,6 +323,8 @@
 
 - id: anki_cookie
   title: 暗記クッキー
+  creator_ids:
+    - nakasuji_ayaka
   name: 中筋 絢香
   pm: 鵜飼
   description: WEBクイズで頑張って覚えた漢字や単語がクッキーに焼かれ、暗記学習のモチベーションアップを支援するシステムを開発。
@@ -270,6 +334,8 @@
 
 - id: narratica
   title: narratica〜ストーリーコンサルタント〜
+  creator_ids:
+    - sugano_kaede
   name: 菅野 楓
   pm: 米辻
   description: 自然言語処理によって、映画脚本のテキスト分析を行い、登場人物の感情変化をもとにストーリーを評価。自分で書いた文章もリアルタイムに感情分析。
@@ -280,6 +346,8 @@
 
 - id: guardian_photo_stand
   title: 見守りフォトスタンド
+  creator_ids:
+    - yano_rei
   name: 矢野 礼伊
   pm: 米辻
   description: 老人宅の玄関に、見守り装置を設置し、介護者から見守れるようにするシステム。見守り装置は、カメラ及び各種センサを装備し、サーバーを介してWeb経由で介護者が随時様子を知ることができる。
@@ -290,6 +358,8 @@
 
 - id: fall_in_friends
   title: Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～
+  creator_ids:
+    - shimada_tetsunosuke
   name: 霜田 哲之介
   pm: 寺本
   description: 困っている訪日外国人が、旅行者を助けたい日本人に質問できるアプリケーションを開発。
@@ -299,6 +369,8 @@
 
 - id: draw_code
   title: DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜
+  creator_ids:
+    - katou_syu
   name: 加藤 周
   pm: 寺本
   description: コードが書かれたブロックをつなげていくだけでサイトが作れ、さらにコードも書けるようになる初学者向けのサービスを開発。
@@ -309,6 +381,8 @@
 
 - id: listenable_keyboard
   title: '"聞く"キーボード'
+  creator_ids:
+    - nemoto_hibiki
   name: 根本 真響
   pm: 笹田
   description: 日本語、英語、中国語の3言語で利用できる、音声認識機能を搭載したキーボード。
@@ -318,6 +392,11 @@
 
 - id: smile_iot
   title: SmileI/OT
+  creator_ids:
+    - yamada_haruta
+    - adachi_matone
+    - tajima_yuuki
+    - degawa_hirokazu
   name: 山田 陽大/足立 素音/田島 融樹/出川 大和
   pm: 西尾
   description: プログラミング不要でIoTデバイスをカスタマイズできるシステムを開発。
@@ -327,6 +406,9 @@
 
 - id: vamboo
   title: FRPの概念に触れられるビジュアルプログラミング言語の開発
+  creator_ids:
+    - ohno_tomoki
+    - suzuki_sousuke
   name: 大野 智葵/☆鈴木 颯介
   pm: 安川
   description: 配置したGUI要素を線で繋いでいくことでアプリケーションを作っていけるビジュアルプログラミング言語を開発。
@@ -337,6 +419,8 @@
 
 - id: rakuraku_yomiyomi
   title: らくらく読み読み
+  creator_ids:
+    -ootsuka_rei
   name: 大塚 嶺
   pm: 鈴木
   description: 視力が低下したお年寄りから子どもまでが楽にニュース記事を読めるアプリ。文字の表示の工夫、読み進めた部分のマーキング、視線追跡などの機能を搭載。
@@ -348,6 +432,8 @@
 # 2016年度
 - id: voice_commander
   title: Voice Commander ～命令×ポーズ×チェス～
+  creator_ids:
+    - fukuzumi_jinshirou
   name: 福住 仁志朗
   pm: 鈴木
   description: Voice Commanderは、声とジェスチャーで操作する新感覚チェスゲームです。 グラフィックにこだわるだけでなく、音声認識によるコマの操作、スマホに表示したマーカーを利用したジェスチャー操作等を組み合わせることで、「かっこよさ」を追求しています。 アニメ「ノーゲーム・ノーライフ」に出てきたチェスから着想を得て開発をすすめました。 それぞれのマスにはプレーヤーが音声認識の際に叫ぶための名前がついていて、テキストファイルを変更することで簡単に名前をカスタマイズすることもできます。
@@ -357,6 +443,9 @@
 
 - id: smart_pen
   title: スマートペン
+  creator_ids:
+    - fukuda_kyouko
+    - kudou_reo
   name: 福田 恭子/工藤 零大
   pm: 西尾
   description: スマートペンは、「勉強する時間を計測してさぼり癖をなくしたい」という思いから開発された、スマートデバイスです。 ペンのグリップ部分に取り付けられた静電容量式タッチセンサを利用することでペンを握っているかを検知し、自動で勉強時間を計測、記録します。 記録した勉強時間のログは、スマートフォンに対応アプリケーションをインストールすることで簡単に見ることができます。
@@ -366,6 +455,8 @@
 
 - id: vr_picture_book_maker
   title: VR絵本メーカー
+  creator_ids:
+    - kimura_hiroko
   name: 木村 皓子
   pm: 鵜飼
   description: VR絵本メーカーは、 VRで体験できる世界やストーリーを制作するためのスマートフォンアプリケーションです。 物語の世界に入ることができる！大好きなあの人とデートができる！憧れのアーティストのライブにも行けちゃう！誰でも簡単にスマホで観れるVR絵本をつくれます。 ユーザーは背景となる360度画像を選択し、キャラクターや吹き出し、さらに効果音、遷移エフェクトを選択してVR絵本にします。
