@@ -4,28 +4,28 @@ title: メンター紹介
 ---
 
 <div class="mentors flex">
-  {% for pm in site.data.mentors %}
-    {% unless pm.is_alumni %}
-    <div class="pm" id="{{ pm.name.last }}{{ pm.name.first }}">
-      <img src="/assets/img/pm/{{ pm.img }}" alt="{{ pm.name.last }} {{ pm.name.first }}" class="pm-img">
+  {% for mentor in site.data.mentors %}
+    {% unless mentor.is_alumni %}
+    <div class="pm" id="{{ mentor.name.last }}{{ mentor.name.first }}">
+      <img src="/assets/img/pm/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" class="pm-img">
       <div class="pm-info">
-        <h3 class="pm-name">{{ pm.name.last }} {{ pm.name.first }}</h3>
-        <p>{{ pm.affiliation }}</p>
+        <h3 class="pm-name">{{ mentor.name.last }} {{ mentor.name.first }}</h3>
+        <p>{{ mentor.affiliation }}</p>
 
         <div class="pm-sns">
-          {% if pm.facebook %}<a href="https://www.facebook.com/{{ pm.facebook }}"><i class="fab fa-facebook-square green"></i></a>{% endif %}
-          {% if pm.twitter %}<a href="https://twitter.com/{{ pm.twitter }}"><i class="fab fa-twitter-square green"></i></a>{%endif%}
-          {% if pm.web %}<a href="{{pm.web}}"><i class="fas fa-globe green"></i></a>{% endif %}
-          {% if pm.github %}<a href="https://github.com/{{ pm.github }}"><i class="fab fa-github-square green"></i></a>{% endif %}
+          {% if mentor.facebook %}<a href="https://www.facebook.com/{{ mentor.facebook }}"><i class="fab fa-facebook-square green"></i></a>{% endif %}
+          {% if mentor.twitter %}<a href="https://twitter.com/{{ mentor.twitter }}"><i class="fab fa-twitter-square green"></i></a>{%endif%}
+          {% if mentor.web %}<a href="{{ mentor.web }}"><i class="fas fa-globe green"></i></a>{% endif %}
+          {% if mentor.github %}<a href="https://github.com/{{ mentor.github }}"><i class="fab fa-github-square green"></i></a>{% endif %}
         </div>
       </div>
 
       <div class="pm-comment text-left">
         <h4>こんな人・こんな提案を待っています</h4>
-        <p>{{ pm.interested }}</p>
+        <p>{{ mentor.interested }}</p>
 
         <h4>略歴</h4>
-        <p>{{ pm.bio }}</p>
+        <p>{{ mentor.bio }}</p>
       </div>
     </div>
     {% endunless %}
