@@ -3,6 +3,8 @@ layout: post
 title: メディア掲載
 ---
 
+## 掲載メディア一覧
+
 <ul class="list-none media-list">
   {% for medium in site.data.media %}
   <li>
