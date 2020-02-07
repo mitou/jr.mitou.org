@@ -1,219 +1,218 @@
 # 2019年度
-- title: 編模様 (あもーよ) イラスト手編み支援アプリ
+- id: takeda
+  title: 編模様 (あもーよ) イラスト手編み支援アプリ
   name: 武田 和樹
-  id: takeda
   sp_creator: true
   year: 2019
 
-- title: DetExploit - Windows用OSS脆弱性スキャナー
+- id: takayama
+  title: DetExploit - Windows用OSS脆弱性スキャナー
   name: 高山 尚樹
-  id: takayama
   sp_creator: true
   year: 2019
 
-- title: pirka - 会話を通して成長する人工知能技術
+- id: itoi
+  title: pirka - 会話を通して成長する人工知能技術
   name: 糸井 主歩
-  id: itoi
   year: 2019
 
-- title: neulot - 生体信号を用いたインターフェイスの開発
+- id: sakoda
+  title: neulot - 生体信号を用いたインターフェイスの開発
   name: 迫田 大翔
-  id: sakoda
   sp_creator: true
   year: 2019
 
-- title: abecobe - シンプルかつ難しいパズルゲーム
+- id: asano
+  title: abecobe - シンプルかつ難しいパズルゲーム
   name: 浅野 啓
-  id: asano
   sp_creator: true
   year: 2019
 
-- title: ManageStock - 家庭向け在庫管理アプリ
+- id: onomura
+  title: ManageStock - 家庭向け在庫管理アプリ
   name: 小野村 卓也/上念 匠/石崎 碧空
-  id: onomura
   year: 2019
 
-- title: リレーマスター
+- id: watanabe
+  title: リレーマスター
   name: 渡部 晃久
-  id: watanabe
   sp_creator: true
   year: 2019
 
-- title: VirtualPresents - 仮想世界で用いるWebサービス
+- id: kunitake
+  title: VirtualPresents - 仮想世界で用いるWebサービス
   name: 國武 悠人/☆森 優貴
-  id: kunitake
   sp_creator: true
   year: 2019
 
-- title: Edge-guided Anime Characters Generation
+- id: namekata
+  title: Edge-guided Anime Characters Generation
   name: 行方 光一
-  id: namekata
   sp_creator: true
   year: 2019
 
-- title: Mallet - モバイル端末用簡易アプリ開発環境
+- id: matsuda
+  title: Mallet - モバイル端末用簡易アプリ開発環境
   name: 松田 活
-  id: matsuda
   sp_creator: true
   year: 2019
 
-- title: Tea - 仮想経済シミュレーションプラットフォームとゲーム
+- id: izumita
+  title: Tea - 仮想経済シミュレーションプラットフォームとゲーム
   name: 和泉田 済人
-  id: izumita
   year: 2019
 
-- title: fresh capsule - 食材管理アプリ
+- id: kishimoto
+  title: fresh capsule - 食材管理アプリ
   name: 岸本 純花
-  id: kishimoto
   year: 2019
 
-- title: SmartVJ - 参加型の新しいメディアアート
+- id: hirakawa
+  title: SmartVJ - 参加型の新しいメディアアート
   name: 平川 晴常
-  id: hirakawa
   year: 2019
 
 # 2018年度
-- title: UTIPS - 家事の情報共有サービス
+- id: mihashi
+  title: UTIPS - 家事の情報共有サービス
   name: 三橋 優希
-  id: mihashi
   sp_creator: true
   year: 2018
 
-- title: "Let'sえいごパズル! - 変化するキューブで楽しく学ぶ英単語"
+- id: hirano
+  title: "Let'sえいごパズル! - 変化するキューブで楽しく学ぶ英単語"
   name: 平野 正太郎
-  id: hirano
   sp_creator: true
   year: 2018
 
-- title: スマイル会議室 - IoTで会議室の効率的な利用を
+- id: sato
+  title: スマイル会議室 - IoTで会議室の効率的な利用を
   name: 佐藤 怜
-  id: sato
   year: 2018
 
-- title: Vreath - 暗号通貨の入手障壁を下げるための、独自合意アルゴリズムの開発
+- id: suegami
+  title: Vreath - 暗号通貨の入手障壁を下げるための、独自合意アルゴリズムの開発
   name: 末神 奏宙
-  id: suegami
   sp_creator: true
   year: 2018
 
-- title: Corkboard - 位置的に管理するメモサービス
+- id: shibahara
+  title: Corkboard - 位置的に管理するメモサービス
   name: 柴原 佳範
-  id: shibahara
   year: 2018
 
-- title: TouchBuy - VRにおけるECの在り方の模索
+- id: sueda
+  title: TouchBuy - VRにおけるECの在り方の模索
   name: 末田 貴一/高見 優/佐藤 美咲
-  id: sueda
   year: 2018
 
-- title: 強化学習を用いたロボットサッカーシミュレーション
+- id: saito
+  title: 強化学習を用いたロボットサッカーシミュレーション
   name: 齋藤 尊
-  id: saito
   year: 2018
 
-- title: メモリーカプセル - カプセルを通して繋がるSNS
+- id: fujimoto
+  title: メモリーカプセル - カプセルを通して繋がるSNS
   name: 藤本 結衣
-  id: fujimoto
   sp_creator: true
   year: 2018
 
-- title: Sound in the forest - 複数のスマートフォンによる「動く音」の表現
+- id: namikawa
+  title: Sound in the forest - 複数のスマートフォンによる「動く音」の表現
   name: 浪川 洪作
-  id: namikawa
   sp_creator: true
   year: 2018
 
-- title: Toubans! -LINEで設定・通知できる当番お知らせサービス
+- id: nishimura
+  title: Toubans! -LINEで設定・通知できる当番お知らせサービス
   name: 西村 惟
-  id: nishimura
   sp_creator: true
   year: 2018
 
-- title: 写して翻訳
+- id: kawahara
+  title: 写して翻訳
   name: 河原 慶太郎
-  pm: 和田
-  id: kawahara
   year: 2018
 
-- title: Life Watcher - 急変する持病を持つ人のための警報システム
+- id: muto
+  title: Life Watcher - 急変する持病を持つ人のための警報システム
   name: 武藤 熙麟
-  id: muto
   year: 2018
 
 # 2017年度
-- title: 個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案
+- id: sasaki
+  title: 個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案
   name: 佐々木 雅斗/周藤 光太郎
-  id: sasaki
   year: 2017
 
-- title: 学校現場における情報共有やスケジューリングを支援するウェブアプリの提案
+- id: tanaka
+  title: 学校現場における情報共有やスケジューリングを支援するウェブアプリの提案
   name: 田中 祐太朗/中原 楊/中川 茉奈美
-  id: tanaka
   year: 2017
 
-- title: 暗記クッキー
+- id: nakasuji
+  title: 暗記クッキー
   name: 中筋 絢香
-  id: nakasuji
   year: 2017
 
-- title: narratica〜ストーリーコンサルタント〜
+- id: sugano
+  title: narratica〜ストーリーコンサルタント〜
   name: 菅野 楓
-  id: sugano
   sp_creator: true
   year: 2017
 
-- title: 見守りフォトスタンド
+- id: yano
+  title: 見守りフォトスタンド
   name: 矢野 礼伊
-  id: yano
   sp_creator: true
   year: 2017
 
-- title: Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～
+- id: shimoda
+  title: Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～
   name: 霜田 哲之介
-  id: shimoda
   year: 2017
 
-- title: DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜
+- id: kato
+  title: DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜
   name: 加藤 周
-  id: kato
   sp_creator: true
   year: 2017
 
-- title: '"聞く"キーボード'
+- id: nemoto
+  title: '"聞く"キーボード'
   name: 根本 真響
-  id: nemoto
   year: 2017
 
-- title: SmileI/OT
+- id: yamada
+  title: SmileI/OT
   name: 山田 陽大/足立 素音/田島 融樹/出川 大和
-  id: yamada
   year: 2017
 
-- title: FRPの概念に触れられるビジュアルプログラミング言語の開発
+- id: ohno
+  title: FRPの概念に触れられるビジュアルプログラミング言語の開発
   name: 大野 智葵/☆鈴木 颯介
-  id: ohno
   sp_creator: true
   year: 2017
 
-- title: らくらく読み読み
+- id: otsuka
+  title: らくらく読み読み
   name: 大塚 嶺
-  id: otsuka
   sp_creator: true
   year: 2017
 
 # 2016年度
-- title: Voice Commander ～命令×ポーズ×チェス～
+- id: fukuzumi
+  title: Voice Commander ～命令×ポーズ×チェス～
   name: 福住 仁志朗
-  id: fukuzumi
   youtube: APUTGg6g0hA
   year: 2016
 
-- title: スマートペン
+- id: fukuda
+  title: スマートペン
   name: 福田 恭子/工藤 零大
-  id: fukuda
   year: 2016
 
-- title: VR絵本メーカー
+- id: kimura
+  title: VR絵本メーカー
   name: 木村 皓子
-  id: kimura
   year: 2016
