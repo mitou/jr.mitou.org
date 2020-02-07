@@ -4,7 +4,7 @@
   <li>
     {% for creator_id in pj.creator_ids %}
       {% assign creator = site.data.creators | where: "id", creator_id | first %}
-      {% if creator.sp_creator %}
+      {% if creator.is_spc %}
         {% if forloop.index > 1 %} / {% endif %}
         <span>☆ </span>
       {% elsif forloop.index == 1 %}
