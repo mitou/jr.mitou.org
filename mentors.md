@@ -5,6 +5,8 @@ title: メンター紹介
 
 ## 2020年度メンター陣
 
+<p class="text-center" style="margin-bottom: 50px;">メンター紹介ページです。過去のメンターは<a href="/alumni">コチラ</a>。
+
 <div class="mentors flex">
   {% for mentor in site.data.mentors %}
     {% if mentor.is_alumni %} {% continue %} {% endif %}
