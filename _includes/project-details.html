@@ -5,7 +5,7 @@
       {% include creator.html is_simple=true %}
     {% endfor %}
 
-    ({% include mentor-last-name.html id=pj.mentor_id %}PM)
+    - {% include mentor-last-name.html id=pj.mentor_id %}
   </p>
 
   {% if include.thumbnail == true %}
@@ -23,7 +23,7 @@
   <p class="project-description">{{ pj.description }}</p>
 
   {% if pj.comment %}
-  <h4>{% include mentor-last-name.html id=pj.mentor_id %}PMより一言</h4>
+  <h4>{% include mentor-last-name.html id=pj.mentor_id %}コメント</h4>
   <p class="project-comment">{{ pj.comment }}</p>
   {% endif %}
 

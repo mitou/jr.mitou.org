@@ -3,10 +3,12 @@ layout: post
 title: メンター紹介
 ---
 
+## 2020年度メンター
+
 <div class="mentors flex">
   {% for mentor in site.data.mentors %}
     {% if mentor.is_alumni %} {% continue %} {% endif %}
-    <div class="mentor" id="{{ mentor.name.last }}{{ mentor.name.first }}">
+    <div class="mentor" id="{{ mentor.id }}">
       <img src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" class="mentor-img">
       <div class="mentor-info">
         <h3 class="mentor-name">{{ mentor.name.last }} {{ mentor.name.first }}</h3>
@@ -31,7 +33,9 @@ title: メンター紹介
   {% endfor %}
 </div>
 
-<h2>スーパーバイザー</h2>
+
+## スーパーバイザー
+
 <div class="sv">
   <div class="sv-left">
     <img src="/assets/img/mentors/takeuchi.png" alt="竹内 郁雄" class="sv-img">
@@ -48,7 +52,9 @@ title: メンター紹介
   </div>
 </div>
 
-<h2>運営委員</h2>
+
+## 運営チーム
+
 <div class="flex">
   <div class="mentor">
     <img src="/assets/img/mentors/arakawa.png" alt="荒川 淳平" class="mentor-img">
@@ -81,3 +87,4 @@ title: メンター紹介
     </div>
   </div>
 </div>
+

@@ -80,7 +80,7 @@ layout: default
   <div class="mentor-list flex">
     {% for mentor in site.data.mentors %}
       {% if mentor.is_alumni %} {% continue %} {% endif %}
-      <a href="/mentors#{{ mentor.name.last }}{{ mentor.name.first }}" class="mentor-list-one">
+      <a href="/mentors#{{ mentor.id }}" class="mentor-list-one">
         <img src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" loading="lazy">
 	<p class="mentor-list-name">{{ mentor.name.last }} <span class="pc-inline-b">{{ mentor.name.first }}</span></p>
 	<p class="mentor-list-af pc">{{ mentor.affiliation }}</p>

@@ -1,1 +1,7 @@
-{% assign mentor = site.data.mentors | where: "id", pj.mentor_id | first %}{{ mentor.name.last }}
+{% assign mentor = site.data.mentors | where: "id", pj.mentor_id | first %}
+
+{% if mentor.is_alumni %}
+  {{ mentor.name.last }}PM
+{% else %}
+  <a href="/mentors/#{{ mentor.id }}">{{ mentor.name.last }}PM</a>
+{% endif %}
