@@ -1,0 +1,27 @@
+- year: 2019
+  applications: 127
+  projects: 13
+  creators: 16
+  spc: 9
+  acceptance_rate: 9.77 # 9.76923076923077 倍
+
+- year: 2018
+  applications: 105
+  projects: 12
+  creators: 14
+  spc: 6
+  acceptance_rate: 8.75 # 8.75 倍
+
+- year: 2017
+  applications: 41
+  projects: 11
+  creators: 18
+  spc: 6
+  acceptance_rate: 3.73 # 3.727272727272727 倍
+
+- year: 2016
+  applications: 15
+  projects: 4 # including hidden data
+  creators: 6 # including hidden data
+  spc: 0      # N/A (SPC system started from 2017)
+  acceptance_rate: 3.75 # 3.75 倍
