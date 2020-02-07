@@ -36,7 +36,7 @@
 
 - id: neulot
   title: neulot - 生体信号を用いたインターフェイスの開発
-  creator_id:
+  creator_ids:
     - sakoda_yamato
   name: 迫田 大翔
   pm: 関
@@ -359,7 +359,7 @@
 - id: fall_in_friends
   title: Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～
   creator_ids:
-    - shimada_tetsunosuke
+    - shimoda_tetsunosuke
   name: 霜田 哲之介
   pm: 寺本
   description: 困っている訪日外国人が、旅行者を助けたい日本人に質問できるアプリケーションを開発。
@@ -394,7 +394,7 @@
   title: SmileI/OT
   creator_ids:
     - yamada_haruta
-    - adachi_matone
+    - adachi_motone
     - tajima_yuuki
     - degawa_hirokazu
   name: 山田 陽大/足立 素音/田島 融樹/出川 大和
