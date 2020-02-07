@@ -10,7 +10,7 @@
   web: https://koooootake.com/
   img: kohtake.png
 
-- id: maki_komuro
+- id: komuro_maki
   name:
     last: 小室
     first: 真紀
@@ -21,7 +21,7 @@
   twitter: MKnkgw
   img: komuro.png
 
-- id: nishiso_hirokazu
+- id: nishio_hirokazu
   name:
     last: 西尾
     first: 泰和
@@ -80,7 +80,7 @@
   github: teramotodaiki
   img: teramoto.png
 
-- id: yoshifumi_seki
+- id: seki_yoshifumi
   name:
     last: 関
     first: 喜史
@@ -127,16 +127,19 @@
 
 # PM Alumni
 
-- id: sasada_kouichi
+## 2018
+- id: wada_natsumi
   name:
-    last: 笹田
-    first: 耕一
-  affiliation: クックパッド株式会社
-  interested: アプリケーションを支える基盤技術の開発に熱意を持って取り組める方。
-  bio: 大学在学時からRuby向け仮想マシンYARVを開発し、2007年に「Ruby 1.9」に採用される。以降、Rubyコミッターとして、言語処理系の高速化に従事し、仮想マシンやガーベージコレクションの性能改善などを行なう。東京大学大学院情報理工学系研究科助手、助教、講師、株式会社セールスフォース・ドットコム、Heroku, Inc.を経て、クックパッドにてRubyインタプリタ開発に従事。博士（情報理工学）。未踏ユーススーパークリエータ（2004）。
-  github: ko1
-  img: sasada.png
+    last: 和田
+    first: 夏実
+  affiliation: インタープリター
+  interested: 知りたくてたまらないことを探ったり、どうしてもやってみたいと思うことがある人。作ることを通して世界をみてみたい人
+  bio: 1993年生まれ。手話を第一言語として育ち、大学進学時にあらためて手で表現する可能性に惹かれる。慶應義塾大学大学院修了。視覚身体言語の研究を行ないつつ、さまざまな身体性をもつ方々と協働し、感覚を共に模索するプロジェクトを進める。2016年度未踏IT人材発掘・育成事業「スーパークリエータ」認定。2017年ICCにて「結んでひらいて / tacit creole」展示。手話通訳士。
+  facebook: natsu92.toz413
+  twitter: n_toz
+  img: wada.png
 
+## 2019
 - id: satou_ayaka
   name:
     last: 佐藤
@@ -147,3 +150,15 @@
   facebook: sugar.ayaka
   web: https://ayakasato.com/
   img: sato.png
+
+## 2017..2019
+- id: sasada_kouichi
+  name:
+    last: 笹田
+    first: 耕一
+  affiliation: クックパッド株式会社
+  interested: アプリケーションを支える基盤技術の開発に熱意を持って取り組める方。
+  bio: 大学在学時からRuby向け仮想マシンYARVを開発し、2007年に「Ruby 1.9」に採用される。以降、Rubyコミッターとして、言語処理系の高速化に従事し、仮想マシンやガーベージコレクションの性能改善などを行なう。東京大学大学院情報理工学系研究科助手、助教、講師、株式会社セールスフォース・ドットコム、Heroku, Inc.を経て、クックパッドにてRubyインタプリタ開発に従事。博士（情報理工学）。未踏ユーススーパークリエータ（2004）。
+  github: ko1
+  img: sasada.png
+
