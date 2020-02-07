@@ -324,7 +324,7 @@ footer{
   }
 }
 
-.pm{
+.mentor{
   padding: 12px;
   margin-top: 18px;
   width: 50%;
@@ -332,38 +332,38 @@ footer{
     font-size: 14px;
   }
 }
-.pm-sns{
+.mentor-sns{
   font-size: 36px;
 }
-.pm-name{
+.mentor-name{
   border-left: 0 !important;
   background-color: #fff !important;
   padding: 0 !important;
   margin: 0 auto !important;
 }
-.pm-img{
+.mentor-img{
   width: 40%;
   float: left;
   padding-right: 24px;
 }
-.pm-info{
+.mentor-info{
   float: left;
   width: 60%;
   p {
     margin: 0px auto;
   }
 }
-.pm-comment{
+.mentor-comment{
   clear: both;
   @media screen and (min-width: $phone-width) {
     padding-top: 10px;
   }
 }
-.pm-list{
+.mentor-list{
   margin: 60px 0 -10px;
   justify-content: center;
 }
-.pm-list-one{
+.mentor-list-one{
   width: 16.6%;
   padding: 14px;
   @media screen and (max-width:$header-phone) {
@@ -373,29 +373,29 @@ footer{
     width: 100%;
   }
 }
-.pm-list-name{
+.mentor-list-name{
   font-size: 18px;
   margin: 6px 0;
   @media screen and (max-width:$phone-width) {
     font-size: 14px;
   }
 }
-.pm-list-af{
+.mentor-list-af{
   font-size: 10.5px;
   margin: 4px 0 20px;
 }
 
 @media screen and (max-width:$phone-width) {
-  .pm{
+  .mentor{
     width: 100%;
     text-align: center;
   }
-  .pm-img{
+  .mentor-img{
     width: 50%;
     float: none;
     padding: 0;
   }
-  .pm-info{
+  .mentor-info{
     float: none;
     width: 100%;
   }

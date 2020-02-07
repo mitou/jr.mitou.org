@@ -6,13 +6,13 @@ title: メンター紹介
 <div class="mentors flex">
   {% for mentor in site.data.mentors %}
     {% unless mentor.is_alumni %}
-    <div class="pm" id="{{ mentor.name.last }}{{ mentor.name.first }}">
-      <img src="/assets/img/pm/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" class="pm-img">
-      <div class="pm-info">
-        <h3 class="pm-name">{{ mentor.name.last }} {{ mentor.name.first }}</h3>
+    <div class="mentor" id="{{ mentor.name.last }}{{ mentor.name.first }}">
+      <img src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" class="mentor-img">
+      <div class="mentor-info">
+        <h3 class="mentor-name">{{ mentor.name.last }} {{ mentor.name.first }}</h3>
         <p>{{ mentor.affiliation }}</p>
 
-        <div class="pm-sns">
+        <div class="mentor-sns">
           {% if mentor.facebook %}<a href="https://www.facebook.com/{{ mentor.facebook }}"><i class="fab fa-facebook-square green"></i></a>{% endif %}
           {% if mentor.twitter %}<a href="https://twitter.com/{{ mentor.twitter }}"><i class="fab fa-twitter-square green"></i></a>{%endif%}
           {% if mentor.web %}<a href="{{ mentor.web }}"><i class="fas fa-globe green"></i></a>{% endif %}
@@ -20,7 +20,7 @@ title: メンター紹介
         </div>
       </div>
 
-      <div class="pm-comment text-left">
+      <div class="mentor-comment text-left">
         <h4>こんな人・こんな提案を待っています</h4>
         <p>{{ mentor.interested }}</p>
 
@@ -35,8 +35,8 @@ title: メンター紹介
 <h2>スーパーバイザー</h2>
 <div class="sv">
   <div class="sv-left">
-    <img src="/assets/img/pm/takeuchi.png" alt="竹内 郁雄" class="sv-img">
-    <h3 class="pm-name">竹内 郁雄</h3>
+    <img src="/assets/img/mentors/takeuchi.png" alt="竹内 郁雄" class="sv-img">
+    <h3 class="mentor-name">竹内 郁雄</h3>
     <h5>東京大学名誉教授／未踏IT人材発掘・育成事業統括PM／一般社団法人未踏代表理事</h5>
   </div>
 
@@ -51,15 +51,15 @@ title: メンター紹介
 
 <h2>運営委員</h2>
 <div class="flex">
-  <div class="pm">
-    <img src="/assets/img/pm/arakawa.png" alt="荒川 淳平" class="pm-img">
-    <div class="pm-info" style="padding-bottom: 20px;">
-      <h3 class="pm-name">荒川 淳平</h3>
-      <div class="pm-sns">
+  <div class="mentor">
+    <img src="/assets/img/mentors/arakawa.png" alt="荒川 淳平" class="mentor-img">
+    <div class="mentor-info" style="padding-bottom: 20px;">
+      <h3 class="mentor-name">荒川 淳平</h3>
+      <div class="mentor-sns">
         <a href="https://www.facebook.com/jumpei.arakawa"><i class="fab fa-facebook-square green"></i></a>
       </div>
     </div>
-    <div class="pm-comment text-left">
+    <div class="mentor-comment text-left">
       <h4>略歴</h4>
       <p>東京大学大学院にてファイルシステムの仮想化に関する研究開発に取り組み、2006年度スーパークリエータに認定される。現在は株式会社インフォクラフト／IzumoBASE株式会社で代表取締役、一般社団法人未踏で理事を務める。</p>
       <h4>一言</h4>
@@ -67,16 +67,16 @@ title: メンター紹介
     </div>
   </div>
 
-  <div class="pm">
-      <img src="/assets/img/pm/ukai.png" alt="鵜飼 佑" class="pm-img">
-    <div class="pm-info" style="padding-bottom: 20px;">
-      <h3 class="pm-name">鵜飼 佑</h3>
-      <div class="pm-sns">
+  <div class="mentor">
+      <img src="/assets/img/mentors/ukai.png" alt="鵜飼 佑" class="mentor-img">
+    <div class="mentor-info" style="padding-bottom: 20px;">
+      <h3 class="mentor-name">鵜飼 佑</h3>
+      <div class="mentor-sns">
         <a href="https://www.facebook.com/ukai.yu"><i class="fab fa-facebook-square green"></i></a>
 	<a href="https://twitter.com/ukkaripon"><i class="fab fa-twitter-square green"></i></a>
       </div>
     </div>
-    <div class="pm-comment text-left">
+    <div class="mentor-comment text-left">
       <h4>略歴</h4>
       <p>メンターも兼任しています。詳細は<a href="/mentors#鵜飼佑">メンター欄</a>を参照。</p>
     </div>
