@@ -16,7 +16,7 @@
 
 
 ## メディア掲載の更新方法
-[`_data` 内の `articles.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/articles.yml) にメディア掲載記事の情報があります。  
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [articles.yml](https://github.com/mitou/jr.mitou.org/blob/master/_data/articles.yml) にメディア掲載記事の情報があります。  
 上が新しい情報になるように記述するとよいでしょう。
 
 それぞれの項目は以下のような内容です。
@@ -27,7 +27,7 @@
 ```
 
 ## プロジェクト情報の更新方法
-[`_data` 内の `projects.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/projects.yml) にプロジェクト・クリエーターの情報があります。
+[_data](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [projects.yml](https://github.com/mitou/jr.mitou.org/blob/master/_data/projects.yml) にプロジェクトの情報があります。
 
 それぞれの項目は以下のような内容です。
 ```yml
@@ -42,7 +42,7 @@
 ```
 
 ## クリエータ情報の更新方法
-[`_data` 内の `creators.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/creators.yml) にプロジェクト・クリエーターの情報があります。  
+[_data](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [creators.yml](https://github.com/mitou/jr.mitou.org/blob/master/_data/creators.yml) にクリエーターの情報があります。  
 
 それぞれの項目は以下のような内容です。
 ```yml
@@ -55,7 +55,7 @@
 ```
 
 ## メンター情報の更新方法
-[`_data` 内の `mentors.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/mentors.yml) にメンターの情報があります。 
+[_data](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [mentors.yml](https://github.com/mitou/jr.mitou.org/blob/master/_data/mentors.yml) にメンターの情報があります。 
 
 それぞれの項目は以下のような内容です。
 ```yml
