@@ -4,7 +4,7 @@ layout: default
 ---
 
 <div class="cover-photo">
-  <img src="/assets/img/people/2019all.png" alt="2019年度未踏ジュニア集合写真" class="top-img">
+  <img src="/assets/img/2019_all.png" alt="2019年度未踏ジュニア集合写真" class="top-img">
   <a href="/guideline" class="dialog">2020年度の募集が始まりました！</a>
 </div>
 
