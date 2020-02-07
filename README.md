@@ -16,7 +16,7 @@
 
 
 ## メディア掲載の更新方法
-[`_data` 内の `articles.yml`](https://github.com/yuki384/new-mitoujr/blob/master/_data/articles.yml) にメディア掲載記事の情報があります。  
+[`_data` 内の `articles.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/articles.yml) にメディア掲載記事の情報があります。  
 上が新しい情報になるように記述するとよいでしょう。
 
 それぞれの項目は以下のような内容です。
@@ -24,24 +24,37 @@
 - title: 記事タイトル (例：「テクノロジー×好きなこと」で“未踏”の領域に挑む10代のトップクリエーターたち (こどもとIT))
   url: 記事ページのURL (例：https://www.watch.impress.co.jp/kodomo_it/news/1219499.html)
   date: 公開日 (例：2019/11/20)
- ```
+```
 
 ## プロジェクト情報の更新方法
-[`_data` 内の `projects.yml`](https://github.com/yuki384/new-mitoujr/blob/master/_data/projects.yml) にプロジェクト・クリエーターの情報があります。  
+[`_data` 内の `projects.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/projects.yml) にプロジェクト・クリエーターの情報があります。
 
 それぞれの項目は以下のような内容です。
 ```yml
-- title: プロジェクトのタイトル (例：UTIPS - 家事の情報共有サービス)
-  name: 名前とPM (例：三橋 優希 (安川PM))
+- id: プロジェクトの ID (例: utips)
+  title: プロジェクトのタイトル (例：UTIPS - 家事の情報共有サービス)
   description: 概要 (例：家事のやり方を共有するWEBサービスを…（略）)
-  id: リンクを貼るためのid。プロジェクトリーダーの苗字英語表記。(例：mihashi)
+  creator_ids:
+  - 後述する Creator テーブルの ID (例：mihashi)
+  - 複数名いる場合は複数後述します
   youtube: YouTube上の発表動画ID。www.youtube.com/watch?v=xxxx の "xxxx" 部分。(例: t8kpeE_sNB0)
-  sp_creator: スーパークリエータかどうか。(例：true)
+  year: 何年度の採択プロジェクトか。(例: 2018)
+```
+
+## クリエータ情報の更新方法
+[`_data` 内の `creators.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/creators.yml) にプロジェクト・クリエーターの情報があります。  
+
+それぞれの項目は以下のような内容です。
+```yml
+- id: クリエータの ID (例: mihashi)
+  project_id: 開発したプロジェクトのID (例: utips)
+  name: クリエータの名前 (例: 三橋 優希)
+  is_spc: スーパークリエータかどうか。(例：true)
   year: 何年度の採択プロジェクトか。(例: 2018)
 ```
 
 ## メンター情報の更新方法
-[`_data` 内の `pm.yml`](https://github.com/yuki384/new-mitoujr/blob/master/_data/pm.yml) にメンターの情報があります。 
+[`_data` 内の `pm.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/pm.yml) にメンターの情報があります。 
 
 それぞれの項目は以下のような内容です。
 ```yml
