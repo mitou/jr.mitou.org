@@ -1,218 +1,218 @@
 # 2019年度
 - id: takeda
-  title: 編模様 (あもーよ) イラスト手編み支援アプリ
+  project_id: amoyo
   name: 武田 和樹
   sp_creator: true
   year: 2019
 
 - id: takayama
-  title: DetExploit - Windows用OSS脆弱性スキャナー
+  project_id: det_exploit
   name: 高山 尚樹
   sp_creator: true
   year: 2019
 
 - id: itoi
-  title: pirka - 会話を通して成長する人工知能技術
+  project_id: pirka
   name: 糸井 主歩
   year: 2019
 
 - id: sakoda
-  title: neulot - 生体信号を用いたインターフェイスの開発
+  project_id: neulot
   name: 迫田 大翔
   sp_creator: true
   year: 2019
 
 - id: asano
-  title: abecobe - シンプルかつ難しいパズルゲーム
+  project_id: abecobe
   name: 浅野 啓
   sp_creator: true
   year: 2019
 
 - id: onomura
-  title: ManageStock - 家庭向け在庫管理アプリ
+  project_id: manage_stock
   name: 小野村 卓也/上念 匠/石崎 碧空
   year: 2019
 
 - id: watanabe
-  title: リレーマスター
+  project_id: relay_master
   name: 渡部 晃久
   sp_creator: true
   year: 2019
 
 - id: kunitake
-  title: VirtualPresents - 仮想世界で用いるWebサービス
+  project_id: virtual_presents
   name: 國武 悠人/☆森 優貴
   sp_creator: true
   year: 2019
 
 - id: namekata
-  title: Edge-guided Anime Characters Generation
+  project_id: edge_guided_anime_characters_generation
   name: 行方 光一
   sp_creator: true
   year: 2019
 
 - id: matsuda
-  title: Mallet - モバイル端末用簡易アプリ開発環境
+  project_id: mallet
   name: 松田 活
   sp_creator: true
   year: 2019
 
 - id: izumita
-  title: Tea - 仮想経済シミュレーションプラットフォームとゲーム
+  project_id: tea
   name: 和泉田 済人
   year: 2019
 
 - id: kishimoto
-  title: fresh capsule - 食材管理アプリ
+  project_id: fresh_capsule
   name: 岸本 純花
   year: 2019
 
 - id: hirakawa
-  title: SmartVJ - 参加型の新しいメディアアート
+  project_id: smart_vj
   name: 平川 晴常
   year: 2019
 
 # 2018年度
 - id: mihashi
-  title: UTIPS - 家事の情報共有サービス
+  project_id: utips
   name: 三橋 優希
   sp_creator: true
   year: 2018
 
 - id: hirano
-  title: "Let'sえいごパズル! - 変化するキューブで楽しく学ぶ英単語"
+  project_id: lets_eigo_puzzle
   name: 平野 正太郎
   sp_creator: true
   year: 2018
 
 - id: sato
-  title: スマイル会議室 - IoTで会議室の効率的な利用を
+  project_id: smile_meeting_room
   name: 佐藤 怜
   year: 2018
 
 - id: suegami
-  title: Vreath - 暗号通貨の入手障壁を下げるための、独自合意アルゴリズムの開発
+  project_id: vreath
   name: 末神 奏宙
   sp_creator: true
   year: 2018
 
 - id: shibahara
-  title: Corkboard - 位置的に管理するメモサービス
+  project_id: corkboard
   name: 柴原 佳範
   year: 2018
 
 - id: sueda
-  title: TouchBuy - VRにおけるECの在り方の模索
+  project_id: touch_buy
   name: 末田 貴一/高見 優/佐藤 美咲
   year: 2018
 
 - id: saito
-  title: 強化学習を用いたロボットサッカーシミュレーション
+  project_id: robot_soccer
   name: 齋藤 尊
   year: 2018
 
 - id: fujimoto
-  title: メモリーカプセル - カプセルを通して繋がるSNS
+  project_id: memory_capsule
   name: 藤本 結衣
   sp_creator: true
   year: 2018
 
 - id: namikawa
-  title: Sound in the forest - 複数のスマートフォンによる「動く音」の表現
+  project_id: sound_in_the_forest
   name: 浪川 洪作
   sp_creator: true
   year: 2018
 
 - id: nishimura
-  title: Toubans! -LINEで設定・通知できる当番お知らせサービス
+  project_id: toubans
   name: 西村 惟
   sp_creator: true
   year: 2018
 
 - id: kawahara
-  title: 写して翻訳
+  project_id: camera_translation
   name: 河原 慶太郎
   year: 2018
 
 - id: muto
-  title: Life Watcher - 急変する持病を持つ人のための警報システム
+  project_id: life_watcher
   name: 武藤 熙麟
   year: 2018
 
 # 2017年度
 - id: sasaki
-  title: 個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案
+  project_id: music_reminder
   name: 佐々木 雅斗/周藤 光太郎
   year: 2017
 
 - id: tanaka
-  title: 学校現場における情報共有やスケジューリングを支援するウェブアプリの提案
+  project_id: papa
   name: 田中 祐太朗/中原 楊/中川 茉奈美
   year: 2017
 
 - id: nakasuji
-  title: 暗記クッキー
+  project_id: anki_cookie
   name: 中筋 絢香
   year: 2017
 
 - id: sugano
-  title: narratica〜ストーリーコンサルタント〜
+  project_id: narratica
   name: 菅野 楓
   sp_creator: true
   year: 2017
 
 - id: yano
-  title: 見守りフォトスタンド
+  project_id: guardian_photo_stand
   name: 矢野 礼伊
   sp_creator: true
   year: 2017
 
 - id: shimoda
-  title: Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～
+  project_id: fall_in_friends
   name: 霜田 哲之介
   year: 2017
 
 - id: kato
-  title: DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜
+  project_id: draw_code
   name: 加藤 周
   sp_creator: true
   year: 2017
 
 - id: nemoto
-  title: '"聞く"キーボード'
+  project_id: listenable_keyboard
   name: 根本 真響
   year: 2017
 
 - id: yamada
-  title: SmileI/OT
+  project_id: smile_iot
   name: 山田 陽大/足立 素音/田島 融樹/出川 大和
   year: 2017
 
 - id: ohno
-  title: FRPの概念に触れられるビジュアルプログラミング言語の開発
+  project_id: vamboo
   name: 大野 智葵/☆鈴木 颯介
   sp_creator: true
   year: 2017
 
 - id: otsuka
-  title: らくらく読み読み
+  project_id: rakuraku_yomiyomi
   name: 大塚 嶺
   sp_creator: true
   year: 2017
 
 # 2016年度
 - id: fukuzumi
-  title: Voice Commander ～命令×ポーズ×チェス～
+  project_id: voice_commander
   name: 福住 仁志朗
   youtube: APUTGg6g0hA
   year: 2016
 
 - id: fukuda
-  title: スマートペン
+  project_id: smart_pen
   name: 福田 恭子/工藤 零大
   year: 2016
 
 - id: kimura
-  title: VR絵本メーカー
+  project_id: vr_picture_book_maker
   name: 木村 皓子
   year: 2016
