@@ -138,6 +138,7 @@
   facebook: natsu92.toz413
   twitter: n_toz
   img: wada.png
+  is_alumni: true
 
 ## 2019
 - id: satou_ayaka
@@ -150,6 +151,7 @@
   facebook: sugar.ayaka
   web: https://ayakasato.com/
   img: sato.png
+  is_alumni: true
 
 ## 2017..2019
 - id: sasada_kouichi
@@ -161,4 +163,4 @@
   bio: 大学在学時からRuby向け仮想マシンYARVを開発し、2007年に「Ruby 1.9」に採用される。以降、Rubyコミッターとして、言語処理系の高速化に従事し、仮想マシンやガーベージコレクションの性能改善などを行なう。東京大学大学院情報理工学系研究科助手、助教、講師、株式会社セールスフォース・ドットコム、Heroku, Inc.を経て、クックパッドにてRubyインタプリタ開発に従事。博士（情報理工学）。未踏ユーススーパークリエータ（2004）。
   github: ko1
   img: sasada.png
-
+  is_alumni: true
