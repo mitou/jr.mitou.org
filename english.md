@@ -28,12 +28,12 @@ Mitou Junior is officially recognized and supported by the Ministry of Education
 <div class="sponsors-list-supporter">
   <a href="https://www.mext.go.jp/" target="_blank">
     <div class="sponsor-supporter sponsor-one">
-      <img src="/assets/img/sponsor/mext.png" alt="文部科学省" class="sponsor-img">
+      <img src="/assets/img/sponsors/mext.png" alt="文部科学省" class="sponsor-img">
     </div>
   </a>
   <a href="https://www.meti.go.jp/" class="sponsor-supporter sponsor-one" target="_blank">
     <div class="sponsor-supporter sponsor-one">
-      <img src="/assets/img/sponsor/meti.png" alt="経済産業省" class="sponsor-img">
+      <img src="/assets/img/sponsors/meti.png" alt="経済産業省" class="sponsor-img">
     </div>
   </a>
 </div>
@@ -45,7 +45,7 @@ Mitou Junior is officially recognized and supported by the Ministry of Education
   {% for sponsor in site.data.sponsors.gold %}
   <a href="{{ sponsor.url }}" target="_blank">
     <div class="sponsor-gold sponsor-one">
-      <img src="/assets/img/sponsor/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img">
+      <img src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img">
     </div>
   </a>
   {% endfor %}
@@ -56,7 +56,7 @@ Mitou Junior is officially recognized and supported by the Ministry of Education
   {% for sponsor in site.data.sponsors.silver %}
   <a href="{{ sponsor.url }}" target="_blank">
     <div class="sponsor-silver sponsor-one">
-      <img src="/assets/img/sponsor/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img">
+      <img src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img">
     </div>
   </a>
   {% endfor %}
@@ -67,7 +67,7 @@ Mitou Junior is officially recognized and supported by the Ministry of Education
   {% for sponsor in site.data.sponsors.bronze %}
   <a href="{{ sponsor.url }}" target="_blank">
     <div class="sponsor-bronze sponsor-one">
-      <img src="/assets/img/sponsor/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img">
+      <img src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img">
     </div>
   </a>
   {% endfor %}

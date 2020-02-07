@@ -108,12 +108,12 @@ layout: default
   <div class="sponsors-list-supporter">
     <a href="https://www.mext.go.jp/" target="_blank">
       <div class="sponsor-supporter sponsor-one">
-        <img src="/assets/img/sponsor/mext.png" alt="文部科学省" class="sponsor-img">
+        <img src="/assets/img/sponsors/mext.png" alt="文部科学省" class="sponsor-img">
       </div>
     </a>
     <a href="https://www.meti.go.jp/" class="sponsor-supporter sponsor-one" target="_blank">
       <div class="sponsor-supporter sponsor-one">
-        <img src="/assets/img/sponsor/meti.png" alt="経済産業省" class="sponsor-img">
+        <img src="/assets/img/sponsors/meti.png" alt="経済産業省" class="sponsor-img">
       </div>
     </a>
   </div>
@@ -124,7 +124,7 @@ layout: default
   <div class="sponsors-list-clb">
     {% for c in site.data.collaborators %}
     <a href="{{c.url}}" class="sponsor-clb sponsor-one" target="_blank">
-      <img src="/assets/img/sponsor/{{c.img}}" alt="{{c.name}}" class="sponsor-img">
+      <img src="/assets/img/sponsors/{{c.img}}" alt="{{c.name}}" class="sponsor-img">
     </a>
     {% endfor %}
   </div>
