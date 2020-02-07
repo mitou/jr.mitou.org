@@ -54,7 +54,7 @@
 ```
 
 ## メンター情報の更新方法
-[`_data` 内の `pm.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/pm.yml) にメンターの情報があります。 
+[`_data` 内の `pms.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/pms.yml) にメンターの情報があります。 
 
 それぞれの項目は以下のような内容です。
 ```yml
