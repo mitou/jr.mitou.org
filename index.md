@@ -62,12 +62,7 @@ layout: default
   <p>2019年度は127件の応募が集まり、<br class="ph">13プロジェクト・17名を採択しました。<br>
     (☆ は未踏ジュニアスーパークリエータ認定者)</p>
 
-  {% assign projects = site.data.projects | where_exp: "pj", "pj.year == 2019" %}
-  <ul class="project-list responsive-list">
-    {% for pj in projects %}
-      {% include creator.html %}
-    {% endfor %}
-  </ul>
+  {% include project-list.html year=2019 internal_link=true %}
 
   <a href="/projects" class="button">これまでの採択例を見る</a>
   <div class="projects flex">
