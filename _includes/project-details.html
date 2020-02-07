@@ -1,7 +1,15 @@
 <div class="project" id="{{ pj.id }}">
   <h3 class="project-title">{{ pj.title }}</h3>
   <p class="project-name">
-    {{ pj.name | remove: '☆' }}
+    {% for creator_id in pj.creator_ids %}
+      {% assign creator = site.data.creators | where: "id", creator_id | first %}
+      {% if forloop.index > 1 %}
+        <span>/</span>
+      {% endif %}
+
+      {{ creator.name }}
+    {% endfor %}
+
     ({{ pj.pm }}PM)
   </p>
 
