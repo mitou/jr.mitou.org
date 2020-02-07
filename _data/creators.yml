@@ -30,7 +30,15 @@
 
 - id: onomura
   project_id: manage_stock
-  name: 小野村 卓也/上念 匠/石崎 碧空
+  name: 小野村 卓也
+  year: 2019
+- id: jounen
+  project_id: manage_stock
+  name: 上念 匠
+  year: 2019
+- id: ishizaki
+  project_id: manage_stock
+  name: 石崎 碧空
   year: 2019
 
 - id: watanabe
@@ -41,7 +49,12 @@
 
 - id: kunitake
   project_id: virtual_presents
-  name: 國武 悠人/☆森 優貴
+  name: 國武 悠人
+  sp_creator: true
+  year: 2019
+- id: mori
+  project_id: virtual_presents
+  name: 森 優貴
   sp_creator: true
   year: 2019
 
@@ -103,7 +116,15 @@
 
 - id: sueda
   project_id: touch_buy
-  name: 末田 貴一/高見 優/佐藤 美咲
+  name: 末田 貴一
+  year: 2018
+- id: takami
+  project_id: touch_buy
+  name: 高見 優
+  year: 2018
+- id: sato
+  project_id: touch_buy
+  name: 佐藤 美咲
   year: 2018
 
 - id: saito
@@ -142,12 +163,24 @@
 # 2017年度
 - id: sasaki
   project_id: music_reminder
-  name: 佐々木 雅斗/周藤 光太郎
+  name: 佐々木 雅斗
+  year: 2017
+- id: sutou
+  project_id: music_reminder
+  name: 周藤 光太郎
   year: 2017
 
 - id: tanaka
   project_id: papa
-  name: 田中 祐太朗/中原 楊/中川 茉奈美
+  name: 田中 祐太朗
+  year: 2017
+- id: nakahara
+  project_id: papa
+  name: 中原 楊
+  year: 2017
+- id: nakagawa
+  project_id: papa
+  name: 中川 茉奈美
   year: 2017
 
 - id: nakasuji
@@ -185,12 +218,29 @@
 
 - id: yamada
   project_id: smile_iot
-  name: 山田 陽大/足立 素音/田島 融樹/出川 大和
+  name: 山田 陽大
+  year: 2017
+- id: adachi
+  project_id: smile_iot
+  name: 足立 素音
+  year: 2017
+- id: tajima
+  project_id: smile_iot
+  name: 田島 融樹
+  year: 2017
+- id: degawa
+  project_id: smile_iot
+  name: 出川 大和
   year: 2017
 
 - id: ohno
   project_id: vamboo
-  name: 大野 智葵/☆鈴木 颯介
+  name: 大野 智葵
+  sp_creator: true
+  year: 2017
+- id: suzuki
+  project_id: vamboo
+  name: 鈴木 颯介
   sp_creator: true
   year: 2017
 
@@ -209,7 +259,11 @@
 
 - id: fukuda
   project_id: smart_pen
-  name: 福田 恭子/工藤 零大
+  name: 福田 恭子
+  year: 2016
+- id: kudo
+  project_id: smart_pen
+  name: 工藤 零大
   year: 2016
 
 - id: kimura
