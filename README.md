@@ -38,7 +38,7 @@
   - 後述する Creator テーブルの ID (例：mihashi)
   - 複数名いる場合は複数後述します
   youtube: YouTube上の発表動画ID。www.youtube.com/watch?v=xxxx の "xxxx" 部分。(例: t8kpeE_sNB0)
-  year: 何年度の採択プロジェクトか。(例: 2018)
+  year: 何年度の採択プロジェクトか (例: 2018)
 ```
 
 ## クリエータ情報の更新方法
@@ -48,27 +48,29 @@
 ```yml
 - id: クリエータの ID (例: mihashi)
   project_id: 開発したプロジェクトのID (例: utips)
+  mentor_id: 担当メンターの ID (例: yasukawa_youhei)
   name: クリエータの名前 (例: 三橋 優希)
-  is_spc: スーパークリエータかどうか。(例：true)
-  year: 何年度の採択プロジェクトか。(例: 2018)
+  is_spc: スーパークリエータかどうか (例：true)
+  year: 何年度の採択プロジェクトか (例: 2018)
 ```
 
 ## メンター情報の更新方法
-[`_data` 内の `pms.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/pms.yml) にメンターの情報があります。 
+[`_data` 内の `mentors.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/mentors.yml) にメンターの情報があります。 
 
 それぞれの項目は以下のような内容です。
 ```yml
-- name:
+- id: メンターの ID (例: yasukawa_youhei)
+  name:
     last: 名字 (例：安川)
     first: 名前 (例: 要平)
   img: 顔写真のパス
   affiliation: 所属 (例：YassLab 株式会社, 一般社団法人 CoderDojo Japan)
   interested: こんな提案をお待ちしております (例：スクリプト言語やWebの特長を活かした…（略）)
-  bio: 略歴。aタグが使える。(例：<a href="https://yasslab.jp/">YassLab</a> 代表取締役…（略）)
-  facebook: facebook ID。(例：yasulab)
-  twitter: twitter ID。(例：yasulab)
-  github: github ID。(例：yasulab)
-  web: サイトとか。
+  bio: 略歴。aタグが使える (例：<a href="https://yasslab.jp/">YassLab</a> 代表取締役…（略）)
+  facebook: facebook ID (例：yasulab)
+  twitter: twitter ID (例：yasulab)
+  github: github ID (例：yasulab)
+  web: サイトとか
 ```
 
 ## (任意) ローカル環境で確認したい
