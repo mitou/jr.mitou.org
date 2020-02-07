@@ -1,5 +1,5 @@
 {% assign projects = site.data.projects | where_exp: "pj", "pj.year == include.year" %}
-<ul class="project-list">
+<ul class="project-list {% if include.internal_link %}responsive-list{% endif %}">
   {% for pj in projects %}
   <li>
     {% for creator_id in pj.creator_ids %}
@@ -16,9 +16,8 @@
       {{ creator.name }}
     {% endfor %}
 
-    <a href="/projects/{{ include.year }}#{{ pj.id }}">
-      {{ pj.title }}
-    </a>
+    <a href="{% unless include.internal_link %}/projects/{{ include.year }}{% endunless %}#{{ pj.id }}">
+      {{ pj.title }}    </a>
   </li>
   {% endfor %}
 </ul>
