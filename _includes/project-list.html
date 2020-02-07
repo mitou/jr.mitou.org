@@ -3,16 +3,23 @@
 <ul class="project-list">
   {% for pj in projects %}
   <li>
-    {% if pj.sp_creator %}
-    <span>☆ </span>
-    {% else %}
-    <span>　 </span>
-    {% endif %}
+    {% for creator_id in pj.creator_ids %}
+      {% assign creator = site.data.creators | where: "id", creator_id | first %}
+      {% if creator.sp_creator %}
+        {% if forloop.index > 1 %} / {% endif %}
+        <span>☆ </span>
+      {% elsif forloop.index == 1 %}
+        <span>　</span>
+      {% elsif forloop.index > 1 %}
+        <span>/</span>
+      {% endif %}
+
+      {{ creator.name }}
+    {% endfor %}
+
     <a href="/projects/{{ include.year }}#{{ pj.id }}">
-      {{ pj.name  }}
       {{ pj.title }}
     </a>
   </li>
   {% endfor %}
 </ul>
-
