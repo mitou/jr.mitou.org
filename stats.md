@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 未踏ジュニア統計情報
+title: 統計情報
 ---
 
 <p style="text-align:center; padding: 50px 0px 0px;">
