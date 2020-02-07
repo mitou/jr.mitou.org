@@ -1,4 +1,5 @@
-- name:
+- id: koutake_rina
+  name:
     last: 神武
     first: 里奈
   affiliation: 株式会社ディー・エヌ・エー
@@ -9,7 +10,8 @@
   web: https://koooootake.com/
   img: kohtake.png
 
-- name:
+- id: maki_komuro
+  name:
     last: 小室
     first: 真紀
   affiliation: 株式会社スイッチエデュケーション
@@ -19,7 +21,8 @@
   twitter: MKnkgw
   img: komuro.png
 
-- name:
+- id: nishiso_hirokazu
+  name:
     last: 西尾
     first: 泰和
   affiliation: サイボウズ・ラボ
@@ -30,7 +33,8 @@
   github: nishio
   img: nishio.png
 
-- name:
+- id: yasukawa_youhei
+  name:
     last: 安川
     first: 要平
   affiliation: (一社) CoderDojo Japan / YassLab (株)
@@ -41,7 +45,8 @@
   github: yasulab
   img: yasukawa.png
 
-- name:
+- id: yonetsuji_taizan
+  name:
     last: 米辻
     first: 泰山
   affiliation: Preferred Networks
@@ -51,7 +56,8 @@
   web: https://paintschainer.preferred.tech/
   img: yonetsuji.png
 
-- name:
+- id: suzuki_ryou
+  name:
     last: 鈴木
     first: 遼
   affiliation: 早稲田大学
@@ -62,7 +68,8 @@
   web: https://ryo-suzuki-contact.github.io/
   img: suzuki.png
 
-- name:
+- id: teramoto_daiki
+  name:
     last: 寺本
     first: 大輝
   affiliation: ハックフォープレイ株式会社
@@ -73,7 +80,8 @@
   github: teramotodaiki
   img: teramoto.png
 
-- name:
+- id: yoshifumi_seki
+  name:
     last: 関
     first: 喜史
   affiliation: 株式会社Gunosy
@@ -83,7 +91,8 @@
   twitter: YoshifumiSeki
   img: seki.png
 
-- name:
+- id: ishii_kakeru
+  name:
     last: 石井
     first: 翔
   affiliation: AltLayer株式会社/東京工業大学
@@ -94,7 +103,8 @@
   github: kyasbal-1994
   img: ishii.png
 
-- name:
+- id: ukai_yuu
+  name:
     last: 鵜飼
     first: 佑
   affiliation: 未踏ジュニア代表
@@ -104,7 +114,8 @@
   twitter: ukkaripon
   img: ukai.png
 
-- name:
+- id: bitou_masato
+  name:
     last: 尾藤
     first: 正人
   affiliation: ニート
