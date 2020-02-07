@@ -1,5 +1,4 @@
 {% assign projects = site.data.projects | where_exp: "pj", "pj.year == include.year" %}
-<a href="/projects/{{ include.year }}"><h3>{{ include.year }}年度</h3></a>
 <ul class="project-list">
   {% for pj in projects %}
   <li>
