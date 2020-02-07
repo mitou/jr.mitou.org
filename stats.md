@@ -39,9 +39,9 @@ title: 統計情報
 }
 </style>
 
-<script src="./highcharts.js"></script>
+<script src="/assets/js/highcharts.js"></script>
 <!-- NOTE: Use this for expoting image files
-     <script src="./exporting.js"></script>
+     <script src="/assets/js/exporting.js"></script>
 -->
 
 <p style="text-align:center; padding: 50px 0px 0px;">
