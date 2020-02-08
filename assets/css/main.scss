@@ -425,6 +425,13 @@ footer{
     margin-top: 2.4em;
     padding: 8px;
   }
+  ul{
+
+    @media screen and (max-width:$phone-width) {
+      list-style: none;
+      padding: 0;
+    }
+  }
 }
 
 .tips{
