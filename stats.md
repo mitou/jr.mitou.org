@@ -20,7 +20,7 @@ title: 統計情報
  }
 
 
-/* Link the series colors to axis colors */
+/* For series of 応募数 */
 .highcharts-color-0 {
   fill: rgb(40, 161, 58);
   stroke: #7cb5ec;
@@ -31,6 +31,8 @@ title: 統計情報
 .highcharts-axis.highcharts-color-0 text {
   fill: #7cb5ec;
 }
+
+/* For another series (Not using for now) */
 .highcharts-color-1 {
   fill: #90ed7d;
   stroke: #90ed7d;
