@@ -16,6 +16,6 @@ title: ダウンロード
 
 昨年度の採択者による提案書を下記から一部公開しています。ただし、フォーマットは今年の提案書とは一部異なります。
 
-<a href="https://jr.mitou.org/assets/other/2019_application_samples.zip" class="button">過去採択者の応募書類</a>
+<a href="https://jr.mitou.org/assets/other/2019_application_samples.zip" class="button">過去の提案書を見る</a>
 
 
