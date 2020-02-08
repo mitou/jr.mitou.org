@@ -115,7 +115,7 @@ Highcharts.chart('container', {
 
 
 {% for stat in site.data.stats %}
-<h3>{{ stat.year }} 年度</h3>
+<h3><a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }} 年度</a></h3>
 <ul>
   {% comment %}
   <!-- You can manually check data like this -->
