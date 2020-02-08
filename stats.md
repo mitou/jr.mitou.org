@@ -21,9 +21,12 @@ title: 統計情報
 
 
 /* For series of 応募数 */
+.highcharts-color-0 {
+  fill: rgb(40, 161, 58);
+  stroke: rgb(40, 161, 58);
+}
 .highcharts-point {
   fill: rgb(40, 161, 58);
-  stroke: #7cb5ec;
 }
 .highcharts-axis-labels {
   fill: #000000;
@@ -139,5 +142,3 @@ Highcharts.chart('container', {
 
   <a href="mailto:jr@mitou.org" class="button">メールを送る</a>
 </div>
-
-
