@@ -10,7 +10,15 @@ title: 統計情報
   height: 400px;
   max-width: 800px;
   margin: 0 auto;
-}
+ }
+
+ @media screen and (max-width: 800px) {
+   #container {
+     width: 98vw;
+     margin-left: calc(-49vw + 50%);
+   }
+ }
+
 
 /* Link the series colors to axis colors */
 .highcharts-color-0 {
