@@ -21,15 +21,15 @@ title: 統計情報
 
 
 /* For series of 応募数 */
-.highcharts-color-0 {
+.highcharts-point {
   fill: rgb(40, 161, 58);
   stroke: #7cb5ec;
 }
-.highcharts-axis.highcharts-color-0 .highcharts-axis-line {
+.highcharts-axis-labels {
+  fill: #000000;
+ }
+.highcharts-axis-line {
   stroke: rgb(40, 161, 58);
-}
-.highcharts-axis.highcharts-color-0 text {
-  fill: #7cb5ec;
 }
 
 /* For another series (Not using for now) */
