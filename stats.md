@@ -120,9 +120,7 @@ Highcharts.chart('container', {
 ## お問い合わせ
 
 <div class='text-center' style="margin-top: 50px;">
-    <div class="sponsors-text-for-inquiry">
-      <p>未踏ジュニア実行委員会では、未踏ジュニアの継続的な活動を支援して頂けるスポンサー様を随時募集しております。興味を持って頂いた法人・個人の方は <a href="mailto:jr@mitou.org"><i>jr@mitou.org</i></a> までご連絡頂けると幸いです。</p>
-    </div>
+  <p>未踏ジュニア実行委員会では、未踏ジュニアの継続的な活動を支援して頂けるスポンサー様を随時募集しております。</p>
 
   <i class="fas fa-envelope green" style="font-size:36px;"></i><br>
   <a href="mailto:jr@mitou.org">jr@mitou.org</a>
