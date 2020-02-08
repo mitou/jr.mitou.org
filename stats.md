@@ -22,11 +22,11 @@ title: 統計情報
 
 /* Link the series colors to axis colors */
 .highcharts-color-0 {
-  fill: #7cb5ec;
+  fill: rgb(40, 161, 58);
   stroke: #7cb5ec;
 }
 .highcharts-axis.highcharts-color-0 .highcharts-axis-line {
-  stroke: #7cb5ec;
+  stroke: rgb(40, 161, 58);
 }
 .highcharts-axis.highcharts-color-0 text {
   fill: #7cb5ec;
