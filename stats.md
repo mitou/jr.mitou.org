@@ -50,8 +50,6 @@ title: 統計情報
 
 ## 応募数の推移
 
-### 推移グラフ
-
 <div id="container"></div>
 <script type="text/javascript">
 Highcharts.chart('container', {
@@ -67,7 +65,7 @@ Highcharts.chart('container', {
    yAxis: [{
      className: 'highcharts-color-0',
      title: {
-       text: '応募数'
+       text: ''
      }
    }],
    xAxis: [{
@@ -96,15 +94,6 @@ Highcharts.chart('container', {
 	 [Date.parse('2017'), 41],
 	 [Date.parse('2018'), 105],
 	 [Date.parse('2019'), 127]
-       ]
-     },
-     {
-       name: '採択数',
-       data: [
-	 [Date.parse('2016'), 4],
-	 [Date.parse('2017'), 11],
-	 [Date.parse('2018'), 12],
-	 [Date.parse('2019'), 13]
        ]
      }
    ]
