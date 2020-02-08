@@ -9,7 +9,7 @@ title: ダウンロード
 
 <a href="https://jr.mitou.org/assets/other/mitoujr_application_2020.zip" class="button">Word・Pages を使う</a>
 
-<a href="(https://docs.google.com/document/d/1hjDYf2DbFBkXLyrAl9HKKc9sS40XbZ_iN2j-HKZXD9g/edit?usp=sharing" class="button">Google Docs を使う</a>
+<a href="https://docs.google.com/document/d/1hjDYf2DbFBkXLyrAl9HKKc9sS40XbZ_iN2j-HKZXD9g/edit?usp=sharing" class="button">Google Docs を使う</a>
 
 
 ## 提案書サンプル
