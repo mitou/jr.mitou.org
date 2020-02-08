@@ -48,7 +48,7 @@ title: 統計情報
   2016年から始まった未踏ジュニアの統計情報です。未踏ジュニアへのスポンサーを検討されている方々にとってご参考になれば幸いです。
 </p>
 
-## 応募数の推移
+<h2 style="margin-bottom: 60px;">応募数の推移</h2>
 
 <div id="container"></div>
 <script type="text/javascript">
