@@ -39,10 +39,20 @@ layout: default
 
 <section class="prospective-creators">
   <h2 class="heading-balloon">応募者向け情報まとめ</h2>
+
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
-  <img src="/assets/img/MovieToCreator.png" alt="Movies for Prospective Creators" width="100%" loading="lazy"></a>
+    <img src="/assets/img/MovieToCreator.png" alt="Movies for Prospective Creators" width="100%" loading="lazy"></a>
+
   <p>応募者に役立つ動画を YouTube で公開しています。<br>質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="/q-box">匿名質問箱</a>でも受付中！</p>
+
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTubeで視聴する</a>
+
+  <p>🆕
+    2月15日19:30よりオンライン説明会を行います!</p>
+  <div class="youtube" style="margin-bottom: 40px;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bCHrF-jkxRs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+  </div>
+
 </section>
 
 {% include lets-apply.html %}
