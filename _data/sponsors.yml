@@ -12,6 +12,9 @@ silver: # シルバースポンサー
   - name: 合同会社DMM.com
     img: DMM.png
     url: https://www.dmm.com/
+  - name: フューチャー株式会社
+    img: future.png
+    url: https://www.future.co.jp/
 
 bronze: # ブロンズスポンサー
   - name: 株式会社プロコミット
