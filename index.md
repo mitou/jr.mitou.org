@@ -47,8 +47,9 @@ layout: default
 
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTubeで視聴する</a>
 
-  <p>🆕
-    2月15日19:30よりオンライン説明会を行います!</p>
+  <p>
+    2月15日 19:30 よりオンライン説明会を行います。<br>
+    説明会で聞いてみたいことがあれば<a href="/q-box">匿名質問箱</a>へ!</p>
   <div class="youtube" style="margin-bottom: 40px;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/bCHrF-jkxRs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
   </div>
