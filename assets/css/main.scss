@@ -197,6 +197,8 @@ header{
   min-width: 240px;
   position: relative;
   box-shadow: 4px 4px 0 1px #000;
+  margin: 50px auto;
+  /*
   margin: 24px auto;
   &:first-child{
     margin-top: 50px;
@@ -204,6 +206,7 @@ header{
   &:last-child{
     margin-bottom: 50px;
   }
+  */
   &:hover{
     box-shadow: none;
     transform: translateX(4px)  translateY(4px);
