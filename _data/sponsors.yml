@@ -8,6 +8,10 @@ gold: # ゴールドスポンサー
     img: recruit-foundation.png
     url: https://www.recruit-foundation.org/
 
+  - name: KDDI株式会社
+    img: kddi.png
+    url: https://www.kddi.com/
+
 silver: # シルバースポンサー
   - name: 合同会社DMM.com
     img: DMM.png
@@ -20,6 +24,11 @@ bronze: # ブロンズスポンサー
   - name: 株式会社プロコミット
     img: pro-commit.png
     url: https://www.procommit.co.jp/
+
+  - name: 株式会社Gunosy
+    img: gunosy.png
+    url: https://gunosy.co.jp/
+
 
 equipment: # 機材・教材提供
   - name: 株式会社アイデミー
