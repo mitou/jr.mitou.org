@@ -160,7 +160,7 @@ layout: default
   <i class="fas fa-envelope green" style="font-size:36px;"></i><br>
   <a href="mailto:jr@mitou.org">jr@mitou.org</a>
 
-  <p>お返事が遅くなる場合もありますが、ご了承ください。<br>チラシ配布にご協力頂ける方は<a href="https://forms.gle/RJruEWMpfkzDebz99" target="_blank">コチラ</a>からご請求をお願い致します。
+  <p>お返事が遅くなる場合もありますが、ご了承ください。<br>チラシ配布にご協力頂ける方は<a href="/flyer">コチラ</a>からご請求をお願い致します。
   </p>
   <a href="/q-box" class="button">匿名質問箱はこちら</a>
 </section>
