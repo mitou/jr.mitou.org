@@ -45,8 +45,8 @@ title: メンター紹介
   {% endfor %}
 </div>
 
+<h2>スーパーバイザー</h2>
 
-## スーパーバイザー
 
 <div class="sv">
   <div class="sv-left">
@@ -65,7 +65,7 @@ title: メンター紹介
 </div>
 
 
-## 運営チーム
+<h2>運営チーム</h2>
 
 <div class="flex">
   <div class="mentor">
@@ -99,4 +99,3 @@ title: メンター紹介
     </div>
   </div>
 </div>
-
