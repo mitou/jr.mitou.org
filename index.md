@@ -37,7 +37,7 @@ layout: default
   </div>
 </section>
 
-<section class="prospective-creators">
+<section id="for-creators" class="prospective-creators">
   <h2 class="heading-balloon">応募者向け情報まとめ</h2>
 
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
