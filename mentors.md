@@ -75,6 +75,7 @@ title: メンター紹介
       <h3 class="mentor-name">荒川 淳平</h3>
       <div class="mentor-sns">
         <a href="https://www.facebook.com/jumpei.arakawa"><i class="fab fa-facebook-square green"></i></a>
+        <a href="https://scrapbox.io/mitou-meikan/荒川_淳平"><img class="icon-mitou-meikan" src="/assets/img/mitou_meikan.png" alt="未踏名鑑" /></a>
       </div>
     </div>
     <div class="mentor-comment text-left">
