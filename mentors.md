@@ -91,7 +91,7 @@ title: メンター紹介
       <h3 class="mentor-name">鵜飼 佑</h3>
       <div class="mentor-sns">
         <a href="https://www.facebook.com/ukai.yu"><i class="fab fa-facebook-square green"></i></a>
-	<a href="https://twitter.com/ukkaripon"><i class="fab fa-twitter-square green"></i></a>
+      	<a href="https://twitter.com/ukkaripon"><i class="fab fa-twitter-square green"></i></a>
       </div>
     </div>
     <div class="mentor-comment text-left">
