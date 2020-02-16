@@ -38,24 +38,24 @@ layout: default
 </section>
 
 <section id="for-creators" class="prospective-creators">
+  <h2 class="heading-balloon">2020年度オンライン説明会</h2>
+  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfWtf0KY5ny10AmEvBn7rFi" target="_blank">
+    <img src="/assets/img/2020-orientation.png" alt="2020年度オンライン説明会" width="100%" loading="lazy"></a>
+  <p>
+    2020年度オンライン説明会の動画です。<br>
+  </p>
+
+  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfWtf0KY5ny10AmEvBn7rFi" class="button">YouTubeで視聴する</a>
+
+
   <h2 class="heading-balloon">応募者向け情報まとめ</h2>
 
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
-    <img src="/assets/img/MovieToCreator.png" alt="Movies for Prospective Creators" width="100%" loading="lazy"></a>
+    <img src="/assets/img/highlights-for-creators.png" alt="Movies for Prospective Creators" width="100%" loading="lazy"></a>
 
-  <p>応募者に役立つ動画を YouTube で公開しています。<br>質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="/q-box">匿名質問箱</a>でも受付中！</p>
+  <p>応募者に役立つ動画を YouTube でまとめました。<br>質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="/q-box">匿名質問箱</a>でも受付中！</p>
 
-  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTubeで視聴する</a>
-
-  <p>
-    2020年度オンライン説明会の動画です。<br>
-    聞いてみたいことがあれば<a href="/q-box">匿名質問箱</a>へ!
-  </p>
-
-  <div class="youtube" style="margin-bottom: 40px;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6lfWtf0KY5ny10AmEvBn7rFi&amp;rel=0showinfo=0" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-
+  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTubeで視聴する</a>  
 </section>
 
 {% include lets-apply.html %}
