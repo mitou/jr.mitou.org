@@ -48,7 +48,7 @@ layout: default
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfWtf0KY5ny10AmEvBn7rFi" class="button">YouTubeで視聴する</a>
 
 
-  <h2 class="heading-balloon">応募者向け情報まとめ</h2>
+  <h2 class="heading-balloon">応募者向けお役立ち情報</h2>
 
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
     <img src="/assets/img/highlights-for-creators.png" alt="Movies for Prospective Creators" width="100%" loading="lazy"></a>
