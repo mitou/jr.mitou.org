@@ -49,9 +49,11 @@ layout: default
 
   <p>
     2020年度オンライン説明会の動画です。<br>
-    聞いてみたいことがあれば<a href="/q-box">匿名質問箱</a>へ!</p>
+    聞いてみたいことがあれば<a href="/q-box">匿名質問箱</a>へ!
+  </p>
+
   <div class="youtube" style="margin-bottom: 40px;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/9mwaZTErZxo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6lfWtf0KY5ny10AmEvBn7rFi&amp;rel=0showinfo=0" frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
 </section>
