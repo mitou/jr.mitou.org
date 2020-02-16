@@ -1,3 +1,26 @@
+- id: bitou_masato
+  name:
+    last: 尾藤
+    first: 正人
+  affiliation: ニート
+  interested: 今までにない面白いものを実装するプロジェクト<br>常に前向きで失敗を恐れずにどんどんチャレンジしてくれるような人
+  bio: OSSコミッタ (Vine SPARC開発)<br> 未踏ユース採択者(2003年度)<br>元ウノウCTO<br>元UUUM CTO<br><br>ニート <- ｲﾏｺｺ
+  facebook: btomasato
+  twitter: bto
+  img: bto.png
+
+- id: shoya_ishimaru
+  name:
+    last: 石丸
+    first: 翔也
+  affiliation: ドイツ人工知能研究センター
+  interested: 自身の興味や経験を活かしたプロジェクト
+  bio: 2015年度未踏スーパークリエータ。2016年に大阪府立大学大学院工学研究科にて博士前期課程 (修士) を修了したのち渡欧。2019年にカイザースラウテルン工科大学で工学博士号を取得。現在はドイツ人工知能研究センター (DFKI) シニアリサーチャー。人の知的能力を拡張する技術の研究開発に取り組んでいる。
+  facebook: shoya.i
+  twitter: shoya140
+  web: https://shoya.io
+  img: ishimaru.png
+  
 - id: koutake_rina
   name:
     last: 神武
@@ -113,17 +136,6 @@
   facebook: ukai.yu
   twitter: ukkaripon
   img: ukai.png
-
-- id: bitou_masato
-  name:
-    last: 尾藤
-    first: 正人
-  affiliation: ニート
-  interested: 今までにない面白いものを実装するプロジェクト<br>常に前向きで失敗を恐れずにどんどんチャレンジしてくれるような人
-  bio: OSSコミッタ (Vine SPARC開発)<br> 未踏ユース採択者(2003年度)<br>元ウノウCTO<br>元UUUM CTO<br><br>ニート <- ｲﾏｺｺ
-  facebook: btomasato
-  twitter: bto
-  img: bto.png
 
 # PM Alumni
 
