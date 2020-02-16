@@ -393,6 +393,10 @@ footer{
   font-size: 10.5px;
   margin: 4px 0 20px;
 }
+.icon-mitou-meikan {
+  height: 32px;
+  margin-bottom: -2px; // Adjust to other icons.
+}
 
 @media screen and (max-width:$phone-width) {
   .mentor{
