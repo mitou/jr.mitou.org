@@ -92,6 +92,7 @@ title: メンター紹介
       <div class="mentor-sns">
         <a href="https://www.facebook.com/ukai.yu"><i class="fab fa-facebook-square green"></i></a>
       	<a href="https://twitter.com/ukkaripon"><i class="fab fa-twitter-square green"></i></a>
+        <a href="https://scrapbox.io/mitou-meikan/鵜飼_佑"><img class="icon-mitou-meikan" src="/assets/img/mitou_meikan.png" alt="未踏名鑑" /></a>
       </div>
     </div>
     <div class="mentor-comment text-left">
