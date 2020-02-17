@@ -1,14 +1,3 @@
-- id: bitou_masato
-  name:
-    last: 尾藤
-    first: 正人
-  affiliation: ニート
-  interested: 今までにない面白いものを実装するプロジェクト<br>常に前向きで失敗を恐れずにどんどんチャレンジしてくれるような人
-  bio: OSSコミッタ (Vine SPARC開発)<br> 未踏ユース採択者(2003年度)<br>元ウノウCTO<br>元UUUM CTO<br><br>ニート <- ｲﾏｺｺ
-  facebook: btomasato
-  twitter: bto
-  img: bto.png
-
 - id: shouya_ishimaru
   name:
     last: 石丸
@@ -20,7 +9,18 @@
   twitter: shoya140
   web: https://shoya.io
   img: ishimaru.png
-  
+
+- id: bitou_masato
+  name:
+    last: 尾藤
+    first: 正人
+  affiliation: ニート
+  interested: 今までにない面白いものを実装するプロジェクト<br>常に前向きで失敗を恐れずにどんどんチャレンジしてくれるような人
+  bio: OSSコミッタ (Vine SPARC開発)<br> 未踏ユース採択者(2003年度)<br>元ウノウCTO<br>元UUUM CTO<br><br>ニート <- ｲﾏｺｺ
+  facebook: btomasato
+  twitter: bto
+  img: bto.png
+
 - id: koutake_rina
   name:
     last: 神武
