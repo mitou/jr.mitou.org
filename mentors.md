@@ -21,7 +21,7 @@ title: メンター紹介
           {% if mentor.twitter %}<a href="https://twitter.com/{{ mentor.twitter }}"><i class="fab fa-twitter-square green"></i></a>{%endif%}
           {% if mentor.web %}<a href="{{ mentor.web }}"><i class="fas fa-globe green"></i></a>{% endif %}
           {% if mentor.github %}<a href="https://github.com/{{ mentor.github }}"><i class="fab fa-github-square green"></i></a>{% endif %}
-          <a href="https://scrapbox.io/mitou-meikan/{{ mentor.name.last }}_{{ mentor.name.first }}"><img class="icon-mitou-meikan" height="32" src="/assets/img/mitou_meikan.png" alt="未踏名鑑" /></a>
+          <a href="https://scrapbox.io/mitou-meikan/{{ mentor.name.last }}_{{ mentor.name.first }}"><img class="icon-mitou-meikan" src="/assets/img/mitou_meikan.png" alt="未踏名鑑" /></a>
         </div>
       </div>
 
@@ -75,6 +75,7 @@ title: メンター紹介
       <h3 class="mentor-name">荒川 淳平</h3>
       <div class="mentor-sns">
         <a href="https://www.facebook.com/jumpei.arakawa"><i class="fab fa-facebook-square green"></i></a>
+        <a href="https://scrapbox.io/mitou-meikan/荒川_淳平"><img class="icon-mitou-meikan" src="/assets/img/mitou_meikan.png" alt="未踏名鑑" /></a>
       </div>
     </div>
     <div class="mentor-comment text-left">
@@ -91,7 +92,8 @@ title: メンター紹介
       <h3 class="mentor-name">鵜飼 佑</h3>
       <div class="mentor-sns">
         <a href="https://www.facebook.com/ukai.yu"><i class="fab fa-facebook-square green"></i></a>
-	<a href="https://twitter.com/ukkaripon"><i class="fab fa-twitter-square green"></i></a>
+      	<a href="https://twitter.com/ukkaripon"><i class="fab fa-twitter-square green"></i></a>
+        <a href="https://scrapbox.io/mitou-meikan/鵜飼_佑"><img class="icon-mitou-meikan" src="/assets/img/mitou_meikan.png" alt="未踏名鑑" /></a>
       </div>
     </div>
     <div class="mentor-comment text-left">
