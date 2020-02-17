@@ -44,29 +44,17 @@
   twitter: MKnkgw
   img: komuro.png
 
-- id: nishio_hirokazu
+- id: ishii_kakeru
   name:
-    last: 西尾
-    first: 泰和
-  affiliation: サイボウズ・ラボ
-  interested: どんどん新しいことにチャレンジする人。
-  bio: 2002年度スーパークリエータ。2006年、24歳で博士(理学)取得。2007年よりサイボウズ・ラボにて、チームワークや知的生産性を高めるソフトウェアの研究に従事。著書に<a href="http://nhiro.org/langbook/">「コーディングを支える技術」</a><a href="https://www.oreilly.co.jp/books/9784873116839/">「word2vecによる自然言語処理」</a>など。2014年技術経営修士取得。2015年より一般社団法人未踏の理事を兼任。2級知的財産管理技能士。
-  facebook: nishiohirokazu
-  twitter: nishio
-  github: nishio
-  img: nishio.png
-
-- id: yasukawa_youhei
-  name:
-    last: 安川
-    first: 要平
-  affiliation: (一社) CoderDojo Japan / YassLab (株)
-  interested: スクリプト言語やWebの特長を活かしたプロジェクト。応募時点で動くプロトタイプがあると素晴らしいですね ;)
-  bio: <a href="https://yasslab.jp/">YassLab</a> 代表取締役。<a href="https://coderdojo.jp/">CoderDojo Japan</a> 代表理事。早稲田大学情報理工学科卒 (修士)。米国留学中に開発した震災対策アプリのヒットを契機に、沖縄と東京を拠点にした<a href="https://speakerdeck.com/yasslab/remote-first-company">完全リモートワーク制の会社</a>を起業。<a href="https://railstutorial.jp/">Railsチュートリアル</a>や<a href="https://railsguides.jp/">Railsガイド</a>を開発し、AIITや筑波大学、琉球大学や工学院大学などで採用。2012年度未踏スーパークリエータ、TEDxRyukyuスピーカー。
-  facebook: yasulab
-  twitter: yasulab
-  github: yasulab
-  img: yasukawa.png
+    last: 石井
+    first: 翔
+  affiliation: AltLayer株式会社/東京工業大学
+  interested: 今この瞬間必要ではないかもしれないが、あなたが考える未来で必要とされるようなアプリケーション/ライブラリ
+  bio: 2016年度未踏スーパークリエータ。2018年度未踏アドバンストイノベータ。未踏事業では「Web開発に親和するWeb3Dライブラリ」として採択され、このプロジェクトで開発したOSSのWebGLフレームワーク<a href="https://grimoire.gl/">Grimoire.js</a>の開発者。 未踏アドバンスト事業では「Web技術を活用したARクラウド」で採択され、AltLayer株式会社を創業。 8歳からプログラミングを始め、主にリアルタイムCG技術やWeb技術を中心に活動している。チームプロジェクトが好き。
+  facebook: kakeru1994
+  twitter: kyasbal_1994
+  github: kyasbal-1994
+  img: ishii.png
 
 - id: yonetsuji_taizan
   name:
@@ -78,18 +66,6 @@
   twitter: tai2an
   web: https://paintschainer.preferred.tech/
   img: yonetsuji.png
-
-- id: suzuki_ryou
-  name:
-    last: 鈴木
-    first: 遼
-  affiliation: 早稲田大学
-  interested: 「コンピューターって面白い！」もしくは「コンピューターを使って何かを作りたい！」と思う人が増えるようなプロジェクト
-  bio: 2013 年度未踏スーパークリエータ。ゲームやメディアアートを簡単に作れる C++ フレームワーク <a href="https://siv3d.github.io/ja-jp/" target="_blank">Siv3D</a>, 子ども向けのプログラミング体験ツール <a href="https://siv3d-for-kids.github.io/" target="_blank">Siv3D for Kids</a> の開発者。早稲田大学メディアデザイン研究室在籍、早稲田情報科学ジュニア・アカデミーをはじめ各所でプログラミング講師。著書に「冒険で学ぶ はじめてのプログラミング」。
-  twitter: Reputeless
-  github: Reputeless
-  web: https://ryo-suzuki-contact.github.io/
-  img: suzuki.png
 
 - id: teramoto_daiki
   name:
@@ -114,17 +90,41 @@
   twitter: YoshifumiSeki
   img: seki.png
 
-- id: ishii_kakeru
+- id: nishio_hirokazu
   name:
-    last: 石井
-    first: 翔
-  affiliation: AltLayer株式会社/東京工業大学
-  interested: 今この瞬間必要ではないかもしれないが、あなたが考える未来で必要とされるようなアプリケーション/ライブラリ
-  bio: 2016年度未踏スーパークリエータ。2018年度未踏アドバンストイノベータ。未踏事業では「Web開発に親和するWeb3Dライブラリ」として採択され、このプロジェクトで開発したOSSのWebGLフレームワーク<a href="https://grimoire.gl/">Grimoire.js</a>の開発者。 未踏アドバンスト事業では「Web技術を活用したARクラウド」で採択され、AltLayer株式会社を創業。 8歳からプログラミングを始め、主にリアルタイムCG技術やWeb技術を中心に活動している。チームプロジェクトが好き。
-  facebook: kakeru1994
-  twitter: kyasbal_1994
-  github: kyasbal-1994
-  img: ishii.png
+    last: 西尾
+    first: 泰和
+  affiliation: サイボウズ・ラボ
+  interested: どんどん新しいことにチャレンジする人。
+  bio: 2002年度スーパークリエータ。2006年、24歳で博士(理学)取得。2007年よりサイボウズ・ラボにて、チームワークや知的生産性を高めるソフトウェアの研究に従事。著書に<a href="http://nhiro.org/langbook/">「コーディングを支える技術」</a><a href="https://www.oreilly.co.jp/books/9784873116839/">「word2vecによる自然言語処理」</a>など。2014年技術経営修士取得。2015年より一般社団法人未踏の理事を兼任。2級知的財産管理技能士。
+  facebook: nishiohirokazu
+  twitter: nishio
+  github: nishio
+  img: nishio.png
+
+- id: suzuki_ryou
+  name:
+    last: 鈴木
+    first: 遼
+  affiliation: 早稲田大学
+  interested: 「コンピューターって面白い！」もしくは「コンピューターを使って何かを作りたい！」と思う人が増えるようなプロジェクト
+  bio: 2013 年度未踏スーパークリエータ。ゲームやメディアアートを簡単に作れる C++ フレームワーク <a href="https://siv3d.github.io/ja-jp/" target="_blank">Siv3D</a>, 子ども向けのプログラミング体験ツール <a href="https://siv3d-for-kids.github.io/" target="_blank">Siv3D for Kids</a> の開発者。早稲田大学メディアデザイン研究室在籍、早稲田情報科学ジュニア・アカデミーをはじめ各所でプログラミング講師。著書に「冒険で学ぶ はじめてのプログラミング」。
+  twitter: Reputeless
+  github: Reputeless
+  web: https://ryo-suzuki-contact.github.io/
+  img: suzuki.png
+
+- id: yasukawa_youhei
+  name:
+    last: 安川
+    first: 要平
+  affiliation: (一社) CoderDojo Japan / YassLab (株)
+  interested: スクリプト言語やWebの特長を活かしたプロジェクト。応募時点で動くプロトタイプがあると素晴らしいですね ;)
+  bio: <a href="https://yasslab.jp/">YassLab</a> 代表取締役。<a href="https://coderdojo.jp/">CoderDojo Japan</a> 代表理事。早稲田大学情報理工学科卒 (修士)。米国留学中に開発した震災対策アプリのヒットを契機に、沖縄と東京を拠点にした<a href="https://speakerdeck.com/yasslab/remote-first-company">完全リモートワーク制の会社</a>を起業。<a href="https://railstutorial.jp/">Railsチュートリアル</a>や<a href="https://railsguides.jp/">Railsガイド</a>を開発し、AIITや筑波大学、琉球大学や工学院大学などで採用。2012年度未踏スーパークリエータ、TEDxRyukyuスピーカー。
+  facebook: yasulab
+  twitter: yasulab
+  github: yasulab
+  img: yasukawa.png
 
 - id: ukai_yuu
   name:
@@ -136,6 +136,7 @@
   facebook: ukai.yu
   twitter: ukkaripon
   img: ukai.png
+
 
 # PM Alumni
 
