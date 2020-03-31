@@ -31,7 +31,7 @@ layout: default
     <div class="service-one">
       <img src="/assets/img/illustration/sp-creator.svg" alt="スーパークリエータ認定" class="service-img">
       <h3>スーパークリエータ認定</h3>
-      <p>特に顕著な成果を残した方を未踏ジュニアスーパークリエータとして認定します。<a href="https://www.sfc.keio.ac.jp/news/012903.html">慶應義塾大学SFC</a>や<a href="https://www.tmu.ac.jp/entrance/revision/y2021/tayou.html">東京都立大学システムデザイン学部</a>に推薦枠で出願できます</p>
+      <p>特に顕著な成果を残した方を未踏ジュニアスーパークリエータとして認定します。<a href="https://www.sfc.keio.ac.jp/news/012903.html">慶應義塾大学SFC</a>や<a href="https://www.tmu.ac.jp/entrance/revision/y2021/tayou.html">東京都立大学</a>に推薦枠で出願できます</p>
     </div>
     <a href="/about" class="button">詳細を見る</a>
   </div>
