@@ -14,12 +14,14 @@ title: 採択後の流れ
 ## ブースト合宿（6/13-14）
 <img src="/assets/img/illustration/boost.svg" alt="ブースト合宿" width="50%" class="post-photo">
 採択者全員が顔を合わせる未踏ジュニアブースト合宿が、6/13-14 の日程で都内にて行われます。
+<br>※ブースト合宿は、都内にて行われる予定ですが、コロナウィルスの影響でオンラインでの開催になる可能性もあります。
 
 {% include arrow.html %}
 
 ## 中間合宿（8月ごろ）
 <img src="/assets/img/illustration/chukan.svg" alt="中間" width="50%" class="post-photo">
 2回目のオフライン回です。ある程度プロジェクトが進んだ時点でフィードバックを得られる、貴重な機会です。
+<br>※ブースト合宿と同じく、、コロナウィルスの影響でオンラインでの開催になる可能性もあります。
 
 {% include arrow.html %}
 
