@@ -5,7 +5,7 @@ layout: default
 
 <div class="cover-photo">
   <img src="/assets/img/2019_all.png" alt="2019年度未踏ジュニア集合写真" class="top-img">
-  <a href="/guideline" class="dialog">2020年度の募集は終了しました！<br>一次審査以降の流れはこちら</a>
+  <a href="/guideline#apply" class="dialog">2020年度の募集は終了しました！<br>一次審査以降の流れはこちら</a>
 </div>
 
 <section id="about">
