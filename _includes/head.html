@@ -42,7 +42,11 @@
   {% if page.meta_image %}
   <meta property="og:image"        content="https://jr.mitou.org{{ page.meta_image }}" />
   {% else %}
-  <meta property="og:image"        content="https://jr.mitou.org/assets/img/facebook_ogp_image.png" />
+    {% if lang == "ja" %}
+    <meta property="og:image"      content="https://jr.mitou.org/assets/img/facebook_ogp_image.png" />
+    {% else %}
+    <meta property="og:image"      content="https://jr.mitou.org/assets/img/facebook_ogp_image_en.png" />
+    {% endif %}
   {% endif %}
   <meta property="og:image:width"  content="2050" />
   <meta property="og:image:height" content="900"  />
