@@ -1,0 +1,12 @@
+{% assign lang = page.lang | default: "ja" %}
+
+<section id="collaborators">
+  <h2>{{ site.data.translations.collaboratorHeading[lang] }}</h2>
+  <div class="sponsors-list-clb">
+    {% for c in site.data.collaborators %}
+    <a href="{{c.url}}" class="sponsor-clb sponsor-one" target="_blank">
+      <img src="/assets/img/sponsors/{{c.img}}" alt="{{c.name}}" class="sponsor-img">
+    </a>
+    {% endfor %}
+  </div>
+</section>

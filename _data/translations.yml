@@ -1,0 +1,44 @@
+sponsorHeading:
+  ja: 'スポンサー'
+  en: 'Sponsors'
+
+sponsorGold:
+  ja: 'ゴールドスポンサー'
+  en: 'Gold Sponsor'
+
+sponsorSilver:
+  ja: 'シルバースポンサー'
+  en: 'Silver Sponsor'
+
+sponsorBronze:
+  ja: 'ブロンズスポンサー'
+  en: 'Bronze Sponsor'
+
+sponsorInkind:
+  ja: '機材・教材提供'
+  en: 'In-kind Sponsor'
+
+sponsorMedia:
+  ja: 'メディアパートナー'
+  en: 'Media Partner'
+
+sponsorText:
+  ja: '<p>未踏ジュニア実行委員会では、未踏ジュニアの継続的な活動を支援して頂けるスポンサー様を随時募集しております。</p><p>興味を持って頂いた法人・個人の方は <a href="mailto:jr@mitou.org"><i>jr@mitou.org</i></a> までご連絡頂けると幸いです。</p>'
+  en: '<p>Interested in sponsoring us?</p><p>Feel free to contact <a href="mailto:jr@mitou.org"><i>jr@mitou.org</i></a> to find out what we can do together!</p>'
+
+supporterHeading:
+  ja: '後援'
+  en: 'Supporters'
+
+collaboratorHeading:
+  ja: '協力団体'
+  en: 'Collaborators'
+
+contactHeading:
+  ja: 'お問い合わせ'
+  en: 'Contact'
+
+contactText:
+  ja: '<p>お返事が遅くなる場合もありますが、ご了承ください。<br>チラシ配布にご協力頂ける方は<a href="/flyer">コチラ</a>からご請求をお願い致します。</p><a href="/q-box" class="button">匿名質問箱はこちら</a>'
+  en: '<p>Let us know if you have any questions.<br> We have limited resources and receive many inquiries so may be late to reply.</p><p>Thanks for your cooperation.</p>'
+

@@ -115,33 +115,8 @@ layout: default
 </section>
 
 {% include sponsors.html %}
-
-<section id="supporters">
-  <h2>後援</h2>
-  <div class="sponsors-list-supporter">
-    <a href="https://www.mext.go.jp/" target="_blank">
-      <div class="sponsor-supporter sponsor-one">
-        <img src="/assets/img/sponsors/mext.png" alt="文部科学省" class="sponsor-img">
-      </div>
-    </a>
-    <a href="https://www.meti.go.jp/" class="sponsor-supporter sponsor-one" target="_blank">
-      <div class="sponsor-supporter sponsor-one">
-        <img src="/assets/img/sponsors/meti.png" alt="経済産業省" class="sponsor-img">
-      </div>
-    </a>
-  </div>
-</section>
-
-<section id="collaborators">
-  <h2>協力団体</h2>
-  <div class="sponsors-list-clb">
-    {% for c in site.data.collaborators %}
-    <a href="{{c.url}}" class="sponsor-clb sponsor-one" target="_blank">
-      <img src="/assets/img/sponsors/{{c.img}}" alt="{{c.name}}" class="sponsor-img">
-    </a>
-    {% endfor %}
-  </div>
-</section>
+{% include supporters.html %}
+{% include collaborators.html %}
 
 <section id="sns" class="pc">
   <h2 class="heading-line">SNS</h2>
@@ -155,14 +130,4 @@ layout: default
   </div>
 </section>
 
-<section id="contact">
-  <h2 class="heading-line">お問い合わせ</h2>
-  <p></p>
-
-  <i class="fas fa-envelope green" style="font-size:36px;"></i><br>
-  <a href="mailto:jr@mitou.org">jr@mitou.org</a>
-
-  <p>お返事が遅くなる場合もありますが、ご了承ください。<br>チラシ配布にご協力頂ける方は<a href="/flyer">コチラ</a>からご請求をお願い致します。
-  </p>
-  <a href="/q-box" class="button">匿名質問箱はこちら</a>
-</section>
+{% include contact.html %}
