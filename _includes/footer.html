@@ -1,5 +1,8 @@
 <!--/_includes/footer.html-->
 <footer>
+  {% if lang == "en" %}
+  <a href="/">TOP (Japanese)</a>
+  {% else %}
   <a href="/">ホーム</a>
   <a href="/about">未踏ジュニアとは</a>
   <a href="/media">メディア掲載</a>
@@ -15,6 +18,7 @@
   <a href="/flyer">チラシ</a>
   <a href="/privacy-policy">プライバシーポリシー</a>
   <a href="/english">English</a>
+  {% endif %}
 
   <div class="sns">
     <a href="https://twitter.com/mitoujr"><i class="fab fa-twitter"></i></a>
