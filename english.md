@@ -26,19 +26,24 @@ lang: en
   <p>In 2018, we accepted 12 projects (14 individuals) out of 105 applications. 6 of the creators were certified as Mitou Junior Super Creator. The presentation videos and full information are available <a href="/projects/2018">here</a>.</p>
 
   <h2>Supporters and Sponsors</h2>
-  <p>Mitou Junior is officially recognized and supported by the Ministry of Education, Culture, Sports, Science and Technology, and the Ministry of Economy, Trade and Industry. And we have 10+ financial and in-kind sponsors.</p>
-  <div class="sponsors-list-supporter">
-    <a href="https://www.mext.go.jp/" target="_blank">
-      <div class="sponsor-supporter sponsor-one">
-	<img src="/assets/img/sponsors/mext.png" alt="文部科学省" class="sponsor-img">
-      </div>
-    </a>
-    <a href="https://www.meti.go.jp/" class="sponsor-supporter sponsor-one" target="_blank">
-      <div class="sponsor-supporter sponsor-one">
-	<img src="/assets/img/sponsors/meti.png" alt="経済産業省" class="sponsor-img">
-      </div>
-    </a>
-  </div>
+  <p>Mitou Junior is officially recognized and supported by the Ministry of Education, Culture, Sports, Science and Technology, and the Ministry of Economy, Trade and Industry. Also we have 10+ financial and in-kind sponsors.</p>
+</div>
+
+<div class="sponsors-list-supporter">
+  <a href="https://www.mext.go.jp/" target="_blank">
+    <div class="sponsor-supporter sponsor-one">
+      <img src="/assets/img/sponsors/mext.png" alt="Ministry of Education, Culture, Sports, Science and Technology" class="sponsor-img">
+    </div>
+  </a>
+  <a href="https://www.meti.go.jp/" class="sponsor-supporter sponsor-one" target="_blank">
+    <div class="sponsor-supporter sponsor-one">
+      <img src="/assets/img/sponsors/meti.png" alt="Ministry of Economy, Trade and Industry" class="sponsor-img">
+    </div>
+  </a>
 </div>
 
 {% include sponsors.html %}
+{% include collaborators.html %}
+
+{% include contact.html %}
+
