@@ -1,10 +1,13 @@
 <!-- 以下スポンサー様一覧のHTMLです。
   HTMLは/_includes/sponsors.htmlを、スポンサー情報は/_data/sponsors.ymlを参照してください。 -->
 
-<section id="sponsors">
-  <h2 class="heading-line">スポンサー</h2>
+{% assign lang = page.lang | default: "ja" %}
 
-  <h3>ゴールドスポンサー</h3>
+<section id="sponsors">
+
+  <h2 class="heading-line">{{ site.data.translations.sponsorHeading[lang] }}</h2>
+
+  <h3>{{ site.data.translations.sponsorGold[lang] }}</h3>
   <div class="sponsors-list-gold">
     {% for sponsor in site.data.sponsors.gold %}
     <a href="{{sponsor.url}}" target="_blank">
@@ -15,7 +18,7 @@
     {% endfor %}
   </div>
 
-  <h3>シルバースポンサー</h3>
+  <h3>{{ site.data.translations.sponsorSilver[lang] }}</h3>
   <div class="sponsors-list-silver">
     {% for sponsor in site.data.sponsors.silver %}
     <a href="{{sponsor.url}}" target="_blank">
@@ -26,7 +29,7 @@
     {% endfor %}
   </div>
 
-  <h3>ブロンズスポンサー</h3>
+  <h3>{{ site.data.translations.sponsorBronze[lang] }}</h3>
   <div class="sponsors-list-bronze">
     {% for sponsor in site.data.sponsors.bronze %}
     <a href="{{sponsor.url}}" target="_blank">
@@ -37,7 +40,7 @@
     {% endfor %}
   </div>
 
-  <h3>機材・教材提供</h3>
+  <h3>{{ site.data.translations.sponsorInkind[lang] }}</h3>
   <div class="sponsors-list-eq">
     {% for sponsor in site.data.sponsors.equipment %}
     <a href="{{sponsor.url}}" class="sponsor-eq sponsor-one" target="_blank">
@@ -46,7 +49,7 @@
     {% endfor %}
   </div>
 
-  <h3>メディアパートナー</h3>
+  <h3>{{ site.data.translations.sponsorMedia[lang] }}</h3>
   <div class="sponsors-list-media">
     {% for sponsor in site.data.sponsors.media %}
     <a href="{{sponsor.url}}" class="sponsor-media sponsor-one" target="_blank">
@@ -56,8 +59,8 @@
   </div>
 
   <div class="sponsors-text-for-inquiry">
-    <p>未踏ジュニア実行委員会では、未踏ジュニアの継続的な活動を支援して頂けるスポンサー様を随時募集しております。</p>
-    <p>興味を持って頂いた法人・個人の方は <a href="mailto:jr@mitou.org"><i>jr@mitou.org</i></a> までご連絡頂けると幸いです。</p>
+    {{ site.data.translations.sponsorText[lang] }}
   </div>
 
 </section>
+
