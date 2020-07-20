@@ -10,7 +10,7 @@ layout: default
 
 <section id="about">
   <p class="subtitle">未踏ジュニアとは？</p>
-  <h2 class="s-title">独創的アイデアと卓越した技術を持つ<br>小中高生クリエイター支援プログラム</h2>
+  <h2 class="s-title">独創的アイデアと卓越した技術を持つ<br>小中高生クリエータ支援プログラム</h2>
 
   <div class="service flex">
     <div class="service-one">
