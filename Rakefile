@@ -14,6 +14,7 @@ task test: [:build] do
     # NOTE: You can ignore file, URL, and response as follows
     file_ignore: [
       /404\.html/,
+      /google02f5cc9ed3681f94\.html/,
     ],
     #url_ignore:  %w(coderdojo.com linkedin.com),
     #http_status_ignore: [0, 500, 999],
