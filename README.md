@@ -48,7 +48,7 @@
 ```yml
 - id: クリエータの ID (例: mihashi)
   project_id: 開発したプロジェクトのID (例: utips)
-  mentor_id: 担当メンターの ID (例: yasukawa_youhei)
+  mentor_id: 担当メンターの ID (例: yasukawa_yohei)
   name: クリエータの名前 (例: 三橋 優希)
   is_spc: スーパークリエータかどうか (例：true)
   year: 何年度の採択プロジェクトか (例: 2018)
@@ -59,7 +59,7 @@
 
 それぞれの項目は以下のような内容です。
 ```yml
-- id: メンターの ID (例: yasukawa_youhei)
+- id: メンターの ID (例: yasukawa_yohei)
   name:
     last: 名字 (例：安川)
     first: 名前 (例: 要平)
