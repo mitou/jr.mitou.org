@@ -72,7 +72,7 @@ layout: default
 
 <section id="projects">
   <h2 class="heading-line">2019年度のクリエータ</h2>
-  <p>2019年度は127件の応募が集まり、<br class="ph">13プロジェクト・17名を採択しました。<br>
+  <p>2019年度は127件の応募が集まり、<br class="ph">13プロジェクト・16名を採択しました。<br>
     (☆ は未踏ジュニアスーパークリエータ認定者)</p>
 
   {% include project-list.html year=2019 internal_link=true %}
