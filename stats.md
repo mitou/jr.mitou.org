@@ -53,8 +53,8 @@ title: 統計情報
 </style>
 
 <script src="/assets/js/highcharts.js"></script>
-<!-- NOTE: Use this for expoting image files
-     <script src="/assets/js/exporting.js"></script>
+<!-- NOTE: Use this for expoting image files.
+<script src="/assets/js/exporting.js"></script>
 -->
 
 <p style="text-align:center; padding: 50px 0px 0px;">
@@ -118,7 +118,7 @@ Highcharts.chart('container', {
 <h3><a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }} 年度</a></h3>
 <ul>
   {% comment %}
-  <!-- You can manually check data like this -->
+  <!-- NOTE: You can locally check data like this, but this does *NOT* work in GitHub Pages -->
   <li>プロジェクト数: {{ site.data.projects | where_exp: 'pj', 'pj.year == stat.year' | size }}</li>
   <li>クリエーター数: {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year' | size }}</li>
   <li>スパクリ認定数: {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year and cr.is_spc == true' | size }}</li>
