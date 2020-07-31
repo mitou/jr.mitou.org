@@ -22,6 +22,6 @@
 - year: 2016
   applications: 15
   projects: 4 # including hidden data
-  creators: 6 # including hidden data
+  creators: 4 # excluding hidden data
   spc: 0      # N/A (SPC system started from 2017)
   acceptance_rate: 3.75 # 3.75 倍
