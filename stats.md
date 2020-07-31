@@ -124,9 +124,9 @@ Highcharts.chart('container', {
   <li>スパクリ認定数: {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year and cr.is_spc == true' | size }}</li>
   {% endcomment %}
 
-  <li>応募数: {{ stat.applications    }} 件</li>
-  <li>採択数: {{ stat.projects        }} 件</li>
-  <li>採択率: {{ stat.acceptance_rate }} 倍</li>
+  <li>応募件数: {{ stat.applications    }} 件</li>
+  <li>採択件数: {{ stat.projects        }} 件</li>
+  <li>採択倍率: {{ stat.acceptance_rate }} 倍</li>
 </ul>
 {% endfor %}
 
