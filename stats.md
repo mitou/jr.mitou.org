@@ -129,7 +129,8 @@ Highcharts.chart('container', {
   <li>採択倍率: {{ stat.acceptance_rate }} 倍</li>
 </ul>
 
-{% if stat.year == '2016' %}
+{% assign this_year = stat.year %}
+{% if this_year == '2016' %}
 <p>修了したクリエータ数は {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year' | size }} 名でした。なお、スーパークリエータ認定制度は2017年度から始まったため、2016年度のデータはありません。</p>
 {% else %}
 <p>修了したクリエータ数は {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year' | size }} 名、そのうち {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year and cr.is_spc == true' | size }} 名をスーパークリエータと認定しました。</p>
