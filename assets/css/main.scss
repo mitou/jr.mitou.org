@@ -773,9 +773,9 @@ footer{
 /* Lazyload with fade animation */
 .lazyload,
 .lazyloading {
-	opacity: 0;
+  opacity: 0;
 }
 .lazyloaded {
-	opacity: 1;
-	transition: opacity 300ms;
+  opacity: 1;
+  transition: all 500ms;
 }
