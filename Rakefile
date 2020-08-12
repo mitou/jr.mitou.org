@@ -4,12 +4,13 @@
 require 'html-proofer'
 task test: [:build] do
   options = {
-    allow_hash_href:  true,
+    allow_hash_href:  false,
     assume_extension: true,
     check_opengraph:  true,
     check_favicon:    true,
     check_html:       true,
     disable_external: true,
+    checks_to_ignore: %w(ImageCheck),
 
     # NOTE: You can ignore file, URL, and response as follows
     file_ignore: [
