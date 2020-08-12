@@ -4,7 +4,7 @@ layout: default
 ---
 
 <div class="cover-photo">
-  <img src="/assets/img/2019_all.png" alt="2019年度未踏ジュニア集合写真" class="top-img">
+  <img data-src="/assets/img/2019_all.png" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload">
   <a href="/guideline#apply" class="dialog">2020年度の募集は終了しました！<br>一次審査以降の流れはこちら</a>
 </div>
 
@@ -14,22 +14,22 @@ layout: default
 
   <div class="service flex">
     <div class="service-one">
-      <img src="/assets/img/illustration/mentor.svg" alt="メンター" class="service-img">
+      <img data-src="/assets/img/illustration/mentor.svg" alt="メンター" class="service-img lazyload">
       <h3>メンタリング</h3>
       <p>未踏卒業生らを中心に、各界で活躍する<a href="#mentors">エンジニアや専門家</a>からサポートが得られます</p>
     </div>
     <div class="service-one">
-      <img src="/assets/img/illustration/money.svg" alt="資金" class="service-img">
+      <img data-src="/assets/img/illustration/money.svg" alt="資金" class="service-img lazyload">
       <h3>開発資金</h3>
       <p>各グループ50万円を上限として、開発資金の援助があります</p>
     </div>
     <div class="service-one">
-      <img src="/assets/img/illustration/place.svg" alt="開発場所" class="service-img">
+      <img data-src="/assets/img/illustration/place.svg" alt="開発場所" class="service-img lazyload">
       <h3>開発場所</h3>
       <p>必要に応じて、開発場所および工作機材の支援が得られます</p>
     </div>
     <div class="service-one">
-      <img src="/assets/img/illustration/sp-creator.svg" alt="スーパークリエータ認定" class="service-img">
+      <img data-src="/assets/img/illustration/sp-creator.svg" alt="スーパークリエータ認定" class="service-img lazyload">
       <h3>スーパークリエータ認定</h3>
       <p>特に顕著な成果を残した方を未踏ジュニアスーパークリエータとして認定します。<a href="https://www.sfc.keio.ac.jp/news/012903.html">慶應義塾大学SFC</a>や<a href="https://www.tmu.ac.jp/entrance/revision/y2021/tayou.html">東京都立大学</a>に推薦枠で出願できます</p>
     </div>
@@ -40,7 +40,7 @@ layout: default
 <section id="for-creators" class="prospective-creators">
   <h2 class="heading-balloon">2020年度オンライン説明会</h2>
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfWtf0KY5ny10AmEvBn7rFi" target="_blank">
-    <img src="/assets/img/2020-orientation.png" alt="2020年度オンライン説明会" width="100%" loading="lazy"></a>
+    <img data-src="/assets/img/2020-orientation.png" alt="2020年度オンライン説明会" width="100%" class="lazyload"></a>
   <p>
     2020年度オンライン説明会の動画です。<br>
   </p>
@@ -51,7 +51,7 @@ layout: default
   <h2 class="heading-balloon">応募者向けお役立ち情報</h2>
 
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
-    <img src="/assets/img/highlights-for-creators.png" alt="Movies for Prospective Creators" width="100%" loading="lazy"></a>
+    <img data-src="/assets/img/highlights-for-creators.png" alt="Movies for Prospective Creators" width="100%" class="lazyload"></a>
 
   <p>応募者に役立つ動画を YouTube でまとめました。<br>質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="/q-box">匿名質問箱</a>でも受付中！</p>
 
@@ -94,7 +94,7 @@ layout: default
     {% for mentor in site.data.mentors %}
       {% if mentor.is_alumni %} {% continue %} {% endif %}
       <a href="/mentors#{{ mentor.id }}" class="mentor-list-one">
-        <img src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" loading="lazy">
+        <img data-src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" class="lazyload">
 	<p class="mentor-list-name">{{ mentor.name.last }} <span class="pc-inline-b">{{ mentor.name.first }}</span></p>
 	<p class="mentor-list-af pc">{{ mentor.affiliation }}</p>
       </a>
@@ -109,7 +109,7 @@ layout: default
 <section id="organizer">
   <h2 class="heading-line">運営団体</h2>
   <p></p>
-  <a href="https://www.mitou.org/"><img src="/assets/img/mitou-foundation.png" alt="一般社団法人未踏" loading="lazy"></a>
+  <a href="https://www.mitou.org/"><img data-src="/assets/img/mitou-foundation.png" alt="一般社団法人未踏" class="lazyload"></a>
 
   <p><a href="https://www.mitou.org/">一般社団法人未踏</a> (Mitou Foundation、所在地：東京都渋谷区、代表理事：竹内 郁雄) は、経済産業省所管の独立行政法人情報処理推進機構 (IPA、所在地：東京都文京区、理事長：富田 達夫) の事業である<a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">未踏事業</a>の OB/OG や関係者を中心に、起業家やクリエータ等、天才的かつ創造的人材を多角的に支援し、日本横断的なネットワークをつくることで、IT を中心とした日本のイノベーションを加速させることを目的に設立された社団法人です。</p>
 </section>

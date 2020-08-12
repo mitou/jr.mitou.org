@@ -10,12 +10,12 @@
 
   {% if include.thumbnail == true %}
   <a href="https://www.youtube.com/watch?v={{ pj.youtube }}">
-    <img src="/assets/img/thumbnails/{{ pj.thumbnail }}" alt="{{ pj.title }}"
-     class="project-thumbnail" loading="lazy" />
+    <img data-src="/assets/img/thumbnails/{{ pj.thumbnail }}" alt="{{ pj.title }}"
+     class="project-thumbnail lazyload"/>
   </a>
   {% else %}
   <div class="youtube">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ pj.youtube }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
+    <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.youtube }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
   </div>
   {% endif %}
 

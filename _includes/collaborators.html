@@ -5,7 +5,7 @@
   <div class="sponsors-list-clb">
     {% for c in site.data.collaborators %}
     <a href="{{c.url}}" class="sponsor-clb sponsor-one" target="_blank">
-      <img src="/assets/img/sponsors/{{c.img}}" alt="{{c.name}}" class="sponsor-img">
+      <img data-src="/assets/img/sponsors/{{c.img}}" alt="{{c.name}}" class="sponsor-img lazyload">
     </a>
     {% endfor %}
   </div>

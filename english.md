@@ -32,12 +32,12 @@ lang: en
 <div class="sponsors-list-supporter">
   <a href="https://www.mext.go.jp/" target="_blank">
     <div class="sponsor-supporter sponsor-one">
-      <img src="/assets/img/sponsors/mext.png" alt="Ministry of Education, Culture, Sports, Science and Technology" class="sponsor-img">
+      <img data-src="/assets/img/sponsors/mext.png" alt="Ministry of Education, Culture, Sports, Science and Technology" class="sponsor-img lazyload">
     </div>
   </a>
   <a href="https://www.meti.go.jp/" class="sponsor-supporter sponsor-one" target="_blank">
     <div class="sponsor-supporter sponsor-one">
-      <img src="/assets/img/sponsors/meti.png" alt="Ministry of Economy, Trade and Industry" class="sponsor-img">
+      <img data-src="/assets/img/sponsors/meti.png" alt="Ministry of Economy, Trade and Industry" class="sponsor-img lazyload">
     </div>
   </a>
 </div>
