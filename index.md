@@ -14,22 +14,22 @@ layout: default
 
   <div class="service flex">
     <div class="service-one">
-      <img src="/assets/img/illustration/mentor.svg" alt="メンター" class="service-img lazyload" loading="lazy">
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/mentor.svg" alt="メンター" class="service-img lazyload" loading="lazy">
       <h3>メンタリング</h3>
       <p>未踏卒業生らを中心に、各界で活躍する<a href="#mentors">エンジニアや専門家</a>からサポートが得られます</p>
     </div>
     <div class="service-one">
-      <img src="/assets/img/illustration/money.svg" alt="資金" class="service-img lazyload" loading="lazy">
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/money.svg" alt="資金" class="service-img lazyload" loading="lazy">
       <h3>開発資金</h3>
       <p>各グループ50万円を上限として、開発資金の援助があります</p>
     </div>
     <div class="service-one">
-      <img src="/assets/img/illustration/place.svg" alt="開発場所" class="service-img lazyload" loading="lazy">
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/place.svg" alt="開発場所" class="service-img lazyload" loading="lazy">
       <h3>開発場所</h3>
       <p>必要に応じて、開発場所および工作機材の支援が得られます</p>
     </div>
     <div class="service-one">
-      <img src="/assets/img/illustration/sp-creator.svg" alt="スーパークリエータ認定" class="service-img lazyload" loading="lazy">
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/sp-creator.svg" alt="スーパークリエータ認定" class="service-img lazyload" loading="lazy">
       <h3>スーパークリエータ認定</h3>
       <p>特に顕著な成果を残した方を未踏ジュニアスーパークリエータとして認定します。<a href="https://www.sfc.keio.ac.jp/news/012903.html">慶應義塾大学SFC</a>や<a href="https://www.tmu.ac.jp/entrance/revision/y2021/tayou.html">東京都立大学</a>に推薦枠で出願できます</p>
     </div>
