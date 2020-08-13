@@ -13,7 +13,7 @@ title: Mentor Alumni
   {% for mentor in site.data.mentors %}
     {% unless mentor.is_alumni %} {% continue %} {% endunless %}
     <div class="mentor" id="{{ mentor.id }}">
-      <img data-src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" class="mentor-img lazyload">
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" class="mentor-img lazyload">
       <div class="mentor-info">
         <h3 class="mentor-name">{{ mentor.name.last }} {{ mentor.name.first }}</h3>
         <p>{{ mentor.affiliation }}</p>
@@ -23,7 +23,7 @@ title: Mentor Alumni
           {% if mentor.twitter %}<a href="https://twitter.com/{{ mentor.twitter }}"><i class="fab fa-twitter-square green"></i></a>{% endif %}
           {% if mentor.web %}<a href="{{ mentor.web }}"><i class="fas fa-globe green"></i></a>{% endif %}
           {% if mentor.github %}<a href="https://github.com/{{ mentor.github }}"><i class="fab fa-github-square green"></i></a>{% endif %}
-          <a href="https://scrapbox.io/mitou-meikan/{{ mentor.name.last }}_{{ mentor.name.first }}"><img class="icon-mitou-meikan lazyload" data-src="/assets/img/mitou_meikan.png" alt="未踏名鑑" /></a>
+          <a href="https://scrapbox.io/mitou-meikan/{{ mentor.name.last }}_{{ mentor.name.first }}"><img class="icon-mitou-meikan lazyload" src="/assets/img/spinner.svg" data-src="/assets/img/mitou_meikan.png" alt="未踏名鑑" /></a>
         </div>
       </div>
 

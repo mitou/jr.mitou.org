@@ -10,7 +10,7 @@ task test: [:build] do
     check_favicon:    true,
     check_html:       true,
     disable_external: true,
-    checks_to_ignore: %w(ImageCheck),
+    # checks_to_ignore: %w(ImageCheck), # for debugging
 
     # NOTE: You can ignore file, URL, and response as follows
     file_ignore: [
