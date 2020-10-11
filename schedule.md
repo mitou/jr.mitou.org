@@ -38,7 +38,7 @@ title: 採択後の流れ
 
 {% include arrow.html %}
 
-## 成果報告会（10月ごろ）
+## 成果報告会
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/saisyu.svg" alt="最終" width="50%" class="post-photo lazyload">
-一般の方も観覧できる、最終成果報告会が10月ごろに開催されます。クリエータは取り組んだプロジェクトについての発表・質疑応答を行います。
-<a href="https://www.youtube.com/watch?v=zNCd2BTxaP8&list=PLNObH2jlC6ldN9LEExU1HlJy6RcAOQVl3" class="button" target="_blank">成果報告会の動画を見る</a>
+2020年度の最終成果報告会は11/1にオンライン配信し、クリエータは取り組んだプロジェクトについての発表・質疑応答を行います。詳細は<a href="/final">こちら</a>をご覧ください。
+<a href="https://www.youtube.com/watch?v=zNCd2BTxaP8&list=PLNObH2jlC6ldN9LEExU1HlJy6RcAOQVl3" class="button" target="_blank">2019年度の成果報告会の動画を見る</a>
