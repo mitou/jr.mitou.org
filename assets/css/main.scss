@@ -182,6 +182,20 @@ header{
   }
 }
 
+.ignore-pc{
+  display: none;
+  @media screen and (min-width: $phone-width) {
+    display: inline;
+  }
+}
+.ignore-sp{
+  display: inline;
+  @media screen and (max-width: $phone-width) {
+    display:none;
+  }
+}
+
+
 .button{
   color: #000;
   background-color: $sub-color;
