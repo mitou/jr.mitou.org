@@ -3,7 +3,7 @@ layout: post
 title: 2020年 最終成果報告会
 ---
 
-<br><br>
+<br>
 
 2020年11月1日(日) 9:30 - 18:00 に、2020年度未踏ジュニア最終成果報告会を<a href="https://www.youtube.com/channel/UCYHl353XT5aTdKMLJ-xxZoQ" target="_blank">未踏ジュニア公式YouTubeチャンネル</a>にてライブストリーミング配信いたします。<br>
 
