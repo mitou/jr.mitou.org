@@ -75,7 +75,7 @@
 - id: forcebook
   title: ForceBook - つよつよ自作ノートPC
   description: 筐体から設計・自作し、開発者やゲーマーに使ってほしいノートPCを実現しました。カスタマイズ性を重視してデスクトップ用のパーツを使い、あえてバッテリーを搭載せず電源接続とすることでコンパクトにしました。さらにトラックパッドとしてタッチディスプレイによる新しいインターフェースを考案・実装し、使いやすさにこだわりました。
-  thumbnail: forcebook.jpg
+  thumbnail: forcebook.png
   year: 2020
 
 - id: levo
