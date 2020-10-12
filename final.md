@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2020年度最終成果報告会
+title: 2020年 最終成果報告会
 ---
 
 <br><br>
