@@ -18,7 +18,7 @@
   year: 2020
 
 - id: spaghetian
-  title: Spaghetian - 電気とだけでCPUを自作する！
+  title: Spaghetian - 電気と電磁石だけでCPUを自作する！
   description: 三機の電磁石式自作自作CPUを互いにつなげてネットワークにし、その上でオンラインピンポンゲームが動くロマン溢れるプロジェクトです！魔法と見分けがつかなくなった現代のコンピュータテクノロジーの基本を自作することにより、それらが誰でも理解できることを示します。
   thumbnail: spaghetian.jpg
   year: 2020
