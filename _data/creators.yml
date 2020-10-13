@@ -32,6 +32,27 @@
   name: 三宅 慧
   year: 2020
 
+- id: aiba_hiduki #
+  project_id: rocat
+  name: 饗庭 陽月
+  year: 2020
+- id: yuge_hayata #
+  project_id: rocat
+  name: 弓削 隼大
+  year: 2020
+- id: terakado_koki #
+  project_id: rocat
+  name: 寺門 幸紀
+  year: 2020
+- id: isozaki_kota #
+  project_id: rocat
+  name: 磯崎 孝太
+  year: 2020
+- id: osaki_kanta #
+  project_id: rocat
+  name: 大崎 夏太
+  year: 2020
+
 - id: ito_hiroko #
   project_id: poet
   name: 伊藤 寛子

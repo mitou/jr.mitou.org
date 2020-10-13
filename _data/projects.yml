@@ -134,8 +134,12 @@
   thumbnail: rocat.png
   year: 2020
   mentor_id: shouya_ishimaru
-  #creator_ids:
-  #  -
+  creator_ids:
+    - aiba_hiduki
+    - yuge_hayata
+    - terakado_koki
+    - isozaki_kota
+    - osaki_kanta
 
 # 2019年度
 - id: amoyo
