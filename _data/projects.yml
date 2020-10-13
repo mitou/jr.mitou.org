@@ -76,8 +76,8 @@
   thumbnail: mer.png
   year: 2020
   mentor_id: komuro_maki
-  #creator_ids:
-  #  -
+  creator_ids:
+    - kurokawa_riku
 
 - id: skimer
   title: Skimer - 宿題管理アプリ
