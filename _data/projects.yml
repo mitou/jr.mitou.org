@@ -129,6 +129,7 @@
     - yamaguchi_yuya
 
 - id: rocat
+  link: https://rocat.jp/
   title: Rocat-～モデルロケットを使ったSTEM教育～
   description: Rocatは様々なセンサを搭載したプログラミング可能なモデルロケットSTEM教材です。ロケットを組み立てて飛ばして得たデータを考察し合い、楽しく科学や技術への理解を深めていける教材の開発を行っています。
   thumbnail: rocat.png
