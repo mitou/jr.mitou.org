@@ -1,0 +1,33 @@
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+  <div class="main">
+    {{ content }}
+  </div>
+
+  {% include footer.html %}
+</body>
+
+</html>
+
+<script type="text/javascript">
+  function getBrowserLanguage() {
+    try {
+      return (navigator.browserLanguage || navigator.language || navigator.userLanguage).substr(0,2)
+    }
+    catch(e) {
+      return undefined;
+    }
+  }
+
+  if ("{{ page.redirect_to }}" != ""){
+    location.replace("{{ page.redirect_to }}" + window.location.hash );
+  }
+  else if (getBrowserLanguage().indexOf("ja") != -1) {
+      location.replace("/");
+  }
+  else {
+      location.replace("/english");
+  }
+</script>
