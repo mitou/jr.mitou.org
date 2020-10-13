@@ -1,9 +1,10 @@
 <div class="project" id="{{ pj.id }}">
   <h3 class="project-title">{{ pj.title }}</h3>
+
   {% if pj.creator_ids %}
   <p class="project-name">
     {% for creator_id in pj.creator_ids %}
-    {% include creator.html is_simple=true %}
+      {% include creator.html is_simple=true %}
     {% endfor %}
 
     - {% include link-to-mentor.html id=pj.mentor_id %}
@@ -11,23 +12,24 @@
   {% endif %}
 
   {% if pj.youtube %}
-  {% if include.thumbnail == true %}
-  <a href="https://www.youtube.com/watch?v={{ pj.youtube }}">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}"
-      alt="{{ pj.title }}" class="project-thumbnail lazyload" />
-  </a>
-  {% else %}
-  <div class="youtube">
-    <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.youtube }}?rel=0"
-      frameborder="0" allowfullscreen=""></iframe>
-  </div>
-  {% endif %}
+    {% if include.thumbnail == true %}
+    <a href="https://www.youtube.com/watch?v={{ pj.youtube }}">
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}"
+       alt="{{ pj.title }}" class="project-thumbnail lazyload" />
+    </a>
+    {% else %}
+    <div class="youtube">
+      <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.youtube }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+    {% endif %}
 
   {% else %}
-  {% if pj.thumbnail %}
-  <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}"
+    
+    {% if pj.thumbnail %}
+    <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}"
     alt="{{ pj.title }}" class="project-thumbnail lazyload" />
-  {% endif %}
+    {% endif %}
+
   {% endif %}
 
   <h4>概要</h4>
@@ -41,6 +43,7 @@
   {% if include.thumbnail == true %}
   <a href="https://www.youtube.com/watch?v={{ pj.youtube }}" target="_blank" class="button">発表動画を見る</a>
   {% endif %}
+
   {% if pj.link %}
   <a href="{{ pj.link }}" target="_blank" class="button">詳細を見る</a>
   {% endif %}
