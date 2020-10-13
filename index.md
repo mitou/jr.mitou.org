@@ -88,7 +88,7 @@ layout: default
   <a href="/projects" class="button">これまでの採択例を見る</a>
   <div class="projects flex">
     {% for pj in projects %}
-      {% include project-details.html thumbnail=true %}
+      {% include project-details.html thumbnail_mode=true %}
     {% endfor %}
   </div>
   <a href="/projects" class="button">これまでの採択例を見る</a>

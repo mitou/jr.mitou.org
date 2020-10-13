@@ -11,6 +11,7 @@
 - id: guinfra
   title: GUInfra〜GUIで建てるインフラストラクチャー〜
   description: GUInfraは、クラウドインフラの構成図を自作のグラフ作成ツールを使用して作成でき、トークンを入力することで実際に構築、破棄ができるサービスです。これを使うことにより、クラウドインフラを効率よく学習することができます。
+  youtube: TBD
   thumbnail: guinfra.png
   year: 2020
   mentor_id: bitou_masato
@@ -20,6 +21,7 @@
 - id: brush_talk
   title: ぶらっしゅとーく〜小さな子どものための筆談アプリ〜
   description: これは文字がまだうまく書けない小さな子と耳が聞こえづらいお年寄りがコミュニケーションを取るための筆談アプリです。スマホを使い慣れないお年寄りも簡単に使えるように、操作するためのボタンをなるべく少なくしました。また、イラストを使用することで小さな子が感覚的に使えるようにしました。
+  youtube: TBD
   thumbnail: tbu.png
   year: 2020
   mentor_id: nishio_hirokazu
@@ -29,6 +31,7 @@
 - id: spaghetian
   title: Spaghetian - 電気と電磁石だけでCPUを自作する！
   description: 三機の電磁石式自作自作CPUを互いにつなげてネットワークにし、その上でオンラインピンポンゲームが動くロマン溢れるプロジェクトです！魔法と見分けがつかなくなった現代のコンピュータテクノロジーの基本を自作することにより、それらが誰でも理解できることを示します。
+  youtube: TBD
   thumbnail: spaghetian.jpg
   year: 2020
   mentor_id: teramoto_daiki
@@ -38,6 +41,7 @@
 - id: color_overlap
   title: Color Overlap-光の三原色RGBを使ったパズルゲーム
   description: 魔法によって「色」を奪われ石にされてしまった人々を救うパズルゲームです。光の３原色RGBの様々な形のブロックをうまく重ねて、王国に色を取り戻そう。Unityで制作しています。
+  youtube: TBD
   thumbnail: coloroverlap.png
   year: 2020
   mentor_id: suzuki_ryou
@@ -47,6 +51,7 @@
 - id: poet
   title: Poet ~詩人のための創作ツール~
   description: Poet は詩を書く人のための創作ツールで、いつでもどこでも手軽にアイデアを書き留めることができます。日常の言葉を簡単に書き留めることができる環境を通して、ユーザー各々にとっての言葉の宝箱を提供します。
+  youtube: TBD
   thumbnail: poet.jpeg
   year: 2020
   mentor_id: ukai_yuu
@@ -55,7 +60,8 @@
 
 - id: visible
   title: Visible ─ Webアクセシビリティー診断 & 修正提案ツール
-  description: VisibleはWebサイトのアクセシビリティーを診断するサービスです。URLを入力することで問題点を検出しリファレンス付きで提示する他、その修正方法を自動的に提案します。 
+  description: VisibleはWebサイトのアクセシビリティーを診断するサービスです。URLを入力することで問題点を検出しリファレンス付きで提示する他、その修正方法を自動的に提案します。
+  youtube: TBD
   link: https://visi.dev
   thumbnail: visible.png
   year: 2020
@@ -66,6 +72,7 @@
 - id: mer
   title: Mer-多機能電子リコーダー 
   description: MERはリコーダーを元に、様々な機能を搭載した電子楽器です。発音が簡単なので、初心者でも完成度の高い演奏を体験できます。さらに、気圧センサ、ロータリーエンコーダ 、3D触覚センサを用いた高度な楽器制御が可能です。内蔵FM音源の他に、MIDI出力に対応しているので、ユーザーの好きな音源で演奏ができます。
+  youtube: TBD
   thumbnail: mer.png
   year: 2020
   mentor_id: komuro_maki
@@ -93,6 +100,7 @@
 - id: align
   title: Align - バッテリー残量からはじまるエモチャット
   description: Alignは手軽にエモいを味わうことができるランダムマッチングチャットアプリです。バッテリー残量が近い人とマッチングし、バッテリー残量が離れると強制的に切断されてしまいます。別れを前提にした新しいチャットアプリで平穏な日常にAlignでちょっと刺激的な体験をお楽しみください。
+  youtube: TBD
   thumbnail: align.png
   year: 2020
   mentor_id: seki_yoshifumi
@@ -103,6 +111,7 @@
 - id: critica
   title: critica  - 手軽で直感的なリアクション回収ツール
   description: 「この質問本当にいるの?」「アカウントが必須?」ーー　既存のフォームアプリは、冗長なフォームが作れてしまう、フォームの作成に手間がかかるという課題がありました。criticaはシンプルなリアクションを回収することに特化した、作成者・回答者双方にとって「簡単」なリアクション回収ツールです。数多くのユーザテストをもとに、作成者・回答者双方にとって「簡単」な新しいフォームの形を追求しました。
+  youtube: TBD
   thumbnail: tbu.png
   year: 2020
   mentor_id: seki_yoshifumi
@@ -113,6 +122,7 @@
 - id: force_book
   title: ForceBook - つよつよ自作ノートPC
   description: 筐体から設計・自作し、開発者やゲーマーに使ってほしいノートPCを実現しました。カスタマイズ性を重視してデスクトップ用のパーツを使い、あえてバッテリーを搭載せず電源接続とすることでコンパクトにしました。さらにトラックパッドとしてタッチディスプレイによる新しいインターフェースを考案・実装し、使いやすさにこだわりました。
+  youtube: TBD
   thumbnail: forcebook.png
   year: 2020
   mentor_id: yonetsuji_taizan
@@ -122,6 +132,7 @@
 - id: levo
   title: Levo - 全く新しい近未来的デザインのエアソフトガン
   description: Levoは3DCADと3Dプリンターを最大限活用して開発された近未来的デザインのエアソフトガンです。前例のないデザインでありながら、内部機構の電子制御や極限までコンパクトに設計されたフレームによって機動性を高め、スポーツとしてのサバイバルゲームに特化したエアソフトガンとなっています。
+  youtube: TBD
   thumbnail: levo.jpg
   year: 2020
   mentor_id: yonetsuji_taizan
@@ -132,6 +143,7 @@
   link: https://rocat.jp/
   title: Rocat-～モデルロケットを使ったSTEM教育～
   description: Rocatは様々なセンサを搭載したプログラミング可能なモデルロケットSTEM教材です。ロケットを組み立てて飛ばして得たデータを考察し合い、楽しく科学や技術への理解を深めていける教材の開発を行っています。
+  youtube: TBD
   thumbnail: rocat.png
   year: 2020
   mentor_id: shouya_ishimaru
