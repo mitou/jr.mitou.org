@@ -1,5 +1,5 @@
 <div class="project" id="{{ pj.id }}">
-  <h3 class="project-title">{{ pj.title }}</h3>
+  <h3 class="project-title no-link-decoration"><a href='#{{ pj.id }}'>{{ pj.title }}</a></h3>
 
   {% if pj.creator_ids %}
   <p class="project-name">

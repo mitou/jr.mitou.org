@@ -1,7 +1,8 @@
 ---
 ---
 $main-color: rgb(40, 161, 58); // Green
-$text-green: rgb(14, 110, 52);
+$text-green: rgb(14, 110, 52); // Link
+$text-black: rgb(51,  51, 51); // Default
 $shadow-color: rgba($main-color,0.3);
 $sub-color: #ffed4d; // Yellow
 $lightgray: #eff2f6; // Light gray
@@ -9,7 +10,7 @@ $phone-width: 800px;
 $header-phone: 950px;
 * {
   box-sizing: border-box;
-  color: #333;
+  color: $text-black;
   line-height: 1.8em;
 }
 
@@ -410,6 +411,13 @@ footer{
 .icon-mitou-meikan {
   height: 32px;
   margin-bottom: -2px; // Adjust to other icons.
+}
+
+.no-link-decoration {
+  a {
+    color: $text-black;
+    text-decoration: none;
+  }
 }
 
 @media screen and (max-width:$phone-width) {
