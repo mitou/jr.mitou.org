@@ -12,7 +12,10 @@
   </p>
   {% endif %}
 
-  <!-- Thumbnail Mode shows image instead of video for better rendering time. -->
+  <!--
+       Thumbnail Mode shows image instead of video for better rendering time.
+       This mode is usually fit to often-accessed pages like Top page.
+  -->
   {% if include.thumbnail_mode == true %}
     <a href="https://www.youtube.com/watch?v={{ pj.youtube }}">
       <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}"
