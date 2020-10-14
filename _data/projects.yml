@@ -5,8 +5,8 @@
   youtube: 1Yz5uXKZxOM
   year: 2020
   mentor_id: koutake_rina
-  #creator_ids:
-  #  - 
+  creator_ids:
+    - moriya_anju
 
 - id: guinfra
   title: GUInfra〜GUIで建てるインフラストラクチャー〜
