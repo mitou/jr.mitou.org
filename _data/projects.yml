@@ -25,8 +25,8 @@
   thumbnail: tbu.png
   year: 2020
   mentor_id: nishio_hirokazu
-  #creator_ids:
-  #  -
+  creator_ids:
+    - hirakawa_haruna
 
 - id: spaghetian
   title: Spaghetian - 電気と電磁石だけでCPUを自作する！
