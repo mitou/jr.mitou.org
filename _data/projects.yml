@@ -96,8 +96,8 @@
   youtube: ReqtWF40Ukk
   year: 2020
   mentor_id: ishii_kakeru
-  #creator_ids:
-  #  - 
+  creator_ids:
+    - takaki_kosuke
 
 - id: align
   title: Align - バッテリー残量からはじまるエモチャット
