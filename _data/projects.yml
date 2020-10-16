@@ -16,8 +16,8 @@
   link: https://guinfra.app/
   year: 2020
   mentor_id: bitou_masato
-  #creator_ids:
-  #  -
+  creator_ids:
+    - kamatani_tenma
 
 - id: brush_talk
   title: ぶらっしゅとーく〜小さな子どものための筆談アプリ〜
