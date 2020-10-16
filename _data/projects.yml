@@ -13,6 +13,7 @@
   description: GUInfraは、クラウドインフラの構成図を自作のグラフ作成ツールを使用して作成でき、トークンを入力することで実際に構築、破棄ができるサービスです。これを使うことにより、クラウドインフラを効率よく学習することができます。
   youtube: TBD
   thumbnail: guinfra.png
+  link: https://guinfra.app/
   year: 2020
   mentor_id: bitou_masato
   #creator_ids:
