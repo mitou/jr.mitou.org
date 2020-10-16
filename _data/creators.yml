@@ -68,6 +68,15 @@
   name: 伊藤 寛子
   year: 2020
 
+- id: ando_haruka #
+  project_id: skimer
+  name: 安藤 春香
+  year: 2020
+- id: oki_kohei
+  project_id: skimer #
+  name: 大木 康平
+  year: 2020
+
 - id: ueda_reo #
   project_id: color_overlap
   name: 宇枝 礼央

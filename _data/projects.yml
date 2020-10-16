@@ -85,8 +85,9 @@
   youtube: d5rDv1q9X20
   year: 2020
   mentor_id: ishii_kakeru
-  #creator_ids:
-  #  -
+  creator_ids:
+    - ando_haruka
+    - oki_kohei
 
 - id: glider_gun
   title: GliderGun - ブラウザOSを簡単に作成できるツール郡
