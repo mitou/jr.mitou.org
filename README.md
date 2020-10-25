@@ -109,6 +109,5 @@ $ bundle exec rake test
 
 ## クレジット
 
-Copyright &copy; since 2016
-一般社団法人 [未踏](https://www.mitou.org/)
-[未踏ジュニア](https://jr.mitou.org/)実行委員会 
+Copyright &copy; 2016-2020 一般社団法人[未踏](https://www.mitou.org/)   
+[未踏ジュニア](https://jr.mitou.org/)運営チーム
