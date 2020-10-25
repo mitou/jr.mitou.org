@@ -13,6 +13,8 @@ title: 2020年 最終成果報告会
 
 <a href="https://www.youtube.com/mitoujr" class="button" target="_blank">未踏ジュニア公式<br>YouTubeチャンネルを見る</a>
 
+## タイムテーブル
+<iframe class="airtable-embed" src="https://airtable.com/embed/shra9Q7wywdIuiOwB?backgroundColor=gray" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 ## 2020年度のプロジェクト
 {% assign projects = site.data.projects | where_exp: "pj", "pj.year == 2020" %}
