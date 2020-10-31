@@ -21,9 +21,13 @@ title: 2020年 最終成果報告会
 
 ## タイムテーブル
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shra9Q7wywdIuiOwB?backgroundColor=gray" frameborder="0" onmousewheel="" width="100%" height="800" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-## 2020年度のプロジェクト {#projects}
+<iframe class="airtable-embed" src="https://airtable.com/embed/shra9Q7wywdIuiOwB?backgroundColor=gray&blocks=hide" frameborder="0" onmousewheel="" width="100%" height="500" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+
+<div id='projects'></div>
+
+## 2020年度のプロジェクト
 
 {% assign projects = site.data.projects | where_exp: "pj", "pj.year == 2020" %}
 <div class="projects flex">
