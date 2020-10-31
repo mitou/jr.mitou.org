@@ -5,7 +5,7 @@ layout: default
 
 <div class="cover-photo">
   <img src="/assets/img/2019_all.min.png" data-src="/assets/img/2019_all.png" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
-  <a href="/final" class="dialog ignore-sp">2020年度最終成果報告会をライブ配信！<br>プロジェクト一覧はこちら</a>
+  <a href="/final" class="dialog ignore-sp">2020年度最終成果報告会をライブ配信中！</a>
 </div>
 
 <section id="about">
