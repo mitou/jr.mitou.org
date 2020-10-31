@@ -38,13 +38,11 @@ layout: default
 </section>
 
 <section id="for-creators" class="prospective-creators">
-  <h2 class="heading-balloon">2020年度 最終成果報告会 @ 11月1日 (日曜)</h2>
+  <h2 class="heading-balloon">2020年度 最終成果報告会 本日ライブ配信中！</h2>
   <a href="/final">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/2020final.png" alt="2020年度 最終成果報告会" width="100%" class="lazyload" loading="lazy"></a>
-  <p>
-    2020年度の最終成果報告会は、11月1日 (日曜) に YouTube Live でライブ配信します。<br>
-  </p>
-  <a href="/final" class="button">2020年度の<br>プロジェクトを見る</a>
+    <!--<p>2020年度の最終成果報告会は、11月1日 (日曜) に YouTube Live でライブ配信します。</p>-->
+  <a href="/final" class="button">ライブ配信を見る</a>
   <!--
   <h2 class="heading-balloon">2020年度オンライン説明会</h2>
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfWtf0KY5ny10AmEvBn7rFi" target="_blank">
