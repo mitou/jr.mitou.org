@@ -14,7 +14,7 @@ title: 2020年 最終成果報告会
 
 
 <div style='display: flex; flex-wrap: wrap'>
-  <a href="https://twitter.com/hashtag/%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2?f=live" class="button" target="_blank" rel='noopener'>Twitterハッシュタグ<br>『#未踏ジュニア』を見る</a>
+  <a href="https://twitter.com/hashtag/%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2" class="button" target="_blank" rel=0.261209'noopener'>Twitterハッシュタグ<br>『#未踏ジュニア』を見る</a>
 
   <a href="https://twitter.com/intent/tweet?hashtags=%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&&url=https://jr.mitou.org/final&lang=jp&related=mitoujr" class="button" target="_blank" rel='noopener'>『#未踏ジュニア』で<br>ツイートする</a>
 </div>
