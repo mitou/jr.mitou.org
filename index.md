@@ -5,7 +5,7 @@ layout: default
 
 <div class="cover-photo">
   <img src="/assets/img/2019_all.min.png" data-src="/assets/img/2019_all.png" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
-  <a href="/final" class="dialog ignore-sp"><img src='/assets/img/tv.png' width='20px' style='margin-bottom: -2px; padding-right: 3px;'/> 2020年度最終成果報告会をライブ配信中！</a>
+  <a href="/final" class="dialog ignore-sp"><img src='/assets/img/tv.png' width='20px' style='margin-bottom: -2px; padding-right: 3px;'/> 2020年度の最終成果報告会を見る</a>
 </div>
 
 <section id="about">
@@ -38,11 +38,11 @@ layout: default
 </section>
 
 <section id="for-creators" class="prospective-creators">
-  <h2 class="heading-balloon"><img src='/assets/img/tv.png' width='30px' style='margin-bottom: -2px; padding-right: 3px;'/> 2020年度 最終成果報告会 本日ライブ配信中！</h2>
+  <h2 class="heading-balloon"><img src='/assets/img/tv.png' width='30px' style='margin-bottom: -2px; padding-right: 3px;'/> 2020年度 最終成果報告会</h2>
   <a href="/final">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/2020final.png" alt="2020年度 最終成果報告会" width="100%" class="lazyload" loading="lazy"></a>
     <!--<p>2020年度の最終成果報告会は、11月1日 (日曜) に YouTube Live でライブ配信します。</p>-->
-  <a href="/final" class="button">ライブ配信を見る</a>
+  <a href="/final" class="button">発表動画を見る</a>
   <!--
   <h2 class="heading-balloon">2020年度オンライン説明会</h2>
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfWtf0KY5ny10AmEvBn7rFi" target="_blank">
