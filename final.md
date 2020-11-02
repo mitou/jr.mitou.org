@@ -6,7 +6,7 @@ title: 2020年 最終成果報告会
 <br>
 
 <div class='youtube'>
-  <iframe frameborder="0" class="lazyload" allowfullscreen="" data-src="//www.youtube.com/embed/GuanTTXfF7I"></iframe>
+  <iframe frameborder="0" class="lazyload" allowfullscreen="" data-src="//www.youtube.com/embed/GuanTTXfF7I?start=123"></iframe>
 </div>
 
 <!--<p>本日 9:30 - 18:00 の間、<a href='#projects'>採択プロジェクト</a>の最終成果報告会をライブ配信します。<br></p>-->
