@@ -10,7 +10,7 @@ title: 2020年 最終成果報告会
 </div>
 
 <div style='display: flex; flex-wrap: wrap'>
-  <a href="https://www.youtube.com/watch?v=GuanTTXfF7I&t=123s" class="button">YouTube で見る</a>
+  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6le90M-WYLJFyl6McNd0kxcB" class="button">YouTube で見る</a>
   
   <!--
   <a href="https://twitter.com/hashtag/%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2" class="button" target="_blank" rel='noopener'>Twitterハッシュタグ<br>『#未踏ジュニア』を見る</a>
