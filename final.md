@@ -6,7 +6,7 @@ title: 2020年 最終成果報告会
 <br>
 
 <div class='youtube'>
-  <iframe frameborder="0" class="lazyload" allowfullscreen="" data-src="//www.youtube.com/embed/GuanTTXfF7I?start=123"></iframe>
+  <iframe frameborder="0" class="lazyload" allowfullscreen="" data-src="//www.youtube.com/embed/EHVEdDCz9IA?list=PLNObH2jlC6le90M-WYLJFyl6McNd0kxcB"></iframe>
 </div>
 
 <div style='display: flex; flex-wrap: wrap'>
