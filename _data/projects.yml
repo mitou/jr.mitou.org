@@ -11,6 +11,7 @@
 - id: guinfra
   title: GUInfra〜GUIで建てるインフラストラクチャー〜
   description: GUInfraは、クラウドインフラの構成図を自作のグラフ作成ツールを使用して作成でき、トークンを入力することで実際に構築、破棄ができるサービスです。これを使うことにより、クラウドインフラを効率よく学習することができます。
+  thumbnail: guinfra.png
   youtube: ArN9NrsmRs4
   link: https://guinfra.app/
   year: 2020
@@ -31,6 +32,7 @@
 - id: spaghetian
   title: Spaghetian - 電気と電磁石だけでCPUを自作する！
   description: 三機の電磁石式自作自作CPUを互いにつなげてネットワークにし、その上でオンラインピンポンゲームが動くロマン溢れるプロジェクトです！魔法と見分けがつかなくなった現代のコンピュータテクノロジーの基本を自作することにより、それらが誰でも理解できることを示します。
+  thumbnail: spaghetian.jpg
   youtube: Ue7Sf3bQlps
   year: 2020
   mentor_id: teramoto_daiki
@@ -40,6 +42,7 @@
 - id: color_overlap
   title: Color Overlap-光の三原色RGBを使ったパズルゲーム
   description: 魔法によって「色」を奪われ石にされてしまった人々を救うパズルゲームです。光の３原色RGBの様々な形のブロックをうまく重ねて、王国に色を取り戻そう。Unityで制作しています。
+  thumbnail: coloroverlap.png
   youtube: _S-EyVp4y1Q
   year: 2020
   mentor_id: suzuki_ryou
@@ -49,6 +52,7 @@
 - id: poet
   title: Poet ~詩人のための創作ツール~
   description: Poet は詩を書く人のための創作ツールで、いつでもどこでも手軽にアイデアを書き留めることができます。日常の言葉を簡単に書き留めることができる環境を通して、ユーザー各々にとっての言葉の宝箱を提供します。
+  thumbnail: poet.jpeg
   youtube: PQMZAD6NwYU
   year: 2020
   mentor_id: ukai_yuu
@@ -58,6 +62,7 @@
 - id: visible
   title: Visible ─ Webアクセシビリティー診断 & 修正提案ツール
   description: VisibleはWebサイトのアクセシビリティーを診断するサービスです。URLを入力することで問題点を検出しリファレンス付きで提示する他、その修正方法を自動的に提案します。
+  thumbnail: visible.png
   youtube: cwYkmn3oA_o
   link: https://visi.dev
   year: 2020
@@ -68,6 +73,7 @@
 - id: mer
   title: Mer-多機能電子リコーダー 
   description: MERはリコーダーを元に、様々な機能を搭載した電子楽器です。発音が簡単なので、初心者でも完成度の高い演奏を体験できます。さらに、気圧センサ、ロータリーエンコーダ 、3D触覚センサを用いた高度な楽器制御が可能です。内蔵FM音源の他に、MIDI出力に対応しているので、ユーザーの好きな音源で演奏ができます。
+  thumbnail: mer.png
   youtube: rQmgwLH8xI0
   year: 2020
   mentor_id: komuro_maki
@@ -96,6 +102,7 @@
 - id: align
   title: Align - バッテリー残量からはじまるエモチャット
   description: Alignは手軽にエモいを味わうことができるランダムマッチングチャットアプリです。バッテリー残量が近い人とマッチングし、バッテリー残量が離れると強制的に切断されてしまいます。別れを前提にした新しいチャットアプリで平穏な日常にAlignでちょっと刺激的な体験をお楽しみください。
+  thumbnail: align.png
   youtube: r8WlvrgwB4k
   year: 2020
   mentor_id: seki_yoshifumi
@@ -106,6 +113,7 @@
 - id: critica
   title: critica  - 手軽で直感的なリアクション回収ツール
   description: 「この質問本当にいるの?」「アカウントが必須?」ーー　既存のフォームアプリは、冗長なフォームが作れてしまう、フォームの作成に手間がかかるという課題がありました。criticaはシンプルなリアクションを回収することに特化した、作成者・回答者双方にとって「簡単」なリアクション回収ツールです。数多くのユーザテストをもとに、作成者・回答者双方にとって「簡単」な新しいフォームの形を追求しました。
+  thumbnail: critica.jpg
   youtube: aYajCGOg-eY
   link: https://critica.uno/
   year: 2020
@@ -117,6 +125,7 @@
 - id: force_book
   title: ForceBook - つよつよ自作ノートPC
   description: 筐体から設計・自作し、開発者やゲーマーに使ってほしいノートPCを実現しました。カスタマイズ性を重視してデスクトップ用のパーツを使い、あえてバッテリーを搭載せず電源接続とすることでコンパクトにしました。さらにトラックパッドとしてタッチディスプレイによる新しいインターフェースを考案・実装し、使いやすさにこだわりました。
+  thumbnail: forcebook.png
   youtube: MiBiBzl0ZwU
   year: 2020
   mentor_id: yonetsuji_taizan
@@ -126,6 +135,7 @@
 - id: levo
   title: Levo - 全く新しい近未来的デザインのエアソフトガン
   description: Levoは3DCADと3Dプリンターを最大限活用して開発された近未来的デザインのエアソフトガンです。前例のないデザインでありながら、内部機構の電子制御や極限までコンパクトに設計されたフレームによって機動性を高め、スポーツとしてのサバイバルゲームに特化したエアソフトガンとなっています。
+  thumbnail: levo.jpg
   youtube: MUvjwmUwdsc
   year: 2020
   mentor_id: yonetsuji_taizan
@@ -136,6 +146,7 @@
   link: https://rocat.jp/
   title: Rocat-～モデルロケットを使ったSTEM教育～
   description: Rocatは様々なセンサを搭載したプログラミング可能なモデルロケットSTEM教材です。ロケットを組み立てて飛ばして得たデータを考察し合い、楽しく科学や技術への理解を深めていける教材の開発を行っています。
+  thumbnail: rocat.png
   youtube: NXi1hunbMg0
   year: 2020
   mentor_id: shouya_ishimaru
