@@ -2,6 +2,7 @@
 - id: igarashi_ryo #
   project_id: visible
   name: 五十嵐 涼
+  is_spc: true
   year: 2020
 
 - id: ando_yosuke #
@@ -12,11 +13,13 @@
 - id: moriya_anju #
   project_id: flight_fit_vr
   name: 森谷 安寿
+  is_spc: true
   year: 2020
 
 - id: hirakawa_haruna #
   project_id: brush_talk
   name: 平川 晴茄
+  is_spc: true
   year: 2020
 
 - id: hagiwara_sota #
@@ -31,15 +34,18 @@
 - id: ito_yusei #
   project_id: critica
   name: 伊藤 祐聖
+  is_spc: true
   year: 2020
 - id: inoue_yosuke #
   project_id: critica
   name: 井上 陽介
+  is_spc: true
   year: 2020
 
 - id: miyake_satoshi #
   project_id: spaghetian
   name: 三宅 慧
+  is_spc: true
   year: 2020
 
 - id: kamatani_tenma #
@@ -76,6 +82,7 @@
 - id: ando_haruka #
   project_id: skimer
   name: 安藤 春香
+  is_spc: true
   year: 2020
 - id: oki_kohei
   project_id: skimer #
@@ -90,11 +97,13 @@
 - id: kurokawa_riku #
   project_id: mer
   name: 黒川 陸
+  is_spc: true
   year: 2020
 
 - id: yamaguchi_yuya #
   project_id: levo
   name: 山口 裕弥
+  is_spc: true
   year: 2020
 
 - id: takaki_kosuke
