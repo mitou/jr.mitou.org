@@ -5,7 +5,7 @@ layout: default
 
 <div class="cover-photo">
   <img src="/assets/img/2019_all.min.png" data-src="/assets/img/2019_all.png" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
-  <a href="/final" class="dialog ignore-sp"><img src='/assets/img/tv.png' width='20px' style='margin-bottom: -2px; padding-right: 3px;'/> 2020年度の最終成果報告会を見る</a>
+  <a href="/final" class="dialog ignore-sp"><img src='/assets/img/tv.png' alt='テレビアイコン' width='20px' style='margin-bottom: -2px; padding-right: 3px;'/> 2020年度の最終成果報告会を見る</a>
 </div>
 
 <section id="about">
