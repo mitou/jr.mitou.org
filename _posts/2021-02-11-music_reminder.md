@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案'
+title: "個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案"
 permalink: /projects/2017/music_reminder
 ---
 

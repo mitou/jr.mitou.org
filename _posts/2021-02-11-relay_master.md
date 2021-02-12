@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'リレーマスター'
+title: "リレーマスター"
 permalink: /projects/2019/relay_master
 ---
 

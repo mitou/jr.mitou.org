@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'スマイル会議室 - IoTで会議室の効率的な利用を'
+title: "スマイル会議室 - IoTで会議室の効率的な利用を"
 permalink: /projects/2018/smile_meeting_room
 ---
 

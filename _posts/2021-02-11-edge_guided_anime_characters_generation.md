@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Edge-guided Anime Characters Generation'
+title: "Edge-guided Anime Characters Generation"
 permalink: /projects/2019/edge_guided_anime_characters_generation
 ---
 

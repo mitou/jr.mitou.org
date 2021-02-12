@@ -512,7 +512,7 @@
   year: 2017
 
 - id: listenable_keyboard
-  title: '"聞く"キーボード'
+  title: "'聞く'キーボード"
   creator_ids:
     - nemoto_hibiki
   mentor_id: sasada_kouichi

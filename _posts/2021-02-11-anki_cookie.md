@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '暗記クッキー'
+title: "暗記クッキー"
 permalink: /projects/2017/anki_cookie
 ---
 

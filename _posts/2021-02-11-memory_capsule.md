@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'メモリーカプセル - カプセルを通して繋がるSNS'
+title: "メモリーカプセル - カプセルを通して繋がるSNS"
 permalink: /projects/2018/memory_capsule
 ---
 

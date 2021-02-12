@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Spaghetian - 電気と電磁石だけでCPUを自作する！'
+title: "Spaghetian - 電気と電磁石だけでCPUを自作する！"
 permalink: /projects/2020/spaghetian
 ---
 

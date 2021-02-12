@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Corkboard - 位置的に管理するメモサービス'
+title: "Corkboard - 位置的に管理するメモサービス"
 permalink: /projects/2018/corkboard
 ---
 

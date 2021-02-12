@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '写して翻訳'
+title: "写して翻訳"
 permalink: /projects/2018/camera_translation
 ---
 

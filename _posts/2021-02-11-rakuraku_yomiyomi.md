@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'らくらく読み読み'
+title: "らくらく読み読み"
 permalink: /projects/2017/rakuraku_yomiyomi
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'GliderGun - ブラウザOSを簡単に作成できるツール郡'
+title: "GliderGun - ブラウザOSを簡単に作成できるツール郡"
 permalink: /projects/2020/glider_gun
 ---
 

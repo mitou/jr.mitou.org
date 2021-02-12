@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"聞く"キーボード'
+title: "'聞く'キーボード"
 permalink: /projects/2017/listenable_keyboard
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Sound in the forest - 複数のスマートフォンによる「動く音」の表現'
+title: "Sound in the forest - 複数のスマートフォンによる「動く音」の表現"
 permalink: /projects/2018/sound_in_the_forest
 ---
 

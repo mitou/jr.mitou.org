@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Life Watcher - 急変する持病を持つ人のための警報システム'
+title: "Life Watcher - 急変する持病を持つ人のための警報システム"
 permalink: /projects/2018/life_watcher
 ---
 

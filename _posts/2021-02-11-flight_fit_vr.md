@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品'
+title: "-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品"
 permalink: /projects/2020/flight_fit_vr
 ---
 

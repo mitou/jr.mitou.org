@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'narratica〜ストーリーコンサルタント〜'
+title: "narratica〜ストーリーコンサルタント〜"
 permalink: /projects/2017/narratica
 ---
 

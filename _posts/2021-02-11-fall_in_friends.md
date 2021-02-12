@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～'
+title: "Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～"
 permalink: /projects/2017/fall_in_friends
 ---
 

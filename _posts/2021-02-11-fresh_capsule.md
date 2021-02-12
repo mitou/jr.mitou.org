@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'fresh capsule - 食材管理アプリ'
+title: "fresh capsule - 食材管理アプリ"
 permalink: /projects/2019/fresh_capsule
 ---
 

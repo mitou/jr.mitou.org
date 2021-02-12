@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '強化学習を用いたロボットサッカーシミュレーション'
+title: "強化学習を用いたロボットサッカーシミュレーション"
 permalink: /projects/2018/robot_soccer
 ---
 

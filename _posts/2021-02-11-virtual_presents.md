@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'VirtualPresents - 仮想世界で用いるWebサービス'
+title: "VirtualPresents - 仮想世界で用いるWebサービス"
 permalink: /projects/2019/virtual_presents
 ---
 

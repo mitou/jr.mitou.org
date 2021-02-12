@@ -10,7 +10,7 @@ projects.each_with_index do |project, index|
   page = <<PROJECT_PAGE
 ---
 layout: post
-title: '#{project['title']}'
+title: "#{project['title']}"
 permalink: /projects/#{project['year']}/#{project['id']}
 ---
 

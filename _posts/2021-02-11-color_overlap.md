@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Color Overlap-光の三原色RGBを使ったパズルゲーム'
+title: "Color Overlap-光の三原色RGBを使ったパズルゲーム"
 permalink: /projects/2020/color_overlap
 ---
 

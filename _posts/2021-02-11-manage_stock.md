@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'ManageStock - 家庭向け在庫管理アプリ'
+title: "ManageStock - 家庭向け在庫管理アプリ"
 permalink: /projects/2019/manage_stock
 ---
 

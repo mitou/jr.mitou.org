@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Voice Commander ～命令×ポーズ×チェス～'
+title: "Voice Commander ～命令×ポーズ×チェス～"
 permalink: /projects/2016/voice_commander
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'ForceBook - つよつよ自作ノートPC'
+title: "ForceBook - つよつよ自作ノートPC"
 permalink: /projects/2020/force_book
 ---
 

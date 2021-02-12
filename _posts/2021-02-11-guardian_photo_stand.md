@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '見守りフォトスタンド'
+title: "見守りフォトスタンド"
 permalink: /projects/2017/guardian_photo_stand
 ---
 

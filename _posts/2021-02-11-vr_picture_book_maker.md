@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'VR絵本メーカー'
+title: "VR絵本メーカー"
 permalink: /projects/2016/vr_picture_book_maker
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'ぶらっしゅとーく〜小さな子どものための筆談アプリ〜'
+title: "ぶらっしゅとーく〜小さな子どものための筆談アプリ〜"
 permalink: /projects/2020/brush_talk
 ---
 
