@@ -6,11 +6,10 @@ permalink: /projects/2020/flight_fit_vr
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'flight_fit_vr'" | first %}
 
-{% if pj.thumbnail == "tbu.png" %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/rIRHwI6EV8E/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% else %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2020/flight_fit_vr.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% endif %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
+{% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/rIRHwI6EV8E/hqdefault.jpg'
+{% else %}                         data-src='/assets/img/thumbnails/2020/flight_fit_vr.jpg'
+{% endif %}                        style='margin-bottom: 10px;' />
 
 OculusのVRゴーグルで、美しい景色と音楽の中でリラックスしながら身体を鍛えることができる作品です。３つのミニゲームから構成されており、体幹、腹筋、前腿の筋肉などの筋力向上を期待できます。
 

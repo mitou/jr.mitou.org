@@ -6,11 +6,10 @@ permalink: /projects/2020/brush_talk
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'brush_talk'" | first %}
 
-{% if pj.thumbnail == "tbu.png" %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/BeSeF5Exw1s/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% else %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2020/brush_talk.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% endif %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
+{% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/BeSeF5Exw1s/hqdefault.jpg'
+{% else %}                         data-src='/assets/img/thumbnails/2020/brush_talk.jpg'
+{% endif %}                        style='margin-bottom: 10px;' />
 
 これは文字がまだうまく書けない小さな子と耳が聞こえづらいお年寄りがコミュニケーションを取るための筆談アプリです。スマホを使い慣れないお年寄りも簡単に使えるように、操作するためのボタンをなるべく少なくしました。また、イラストを使用することで小さな子が感覚的に使えるようにしました。
 

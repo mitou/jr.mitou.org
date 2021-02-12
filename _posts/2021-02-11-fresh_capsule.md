@@ -6,11 +6,10 @@ permalink: /projects/2019/fresh_capsule
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'fresh_capsule'" | first %}
 
-{% if pj.thumbnail == "tbu.png" %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/vioFrqxlRXQ/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% else %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2019/fresh_capsule.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% endif %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
+{% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/vioFrqxlRXQ/hqdefault.jpg'
+{% else %}                         data-src='/assets/img/thumbnails/2019/fresh_capsule.jpg'
+{% endif %}                        style='margin-bottom: 10px;' />
 
 fresh capsuleは、購入した食材の賞味期限を管理する携帯アプリです。 賞味期限が印字されている部分をスマートフォンで撮影すると、賞味期限がアプリ内のリストに落とし込まれます。
 

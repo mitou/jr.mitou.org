@@ -6,11 +6,10 @@ permalink: /projects/2018/smile_meeting_room
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'smile_meeting_room'" | first %}
 
-{% if pj.thumbnail == "tbu.png" %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/Z6_Iw8Hvclk/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% else %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2018/tbu.png' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% endif %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
+{% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/Z6_Iw8Hvclk/hqdefault.jpg'
+{% else %}                         data-src='/assets/img/thumbnails/2018/tbu.png'
+{% endif %}                        style='margin-bottom: 10px;' />
 
 IoTデバイスを用いて会議室予約や会議室内の備品の電源などを制御することで会議室の効率的利用を支援。
 

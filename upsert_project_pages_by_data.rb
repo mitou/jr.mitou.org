@@ -3,11 +3,8 @@
 require 'pry' unless ENV['JEKYLL_ENV'] == 'production'
 require 'yaml'
 
-#target_year = ARGV[0] || 'all'
-projects    = YAML.load_file("_data/projects.yml")
-
+projects = YAML.load_file("_data/projects.yml")
 projects.each_with_index do |project, index|
-  #next unless project['year'].to_s == target_year
   # Generate individual project page by data
   path = "./_posts/2021-02-11-#{project['id']}.md"
   page = <<PROJECT_PAGE
@@ -19,11 +16,10 @@ permalink: /projects/#{project['year']}/#{project['id']}
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == '#{project['id']}'" | first %}
 
-{% if pj.thumbnail == "tbu.png" %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/#{project['youtube']}/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% else %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/#{project['year']}/#{project['thumbnail']}' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% endif %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
+{% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/#{project['youtube']}/hqdefault.jpg'
+{% else %}                         data-src='/assets/img/thumbnails/#{project['year']}/#{project['thumbnail']}'
+{% endif %}                        style='margin-bottom: 10px;' />
 
 #{project['description']}
 

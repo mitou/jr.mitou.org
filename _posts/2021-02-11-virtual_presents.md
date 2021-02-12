@@ -6,11 +6,10 @@ permalink: /projects/2019/virtual_presents
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'virtual_presents'" | first %}
 
-{% if pj.thumbnail == "tbu.png" %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/p7KZzZLMLoM/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% else %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2019/virtual_presents.png' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% endif %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
+{% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/p7KZzZLMLoM/hqdefault.jpg'
+{% else %}                         data-src='/assets/img/thumbnails/2019/virtual_presents.png'
+{% endif %}                        style='margin-bottom: 10px;' />
 
 仮想世界を彩るためのWebサービスのあり方を模索するプロジェクトです。仮想世界にWeb上から画像を出稿したり、Twitterのようないいね機能を提供することができます。仮想世界とWebという大きく異なる2つの間の架け橋となる概念を提案しました。
 

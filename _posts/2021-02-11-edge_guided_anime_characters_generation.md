@@ -6,11 +6,10 @@ permalink: /projects/2019/edge_guided_anime_characters_generation
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'edge_guided_anime_characters_generation'" | first %}
 
-{% if pj.thumbnail == "tbu.png" %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/OVD5nw1DA5s/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% else %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2019/edge_guided_anime_characters_generation.png' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% endif %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
+{% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/OVD5nw1DA5s/hqdefault.jpg'
+{% else %}                         data-src='/assets/img/thumbnails/2019/edge_guided_anime_characters_generation.png'
+{% endif %}                        style='margin-bottom: 10px;' />
 
 描きかけの線画を自動で完成させることができる、GANをベースとしたシステムを開発した。これを用いることで初心者でも複雑なイラストを簡単に描くことができるようになる。特に本研究ではアニメの顔画像の生成に焦点をあてた。
 

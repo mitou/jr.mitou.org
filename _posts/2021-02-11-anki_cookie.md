@@ -6,11 +6,10 @@ permalink: /projects/2017/anki_cookie
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'anki_cookie'" | first %}
 
-{% if pj.thumbnail == "tbu.png" %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/CRvzQtz90RM/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% else %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2017/tbu.png' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% endif %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
+{% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/CRvzQtz90RM/hqdefault.jpg'
+{% else %}                         data-src='/assets/img/thumbnails/2017/tbu.png'
+{% endif %}                        style='margin-bottom: 10px;' />
 
 WEBクイズで頑張って覚えた漢字や単語がクッキーに焼かれ、暗記学習のモチベーションアップを支援するシステムを開発。
 

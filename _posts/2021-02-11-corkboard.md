@@ -6,11 +6,10 @@ permalink: /projects/2018/corkboard
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'corkboard'" | first %}
 
-{% if pj.thumbnail == "tbu.png" %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/rDyqAzppN6M/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% else %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2018/tbu.png' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% endif %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
+{% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/rDyqAzppN6M/hqdefault.jpg'
+{% else %}                         data-src='/assets/img/thumbnails/2018/tbu.png'
+{% endif %}                        style='margin-bottom: 10px;' />
 
 使用者の記録や感情を蓄え変化する「森」を基調としたメモ帳アプリのデザインコンセプトを提案
 

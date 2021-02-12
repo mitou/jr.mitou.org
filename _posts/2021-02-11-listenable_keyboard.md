@@ -6,11 +6,10 @@ permalink: /projects/2017/listenable_keyboard
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'listenable_keyboard'" | first %}
 
-{% if pj.thumbnail == "tbu.png" %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/foJCvFcYhv0/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% else %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2017/tbu.png' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
-{% endif %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
+{% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/foJCvFcYhv0/hqdefault.jpg'
+{% else %}                         data-src='/assets/img/thumbnails/2017/tbu.png'
+{% endif %}                        style='margin-bottom: 10px;' />
 
 日本語、英語、中国語の3言語で利用できる、音声認識機能を搭載したキーボード。
 
