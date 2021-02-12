@@ -1,9 +1,9 @@
 task default: 'test'
 
 # Upsert individual project page by data
-desc 'Upsert project page by project data in 2020'
+desc 'Upsert project page by project data'
 task :upsert_project_pages_by_data do
-  ruby "upsert_project_pages_by_data.rb 2020"
+  ruby "upsert_project_pages_by_data.rb"
 end
 
 # cf. GitHub - gjtorikian/html-proofer

@@ -3,11 +3,11 @@
 require 'pry' unless ENV['JEKYLL_ENV'] == 'production'
 require 'yaml'
 
-target_year = ARGV[0] || '2020'
+#target_year = ARGV[0] || 'all'
 projects    = YAML.load_file("_data/projects.yml")
 
 projects.each_with_index do |project, index|
-  next unless project['year'].to_s == target_year
+  #next unless project['year'].to_s == target_year
   # Generate individual project page by data
   path = "./_posts/2021-02-11-#{project['id']}.md"
   page = <<PROJECT_PAGE
