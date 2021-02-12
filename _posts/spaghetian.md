@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Spaghetian - 電気と電磁石だけでCPUを自作する！'
+permalink: /projects/2020/spaghetian
+---
+
+<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2020/spaghetian.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+
+三機の電磁石式自作自作CPUを互いにつなげてネットワークにし、その上でオンラインピンポンゲームが動くロマン溢れるプロジェクトです！魔法と見分けがつかなくなった現代のコンピュータテクノロジーの基本を自作することにより、それらが誰でも理解できることを示します。
+
+{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'spaghetian'" | first %}
+
+### クリエータ（採択年度：<a href='/projects/2020'>2020年度</a>）
+<p>
+{% for creator_id in pj.creator_ids %}
+  {% include creator.html is_simple=true %}
+{% endfor %}
+</p>
+
+### メンター
+<p>{% include link-to-mentor.html id=pj.mentor_id %}</p>
+
+## 発表動画
+<div class="youtube">
+  <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/Ue7Sf3bQlps?rel=0" frameborder="0" allowfullscreen=""></iframe>
+</div>
+

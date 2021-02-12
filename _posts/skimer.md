@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Skimer - 宿題管理アプリ'
+permalink: /projects/2020/skimer
+---
+
+<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2020/skimmer.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+
+「宿題管理アプリ Skimer(スキマー)」は中高生の宿題を管理するためにデザインされたタスク管理アプリです。「クラスのライングループ」から着想を得て、宿題の共有をしたり、宿題の遂行状況を可視化してランキングを作ることで、モチベーションを保てる工夫をしました。そのため、社会性・競争性を取り入れてゲーム感覚で宿題ができます。
+
+{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'skimer'" | first %}
+
+### クリエータ（採択年度：<a href='/projects/2020'>2020年度</a>）
+<p>
+{% for creator_id in pj.creator_ids %}
+  {% include creator.html is_simple=true %}
+{% endfor %}
+</p>
+
+### メンター
+<p>{% include link-to-mentor.html id=pj.mentor_id %}</p>
+
+## 発表動画
+<div class="youtube">
+  <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/XWLnNYIoe-k?rel=0" frameborder="0" allowfullscreen=""></iframe>
+</div>
+

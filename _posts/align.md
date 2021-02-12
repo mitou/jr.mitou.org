@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Align - バッテリー残量からはじまるエモチャット'
+permalink: /projects/2020/align
+---
+
+<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2020/align.png' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+
+Alignは手軽にエモいを味わうことができるランダムマッチングチャットアプリです。バッテリー残量が近い人とマッチングし、バッテリー残量が離れると強制的に切断されてしまいます。別れを前提にした新しいチャットアプリで平穏な日常にAlignでちょっと刺激的な体験をお楽しみください。
+
+{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'align'" | first %}
+
+### クリエータ（採択年度：<a href='/projects/2020'>2020年度</a>）
+<p>
+{% for creator_id in pj.creator_ids %}
+  {% include creator.html is_simple=true %}
+{% endfor %}
+</p>
+
+### メンター
+<p>{% include link-to-mentor.html id=pj.mentor_id %}</p>
+
+## 発表動画
+<div class="youtube">
+  <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/r8WlvrgwB4k?rel=0" frameborder="0" allowfullscreen=""></iframe>
+</div>
+

@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Rocat-～モデルロケットを使ったSTEM教育～'
+permalink: /projects/2020/rocat
+---
+
+<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2020/rocat.png' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+
+Rocatは様々なセンサを搭載したプログラミング可能なモデルロケットSTEM教材です。ロケットを組み立てて飛ばして得たデータを考察し合い、楽しく科学や技術への理解を深めていける教材の開発を行っています。
+
+{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'rocat'" | first %}
+
+### クリエータ（採択年度：<a href='/projects/2020'>2020年度</a>）
+<p>
+{% for creator_id in pj.creator_ids %}
+  {% include creator.html is_simple=true %}
+{% endfor %}
+</p>
+
+### メンター
+<p>{% include link-to-mentor.html id=pj.mentor_id %}</p>
+
+## 発表動画
+<div class="youtube">
+  <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/NXi1hunbMg0?rel=0" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
