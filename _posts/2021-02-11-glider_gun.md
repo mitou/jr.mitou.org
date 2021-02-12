@@ -4,7 +4,7 @@ title: 'GliderGun - ブラウザOSを簡単に作成できるツール郡'
 permalink: /projects/2020/glider_gun
 ---
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2020/glider_gun.jpg' loading='lazy' style='margin-bottom: 10px;' />
+<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2020/glider_gun.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
 
 このプロジェクトはLinuxのディストリビューションを簡単に作成できるツール郡を提供します。また、作成するディストリビューションはブラウザを使うことを主な目的としており、このように機能を制限することで様々な恩恵を得ることができます。
 

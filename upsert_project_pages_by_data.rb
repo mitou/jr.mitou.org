@@ -17,7 +17,7 @@ title: '#{project['title']}'
 permalink: /projects/#{project['year']}/#{project['id']}
 ---
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/#{project['year']}/#{project['thumbnail']}' loading='lazy' style='margin-bottom: 10px;' />
+<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/#{project['year']}/#{project['thumbnail']}' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
 
 #{project['description']}
 

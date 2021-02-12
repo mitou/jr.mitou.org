@@ -4,7 +4,7 @@ title: 'Color Overlap-光の三原色RGBを使ったパズルゲーム'
 permalink: /projects/2020/color_overlap
 ---
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2020/color_overlap.jpg' loading='lazy' style='margin-bottom: 10px;' />
+<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2020/color_overlap.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
 
 魔法によって「色」を奪われ石にされてしまった人々を救うパズルゲームです。光の３原色RGBの様々な形のブロックをうまく重ねて、王国に色を取り戻そう。Unityで制作しています。
 
