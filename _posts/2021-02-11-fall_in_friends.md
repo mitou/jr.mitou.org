@@ -4,11 +4,15 @@ title: 'Fall in Friends ～東京オリンピックに向けて、日本のイ�
 permalink: /projects/2017/fall_in_friends
 ---
 
+{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'fall_in_friends'" | first %}
+
+{% if pj.thumbnail == "tbu.png" %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/Xr2Jeb5cf7o/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+{% else %}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2017/tbu.png' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+{% endif %}
 
 困っている訪日外国人が、旅行者を助けたい日本人に質問できるアプリケーションを開発。
-
-{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'fall_in_friends'" | first %}
 
 ### クリエータ（採択年度：<a href='/projects/2017'>2017年度</a>）
 <p>

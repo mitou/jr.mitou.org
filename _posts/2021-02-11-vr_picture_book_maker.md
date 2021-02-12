@@ -4,11 +4,15 @@ title: 'VR絵本メーカー'
 permalink: /projects/2016/vr_picture_book_maker
 ---
 
+{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'vr_picture_book_maker'" | first %}
+
+{% if pj.thumbnail == "tbu.png" %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/V3SVBM47jOs/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+{% else %}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2016/tbu.png' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+{% endif %}
 
 VR絵本メーカーは、 VRで体験できる世界やストーリーを制作するためのスマートフォンアプリケーションです。 物語の世界に入ることができる！大好きなあの人とデートができる！憧れのアーティストのライブにも行けちゃう！誰でも簡単にスマホで観れるVR絵本をつくれます。 ユーザーは背景となる360度画像を選択し、キャラクターや吹き出し、さらに効果音、遷移エフェクトを選択してVR絵本にします。
-
-{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'vr_picture_book_maker'" | first %}
 
 ### クリエータ（採択年度：<a href='/projects/2016'>2016年度</a>）
 <p>

@@ -4,11 +4,15 @@ title: 'Corkboard - 位置的に管理するメモサービス'
 permalink: /projects/2018/corkboard
 ---
 
+{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'corkboard'" | first %}
+
+{% if pj.thumbnail == "tbu.png" %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/rDyqAzppN6M/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+{% else %}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2018/tbu.png' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+{% endif %}
 
 使用者の記録や感情を蓄え変化する「森」を基調としたメモ帳アプリのデザインコンセプトを提案
-
-{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'corkboard'" | first %}
 
 ### クリエータ（採択年度：<a href='/projects/2018'>2018年度</a>）
 <p>

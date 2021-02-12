@@ -4,11 +4,15 @@ title: 'GliderGun - ブラウザOSを簡単に作成できるツール郡'
 permalink: /projects/2020/glider_gun
 ---
 
+{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'glider_gun'" | first %}
+
+{% if pj.thumbnail == "tbu.png" %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/N23eiKk_808/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+{% else %}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2020/glider_gun.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+{% endif %}
 
 このプロジェクトはLinuxのディストリビューションを簡単に作成できるツール郡を提供します。また、作成するディストリビューションはブラウザを使うことを主な目的としており、このように機能を制限することで様々な恩恵を得ることができます。
-
-{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'glider_gun'" | first %}
 
 ### クリエータ（採択年度：<a href='/projects/2020'>2020年度</a>）
 <p>

@@ -4,11 +4,15 @@ title: 'Sound in the forest - 複数のスマートフォンによる「動く�
 permalink: /projects/2018/sound_in_the_forest
 ---
 
+{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'sound_in_the_forest'" | first %}
+
+{% if pj.thumbnail == "tbu.png" %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/H7SCFi0fp7g/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+{% else %}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2018/tbu.png' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+{% endif %}
 
 複数のスマートフォン上のウェブブラウザをリアルタイム同期させ、立体音響を実現するシステムの開発。
-
-{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'sound_in_the_forest'" | first %}
 
 ### クリエータ（採択年度：<a href='/projects/2018'>2018年度</a>）
 <p>

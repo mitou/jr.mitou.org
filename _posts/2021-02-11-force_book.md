@@ -4,11 +4,15 @@ title: 'ForceBook - つよつよ自作ノートPC'
 permalink: /projects/2020/force_book
 ---
 
+{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'force_book'" | first %}
+
+{% if pj.thumbnail == "tbu.png" %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='https://img.youtube.com/vi/MiBiBzl0ZwU/hqdefault.jpg' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+{% else %}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/thumbnails/2020/forcebook.png' alt='サムネイル画像' loading='lazy' style='margin-bottom: 10px;' />
+{% endif %}
 
 筐体から設計・自作し、開発者やゲーマーに使ってほしいノートPCを実現しました。カスタマイズ性を重視してデスクトップ用のパーツを使い、あえてバッテリーを搭載せず電源接続とすることでコンパクトにしました。さらにトラックパッドとしてタッチディスプレイによる新しいインターフェースを考案・実装し、使いやすさにこだわりました。
-
-{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'force_book'" | first %}
 
 ### クリエータ（採択年度：<a href='/projects/2020'>2020年度</a>）
 <p>
