@@ -2,11 +2,14 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.1"
 gem "minima", "~> 2.5" # default theme for new Jekyll sites
+gem "liquid-c"
 
 gem 'html-proofer'
 gem 'rake'
 
-gem "liquid-c"
+# Upsert individual pages by projects
+gem 'sanitize'
+gem 'pry'
 
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.12'
