@@ -48,7 +48,6 @@ title: メンター紹介
 
 <h2>スーパーバイザー</h2>
 
-
 <div class="sv">
   <div class="sv-left">
     <img src='/assets/img/spinner.svg' data-src="/assets/img/mentors/takeuchi.png" alt="竹内 郁雄" class="sv-img lazyload" loading="lazy">

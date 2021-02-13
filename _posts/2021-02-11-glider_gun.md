@@ -27,6 +27,11 @@ description: "このプロジェクトはLinuxのディストリビューショ�
 <small>(<a href='/projects/2020'>2020年度</a> 採択 / {% include link-to-mentor.html id=pj.mentor_id %}PM)</small>
 </p>
 
+{% if pj.comment %}
+### PMコメント
+<p class="project-comment">{{ pj.comment }}</p>
+{% endif %}
+
 ## 発表動画
 <div class="youtube">
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/N23eiKk_808?rel=0" frameborder="0" allowfullscreen=""></iframe>

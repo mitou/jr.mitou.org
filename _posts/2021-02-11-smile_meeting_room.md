@@ -27,6 +27,11 @@ IoTデバイスを用いて会議室予約や会議室内の備品の電源な�
 <small>(<a href='/projects/2018'>2018年度</a> 採択 / {% include link-to-mentor.html id=pj.mentor_id %}PM)</small>
 </p>
 
+{% if pj.comment %}
+### PMコメント
+<p class="project-comment">{{ pj.comment }}</p>
+{% endif %}
+
 ## 発表動画
 <div class="youtube">
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/Z6_Iw8Hvclk?rel=0" frameborder="0" allowfullscreen=""></iframe>

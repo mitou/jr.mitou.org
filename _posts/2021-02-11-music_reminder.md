@@ -27,6 +27,11 @@ description: "カラオケで歌った曲、見た映画等の経験に基づい
 <small>(<a href='/projects/2017'>2017年度</a> 採択 / {% include link-to-mentor.html id=pj.mentor_id %}PM)</small>
 </p>
 
+{% if pj.comment %}
+### PMコメント
+<p class="project-comment">{{ pj.comment }}</p>
+{% endif %}
+
 ## 発表動画
 <div class="youtube">
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/gfrleUVHGZs?rel=0" frameborder="0" allowfullscreen=""></iframe>

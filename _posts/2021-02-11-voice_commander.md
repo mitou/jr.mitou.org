@@ -27,6 +27,11 @@ Voice Commanderは、声とジェスチャーで操作する新感覚チェス�
 <small>(<a href='/projects/2016'>2016年度</a> 採択 / {% include link-to-mentor.html id=pj.mentor_id %}PM)</small>
 </p>
 
+{% if pj.comment %}
+### PMコメント
+<p class="project-comment">{{ pj.comment }}</p>
+{% endif %}
+
 ## 発表動画
 <div class="youtube">
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/APUTGg6g0hA?rel=0" frameborder="0" allowfullscreen=""></iframe>

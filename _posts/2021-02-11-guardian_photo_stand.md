@@ -27,6 +27,11 @@ description: "老人宅の玄関に、見守り装置を設置し、介護者か
 <small>(<a href='/projects/2017'>2017年度</a> 採択 / {% include link-to-mentor.html id=pj.mentor_id %}PM)</small>
 </p>
 
+{% if pj.comment %}
+### PMコメント
+<p class="project-comment">{{ pj.comment }}</p>
+{% endif %}
+
 ## 発表動画
 <div class="youtube">
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/lOrb8nH85qo?rel=0" frameborder="0" allowfullscreen=""></iframe>
