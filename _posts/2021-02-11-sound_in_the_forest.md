@@ -2,6 +2,8 @@
 layout: post
 title: "Sound in the forest - 複数のスマートフォンによる「動く音」の表現"
 permalink: /projects/2018/sound_in_the_forest
+thumbnail: /assets/img/thumbnails/2018/tbu.png
+description: "複数のスマートフォン上のウェブブラウザをリアルタイム同期させ、立体音響を実現するシステムの開発。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'sound_in_the_forest'" | first %}

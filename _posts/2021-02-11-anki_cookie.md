@@ -2,6 +2,8 @@
 layout: post
 title: "暗記クッキー"
 permalink: /projects/2017/anki_cookie
+thumbnail: /assets/img/thumbnails/2017/tbu.png
+description: "WEBクイズで頑張って覚えた漢字や単語がクッキーに焼かれ、暗記学習のモチベーションアップを支援するシステムを開発。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'anki_cookie'" | first %}

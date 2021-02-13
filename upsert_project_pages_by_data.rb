@@ -12,6 +12,8 @@ projects.each_with_index do |project, index|
 layout: post
 title: "#{project['title']}"
 permalink: /projects/#{project['year']}/#{project['id']}
+thumbnail: /assets/img/thumbnails/#{project['year']}/#{project['thumbnail']}
+description: "#{project['description']}"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == '#{project['id']}'" | first %}

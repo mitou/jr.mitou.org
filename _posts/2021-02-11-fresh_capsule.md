@@ -2,6 +2,8 @@
 layout: post
 title: "fresh capsule - 食材管理アプリ"
 permalink: /projects/2019/fresh_capsule
+thumbnail: /assets/img/thumbnails/2019/fresh_capsule.jpg
+description: "fresh capsuleは、購入した食材の賞味期限を管理する携帯アプリです。 賞味期限が印字されている部分をスマートフォンで撮影すると、賞味期限がアプリ内のリストに落とし込まれます。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'fresh_capsule'" | first %}

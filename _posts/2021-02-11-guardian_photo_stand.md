@@ -2,6 +2,8 @@
 layout: post
 title: "見守りフォトスタンド"
 permalink: /projects/2017/guardian_photo_stand
+thumbnail: /assets/img/thumbnails/2017/tbu.png
+description: "老人宅の玄関に、見守り装置を設置し、介護者から見守れるようにするシステム。見守り装置は、カメラ及び各種センサを装備し、サーバーを介してWeb経由で介護者が随時様子を知ることができる。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'guardian_photo_stand'" | first %}

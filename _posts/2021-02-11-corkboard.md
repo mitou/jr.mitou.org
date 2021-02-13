@@ -2,6 +2,8 @@
 layout: post
 title: "Corkboard - 位置的に管理するメモサービス"
 permalink: /projects/2018/corkboard
+thumbnail: /assets/img/thumbnails/2018/tbu.png
+description: "使用者の記録や感情を蓄え変化する「森」を基調としたメモ帳アプリのデザインコンセプトを提案"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'corkboard'" | first %}

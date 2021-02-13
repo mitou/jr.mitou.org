@@ -2,6 +2,8 @@
 layout: post
 title: "強化学習を用いたロボットサッカーシミュレーション"
 permalink: /projects/2018/robot_soccer
+thumbnail: /assets/img/thumbnails/2018/tbu.png
+description: "強化学習を用いた、ロボットサッカーのプレイヤーの開発。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'robot_soccer'" | first %}

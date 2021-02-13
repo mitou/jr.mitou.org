@@ -2,6 +2,8 @@
 layout: post
 title: "メモリーカプセル - カプセルを通して繋がるSNS"
 permalink: /projects/2018/memory_capsule
+thumbnail: /assets/img/thumbnails/2018/tbu.png
+description: "場所に紐付いて、仮想カプセルを埋め、それを掘り出すことのできるSNSを開発。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'memory_capsule'" | first %}

@@ -2,6 +2,8 @@
 layout: post
 title: "Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～"
 permalink: /projects/2017/fall_in_friends
+thumbnail: /assets/img/thumbnails/2017/tbu.png
+description: "困っている訪日外国人が、旅行者を助けたい日本人に質問できるアプリケーションを開発。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'fall_in_friends'" | first %}

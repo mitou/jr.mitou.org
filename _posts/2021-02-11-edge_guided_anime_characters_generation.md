@@ -2,6 +2,8 @@
 layout: post
 title: "Edge-guided Anime Characters Generation"
 permalink: /projects/2019/edge_guided_anime_characters_generation
+thumbnail: /assets/img/thumbnails/2019/edge_guided_anime_characters_generation.png
+description: "描きかけの線画を自動で完成させることができる、GANをベースとしたシステムを開発した。これを用いることで初心者でも複雑なイラストを簡単に描くことができるようになる。特に本研究ではアニメの顔画像の生成に焦点をあてた。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'edge_guided_anime_characters_generation'" | first %}

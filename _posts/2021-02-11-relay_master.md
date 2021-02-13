@@ -2,6 +2,8 @@
 layout: post
 title: "リレーマスター"
 permalink: /projects/2019/relay_master
+thumbnail: /assets/img/thumbnails/2019/relay_master.png
+description: "センサが埋め込まれた特殊なバトンを持って走るだけで，あらゆる運動を解析するシステムを開発しました。データは専用のwebにアップロードして，あなたの運動をAIで分析・最適化します。“リレーマスター” を利用して，プロに匹敵するパフォーマンスを実現してみませんか？"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'relay_master'" | first %}

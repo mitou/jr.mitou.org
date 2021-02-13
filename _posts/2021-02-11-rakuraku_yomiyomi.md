@@ -2,6 +2,8 @@
 layout: post
 title: "らくらく読み読み"
 permalink: /projects/2017/rakuraku_yomiyomi
+thumbnail: /assets/img/thumbnails/2017/tbu.png
+description: "視力が低下したお年寄りから子どもまでが楽にニュース記事を読めるアプリ。文字の表示の工夫、読み進めた部分のマーキング、視線追跡などの機能を搭載。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'rakuraku_yomiyomi'" | first %}

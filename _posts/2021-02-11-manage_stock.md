@@ -2,6 +2,8 @@
 layout: post
 title: "ManageStock - 家庭向け在庫管理アプリ"
 permalink: /projects/2019/manage_stock
+thumbnail: /assets/img/thumbnails/2019/manage_stock.jpg
+description: "ティッシュペーパーのような日用品を買い忘れてしまい、困った経験はありませんか？ ManageStock はそのような問題を解決するために、在庫を IoT などを活用して管理するアプリケーションです。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'manage_stock'" | first %}
