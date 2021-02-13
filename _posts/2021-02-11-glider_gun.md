@@ -34,6 +34,7 @@ description: "このプロジェクトはLinuxのディストリビューショ�
 <div class="youtube">
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/N23eiKk_808?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
+<a href="https://www.youtube.com/watch?v={{ pj.youtube }}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
 
 {% include project-navigation.html %}
 
