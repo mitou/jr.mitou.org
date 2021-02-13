@@ -38,7 +38,6 @@
   <!-- Twitter Card (Static) -->
   <meta name="twitter:card"  content="summary"  />
   <meta name="twitter:site"  content="@mitoujr" />
-  <meta name="twitter:description" content="{{ translations.description[lang] }}">
 
   <!-- Variable Contents -->
   {% if page.title %}
@@ -51,8 +50,10 @@
 
   {% if page.description %}
   <meta property="og:description"  content="{{ page.description }}" />
+  <meta name="twitter:description" content="{{ page.description }}">
   {% else %}
   <meta property="og:description"  content="{{ translations.description[lang] }}" />
+  <meta name="twitter:description" content="{{ translations.description[lang] }}">
   {% endif %}
 
   {% if page.thumbnail %}
