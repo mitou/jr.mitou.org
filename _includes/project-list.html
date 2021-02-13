@@ -7,7 +7,8 @@
     {% endfor %}
 
     <a href="{% unless include.internal_link %}/projects/{{ include.year }}{% endunless %}#{{ pj.id }}">
-      {{ pj.title }}    </a>
+      {{ pj.title }}
+    </a>
   </li>
   {% endfor %}
 </ul>
