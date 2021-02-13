@@ -3,7 +3,7 @@
     <a href="/projects">目次</a>
   </li>
   {% for year in (2016..2020) reversed %}
-    {% if year == this_year %}
+    {% if year == include.this_year %}
     <li style="display: inline-block; margin: auto 10px;">
       <b>» {{ year }}</b>
     </li>

@@ -1,4 +1,4 @@
-{% include project-navigation.html %}
+{% include project-navigation.html this_year=include.year %}
 
 <h2 style="margin-top: 0px;">{{ include.year }}年度の採択者と成果</h2>
 <p>{{ page.description }}</p>
@@ -11,4 +11,4 @@
   {% endfor %}
 </div>
 
-{% include project-navigation.html %}
+{% include project-navigation.html this_year=include.year %}
