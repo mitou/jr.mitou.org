@@ -55,9 +55,9 @@
   <meta property="og:description"  content="{{ translations.description[lang] }}" />
   {% endif %}
 
-  {% if page.meta_image %}
-  <meta property="og:image"  content="https://jr.mitou.org{{ page.meta_image }}" />
-  <meta name="twitter:image" content="https://jr.mitou.org{{ page.meta_image }}" />  
+  {% if page.thumbnail %}
+  <meta property="og:image"  content="https://jr.mitou.org{{ page.thumbnail }}" />
+  <meta name="twitter:image" content="https://jr.mitou.org{{ page.thumbnail }}" />  
   {% else %}
   <meta name="twitter:image" content="https://jr.mitou.org/assets/img/twitter_card_square.png">  
   <meta property="og:image"  content="https://jr.mitou.org/assets/img/facebook_ogp_image{% if lang == 'en' %}_en{% endif %}.png" />    
