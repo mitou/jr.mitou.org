@@ -15,6 +15,10 @@ description: "困っている訪日外国人が、旅行者を助けたい日本
 
 困っている訪日外国人が、旅行者を助けたい日本人に質問できるアプリケーションを開発。
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2017'>2017年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

@@ -15,6 +15,10 @@ description: "魔法によって「色」を奪われ石にされてしまった
 
 魔法によって「色」を奪われ石にされてしまった人々を救うパズルゲームです。光の３原色RGBの様々な形のブロックをうまく重ねて、王国に色を取り戻そう。Unityで制作しています。
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2020'>2020年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

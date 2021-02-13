@@ -15,6 +15,10 @@ description: "スマートウォッチ上で動作する、急変する持病を
 
 スマートウォッチ上で動作する、急変する持病を持つ人を助ける警報アプリの開発。
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2018'>2018年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

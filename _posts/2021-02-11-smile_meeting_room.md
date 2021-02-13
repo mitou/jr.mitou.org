@@ -15,6 +15,10 @@ description: "IoTデバイスを用いて会議室予約や会議室内の備品
 
 IoTデバイスを用いて会議室予約や会議室内の備品の電源などを制御することで会議室の効率的利用を支援。
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2018'>2018年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

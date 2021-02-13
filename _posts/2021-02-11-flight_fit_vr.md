@@ -15,6 +15,10 @@ description: "OculusのVRゴーグルで、美しい景色と音楽の中でリ�
 
 OculusのVRゴーグルで、美しい景色と音楽の中でリラックスしながら身体を鍛えることができる作品です。３つのミニゲームから構成されており、体幹、腹筋、前腿の筋肉などの筋力向上を期待できます。
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2020'>2020年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

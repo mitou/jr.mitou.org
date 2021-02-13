@@ -15,6 +15,10 @@ description: "自然言語処理によって、映画脚本のテキスト分析
 
 自然言語処理によって、映画脚本のテキスト分析を行い、登場人物の感情変化をもとにストーリーを評価。自分で書いた文章もリアルタイムに感情分析。
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2017'>2017年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

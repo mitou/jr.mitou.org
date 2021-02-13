@@ -15,6 +15,10 @@ description: "カラオケで歌った曲、見た映画等の経験に基づい
 
 カラオケで歌った曲、見た映画等の経験に基づいて、AppleMusicから曲を推薦する新しい仕組みのiOSアプリを開発
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2017'>2017年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

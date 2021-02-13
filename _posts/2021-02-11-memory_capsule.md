@@ -15,6 +15,10 @@ description: "場所に紐付いて、仮想カプセルを埋め、それを掘
 
 場所に紐付いて、仮想カプセルを埋め、それを掘り出すことのできるSNSを開発。
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2018'>2018年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

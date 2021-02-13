@@ -15,6 +15,10 @@ description: "仮想世界を彩るためのWebサービスのあり方を模索
 
 仮想世界を彩るためのWebサービスのあり方を模索するプロジェクトです。仮想世界にWeb上から画像を出稿したり、Twitterのようないいね機能を提供することができます。仮想世界とWebという大きく異なる2つの間の架け橋となる概念を提案しました。
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2019'>2019年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

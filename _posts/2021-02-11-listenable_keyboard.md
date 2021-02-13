@@ -15,6 +15,10 @@ description: "日本語、英語、中国語の3言語で利用できる、音�
 
 日本語、英語、中国語の3言語で利用できる、音声認識機能を搭載したキーボード。
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2017'>2017年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

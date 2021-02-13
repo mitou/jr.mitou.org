@@ -15,6 +15,10 @@ description: "WEBクイズで頑張って覚えた漢字や単語がクッキー
 
 WEBクイズで頑張って覚えた漢字や単語がクッキーに焼かれ、暗記学習のモチベーションアップを支援するシステムを開発。
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2017'>2017年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

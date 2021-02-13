@@ -15,6 +15,10 @@ description: "fresh capsuleは、購入した食材の賞味期限を管理す�
 
 fresh capsuleは、購入した食材の賞味期限を管理する携帯アプリです。 賞味期限が印字されている部分をスマートフォンで撮影すると、賞味期限がアプリ内のリストに落とし込まれます。
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2019'>2019年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

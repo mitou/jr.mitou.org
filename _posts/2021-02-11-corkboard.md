@@ -15,6 +15,10 @@ description: "使用者の記録や感情を蓄え変化する「森」を基調
 
 使用者の記録や感情を蓄え変化する「森」を基調としたメモ帳アプリのデザインコンセプトを提案
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2018'>2018年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

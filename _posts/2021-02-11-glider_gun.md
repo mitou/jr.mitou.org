@@ -15,6 +15,10 @@ description: "このプロジェクトはLinuxのディストリビューショ�
 
 このプロジェクトはLinuxのディストリビューションを簡単に作成できるツール郡を提供します。また、作成するディストリビューションはブラウザを使うことを主な目的としており、このように機能を制限することで様々な恩恵を得ることができます。
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2020'>2020年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}

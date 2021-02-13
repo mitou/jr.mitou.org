@@ -15,6 +15,10 @@ description: "小学生が遊びながら英単語を学べる、赤外線通信
 
 小学生が遊びながら英単語を学べる、赤外線通信ブロックとゲームを開発。
 
+{% if pj.link %}
+<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+{% endif %}
+
 ### クリエータ（採択年度：<a href='/projects/2018'>2018年度</a>）
 <p>
 {% for creator_id in pj.creator_ids %}
