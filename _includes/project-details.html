@@ -8,7 +8,7 @@
       {% include creator.html is_simple=true %}
     {% endfor %}
 
-    - {% include link-to-mentor.html id=pj.mentor_id %}
+    <small>{% include link-to-mentor.html id=pj.mentor_id mode="verbose" %}</small>
   </p>
   {% endif %}
 
@@ -37,7 +37,7 @@
   <p class="project-description">{{ pj.description }}</p>
 
   {% if pj.comment %}
-  <h4>{% include link-to-mentor.html id=pj.mentor_id %}コメント</h4>
+  <h4>PMコメント</h4>
   <p class="project-comment">{{ pj.comment }}</p>
   {% endif %}
 
