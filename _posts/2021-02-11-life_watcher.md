@@ -19,11 +19,12 @@ description: "スマートウォッチ上で動作する、急変する持病を
 <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
 {% endif %}
 
-### クリエータ（採択年度：<a href='/projects/2018'>2018年度</a>）
+### クリエータ
 <p>
 {% for creator_id in pj.creator_ids %}
   {% include creator.html is_simple=true %}
 {% endfor %}
+<small>(<a href='/projects/2018'>2018年度</a> 採択)</small>
 </p>
 
 ### メンター
