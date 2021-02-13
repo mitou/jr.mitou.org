@@ -51,7 +51,7 @@ title: メンター紹介
 
 <div class="sv">
   <div class="sv-left">
-    <img src="/assets/img/mentors/takeuchi.png" alt="竹内 郁雄" class="sv-img">
+    <img src='/assets/img/spinner.svg' data-src="/assets/img/mentors/takeuchi.png" alt="竹内 郁雄" class="sv-img lazyload" loading="lazy">
     <h3 class="mentor-name">竹内 郁雄</h3>
     <h5>東京大学名誉教授／未踏IT人材発掘・育成事業統括PM／一般社団法人未踏代表理事</h5>
   </div>
@@ -70,7 +70,7 @@ title: メンター紹介
 
 <div class="flex">
   <div class="mentor">
-    <img src="/assets/img/mentors/arakawa.png" alt="荒川 淳平" class="mentor-img">
+    <img src='/assets/img/spinner.svg' data-src="/assets/img/mentors/arakawa.png" alt="荒川 淳平" class="mentor-img lazyload" loading="lazy">
     <div class="mentor-info" style="padding-bottom: 20px;">
       <h3 class="mentor-name">荒川 淳平</h3>
       <div class="mentor-sns">
@@ -87,7 +87,7 @@ title: メンター紹介
   </div>
 
   <div class="mentor">
-      <img src="/assets/img/mentors/ukai.png" alt="鵜飼 佑" class="mentor-img">
+      <img src='/assets/img/spinner.svg' data-src="/assets/img/mentors/ukai.png" alt="鵜飼 佑" class="mentor-img lazyload" loading="lazy">
     <div class="mentor-info" style="padding-bottom: 20px;">
       <h3 class="mentor-name">鵜飼 佑</h3>
       <div class="mentor-sns">
