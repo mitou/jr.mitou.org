@@ -33,7 +33,7 @@ title: メンター紹介
 	<ul>
 	  {% assign projects = site.data.projects | where: 'mentor_id', mentor.id %}
 	  {% for pj in projects %}
-	    <li><a href="/projects/{{ pj.year }}#{{ pj.id }}">{{ pj.title }}</a></li>
+	    <li><a href="/projects/{{ pj.year }}/{{ pj.id }}">{{ pj.title }}</a></li>
 	  {% else %}
 	    <li>🆕 今年度より採択開始!</li>
 	  {% endfor %}
