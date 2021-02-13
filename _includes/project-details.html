@@ -16,21 +16,21 @@
        Thumbnail Mode shows image instead of video for better rendering time.
        This mode is usually fit to often-accessed pages like Top page.
   -->
-  {% if include.thumbnail_mode == true %}
-    <a href="https://www.youtube.com/watch?v={{ pj.youtube }}">
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}"
-           alt="{{ pj.title }}" class="project-thumbnail lazyload" />
-    </a>
+  {% if pj.youtube == 'TBD' %}
+  <!-- TBD is used for project showcases with no PV before the final because no videos recorded then. -->
+  <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}"
+       alt="{{ pj.title }}" class="project-thumbnail lazyload" />
+  {% elsif pj.thumbnail == 'tbu.png' %}
+  <!-- TBU is used for project showcases that thumbnails are currently NOT set yet. -->
+  <div class="youtube">
+    <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.youtube }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
+  </div>
   {% else %}
-    <!-- TBD is used for project showcases with no PV before the final because no videos recorded then. -->
-    {% if pj.youtube == 'TBD' %}
+  <!-- Not TBD/TBU means thumbnails and youtube videos are all set. -->
+  <a href="/projects/{{ pj.year }}/{{ pj.id }}">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}"
          alt="{{ pj.title }}" class="project-thumbnail lazyload" />
-    {% else %}
-    <div class="youtube">
-      <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.youtube }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
-    </div>
-    {% endif %}
+  </a>
   {% endif %}
 
   <h4>概要</h4>
@@ -41,11 +41,6 @@
   <p class="project-comment">{{ pj.comment }}</p>
   {% endif %}
 
-  {% if include.thumbnail_mode == true %}
-  <a href="https://www.youtube.com/watch?v={{ pj.youtube }}" target="_blank" class="button">発表動画を見る</a>
-  {% endif %}
-
-  {% if pj.link and include.thumbnail_mode != true %}
-  <a href="{{ pj.link }}" target="_blank" class="button">詳細を見る</a>
-  {% endif %}
+  <a href="/projects/{{ pj.year }}/{{ pj.id }}" class="button">詳細を見る</a>
+  <!--<a href="https://www.youtube.com/watch?v={{ pj.youtube }}" target="_blank" class="button">詳細を見る</a>-->
 </div>
