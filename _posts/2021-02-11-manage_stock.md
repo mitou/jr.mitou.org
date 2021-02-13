@@ -30,3 +30,5 @@ description: "ティッシュペーパーのような日用品を買い忘れて
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/N1QfbFyjNXg?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

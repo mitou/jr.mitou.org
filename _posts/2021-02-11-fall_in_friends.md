@@ -30,3 +30,5 @@ description: "困っている訪日外国人が、旅行者を助けたい日本
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/Xr2Jeb5cf7o?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

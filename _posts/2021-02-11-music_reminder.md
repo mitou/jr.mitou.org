@@ -30,3 +30,5 @@ description: "カラオケで歌った曲、見た映画等の経験に基づい
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/gfrleUVHGZs?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

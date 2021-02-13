@@ -30,3 +30,5 @@ WEBクイズで頑張って覚えた漢字や単語がクッキーに焼かれ�
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/CRvzQtz90RM?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

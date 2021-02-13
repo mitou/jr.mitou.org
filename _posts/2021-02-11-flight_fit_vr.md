@@ -30,3 +30,5 @@ OculusのVRゴーグルで、美しい景色と音楽の中でリラックスし
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/rIRHwI6EV8E?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

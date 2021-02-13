@@ -30,3 +30,5 @@ description: "描きかけの線画を自動で完成させることができる
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/OVD5nw1DA5s?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

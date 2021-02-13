@@ -30,3 +30,5 @@ description: "使用者の記録や感情を蓄え変化する「森」を基調
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/rDyqAzppN6M?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

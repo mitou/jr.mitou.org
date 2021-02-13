@@ -30,3 +30,5 @@ description: "筐体から設計・自作し、開発者やゲーマーに使っ
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/MiBiBzl0ZwU?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

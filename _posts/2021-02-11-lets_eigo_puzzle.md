@@ -30,3 +30,5 @@ description: "小学生が遊びながら英単語を学べる、赤外線通信
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/gqkjUVzhSBU?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

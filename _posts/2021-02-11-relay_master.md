@@ -30,3 +30,5 @@ description: "センサが埋め込まれた特殊なバトンを持って走る
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/1ylC6bqWiPg?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

@@ -30,3 +30,5 @@ description: "複数のスマートフォン上のウェブブラウザをリア
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/H7SCFi0fp7g?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

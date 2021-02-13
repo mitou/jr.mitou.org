@@ -30,3 +30,5 @@ description: "日本語、英語、中国語の3言語で利用できる、音�
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/foJCvFcYhv0?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

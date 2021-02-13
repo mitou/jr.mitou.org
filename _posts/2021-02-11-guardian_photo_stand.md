@@ -30,3 +30,5 @@ description: "老人宅の玄関に、見守り装置を設置し、介護者か
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/lOrb8nH85qo?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

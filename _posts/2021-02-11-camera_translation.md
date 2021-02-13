@@ -30,3 +30,5 @@ description: "写真を写すことで、そこに写った物体の名前を他
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/xTZ4oi6sttA?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

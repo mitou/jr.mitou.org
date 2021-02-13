@@ -30,3 +30,5 @@ description: "これは文字がまだうまく書けない小さな子と耳が
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/BeSeF5Exw1s?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

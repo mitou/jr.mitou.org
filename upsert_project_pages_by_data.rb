@@ -40,6 +40,8 @@ description: "#{project['description']}"
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/#{project['youtube']}?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+
 PROJECT_PAGE
 
   IO.write(path, page)

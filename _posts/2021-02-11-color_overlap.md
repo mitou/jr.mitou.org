@@ -30,3 +30,5 @@ description: "魔法によって「色」を奪われ石にされてしまった
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/_S-EyVp4y1Q?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

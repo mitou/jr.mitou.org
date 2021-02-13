@@ -30,3 +30,5 @@ IoTデバイスを用いて会議室予約や会議室内の備品の電源な�
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/Z6_Iw8Hvclk?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

@@ -30,3 +30,5 @@ description: "視力が低下したお年寄りから子どもまでが楽にニ
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/jQA4kApjr8s?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

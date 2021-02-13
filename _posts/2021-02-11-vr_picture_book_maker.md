@@ -30,3 +30,5 @@ VR絵本メーカーは、 VRで体験できる世界やストーリーを制作
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/V3SVBM47jOs?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

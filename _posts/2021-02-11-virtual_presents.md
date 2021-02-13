@@ -30,3 +30,5 @@ description: "仮想世界を彩るためのWebサービスのあり方を模索
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/p7KZzZLMLoM?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+

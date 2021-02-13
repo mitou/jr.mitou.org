@@ -30,3 +30,5 @@ Voice Commanderは、声とジェスチャーで操作する新感覚チェス�
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/APUTGg6g0hA?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
+{% include project-navigation.html %}
+
