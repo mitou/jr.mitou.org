@@ -24,11 +24,8 @@ description: "三機の電磁石式自作自作CPUを互いにつなげてネッ
 {% for creator_id in pj.creator_ids %}
   {% include creator.html is_simple=true %}
 {% endfor %}
-<small>(<a href='/projects/2020'>2020年度</a> 採択)</small>
+<small>(<a href='/projects/2020'>2020年度</a> 採択 / {% include link-to-mentor.html id=pj.mentor_id %}PM)</small>
 </p>
-
-### メンター
-<p>{% include link-to-mentor.html id=pj.mentor_id %}</p>
 
 ## 発表動画
 <div class="youtube">
