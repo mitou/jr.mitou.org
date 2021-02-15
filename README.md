@@ -52,12 +52,12 @@
 
 それぞれの項目は以下のような内容です。
 ```yml
-- id: クリエータの ID (例: mihashi)
-  project_id: 開発したプロジェクトのID (例: utips)
-  mentor_id: 担当メンターの ID (例: yasukawa_yohei)
-  name: クリエータの名前 (例: 三橋 優希)
-  is_spc: スーパークリエータかどうか (例：true)
-  year: 何年度の採択プロジェクトか (例: 2018)
+- id: クリエータのID。例: mihashi
+  project_id: 開発したプロジェクトのID。例: utips
+  mentor_id: 担当メンターのID。例: yasukawa_yohei`
+  name: クリエータの名前。例: 三橋 優希
+  is_spc: スーパークリエータ認定について。例：true
+  year: 何年度に採択されたプロジェクトか。例: 2018
 ```
 
 ## :bust_in_silhouette: メンター情報を更新したい
@@ -67,16 +67,16 @@
 ```yml
 - id: メンターの ID (例: yasukawa_yohei)
   name:
-    last: 名字 (例：安川)
-    first: 名前 (例: 要平)
+    last: 名字。例：安川
+    first: 名前。例: 要平
   img: 顔写真のパス
-  affiliation: 所属 (例：YassLab 株式会社, 一般社団法人 CoderDojo Japan)
-  interested: こんな提案をお待ちしております (例：スクリプト言語やWebの特長を活かした…（略）)
-  bio: 略歴。aタグが使える (例：<a href="https://yasslab.jp/">YassLab</a> 代表取締役…（略）)
-  facebook: facebook ID (例：yasulab)
-  twitter: twitter ID (例：yasulab)
-  github: github ID (例：yasulab)
-  web: サイトとか
+  affiliation: 所属。例：YassLab 株式会社, 一般社団法人 CoderDojo Japan
+  interested: こんな提案をお待ちしております。例：スクリプト言語やWebの特長を活かした…（略）
+  bio: 略歴。aタグも使えるよ！例：<a href="https://yasslab.jp/">YassLab</a> 代表取締役…（略）
+  facebook: Facebook ID。例：yasulab
+  twitter: Twitter ID。例：yasulab
+  github: GitHub ID。例：yasulab
+  web: 上記以外のURL。例: https://yasslab.jp/
 ```
 
 ## :hammer_and_wrench: Webサイトの仕組みを改善したい
@@ -98,7 +98,7 @@ $ bundle exec jekyll server
 無事にローカルサーバーが立ち上がったら、
 [http://localhost:4000/](http://localhost:4000/) でアクセスできます。
 
-### リンク切れはテストで検知できます
+### :robot: リンク切れはテストで検知できます
 
 内部リンク (アンカー含む) や `alt` 属性の空欄などは次のコマンドでテストできます。
 
