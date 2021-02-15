@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.1"
+gem "jekyll", "~> 4.2"
 gem "minima", "~> 2.5" # default theme for new Jekyll sites
 gem "liquid-c"
 

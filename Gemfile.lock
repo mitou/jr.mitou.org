@@ -115,7 +115,7 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer
-  jekyll (~> 4.1)
+  jekyll (~> 4.2)
   jekyll-feed (~> 0.12)
   jekyll-include-cache
   jekyll-sitemap
