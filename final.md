@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 2020年 最終成果報告会
+title:  2020年 最終成果報告会
+year:   2020
 ---
 
 <br>
@@ -24,13 +25,15 @@ title: 2020年 最終成果報告会
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shra9Q7wywdIuiOwB?backgroundColor=gray&blocks=hide" frameborder="0" onmousewheel="" width="100%" height="500" style="background: transparent; border: 1px solid #ccc;"></iframe>
 -->
-<div id='projects'></div>
 
-## 2020年度のプロジェクト
 
-{% assign projects = site.data.projects | where_exp: "pj", "pj.year == 2020" %}
+## {{ page.year }}年度のプロジェクト {#projects}
+
+{% assign projects = site.data.projects | where_exp: "pj", "pj.year == page.year" %}
 <div class="projects flex">
   {% for pj in projects %}
     {% include project-details.html %}
   {% endfor %}
 </div>
+
+{% include project-navigation.html this_year=page.year %}
