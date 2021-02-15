@@ -1,13 +1,9 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.2"
-gem "minima", "~> 2.5" # default theme for new Jekyll sites
-gem "liquid-c"
-
-gem 'rake'
-
-# Upsert individual pages by projects
-gem 'sanitize'
+gem "minima"   # default theme for new Jekyll sites
+gem "liquid-c" # Speedup with C implementation
+gem 'rake'     # Enable Rakefile to run tasks
 
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.12'
@@ -32,4 +28,3 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
-
