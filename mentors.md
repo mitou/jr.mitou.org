@@ -11,9 +11,9 @@ title: メンター紹介
   {% for mentor in site.data.mentors %}
     {% if mentor.is_alumni %} {% continue %} {% endif %}
     <div class="mentor" id="{{ mentor.id }}">
-      <img src='/assets/img/spinner.svg' data-src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" class="mentor-img lazyload" loading='lazy'>
+      <a href='#{{ mentor.id }}'><img src='/assets/img/spinner.svg' data-src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" class="mentor-img lazyload" loading='lazy'></a>
       <div class="mentor-info">
-        <h3 class="mentor-name">{{ mentor.name.last }} {{ mentor.name.first }}</h3>
+        <h3 class="mentor-name"><a href='#{{ mentor.id }}' style='color: inherit; text-decoration: none;'>{{ mentor.name.last }} {{ mentor.name.first }}</a></h3>
         <p>{{ mentor.affiliation }}</p>
 
         <div class="mentor-sns">
