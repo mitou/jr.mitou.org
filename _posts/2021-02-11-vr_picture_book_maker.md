@@ -15,9 +15,13 @@ description: "VR絵本メーカーは、 VRで体験できる世界やストー�
 
 VR絵本メーカーは、 VRで体験できる世界やストーリーを制作するためのスマートフォンアプリケーションです。 物語の世界に入ることができる！大好きなあの人とデートができる！憧れのアーティストのライブにも行けちゃう！誰でも簡単にスマホで観れるVR絵本をつくれます。 ユーザーは背景となる360度画像を選択し、キャラクターや吹き出し、さらに効果音、遷移エフェクトを選択してVR絵本にします。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=VR絵本メーカー&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2016/vr_picture_book_maker" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

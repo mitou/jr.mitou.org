@@ -15,9 +15,13 @@ description: "老人宅の玄関に、見守り装置を設置し、介護者か
 
 老人宅の玄関に、見守り装置を設置し、介護者から見守れるようにするシステム。見守り装置は、カメラ及び各種センサを装備し、サーバーを介してWeb経由で介護者が随時様子を知ることができる。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=見守りフォトスタンド&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2017/guardian_photo_stand" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

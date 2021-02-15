@@ -15,9 +15,13 @@ description: "これは文字がまだうまく書けない小さな子と耳が
 
 これは文字がまだうまく書けない小さな子と耳が聞こえづらいお年寄りがコミュニケーションを取るための筆談アプリです。スマホを使い慣れないお年寄りも簡単に使えるように、操作するためのボタンをなるべく少なくしました。また、イラストを使用することで小さな子が感覚的に使えるようにしました。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=ぶらっしゅとーく〜小さな子どものための筆談アプリ〜&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2020/brush_talk" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

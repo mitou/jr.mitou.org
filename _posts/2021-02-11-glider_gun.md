@@ -15,9 +15,13 @@ description: "このプロジェクトはLinuxのディストリビューショ�
 
 このプロジェクトはLinuxのディストリビューションを簡単に作成できるツール郡を提供します。また、作成するディストリビューションはブラウザを使うことを主な目的としており、このように機能を制限することで様々な恩恵を得ることができます。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=GliderGun - ブラウザOSを簡単に作成できるツール郡&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2020/glider_gun" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

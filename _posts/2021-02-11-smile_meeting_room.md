@@ -15,9 +15,13 @@ description: "IoTデバイスを用いて会議室予約や会議室内の備品
 
 IoTデバイスを用いて会議室予約や会議室内の備品の電源などを制御することで会議室の効率的利用を支援。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=スマイル会議室 - IoTで会議室の効率的な利用を&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2018/smile_meeting_room" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

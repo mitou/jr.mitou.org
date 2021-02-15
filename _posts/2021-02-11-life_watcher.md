@@ -15,9 +15,13 @@ description: "スマートウォッチ上で動作する、急変する持病を
 
 スマートウォッチ上で動作する、急変する持病を持つ人を助ける警報アプリの開発。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=Life Watcher - 急変する持病を持つ人のための警報システム&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2018/life_watcher" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

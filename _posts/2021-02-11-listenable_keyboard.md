@@ -15,9 +15,13 @@ description: "日本語、英語、中国語の3言語で利用できる、音�
 
 日本語、英語、中国語の3言語で利用できる、音声認識機能を搭載したキーボード。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text='聞く'キーボード&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2017/listenable_keyboard" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

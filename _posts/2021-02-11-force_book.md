@@ -15,9 +15,13 @@ description: "筐体から設計・自作し、開発者やゲーマーに使っ
 
 筐体から設計・自作し、開発者やゲーマーに使ってほしいノートPCを実現しました。カスタマイズ性を重視してデスクトップ用のパーツを使い、あえてバッテリーを搭載せず電源接続とすることでコンパクトにしました。さらにトラックパッドとしてタッチディスプレイによる新しいインターフェースを考案・実装し、使いやすさにこだわりました。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=ForceBook - つよつよ自作ノートPC&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2020/force_book" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

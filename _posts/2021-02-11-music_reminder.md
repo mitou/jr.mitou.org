@@ -15,9 +15,13 @@ description: "カラオケで歌った曲、見た映画等の経験に基づい
 
 カラオケで歌った曲、見た映画等の経験に基づいて、AppleMusicから曲を推薦する新しい仕組みのiOSアプリを開発
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2017/music_reminder" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

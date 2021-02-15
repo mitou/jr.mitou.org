@@ -25,9 +25,13 @@ description: "#{project['description']}"
 
 #{project['description']}
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=#{project['title']}&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/#{project['year']}/#{project['id']}" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

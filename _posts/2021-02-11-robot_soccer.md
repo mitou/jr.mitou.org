@@ -15,9 +15,13 @@ description: "強化学習を用いた、ロボットサッカーのプレイヤ
 
 強化学習を用いた、ロボットサッカーのプレイヤーの開発。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=強化学習を用いたロボットサッカーシミュレーション&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2018/robot_soccer" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

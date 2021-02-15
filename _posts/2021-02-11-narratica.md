@@ -15,9 +15,13 @@ description: "自然言語処理によって、映画脚本のテキスト分析
 
 自然言語処理によって、映画脚本のテキスト分析を行い、登場人物の感情変化をもとにストーリーを評価。自分で書いた文章もリアルタイムに感情分析。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=narratica〜ストーリーコンサルタント〜&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2017/narratica" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

@@ -15,9 +15,13 @@ description: "OculusのVRゴーグルで、美しい景色と音楽の中でリ�
 
 OculusのVRゴーグルで、美しい景色と音楽の中でリラックスしながら身体を鍛えることができる作品です。３つのミニゲームから構成されており、体幹、腹筋、前腿の筋肉などの筋力向上を期待できます。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2020/flight_fit_vr" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

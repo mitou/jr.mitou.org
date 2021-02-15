@@ -15,9 +15,13 @@ description: "使用者の記録や感情を蓄え変化する「森」を基調
 
 使用者の記録や感情を蓄え変化する「森」を基調としたメモ帳アプリのデザインコンセプトを提案
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=Corkboard - 位置的に管理するメモサービス&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2018/corkboard" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

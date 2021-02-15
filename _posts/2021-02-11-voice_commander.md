@@ -15,9 +15,13 @@ description: "Voice Commanderは、声とジェスチャーで操作する新感
 
 Voice Commanderは、声とジェスチャーで操作する新感覚チェスゲームです。 グラフィックにこだわるだけでなく、音声認識によるコマの操作、スマホに表示したマーカーを利用したジェスチャー操作等を組み合わせることで、「かっこよさ」を追求しています。 アニメ「ノーゲーム・ノーライフ」に出てきたチェスから着想を得て開発をすすめました。 それぞれのマスにはプレーヤーが音声認識の際に叫ぶための名前がついていて、テキストファイルを変更することで簡単に名前をカスタマイズすることもできます。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=Voice Commander ～命令×ポーズ×チェス～&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2016/voice_commander" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

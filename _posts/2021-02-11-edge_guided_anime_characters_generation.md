@@ -15,9 +15,13 @@ description: "描きかけの線画を自動で完成させることができる
 
 描きかけの線画を自動で完成させることができる、GANをベースとしたシステムを開発した。これを用いることで初心者でも複雑なイラストを簡単に描くことができるようになる。特に本研究ではアニメの顔画像の生成に焦点をあてた。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=Edge-guided Anime Characters Generation&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2019/edge_guided_anime_characters_generation" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

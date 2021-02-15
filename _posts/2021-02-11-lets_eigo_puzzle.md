@@ -15,9 +15,13 @@ description: "小学生が遊びながら英単語を学べる、赤外線通信
 
 小学生が遊びながら英単語を学べる、赤外線通信ブロックとゲームを開発。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=Let'sえいごパズル! - 変化するキューブで楽しく学ぶ英単語&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2018/lets_eigo_puzzle" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

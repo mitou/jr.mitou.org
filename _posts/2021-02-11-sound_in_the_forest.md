@@ -15,9 +15,13 @@ description: "複数のスマートフォン上のウェブブラウザをリア
 
 複数のスマートフォン上のウェブブラウザをリアルタイム同期させ、立体音響を実現するシステムの開発。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=Sound in the forest - 複数のスマートフォンによる「動く音」の表現&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2018/sound_in_the_forest" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

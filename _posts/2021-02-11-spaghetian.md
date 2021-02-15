@@ -15,9 +15,13 @@ description: "三機の電磁石式自作自作CPUを互いにつなげてネッ
 
 三機の電磁石式自作自作CPUを互いにつなげてネットワークにし、その上でオンラインピンポンゲームが動くロマン溢れるプロジェクトです！魔法と見分けがつかなくなった現代のコンピュータテクノロジーの基本を自作することにより、それらが誰でも理解できることを示します。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=Spaghetian - 電気と電磁石だけでCPUを自作する！&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2020/spaghetian" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>

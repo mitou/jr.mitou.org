@@ -15,9 +15,13 @@ description: "ティッシュペーパーのような日用品を買い忘れて
 
 ティッシュペーパーのような日用品を買い忘れてしまい、困った経験はありませんか？ ManageStock はそのような問題を解決するために、在庫を IoT などを活用して管理するアプリケーションです。
 
-{% if pj.link %}
-<a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
-{% endif %}
+<div style='display: flex; flex-wrap: wrap'>
+  {% if pj.link %}
+  <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+  {% endif %}
+
+  <a href="https://twitter.com/intent/tweet?text=ManageStock - 家庭向け在庫管理アプリ&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2019/manage_stock" class="button">ツイートする</a>
+</div>
 
 ### クリエータ
 <p>
