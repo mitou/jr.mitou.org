@@ -31,14 +31,16 @@
 
 それぞれの項目は以下のような内容です。
 ```yml
-- id: プロジェクトの ID (例: utips)
+- id: 他のIDと重複しないIDを入力 (例: utips)
   title: プロジェクトのタイトル (例：UTIPS - 家事の情報共有サービス)
-  description: 概要 (例：家事のやり方を共有するWEBサービスを…（略）)
+  description: 概要 (例：家事のやり方を共有するWEBサービスを…)
+  thumbnail: サムネイル画像。まだ用意されていない場合は「tbu.png」を入力
+  youtube: YouTube動画にある ?v=xxxx の "xxxx" 部分。まだ無い場合は「TBD」を入力
+  year: 何年度の採択プロジェクトか (例: 2018)
+  mentor_id: 「mentors.yml」にあるメンターIDを入力 (例：yasukawa_yohei)
   creator_ids:
   - 後述する Creator テーブルの ID (例：mihashi)
   - 複数名いる場合は複数後述します
-  youtube: YouTube上の発表動画ID。www.youtube.com/watch?v=xxxx の "xxxx" 部分。(例: t8kpeE_sNB0)
-  year: 何年度の採択プロジェクトか (例: 2018)
 ```
 
 ## クリエータ情報の更新方法
