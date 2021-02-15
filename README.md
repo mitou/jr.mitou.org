@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mitou/jr.mitou.org.svg?branch=master)](https://travis-ci.org/mitou/jr.mitou.org)
+[![Test & Deploy](https://github.com/mitou/jr.mitou.org/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/mitou/jr.mitou.org/actions?query=workflow%3A%22Test+%26+Deploy%22)
 
 # 未踏ジュニア
 [![Cover Photo of Mitou Junior](https://jr.mitou.org/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
