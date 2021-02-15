@@ -32,6 +32,7 @@ jobs:
     - name: 'Generate files and test them statically'
       run: |
         bundle exec rake test
+        bundle exec jekyll doctor
 
     - name: 'Notify test results to Idobata (Failed)'
       if:   ${{ failure() }}
