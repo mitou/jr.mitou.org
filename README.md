@@ -1,11 +1,14 @@
 [![Test & Deploy](https://github.com/mitou/jr.mitou.org/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/mitou/jr.mitou.org/actions?query=workflow%3A%22Test+%26+Deploy%22)
 
-# 未踏ジュニア
+# 未踏ジュニア公式Webサイト
 [![Cover Photo of Mitou Junior](https://jr.mitou.org/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
 
-## ブラウザで情報修正を提案する
+本リポジトリは未踏ジュニア[公式Webサイト](https://jr.mitou.org/)の公開リポジトリです。   
+本READMEでは、当該Webサイトの更新方法を目的別にまとめています。
 
-多分これが一番簡単だと思います...!! 😆
+## :white_check_mark: （共通）ブラウザで情報修正を提案できます
+
+どの箇所を更新するにせよ、Webブラウザが一番簡単だと思います...!! 😆
 
 1. 下記の『更新方法』を参考に、修正を提案したい yml ファイルをクリックする
 2. 画面右にある ✎ アイコン (Fork this project and edit this file) をクリックする
@@ -15,7 +18,7 @@
 以上で完了です。提案された修正内容は運営チームによって再確認され、問題なければ提案された内容が反映されます。もし修正内容に不具合があっても運営側で気付いて修正するので、まずはお気軽に提案してみてください ;)
 
 
-## メディア掲載の更新方法
+## :bookmark_tabs: メディア掲載を更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [`media.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/media.yml) にメディア掲載記事の情報があります。  
 上が新しい情報になるように記述するとよいでしょう。
 
@@ -26,7 +29,7 @@
   date: 公開日 (例：2019/11/20)
 ```
 
-## プロジェクト情報の更新方法
+## :rocket: プロジェクト情報を更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [`projects.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/projects.yml) にプロジェクトの情報があります。
 
 それぞれの項目は以下のような内容です。
@@ -44,7 +47,7 @@
   - 複数名いる場合は、複数記述します
 ```
 
-## クリエータ情報の更新方法
+## :busts_in_silhouette: クリエータ情報を更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [`creators.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/creators.yml) にクリエーターの情報があります。  
 
 それぞれの項目は以下のような内容です。
@@ -57,7 +60,7 @@
   year: 何年度の採択プロジェクトか (例: 2018)
 ```
 
-## メンター情報の更新方法
+## :bust_in_silhouette: メンター情報を更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [`mentors.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/mentors.yml) にメンターの情報があります。 
 
 それぞれの項目は以下のような内容です。
@@ -76,7 +79,7 @@
   web: サイトとか
 ```
 
-## (任意) ローカル環境で確認したい
+## :hammer_and_wrench: Webサイトの仕組みを改善したい
 
 ローカル環境のブラウザで確認したい場合は、
 次の手順でローカルサーバーを立ち上げてください。
@@ -110,7 +113,7 @@ $ bundle exec rake test
 最新の状態は [GitHub の README](https://github.com/mitou/jr.mitou.org#readme) から確認できます。
 
 
-## クレジット
+## :copyright: クレジット
 
-Copyright &copy; 2016-2020 一般社団法人[未踏](https://www.mitou.org/)   
+Copyright &copy; 2016-2021 一般社団法人[未踏](https://www.mitou.org/)   
 [未踏ジュニア](https://jr.mitou.org/)運営チーム
