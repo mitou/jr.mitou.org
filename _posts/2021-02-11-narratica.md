@@ -11,7 +11,7 @@ description: "自然言語処理によって、映画脚本のテキスト分析
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail == "tbu.png" %} data-src='/assets/img/thumbnails/tbu.png'
 {% else %}                         data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% endif %}                        style='margin-bottom: 10px;' />
+{% endif %}                        style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}
 

@@ -11,7 +11,7 @@ description: "視力が低下したお年寄りから子どもまでが楽にニ
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail == "tbu.png" %} data-src='/assets/img/thumbnails/tbu.png'
 {% else %}                         data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% endif %}                        style='margin-bottom: 10px;' />
+{% endif %}                        style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}
 

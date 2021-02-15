@@ -11,7 +11,7 @@ description: "筐体から設計・自作し、開発者やゲーマーに使っ
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail == "tbu.png" %} data-src='/assets/img/thumbnails/tbu.png'
 {% else %}                         data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% endif %}                        style='margin-bottom: 10px;' />
+{% endif %}                        style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}
 

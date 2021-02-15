@@ -11,7 +11,7 @@ description: "老人宅の玄関に、見守り装置を設置し、介護者か
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail == "tbu.png" %} data-src='/assets/img/thumbnails/tbu.png'
 {% else %}                         data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% endif %}                        style='margin-bottom: 10px;' />
+{% endif %}                        style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}
 
