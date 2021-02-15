@@ -109,8 +109,7 @@ $ bundle exec rake test
 
 テスト内容の詳細は [Rakefile](https://github.com/mitou/jr.mitou.org/blob/master/Rakefile) をご参照ください。
 
-上記テストは [Travis CI](https://travis-ci.org/mitou/jr.mitou.org) 上でも動いていて、
-最新の状態は [GitHub の README](https://github.com/mitou/jr.mitou.org#readme) から確認できます。
+上記テストは [GitHub Actions](https://github.com/mitou/jr.mitou.org/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [.github/workflows](https://github.com/mitou/jr.mitou.org/tree/master/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
 
 
 ## :copyright: クレジット
