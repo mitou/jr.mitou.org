@@ -1,3 +1,17 @@
+# Data Template (詳細はREADMEを参照してください)
+#
+#- id: 他のIDと重複しないIDを入力 (例: utips)
+#  title: プロジェクトのタイトル (例：UTIPS - 家事の情報共有サービス)
+#  description: 概要 (例：家事のやり方を共有するWEBサービスを…)
+#  thumbnail: サムネイル画像。まだ用意されていない場合は「tbu.png」を入力
+#  youtube: YouTube動画にある ?v=xxxx の "xxxx" 部分。まだ無い場合は「TBD」を入力
+#  year: 何年度の採択プロジェクトか (例: 2018)
+#  mentor_id: 「mentors.yml」にあるメンターIDを入力 (例：yasukawa_yohei)
+#  creator_ids:
+#  - 後述する Creator テーブルの ID (例：mihashi)
+#  - 複数名いる場合は複数後述します
+
+
 # 2020年度
 - id: flight_fit_vr
   title: -Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品
