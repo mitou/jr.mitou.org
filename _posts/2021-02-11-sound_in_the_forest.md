@@ -20,7 +20,7 @@ description: "複数のスマートフォン上のウェブブラウザをリア
   <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
   {% endif %}
 
-  <a href="https://twitter.com/intent/tweet?text=Sound in the forest - 複数のスマートフォンによる「動く音」の表現&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2018/sound_in_the_forest" class="button">ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?text=Sound in the forest - 複数のスマートフォンによる「動く音」の表現&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2018/sound_in_the_forest" class="button" target="_blank" rel="noopener">ツイートする</a>
 </div>
 
 ### クリエータ

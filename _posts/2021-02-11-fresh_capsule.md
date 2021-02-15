@@ -20,7 +20,7 @@ fresh capsuleは、購入した食材の賞味期限を管理する携帯アプ�
   <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
   {% endif %}
 
-  <a href="https://twitter.com/intent/tweet?text=fresh capsule - 食材管理アプリ&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2019/fresh_capsule" class="button">ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?text=fresh capsule - 食材管理アプリ&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2019/fresh_capsule" class="button" target="_blank" rel="noopener">ツイートする</a>
 </div>
 
 ### クリエータ

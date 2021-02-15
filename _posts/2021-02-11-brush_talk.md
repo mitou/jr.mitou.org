@@ -20,7 +20,7 @@ description: "これは文字がまだうまく書けない小さな子と耳が
   <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
   {% endif %}
 
-  <a href="https://twitter.com/intent/tweet?text=ぶらっしゅとーく〜小さな子どものための筆談アプリ〜&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2020/brush_talk" class="button">ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?text=ぶらっしゅとーく〜小さな子どものための筆談アプリ〜&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2020/brush_talk" class="button" target="_blank" rel="noopener">ツイートする</a>
 </div>
 
 ### クリエータ

@@ -20,7 +20,7 @@ description: "このプロジェクトはLinuxのディストリビューショ�
   <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
   {% endif %}
 
-  <a href="https://twitter.com/intent/tweet?text=GliderGun - ブラウザOSを簡単に作成できるツール郡&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2020/glider_gun" class="button">ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?text=GliderGun - ブラウザOSを簡単に作成できるツール郡&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2020/glider_gun" class="button" target="_blank" rel="noopener">ツイートする</a>
 </div>
 
 ### クリエータ

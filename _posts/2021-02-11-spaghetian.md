@@ -20,7 +20,7 @@ description: "三機の電磁石式自作自作CPUを互いにつなげてネッ
   <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
   {% endif %}
 
-  <a href="https://twitter.com/intent/tweet?text=Spaghetian - 電気と電磁石だけでCPUを自作する！&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2020/spaghetian" class="button">ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?text=Spaghetian - 電気と電磁石だけでCPUを自作する！&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2020/spaghetian" class="button" target="_blank" rel="noopener">ツイートする</a>
 </div>
 
 ### クリエータ

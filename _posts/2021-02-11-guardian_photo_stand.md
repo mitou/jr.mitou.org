@@ -20,7 +20,7 @@ description: "老人宅の玄関に、見守り装置を設置し、介護者か
   <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
   {% endif %}
 
-  <a href="https://twitter.com/intent/tweet?text=見守りフォトスタンド&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2017/guardian_photo_stand" class="button">ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?text=見守りフォトスタンド&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2017/guardian_photo_stand" class="button" target="_blank" rel="noopener">ツイートする</a>
 </div>
 
 ### クリエータ

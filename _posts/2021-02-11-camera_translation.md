@@ -20,7 +20,7 @@ description: "写真を写すことで、そこに写った物体の名前を他
   <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
   {% endif %}
 
-  <a href="https://twitter.com/intent/tweet?text=写して翻訳&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2018/camera_translation" class="button">ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?text=写して翻訳&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2018/camera_translation" class="button" target="_blank" rel="noopener">ツイートする</a>
 </div>
 
 ### クリエータ

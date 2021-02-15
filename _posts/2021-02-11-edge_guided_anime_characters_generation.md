@@ -20,7 +20,7 @@ description: "描きかけの線画を自動で完成させることができる
   <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
   {% endif %}
 
-  <a href="https://twitter.com/intent/tweet?text=Edge-guided Anime Characters Generation&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2019/edge_guided_anime_characters_generation" class="button">ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?text=Edge-guided Anime Characters Generation&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2019/edge_guided_anime_characters_generation" class="button" target="_blank" rel="noopener">ツイートする</a>
 </div>
 
 ### クリエータ

@@ -20,7 +20,7 @@ description: "視力が低下したお年寄りから子どもまでが楽にニ
   <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
   {% endif %}
 
-  <a href="https://twitter.com/intent/tweet?text=らくらく読み読み&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2017/rakuraku_yomiyomi" class="button">ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?text=らくらく読み読み&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2017/rakuraku_yomiyomi" class="button" target="_blank" rel="noopener">ツイートする</a>
 </div>
 
 ### クリエータ

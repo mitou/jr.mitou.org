@@ -20,7 +20,7 @@ description: "困っている訪日外国人が、旅行者を助けたい日本
   <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
   {% endif %}
 
-  <a href="https://twitter.com/intent/tweet?text=Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2017/fall_in_friends" class="button">ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?text=Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2017/fall_in_friends" class="button" target="_blank" rel="noopener">ツイートする</a>
 </div>
 
 ### クリエータ

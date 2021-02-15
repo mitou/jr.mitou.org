@@ -20,7 +20,7 @@ description: "仮想世界を彩るためのWebサービスのあり方を模索
   <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
   {% endif %}
 
-  <a href="https://twitter.com/intent/tweet?text=VirtualPresents - 仮想世界で用いるWebサービス&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2019/virtual_presents" class="button">ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?text=VirtualPresents - 仮想世界で用いるWebサービス&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2019/virtual_presents" class="button" target="_blank" rel="noopener">ツイートする</a>
 </div>
 
 ### クリエータ

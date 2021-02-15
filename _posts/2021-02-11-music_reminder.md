@@ -20,7 +20,7 @@ description: "カラオケで歌った曲、見た映画等の経験に基づい
   <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
   {% endif %}
 
-  <a href="https://twitter.com/intent/tweet?text=個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2017/music_reminder" class="button">ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?text=個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/2017/music_reminder" class="button" target="_blank" rel="noopener">ツイートする</a>
 </div>
 
 ### クリエータ
