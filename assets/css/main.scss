@@ -348,6 +348,9 @@ footer{
   }
 }
 
+.mentors{
+  scroll-snap-type: y proximity;
+}
 .mentor{
   padding: 12px;
   margin-top: 18px;
@@ -355,6 +358,13 @@ footer{
   p{
     font-size: 14px;
   }
+
+  // scroll-margin-top equals to header height
+  scroll-margin-top: 80px;
+  @media screen and (max-width: $header-phone) {
+    scroll-margin-top: 60px;
+  }
+  scroll-snap-align: center;
 }
 .mentor-sns{
   font-size: 36px;
