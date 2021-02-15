@@ -2,7 +2,7 @@
 layout: post
 title: "Sound in the forest - 複数のスマートフォンによる「動く音」の表現"
 permalink: /projects/2018/sound_in_the_forest
-thumbnail: /assets/img/thumbnails/2018/tbu.png
+thumbnail: /assets/img/thumbnails/2018/sound_in_the_forest.png
 description: "複数のスマートフォン上のウェブブラウザをリアルタイム同期させ、立体音響を実現するシステムの開発。"
 ---
 
@@ -10,7 +10,7 @@ description: "複数のスマートフォン上のウェブブラウザをリア
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/H7SCFi0fp7g/hqdefault.jpg'
-{% else %}                         data-src='/assets/img/thumbnails/2018/tbu.png'
+{% else %}                         data-src='/assets/img/thumbnails/2018/sound_in_the_forest.png'
 {% endif %}                        style='margin-bottom: 10px;' />
 
 複数のスマートフォン上のウェブブラウザをリアルタイム同期させ、立体音響を実現するシステムの開発。

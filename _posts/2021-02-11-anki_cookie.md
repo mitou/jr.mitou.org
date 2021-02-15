@@ -2,7 +2,7 @@
 layout: post
 title: "暗記クッキー"
 permalink: /projects/2017/anki_cookie
-thumbnail: /assets/img/thumbnails/2017/tbu.png
+thumbnail: /assets/img/thumbnails/2017/anki_cookie.png
 description: "WEBクイズで頑張って覚えた漢字や単語がクッキーに焼かれ、暗記学習のモチベーションアップを支援するシステムを開発。"
 ---
 
@@ -10,7 +10,7 @@ description: "WEBクイズで頑張って覚えた漢字や単語がクッキー
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/CRvzQtz90RM/hqdefault.jpg'
-{% else %}                         data-src='/assets/img/thumbnails/2017/tbu.png'
+{% else %}                         data-src='/assets/img/thumbnails/2017/anki_cookie.png'
 {% endif %}                        style='margin-bottom: 10px;' />
 
 WEBクイズで頑張って覚えた漢字や単語がクッキーに焼かれ、暗記学習のモチベーションアップを支援するシステムを開発。

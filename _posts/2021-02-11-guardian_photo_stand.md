@@ -2,7 +2,7 @@
 layout: post
 title: "見守りフォトスタンド"
 permalink: /projects/2017/guardian_photo_stand
-thumbnail: /assets/img/thumbnails/2017/tbu.png
+thumbnail: /assets/img/thumbnails/2017/guardian_photo_stand.png
 description: "老人宅の玄関に、見守り装置を設置し、介護者から見守れるようにするシステム。見守り装置は、カメラ及び各種センサを装備し、サーバーを介してWeb経由で介護者が随時様子を知ることができる。"
 ---
 
@@ -10,7 +10,7 @@ description: "老人宅の玄関に、見守り装置を設置し、介護者か
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/lOrb8nH85qo/hqdefault.jpg'
-{% else %}                         data-src='/assets/img/thumbnails/2017/tbu.png'
+{% else %}                         data-src='/assets/img/thumbnails/2017/guardian_photo_stand.png'
 {% endif %}                        style='margin-bottom: 10px;' />
 
 老人宅の玄関に、見守り装置を設置し、介護者から見守れるようにするシステム。見守り装置は、カメラ及び各種センサを装備し、サーバーを介してWeb経由で介護者が随時様子を知ることができる。

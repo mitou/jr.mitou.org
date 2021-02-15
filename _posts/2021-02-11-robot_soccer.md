@@ -2,7 +2,7 @@
 layout: post
 title: "強化学習を用いたロボットサッカーシミュレーション"
 permalink: /projects/2018/robot_soccer
-thumbnail: /assets/img/thumbnails/2018/tbu.png
+thumbnail: /assets/img/thumbnails/2018/robot_soccer.png
 description: "強化学習を用いた、ロボットサッカーのプレイヤーの開発。"
 ---
 
@@ -10,7 +10,7 @@ description: "強化学習を用いた、ロボットサッカーのプレイヤ
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/7WnoGTOFRuE/hqdefault.jpg'
-{% else %}                         data-src='/assets/img/thumbnails/2018/tbu.png'
+{% else %}                         data-src='/assets/img/thumbnails/2018/robot_soccer.png'
 {% endif %}                        style='margin-bottom: 10px;' />
 
 強化学習を用いた、ロボットサッカーのプレイヤーの開発。

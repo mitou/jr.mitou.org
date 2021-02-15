@@ -2,7 +2,7 @@
 layout: post
 title: "個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案"
 permalink: /projects/2017/music_reminder
-thumbnail: /assets/img/thumbnails/2017/tbu.png
+thumbnail: /assets/img/thumbnails/2017/music_reminder.png
 description: "カラオケで歌った曲、見た映画等の経験に基づいて、AppleMusicから曲を推薦する新しい仕組みのiOSアプリを開発"
 ---
 
@@ -10,7 +10,7 @@ description: "カラオケで歌った曲、見た映画等の経験に基づい
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/gfrleUVHGZs/hqdefault.jpg'
-{% else %}                         data-src='/assets/img/thumbnails/2017/tbu.png'
+{% else %}                         data-src='/assets/img/thumbnails/2017/music_reminder.png'
 {% endif %}                        style='margin-bottom: 10px;' />
 
 カラオケで歌った曲、見た映画等の経験に基づいて、AppleMusicから曲を推薦する新しい仕組みのiOSアプリを開発

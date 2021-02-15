@@ -2,7 +2,7 @@
 layout: post
 title: "らくらく読み読み"
 permalink: /projects/2017/rakuraku_yomiyomi
-thumbnail: /assets/img/thumbnails/2017/tbu.png
+thumbnail: /assets/img/thumbnails/2017/rakuraku_yomiyomi.png
 description: "視力が低下したお年寄りから子どもまでが楽にニュース記事を読めるアプリ。文字の表示の工夫、読み進めた部分のマーキング、視線追跡などの機能を搭載。"
 ---
 
@@ -10,7 +10,7 @@ description: "視力が低下したお年寄りから子どもまでが楽にニ
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/jQA4kApjr8s/hqdefault.jpg'
-{% else %}                         data-src='/assets/img/thumbnails/2017/tbu.png'
+{% else %}                         data-src='/assets/img/thumbnails/2017/rakuraku_yomiyomi.png'
 {% endif %}                        style='margin-bottom: 10px;' />
 
 視力が低下したお年寄りから子どもまでが楽にニュース記事を読めるアプリ。文字の表示の工夫、読み進めた部分のマーキング、視線追跡などの機能を搭載。

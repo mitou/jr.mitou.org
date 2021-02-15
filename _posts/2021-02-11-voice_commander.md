@@ -2,7 +2,7 @@
 layout: post
 title: "Voice Commander ～命令×ポーズ×チェス～"
 permalink: /projects/2016/voice_commander
-thumbnail: /assets/img/thumbnails/2016/tbu.png
+thumbnail: /assets/img/thumbnails/2016/voice_commander.png
 description: "Voice Commanderは、声とジェスチャーで操作する新感覚チェスゲームです。 グラフィックにこだわるだけでなく、音声認識によるコマの操作、スマホに表示したマーカーを利用したジェスチャー操作等を組み合わせることで、「かっこよさ」を追求しています。 アニメ「ノーゲーム・ノーライフ」に出てきたチェスから着想を得て開発をすすめました。 それぞれのマスにはプレーヤーが音声認識の際に叫ぶための名前がついていて、テキストファイルを変更することで簡単に名前をカスタマイズすることもできます。"
 ---
 
@@ -10,7 +10,7 @@ description: "Voice Commanderは、声とジェスチャーで操作する新感
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/APUTGg6g0hA/hqdefault.jpg'
-{% else %}                         data-src='/assets/img/thumbnails/2016/tbu.png'
+{% else %}                         data-src='/assets/img/thumbnails/2016/voice_commander.png'
 {% endif %}                        style='margin-bottom: 10px;' />
 
 Voice Commanderは、声とジェスチャーで操作する新感覚チェスゲームです。 グラフィックにこだわるだけでなく、音声認識によるコマの操作、スマホに表示したマーカーを利用したジェスチャー操作等を組み合わせることで、「かっこよさ」を追求しています。 アニメ「ノーゲーム・ノーライフ」に出てきたチェスから着想を得て開発をすすめました。 それぞれのマスにはプレーヤーが音声認識の際に叫ぶための名前がついていて、テキストファイルを変更することで簡単に名前をカスタマイズすることもできます。

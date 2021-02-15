@@ -2,7 +2,7 @@
 layout: post
 title: "Life Watcher - 急変する持病を持つ人のための警報システム"
 permalink: /projects/2018/life_watcher
-thumbnail: /assets/img/thumbnails/2018/tbu.png
+thumbnail: /assets/img/thumbnails/2018/life_watcher.png
 description: "スマートウォッチ上で動作する、急変する持病を持つ人を助ける警報アプリの開発。"
 ---
 
@@ -10,7 +10,7 @@ description: "スマートウォッチ上で動作する、急変する持病を
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail == "tbu.png" %} data-src='https://img.youtube.com/vi/srA90rwohUA/hqdefault.jpg'
-{% else %}                         data-src='/assets/img/thumbnails/2018/tbu.png'
+{% else %}                         data-src='/assets/img/thumbnails/2018/life_watcher.png'
 {% endif %}                        style='margin-bottom: 10px;' />
 
 スマートウォッチ上で動作する、急変する持病を持つ人を助ける警報アプリの開発。
