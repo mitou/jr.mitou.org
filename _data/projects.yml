@@ -352,9 +352,10 @@
   mentor_id: ukai_yuu
   description: 誰もが簡単に仮想通貨を入手できる、新しいブロックチェーンを実現するための合意アルゴリズムを開発。
   comment: 新しいブロックチェーンのコンセンサスアルゴリズムを実際に開発し、デモとして体験できるところまで持ってきたことだけで、十分に大きな評価に値する。今後は、Vreath上で動くDAppsを実現するために開発者を巻き込んでいく必要があるが、末神さんが持つ行動力と、ブロックチェーンに関する深い造詣、なによりも圧倒的な情熱があれば、世界をあっと驚かすようなプロジェクトに成長できる可能性を秘めているので、大人の声に惑わされずどんどん開発を進めていってほしい。
-  thumbnail: tbu.png
+  thumbnail: vreath.png
   youtube: Kq7IuLLNC4Y
   year: 2018
+  link: https://github.com/Vreath-core
 
 - id: corkboard
   title: Corkboard - 位置的に管理するメモサービス
