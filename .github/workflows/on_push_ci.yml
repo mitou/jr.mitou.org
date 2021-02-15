@@ -19,6 +19,7 @@ jobs:
 
     - name: 'Install dependencies'
       run: |
+        bundle config set with 'test'
         bundle config set path 'vendor/bundle'
         bundle install --jobs 4 --retry 3
 

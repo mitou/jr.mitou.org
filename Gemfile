@@ -4,12 +4,10 @@ gem "jekyll", "~> 4.1"
 gem "minima", "~> 2.5" # default theme for new Jekyll sites
 gem "liquid-c"
 
-gem 'html-proofer'
 gem 'rake'
 
 # Upsert individual pages by projects
 gem 'sanitize'
-gem 'pry'
 
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.12'
@@ -17,6 +15,12 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   # gem 'github-pages' # Uncomment this when being compatible with Jekyl 4.0.0+
   # You can check latest available versions: https://pages.github.com/versions/
+end
+
+# Gems to use in Development & CI (GitHub Actions)
+group :development, :test do
+  gem 'pry'
+  gem 'html-proofer'
 end
 
 # Windows and JRuby does not include zoneinfo files,
