@@ -568,6 +568,9 @@ footer{
 }
 
 // Project Search
+.search-position {
+  position: relative;
+}
 .search-icon:before {
   content: "🔍";
 }
@@ -595,7 +598,7 @@ footer{
     display: flex;
     align-content: center;
     justify-content: center;
-    margin: 10px 8px;
+    margin: 10px 2px 10px 8px;
     box-sizing: border-box;
     opacity: 0.5;
   }
@@ -609,13 +612,10 @@ footer{
     font-size: 16px;
     background: transparent;
   }
-  input::placeholder {
-    font-size: 0.8em;
-  }
 
-}
-.search-position {
-  position: relative;
+  input::placeholder {
+    font-size: 75%;
+  }
 }
 .search-block-result {
   ul {
