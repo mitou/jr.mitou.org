@@ -307,7 +307,7 @@ var _$src_8 = {};
     sortMiddleware: function () {
       return 0
     },
-    noResultsText: '検索結果が見つかりませんでした。',
+    noResultsText: 'No results found',
     limit: 10,
     fuzzy: false,
     debounceTime: null,

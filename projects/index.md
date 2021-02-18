@@ -29,7 +29,8 @@ title: 採択プロジェクト
      searchInput:          document.getElementById('search-input'),
      resultsContainer:     document.getElementById('search-results'),
      json:                 '/search.json',
-     searchResultTemplate: '<li><img class="lazyload" data-src="{{ site.url}}{icon}" loading="lazy"><a href="{url}">{title}</a></li>'
+     searchResultTemplate: '<li><img class="lazyload" data-src="{{ site.url}}{icon}" loading="lazy"><a href="{url}">{title}</a></li>',
+     noResultsText:        '検索結果が見つかりませんでした。'
    });
   </script>
   <!-- Project Search -->
