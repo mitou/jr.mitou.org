@@ -595,7 +595,7 @@ footer{
     display: flex;
     align-content: center;
     justify-content: center;
-    margin: 10px;
+    margin: 10px 8px;
     box-sizing: border-box;
     opacity: 0.5;
   }
@@ -609,9 +609,23 @@ footer{
     font-size: 16px;
     background: transparent;
   }
+  input::placeholder {
+    font-size: 0.8em;
+  }
+
 }
 .search-position {
   position: relative;
+}
+.search-block-result {
+  ul {
+    list-style: none;
+    li {
+      img {
+	margin-right: 10px;
+      }
+    }
+  }
 }
 /* // TODO: Should the search results be float?
 .search-block-result {

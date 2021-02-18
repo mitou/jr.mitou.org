@@ -15,10 +15,11 @@ title: 採択プロジェクト
       <div class="search-block-input">
         <span class="search-icon"></span>
       </div>
-      <input class="search-input" type="text" name="" value="" placeholder="キーワードで検索する（例: CPU, LINE, 言語)" id="search-input">
+      <input class="search-input" type="text" name="" value="" placeholder="キーワードで検索する (例: CPU, LINE, 言語)" id="search-input">
+
     </div>
     <div class="search-block-result">
-      <ul id="search-results" style='list-style: none;'></ul>
+      <ul id="search-results"></ul>
     </div>
   </div>
 
