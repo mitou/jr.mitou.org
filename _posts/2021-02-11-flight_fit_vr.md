@@ -25,10 +25,10 @@ description: "OculusのVRゴーグルで、美しい景色と音楽の中でリ�
 
 ### クリエータ
 <p>
-{% for creator_id in pj.creator_ids %}
-  {% include creator.html is_simple=true %}
-{% endfor %}
-<small>(<a href='/projects/{{ pj.year }}'>{{ pj.year }}年度</a> 採択 / {% include link-to-mentor.html id=pj.mentor_id %}PM)</small>
+  {% for creator_id in pj.creator_ids %}
+    {% include creator.html is_simple=true %}
+  {% endfor %}
+  <small>(<a href='/projects/{{ pj.year }}'>{{ pj.year }}年度</a> 採択 / {% include link-to-mentor.html id=pj.mentor_id %}PM)</small>
 </p>
 
 {% if pj.comment %}

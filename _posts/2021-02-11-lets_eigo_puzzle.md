@@ -25,10 +25,10 @@ description: "小学生が遊びながら英単語を学べる、赤外線通信
 
 ### クリエータ
 <p>
-{% for creator_id in pj.creator_ids %}
-  {% include creator.html is_simple=true %}
-{% endfor %}
-<small>(<a href='/projects/{{ pj.year }}'>{{ pj.year }}年度</a> 採択 / {% include link-to-mentor.html id=pj.mentor_id %}PM)</small>
+  {% for creator_id in pj.creator_ids %}
+    {% include creator.html is_simple=true %}
+  {% endfor %}
+  <small>(<a href='/projects/{{ pj.year }}'>{{ pj.year }}年度</a> 採択 / {% include link-to-mentor.html id=pj.mentor_id %}PM)</small>
 </p>
 
 {% if pj.comment %}
