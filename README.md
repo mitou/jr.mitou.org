@@ -1,7 +1,7 @@
 [![Test & Deploy](https://github.com/mitou/jr.mitou.org/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/mitou/jr.mitou.org/actions?query=workflow%3A%22Test+%26+Deploy%22)
 
 # 未踏ジュニア公式Webサイト
-[![Cover Photo of Mitou Junior](https://jr.mitou.org/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
+[![Cover Photo of Mitou Junior](https://raw.githubusercontent.com/mitou/jr.mitou.org/master/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
 
 本リポジトリは未踏ジュニア[公式Webサイト](https://jr.mitou.org/)の公開リポジトリです。   
 本READMEでは、当該Webサイトの更新方法を目的別にまとめています。
