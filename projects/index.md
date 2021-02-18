@@ -29,7 +29,7 @@ title: 採択プロジェクト
      searchInput:          document.getElementById('search-input'),
      resultsContainer:     document.getElementById('search-results'),
      json:                 '/search.json',
-     searchResultTemplate: '<li><img src="{{ site.url}}{icon}" style="border-radius: 4px;" width="50"> <a href="{url}">{title}</a></li>'
+     searchResultTemplate: '<li><img class="lazyload" data-src="{{ site.url}}{icon}" style="border-radius: 4px;" width="50" loading="lazy"> <a href="{url}">{title}</a></li>'
    });
   </script>
   <!-- Project Search -->
