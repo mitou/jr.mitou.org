@@ -3,7 +3,8 @@ layout: post
 title: 未踏ジュニアとは
 ---
 
-未踏ジュニアへようこそ！本ページでは初めての方を対象としたコンテンツをまとめています <i class="fas fa-tv green" aria-hidden="true"> ✨
+<p style='margin: 50px auto;'><b>未踏ジュニアへようこそ!</b> <i class="far fa-laugh-squint" aria-hidden="true"></i> 本ページでは初めての方を対象としたコンテンツをまとめてい
+ます <i class="fas fa-tv green" aria-hidden="true"></i> ✨</p>
 
 <div class="youtube">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/-k02KUAjybc?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -14,7 +15,7 @@ title: 未踏ジュニアとは
 ## 未踏ジュニアとは？
 独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を支援するプログラムです。
 
-[未踏事業](https://www.ipa.go.jp/jinzai/mitou/outline.html)という、経産省所管の独立行政法人情報処理推進機構が主催し実施している、優秀な25歳以下の若者を支援するプログラムがあります。そして、そのOB・OGがボランティアで運営しているのが、**未踏ジュニア** です。
+[未踏事業](https://www.ipa.go.jp/jinzai/mitou/outline.html)という、経産省所管の独立行政法人情報処理推進機構が主催している、優秀な25歳以下の若者を支援するプログラムがあります。そして、そのOB・OGがボランティアで運営しているのが、**未踏ジュニア**です。
 
 <a href="https://www.ipa.go.jp/jinzai/mitou/outline.html" class="button" target="_blank">未踏事業について</a>
 
@@ -40,6 +41,6 @@ title: 未踏ジュニアとは
 [一般社団法人未踏](https://www.mitou.org/)という、[未踏事業](https://www.ipa.go.jp/jinzai/mitou/portal_index.html)の卒業生を中心とした団体が運営をしています。未踏ジュニアは、その中のプログラミング教育研究会というグループで取り組んでいる事業となっています。
 
 ### 未踏関係者インタビュー
-未踏関係者に『**なんで未踏?**』という質問をしてみました。未踏について一歩深く知るキッカケになれば嬉しいです <i class="far fa-laugh-squint" aria-hidden="true"> <i class="far fa-thumbs-up" aria-hidden="true">
+未踏関係者に『**なんで未踏?**』という質問をしてみました。未踏について一歩深く知るキッカケになれば嬉しいです <i class="far fa-laugh-squint" aria-hidden="true"> <i class="far fa-thumbs-up" aria-hidden="true" />
 <div class="youtube"><iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg&disable_polymer=true" class="button">YouTubeで視聴する</a>
