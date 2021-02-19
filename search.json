@@ -8,8 +8,8 @@ layout: null
   {
     "title"       : "{{ pj.title | escape }}",
     "description" : {{ pj.description | jsonify }},
-    "icon"        : "{{ pj.thumbnail }}",
-    "url"         : "{{ site.url }}{{ pj.permalink }}"
+    "thumbnail"   : "{{ pj.thumbnail }}",
+    "permalink"   : "{{ site.url }}{{ pj.permalink }}"
   } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
