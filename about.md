@@ -3,10 +3,10 @@ layout: post
 title: 未踏ジュニアとは
 ---
 
-未踏ジュニアのオンライン説明会の動画です。もしよかったら見てみてください↓
+未踏ジュニアの説明動画まとめです。初めての方にぜひ！<i class="fas fa-tv green" aria-hidden="true"> ✨
 
 <div class="youtube">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/jFFh5u_RT6Y?list=PLNObH2jlC6lfWtf0KY5ny10AmEvBn7rFi" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-k02KUAjybc?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfWtf0KY5ny10AmEvBn7rFi" class="button">YouTubeで視聴する</a>
