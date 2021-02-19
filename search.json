@@ -4,7 +4,7 @@ layout: null
 
 [
   {% assign projects = site.posts %}
-  {% for pj in projects %}
+  {% for pj in projects reversed %}
   {
     "title"       : "{{ pj.title | escape }}",
     "description" : {{ pj.description | jsonify }},
