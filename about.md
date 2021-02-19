@@ -3,7 +3,7 @@ layout: post
 title: 未踏ジュニアとは
 ---
 
-<p style='margin: 50px auto;'><b>未踏ジュニアへようこそ!</b> <i class="far fa-laugh-squint" aria-hidden="true"></i> 本ページでは初めての方を対象としたコンテンツをまとめてい
+<p style='margin: 50px auto;'><b>未踏ジュニアへようこそ!</b> 本ページでは初めての方を対象としたコンテンツをまとめてい
 ます <i class="fas fa-tv green" aria-hidden="true"></i> ✨</p>
 
 <div class="youtube">
