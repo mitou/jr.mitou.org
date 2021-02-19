@@ -3,13 +3,13 @@ layout: post
 title: 未踏ジュニアとは
 ---
 
-未踏ジュニアの説明動画まとめです。初めての方にぜひ！<i class="fas fa-tv green" aria-hidden="true"> ✨
+未踏ジュニアへようこそ！本ページでは初めての方を対象としたコンテンツをまとめています。<i class="fas fa-tv green" aria-hidden="true"> ✨
 
 <div class="youtube">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/-k02KUAjybc?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfWtf0KY5ny10AmEvBn7rFi" class="button">YouTubeで視聴する</a>
+<a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTubeで視聴する</a>
 
 ## 未踏ジュニアとは？
 独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を支援するプログラムです。
