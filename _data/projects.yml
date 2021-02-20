@@ -189,6 +189,7 @@
   thumbnail: amoyo.png
   youtube: irYt3B7l8yg
   year: 2019
+  link: https://amo-yotakenoko.github.io/portfolio/amo-yo.html
 
 - id: det_exploit
   title: DetExploit - Windows用OSS脆弱性スキャナー
