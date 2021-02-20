@@ -503,14 +503,14 @@
   youtube: 7o0_Q_nBGi4
   year: 2017
 
-- id: guardian_photo_stand
+- id: savacs
   title: 見守りフォトスタンド
   creator_ids:
     - yano_rei
   mentor_id: yonetsuji_taizan
   description: 老人宅の玄関に、見守り装置を設置し、介護者から見守れるようにするシステム。見守り装置は、カメラ及び各種センサを装備し、サーバーを介してWeb経由で介護者が随時様子を知ることができる。
   comment: 祖父を見守りたいというモチベーションで、マイコンを用いてセンサやカメラデータを取得し、サーバサイドでデータベース化およびグラフ化、さらに機械学習を用いた取得画像の分類を行った。 電子工作、サーバ、クライアントと非常に広範な開発をこなす高い技術力を評価して採択。期待以上のエンジニアリング能力を発揮してくれた。これからもその開発力を色々な所で活かして貰いたい。
-  thumbnail: guardian_photo_stand.png
+  thumbnail: savacs.png
   youtube: lOrb8nH85qo
   year: 2017
   link: https://blog.yr32.net/post/savacs/
