@@ -21,14 +21,9 @@ title: ダウンロード
 
 <p class="text-center">提案書の準備ができたら応募フォームへ! <i class="fad fa-mailbox green"></i></p>
 
-<p class="text-center">
-  <small>
-    <b>
-      2021年度の応募は3月上旬から受付予定です <i class="fad fa-construction green"></i><br>
-      応募フォーム公開まで、今しばらくお待ち下さい。
-    </b>
-  </small>
-</p>
+<div class="wip">
+  <b>2021年度の応募フォームを現在準備中です。3月上旬に公開予定なので、今しばらくお待ち下さい。</b>
+</div>
 
 <a href="/guideline" class="button">応募の流れを確認する</a>
 

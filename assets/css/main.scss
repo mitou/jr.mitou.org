@@ -494,6 +494,22 @@ footer{
     margin-right: 12px;
   }
 }
+.wip{
+  border: dotted 5px $main-color;
+  border-radius: 8px;
+  padding: 16px;
+  &::before{
+    border-right: solid 4px $main-color;
+    content: '\f85e';
+    color: $main-color;
+    font-family: "Font Awesome 5 Pro";
+    font-size: 16px;
+    height: 100%;
+    padding-right: 16px;
+    margin-right: 12px;
+  }
+}
+
 .top-img{
   width: 100%;
 }
