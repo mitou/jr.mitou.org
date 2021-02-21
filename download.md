@@ -19,12 +19,12 @@ title: ダウンロード
 
 ## 準備できた? {#ready}
 
-<p class="text-center">提案書の準備ができたら応募フォームへ! 😆</p>
+<p class="text-center">提案書の準備ができたら応募フォームへ! <i class="fad fa-mailbox green"></i></p>
 
 <p class="text-center">
   <small>
     <b>
-    ※ 2021年度の応募は3月上旬から受け付ける予定です。 🙇‍<br>
+      2021年度の応募は3月上旬から受付予定です <i class="fad fa-construction green"></i><br>
       応募フォーム公開まで、今しばらくお待ち下さい。
     </b>
   </small>
