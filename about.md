@@ -3,8 +3,7 @@ layout: post
 title: 未踏ジュニアとは
 ---
 
-<p style='margin: 50px auto;'><b>未踏ジュニアへようこそ!</b> 本ページでは初めての方を対象としたコンテンツをまとめてい
-ます <i class="fas fa-tv green" aria-hidden="true"></i> ✨</p>
+<p style='margin: 50px auto;'><b>未踏ジュニアへようこそ!</b> 本ページでは初めての方を対象としたコンテンツをまとめています <i class="fas fa-tv green" aria-hidden="true"></i> ✨</p>
 
 <div class="youtube">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/-k02KUAjybc?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
