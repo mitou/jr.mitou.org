@@ -69,7 +69,7 @@
   name:
     last: 名字。例：安川
     first: 名前。例: 要平
-  img: `/assets/img/mentors/` 以下に置いたプロフィール画像のファイル名。例: yasukawa.png
+  img: `/assets/img/mentors/` に置いたプロフィール画像のファイル名。例: yasukawa.png
   affiliation: 所属。例：YassLab 株式会社, 一般社団法人 CoderDojo Japan
   interested: こんな提案をお待ちしております。例：スクリプト言語やWebの特長を活かした…（略）
   bio: 略歴。aタグも使えるよ！例：<a href="https://yasslab.jp/">YassLab</a> 代表取締役…（略）
