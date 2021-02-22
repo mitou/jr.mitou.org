@@ -45,7 +45,7 @@ layout: default
   <h2 class="heading-line"><i class="far fa-newspaper green"></i> メディア掲載</h2>
   <ul class="list-none media-list">
     {% for medium in site.data.media limit:5 %}
-    <li><span class="media-pc-date pc-inline-b">{{ medium.date }}</span><a href="{{ medium.url }}" target="_blank">{{ medium.title }} <span class="ph-inline-b">- {{ medium.date }}</span></a></li>
+    <li><span class="media-pc-date pc-inline-b">{{ medium.date }}</span><a href="{{ medium.url }}" target="_blank" rel="noopener">{{ medium.title }} <span class="ph-inline-b">- {{ medium.date }}</span></a></li>
     {% endfor %}
   </ul>
   <a href="/media" class="button">すべて見る</a>
@@ -89,7 +89,7 @@ layout: default
 <section id="for-creators" class="prospective-creators">
   <h2 class="heading-balloon">応募者向けお役立ち情報</h2>
 
-  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
+  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank" rel="noopener">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/highlights-for-creators.png" alt="Movies for Prospective Creators" width="100%" class="lazyload" loading="lazy"></a>
 
   <p>応募者に役立つ動画を YouTube でまとめました。<br>質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="/q-box">匿名質問箱</a>でも受付中！</p>
