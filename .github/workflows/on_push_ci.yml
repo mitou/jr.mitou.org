@@ -1,10 +1,5 @@
 name: Test & Deploy
-#on: [push]
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: [push, pull_request]
 
 jobs:
   build:
