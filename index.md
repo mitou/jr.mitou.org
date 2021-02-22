@@ -5,7 +5,7 @@ layout: default
 
 <div class="cover-photo">
   <img src="/assets/img/2019_all.min.png" data-src="/assets/img/2019_all.png" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
-  <a href="/guideline" class="dialog ignore-sp">2021年度の応募を3月上旬から受け付けます</a>
+  <a href="/guideline" class="dialog ignore-sp">2021年3月上旬に応募受付を開始します</a>
 </div>
 
 <section id="about">
