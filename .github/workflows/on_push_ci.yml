@@ -50,7 +50,7 @@ jobs:
         bundle exec jekyll doctor
 
     - name: 🆖 Notify results (Failed)
-      if:   ${{ failure() }}
+      if:   github.repository_owner == 'mitou' && failure()
       uses: mahaker/actions-idobata@v1.1.1
       with:
         hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
@@ -62,7 +62,7 @@ jobs:
           </div>
 
     - name: 🆗 Notify results (Success)
-      if:   ${{ success() }}
+      if:   github.repository_owner == 'mitou' && success()
       uses: mahaker/actions-idobata@v1.1.1
       with:
         hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
