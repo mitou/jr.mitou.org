@@ -21,11 +21,6 @@ feed:
 exclude:
   - tasks/
 
-sass:
-  style:     compressed
-  sass_dir:  assets/css
-  sourcemap: always
-
 jekyll-minifier:
   preserve_php: false
   compress_css: true
