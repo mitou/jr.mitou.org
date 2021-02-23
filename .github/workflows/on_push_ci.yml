@@ -6,6 +6,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+    # Test part
     - name: ☑️ Checkout code
       uses: actions/checkout@v2
 
@@ -27,9 +29,22 @@ jobs:
         echo "COMMIT_SHORT_SHA=`git rev-parse --short=8 ${{ github.sha }}`"           >> $GITHUB_ENV
         echo "COMMIT_MESSAGE=`git log --format=%B -n 1 ${{ github.event.after }}`"    >> $GITHUB_ENV
 
-    - name: 🛠 Build & Test
+    - name: 🔨 Build files with optimization
+      uses: limjh16/jekyll-action-ts@v2
+      with:
+        ### Enables caching. Similar to https://github.com/actions/cache.
+        enable_cache: true
+
+        ### Uses prettier https://prettier.io to format jekyll output HTML.
+        format_output: true
+
+        ### Sets prettier options (in JSON) to format output HTML. For example, output tabs over spaces.
+        ### Possible options are outlined in https://prettier.io/docs/en/options.html
+        # prettier_opts: '{ "useTabs": true }'
+
+    - name: 👀 Test files
       run: |
-        bundle exec rake test
+        bundle exec rake test SKIP_BUILD=true
         bundle exec jekyll doctor
 
     - name: 🆖 Notify results (Failed)
@@ -55,3 +70,11 @@ jobs:
           CI build for <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> : <span class='label label-success'>Success</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>GitHub Actions</a>)<br>
           <img src='https://github.com/${{ env.COMMIT_ACTOR_NAME }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ env.COMMIT_ACTOR_NAME }}'>${{ env.COMMIT_ACTOR_NAME }}</a>: ${{ env.COMMIT_MESSAGE }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHORT_SHA }}</a>)
           </div>
+
+    # Deploy part
+    - name: 🚀 Deploy to GitHub Pages (WIP)
+      if:   github.ref == 'refs/heads/master' && job.status == 'success'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir:    ./_site
