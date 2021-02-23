@@ -17,18 +17,20 @@ jobs:
         bundler-cache: true
         #ruby-version: 2.7 # Not necessary if `.ruby-version` is given
 
-    - name: 🧪 Install gems
-      run: |
-        bundle config set with 'test'
-        bundle config set path 'vendor/bundle'
-        bundle install --jobs 4 --retry 3
-
     - name: 👤 Get commit info for notification
       run: |
         echo "COMMIT_ACTOR_NAME=${{ github.actor }}" | awk -F '-preview' '{print $1}' >> $GITHUB_ENV
         echo "COMMIT_SHORT_SHA=`git rev-parse --short=8 ${{ github.sha }}`"           >> $GITHUB_ENV
         echo "COMMIT_MESSAGE=`git log --format=%B -n 1 ${{ github.event.after }}`"    >> $GITHUB_ENV
 
+    # NOTE: jekyll-action-ts below include this step
+    #- name: 🧪 Install gems
+    #  run: |
+    #    bundle config set with 'test'
+    #    bundle config set path 'vendor/bundle'
+    #    bundle install --jobs 4 --retry 3
+
+    # https://github.com/limjh16/jekyll-action-ts
     - name: 🔨 Build files with optimization
       uses: limjh16/jekyll-action-ts@v2
       with:
