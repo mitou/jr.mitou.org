@@ -34,9 +34,9 @@ end
 
 # Enable 'build' to flush cache files via 'clean'
 task build: [:clean] do
-  system 'bundle exec jekyll build'
+  system 'bundle exec jekyll build' unless ENV['SKIP_BUILD'] == 'true'
 end
 
 task :clean do
-  system 'bundle exec jekyll clean'
+  system 'bundle exec jekyll clean' unless ENV['SKIP_BUILD'] == 'true'
 end
