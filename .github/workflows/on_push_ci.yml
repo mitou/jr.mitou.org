@@ -22,31 +22,17 @@ jobs:
         echo "COMMIT_ACTOR_NAME=${{ github.actor }}" | awk -F '-preview' '{print $1}' >> $GITHUB_ENV
         echo "COMMIT_SHORT_SHA=`git rev-parse --short=8 ${{ github.sha }}`"           >> $GITHUB_ENV
 
-    # NOTE: jekyll-action-ts below include this step
-    #- name: 🧪 Install gems
-    #  run: |
-    #    bundle config set with 'test'
-    #    bundle config set path 'vendor/bundle'
-    #    bundle install --jobs 4 --retry 3
-
-    # https://github.com/limjh16/jekyll-action-ts
-    - name: 🔨 Build files with optimization
-      uses: limjh16/jekyll-action-ts@v2
-      with:
-        ### Enables caching. Similar to https://github.com/actions/cache.
-        enable_cache: true
-
-        ### Uses prettier https://prettier.io to format jekyll output HTML.
-        #format_output: true
-
-        ### Sets prettier options (in JSON) to format output HTML. For example, output tabs over spaces.
-        ### Possible options are outlined in https://prettier.io/docs/en/options.html
-        # prettier_opts: '{ "useTabs": true }'
-
-    - name: 👀 Test files
+    - name: 🧪 Install gems
       run: |
-        bundle exec rake test SKIP_BUILD=true
-        bundle exec jekyll doctor
+        bundle config set with 'test'
+        bundle config set path 'vendor/bundle'
+        bundle install --jobs 4 --retry 3
+
+    - name: 🔧 Build & Test
+      run: |
+        JEKYLL_ENV=production bundle exec jekyll build
+        JEKYLL_ENV=production bundle exec jekyll doctor
+        SKIP_BUILD=true       bundle exec rake test
 
     - name: 🆖 Notify results (Failed)
       if:   github.repository_owner == 'mitou' && failure()
