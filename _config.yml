@@ -25,6 +25,8 @@ sass:
   style:     compressed
   sourcemap: always
 
+# See the official README for more options:
+# https://github.com/digitalsparky/jekyll-minifier
 jekyll-minifier:
   preserve_php: false
   compress_css: false  # TODO: Setting 'true' breaks CSS for headings
@@ -34,7 +36,3 @@ jekyll-minifier:
   preserve_line_breaks: false
   simple_boolean_attributes: false
   compress_js_templates: false
-
-  # NOTE: Set true to enable ES6 syntax
-  #uglifier_args:
-  #  harmony: true
