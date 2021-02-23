@@ -21,7 +21,6 @@ jobs:
       run: |
         echo "COMMIT_ACTOR_NAME=${{ github.actor }}" | awk -F '-preview' '{print $1}' >> $GITHUB_ENV
         echo "COMMIT_SHORT_SHA=`git rev-parse --short=8 ${{ github.sha }}`"           >> $GITHUB_ENV
-        echo "COMMIT_MESSAGE=`git log --format=%B -n 1 ${{ github.event.after }}`"    >> $GITHUB_ENV
 
     # NOTE: jekyll-action-ts below include this step
     #- name: 🧪 Install gems
@@ -58,7 +57,7 @@ jobs:
         message: |
           <div>
           CI build for <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> : <span class='label label-danger'>Failure</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>GitHub Actions</a>)<br>
-          <img src='https://github.com/${{ env.COMMIT_ACTOR_NAME }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ env.COMMIT_ACTOR_NAME }}'>${{ env.COMMIT_ACTOR_NAME }}</a>: ${{ env.COMMIT_MESSAGE }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHORT_SHA }}</a>)
+          <img src='https://github.com/${{ env.COMMIT_ACTOR_NAME }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ env.COMMIT_ACTOR_NAME }}'>${{ env.COMMIT_ACTOR_NAME }}</a>: ${{ github.event.head_commit.message }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHORT_SHA }}</a>)
           </div>
 
     - name: 🆗 Notify results (Success)
@@ -70,7 +69,7 @@ jobs:
         message: |
           <div>
           CI build for <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> : <span class='label label-success'>Success</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>GitHub Actions</a>)<br>
-          <img src='https://github.com/${{ env.COMMIT_ACTOR_NAME }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ env.COMMIT_ACTOR_NAME }}'>${{ env.COMMIT_ACTOR_NAME }}</a>: ${{ env.COMMIT_MESSAGE }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHORT_SHA }}</a>)
+          <img src='https://github.com/${{ env.COMMIT_ACTOR_NAME }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ env.COMMIT_ACTOR_NAME }}'>${{ env.COMMIT_ACTOR_NAME }}</a>: ${{ github.event.head_commit.message }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHORT_SHA }}</a>)
           </div>
 
     # Deploy part
