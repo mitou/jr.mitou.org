@@ -57,7 +57,7 @@ title: 統計情報
 <script src="/assets/js/exporting.js"></script>
 -->
 
-<p style="text-align:center; padding: 50px 0px 0px;">
+<p style="padding: 50px 0px 0px;">
   2016年から始まった未踏ジュニアの統計情報です。未踏ジュニアへのスポンサーを検討されている方々にとってご参考になれば幸いです。
 </p>
 
@@ -131,22 +131,22 @@ Highcharts.chart('container', {
 </ul>
 
 {% if stat.year == 2016 %}
-<p>修了したクリエータ数は {{ stat.creators }} 名でした。なお、スーパークリエータ認定制度は2017年度から始まったため、{{ stat.year }}年度のデータはありません。</p>
+修了したクリエータ数は {{ stat.creators }} 名でした。なお、スーパークリエータ認定制度は2017年度から始まったため、{{ stat.year }}年度のデータはありません。
 {% else %}
-<p>修了したクリエータ数は {{ stat.creators }} 名、そのうち {{ stat.spc }} 名をスーパークリエータと認定しました。</p>
+修了したクリエータ数は {{ stat.creators }} 名、そのうち {{ stat.spc }} 名をスーパークリエータと認定しました。
 {% endif %}
 
 {% endfor %}
 
 ## お問い合わせ
 
-<div class='text-center' style="margin-top: 50px;">
-  <p>未踏ジュニア実行委員会では、未踏ジュニアの継続的な活動を支援して頂けるスポンサー様を随時募集しております。</p>
+<div style="margin-top: 50px;">
+  <p>未踏ジュニア実行委員会では、未踏ジュニアの継続的な活動を支援して頂けるスポンサー様を随時募集しております。まずはお気軽にご連絡していただけると幸いです。</p>
 
-  <i class="fas fa-envelope green" style="font-size:36px;"></i><br>
-  <a href="mailto:jr@mitou.org">jr@mitou.org</a>
-
-  <p>まずはお気軽にご連絡していただけると幸いです。</p>
+  <div class='text-center' style='margin-top: 30px;'>
+    <i class="fas fa-envelope green" style="font-size:36px;"></i><br>
+    <a href="mailto:jr@mitou.org">jr@mitou.org</a>
+  </div>
 
   <a href="mailto:jr@mitou.org" class="button">メールを送る</a>
 </div>
