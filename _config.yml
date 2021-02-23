@@ -21,6 +21,10 @@ feed:
 exclude:
   - tasks/
 
+sass:
+  style:     compressed
+  sourcemap: always
+
 jekyll-minifier:
   preserve_php: false
   compress_css: true
