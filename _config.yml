@@ -27,7 +27,7 @@ sass:
 
 jekyll-minifier:
   preserve_php: false
-  compress_css: true
+  compress_css: false  # TODO: Setting 'true' breaks CSS for headings
   compress_javascript: false
   compress_json: true
   simple_doctype: false
