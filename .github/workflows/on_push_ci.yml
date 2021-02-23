@@ -38,7 +38,7 @@ jobs:
         enable_cache: true
 
         ### Uses prettier https://prettier.io to format jekyll output HTML.
-        format_output: true
+        #format_output: true
 
         ### Sets prettier options (in JSON) to format output HTML. For example, output tabs over spaces.
         ### Possible options are outlined in https://prettier.io/docs/en/options.html
