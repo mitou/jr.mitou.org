@@ -6,12 +6,12 @@ gem "liquid-c" # Speedup with C implementation
 gem 'rake'     # Enable Rakefile to run tasks
 
 group :jekyll_plugins do
-  gem 'jekyll-feed', '~> 0.12'
+  gem 'jekyll-feed'
   gem 'jekyll-include-cache'
   gem 'jekyll-sitemap'
   gem 'jekyll-minifier'
-  # gem 'github-pages' # Uncomment this when being compatible with Jekyl 4.0.0+
-  # You can check latest available versions: https://pages.github.com/versions/
+
+  # gem 'github-pages' # No need this. Build by GitHub Actions and serve on Pages.
 end
 
 # Gems to use in Development & CI (GitHub Actions)
