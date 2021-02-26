@@ -3,9 +3,11 @@ layout: post
 title: メンター紹介
 ---
 
-## 2021年度メンター陣
+## メンター紹介・応募者向けメッセージ
 
-<p class="text-center" style="margin-bottom: 50px;">本年度のメンター紹介ページです。</p>
+メンター紹介ページです。メンターごとに採択したいプロジェクトが異なるので、応募時のご参考になれば幸いです。
+
+<br>
 
 <div class="mentors flex">
   {% for mentor in site.data.mentors %}
@@ -29,7 +31,7 @@ title: メンター紹介
         <h4>こんな人・こんな提案を待っています</h4>
         <p>{{ mentor.interested }}</p>
 
-	<h4>これまでの採択プロジェクト</h4>
+	<h4>採択プロジェクト</h4>
 	<ul>
 	  {% assign projects = site.data.projects | where: 'mentor_id', mentor.id %}
 	  {% for pj in projects %}
