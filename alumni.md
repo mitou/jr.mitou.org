@@ -43,9 +43,9 @@ title: Mentor Alumni
 
         <h4>略歴</h4>
         <p>{{ mentor.bio }}</p>
+
+	{% if mentor.youtube %}<a class="button" href="https://www.youtube.com/watch?v={{ mentor.youtube }}&list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" target="_blank" rel="noopener">メッセージ動画を見る</a>{% endif %}
       </div>
     </div>
   {% endfor %}
 </div>
-
-## Mentor Alumni

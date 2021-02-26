@@ -41,6 +41,8 @@ title: メンター紹介
 
         <h4>略歴</h4>
         <p>{{ mentor.bio }}</p>
+
+	{% if mentor.youtube %}<a class="button" href="https://www.youtube.com/watch?v={{ mentor.youtube }}&list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" target="_blank" rel="noopener">メッセージ動画を見る</a>{% endif %}
       </div>
     </div>
   {% endfor %}
@@ -61,6 +63,8 @@ title: メンター紹介
 
     <h5>メッセージ</h5>
     <p>未踏事業は2000年に始まってから、どんどん若い人たちを対象にするようにシフトしてきました。ITはもう大人の独占物ではありません。超若いうちからITのセンスを見出して伸ばすことが大事だと思います。そのためには大人と同じ土俵ではなく、むしろ未踏ジュニアというような枠組みの中で伸び伸びと羽を広げていけるようにするのが、ジュニア世代の本当の成長につながると思います。未踏ジュニアでは、ジュニア世代が「教わる」のではなく、良い環境の中でITの才能を自ら発芽・成長させていくことを期待しています。</p>
+
+    <a class="button" href="https://www.youtube.com/watch?v=SSsyV9O__GU&list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" target="_blank" rel="noopener">メッセージ動画を見る</a>
   </div>
 </div>
 
