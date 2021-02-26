@@ -1,0 +1,468 @@
+{%- comment -%}
+
+  The MIT License (MIT)
+
+  Copyright (c) Aleksandr Meniailo (deorathemen@gmail.com), Mendeo 2020
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+{%- endcomment -%}
+
+{%- assign replaceNames = true -%}
+
+{%- if page.replace_names == false -%}
+  {%- assign replaceNames = false -%}
+{%- endif -%}
+
+{%- comment -%} Removing single line comments {%- endcomment -%}
+{%- assign contentArray = content | split: "
+" -%}
+{%- assign content = "" -%}
+{%- for part in contentArray -%}
+  {%- assign lastSimbol = "
+  " -%}
+  {%- if forloop.last -%}
+    {%- assign lastSimbol = "" -%}
+  {%- endif -%}
+  {%- assign aux = part | remove: "://" | split: "//" -%}
+  {%- if aux.size == 2 -%}
+    {%- assign aux = aux[1] | prepend: "//" -%}
+    {%- assign aux = part | remove: aux -%}
+    {%- assign content = content | append: aux | append: lastSimbol -%}
+  {%- else -%}
+    {%- assign content = content | append: part | append: lastSimbol -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} Removing multiline comments {%- endcomment -%}
+{%- assign new_comment_tag = "2e57la4G82XMQr9K" -%}
+{%- assign content = content | replace: "/*", new_comment_tag | replace: "*/", new_comment_tag -%}
+{%- assign contentArray = content | split: new_comment_tag -%}
+{%- assign content = "" -%}
+{%- for part in contentArray -%}
+  {%- assign mod = forloop.index | modulo: 2 -%}
+  {%- if mod != 0 -%}
+    {%- assign content = content | append: part -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} Handling escaped characters for strings in JS {%- endcomment -%}
+{%- assign strMasks = "dWf4Ay83kQ34n8r0 EM9145U330jDswtN G414z30q4068XB00" | split: " " -%}
+{%- assign content = content | replace: "\'", strMasks[0] -%}
+{%- assign content = content | replace: '\"', strMasks[1] -%}
+{%- assign content = content | replace: "\`", strMasks[2] -%}
+
+{%- comment -%} Mark areas of code with lines {%- endcomment -%}
+{%- assign marker = "2e57la4G82XMQr9K" -%}
+{%- assign aux = marker | append: '"' -%}
+{%- assign content = content | replace: '"', aux -%}
+{%- assign aux = marker | append: "'" -%}
+{%- assign content = content | replace: "'", aux -%}
+{%- assign aux = marker | append: "`" -%}
+{%- assign content = content | replace: "`", aux -%}
+{%- assign contentArray = content | split: marker -%}
+{%- assign content = "" -%}
+{%- assign simbols = "= + - / * , % > < : ; ( ) { } [ ] | & ! ?" | split: " " -%}
+
+{%- comment -%} Remove spaces around these characters {%- endcomment -%}
+{%- for part in contentArray -%}
+  {%- assign mod = forloop.index | modulo: 2 -%}
+  {%- if mod == 1 -%} {%- comment -%} We went out of line {%- endcomment -%}
+    {%- comment -%} Remove tabs and line breaks {%- endcomment -%}
+    {%- assign partModified = part | remove: "	" | remove: "
+    "-%}
+    {%- comment -%} Remove double spaces {%- endcomment -%}
+    {%- assign partModified_size = partModified | size -%}
+    {%- for i in (1 .. 100) -%}
+      {%- assign partModified = partModified | remove: "  " -%}
+      {%- if partModified.size == partModified_size -%}
+	{%- break -%}
+      {%- else -%}
+	{%- assign partModified_size = partModified | size -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- comment -%} Remove spaces around characters from simbols {%- endcomment -%}
+    {%- for simbol in simbols -%}
+      {%- assign aux = simbol | append: " " -%}
+      {%- assign partModified = partModified | replace: aux, simbol -%}
+      {%- assign aux = simbol | prepend: " " -%}
+      {%- assign partModified = partModified | replace: aux, simbol -%}
+    {%- endfor -%}
+    {%- assign content = content | append: partModified -%}
+  {%- else -%} {%- comment -%} We entered the line {%- endcomment -%}
+    {%- assign content = content | append: part -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} Working with string expressions like $ {...} {%- endcomment -%}
+{%- assign contentArray = content | split: "`" -%}
+{%- assign content = "" -%}
+{%- for part in contentArray -%}
+  {%- assign mod = forloop.index | modulo: 2 -%}
+  {%- if mod == 0 -%} {%- comment -%} We entered the line {%- endcomment -%}
+    {%- assign strExpArray = part | split: "${" -%}
+    {%- if strExpArray.size <= 1 -%} {%- comment -%} There are no expressions like $ {...} in the string
+ {%- endcomment -%}
+      {%- assign partModified = part | append: "`" | prepend: "`" -%}
+      {%- assign content = content | append: partModified -%}
+    {%- else -%}
+      {%- assign partModified = "" -%}
+      {%- for strExpPart in strExpArray -%}
+	{%- if forloop.first -%}
+	  {%- assign partModified = partModified | append: strExpPart -%}
+	{%- else -%}
+	  {%- assign aux = strExpPart | split: "}" -%}
+	  {%- assign expModified = aux[0] -%}
+	  {%- assign expModified = expModified | append: "}" -%}
+	  {%- assign endPart = strExpPart | remove: expModified -%}
+	  {%- comment -%} Expressed the string expression $ {...} into the expModified variable {%- endcomment -%}
+	  {%- assign expModified = expModified | prepend: "${" -%}
+	  {%- comment -%} Remove double spaces in a string expression {%- endcomment -%}
+	  {%- assign expModified_size = expModified | size -%}
+	  {%- for i in (1 .. 100) -%}
+	    {%- assign expModified = expModified | remove: "  " -%}
+	    {%- if expModified.size == expModified_size -%}
+	      {%- break -%}
+	    {%- else -%}
+	      {%- assign expModified_size = expModified | size -%}
+	    {%- endif -%}
+	  {%- endfor -%}
+	  {%- comment -%} Remove spaces around characters from simbols in string expression {%- endcomment -%}
+	  {%- for simbol in simbols-%}
+	    {%- assign aux = simbol | append: " " -%}
+	    {%- assign expModified = expModified | replace: aux, simbol -%}
+	    {%- assign aux = simbol | prepend: " " -%}
+	    {%- assign expModified = expModified | replace: aux, simbol -%}
+	  {%- endfor -%}
+	  {%- assign partModified = partModified | append: expModified | append: endPart -%}
+	{%- endif -%}
+      {%- endfor -%}
+      {%- assign partModified = partModified | append: "`" | prepend: "`" -%}
+      {%- assign content = content | append: partModified -%}
+    {%- endif -%}
+  {%- else -%}
+    {%- assign content = content | append: part -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} Beginning the name replacement block {%- endcomment -%}
+{%- if replaceNames == true -%}
+  {%- comment -%} Finding variable and function names {%- endcomment -%}
+  {%- assign forNamesArray = content | split: "function" -%}
+  {%- assign js_function = "" | split: " " -%}
+  {%- for forNamesPart in forNamesArray offset: 1 -%}
+    {%- assign aux = forNamesPart | slice: 0, 1 -%}
+    {%- if aux != "(" -%}
+      {%- assign name = forNamesPart | replace: "(", " " | truncatewords: 1, "" | append: "2e57la4G82XMQr9K" | split: "2e57la4G82XMQr9K" -%}
+      {%- assign aux = name[0]-%}
+      {%- assign name_size = aux | size -%}
+      {%- assign aux = aux | remove: "'" -%}
+      {%- assign aux = aux | remove: "`" -%}
+      {%- assign aux = aux | remove: '"' -%}
+      {%- assign aux = aux | size -%}
+      {%- if aux == name_size -%}
+	{%- assign js_function = js_function | concat: name -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- assign forNamesArray = content | split: "let" -%}
+  {%- assign js_let = "" | split: " " -%}
+  {%- for forNamesPart in forNamesArray offset: 1 -%}
+    {%- assign aux = forNamesPart | slice: 0, 1 -%}
+    {%- if aux == " " -%}
+      {%- assign name = forNamesPart | replace: "=", " " | replace: ";", " " | truncatewords: 1, "" | append: "2e57la4G82XMQr9K" | split: "2e57la4G82XMQr9K" -%}
+      {%- assign aux = name[0]-%}
+      {%- assign name_size = aux | size -%}
+      {%- assign aux = aux | remove: "'" -%}
+      {%- assign aux = aux | remove: "`" -%}
+      {%- assign aux = aux | remove: '"' -%}
+      {%- assign aux = aux | size -%}
+      {%- if aux == name_size -%}
+	{%- assign js_let = js_let | concat: name -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- assign forNamesArray = content | split: "const" -%}
+  {%- assign js_const = "" | split: " " -%}
+  {%- for forNamesPart in forNamesArray offset: 1 -%}
+    {%- assign aux = forNamesPart | slice: 0, 1 -%}
+    {%- if aux == " " -%}
+      {%- assign name = forNamesPart | replace: "=", " " | replace: ";", " " | truncatewords: 1, "" | append: "2e57la4G82XMQr9K" | split: "2e57la4G82XMQr9K" -%}
+      {%- assign aux = name[0]-%}
+      {%- assign name_size = aux | size -%}
+      {%- assign aux = aux | remove: "'" -%}
+      {%- assign aux = aux | remove: "`" -%}
+      {%- assign aux = aux | remove: '"' -%}
+      {%- assign aux = aux | size -%}
+      {%- if aux == name_size -%}
+	{%- assign js_const = js_const | concat: name -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- assign forNamesArray = content | split: "var" -%}
+  {%- assign js_var = "" | split: " " -%}
+  {%- for forNamesPart in forNamesArray offset: 1 -%}
+    {%- assign aux = forNamesPart | slice: 0, 1 -%}
+    {%- if aux == " " -%}
+      {%- assign name = forNamesPart | replace: "=", " " | replace: ";", " " | truncatewords: 1, "" | append: "2e57la4G82XMQr9K" | split: "2e57la4G82XMQr9K" -%}
+      {%- assign aux = name[0]-%}
+      {%- assign name_size = aux | size -%}
+      {%- assign aux = aux | remove: "'" -%}
+      {%- assign aux = aux | remove: "`" -%}
+      {%- assign aux = aux | remove: '"' -%}
+      {%- assign aux = aux | size -%}
+      {%- if aux == name_size -%}
+	{%- assign js_var = js_var | concat: name -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- comment -%} Finding Parameters of Regular Functions {%- endcomment -%}
+  {%- assign js_function_params = "" | split: " " -%}
+  {%- assign forNamesArray = content | split: "function" -%}
+  {%- for forNamesPart in forNamesArray offset: 1 -%}
+    {%- assign aux = forNamesPart | split: "(" -%}
+    {%- assign aux = aux[1] -%}
+    {%- assign aux = aux | split: ")" -%}
+    {%- assign aux = aux[0] | split: "," -%}
+    {%- assign js_function_params = js_function_params | concat: aux -%}
+  {%- endfor -%}
+
+  {%- comment -%} Finding Arrow Function Parameters {%- endcomment -%}
+  {%- assign js_arrow_params = "" | split: " " -%}
+  {%- assign forNamesArray = content | split: "=>" -%}
+  {%- for forNamesPart in forNamesArray -%}
+    {%- if forloop.last != true -%}
+      {%- assign aux = forNamesPart | split: "(" -%}
+      {%- assign aux = aux.last -%}
+      {%- assign aux = aux | split: ")" -%}
+      {%- assign aux = aux.first -%}
+      {%- assign aux = aux | split: "," -%}
+      {%- assign js_arrow_params = js_arrow_params | concat: aux -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- assign js_keys = js_function | concat: js_let | concat: js_const | concat: js_var | concat: js_function_params | concat: js_arrow_params | uniq -%}
+
+  {%- comment -%}
+    Sort names by size (length) to exclude cases
+    where the existing name contains part of another shorter name
+  {%- endcomment -%}
+  {%- assign js_keys_sorted = "" | split: " " -%}
+
+  {%- assign name_sizes = "" -%}
+  {%- for name in js_keys -%}
+    {%- assign name_sizes = name_sizes | append: name.size -%}
+    {%- if forloop.last != true -%}
+      {%- assign name_sizes = name_sizes | append: " " -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign name_sizes = name_sizes | split: " " | uniq -%}
+  {%- comment -%} Add zeros to numbers for sorting {%- endcomment -%}
+  {%- assign name_sizes_numbers = "" | split: " " -%}
+  {%- for size in name_sizes -%}
+    {%- assign new_size = size -%}
+    {%- for i in (1 .. 3) -%}
+      {%- if new_size.size < 3 -%}
+	{%- assign new_size = new_size | prepend: "0" -%}
+      {%- else -%}
+	{%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- assign new_size = new_size | split: " " -%}
+    {%- assign name_sizes_numbers = name_sizes_numbers | concat: new_size -%}
+  {%- endfor -%}
+  {%- assign name_sizes = name_sizes_numbers | sort -%}
+
+  {%- for size in name_sizes -%}
+    {%- assign size_number = size | plus: 0 -%} {%- comment -%} String to number {%- endcomment -%}
+    {%- for name in js_keys -%}
+      {%- if name.size == size_number -%}
+	{%- assign name_to_array = name | split: " " -%}
+	{%- assign js_keys_sorted = js_keys_sorted | concat: name_to_array -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+
+  {%- assign js_keys = js_keys_sorted | reverse -%}
+  {%- assign alphabet = "a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" | split: " " -%}
+  {%- assign otherValidJsSimbols = "0 1 2 3 4 5 6 7 8 9 _ $" | split: " " -%}
+  {%- assign fullAlphabet = alphabet | concat: otherValidJsSimbols -%}
+  {%- assign newNamesIndex = 0 -%}
+  {%- assign newNamesIndex1 = -1 -%}
+  {%- assign newNamesIndex2 = -1 -%}
+  {%- assign newNamesIndexStr = "~!0#@-1#@-1!~" -%}
+
+  {%- for name in js_keys -%} {%- comment -%} Replacing non-string expressions. {%- endcomment -%}
+    {%- comment -%} We mark areas of code with lines. {%- endcomment -%}
+    {%- assign marker = "2e57la4G82XMQr9K" -%}
+    {%- assign aux = marker | append: '"' -%}
+    {%- assign content = content | replace: '"', aux -%}
+    {%- assign aux = marker | append: "'" -%}
+    {%- assign content = content | replace: "'", aux -%}
+    {%- assign aux = marker | append: "`" -%}
+    {%- assign content = content | replace: "`", aux -%}
+    {%- comment -%} Breaking down into lines and not lines {%- endcomment -%}
+    {%- assign contentArray = content | split: marker -%}
+    {%- assign content = "" -%}
+    {%- for part in contentArray -%}
+      {%- assign mod = forloop.index | modulo: 2 -%}
+      {%- if mod == 1 -%} {%- comment -%} Not a string {%- endcomment -%}
+	{%- assign varArray = part | split: name -%}
+	{%- assign partModified = "" -%}
+	{%- for var in varArray -%}
+	  {%- comment -%} Look at the symbol on the left and right {%- endcomment-%}
+	  {%- if forloop.last != true -%}
+	    {%- assign index_next = forloop.index0 | plus: 1-%}
+	    {%- assign var_next = varArray[index_next] -%}
+	    {%- assign ls = var | slice: -1, 1 -%}
+	    {%- assign rs = var_next | slice: 0, 1 -%}
+	    {%- assign flag = false -%}
+	    {%- if ls == "." or rs == ":" -%}
+	      {%- assign flag = true -%}
+	    {%- else -%}
+	      {%- for ab in fullAlphabet -%}
+		{%- if ls == ab or rs == ab -%}
+		  {%- assign flag = true -%}
+		  {%- break -%}
+		{%- endif -%}
+	      {%- endfor -%}
+	    {%- endif -%}
+	    {%- if flag == true -%}
+	      {%- assign partModified = partModified | append: var | append: name -%}
+	    {%- else -%}
+	      {%- assign partModified = partModified | append: var | append: newNamesIndexStr -%}
+	    {%- endif -%}
+	  {%- endif -%}
+	{%- endfor -%}
+	{%- assign partModified = partModified | append: varArray.last -%}
+	{%- assign content = content | append: partModified -%}
+      {%- else -%} {%- comment -%} Line {%- endcomment -%}
+	{%- assign content = content | append: part -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- comment -%} Replacing string expressions $ {...} {%- endcomment -%}
+    {%- assign contentArray = content | split: "`" -%}
+    {%- assign content = "" -%}
+    {%- for part in contentArray -%}
+      {%- assign mod = forloop.index | modulo: 2 -%}
+      {%- if mod == 0 -%} {%- comment -%} We entered the line {%- endcomment -%}
+	{%- assign strExpArray = part | split: "${" -%}
+	{%- if strExpArray.size <= 1 -%} {%- comment -%} There are no expressions like $ {...} in the string {%- endcomment -%}
+	  {%- assign partModified = part | append: "`" | prepend: "`" -%}
+	  {%- assign content = content | append: partModified -%}
+	{%- else -%}
+	  {%- assign partModified = "" -%}
+	  {%- for strExpPart in strExpArray -%}
+	    {%- if forloop.first -%}
+	      {%- assign partModified = partModified | append: strExpPart -%}
+	    {%- else -%}
+	      {%- assign aux = strExpPart | split: "}" -%}
+	      {%- assign expModified = aux[0] -%}
+	      {%- assign expModified = expModified | append: "}" -%}
+	      {%- assign endPart = strExpPart | remove: expModified -%}
+	      {%- assign expModified = expModified | prepend: "${" -%}
+	      {%- comment -%} Expressed the string expression $ {...} into the expModified variable {%- endcomment -%}
+	      {%- assign varArray = expModified | split: name -%}
+	      {%- assign expModified = "" -%}
+	      {%- for var in varArray -%}
+		{%- comment -%} Look at the symbol on the left {%- endcomment-%}
+		{%- if forloop.last != true -%}
+		  {%- assign index_next = forloop.index0 | plus: 1-%}
+		  {%- assign var_next = varArray[index_next] -%}
+		  {%- assign ls = var | slice: -1, 1 -%}
+		  {%- assign rs = var_next | slice: 0, 1 -%}
+		  {%- assign flag = false -%}
+		  {%- if ls == "." or rs == ":" -%}
+		    {%- assign flag = true -%}
+		  {%- else -%}
+		    {%- for ab in fullAlphabet -%}
+		      {%- if ls == ab or rs == ab -%}
+			{%- assign flag = true -%}
+			{%- break -%}
+		      {%- endif -%}
+		    {%- endfor -%}
+		  {%- endif -%}
+		  {%- if flag == true -%}
+		    {%- assign expModified = expModified | append: var | append: name -%}
+		  {%- else -%}
+		    {%- assign expModified = expModified | append: var | append: newNamesIndexStr -%}
+		  {%- endif -%}
+		{%- endif -%}
+	    {%- else -%}
+		{%- assign expModified = expModified | append: newNamesIndexStr -%}
+	      {%- endfor -%}
+	      {%- assign expModified = expModified | append: varArray.last -%}
+	      {%- assign partModified = partModified | append: expModified | append: endPart -%}
+	    {%- endif -%}
+	  {%- endfor -%}
+	  {%- assign partModified = partModified | append: "`" | prepend: "`" -%}
+	  {%- assign content = content | append: partModified -%}
+	{%- endif -%}
+      {%- else -%}
+	{%- assign content = content | append: part -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- comment -%} Putting together a new name. It can be maximum three-letter (140608 options) {%- endcomment -%}
+    {%- assign newNamesIndex = newNamesIndex | plus: 1 -%}
+    {%- if newNamesIndex == alphabet.size -%}
+      {%- assign newNamesIndex1 = newNamesIndex1 | plus: 1 -%}
+      {%- assign newNamesIndex = 0 -%}
+      {%- if newNamesIndex1 == alphabet.size -%}
+	{%- assign newNamesIndex2 = newNamesIndex2 | plus: 1 -%}
+	{%- assign newNamesIndex1 = 0 -%}
+      {%- endif -%}
+    {%- endif -%}
+    {%- assign newNamesIndexStr = "~!" | append: newNamesIndex | append: "#@" | append: newNamesIndex1 | append: "#@" | append: newNamesIndex2 | append: "!~" -%}
+  {%- endfor -%}
+  {%- assign newNamesIndex = 0 -%}
+  {%- assign newNamesIndex1 = -1 -%}
+  {%- assign newNamesIndex2 = -1 -%}
+  {%- for name in js_keys -%}
+    {%- if newNamesIndex == alphabet.size -%}
+      {%- assign newNamesIndex1 = newNamesIndex1 | plus: 1 -%}
+      {%- assign newNamesIndex = 0 -%}
+      {%- if newNamesIndex1 == alphabet.size -%}
+	{%- assign newNamesIndex2 = newNamesIndex2 | plus: 1 -%}
+	{%- assign newNamesIndex1 = 0 -%}
+      {%- endif -%}
+    {%- endif -%}
+    {%- assign newNamesIndexStr = "~!" | append: newNamesIndex | append: "#@" | append: newNamesIndex1 | append: "#@" | append: newNamesIndex2 | append: "!~" -%}
+
+    {%- assign newName = alphabet[newNamesIndex] -%}
+    {%- if newNamesIndex1 >= 0 -%}
+      {%- assign newName = newName | prepend: alphabet[newNamesIndex1] -%}
+      {%- if newNamesIndex2 >= 0 -%}
+	{%- assign newName = newName | prepend: alphabet[newNamesIndex2] -%}
+      {%- endif -%}
+    {%- endif -%}
+    {%- assign content = content | replace: newNamesIndexStr, newName -%}
+    {%- assign newNamesIndex = newNamesIndex | plus: 1 -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- assign content = content | replace: strMasks[0], "'" -%}
+{%- assign content = content | replace: strMasks[1], '"' -%}
+{%- assign content = content | replace: strMasks[2], "`" -%}
+
+{{ content }}
