@@ -5,9 +5,10 @@ title: Mentor Alumni
 
 ## Mentor Alumni
 
-<br>
 
-過去に未踏ジュニア PM をしていただいた方々です。当時の情報をそのままに残しております。これまでご協力していただきありがとうございました!
+未踏ジュニアのメンターとして貢献していただいた方々です。当時の情報をそのままに残しております。ご協力していただきありがとうございました! 🙏✨
+
+<br>
 
 <div class="mentors flex">
   {% for mentor in site.data.mentors %}
@@ -49,3 +50,5 @@ title: Mentor Alumni
     </div>
   {% endfor %}
 </div>
+
+<a class="button" href='/mentors'>現役のメンターを見る</a>

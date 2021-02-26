@@ -3,9 +3,9 @@ layout: post
 title: メンター紹介
 ---
 
-## 2020年度メンター陣
+## 2021年度メンター陣
 
-<p class="text-center" style="margin-bottom: 50px;">メンター紹介ページです。過去のメンターは<a href="/alumni">コチラ</a>。</p>
+<p class="text-center" style="margin-bottom: 50px;">本年度のメンター紹介ページです。</p>
 
 <div class="mentors flex">
   {% for mentor in site.data.mentors %}
@@ -104,4 +104,6 @@ title: メンター紹介
       <p>メンターも兼任しています。詳細は<a href="/mentors#ukai_yuu">メンター欄</a>を参照。</p>
     </div>
   </div>
+
+  <a class="button" href='/alumni'>過去のメンターを見る</a>
 </div>
