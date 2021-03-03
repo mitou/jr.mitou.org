@@ -21,7 +21,6 @@ jobs:
       run: |
         echo "COMMIT_ACTOR=${{ github.actor }}" | awk -F '-preview' '{print $1}' >> $GITHUB_ENV
         echo "COMMIT_SHORT_SHA=$(git rev-parse --short=8 ${{ github.sha }})"     >> $GITHUB_ENV
-        echo "COMMIT_AUTHOR=$(git show -s --format=":%an" | cut -d ':' -f 2)     >> $GITHUB_ENV
 
     - name: 🧪 Install gems
       run: |
@@ -66,7 +65,7 @@ jobs:
         bundle exec rake upsert_project_pages_by_data
         if [ -n "$(git status --porcelain)" ]; then
           if ( ruby -ryaml -e "p YAML.load(STDIN.read)" < _data/projects.yml > /dev/null ); then
-            git config user.name  "${{ env.COMMIT_AUTHOR }}"
+            git config user.name  "${{ github.event.head_commit.author.name }}"
             git config user.email "${{ env.COMMIT_ACTOR }}@users.noreply.github.com"
             git remote set-url origin https://github-actions:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
             git checkout master
