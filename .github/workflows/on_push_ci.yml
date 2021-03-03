@@ -21,6 +21,7 @@ jobs:
       run: |
         echo "COMMIT_ACTOR=${{ github.actor }}" | awk -F '-preview' '{print $1}' >> $GITHUB_ENV
         echo "COMMIT_SHORT_SHA=$(git rev-parse --short=8 ${{ github.sha }})"     >> $GITHUB_ENV
+        echo "COMMIT_AUTHOR=$(git show -s --format=":%an" | cut -d ':' -f 2)     >> $GITHUB_ENV
 
     - name: 🧪 Install gems
       run: |
