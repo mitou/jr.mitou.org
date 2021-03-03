@@ -67,7 +67,7 @@ jobs:
           if ( ruby -ryaml -e "p YAML.load(STDIN.read)" < _data/projects.yml > /dev/null ); then
             git config user.name  "${ GITHUB_ACTOR }"
             git config user.email "${ GITHUB_ACTOR }@users.noreply.github.com"
-            git remote set-url origin https://github-actions:${{ GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git remote set-url origin https://github-actions:${ GITHUB_TOKEN }@github.com/${{ github.repository }}.git
             git checkout master
             git add _data/projects.yml
             git commit -m '🤖 Upsert project page(s) by GitHub Actions'
