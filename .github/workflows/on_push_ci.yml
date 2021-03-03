@@ -70,7 +70,7 @@ jobs:
             git config user.email "${{ env.COMMIT_ACTOR }}@users.noreply.github.com"
             git remote set-url origin https://github-actions:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
             git checkout master
-            git add _data/projects.yml
+            git add _posts/
             git commit -m '🤖 Upsert project page(s) by GitHub Actions'
             git push origin master
           else
