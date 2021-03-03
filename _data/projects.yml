@@ -70,7 +70,7 @@
 - id: poet
   title: Poet ~詩人のための創作ツール~
   description: Poet は詩を書く人のための創作ツールで、いつでもどこでも手軽にアイデアを書き留めることができます。日常の言葉を簡単に書き留めることができる環境を通して、ユーザー各々にとっての言葉の宝箱を提供します。
-  thumbnail: poet.jpeg
+  thumbnail: poet.jpg
   youtube: PQMZAD6NwYU
   year: 2020
   mentor_id: ukai_yuu
