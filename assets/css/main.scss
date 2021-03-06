@@ -825,13 +825,13 @@ footer{
   width: 100%;
   margin-top: 24px;
 }
-.sponsors-list-eq, .sponsors-list-media, .sponsors-list-clb{
+.sponsors-list-inkind, .sponsors-list-media, .sponsors-list-clb{
   display: flex;
   flex-wrap: wrap;
   max-width: 555px;
   margin: auto;
 }
-.sponsors-list-eq{
+.sponsors-list-inkind{
   max-width: 555px;
   align-items: center;
 }
@@ -854,7 +854,7 @@ footer{
 .sponsor-bronze{
   max-width: 175px;
 }
-.sponsor-eq, .sponsor-media, .sponsor-clb{
+.sponsor-inkind, .sponsor-media, .sponsor-clb{
   margin: 10px auto 30px;
   max-width: 165px;
   width: calc(50% - 20px);

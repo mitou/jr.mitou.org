@@ -1,70 +1,80 @@
 # こんな感じで書きます ;)
 # - name: 会社名
-#    img: /assets/img/sponsor 内の画像ファイルパス
-#    url: 会社のホームページ
+#   img:  /assets/img/sponsor 内の画像ファイルパス
+#   url:  会社のホームページ
+#   type: [gold|silver|bronze|inkind|media]
 
-gold: # ゴールドスポンサー
-  - name: 公益財団法人江副記念リクルート財団
-    img: recruit-foundation.png
-    url: https://www.recruit-foundation.org/
+- name: 公益財団法人江副記念リクルート財団
+  img:  recruit-foundation.png
+  url:  https://www.recruit-foundation.org/
+  type: gold
 
-  - name: KDDI株式会社
-    img: kddi.png
-    url: https://www.kddi.com/
+- name: KDDI株式会社
+  img:  kddi.png
+  url:  https://www.kddi.com/
+  type: gold
 
-silver: # シルバースポンサー
-  - name: 合同会社DMM.com
-    img: DMM.png
-    url: https://www.dmm.com/
+- name: 合同会社DMM.com
+  img:  DMM.png
+  url:  https://www.dmm.com/
+  type: silver
 
-  - name: フューチャー株式会社
-    img: future.png
-    url: https://www.future.co.jp/
+- name: フューチャー株式会社
+  img:  future.png
+  url:  https://www.future.co.jp/
+  type: silver
 
-  - name: 株式会社ドワンゴ
-    img: dwango.png
-    url: https://dwango.co.jp/
+- name: 株式会社ドワンゴ
+  img:  dwango.png
+  url:  https://dwango.co.jp/
+  type: silver
 
-bronze: # ブロンズスポンサー
-  - name: 株式会社プロコミット
-    img: pro-commit.png
-    url: https://www.procommit.co.jp/
+- name: 株式会社プロコミット
+  img:  pro-commit.png
+  url:  https://www.procommit.co.jp/
+  type: bronze
 
-  - name: 株式会社Gunosy
-    img: gunosy.png
-    url: https://gunosy.co.jp/
+- name: 株式会社Gunosy
+  img:  gunosy.png
+  url:  https://gunosy.co.jp/
+  type: bronze
 
+- name: 株式会社アイデミー
+  img:  aidemy.png
+  url:  https://aidemy.net/
+  type: inkind
 
-equipment: # 機材・教材提供
-  - name: 株式会社アイデミー
-    img: aidemy.png
-    url: https://aidemy.net/
+- name: さくらインターネット株式会社
+  img:  sakura.png
+  url:  https://www.sakura.ad.jp/
+  type: inkind
 
-  - name: さくらインターネット株式会社
-    img: sakura.png
-    url: https://www.sakura.ad.jp/
+- name: 株式会社 Progate
+  img:  progate.png
+  url:  https://prog-8.com/
+  type: inkind
 
-  - name: 株式会社 Progate
-    img: progate.png
-    url: https://prog-8.com/
+- name: 日本マイクロソフト株式会社
+  img:  microsoft.png
+  url:  https://www.microsoft.com/ja-jp/
+  type: inkind
 
-  - name: 日本マイクロソフト株式会社
-    img: microsoft.png
-    url: https://www.microsoft.com/ja-jp/
+- name: Micro:bit Educational Foundation
+  img:  micro-bit.png
+  url:  https://microbit.org/
+  type: inkind
 
-  - name: Micro:bit Educational Foundation
-    img: micro-bit.png
-    url: https://microbit.org/
+- name: YassLab 株式会社
+  img:  yasslab.jpg
+  url:  https://yasslab.jp/ja/
+  type: inkind
 
-  - name: YassLab 株式会社
-    img: yasslab.jpg
-    url: https://yasslab.jp/ja/
+- name: エドテックジン
+  img:  ed-tech-zine.png
+  url:  https://edtechzine.jp/
+  type: media
 
-media: # メディアパートナー
-  - name: エドテックジン
-    img: ed-tech-zine.png
-    url: https://edtechzine.jp/
-
-  - name: こどもとIT
-    img: kodomo-to-it.png
-    url: https://www.watch.impress.co.jp/kodomo_it/
+- name: こどもとIT
+  img:  kodomo-to-it.png
+  url:  https://www.watch.impress.co.jp/kodomo_it/
+  type: media

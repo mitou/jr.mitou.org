@@ -2,14 +2,18 @@
   HTMLは/_includes/sponsors.htmlを、スポンサー情報は/_data/sponsors.ymlを参照してください。 -->
 
 {% assign lang = page.lang | default: "ja" %}
+{% assign gold_sponsors   = site.data.sponsors | where: "type", "gold"   %}
+{% assign silver_sponsors = site.data.sponsors | where: "type", "silver" %}
+{% assign bronze_sponsors = site.data.sponsors | where: "type", "bronze" %}
+{% assign inkind_sponsors = site.data.sponsors | where: "type", "inkind" %}
+{% assign media_sponsors  = site.data.sponsors | where: "type", "media"  %}
 
 <section id="sponsors">
-
   <h2 class="heading-line">{{ site.data.translations.sponsorHeading[lang] }}</h2>
 
-  <h3>{{ site.data.translations.sponsorGold[lang] }}</h3>
+  <h3 id='sponsor-gold'>{{ site.data.translations.sponsorGold[lang] }}</h3>
   <div class="sponsors-list-gold">
-    {% for sponsor in site.data.sponsors.gold %}
+    {% for sponsor in gold_sponsors %}
     <a href="{{sponsor.url}}" target="_blank">
       <div class="sponsor-gold sponsor-one">
         <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img lazyload">
@@ -18,9 +22,9 @@
     {% endfor %}
   </div>
 
-  <h3>{{ site.data.translations.sponsorSilver[lang] }}</h3>
+  <h3 id='sponsor-silver'>{{ site.data.translations.sponsorSilver[lang] }}</h3>
   <div class="sponsors-list-silver">
-    {% for sponsor in site.data.sponsors.silver %}
+    {% for sponsor in silver_sponsors %}
     <a href="{{sponsor.url}}" target="_blank">
       <div class="sponsor-silver sponsor-one">
         <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img lazyload">
@@ -29,9 +33,9 @@
     {% endfor %}
   </div>
 
-  <h3>{{ site.data.translations.sponsorBronze[lang] }}</h3>
+  <h3 id='sponsor-bronze'>{{ site.data.translations.sponsorBronze[lang] }}</h3>
   <div class="sponsors-list-bronze">
-    {% for sponsor in site.data.sponsors.bronze %}
+    {% for sponsor in bronze_sponsors %}
     <a href="{{sponsor.url}}" target="_blank">
       <div class="sponsor-bronze sponsor-one">
         <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img lazyload">
@@ -40,18 +44,18 @@
     {% endfor %}
   </div>
 
-  <h3>{{ site.data.translations.sponsorInkind[lang] }}</h3>
-  <div class="sponsors-list-eq">
-    {% for sponsor in site.data.sponsors.equipment %}
-    <a href="{{sponsor.url}}" class="sponsor-eq sponsor-one" target="_blank">
+  <h3 id='sponsor-inkind'>{{ site.data.translations.sponsorInkind[lang] }}</h3>
+  <div class="sponsors-list-inkind">
+    {% for sponsor in inkind_sponsors %}
+    <a href="{{sponsor.url}}" class="sponsor-inkind sponsor-one" target="_blank">
       <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img lazyload">
     </a>
     {% endfor %}
   </div>
 
-  <h3>{{ site.data.translations.sponsorMedia[lang] }}</h3>
+  <h3 id='sponsor-media'>{{ site.data.translations.sponsorMedia[lang] }}</h3>
   <div class="sponsors-list-media">
-    {% for sponsor in site.data.sponsors.media %}
+    {% for sponsor in media_sponsors %}
     <a href="{{sponsor.url}}" class="sponsor-media sponsor-one" target="_blank">
       <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img lazyload">
     </a>
