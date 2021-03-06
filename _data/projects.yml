@@ -70,7 +70,7 @@
 - id: poet
   title: Poet ~詩人のための創作ツール~
   description: Poet は詩を書く人のための創作ツールで、いつでもどこでも手軽にアイデアを書き留めることができます。日常の言葉を簡単に書き留めることができる環境を通して、ユーザー各々にとっての言葉の宝箱を提供します。
-  thumbnail: poet.jpeg
+  thumbnail: poet.jpg
   youtube: PQMZAD6NwYU
   year: 2020
   mentor_id: ukai_yuu
@@ -99,9 +99,9 @@
     - kurokawa_riku
 
 - id: skimer
-  title: Skimer - 宿題管理アプリ
-  description: 「宿題管理アプリ Skimer(スキマー)」は中高生の宿題を管理するためにデザインされたタスク管理アプリです。LINEで友だち追加して簡単に始められます。「クラスのライングループ」から着想を得て、宿題の共有をしたり、宿題の遂行状況を可視化してランキングを作ることで、モチベーションを保てる工夫をしました。そのため、社会性・競争性を取り入れてゲーム感覚で宿題ができます。
-  thumbnail: skimmer.jpg
+  title: SKIMER - LINEで手軽にやること管理
+  description: 「SKIMER(スキマー)」は中高生の宿題を管理するためにデザインされたタスク管理アプリです。LINEで友だち追加して簡単に始められます。「クラスのライングループ」から着想を得て、宿題の共有をしたり、宿題の遂行状況を可視化してランキングを作ることで、モチベーションを保てる工夫をしました。そのため、社会性・競争性を取り入れてゲーム感覚で宿題ができます。
+  thumbnail: skimer.png
   youtube: XWLnNYIoe-k
   link: https://twitter.com/_anharu/status/1344402886264934400
   year: 2020

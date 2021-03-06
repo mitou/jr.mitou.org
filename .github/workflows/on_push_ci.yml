@@ -19,8 +19,9 @@ jobs:
 
     - name: 👤 Get commit info for notification
       run: |
-        echo "COMMIT_ACTOR_NAME=${{ github.actor }}" | awk -F '-preview' '{print $1}' >> $GITHUB_ENV
-        echo "COMMIT_SHORT_SHA=`git rev-parse --short=8 ${{ github.sha }}`"           >> $GITHUB_ENV
+        echo "COMMIT_ACTOR=${{ github.actor }}" | awk -F '-preview' '{print $1}' >> $GITHUB_ENV
+        echo "COMMIT_SHORT_SHA=$(git rev-parse --short=8 ${{ github.sha }})"     >> $GITHUB_ENV
+        echo "COMMIT_AUTHOR=${{ github.event.head_commit.author.name }}"         >> $GITHUB_ENV
 
     - name: 🧪 Install gems
       run: |
@@ -43,7 +44,7 @@ jobs:
         message: |
           <div>
           CI build for <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> : <span class='label label-danger'>Failure</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>GitHub Actions</a>)<br>
-          <img src='https://github.com/${{ env.COMMIT_ACTOR_NAME }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ env.COMMIT_ACTOR_NAME }}'>${{ env.COMMIT_ACTOR_NAME }}</a>: ${{ github.event.head_commit.message }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHORT_SHA }}</a>)
+          <img src='https://github.com/${{ env.COMMIT_ACTOR }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ env.COMMIT_ACTOR }}'>${{ env.COMMIT_ACTOR }}</a>: ${{ github.event.head_commit.message }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHORT_SHA }}</a>)
           </div>
 
     - name: 🆗 Notify results (Success)
@@ -55,10 +56,28 @@ jobs:
         message: |
           <div>
           CI build for <a href='https://github.com/${{ github.repository }}'>${{ github.repository }}</a> : <span class='label label-success'>Success</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>GitHub Actions</a>)<br>
-          <img src='https://github.com/${{ env.COMMIT_ACTOR_NAME }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ env.COMMIT_ACTOR_NAME }}'>${{ env.COMMIT_ACTOR_NAME }}</a>: ${{ github.event.head_commit.message }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHORT_SHA }}</a>)
+          <img src='https://github.com/${{ env.COMMIT_ACTOR }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ env.COMMIT_ACTOR }}'>${{ env.COMMIT_ACTOR }}</a>: ${{ github.event.head_commit.message }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHORT_SHA }}</a>)
           </div>
 
-    # Deploy part - https://github.com/peaceiris/actions-gh-pages
+    # Deploy part (Triggered only pushed to main branch && passed test suites)
+    - name: 🤖 Generate individual pages by projects.yml data
+      if:   github.ref == 'refs/heads/master' && job.status == 'success'
+      run: |
+        bundle exec rake upsert_project_pages_by_data
+        if [ -n "$(git status ./_posts --porcelain)" ]; then
+          if ( ruby -ryaml -e "p YAML.load(STDIN.read)" < _data/projects.yml > /dev/null ); then
+            git config user.name  "${{ env.COMMIT_AUTHOR }}"
+            git config user.email "${{ env.COMMIT_ACTOR }}@users.noreply.github.com"
+            git remote set-url origin https://github-actions:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git checkout master
+            git add _posts/
+            git commit -m '🤖 Upsert project page(s) by GitHub Actions'
+            git push origin master
+          else
+            echo "Detect syntax error in '_data/projects.yml' file, check its syntax."
+          fi
+        fi
+
     - name: 🚀 Deploy to GitHub Pages
       if:   github.ref == 'refs/heads/master' && job.status == 'success'
       uses: peaceiris/actions-gh-pages@v3
