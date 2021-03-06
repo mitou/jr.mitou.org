@@ -21,9 +21,7 @@ title: ダウンロード
 
 <p class="text-center">提案書の準備ができたら応募フォームへ! <i class="fad fa-mailbox green"></i></p>
 
-<div class="wip">
-  <b>2021年度の応募フォームを現在準備中です。3月上旬に公開予定なので、今しばらくお待ち下さい。</b>
-</div>
+<a href="https://mitoujr.wufoo.com/forms/xooh8f51235adn/" class="button" target="_blank">応募フォームはこちら</a>
 
 <a href="/guideline" class="button">応募の流れを確認する</a>
 

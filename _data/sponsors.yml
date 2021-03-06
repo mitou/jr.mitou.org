@@ -4,23 +4,15 @@
 #    url: 会社のホームページ
 
 gold: # ゴールドスポンサー
-  - name: 公益財団法人江副記念リクルート財団
-    img: recruit-foundation.png
-    url: https://www.recruit-foundation.org/
+  - name: 株式会社リクルート
+    img: recruit.jpg
+    url: https://www.recruit.co.jp/
 
   - name: KDDI株式会社
     img: kddi.png
     url: https://www.kddi.com/
 
 silver: # シルバースポンサー
-  - name: 合同会社DMM.com
-    img: DMM.png
-    url: https://www.dmm.com/
-
-  - name: フューチャー株式会社
-    img: future.png
-    url: https://www.future.co.jp/
-
   - name: 株式会社ドワンゴ
     img: dwango.png
     url: https://dwango.co.jp/
@@ -29,11 +21,6 @@ bronze: # ブロンズスポンサー
   - name: 株式会社プロコミット
     img: pro-commit.png
     url: https://www.procommit.co.jp/
-
-  - name: 株式会社Gunosy
-    img: gunosy.png
-    url: https://gunosy.co.jp/
-
 
 equipment: # 機材・教材提供
   - name: 株式会社アイデミー
@@ -46,15 +33,7 @@ equipment: # 機材・教材提供
 
   - name: 株式会社 Progate
     img: progate.png
-    url: https://prog-8.com/
-
-  - name: 日本マイクロソフト株式会社
-    img: microsoft.png
-    url: https://www.microsoft.com/ja-jp/
-
-  - name: Micro:bit Educational Foundation
-    img: micro-bit.png
-    url: https://microbit.org/
+    url: https://prog-8.com
 
   - name: YassLab 株式会社
     img: yasslab.jpg
