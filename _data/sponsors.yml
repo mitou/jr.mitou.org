@@ -4,25 +4,15 @@
 #   url:  会社のホームページ
 #   type: [gold|silver|bronze|inkind|media]
 
-- name: 公益財団法人江副記念リクルート財団
-  img:  recruit-foundation.png
-  url:  https://www.recruit-foundation.org/
+- name: 株式会社リクルート
+  img:  recruit.jpg
+  url:  https://www.recruit.co.jp/
   type: gold
 
 - name: KDDI株式会社
   img:  kddi.png
   url:  https://www.kddi.com/
   type: gold
-
-- name: 合同会社DMM.com
-  img:  DMM.png
-  url:  https://www.dmm.com/
-  type: silver
-
-- name: フューチャー株式会社
-  img:  future.png
-  url:  https://www.future.co.jp/
-  type: silver
 
 - name: 株式会社ドワンゴ
   img:  dwango.png
@@ -32,11 +22,6 @@
 - name: 株式会社プロコミット
   img:  pro-commit.png
   url:  https://www.procommit.co.jp/
-  type: bronze
-
-- name: 株式会社Gunosy
-  img:  gunosy.png
-  url:  https://gunosy.co.jp/
   type: bronze
 
 - name: 株式会社アイデミー
@@ -52,16 +37,6 @@
 - name: 株式会社 Progate
   img:  progate.png
   url:  https://prog-8.com/
-  type: inkind
-
-- name: 日本マイクロソフト株式会社
-  img:  microsoft.png
-  url:  https://www.microsoft.com/ja-jp/
-  type: inkind
-
-- name: Micro:bit Educational Foundation
-  img:  micro-bit.png
-  url:  https://microbit.org/
   type: inkind
 
 - name: YassLab 株式会社
