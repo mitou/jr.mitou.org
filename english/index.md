@@ -46,6 +46,13 @@ lang: en
     <a href='https://vamboo.net/' class="project-showcase project-one" target="_blank" rel='noopener'>
       <img src="/assets/img/spinner.svg" data-src="/assets/img/english/vamboo.png" alt="vamboo - A visual programming language to create GUI application in functional and reactive way." class="project-img lazyload" loading="lazy" />
     </a>
+
+    <a href='https://github.com/Vreath-core' class="project-showcase project-one" target="_blank" rel='noopener'>
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/vreath.png" alt="Vreath - A New Consensus Algorithm Makes CryptoCurrency Easily Available" class="project-img lazyload" loading="lazy" />
+    </a>
+    <a href='https://sites.google.com/view/toubans-en' class="project-showcase project-one" target="_blank" rel='noopener'>
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/toubans.png" alt="Toubans! - The easy-to-use duty-management chatbot" class="project-img lazyload" loading="lazy" />
+    </a>
   </div>
 
   <a href="/projects" class="button">Check accepted projects (in Japanese)</a>
