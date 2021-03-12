@@ -57,7 +57,7 @@
 .highcharts-yaxis {
   stroke-width: 0px;
 }
-</style> <script src="/assets/js/highcharts.js"></script> <p><img class="lazyload" src="/assets/img/spinner.svg" data-src="/assets/img/stats-cover.jpg" alt="Cover Photo of Stats" width="100%" loading="lazy"/></p> <p>This page shows the stats of Mitou Junior, which includes the number of applications, being matched with mentors, and its ratio. Feel free to use, share, and refer to these information.</p> <center><small>( <i class="fas fa-mouse-pointer green"></i> Place the cursor or tap to check the number.)</small></center> <h2 style="margin-bottom: 60px;">Applications</h2> <div id="applications"></div> <script type="text/javascript">
+</style> <script src="/assets/js/highcharts.js"></script> <p><img class="lazyload" src="/assets/img/spinner.svg" data-src="/assets/img/stats-cover.jpg" alt="Cover Photo of Stats" width="100%" loading="lazy"/></p> <p>This page shows the stats of Mitou Junior, which includes the number of applications, selected projects, and its acceptance rate. Feel free to use and share these information.</p> <center><small>( <i class="fas fa-mouse-pointer green"></i> Place the cursor or tap to check the number.)</small></center> <h2 style="margin-bottom: 60px;">Applications</h2> <div id="applications"></div> <script type="text/javascript">
 Highcharts.chart('applications', {
    chart: {
      type: 'column',
@@ -97,7 +97,7 @@ Highcharts.chart('applications', {
 
    series: [
      {
-       name: 'Number of application submitted',
+       name: 'Number of applications submitted',
        data: [
 	 [Date.parse('2016'), 15],
 	 [Date.parse('2017'), 41],
@@ -108,8 +108,8 @@ Highcharts.chart('applications', {
      }
    ]
 });
-</script> <h2 style="margin-bottom: 60px;">Being Matched</h2> <div id="matches"></div> <script type="text/javascript">
-Highcharts.chart('matches', {
+</script> <h2 style="margin-bottom: 60px;">Selected Projects</h2> <div id="selections"></div> <script type="text/javascript">
+Highcharts.chart('selections', {
    chart: {
      type: 'column',
      styledMode: true
@@ -148,7 +148,7 @@ Highcharts.chart('matches', {
 
    series: [
      {
-       name: 'Number of applications matched',
+       name: 'Number of projects selected',
        data: [
 	 [Date.parse('2016'),  4],
 	 [Date.parse('2017'), 11],
@@ -159,7 +159,7 @@ Highcharts.chart('matches', {
      }
    ]
 });
-</script> <h2 style="margin-bottom: 60px;">Matched Ratio</h2> <div id="chances"></div> <script type="text/javascript">
+</script> <h2 style="margin-bottom: 60px;">Acceptance Rate</h2> <div id="chances"></div> <script type="text/javascript">
 Highcharts.chart('chances', {
    chart: {
      type: 'line',
@@ -199,15 +199,15 @@ Highcharts.chart('chances', {
 
    series: [
      {
-       name: 'Ratio of Applications / Matched',
+       name: 'Acceptance Rate (%)',
        data: [
-	 [Date.parse('2016'), 3.75],
-	 [Date.parse('2017'), 3.73],
-	 [Date.parse('2018'), 8.75],
-	 [Date.parse('2019'), 9.77],
-	 [Date.parse('2020'), 7.67]
+	 [Date.parse('2016'), 20.0],
+	 [Date.parse('2017'), 26.8],
+	 [Date.parse('2018'), 11.4],
+	 [Date.parse('2019'), 10.2],
+	 [Date.parse('2020'), 13.0]
        ]
      }
    ]
 });
-</script> <h3><a href="/projects/2020" style="font-weight: bold;">2020</a></h3> <ul> <li><b>115 applications</b> received this year.</li> <li><b>15 projects</b> were matched with mentors.</li> <li>Matched Ratio: <b>7.67</b></li> </ul> <p><b>22 creators</b> joined in our Mitou Junior program in 2020. <b>9 of them</b> awarded the outstanding project this year.</p> <h3><a href="/projects/2019" style="font-weight: bold;">2019</a></h3> <ul> <li><b>127 applications</b> received this year.</li> <li><b>13 projects</b> were matched with mentors.</li> <li>Matched Ratio: <b>9.77</b></li> </ul> <p><b>16 creators</b> joined in our Mitou Junior program in 2019. <b>9 of them</b> awarded the outstanding project this year.</p> <h3><a href="/projects/2018" style="font-weight: bold;">2018</a></h3> <ul> <li><b>105 applications</b> received this year.</li> <li><b>12 projects</b> were matched with mentors.</li> <li>Matched Ratio: <b>8.75</b></li> </ul> <p><b>14 creators</b> joined in our Mitou Junior program in 2018. <b>6 of them</b> awarded the outstanding project this year.</p> <h3><a href="/projects/2017" style="font-weight: bold;">2017</a></h3> <ul> <li><b>41 applications</b> received this year.</li> <li><b>11 projects</b> were matched with mentors.</li> <li>Matched Ratio: <b>3.73</b></li> </ul> <p><b>18 creators</b> joined in our Mitou Junior program in 2017. <b>6 of them</b> awarded the outstanding project this year.</p> <h3><a href="/projects/2016" style="font-weight: bold;">2016</a></h3> <ul> <li><b>15 applications</b> received this year.</li> <li><b>4 projects</b> were matched with mentors.</li> <li>Matched Ratio: <b>3.75</b></li> </ul> <p><b>4 creators</b> joined in our Mitou Junior program in 2016. Outstanding project award started since 2017, so N/A this year.</p> <h2 id="contact">Contact</h2> <div style="margin-top: 50px;"> <p>We look for sponsors! Let us know if you have any questions or interets.</p> <div class="text-center" style="margin-top: 30px;"> <i class="fas fa-envelope green" style="font-size:36px;"></i><br/> <a href="mailto:jr@mitou.org">jr@mitou.org</a> </div> </div> </div> </div> <footer> <a href="/">TOP (Japanese)</a> <div class="sns"> <a href="https://twitter.com/mitoujr"><i class="fab fa-twitter"></i></a> <a href="https://facebook.com/mitoujr"><i class="fab fa-facebook"></i></a> <a href="https://github.com/mitou/jr.mitou.org"><i class="fab fa-github"></i></a> <a href="https://youtube.com/mitoujr"><i class="fab fa-youtube"></i></a> </div> <span class="copyright">Copyright &copy; Mitou Foundation - Mitou Jr Team</span> </footer> <script src="/assets/js/lazysizes.min.js" async=""></script> </body> </html>
+</script> <h3><a href="/projects/2020" style="font-weight: bold;">2020</a></h3> <ul> <li><b>115 applications</b> received this year.</li> <li><b>15 projects</b> were selected.</li> <li><b>13.0%</b> is the acceptance rate.</li> </ul> <p><b>22 creators</b> joined in our Mitou Junior program in 2020. <b>9 of them</b> awarded the outstanding project this year.</p> <h3><a href="/projects/2019" style="font-weight: bold;">2019</a></h3> <ul> <li><b>127 applications</b> received this year.</li> <li><b>13 projects</b> were selected.</li> <li><b>10.2%</b> is the acceptance rate.</li> </ul> <p><b>16 creators</b> joined in our Mitou Junior program in 2019. <b>9 of them</b> awarded the outstanding project this year.</p> <h3><a href="/projects/2018" style="font-weight: bold;">2018</a></h3> <ul> <li><b>105 applications</b> received this year.</li> <li><b>12 projects</b> were selected.</li> <li><b>11.4%</b> is the acceptance rate.</li> </ul> <p><b>14 creators</b> joined in our Mitou Junior program in 2018. <b>6 of them</b> awarded the outstanding project this year.</p> <h3><a href="/projects/2017" style="font-weight: bold;">2017</a></h3> <ul> <li><b>41 applications</b> received this year.</li> <li><b>11 projects</b> were selected.</li> <li><b>26.8%</b> is the acceptance rate.</li> </ul> <p><b>18 creators</b> joined in our Mitou Junior program in 2017. <b>6 of them</b> awarded the outstanding project this year.</p> <h3><a href="/projects/2016" style="font-weight: bold;">2016</a></h3> <ul> <li><b>15 applications</b> received this year.</li> <li><b>3 projects</b> were selected.</li> <li><b>20.0%</b> is the acceptance rate.</li> </ul> <p><b>4 creators</b> joined in our Mitou Junior program in 2016. Outstanding project award started since 2017, so N/A this year.</p> <h2 id="contact">Contact</h2> <div style="margin-top: 50px;"> <p>We look for sponsors! Let us know if you have any questions or interets.</p> <div class="text-center" style="margin-top: 30px;"> <i class="fas fa-envelope green" style="font-size:36px;"></i><br/> <a href="mailto:jr@mitou.org">jr@mitou.org</a> </div> </div> </div> </div> <footer> <a href="/">TOP (Japanese)</a> <div class="sns"> <a href="https://twitter.com/mitoujr"><i class="fab fa-twitter"></i></a> <a href="https://facebook.com/mitoujr"><i class="fab fa-facebook"></i></a> <a href="https://github.com/mitou/jr.mitou.org"><i class="fab fa-github"></i></a> <a href="https://youtube.com/mitoujr"><i class="fab fa-youtube"></i></a> </div> <span class="copyright">Copyright &copy; Mitou Foundation - Mitou Jr Team</span> </footer> <script src="/assets/js/lazysizes.min.js" async=""></script> </body> </html>
