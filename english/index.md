@@ -22,7 +22,7 @@ lang: en
   <h3> <i class="fad fa-award green"></i> Award outstanding performance</h3>
   <p>Creators who have shown their outstanding performance during Mitou Junior program get an outstanding performance award. The award is highly recognized for Admissions Office of several universities, including <a href='https://www.sfc.keio.ac.jp/en/' target='_blank' rel='noopener'>Keio University SFC</a> and <a href='https://www.tmu.ac.jp/english/index.html' target='_blank' rel='noopener'>Tokyo Metropolitan University</a>.</p>
 
-  <h2>Past Projects Showcase</h2>
+  <h2>Projects Showcase</h2>
   <p>Over 100 projects (applications) are submitted to our Mitou Junior program every year. And approximately 10-13% of them are accepted. The projects accepted and boosted by our program are as follows.</p>
 
   <div class="project-showcase-list">
