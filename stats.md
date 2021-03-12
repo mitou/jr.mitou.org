@@ -57,9 +57,10 @@ title: 統計情報
 <script src="/assets/js/exporting.js"></script>
 -->
 
-<p style="padding: 50px 0px 0px;">
-  2016年から始まった未踏ジュニアの統計情報です。未踏ジュニアへのスポンサーを検討されている方々にとってご参考になれば幸いです。
-</p>
+<img class='lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/stats-cover.jpg' alt='統計情報 - カバー画像' width='100%' loading='lazy' />
+
+2016年から始まった未踏ジュニアの統計情報です。未踏ジュニアへの[応募](/guideline)または[スポンサー](/#sponsors)を検討されている方々にとってご参考になれば幸いです。
+
 
 <h2 style="margin-bottom: 60px;">応募数の推移</h2>
 
