@@ -115,6 +115,60 @@ Highcharts.chart('container', {
 </script>
 
 
+<h2 style="margin-bottom: 60px;">倍率の推移</h2>
+
+<div id="chances"></div>
+<script type="text/javascript">
+Highcharts.chart('chances', {
+   chart: {
+     type: 'column',
+     styledMode: true
+   },
+
+   title: {
+     text: ''
+   },
+
+   yAxis: [{
+     className: 'highcharts-color-0',
+     title: {
+       text: ''
+     }
+   }],
+   xAxis: [{
+     className: 'highcharts-color-0',
+     title: {
+       text: ''
+     },
+     type: 'datetime',
+     labels: {
+       format: '{value:%Y}',
+     },
+     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
+   }],
+
+   plotOptions: {
+     column: {
+       borderRadius: 5
+     }
+   },
+
+   series: [
+     {
+       name: '倍率',
+       data: [
+	 [Date.parse('2016'), 3.75],
+	 [Date.parse('2017'), 3.73],
+	 [Date.parse('2018'), 8.75],
+	 [Date.parse('2019'), 9.77],
+	 [Date.parse('2020'), 7.67]
+       ]
+     }
+   ]
+});
+</script>
+
+
 {% for stat in site.data.stats %}
 <h3><a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }} 年度</a></h3>
 <ul>
