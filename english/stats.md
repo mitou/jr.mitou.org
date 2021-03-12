@@ -255,7 +255,7 @@ Highcharts.chart('chances', {
 ## Contact
 
 <div style="margin-top: 50px;">
-  <p>We look for sponsors! Let us know if you have any questions or interets.</p>
+  <p>Let us know if you have any questions or interests to the Mitou Junior program.</p>
 
   <div class='text-center' style='margin-top: 30px;'>
     <i class="fas fa-envelope green" style="font-size:36px;"></i><br>
