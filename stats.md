@@ -47,8 +47,11 @@ title: 統計情報
   fill: #90ed7d;
 }
 
-.highcharts-yaxis .highcharts-axis-line {
+.highcharts-axis-line {
   stroke-width: 2px;
+}
+.highcharts-yaxis {
+  stroke-width: 0px;
 }
 </style>
 
@@ -59,11 +62,11 @@ title: 統計情報
 
 <img class='lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/stats-cover.jpg' alt='統計情報 - カバー画像' width='100%' loading='lazy' />
 
-2016年から始まった未踏ジュニアの統計情報です。未踏ジュニアへの[応募](/guideline)または[スポンサー](/#sponsors)を検討されている方々にとってご参考になれば幸いです。
+未踏ジュニアの統計情報です。[応募](/guideline)または[スポンサー](/#sponsors)をご検討されている方々の参考になれば幸いです。
 
+<center><small>（ <i class="fas fa-mouse-pointer green"></i> カーソルまたはタップで数値が見れます）</small></center>
 
 <h2 style="margin-bottom: 60px;">応募数の推移</h2>
-
 <div id="applications"></div>
 <script type="text/javascript">
 Highcharts.chart('applications', {
@@ -80,7 +83,10 @@ Highcharts.chart('applications', {
      className: 'highcharts-color-0',
      title: {
        text: ''
-     }
+     },
+     labels: {
+       enabled: false,
+     },
    }],
    xAxis: [{
      className: 'highcharts-color-0',
@@ -115,12 +121,10 @@ Highcharts.chart('applications', {
 });
 </script>
 
-
-<h2 style="margin-bottom: 60px;">倍率の推移</h2>
-
-<div id="chances"></div>
+<h2 style="margin-bottom: 60px;">採択数の推移</h2>
+<div id="selections"></div>
 <script type="text/javascript">
-Highcharts.chart('chances', {
+Highcharts.chart('selections', {
    chart: {
      type: 'column',
      styledMode: true
@@ -134,7 +138,66 @@ Highcharts.chart('chances', {
      className: 'highcharts-color-0',
      title: {
        text: ''
+     },
+     labels: {
+       enabled: false,
+     },
+   }],
+   xAxis: [{
+     className: 'highcharts-color-0',
+     title: {
+       text: ''
+     },
+     type: 'datetime',
+     labels: {
+       format: '{value:%Y}',
+     },
+     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
+   }],
+
+   plotOptions: {
+     column: {
+       borderRadius: 5
      }
+   },
+
+   series: [
+     {
+       name: '採択数',
+       data: [
+	 [Date.parse('2016'),  4],
+	 [Date.parse('2017'), 11],
+	 [Date.parse('2018'), 12],
+	 [Date.parse('2019'), 13],
+	 [Date.parse('2020'), 15]
+       ]
+     }
+   ]
+});
+</script>
+
+
+<h2 style="margin-bottom: 60px;">倍率の推移</h2>
+<div id="chances"></div>
+<script type="text/javascript">
+Highcharts.chart('chances', {
+   chart: {
+     type: 'line',
+     styledMode: true
+   },
+
+   title: {
+     text: ''
+   },
+
+   yAxis: [{
+     className: 'highcharts-color-0',
+     title: {
+       text: ''
+     },
+     labels: {
+       enabled: false,
+     },
    }],
    xAxis: [{
      className: 'highcharts-color-0',
