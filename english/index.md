@@ -39,6 +39,13 @@ lang: en
     <a href='https://keidaroo.github.io/keidaroo_pages/links/abecobe/' class="project-showcase project-one" target="_blank" rel='noopener'>
       <img src="/assets/img/spinner.svg" data-src="/assets/img/english/abecobe.png" alt="abecobe - Puzzle game using two blocks" class="project-img lazyload" loading="lazy" />
     </a>
+
+    <a href='https://anjuart.com/' class="project-showcase project-one" target="_blank" rel='noopener'>
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/flight-fit-vr.jpg" alt="Flight Fit -VR-" class="project-img lazyload" loading="lazy" />
+    </a>
+    <a href='https://vamboo.net/' class="project-showcase project-one" target="_blank" rel='noopener'>
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/vamboo.png" alt="vamboo - A visual programming language to create GUI application in functional and reactive way." class="project-img lazyload" loading="lazy" />
+    </a>
   </div>
 
   <a href="/projects" class="button">Check accepted projects (in Japanese)</a>
