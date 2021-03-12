@@ -6,9 +6,7 @@ lang: en
 
 <div class="post">
   <h2>What's Mitou Junior?</h2>
-  <p>Mitou Junior is a half-year-long program to enhance young innovative creators and programmers under 17 in Japan. The program was founded in 2016 by <a href="https://www.mitou.org/">Mitou Foundation</a>, and has been supported by companies and organizations. It offers the following benefits.</p>
-
-  <a href="/english/stats" class="button">Check acceptance rate</a>
+  <p>Mitou Junior is a half-year-long program to enhance young innovative creators and programmers in Japan. The program was founded in 2016 by <a href="https://www.mitou.org/">Mitou Foundation</a>, and has been supported by companies and organizations. It offers the following benefits.</p>
 
   <h3> <i class="fad fa-hands-helping green"></i> Mentoring</h3>
   <p>Creators will be able to learn from mentors and other Mitou graduates who are at the forefront of technology.</p>
@@ -21,6 +19,8 @@ lang: en
 
   <h3> <i class="fad fa-award green"></i> Award outstanding performance</h3>
   <p>Creators who have shown their outstanding performance during Mitou Junior program get an outstanding performance award. The award is highly recognized for Admissions Office of several universities, including <a href='https://www.sfc.keio.ac.jp/en/' target='_blank' rel='noopener'>Keio University SFC</a> and <a href='https://www.tmu.ac.jp/english/index.html' target='_blank' rel='noopener'>Tokyo Metropolitan University</a>.</p>
+
+  <a href="/english/stats" class="button">Check acceptance rate</a>
 
   <h2>Projects Showcase</h2>
   <p>Over 100 projects (applications) are submitted to our Mitou Junior program every year, and approximately 10-13% of them are accepted.</p>
