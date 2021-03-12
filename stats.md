@@ -235,10 +235,10 @@ Highcharts.chart('chances', {
 <h3><a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }} 年度</a></h3>
 <ul>
   {% comment %}
-  <!-- NOTE: You can locally check data like this, but this does *NOT* work in GitHub Pages -->
-  <li>プロジェクト数: {{ site.data.projects | where_exp: 'pj', 'pj.year == stat.year' | size }}</li>
-  <li>クリエーター数: {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year' | size }}</li>
-  <li>スパクリ認定数: {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year and cr.is_spc == true' | size }}</li>
+  <!-- NOTE: Check if manual stats data are exactly matched with calcularated ones by uncommentting. -->
+  <li>stat.projects : data.projects = {{ stat.projects }} : {{ site.data.projects | where_exp: 'pj', 'pj.year == stat.year' | size }}</li>
+  <li>stat.creators : data.creators = {{ stat.creators }} : {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year' | size }}</li>
+  <li>stat.spc : data.creators.is_spc = {{ stat.spc }} : {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year and cr.is_spc == true' | size }}</li>
   {% endcomment %}
 
   <li>応募件数: {{ stat.applications    }} 件</li>
