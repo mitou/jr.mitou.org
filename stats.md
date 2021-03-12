@@ -60,9 +60,7 @@ title: 統計情報
 <script src="/assets/js/exporting.js"></script>
 -->
 
-<img class='lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/stats-cover.jpg' alt='統計情報 - カバー画像' width='100%' loading='lazy' />
-
-未踏ジュニアの統計情報です。[応募](/guideline)または[スポンサー](/#sponsors)をご検討されている方々の参考になれば幸いです。
+<p style='margin-top: 50px;'>未踏ジュニアの統計情報です。<a href='/guideline'>応募</a>または<a href='/#sponsors'>スポンサー</a>を検討されている方々のご参考になれば幸いです。</p>
 
 <center><small>（ <i class="fas fa-mouse-pointer green"></i> カーソルまたはタップで数値が見れます）</small></center>
 
