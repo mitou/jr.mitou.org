@@ -702,6 +702,29 @@ footer{
 }
 */
 
+// Project Showcases in English
+// https://jr.mitou.org/english
+.project-one{
+  margin: auto;
+}
+.project-img{
+  width: 100%;
+  margin-top: 24px;
+  border-radius: 10px;
+}
+.project-showcase-list{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 555px;
+  margin: auto;
+}
+.project-showcase{
+  margin: 10px auto 30px;
+  max-width: 265px;
+  width: calc(50% - 20px);
+}
+
+
 .post-photo{
   display:block;
   margin: 24px auto;
