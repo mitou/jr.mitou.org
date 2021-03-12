@@ -63,7 +63,7 @@ lang:   en
 
 <img class='lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/stats-cover.jpg' alt='Cover Photo of Stats' width='100%' loading='lazy' />
 
-This page shows the stats of Mitou Junior, which includes the number of applications, being matched with mentors, and its ratio. Feel free to use, share, and refer to these information.
+This page shows the stats of Mitou Junior, which includes the number of applications, selected projects, and its acceptance rate. Feel free to use and share these information.
 
 <center><small>( <i class="fas fa-mouse-pointer green"></i> Place the cursor or tap to check the number.)</small></center>
 
@@ -109,7 +109,7 @@ Highcharts.chart('applications', {
 
    series: [
      {
-       name: 'Number of application submitted',
+       name: 'Number of applications submitted',
        data: [
 	 [Date.parse('2016'), 15],
 	 [Date.parse('2017'), 41],
@@ -122,10 +122,10 @@ Highcharts.chart('applications', {
 });
 </script>
 
-<h2 style="margin-bottom: 60px;">Being Matched</h2>
-<div id="matches"></div>
+<h2 style="margin-bottom: 60px;">Selected Projects</h2>
+<div id="selections"></div>
 <script type="text/javascript">
-Highcharts.chart('matches', {
+Highcharts.chart('selections', {
    chart: {
      type: 'column',
      styledMode: true
@@ -164,7 +164,7 @@ Highcharts.chart('matches', {
 
    series: [
      {
-       name: 'Number of applications matched',
+       name: 'Number of projects selected',
        data: [
 	 [Date.parse('2016'),  4],
 	 [Date.parse('2017'), 11],
@@ -178,7 +178,7 @@ Highcharts.chart('matches', {
 </script>
 
 
-<h2 style="margin-bottom: 60px;">Matched Ratio</h2>
+<h2 style="margin-bottom: 60px;">Acceptance Rate</h2>
 <div id="chances"></div>
 <script type="text/javascript">
 Highcharts.chart('chances', {
@@ -220,13 +220,13 @@ Highcharts.chart('chances', {
 
    series: [
      {
-       name: 'Ratio of Applications / Matched',
+       name: 'Acceptance Rate (%)',
        data: [
-	 [Date.parse('2016'), 3.75],
-	 [Date.parse('2017'), 3.73],
-	 [Date.parse('2018'), 8.75],
-	 [Date.parse('2019'), 9.77],
-	 [Date.parse('2020'), 7.67]
+	 [Date.parse('2016'), 20.0],
+	 [Date.parse('2017'), 26.8],
+	 [Date.parse('2018'), 11.4],
+	 [Date.parse('2019'), 10.2],
+	 [Date.parse('2020'), 13.0]
        ]
      }
    ]
@@ -237,9 +237,9 @@ Highcharts.chart('chances', {
 {% for stat in site.data.stats %}
 <h3><a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }}</a></h3>
 <ul>
-  <li><b>{{ stat.applications }} applications</b> received this year.</li>
-  <li><b>{{ stat.projects     }} projects</b> were matched with mentors.</li>
-  <li>Matched Ratio: <b>{{ stat.acceptance_rate }}</b></li>
+  <li><b>{{ stat.applications    }} applications</b> received this year.</li>
+  <li><b>{{ stat.projects        }} projects</b> were selected.</li>
+  <li><b>{{ stat.acceptance_rate }}%</b> is the acceptance rate.</li>
 </ul>
 
 {% if stat.year == 2016 %}

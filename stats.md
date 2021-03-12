@@ -165,7 +165,7 @@ Highcharts.chart('selections', {
      {
        name: '採択数',
        data: [
-	 [Date.parse('2016'),  4],
+	 [Date.parse('2016'),  3],
 	 [Date.parse('2017'), 11],
 	 [Date.parse('2018'), 12],
 	 [Date.parse('2019'), 13],
@@ -221,7 +221,7 @@ Highcharts.chart('chances', {
      {
        name: '倍率',
        data: [
-	 [Date.parse('2016'), 3.75],
+	 [Date.parse('2016'), 5.0],
 	 [Date.parse('2017'), 3.73],
 	 [Date.parse('2018'), 8.75],
 	 [Date.parse('2019'), 9.77],
@@ -245,7 +245,7 @@ Highcharts.chart('chances', {
 
   <li>応募件数: {{ stat.applications    }} 件</li>
   <li>採択件数: {{ stat.projects        }} 件</li>
-  <li>採択倍率: {{ stat.acceptance_rate }} 倍</li>
+  <li>採択倍率: {{ stat.competition_rate }} 倍</li>
 </ul>
 
 {% if stat.year == 2016 %}
