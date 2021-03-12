@@ -67,6 +67,8 @@ This page shows the stats of Mitou Junior, which includes the number of applicat
 
 <center><small>( <i class="fas fa-mouse-pointer green"></i> Place the cursor or tap to check the number.)</small></center>
 
+<a href="/english" class="button">Back to top</a>
+
 <h2 style="margin-bottom: 60px;">Applications</h2>
 <div id="applications"></div>
 <script type="text/javascript">

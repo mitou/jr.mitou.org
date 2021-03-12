@@ -8,6 +8,8 @@ lang: en
   <h2>What's Mitou Junior?</h2>
   <p>Mitou Junior is a half-year-long program to enhance young innovative creators and programmers under 17 in Japan. The program was founded in 2016 by <a href="https://www.mitou.org/">Mitou Foundation</a>, and has been supported by companies and organizations. It offers the following benefits.</p>
 
+  <a href="/english/stats" class="button">Check acceptance rate</a>
+
   <h3>Mentoring</h3>
   <p>Creators will be able to learn from mentors and other Mitou graduates who are at the forefront of technology.</p>
 
