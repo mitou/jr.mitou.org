@@ -4,7 +4,7 @@
   <h2>{{ site.data.translations.collaboratorHeading[lang] }}</h2>
   <div class="sponsors-list-clb">
     {% for c in site.data.collaborators %}
-    <a href="{{c.url}}" class="sponsor-clb sponsor-one" target="_blank">
+    <a href="{{c.url}}" class="sponsor-clb sponsor-one" target="_blank" rel='noopener'>
       <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{c.img}}"
            alt="{{c.name}}" class="sponsor-img lazyload">
     </a>
