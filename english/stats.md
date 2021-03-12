@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Stats of Mitou Junior
+title:  Stats of Mitou Junior
+lang:   en
 ---
 
 <style type="text/css">
