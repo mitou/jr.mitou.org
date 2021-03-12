@@ -30,7 +30,7 @@ lang: en
     <a href='https://visi.dev/' class="project-showcase project-one" target="_blank" rel='noopener'>
       <img src="/assets/img/spinner.svg" data-src="/assets/img/english/visible.png" alt="Visible - Web Accessibility Validate & Fix" class="project-img lazyload" loading="lazy" />
     </a>
-    <a href='https://twitter.com/38912Pataro/status/1337322097454981120' class="project-showcase project-one" target="_blank" rel='noopener'>
+    <a href='https://www.youtube.com/watch?v=MePIVH21RZM' class="project-showcase project-one" target="_blank" rel='noopener'>
       <img src="/assets/img/spinner.svg" data-src="/assets/img/english/spaghetian.jpg" alt="Spaghetian - 4-bit CPU of Electromagnet" class="project-img lazyload" loading="lazy" />
     </a>
 
