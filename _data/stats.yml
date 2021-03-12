@@ -5,6 +5,7 @@
   spc: 9
   competition_rate: 7.67 # 7.6667 倍
   acceptance_rate:  13.0 # 13.043 %
+  spc_rate:         40.9 # 40.909 %
 
 - year: 2019
   applications: 127
@@ -13,6 +14,7 @@
   spc: 9
   competition_rate: 9.77 # 9.7692 倍
   acceptance_rate:  10.2 # 10.236 %
+  spc_rate:         56.3 # 56.250 %
 
 - year: 2018
   applications: 105
@@ -21,6 +23,7 @@
   spc: 6
   competition_rate: 8.75 # 8.7500 倍
   acceptance_rate:  11.4 # 11.428 %
+  spc_rate:         42.9 # 42.857 %
 
 - year: 2017
   applications: 41
@@ -29,11 +32,13 @@
   spc: 6
   competition_rate: 3.73 # 3.7272 倍
   acceptance_rate:  26.8 # 26.829 %
+  spc_rate:         33.3 # 33.333 %
 
 - year: 2016
   applications: 15
   projects: 3 # excluding hidden data
   creators: 4 # excluding hidden data
-  spc: 0      # N/A (SPC system started from 2017)
+  spc: 0      # N/A (SPC arard started from 2017)
   competition_rate: 5.00 # 5.00 倍
   acceptance_rate:  20.0 # 20.0 %
+  spc_rate:         0.00 # N/A (SPC award started from 2017)

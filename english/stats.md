@@ -239,15 +239,15 @@ Highcharts.chart('chances', {
 {% for stat in site.data.stats %}
 <h3><a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }}</a></h3>
 <ul>
-  <li><b>{{ stat.applications    }} applications</b> received this year.</li>
+  <li><b>{{ stat.applications    }} applications</b> were submitted.</li>
   <li><b>{{ stat.projects        }} projects</b> were selected.</li>
   <li><b>{{ stat.acceptance_rate }}%</b> is the acceptance rate.</li>
 </ul>
 
 {% if stat.year == 2016 %}
-<b>{{ stat.creators }} creators</b> joined in our Mitou Junior program in {{ stat.year }}. Outstanding project award started since 2017, so N/A this year.
+<b>{{ stat.creators }} creators</b> joined in the Mitou Junior program in {{ stat.year }}. Outstanding performace award started since 2017, so N/A this year.
 {% else %}
-<b>{{ stat.creators }} creators</b> joined in our Mitou Junior program in {{ stat.year }}. <b>{{ stat.spc }} of them</b> awarded the outstanding project this year.
+<b>{{ stat.creators }} creators</b> joined in the Mitou Junior program in {{ stat.year }}. <b>{{ stat.spc }} in {{ stat.creators }} creators ({{ stat.spc_rate }} %)</b> received an outstanding performance award this year.
 {% endif %}
 
 {% endfor %}
