@@ -61,9 +61,7 @@ lang:   en
 <script src="/assets/js/exporting.js"></script>
 -->
 
-<img class='lazyload' src='/assets/img/spinner.svg' data-src='/assets/img/stats-cover.jpg' alt='Cover Photo of Stats' width='100%' loading='lazy' />
-
-This page shows the stats of Mitou Junior, which includes the number of applications, selected projects, and its acceptance rate. Feel free to use and share these information.
+<p style='margin-top: 50px;'>This page shows the stats of Mitou Junior, which includes the number of applications, selected projects, and its acceptance rate. Feel free to use and share these information.</p>
 
 <center><small>( <i class="fas fa-mouse-pointer green"></i> Place the cursor or tap to check the number.)</small></center>
 
