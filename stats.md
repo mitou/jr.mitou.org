@@ -259,7 +259,7 @@ Highcharts.chart('chances', {
 ## お問い合わせ
 
 <div style="margin-top: 50px;">
-  <p>未踏ジュニア実行委員会では、未踏ジュニアの継続的な活動を支援して頂けるスポンサー様を随時募集しております。まずはお気軽にご連絡していただけると幸いです。</p>
+  <p>未踏ジュニアでは、活動をご支援して頂けるスポンサー様を募集しております。まずはお気軽にご連絡していただけると幸いです。</p>
 
   <div class='text-center' style='margin-top: 30px;'>
     <i class="fas fa-envelope green" style="font-size:36px;"></i><br>
