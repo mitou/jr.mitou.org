@@ -63,9 +63,9 @@ title: 統計情報
 
 <h2 style="margin-bottom: 60px;">応募数の推移</h2>
 
-<div id="container"></div>
+<div id="applications"></div>
 <script type="text/javascript">
-Highcharts.chart('container', {
+Highcharts.chart('applications', {
    chart: {
      type: 'column',
      styledMode: true
