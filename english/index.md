@@ -1,7 +1,6 @@
 ---
 layout: english
-title: What is Mitou Jr?
-lang: en
+ng: en
 ---
 
 <div class="post">
