@@ -1,6 +1,6 @@
 ---
 layout: english
-ng: en
+lang: en
 ---
 
 <div class="post">
