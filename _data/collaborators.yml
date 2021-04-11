@@ -2,14 +2,6 @@
   img: coderdojo-japan.png
   url: https://coderdojo.jp/
 
-- name: Life is Tech!
-  img: life-is-tech.png
-  url: https://life-is-tech.com/
-
-- name: トビタテ！留学JAPAN
-  img: tobitate-japan.png
-  url: https://tobitate.mext.go.jp/
-
 - name: GPA ぐんまプログラミングアワード
   img: gpa.jpg
   url: https://www.gp-award.jp/
@@ -19,13 +11,13 @@
   url: https://techkidsschool.jp/
 
 - name: U-22 プログラミングコンテスト
-  img: u-22-pg-contest.jpg
+  img: bn-u22-2021.jpg
   url: https://u22procon.com/
 
 - name: 全国高専プログラミングコンテスト
   img: kousen-pg-contest.gif
   url: http://www.procon.gr.jp/
 
-- name: パソコン甲子園2020
-  img: PCK_banner.jpg
+- name: パソコン甲子園2021
+  img: PCK2021_banner.jpg
   url: https://u-aizu.ac.jp/pc-concours/index.html
