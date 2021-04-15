@@ -41,5 +41,5 @@ title: 未踏ジュニアとは
 
 ### 未踏関係者インタビュー
 未踏関係者に『**なんで未踏?**』という質問をしてみました。未踏について一歩深く知るキッカケになれば嬉しいです <i class="far fa-laugh-squint" aria-hidden="true"> <i class="far fa-thumbs-up" aria-hidden="true" />
-<div class="youtube"><iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="youtube"><iframe width="779" height="438" src="https://www.youtube.com/embed/playlist?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg&disable_polymer=true" class="button">YouTubeで視聴する</a>
