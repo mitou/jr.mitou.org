@@ -22,7 +22,7 @@ title: 応募の手引き
 ### 3. 応募フォームから提案書類をアップロードする (2021/4/17 23:59まで) {#apply}
 申請者情報と、オンライン面接の候補日、その他必要な情報をフォームに入力し、作成した申請書類をアップロードします。同じ提案を複数回送信した場合、以前の情報は無効になります。
 
-<a href="https://mitoujr.wufoo.com/forms/xooh8f51235adn/" class="button" target="_blank">応募フォームはこちら(4/17締切)</a>
+<a href="#" class="button">応募受付を締め切りました</a>
 
 {% include arrow.html %}
 
