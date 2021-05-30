@@ -35,7 +35,7 @@ jobs:
         SKIP_BUILD=true       bundle exec rake test
 
     - name: 🆖 Notify results (Failed)
-      if:   github.repository == 'mitou/jr.mitou.org' && failure()
+      if:   ${{ secrets.IDOBATA_GITHUB_ACTIONS }} != null && failure()
       uses: mahaker/actions-idobata@v1.1.1
       with:
         hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
@@ -47,7 +47,7 @@ jobs:
           </div>
 
     - name: 🆗 Notify results (Success)
-      if:   github.repository == 'mitou/jr.mitou.org' && success()
+      if:   ${{ secrets.IDOBATA_GITHUB_ACTIONS }} != null && success()
       uses: mahaker/actions-idobata@v1.1.1
       with:
         hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
