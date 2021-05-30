@@ -59,7 +59,7 @@
     - miyake_satoshi
 
 - id: color_overlap
-  title: Color Overlap-光の三原色RGBを使ったパズルゲーム
+  title: Color Overlap - 光の三原色RGBを使ったパズルゲーム
   description: 魔法によって「色」を奪われ石にされてしまった人々を救うパズルゲームです。光の３原色RGBの様々な形のブロックをうまく重ねて、王国に色を取り戻そう。Unityで制作しています。
   thumbnail: color_overlap.jpg
   youtube: _S-EyVp4y1Q
@@ -90,7 +90,7 @@
     - igarashi_ryo
 
 - id: mer
-  title: Mer-多機能電子リコーダー 
+  title: Mer - 多機能電子リコーダー 
   description: MERはリコーダーを元に、様々な機能を搭載した電子楽器です。発音が簡単なので、初心者でも完成度の高い演奏を体験できます。さらに、気圧センサ、ロータリーエンコーダ 、3D触覚センサを用いた高度な楽器制御が可能です。内蔵FM音源の他に、MIDI出力に対応しているので、ユーザーの好きな音源で演奏ができます。
   thumbnail: mer.png
   youtube: rQmgwLH8xI0
@@ -167,7 +167,7 @@
 
 - id: rocat
   link: https://rocat.jp/
-  title: Rocat-～モデルロケットを使ったSTEM教育～
+  title: Rocat ～モデルロケットを使ったSTEM教育～
   description: Rocatは様々なセンサを搭載したプログラミング可能なモデルロケットSTEM教材です。ロケットを組み立てて飛ばして得たデータを考察し合い、楽しく科学や技術への理解を深めていける教材の開発を行っています。
   thumbnail: rocat.png
   youtube: NXi1hunbMg0

@@ -21,7 +21,7 @@ lang: en
 
   <a href="/english/stats" class="button">Check acceptance rate</a>
 
-  <h2>Projects Showcase</h2>
+  <h2 id='showcase'>Projects Showcase</h2>
   <p>Over 100 projects (applications) are submitted to our Mitou Junior program every year, and approximately 10-13% of them are accepted.</p>
   <p>Example projects, accepted and boosted by our program, are as follows.</p>
 
@@ -58,7 +58,7 @@ lang: en
   <a href="/projects" class="button">Check accepted projects (in Japanese)</a>
 
 
-  <h2>Supporters and Sponsors</h2>
+  <h2 id='supporters'>Supporters and Sponsors</h2>
   <p>Mitou Junior is officially recognized and supported by the Ministry of Education, Culture, Sports, Science and Technology, and the Ministry of Economy, Trade and Industry. Also we have 10+ financial and in-kind sponsors.</p>
 </div>
 

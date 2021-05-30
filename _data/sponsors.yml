@@ -39,9 +39,9 @@
   url:  https://prog-8.com/
   type: inkind
 
-- name: YassLab 株式会社
-  img:  yasslab.jpg
-  url:  https://yasslab.jp/ja/
+- name: Ruby on Railsチュートリアル
+  img:  railstutorial.png
+  url:  https://railstutorial.jp/
   type: inkind
 
 - name: Helpfeel
