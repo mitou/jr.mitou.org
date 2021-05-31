@@ -44,6 +44,11 @@
   url:  https://railstutorial.jp/
   type: inkind
 
+- name: Helpfeel
+  img:  helpfeel.png
+  url:  https://helpfeel.com/
+  type: inkind
+
 - name: エドテックジン
   img:  ed-tech-zine.png
   url:  https://edtechzine.jp/
