@@ -112,8 +112,7 @@ Highcharts.chart('applications', {
 	 [Date.parse('2017'), 41],
 	 [Date.parse('2018'), 105],
 	 [Date.parse('2019'), 127],
-	 [Date.parse('2020'), 115],
-	 [Date.parse('2021'), 121]
+	 [Date.parse('2020'), 115]
        ]
      }
    ]
