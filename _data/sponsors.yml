@@ -54,6 +54,11 @@
   url:  https://helpfeel.com/
   type: inkind
 
+- name: GitHub
+  img:  github.png
+  url:  https://github.com/
+  type: inkind
+
 - name: エドテックジン
   img:  ed-tech-zine.png
   url:  https://edtechzine.jp/
