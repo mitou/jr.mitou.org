@@ -80,6 +80,16 @@ jobs:
       #  bundler-cache: true
       #  #ruby-version: 2.7 # Not necessary if `.ruby-version` is given
 
+    - name: 🧪 Install gems
+      run: |
+        bundle config set with 'test'
+        bundle config set path 'vendor/bundle'
+        bundle install --jobs 4 --retry 3
+
+    - name: 🔧 Build
+      run: |
+        JEKYLL_ENV=production bundle exec jekyll build
+
     #- name: 🤖 Generate individual pages by projects.yml data
     #  run: |
     #    bundle exec rake upsert_project_pages_by_data
