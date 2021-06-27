@@ -1,0 +1,213 @@
+<!DOCTYPE html> <html lang="en" dir="ltr"> <head> <meta charset="utf-8"> <title>Stats of Mitou Junior - Mitou Junior</title> <link rel="stylesheet" href="/assets/css/main.css"/> <meta name="viewport" content="width=device-width,initial-scale=1"> <script src="https://kit.fontawesome.com/82f32b9df5.js" crossorigin="anonymous"></script> <link rel="shortcut icon" href="/assets/img/favicon.ico"> <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700&display=swap" rel="stylesheet"> <meta name="author" content="Mitou Foundation - Mitou Jr Team"> <meta name="description" content="Enhance young innovative creators by supporting them with mentoring, financial backing, and networking."> <meta property="fb:admins" content="715330868"/> <meta property="fb:admins" content="1254438080"/> <meta property="fb:app_id" content="3454272331281041"/> <meta property="og:url" content="https://jr.mitou.org/english/stats.html"/> <meta property="og:site_name" content="Mitou Junior"/> <meta property="og:type" content="website"/> <meta property="og:locale" content="en_US"/> <meta name="twitter:site" content="@mitoujr"/> <meta name="twitter:card" content="summary"/> <meta name="twitter:image" content="https://jr.mitou.org/assets/img/twitter_card_square.png"> <meta property="og:image" content="https://jr.mitou.org/assets/img/facebook_ogp_image_en.png"/> <meta property="og:image:width" content="2050"/> <meta property="og:image:height" content="900"/> <meta property="og:title" content="Stats of Mitou Junior - Mitou Junior"/> <meta name="twitter:title" content="Stats of Mitou Junior - Mitou Junior"> <meta property="og:description" content="Enhance young innovative creators by supporting them with mentoring, financial backing, and networking."/> <meta name="twitter:description" content="Enhance young innovative creators by supporting them with mentoring, financial backing, and networking."> <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" sizes="180x180"> <link rel="manifest" href="/site.webmanifest"> <meta name="msapplication-TileColor" content="#509E48"> <meta name="theme-color" content="#509E48"> <!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]--> <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)
+   },i[r].l=1*new Date();a=s.createElement(o),
+			 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+   ga('create', 'UA-77183423-1', 'auto');
+   ga('send', 'pageview');
+  </script> </head> <body> <header> <a href="/english" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="Logo of Mitou Junior" class="lazyload" loading="lazy"></a> <a href="/english" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="Logo of Mitou Junior" class="lazyload" loading="lazy"></a> <label for="nav-check" class="ph nav-hamburger"><img src="/assets/img/bars.svg" alt="メニュー" style="width:24px;" class="lazyload" loading="lazy"></label> <input type="checkbox" id="nav-check" style="display:none;"/> <nav class="topnav pc"> <div class="header-left"> <a href="/english">Mitou Junior</a> <a href="/english/stats">Stats</a> </div> <a href="/" class="header-button">Switch to Japanese</a> </nav> <label for="nav-check" class="header-back"></label> </header> <div class="main"> <div class="page-head"> <h1>Stats of Mitou Junior</h1> </div> <div class="post"> <style type="text/css">
+@import '/assets/css/highcharts.css';
+
+#container {
+  height: 400px;
+  max-width: 800px;
+  margin: 0 auto;
+ }
+
+ @media screen and (max-width: 800px) {
+   #container {
+     width: 98vw;
+     margin-left: calc(-49vw + 50%);
+   }
+ }
+
+
+/* For series of applications */
+.highcharts-color-0 {
+  fill:   rgb(40, 161, 58);
+  stroke: rgb(40, 161, 58);
+}
+.highcharts-point {
+  fill: rgb(40, 161, 58);
+}
+.highcharts-axis-labels {
+  fill: #000000;
+ }
+.highcharts-axis-line {
+  stroke: rgb(40, 161, 58);
+}
+
+/* For another series (Not using for now) */
+.highcharts-color-1 {
+  fill: #90ed7d;
+  stroke: #90ed7d;
+}
+.highcharts-axis.highcharts-color-1 .highcharts-axis-line {
+  stroke: #90ed7d;
+}
+.highcharts-axis.highcharts-color-1 text {
+  fill: #90ed7d;
+}
+
+.highcharts-axis-line {
+  stroke-width: 2px;
+}
+.highcharts-yaxis {
+  stroke-width: 0px;
+}
+</style> <script src="/assets/js/highcharts.js"></script> <p style="margin-top: 50px;">This page shows the stats of Mitou Junior, which includes the number of applications, selected projects, and its acceptance rate. Feel free to use and share these information.</p> <center><small>( <i class="fas fa-mouse-pointer green"></i> Place the cursor or tap to check the number.)</small></center> <p><a href="/english" class="button">Back to top</a></p> <h2 style="margin-bottom: 60px;">Applications</h2> <div id="applications"></div> <script type="text/javascript">
+Highcharts.chart('applications', {
+   chart: {
+     type: 'column',
+     styledMode: true
+   },
+
+   title: {
+     text: ''
+   },
+
+   yAxis: [{
+     className: 'highcharts-color-0',
+     title: {
+       text: ''
+     },
+     labels: {
+       enabled: false,
+     },
+   }],
+   xAxis: [{
+     className: 'highcharts-color-0',
+     title: {
+       text: ''
+     },
+     type: 'datetime',
+     labels: {
+       format: '{value:%Y}',
+     },
+     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
+   }],
+
+   plotOptions: {
+     column: {
+       borderRadius: 5
+     }
+   },
+
+   series: [
+     {
+       name: 'Number of applications submitted',
+       data: [
+	 [Date.parse('2016'), 15],
+	 [Date.parse('2017'), 41],
+	 [Date.parse('2018'), 105],
+	 [Date.parse('2019'), 127],
+	 [Date.parse('2020'), 115]
+       ]
+     }
+   ]
+});
+</script> <h2 style="margin-bottom: 60px;">Selected Projects</h2> <div id="selections"></div> <script type="text/javascript">
+Highcharts.chart('selections', {
+   chart: {
+     type: 'column',
+     styledMode: true
+   },
+
+   title: {
+     text: ''
+   },
+
+   yAxis: [{
+     className: 'highcharts-color-0',
+     title: {
+       text: ''
+     },
+     labels: {
+       enabled: false,
+     },
+   }],
+   xAxis: [{
+     className: 'highcharts-color-0',
+     title: {
+       text: ''
+     },
+     type: 'datetime',
+     labels: {
+       format: '{value:%Y}',
+     },
+     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
+   }],
+
+   plotOptions: {
+     column: {
+       borderRadius: 5
+     }
+   },
+
+   series: [
+     {
+       name: 'Number of projects selected',
+       data: [
+	 [Date.parse('2016'),  4],
+	 [Date.parse('2017'), 11],
+	 [Date.parse('2018'), 12],
+	 [Date.parse('2019'), 13],
+	 [Date.parse('2020'), 15]
+       ]
+     }
+   ]
+});
+</script> <h2 style="margin-bottom: 60px;">Acceptance Rate</h2> <div id="chances"></div> <script type="text/javascript">
+Highcharts.chart('chances', {
+   chart: {
+     type: 'line',
+     styledMode: true
+   },
+
+   title: {
+     text: ''
+   },
+
+   yAxis: [{
+     className: 'highcharts-color-0',
+     title: {
+       text: ''
+     },
+     labels: {
+       enabled: false,
+     },
+   }],
+   xAxis: [{
+     className: 'highcharts-color-0',
+     title: {
+       text: ''
+     },
+     type: 'datetime',
+     labels: {
+       format: '{value:%Y}',
+     },
+     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
+   }],
+
+   plotOptions: {
+     column: {
+       borderRadius: 5
+     }
+   },
+
+   series: [
+     {
+       name: 'Acceptance Rate (%)',
+       data: [
+	 [Date.parse('2016'), 20.0],
+	 [Date.parse('2017'), 26.8],
+	 [Date.parse('2018'), 11.4],
+	 [Date.parse('2019'), 10.2],
+	 [Date.parse('2020'), 13.0]
+       ]
+     }
+   ]
+});
+</script> <h3><a href="/projects/2020" style="font-weight: bold;">2020</a></h3> <ul> <li><b>115 applications</b> were submitted.</li> <li><b>15 projects</b> were selected.</li> <li><b>13.0%</b> is the acceptance rate.</li> </ul> <p><b>22 creators</b> joined in the Mitou Junior program in 2020. <b>9 in 22 creators (40.9 %)</b> received an outstanding performance award this year.</p> <h3><a href="/projects/2019" style="font-weight: bold;">2019</a></h3> <ul> <li><b>127 applications</b> were submitted.</li> <li><b>13 projects</b> were selected.</li> <li><b>10.2%</b> is the acceptance rate.</li> </ul> <p><b>16 creators</b> joined in the Mitou Junior program in 2019. <b>9 in 16 creators (56.3 %)</b> received an outstanding performance award this year.</p> <h3><a href="/projects/2018" style="font-weight: bold;">2018</a></h3> <ul> <li><b>105 applications</b> were submitted.</li> <li><b>12 projects</b> were selected.</li> <li><b>11.4%</b> is the acceptance rate.</li> </ul> <p><b>14 creators</b> joined in the Mitou Junior program in 2018. <b>6 in 14 creators (42.9 %)</b> received an outstanding performance award this year.</p> <h3><a href="/projects/2017" style="font-weight: bold;">2017</a></h3> <ul> <li><b>41 applications</b> were submitted.</li> <li><b>11 projects</b> were selected.</li> <li><b>26.8%</b> is the acceptance rate.</li> </ul> <p><b>18 creators</b> joined in the Mitou Junior program in 2017. <b>6 in 18 creators (33.3 %)</b> received an outstanding performance award this year.</p> <h3><a href="/projects/2016" style="font-weight: bold;">2016</a></h3> <ul> <li><b>15 applications</b> were submitted.</li> <li><b>3 projects</b> were selected.</li> <li><b>20.0%</b> is the acceptance rate.</li> </ul> <p><b>4 creators</b> joined in the Mitou Junior program in 2016. Outstanding performace award started since 2017, so N/A this year.</p> <h2 id="contact">Contact</h2> <div style="margin-top: 50px;"> <p>Let us know if you have any questions or interests to the Mitou Junior program.</p> <div class="text-center" style="margin-top: 30px;"> <i class="fas fa-envelope green" style="font-size:36px;"></i><br/> <a href="mailto:jr@mitou.org">jr@mitou.org</a> </div> </div> </div> </div> <footer> <a href="/english">Top</a> <a href="/english/stats">Stats</a> <a href="/">Switch to Japanese</a> <div class="sns"> <a href="https://twitter.com/mitoujr"><i class="fab fa-twitter"></i></a> <a href="https://facebook.com/mitoujr"><i class="fab fa-facebook"></i></a> <a href="https://github.com/mitou/jr.mitou.org"><i class="fab fa-github"></i></a> <a href="https://anchor.fm/mitoujr"><i class="fab fa-spotify"></i></a> <a href="https://youtube.com/mitoujr"><i class="fab fa-youtube"></i></a> </div> <span class="copyright">Copyright &copy; Mitou Foundation - Mitou Jr Team</span> </footer> <script src="/assets/js/lazysizes.min.js" async=""></script> </body> </html>
