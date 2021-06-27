@@ -67,6 +67,15 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     steps:
+    - name: ☑️ Checkout code
+      uses: actions/checkout@v2
+
+    - name: 💎 Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+        #ruby-version: 2.7 # Not necessary if `.ruby-version` is given
+
     - name: 🤖 Generate individual pages by projects.yml data
       run: |
         bundle exec rake upsert_project_pages_by_data
