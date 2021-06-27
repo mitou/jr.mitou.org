@@ -76,9 +76,9 @@ jobs:
 
     - name: 💎 Setup Ruby
       uses: ruby/setup-ruby@v1
-      with:
-        bundler-cache: true
-        #ruby-version: 2.7 # Not necessary if `.ruby-version` is given
+      #with:
+      #  bundler-cache: true
+      #  #ruby-version: 2.7 # Not necessary if `.ruby-version` is given
 
     - name: 🤖 Generate individual pages by projects.yml data
       run: |
