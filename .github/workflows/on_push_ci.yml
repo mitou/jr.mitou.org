@@ -14,8 +14,8 @@ jobs:
 
     - name: 💎 Setup Ruby
       uses: ruby/setup-ruby@v1
-      with:
-        bundler-cache: true
+      #with:
+        #bundler-cache: true
         #ruby-version: 2.7 # Not necessary if `.ruby-version` is given
 
     - name: 👤 Get commit info for notification
