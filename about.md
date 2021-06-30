@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 未踏ジュニアとは
+description: 未踏ジュニアにようこそ! 本ページでは初めての方を対象としたコンテンツをまとめています。
 ---
 
 <p style='margin: 50px auto;'><b>未踏ジュニアへようこそ!</b> 本ページでは初めての方を対象としたコンテンツをまとめています <i class="fas fa-tv green" aria-hidden="true"></i> ✨</p>
