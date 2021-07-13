@@ -115,7 +115,8 @@ Highcharts.chart('applications', {
 	 [Date.parse('2017'), 41],
 	 [Date.parse('2018'), 105],
 	 [Date.parse('2019'), 127],
-	 [Date.parse('2020'), 115]
+	 [Date.parse('2020'), 115],
+	 [Date.parse('2021'), 123]
        ]
      }
    ]
@@ -170,7 +171,8 @@ Highcharts.chart('selections', {
 	 [Date.parse('2017'), 11],
 	 [Date.parse('2018'), 12],
 	 [Date.parse('2019'), 13],
-	 [Date.parse('2020'), 15]
+	 [Date.parse('2020'), 15],
+	 [Date.parse('2021'), 14]
        ]
      }
    ]
@@ -226,7 +228,8 @@ Highcharts.chart('chances', {
 	 [Date.parse('2017'), 26.8],
 	 [Date.parse('2018'), 11.4],
 	 [Date.parse('2019'), 10.2],
-	 [Date.parse('2020'), 13.0]
+	 [Date.parse('2020'), 13.0],
+	 [Date.parse('2021'), 11.4]
        ]
      }
    ]
@@ -244,8 +247,10 @@ Highcharts.chart('chances', {
 
 {% if stat.year == 2016 %}
 <b>{{ stat.creators }} creators</b> joined in the Mitou Junior program in {{ stat.year }}. Outstanding performace award started since 2017, so N/A this year.
-{% else %}
+{% elsif stat.creators and stat.spc %}
 <b>{{ stat.creators }} creators</b> joined in the Mitou Junior program in {{ stat.year }}. <b>{{ stat.spc }} in {{ stat.creators }} creators ({{ stat.spc_rate }} %)</b> received an outstanding performance award this year.
+{% else %}
+Mitou Junior program in {{ stat.year }} is now in progress. Number of creators and who received outstanding performance award will be published later this year.
 {% endif %}
 
 {% endfor %}
