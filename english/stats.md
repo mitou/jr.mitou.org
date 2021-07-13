@@ -111,12 +111,9 @@ Highcharts.chart('applications', {
      {
        name: 'Number of applications submitted',
        data: [
-	 [Date.parse('2016'), 15],
-	 [Date.parse('2017'), 41],
-	 [Date.parse('2018'), 105],
-	 [Date.parse('2019'), 127],
-	 [Date.parse('2020'), 115],
-	 [Date.parse('2021'), 123]
+	 {% for stat in site.data.stats reversed %}
+	 [Date.parse('{{ stat.year }}'), {{ stat.applications }}]{% unless forloop.last %},{% endunless %}
+	 {% endfor %}
        ]
      }
    ]
@@ -167,12 +164,9 @@ Highcharts.chart('selections', {
      {
        name: 'Number of projects selected',
        data: [
-	 [Date.parse('2016'),  4],
-	 [Date.parse('2017'), 11],
-	 [Date.parse('2018'), 12],
-	 [Date.parse('2019'), 13],
-	 [Date.parse('2020'), 15],
-	 [Date.parse('2021'), 14]
+	 {% for stat in site.data.stats reversed %}
+	 [Date.parse('{{ stat.year }}'), {{ stat.projects }}]{% unless forloop.last %},{% endunless %}
+	 {% endfor %}
        ]
      }
    ]
@@ -224,12 +218,9 @@ Highcharts.chart('chances', {
      {
        name: 'Acceptance Rate (%)',
        data: [
-	 [Date.parse('2016'), 20.0],
-	 [Date.parse('2017'), 26.8],
-	 [Date.parse('2018'), 11.4],
-	 [Date.parse('2019'), 10.2],
-	 [Date.parse('2020'), 13.0],
-	 [Date.parse('2021'), 11.4]
+	 {% for stat in site.data.stats reversed %}
+	 [Date.parse('{{ stat.year }}'), {{ stat.acceptance_rate }}]{% unless forloop.last %},{% endunless %}
+	 {% endfor %}
        ]
      }
    ]

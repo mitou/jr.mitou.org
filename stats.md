@@ -109,12 +109,9 @@ Highcharts.chart('applications', {
      {
        name: '応募数',
        data: [
-	 [Date.parse('2016'), 15],
-	 [Date.parse('2017'), 41],
-	 [Date.parse('2018'), 105],
-	 [Date.parse('2019'), 127],
-	 [Date.parse('2020'), 115],
-	 [Date.parse('2021'), 123]
+	 {% for stat in site.data.stats reversed %}
+	 [Date.parse('{{ stat.year }}'), {{ stat.applications }}]{% unless forloop.last %},{% endunless %}
+	 {% endfor %}
        ]
      }
    ]
@@ -165,12 +162,9 @@ Highcharts.chart('selections', {
      {
        name: '採択数',
        data: [
-	 [Date.parse('2016'),  3],
-	 [Date.parse('2017'), 11],
-	 [Date.parse('2018'), 12],
-	 [Date.parse('2019'), 13],
-	 [Date.parse('2020'), 15],
-	 [Date.parse('2021'), 14]
+	 {% for stat in site.data.stats reversed %}
+	 [Date.parse('{{ stat.year }}'), {{ stat.projects }}]{% unless forloop.last %},{% endunless %}
+	 {% endfor %}
        ]
      }
    ]
@@ -222,12 +216,9 @@ Highcharts.chart('chances', {
      {
        name: '倍率',
        data: [
-	 [Date.parse('2016'), 5.0],
-	 [Date.parse('2017'), 3.73],
-	 [Date.parse('2018'), 8.75],
-	 [Date.parse('2019'), 9.77],
-	 [Date.parse('2020'), 7.67],
-	 [Date.parse('2021'), 8.79]
+	 {% for stat in site.data.stats reversed %}
+	 [Date.parse('{{ stat.year }}'), {{ stat.competition_rate }}]{% unless forloop.last %},{% endunless %}
+	 {% endfor %}
        ]
      }
    ]
@@ -237,6 +228,7 @@ Highcharts.chart('chances', {
 
 {% for stat in site.data.stats %}
 <h3>
+  <!-- NOTE: Latest projects page will be published after its final registration page. -->
   {% if stat.creators %}
   <a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }} 年度</a>
   {% else %}
