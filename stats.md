@@ -236,7 +236,13 @@ Highcharts.chart('chances', {
 
 
 {% for stat in site.data.stats %}
-<h3><a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }} 年度</a></h3>
+<h3>
+  {% if stat.creators %}
+  <a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }} 年度</a>
+  {% else %}
+  {{ stat.year }} 年度
+  {% endif %}
+</h3>
 <ul>
   {% comment %}
   <!-- NOTE: Check if manual stats data are exactly matched with calcularated ones by uncommentting. -->

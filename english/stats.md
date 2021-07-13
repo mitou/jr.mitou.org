@@ -238,7 +238,13 @@ Highcharts.chart('chances', {
 
 
 {% for stat in site.data.stats %}
-<h3><a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }}</a></h3>
+<h3>
+  {% if stat.creators %}
+  <a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }}</a>
+  {% else %}
+  {{ stat.year }}
+  {% endif %}
+</h3>
 <ul>
   <li><b>{{ stat.applications    }} applications</b> were submitted.</li>
   <li><b>{{ stat.projects        }} projects</b> were selected.</li>
@@ -250,7 +256,7 @@ Highcharts.chart('chances', {
 {% elsif stat.creators and stat.spc %}
 <b>{{ stat.creators }} creators</b> joined in the Mitou Junior program in {{ stat.year }}. <b>{{ stat.spc }} in {{ stat.creators }} creators ({{ stat.spc_rate }} %)</b> received an outstanding performance award this year.
 {% else %}
-Mitou Junior program in {{ stat.year }} is now in progress. Number of creators and who received outstanding performance award will be published later this year.
+Mitou Junior program in {{ stat.year }} is now in progress. Number of creators and who received outstanding performance award will be published by late this year or early next year.
 {% endif %}
 
 {% endfor %}

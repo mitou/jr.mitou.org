@@ -2,7 +2,6 @@
 # acceptance_rate  = projects / applications * 100 [%]
 # spc_rate         = spc / creators * 100 [%]
 
-
 - year: 2021
   applications: 123
   projects: 14
