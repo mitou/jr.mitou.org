@@ -113,7 +113,8 @@ Highcharts.chart('applications', {
 	 [Date.parse('2017'), 41],
 	 [Date.parse('2018'), 105],
 	 [Date.parse('2019'), 127],
-	 [Date.parse('2020'), 115]
+	 [Date.parse('2020'), 115],
+	 [Date.parse('2021'), 123]
        ]
      }
    ]
@@ -168,7 +169,8 @@ Highcharts.chart('selections', {
 	 [Date.parse('2017'), 11],
 	 [Date.parse('2018'), 12],
 	 [Date.parse('2019'), 13],
-	 [Date.parse('2020'), 15]
+	 [Date.parse('2020'), 15],
+	 [Date.parse('2021'), 14]
        ]
      }
    ]
@@ -224,7 +226,8 @@ Highcharts.chart('chances', {
 	 [Date.parse('2017'), 3.73],
 	 [Date.parse('2018'), 8.75],
 	 [Date.parse('2019'), 9.77],
-	 [Date.parse('2020'), 7.67]
+	 [Date.parse('2020'), 7.67],
+	 [Date.parse('2021'), 8.79]
        ]
      }
    ]
@@ -249,8 +252,10 @@ Highcharts.chart('chances', {
 
 {% if stat.year == 2016 %}
 修了したクリエータ数は {{ stat.creators }} 名でした。なお、スーパークリエータ認定制度は2017年度から始まったため、{{ stat.year }}年度のデータはありません。
-{% else %}
+{% elsif stat.creators and stat.spc %}
 修了したクリエータ数は {{ stat.creators }} 名、そのうち {{ stat.spc }} 名をスーパークリエータと認定しました。
+{% else %}
+修了したクリエータ数およびスーパークリエータ認定数は後日発表されます。
 {% endif %}
 
 {% endfor %}

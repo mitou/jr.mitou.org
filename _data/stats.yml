@@ -1,3 +1,17 @@
+# competition_rate = projects / applications [%]
+# acceptance_rate  = applications / projects * 100 [%]
+# spc_rate         = spc / creators * 100 [%]
+
+
+- year: 2021
+  applications: 123
+  projects: 14
+  competition_rate: 8.79 # 8.7858 倍
+  #acceptance_rate: TBA
+  #creators: TBA
+  #spc: TBA
+  #spc_rate: TBA
+
 - year: 2020
   applications: 115
   projects: 15
