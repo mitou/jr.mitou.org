@@ -1,7 +1,7 @@
 [![Test & Deploy](https://github.com/mitou/jr.mitou.org/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/mitou/jr.mitou.org/actions?query=workflow%3A%22Test+%26+Deploy%22)
 
 # 未踏ジュニア公式Webサイト
-[![Cover Photo of Mitou Junior](https://raw.githubusercontent.com/mitou/jr.mitou.org/master/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
+[![Cover Photo of Mitou Junior](https://raw.githubusercontent.com/mitou/jr.mitou.org/main/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
 
 本リポジトリは未踏ジュニア[公式Webサイト](https://jr.mitou.org/)の公開リポジトリです。   
 本READMEでは、当該Webサイトの更新方法を目的別にまとめています。
@@ -19,7 +19,7 @@
 
 
 ## :bookmark_tabs: メディア掲載を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [`media.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/media.yml) にメディア掲載記事の情報があります。  
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`media.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/media.yml) にメディア掲載記事の情報があります。  
 上が新しい情報になるように記述するとよいでしょう。
 
 それぞれの項目は以下のような内容です。
@@ -30,7 +30,7 @@
 ```
 
 ## :rocket: プロジェクト情報を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [`projects.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/projects.yml) にプロジェクトの情報があります。
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) にプロジェクトの情報があります。
 
 それぞれの項目は以下のような内容です。
 ```yml
@@ -48,7 +48,7 @@
 ```
 
 ## :busts_in_silhouette: クリエータ情報を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [`creators.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/creators.yml) にクリエーターの情報があります。  
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) にクリエーターの情報があります。  
 
 それぞれの項目は以下のような内容です。
 ```yml
@@ -61,7 +61,7 @@
 ```
 
 ## :bust_in_silhouette: メンター情報を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/master/_data) 内の [`mentors.yml`](https://github.com/mitou/jr.mitou.org/blob/master/_data/mentors.yml) にメンターの情報があります。 
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`mentors.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/mentors.yml) にメンターの情報があります。 
 
 それぞれの項目は以下のような内容です。
 ```yml
@@ -107,9 +107,9 @@ $ bundle exec jekyll server
 $ bundle exec rake test
 ```
 
-テスト内容の詳細は [Rakefile](https://github.com/mitou/jr.mitou.org/blob/master/Rakefile) をご参照ください。
+テスト内容の詳細は [Rakefile](https://github.com/mitou/jr.mitou.org/blob/main/Rakefile) をご参照ください。
 
-上記テストは [GitHub Actions](https://github.com/mitou/jr.mitou.org/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [.github/workflows](https://github.com/mitou/jr.mitou.org/tree/master/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
+上記テストは [GitHub Actions](https://github.com/mitou/jr.mitou.org/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [.github/workflows](https://github.com/mitou/jr.mitou.org/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
 
 
 ## :copyright: クレジット

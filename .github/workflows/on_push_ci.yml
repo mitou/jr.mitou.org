@@ -64,7 +64,7 @@ jobs:
 
   # Deploy job is triggered only pushed to main branch && CI passed
   deploy:
-    if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/master' }}
+    if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
     needs: test
     runs-on: ubuntu-latest
     steps:
@@ -96,17 +96,17 @@ jobs:
             git config user.name  "Yohei Yasukawa"
             git config user.email "yohei@yasslab.jp"
             git remote set-url origin https://github-actions:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-            git checkout master
+            git checkout main
             git add _posts/
             git commit -m '🤖 Upsert project page(s) by GitHub Actions'
-            git push origin master
+            git push origin main
           else
             echo "Detect syntax error in '_data/projects.yml' file, check its syntax."
           fi
         fi
 
     - name: 🚀 Deploy to GitHub Pages
-      if:   github.ref == 'refs/heads/master' && job.status == 'success'
+      if:   github.ref == 'refs/heads/main' && job.status == 'success'
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.GITHUB_TOKEN }}
