@@ -43,7 +43,6 @@ jobs:
           echo "COMMIT_URL=https://github.com/${{github.repository}}/commit/$head_sha" >> $GITHUB_ENV
           echo "COMMIT_LINK=${{ github.repository }}#$head_sha"                        >> $GITHUB_ENV
         fi
-      # NOTE: ${{ github.event.head_commit.message }} is empty string if Pull Request triggers Actions.
 
     - name: 🔧 Build & Test
       run: |
