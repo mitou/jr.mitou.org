@@ -34,12 +34,6 @@ jobs:
         fi
       # NOTE: ${{ github.event.head_commit.message }} is empty string if Pull Request triggers Actions.
 
-    - name: 🧪 Install gems
-      run: |
-        bundle config set with 'test'
-        bundle config set path 'vendor/bundle'
-        bundle install --jobs 4 --retry 3
-
     - name: 🔧 Build & Test
       run: |
         JEKYLL_ENV=production bundle exec jekyll build
