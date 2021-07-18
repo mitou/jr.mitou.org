@@ -30,6 +30,7 @@ jobs:
         SKIP_BUILD=true       bundle exec rake test
 
     - name: 👤 Get commit info for notification
+      if:   always()
       run: |
         echo "COMMIT_ACTOR=${{ github.actor }}" | awk -F '-preview' '{print $1}' >> $GITHUB_ENV
         if [ "${{ job.status }}" = "success" ]; then
