@@ -29,7 +29,7 @@ jobs:
         JEKYLL_ENV=production bundle exec jekyll doctor
         SKIP_BUILD=true       bundle exec rake test
 
-    - name: 👤 Get commit info for notification
+    - name: 👤 Set env vars for notification
       if:   always()
       run: |
         echo "COMMIT_ACTOR=${{ github.actor }}" | awk -F '-preview' '{print $1}' >> $GITHUB_ENV
