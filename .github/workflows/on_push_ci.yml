@@ -28,13 +28,15 @@ jobs:
         echo "COMMIT_ACTOR=${{ github.actor }}" | awk -F '-preview' '{print $1}' >> $GITHUB_ENV
         if [ "${{ github.event_name }}" = "pull_request" ]; then
           head_sha=$(git rev-parse --short=8 ${{ github.event.pull_request.head.sha }})
-          echo "COMMIT_SHA=$head_sha"                                   >> $GITHUB_ENV
-          echo "COMMIT_MESSAGE=$(git log --format=%B -n 1 $head_sha)"   >> $GITHUB_ENV
+          echo "COMMIT_SHA=$head_sha"                    >> $GITHUB_ENV
+          echo "COMMIT_MESSAGE<<EOF"                      >> $GITHUB_ENV
+          echo "$(git log --format=%B -n 1 $head_sha)"   >> $GITHUB_ENV
+          echo "EOF"                                     >> $GITHUB_ENV
           echo "COMMIT_URL=${{ github.event.pull_request.html_url }}"   >> $GITHUB_ENV
           echo "COMMIT_LINK=${{github.repository}}#${{github.event.pull_request.number}}" >> $GITHUB_ENV
         else
           head_sha=$(git rev-parse --short=8 ${{ github.sha }})
-          echo "COMMIT_SHA=$head_sha"                                   >> $GITHUB_ENV
+          echo "COMMIT_SHA=$head_sha"                    >> $GITHUB_ENV
           echo "COMMIT_MESSAGE<<EOF"                     >> $GITHUB_ENV
           echo "${{ github.event.head_commit.message }}" >> $GITHUB_ENV
           echo "EOF"                                     >> $GITHUB_ENV
