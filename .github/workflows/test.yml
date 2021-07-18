@@ -75,7 +75,7 @@ jobs:
 
   # Deploy job is triggered only pushed to main branch && CI passed
   deploy:
-    if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     needs: test
     runs-on: ubuntu-latest
     steps:
