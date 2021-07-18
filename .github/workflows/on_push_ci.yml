@@ -20,17 +20,17 @@ jobs:
     - name: 👤 Get commit info for notification
       run: |
         echo "COMMIT_ACTOR=${{ github.actor }}" | awk -F '-preview' '{print $1}' >> $GITHUB_ENV
-        echo "COMMIT_SHORT_SHA=$(git rev-parse --short=8 ${{ github.sha }})"     >> $GITHUB_ENV
+        echo "COMMIT_SHA=$(git rev-parse --short=8 ${{ github.sha }})"     >> $GITHUB_ENV
         if [ "${{ github.event_name }}" = "pull_request" ]; then
-          head_sha=$(git rev-parse --short=8 ${{ github.event.pull_request.head.sha }})
-          echo "COMMIT_MESSAGE=$(git log --format=%B -n 1 $head_sha)"            >> $GITHUB_ENV
-          echo "COMMIT_URL=${{ github.event.pull_request.html_url }}"            >> $GITHUB_ENV
+          echo "COMMIT_MESSAGE=$(git log --format=%B -n 1 ${{ env.COMMIT_SHA }})"         >> $GITHUB_ENV
+          echo "COMMIT_URL=${{ github.event.pull_request.html_url }}"                     >> $GITHUB_ENV
           echo "COMMIT_LINK=${{github.repository}}#${{github.event.pull_request.number}}" >> $GITHUB_ENV
         else
           head_sha=$(git rev-parse --short=8 ${{ github.sha }})
-          echo "COMMIT_MESSAGE=${{ github.event.head_commit.message }}"          >> $GITHUB_ENV
-          echo "COMMIT_URL=https://github.com/${{ github.repository }}/commit/$head_sha" >> $GITHUB_ENV
-          echo "COMMIT_LINK=${{ github.repository }}#$head_sha"                          >> $GITHUB_ENV
+          base_url="https://github.com/"
+          echo "COMMIT_MESSAGE=${{ github.event.head_commit.message }}"                    >> $GITHUB_ENV
+          echo "COMMIT_URL=$base_url${{ github.repository }}/commit/${{ env.COMMIT_SHA }}" >> $GITHUB_ENV
+          echo "COMMIT_LINK=${{ github.repository }}#$head_sha"                            >> $GITHUB_ENV
         fi
       # NOTE: ${{ github.event.head_commit.message }} is empty string if Pull Request triggers Actions.
 
@@ -51,7 +51,7 @@ jobs:
         message: |
           <div>
           CI build for <a href='${{ env.COMMIT_URL }}'>${{ env.COMMIT_LINK }}</a> : <span class='label label-danger'>Failure</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>GitHub Actions</a>)<br>
-          <img src='https://github.com/${{ env.COMMIT_ACTOR }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ env.COMMIT_ACTOR }}'>${{ env.COMMIT_ACTOR }}</a>: ${{ env.COMMIT_MESSAGE }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHORT_SHA }}</a>)
+          <img src='https://github.com/${{ env.COMMIT_ACTOR }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ env.COMMIT_ACTOR }}'>${{ env.COMMIT_ACTOR }}</a>: ${{ env.COMMIT_MESSAGE }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHA }}</a>)
           </div>
 
     - name: 🆗 Notify results (Success)
@@ -65,7 +65,7 @@ jobs:
         message: |
           <div>
           CI build for <a href='${{ env.COMMIT_URL }}'>${{ env.COMMIT_LINK }}</a> : <span class='label label-success'>Success</span> (<a href='https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'>GitHub Actions</a>)<br>
-          <img src='https://github.com/${{ env.COMMIT_ACTOR }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ env.COMMIT_ACTOR }}'>${{ env.COMMIT_ACTOR }}</a>: ${{ env.COMMIT_MESSAGE }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHORT_SHA }}</a>)
+          <img src='https://github.com/${{ env.COMMIT_ACTOR }}.png' class='icon-rounded' width='16' height='16'> <a href='https://github.com/${{ env.COMMIT_ACTOR }}'>${{ env.COMMIT_ACTOR }}</a>: ${{ env.COMMIT_MESSAGE }} (<a href='https://github.com/${{ github.repository }}/commit/${{ github.sha }}'>${{ env.COMMIT_SHA }}</a>)
           </div>
 
   # Deploy job is triggered only pushed to main branch && CI passed
