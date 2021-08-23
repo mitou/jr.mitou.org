@@ -7,7 +7,7 @@
 #  youtube: YouTube動画。「?v=xxxx」の "xxxx" 部分。まだ無い場合は「TBD」を入力
 #  year: 採択プロジェクトの年度。例: 2018
 #  link: 公式サイトへのリンク（任意）。例: https://visi.dev/
-#  mentor_id: 「mentors.yml」にあるメンターIDを入力。例: yasukawa_yohei
+#  mentor_id: 「mentors.yml」にあるメンターIDを入力。例: yasulab
 #  creator_ids:
 #  - 「cretors.yml」にあるクリエータID。例：mihashi
 #  - 複数名いる場合は、複数記述します
@@ -85,7 +85,7 @@
   youtube: cwYkmn3oA_o
   link: https://visi.dev
   year: 2020
-  mentor_id: yasukawa_yohei
+  mentor_id: yasulab
   creator_ids:
     - igarashi_ryo
 
@@ -196,7 +196,7 @@
   title: DetExploit - Windows用OSS脆弱性スキャナー
   creator_ids:
     - takayama_naoki
-  mentor_id: yasukawa_yohei
+  mentor_id: yasulab
   description: DetExploitはWindowsにインストールされている脆弱なソフトウェアを検知し、ユーザーに通知するオープンソースの脆弱性スキャナーです。WMIやレジストリなどのWindows独自機能を使い、高精度なスキャンを実現しています。
   thumbnail: det_exploit.jpg
   youtube: 0XUID-IQzEk
@@ -324,7 +324,7 @@
   title: UTIPS - 家事の情報共有サービス
   creator_ids:
     - mihashi_yuuki
-  mentor_id: yasukawa_yohei
+  mentor_id: yasulab
   description: 家事のやり方を共有するWEBサービスを開発。ほかの家のやり方を知ることで、よりよい家事をできるように支援。
   comment: Webサービスの開発が初めてでありながら、サービスのコンセプトやデザイン設計、実装や運用、ヒアリング用のテスト環境の構築などがすべて短期間で終えられた点を評価したい。 また、国内や海外のイベントへの積極的展示、言語別にデータを切り変えたヒアリング、ユーザーと対話・協力しながら進めていくスタイルなど、１歩ずつではあるが確実にWebサービスを改善し続けていた点も評価したい。 自分は何をしたいのか」を大切にして今後も１歩ずつ進んでいって欲しい。
   thumbnail: utips.jpg
@@ -570,7 +570,7 @@
   creator_ids:
     - ohno_tomoki
     - suzuki_sousuke
-  mentor_id: yasukawa_yohei
+  mentor_id: yasulab
   description: 配置したGUI要素を線で繋いでいくことでアプリケーションを作っていけるビジュアルプログラミング言語を開発。
   comment: 大野さんと鈴木さんは二人とも十分な開発経験を既に持っており、期間中はプロダクト開発手法を作りながら学ぶことに終始フォーカスできた。今回開発した「vamboo」をリリースさせ、ユーザーテストも行い、OSS として英語で公開した成果には「未来の当たり前」を感じさせられた。未踏コミュニティをうまく活用して、今後は僕らの理解できない未踏の領域を切り開いて欲しい。
   thumbnail: vamboo.png
