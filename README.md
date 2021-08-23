@@ -41,7 +41,7 @@
   youtube: YouTube動画。「?v=xxxx」の "xxxx" 部分。まだ無い場合は「TBD」を入力
   year: 採択プロジェクトの年度。例: 2018
   link: 公式サイトへのリンク（任意）。例: https://visi.dev/
-  mentor_id: 「mentors.yml」にあるメンターIDを入力。例: yasukawa_yohei
+  mentor_id: 「mentors.yml」にあるメンターIDを入力。例: yasulab
   creator_ids:
   - 「cretors.yml」にあるクリエータID。例：mihashi
   - 複数名いる場合は、複数記述します
@@ -54,7 +54,7 @@
 ```yml
 - id: クリエータのID。例: mihashi
   project_id: 開発したプロジェクトのID。例: utips
-  mentor_id: 担当メンターのID。例: yasukawa_yohei`
+  mentor_id: 担当メンターのID。例: yasulab`
   name: クリエータの名前。例: 三橋 優希
   is_spc: スーパークリエータ認定について。例：true
   year: 何年度に採択されたプロジェクトか。例: 2018
@@ -65,11 +65,11 @@
 
 それぞれの項目は以下のような内容です。
 ```yml
-- id: メンターの ID (例: yasukawa_yohei)
+- id: メンターの ID (例: yasulab)
   name:
     last: 名字。例：安川
     first: 名前。例: 要平
-  img: `/assets/img/mentors/` に置いたプロフィール画像のファイル名。例: yasukawa.png
+  img: `/assets/img/mentors/` に置いたプロフィール画像のファイル名。例: yasulab.png
   affiliation: 所属。例：YassLab 株式会社, 一般社団法人 CoderDojo Japan
   interested: こんな提案をお待ちしております。例：スクリプト言語やWebの特長を活かした…（略）
   bio: 略歴。aタグも使えるよ！例：<a href="https://yasslab.jp/">YassLab</a> 代表取締役…（略）
