@@ -16,7 +16,10 @@
        Thumbnail Mode shows image instead of video for better rendering time.
        This mode is usually fit to often-accessed pages like Top page.
   -->
-  {% if pj.youtube == 'TBD' %}
+  {% if pj.youtube == 'TBD' and pj.thumbnail == 'tbu.png' %}
+  <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/tbu.png"
+       alt="{{ pj.title }}" class="project-thumbnail lazyload" />
+  {% elsif pj.youtube == 'TBD' %}
   <!-- TBD is used for project showcases with no PV before the final because no videos recorded then. -->
   <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}"
        alt="{{ pj.title }}" class="project-thumbnail lazyload" />
@@ -31,8 +34,8 @@
     <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}"
          alt="{{ pj.title }}" class="project-thumbnail lazyload" />
   </a>
-  {% endif %}
 
+  {% endif %}
   <h4>概要</h4>
   <p class="project-description">{{ pj.description }}</p>
 

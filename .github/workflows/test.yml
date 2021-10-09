@@ -30,10 +30,12 @@ jobs:
         SKIP_BUILD=true       bundle exec rake test
 
     - name: 🔔 Notify results
+      env:
+        IDOBATA_GITHUB_ACTIONS: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
+      if: always() && ( env.IDOBATA_GITHUB_ACTIONS!= null )
       uses: yasslab/idobata_notify@main # https://github.com/yasslab/idobata_notify
-      if: always()
       with:
-        idobata_hook_url: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
+        idobata_hook_url: ${{ env.IDOBATA_GITHUB_ACTIONS }}
 
   # Deploy job is triggered only pushed to main branch && CI passed
   deploy:
