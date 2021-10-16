@@ -81,8 +81,7 @@
 
 ## :hammer_and_wrench: Webサイトの仕組みを改善したい
 
-ローカル環境のブラウザで確認したい場合は、
-次の手順でローカルサーバーを立ち上げてください。
+ローカル環境のブラウザで確認したい場合は、次の手順でローカルサーバーを立ち上げてください。
 
 ```shell
 # Ruby が入っていることを確認
@@ -95,8 +94,15 @@ $ bundle install
 $ bundle exec jekyll server
 ```
 
-無事にローカルサーバーが立ち上がったら、
-[http://localhost:4000/](http://localhost:4000/) でアクセスできます。
+無事にローカルサーバーが立ち上がったら [http://localhost:4000/](http://localhost:4000/) でアクセスできます。
+
+### プロジェクト個別ページを生成したい
+[GitHub Actions で自動化](https://github.com/mitou/jr.mitou.org/blob/main/.github/workflows/test.yml)されているため毎回実行する必要はありませんが、例えば新しい年度の採択プロジェクトを新規に掲載したい場面 (例: [#73](https://github.com/mitou/jr.mitou.org/pull/73)) などがあれば、下記コマンドで手動でプロジェクト個別ページを生成・確認できます。
+
+```bash
+# _data/project.yml からプロジェクト個別ページを生成する
+$ bundle exec rake upsert_project_pages_by_data
+```
 
 ### :robot: リンク切れはテストで検知できます
 
