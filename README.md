@@ -107,7 +107,9 @@ $ bundle exec jekyll server
 
 無事にローカルサーバーが立ち上がったら [http://localhost:4000/](http://localhost:4000/) でアクセスできます。
 
-### プロジェクト個別ページを生成したい
+<br>
+
+### :scroll: プロジェクト個別ページを生成したい
 [GitHub Actions で自動生成される](https://github.com/mitou/jr.mitou.org/blob/main/.github/workflows/test.yml)ため毎回実行する必要はありませんが、新しい年度の採択プロジェクトの新規掲載時に手動で生成・確認したい場面などあれば、下記コマンドでプロジェクト個別ページを生成してください。
 
 ```bash
