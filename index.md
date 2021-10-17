@@ -5,9 +5,8 @@ layout: default
 
 <div class="cover-photo">
   <img src="/assets/img/2019_all.min.png" data-src="/assets/img/2019_all.png" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
-  <a href="/guideline" class="dialog ignore-sp">
-    2021年度の応募受付を締め切りました!<br>
-    たくさんのご応募ありがとうございます 🙏</a>
+  <a href="/final" class="dialog ignore-sp">
+    11/3(水祝) 10:00 - 18:00で最終成果報告会のオンライン配信を行います。</a>
 </div>
 
 <section id="about">
