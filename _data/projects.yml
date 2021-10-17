@@ -52,7 +52,7 @@
   description: あらゆるデータを複数の周波数と振幅の合成波に変換し、空間と時間を活用した通信を提供するプロトコルです。口頭での伝達が難しいファイルや情報を高速正確に転送することができ、スマホアプリ化により様々な用途への導入も容易で、費用や特別な設備を必要としません。
   thumbnail: telport.png
   youtube: TBD
-  link: https://telport.mugisus.com
+  #link: https://telport.mugisus.com #公開され次第追加
   year: 2021
   mentor_id: shouya_ishimaru
   creator_ids:
