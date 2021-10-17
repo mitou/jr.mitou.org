@@ -5,7 +5,7 @@ year:   2021
 ---
 
 <br>
-2021年11月3日(水祝) 10:00 - 18:00 に、2021年度未踏ジュニア最終成果報告会を<a href="https://www.youtube.com/mitoujr" target="_blank">未踏ジュニア公式YouTubeチャンネル</a>にてライブストリーミング配信いたします。<br>
+2021年11月3日(水祝) 10:00 - 18:00 に、2021年度未踏ジュニア最終成果報告会を<a href="https://www.youtube.com/mitoujr" target="_blank">未踏ジュニア公式YouTubeチャンネル</a>にてライブストリーミング配信します。<br>
 
 <div class='youtube'>
   <iframe frameborder="0" class="lazyload" allowfullscreen="" data-src="//www.youtube.com/embed/OLVQKC7ST6I"></iframe>
