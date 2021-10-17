@@ -787,6 +787,24 @@ footer{
 .results-radio:checked + .results-pjs{
   display: block;
 }
+
+.separator {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  &::before, &::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid;
+  }
+  &:not(:empty)::before {
+    margin-right: 1.25em;
+  }
+  &:not(:empty)::after {
+    margin-left: 1.25em;
+  }
+}
+
 .service{
   @media screen and (max-width:$phone-width) {
     display: block;
