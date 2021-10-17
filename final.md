@@ -2,7 +2,7 @@
 layout: post
 title:  2021年 最終成果報告会
 year:   2021
-description: "未踏ジュニアに採択されたクリエータの最終成果まとめページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！"
+description: "未踏ジュニアに採択されたクリエータの最終成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！"
 thumbnail: /assets/img/thumbnails/final_2021.jpg
 ---
 
