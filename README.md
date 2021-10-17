@@ -4,7 +4,7 @@
 [![Cover Photo of Mitou Junior](https://raw.githubusercontent.com/mitou/jr.mitou.org/main/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
 
 本リポジトリは未踏ジュニア[公式Webサイト](https://jr.mitou.org/)の公開リポジトリです。   
-本READMEでは、当該Webサイトの更新方法を目的別にまとめています。
+本READMEでは、公式Webサイトの更新方法を目的別にまとめています。
 
 <br>
 
