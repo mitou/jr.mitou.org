@@ -2,6 +2,7 @@
 layout: post
 title:  2021年 最終成果報告会
 year:   2021
+thumbnail: /assets/img/thumbnails/final_2021.jpg
 ---
 
 <br>
