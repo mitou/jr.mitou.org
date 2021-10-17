@@ -161,7 +161,7 @@
 - id: mock_up
   title: "mock up: 動画編集ソフトウェアフレームワーク"
   description: mock upは動画編集ソフトウェアフレームワークです。動画のレンダリングエンジンと、カスタムフィルター・アニメーションを提供します。mock upを利用すれば、mumlという中間言語を通して動画編集処理を記述することで、簡単なフロントエンドからの呼び出しだけで、動画編集機能を実装することができます。
-  thumbnail: mock-up.png
+  thumbnail: mock_up.png
   youtube: TBD
   #link: 
   year: 2021
