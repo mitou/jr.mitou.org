@@ -6,6 +6,8 @@
 本リポジトリは未踏ジュニア[公式Webサイト](https://jr.mitou.org/)の公開リポジトリです。   
 本READMEでは、当該Webサイトの更新方法を目的別にまとめています。
 
+<br>
+
 ## :white_check_mark: （共通）ブラウザで情報修正を提案できます
 
 どの箇所を更新するにせよ、Webブラウザが一番簡単だと思います...!! 😆
@@ -17,6 +19,7 @@
 
 以上で完了です。提案された修正内容は運営チームによって再確認され、問題なければ提案された内容が反映されます。もし修正内容に不具合があっても運営側で気付いて修正するので、まずはお気軽に提案してみてください ;)
 
+<br>
 
 ## :bookmark_tabs: メディア掲載を更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`media.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/media.yml) にメディア掲載記事の情報があります。  
@@ -28,6 +31,8 @@
   url: 記事ページのURL (例：https://www.watch.impress.co.jp/kodomo_it/news/1219499.html)
   date: 公開日 (例：2019/11/20)
 ```
+
+<br>
 
 ## :rocket: プロジェクト情報を更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) にプロジェクトの情報があります。
@@ -47,6 +52,8 @@
   - 複数名いる場合は、複数記述します
 ```
 
+<br>
+
 ## :busts_in_silhouette: クリエータ情報を更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) にクリエーターの情報があります。  
 
@@ -59,6 +66,8 @@
   is_spc: スーパークリエータ認定について。例：true
   year: 何年度に採択されたプロジェクトか。例: 2018
 ```
+
+<br>
 
 ## :bust_in_silhouette: メンター情報を更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`mentors.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/mentors.yml) にメンターの情報があります。 
@@ -79,6 +88,8 @@
   web: 上記以外のURL。例: https://yasslab.jp/
 ```
 
+<br>
+
 ## :hammer_and_wrench: Webサイトの仕組みを改善したい
 
 ローカル環境のブラウザで確認したい場合は、次の手順でローカルサーバーを立ち上げてください。
@@ -97,12 +108,14 @@ $ bundle exec jekyll server
 無事にローカルサーバーが立ち上がったら [http://localhost:4000/](http://localhost:4000/) でアクセスできます。
 
 ### プロジェクト個別ページを生成したい
-[GitHub Actions で自動化](https://github.com/mitou/jr.mitou.org/blob/main/.github/workflows/test.yml)されているため毎回実行する必要はありませんが、例えば新しい年度の採択プロジェクトを新規に掲載したい場面 (例: [#73](https://github.com/mitou/jr.mitou.org/pull/73)) などがあれば、下記コマンドで手動でプロジェクト個別ページを生成・確認できます。
+[GitHub Actions で自動生成される](https://github.com/mitou/jr.mitou.org/blob/main/.github/workflows/test.yml)ため毎回実行する必要はありませんが、新しい年度の採択プロジェクトの新規掲載時に手動で生成・確認したい場面などあれば、下記コマンドでプロジェクト個別ページを生成してください。
 
 ```bash
 # _data/project.yml からプロジェクト個別ページを生成する
 $ bundle exec rake upsert_project_pages_by_data
 ```
+
+<br>
 
 ### :robot: リンク切れはテストで検知できます
 
@@ -117,6 +130,7 @@ $ bundle exec rake test
 
 上記テストは [GitHub Actions](https://github.com/mitou/jr.mitou.org/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [.github/workflows](https://github.com/mitou/jr.mitou.org/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
 
+<br>
 
 ## :copyright: クレジット
 
