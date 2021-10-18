@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 採択プロジェクト
+description: 本ページでは未踏ジュニアの採択プロジェクトを年度別にまとめています。
 ---
 
 <div class="projects">
