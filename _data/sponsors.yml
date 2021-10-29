@@ -2,7 +2,12 @@
 # - name: 会社名
 #   img:  /assets/img/sponsor 内の画像ファイルパス
 #   url:  会社のホームページ
-#   type: [gold|silver|bronze|inkind|media]
+#   type: [platinum|gold|silver|bronze|inkind|media]
+
+- name: 近畿大学
+  img:  kindai.png
+  url:  https://www.kindai.ac.jp/informatics/
+  type: platinum
 
 - name: 株式会社リクルート
   img:  recruit.jpg

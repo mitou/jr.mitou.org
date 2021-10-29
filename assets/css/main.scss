@@ -883,9 +883,14 @@ footer{
   margin: 30px 15px;
 }
 
-.sponsors-list-gold, .sponsors-list-silver, .sponsors-list-bronze {
+.sponsors-list-platinum, .sponsors-list-gold, .sponsors-list-silver, .sponsors-list-bronze {
   margin-bottom: 60px;
 }
+
+.sponsor-platinum{
+  max-width: 350px;
+}
+
 .sponsor-gold{
   max-width: 300px;
 }
