@@ -3,7 +3,7 @@ layout: post
 title: "KillinEngine -マルチプレイ型ゲーム制作エンジン-"
 permalink: /projects/2021/killin_engine
 thumbnail: /assets/img/thumbnails/2021/killin_engine.png
-description: "「ゲームを作ってみたいけど…なんだか難しそう。」キリンエンジンを使えば「誰でも」「楽しく」「簡単に」ゲームが作れます。最新のネットワーク技術により、友達を招待して一緒にゲームを編集したり、共有して遊ぶこともできる最高のゲーム制作ツールです。"
+description: "キリンエンジンは、仲間と遊びながらオンラインマルチプレイゲームが作れるゲーム制作ツールです。最新のネットワーク技術により、クリエイターたちは一つの仮想空間に召喚されゲームをリアルタイム共同編集することができます。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'killin_engine'" | first %}
