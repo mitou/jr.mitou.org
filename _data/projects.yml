@@ -85,7 +85,7 @@
   description: ユーザーが弾いている楽器の音をリアルタイムで音階推定し、直感的に楽器を楽しめる音楽ゲームです。タブレットやスマホの楽器アプリでも遊ぶことができます。
   thumbnail: augment.png
   youtube: DwA0pzPJs14
-  #link: 
+  link: https://twitter.com/Augment_rhythm
   year: 2021
   mentor_id: yasulab
   creator_ids:
