@@ -4,8 +4,8 @@
 #   url:  会社のホームページ
 #   type: [platinum|gold|silver|bronze|inkind|media]
 
-- name: 近畿大学
-  img:  kindai.png
+- name: 近畿大学情報学部
+  img:  kindai.jpg
   url:  https://www.kindai.ac.jp/informatics/
   type: platinum
 
