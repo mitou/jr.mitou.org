@@ -58,10 +58,10 @@
   creator_ids:
     - mugisus
 
-- id: personal_colors
-  title: Personal Colors -子供の興味を深めるアプリ-
+- id: curepathy
+  title: Curepathy -子供の興味を深めるアプリ-
   description: 小中学生を対象とした能動的な学習を支援するアプリです。ユーザーの評価・タグ・レコメンドエンジンによってユーザーの興味に合った学習コンテンツを提示するほか、着せ替えゲームの要素を取り入れることで楽しく学び続けられる仕組みを提供します。
-  thumbnail: personal_colors.png
+  thumbnail: curepathy.png
   youtube: TBD
   #link: 
   year: 2021
