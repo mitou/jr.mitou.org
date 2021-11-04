@@ -6,8 +6,8 @@
 #  thumbnail: サムネイル画像。まだ無い場合はコメントアウトしてください。
 #  promotion: プロジェクトの PV や紹介動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
 #  final: 未踏ジュニア最終成果報告会の動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
-#  year: 採択プロジェクトの年度。例: 2020
 #  link: 公式サイトへのリンク（任意）。例: https://github.com/visible/visible
+#  year: 採択プロジェクトの年度。例: 2020
 #  mentor_id: 「mentors.yml」にあるメンターIDを入力。例: yasulab
 #  creator_ids:
 #  - 「cretors.yml」にあるクリエータID。例：igarashi_ryo
@@ -20,8 +20,8 @@
   description: VRコントローラーを筆とパレットのように使い、直感的に立体物が作れるアプリです。仮想空間や３Dモデルが身近になりましたが、現状で個人が作るのは簡単ではありません。難解なモデリングソフトを使用しなくても簡単に３Dモデリングできます。しゃがむアクションで縮尺が変わり、実物大の建造物に入れます。
   thumbnail: vr_sandbox.png
   promotion: IKbnWvbEKMo
-  #final
-  #link: 
+  #final:
+  #link:
   year: 2021
   mentor_id: bitou_masato
   creator_ids:
@@ -57,7 +57,7 @@
   thumbnail: telport.png
   #promotion:
   #final:
-  link: https://telport.mugisus.com/app/ # uncommentouted due to the publishing of the application page, there will be one more update when the landing page is ready.
+  link: https://telport.mugisus.com/app/
   year: 2021
   mentor_id: shouya_ishimaru
   creator_ids:
@@ -226,8 +226,8 @@
   thumbnail: spaghetian.jpg
   #promotion:
   final: Ue7Sf3bQlps
-  year: 2020
   link: https://twitter.com/38912Pataro/status/1337322097454981120
+  year: 2020
   mentor_id: teramoto_daiki
   creator_ids:
     - miyake_satoshi
@@ -238,6 +238,7 @@
   thumbnail: color_overlap.jpg
   #promotion:
   final: _S-EyVp4y1Q
+  #link:
   year: 2020
   mentor_id: suzuki_ryou
   creator_ids:
@@ -249,6 +250,7 @@
   thumbnail: poet.jpg
   #promotion:
   final: PQMZAD6NwYU
+  #link:
   year: 2020
   mentor_id: ukai_yuu
   creator_ids:
@@ -272,6 +274,7 @@
   thumbnail: mer.png
   #promotion:
   final: rQmgwLH8xI0
+  #link:
   year: 2020
   mentor_id: komuro_maki
   creator_ids:
@@ -296,6 +299,7 @@
   thumbnail: glider_gun.jpg
   #promotion:
   final: N23eiKk_808
+  #link:
   year: 2020
   mentor_id: ishii_kakeru
   creator_ids:
@@ -307,8 +311,8 @@
   thumbnail: align.png
   #promotion:
   final: r8WlvrgwB4k
-  year: 2020
   link: https://twitter.com/align_one
+  year: 2020
   mentor_id: seki_yoshifumi
   creator_ids:
     - hagiwara_sota
@@ -333,6 +337,7 @@
   thumbnail: forcebook.png
   #promotion:
   final: MiBiBzl0ZwU
+  #link:
   year: 2020
   mentor_id: yonetsuji_taizan
   creator_ids:
@@ -344,6 +349,7 @@
   thumbnail: levo.jpg
   #promotion:
   final: MUvjwmUwdsc
+  #link:
   year: 2020
   mentor_id: yonetsuji_taizan
   creator_ids:
@@ -356,6 +362,7 @@
   thumbnail: rocat.png
   #promotion:
   final: NXi1hunbMg0
+  #link:
   year: 2020
   mentor_id: shouya_ishimaru
   creator_ids:
@@ -375,8 +382,8 @@
   thumbnail: amoyo.png
   #promotion:
   final: irYt3B7l8yg
-  year: 2019
   link: https://amo-yotakenoko.github.io/portfolio/amo-yo.html
+  year: 2019
 
 - id: det_exploit
   title: DetExploit - Windows用OSS脆弱性スキャナー
@@ -387,8 +394,8 @@
   thumbnail: det_exploit.jpg
   #promotion:
   final: 0XUID-IQzEk
-  year: 2019
   link: https://detexploit.org/
+  year: 2019
 
 - id: pirka
   title: pirka - 会話を通して成長する人工知能技術
@@ -399,8 +406,8 @@
   thumbnail: pirka.png
   #promotion:
   final: tZHVhEjqX1g
-  year: 2019
   link: https://pirka-ai.github.io/
+  year: 2019
 
 - id: neulot
   title: neulot - 生体信号を用いたインターフェイスの開発
@@ -411,6 +418,7 @@
   thumbnail: neulot.png
   #promotion:
   final: p_GIhnvDfFI
+  #link:
   year: 2019
 
 - id: abecobe
@@ -422,8 +430,8 @@
   thumbnail: abecobe.jpg
   #promotion:
   final: B70zjf0Xs6g
-  year: 2019
   link: https://keidaroo.github.io/keidaroo_pages/links/abecobe/
+  year: 2019
 
 - id: manage_stock
   title: ManageStock - 家庭向け在庫管理アプリ
@@ -436,6 +444,7 @@
   thumbnail: manage_stock.jpg
   #promotion:
   final: N1QfbFyjNXg
+  #link:
   year: 2019
 
 - id: relay_master
@@ -447,6 +456,7 @@
   thumbnail: relay_master.png
   #promotion:
   final: 1ylC6bqWiPg
+  #link:
   year: 2019
 
 - id: virtual_presents
@@ -459,6 +469,7 @@
   thumbnail: virtual_presents.png
   #promotion:
   final: p7KZzZLMLoM
+  #link:
   year: 2019
 
 - id: edge_guided_anime_characters_generation
@@ -470,6 +481,7 @@
   thumbnail: edge_guided_anime_characters_generation.png
   #promotion:
   final: OVD5nw1DA5s
+  #link:
   year: 2019
 
 - id: mallet
@@ -481,8 +493,8 @@
   thumbnail: mallet.png
   #promotion:
   final: Tw28ieao9uo
-  year: 2019
   link: https://github.com/katsd/mallet-ios
+  year: 2019
 
 - id: tea
   title: Tea - 仮想経済シミュレーションプラットフォームとゲーム
@@ -493,6 +505,7 @@
   thumbnail: tea.png
   #promotion:
   final: rW57i1ZSksA
+  #link:
   year: 2019
 
 - id: fresh_capsule
@@ -504,6 +517,7 @@
   thumbnail: fresh_capsule.jpg
   #promotion:
   final: vioFrqxlRXQ
+  #link:
   year: 2019
 
 - id: smart_vj
@@ -515,6 +529,7 @@
   thumbnail: smart_vj.jpg
   #promotion:
   final: oGDGH2dmYKA
+  #link:
   year: 2019
 
 # 2018年度
@@ -528,6 +543,7 @@
   thumbnail: utips.jpg
   #promotion:
   final: t8kpeE_sNB0
+  #link:
   year: 2018
 
 - id: lets_eigo_puzzle
@@ -540,6 +556,7 @@
   thumbnail: lets_eigo_puzzle.png
   #promotion:
   final: gqkjUVzhSBU
+  #link:
   year: 2018
 
 - id: smile_meeting_room
@@ -552,6 +569,7 @@
   thumbnail: smile_meeting_room.png
   #promotion:
   final: Z6_Iw8Hvclk
+  #link:
   year: 2018
 
 - id: vreath
@@ -564,8 +582,8 @@
   thumbnail: vreath.png
   #promotion:
   final: Kq7IuLLNC4Y
-  year: 2018
   link: https://github.com/Vreath-core
+  year: 2018
 
 - id: corkboard
   title: Corkboard - 位置的に管理するメモサービス
@@ -577,6 +595,7 @@
   thumbnail: corkboard.png
   #promotion:
   final: rDyqAzppN6M
+  #link:
   year: 2018
 
 - id: touch_buy
@@ -591,6 +610,7 @@
   thumbnail: touch_buy.png
   #promotion:
   final: luBbuzIb1y0
+  #link:
   year: 2018
 
 - id: robot_soccer
@@ -603,6 +623,7 @@
   thumbnail: robot_soccer.png
   #promotion:
   final: 7WnoGTOFRuE
+  #link:
   year: 2018
 
 - id: memory_capsule
@@ -615,6 +636,7 @@
   thumbnail: memory_capsule.png
   #promotion:
   final: KgnWDTXwHTY
+  #link:
   year: 2018
 
 - id: sound_in_the_forest
@@ -627,8 +649,8 @@
   thumbnail: sound_in_the_forest.png
   #promotion:
   final: H7SCFi0fp7g
-  year: 2018
   link: https://twitter.com/73_ch/status/1059065457628434432
+  year: 2018
 
 - id: toubans
   title: Toubans! -LINEで設定・通知できる当番お知らせサービス
@@ -640,8 +662,8 @@
   thumbnail: toubans.png
   #promotion:
   final: c1R1h4ihcgw
-  year: 2018
   link: https://www.toubans.com/
+  year: 2018
 
 - id: camera_translation
   title: 写して翻訳
@@ -653,6 +675,7 @@
   thumbnail: camera_translation.png
   #promotion:
   final: xTZ4oi6sttA
+  #link:
   year: 2018
 
 - id: life_watcher
@@ -665,6 +688,7 @@
   thumbnail: life_watcher.png
   #promotion:
   final: srA90rwohUA
+  #link:
   year: 2018
 
 # 2017年度
@@ -679,6 +703,7 @@
   thumbnail: music_reminder.png
   #promotion:
   final: gfrleUVHGZs
+  #link:
   year: 2017
 
 - id: papa
@@ -693,6 +718,7 @@
   thumbnail: papa.png
   #promotion:
   final: FSfQnk2evnY
+  #link:
   year: 2017
 
 - id: anki_cookie
@@ -705,6 +731,7 @@
   thumbnail: anki_cookie.png
   #promotion:
   final: CRvzQtz90RM
+  #link:
   year: 2017
 
 - id: narratica
@@ -717,6 +744,7 @@
   thumbnail: narratica.png
   #promotion:
   final: 7o0_Q_nBGi4
+  #link:
   year: 2017
 
 - id: savacs
@@ -729,8 +757,8 @@
   thumbnail: savacs.png
   #promotion:
   final: lOrb8nH85qo
-  year: 2017
   link: https://blog.yr32.net/post/savacs/
+  year: 2017
 
 - id: fall_in_friends
   title: Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～
@@ -742,6 +770,7 @@
   thumbnail: fall_in_friends.png
   #promotion:
   final: Xr2Jeb5cf7o
+  #link:
   year: 2017
 
 - id: draw_code
@@ -754,8 +783,8 @@
   thumbnail: draw_code.png
   #promotion:
   final: t0Ho0S08hJI
-  year: 2017
   link: https://drawcode.net/
+  year: 2017
 
 - id: listenable_keyboard
   title: "'聞く'キーボード"
@@ -767,6 +796,7 @@
   thumbnail: listenable_keyboard.png
   #promotion:
   final: foJCvFcYhv0
+  #link:
   year: 2017
 
 - id: smile_iot
@@ -782,6 +812,7 @@
   thumbnail: smile_iot.png
   #promotion:
   final: uNES_ZXf8eg
+  #link:
   year: 2017
 
 - id: vamboo
@@ -795,8 +826,8 @@
   thumbnail: vamboo.png
   #promotion:
   final: fejZIj2K9A8
-  year: 2017
   link: https://vamboo.net/
+  year: 2017
 
 - id: rakuraku_yomiyomi
   title: らくらく読み読み
@@ -808,6 +839,7 @@
   thumbnail: rakuraku_yomiyomi.png
   #promotion:
   final: jQA4kApjr8s
+  #link:
   year: 2017
 
 # 2016年度
@@ -821,6 +853,7 @@
   thumbnail: voice_commander.png
   #promotion:
   final: APUTGg6g0hA
+  #link:
   year: 2016
 
 - id: smart_pen
@@ -834,6 +867,7 @@
   thumbnail: smart_pen.png
   #promotion:
   final: sdrPyfNJx-4
+  #link:
   year: 2016
 
 - id: vr_picture_book_maker
@@ -846,4 +880,5 @@
   thumbnail: vr_picture_book_maker.png
   #promotion:
   final: V3SVBM47jOs
+  #link:
   year: 2016
