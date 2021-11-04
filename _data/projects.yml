@@ -20,7 +20,7 @@
   description: VRコントローラーを筆とパレットのように使い、直感的に立体物が作れるアプリです。仮想空間や３Dモデルが身近になりましたが、現状で個人が作るのは簡単ではありません。難解なモデリングソフトを使用しなくても簡単に３Dモデリングできます。しゃがむアクションで縮尺が変わり、実物大の建造物に入れます。
   thumbnail: vr_sandbox.png
   promotion: IKbnWvbEKMo
-  #final:
+  final: OLVQKC7ST6I?start=958
   #link:
   year: 2021
   mentor_id: bitou_masato
@@ -32,7 +32,7 @@
   description: SDGsの事を楽しく学べて身近に感じる小学生向けWebアプリです。AIカメラがSDGsと関わっている身の周りにあるマークを教えてくれます。2030年の泣いている子供たちの言葉をヒントにマークを集めると世界が救えます。GIGAスクールで配られたタブレットを持って、学校・家・街でマークを探しに行こう！
   thumbnail: sdgs.png
   promotion: z_dMy_3UZM8
-  #final:
+  final: OLVQKC7ST6I?start=2489
   link: https://www.marksdgs.net/
   year: 2021
   mentor_id: koutake_rina
@@ -44,7 +44,7 @@
   description: 「植物が生きている」ことを直感的に感じるために、テクノロジーの力で「植物の機能」を拡張するプロジェクトです。植物のイオンチャネルに流れる生体電位を電極で取得し、そこから採れたデータを基に植物を人工筋肉で動かしたり、シンセサイザーを人間と共演します。
   thumbnail: cybotanic.png
   #promotion:
-  #final:
+  final: OLVQKC7ST6I?start=26064
   #link: 
   year: 2021
   mentor_id: komuro_maki
@@ -56,7 +56,7 @@
   description: あらゆるデータを複数の周波数と振幅の合成波に変換し、空間と時間を活用した通信を提供するプロトコルです。口頭での伝達が難しいファイルや情報を高速かつ正確に転送し、スマホアプリ化により様々な用途への導入も容易で、費用や特別な設備を必要としません。
   thumbnail: telport.png
   #promotion:
-  #final:
+  final: OLVQKC7ST6I?start=22788
   link: https://telport.mugisus.com/app/
   year: 2021
   mentor_id: shouya_ishimaru
@@ -68,7 +68,7 @@
   description: 小中学生を対象とした能動的な学習を支援するアプリです。ユーザーの評価・タグ・レコメンドエンジンによってユーザーの興味に合った学習コンテンツを提示するほか、着せ替えゲームの要素を取り入れることで楽しく学び続けられる仕組みを提供します。
   thumbnail: curepathy.png
   #promotion:
-  #final:
+  final: OLVQKC7ST6I?start=18922
   #link: 
   year: 2021
   mentor_id: nishio_hirokazu
@@ -80,7 +80,7 @@
   description: Researcheckは学生の知りたい気持ちを応援する調べ学習アプリです。インターネットには信憑性が低い情報や芸能ニュースによる検索結果の汚染、情報の偏りなどの問題がありますResearcheckは、調べ学習に不適切な情報を警告、除外し対義語を挿入して検索結果の中立性を保ちます。
   thumbnail: researcheck.png
   #promotion:
-  #final:
+  final: OLVQKC7ST6I?start=24386
   link: https://researcheck.com/
   year: 2021
   mentor_id: nishio_hirokazu
@@ -92,7 +92,7 @@
   description: ユーザーが弾いている楽器の音をリアルタイムで音階推定し、直感的に楽器を楽しめる音楽ゲームです。タブレットやスマホの楽器アプリでも遊ぶことができます。
   thumbnail: augment.png
   promotion: DwA0pzPJs14
-  #final:
+  final: OLVQKC7ST6I?start=20420
   link: https://twitter.com/Augment_rhythm
   year: 2021
   mentor_id: yasulab
@@ -104,7 +104,7 @@
   description: Haniwaは家事などの定期的で意外と重労働な家事に対して、モチベーションアップ+タスク管理を行うアプリケーションです。タスクをクリアするごとに「スター」というアプリ内ポイントを収集し、それによってお小遣いやちょっとした贅沢などを取引することができます。家事以外にも子供の勉強やおつかいなど汎用的なタスクに使用できます
   thumbnail: haniwa.png
   promotion: FapDQ3aCPCI
-  #final:
+  final: OLVQKC7ST6I?start=13410
   link: https://youtu.be/vKnFXhpF3YU
   year: 2021
   mentor_id: yonetsuji_taizan
@@ -116,7 +116,7 @@
   description: パゲットは、全て3Dプリントされた四足歩行ロボットです。モデルデータ、コードを共有する事により、比較的容易にロボット開発ができます。主な目的は、OpenTorqueからヒントを得て、低コストでアクチュエータを開発することでした。
   thumbnail: puguette.png
   #promotion:
-  #final:
+  final: OLVQKC7ST6I?start=12289
   #link: 
   year: 2021
   mentor_id: yonetsuji_taizan
@@ -128,7 +128,7 @@
   description: SNSや匿名掲示板などを舞台にした、複数の投稿が織りなす物語の執筆を支援するツールです。開発者の執筆経験をもとに、投稿の並び替え、ランダムIDの生成、投稿のコピー&ペーストなど、書き手に嬉しい様々な機能を実装しました。
   thumbnail: anyget.png
   #promotion:
-  #final:
+  final: OLVQKC7ST6I?start=17389
   link: https://anyget.github.io/
   year: 2021
   mentor_id: suzuki_ryou
@@ -140,7 +140,7 @@
   description: キリンエンジンは、仲間と遊びながらオンラインマルチプレイゲームが作れるゲーム制作ツールです。最新のネットワーク技術により、クリエイターたちは一つの仮想空間に召喚されゲームをリアルタイム共同編集することができます。
   thumbnail: killin_engine.png
   promotion: 72UN95o6MJA
-  #final:
+  final: OLVQKC7ST6I?start=4126
   #link: 
   year: 2021
   mentor_id: teramoto_daiki
@@ -152,7 +152,7 @@
   description: 2019年終わりごろから流行し始めたCOVID-19によって、いくつもの現実の個展の開催が中止、延期され、開催する場合も大きな制限を受けることとなりました。それを受け、最近ではWebサイト上で閲覧できる展示も増えましたが、その多くは「現実の個展を再現する」ことに主眼をおいたものであり、あくまでCOVID-19の流行による現実の個展の代替的なものという意味合いが大きいものでした。Web個展ではWebという媒体の特性をより引き出すことに焦点を当て、観覧者がワクワクできるような個展を目指します。
   thumbnail: web-koten.png
   #promotion:
-  #final:
+  final: OLVQKC7ST6I?start=7896
   link: https://koten.app
   year: 2021
   mentor_id: seki_yoshifumi
@@ -164,7 +164,7 @@
   description: 自転車で行動範囲が広がり始めた小学校高学年のこどもを対象にした自転車危険予測アプリ。登録した危険な交差点に近づくと注意喚起を促します。親子で交通ルールや正しい自転車の乗り方について話せる仕掛けがあり、繰り返し経験することで自分自身と他者の安全を守れる自転車運転を身につけることを目的としています。
   thumbnail: birds_eye.png
   promotion: TaQ4zNBiwag
-  #final:
+  final: OLVQKC7ST6I?start=6590
   #link: 
   year: 2021
   mentor_id: seki_yoshifumi
@@ -176,7 +176,7 @@
   description: mock upは動画編集ソフトウェアフレームワークです。動画のレンダリングエンジンと、カスタムフィルター・アニメーションを提供します。mock upを利用すれば、mumlという中間言語を通して動画編集処理を記述することで、簡単なフロントエンドからの呼び出しだけで、動画編集機能を実装することができます。
   thumbnail: mock_up.png
   #promotion:
-  #final:
+  final: OLVQKC7ST6I?start=14756
   link: https://github.com/mock-up/mock-up
   year: 2021
   mentor_id: ishii_kakeru

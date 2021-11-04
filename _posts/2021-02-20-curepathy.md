@@ -47,7 +47,7 @@ description: "小中学生を対象とした能動的な学習を支援するア
 {% if pj.final %}
 ## 発表動画
 <div class="youtube">
-  <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.final }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
+  <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.final }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 <a href="https://www.youtube.com/watch?v={{ pj.final }}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
 {% endif %}
