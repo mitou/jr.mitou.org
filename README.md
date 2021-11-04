@@ -39,16 +39,17 @@
 
 それぞれの項目は以下のような内容です。
 ```yml
-- id: 他のIDと重複しないID。例: utips
-  title: プロジェクトのタイトル。例：UTIPS - 家事の情報共有サービス
-  description: プロジェクト概要。例：家事のやり方を共有するWEBサービスを...
-  thumbnail: サムネイル画像。まだ無い場合は「tbu.png」を入力
-  youtube: YouTube動画。「?v=xxxx」の "xxxx" 部分。まだ無い場合は「TBD」を入力
-  year: 採択プロジェクトの年度。例: 2018
-  link: 公式サイトへのリンク（任意）。例: https://visi.dev/
+- id: 他のIDと重複しないID。例: visible
+  title: プロジェクトのタイトル。例：Visible ─ Webアクセシビリティー診断 & 修正提案ツール
+  description: プロジェクト概要。例：VisibleはWebサイトのアクセシビリティーを診断するサービスです。...
+  thumbnail: サムネイル画像。まだ無い場合はコメントアウトしてください。
+  promotion: プロジェクトの PV や紹介動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
+  final: 未踏ジュニア最終成果報告会の動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
+  year: 採択プロジェクトの年度。例: 2020
+  link: 公式サイトへのリンク（任意）。例: https://github.com/visible/visible
   mentor_id: 「mentors.yml」にあるメンターIDを入力。例: yasulab
   creator_ids:
-  - 「cretors.yml」にあるクリエータID。例：mihashi
+  - 「cretors.yml」にあるクリエータID。例：igarashi_ryo
   - 複数名いる場合は、複数記述します
 ```
 
