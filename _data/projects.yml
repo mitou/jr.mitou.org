@@ -112,7 +112,7 @@
     - chou_masaki
 
 - id: puguette
-  title: パゲット
+  title: パゲット - 全て3Dプリントされた四足歩行ロボット
   description: パゲットは、全て3Dプリントされた四足歩行ロボットです。モデルデータ、コードを共有する事により、比較的容易にロボット開発ができます。主な目的は、OpenTorqueからヒントを得て、低コストでアクチュエータを開発することでした。
   thumbnail: puguette.png
   #promotion:
