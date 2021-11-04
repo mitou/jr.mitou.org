@@ -41,7 +41,7 @@ description: "VRコントローラーを筆とパレットのように使い、�
 <div class="youtube">
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.promotion }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
-<a href="https://www.youtube.com/watch?v={{ pj.promotion }}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
+<a href="https://youtu.be/{{ pj.promotion }}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
 {% endif %}
 
 {% if pj.final %}
@@ -49,7 +49,7 @@ description: "VRコントローラーを筆とパレットのように使い、�
 <div class="youtube">
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.final }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
-<a href="https://www.youtube.com/watch?v={{ pj.final }}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
+<a href="https://youtu.be/{{ pj.final }}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
 {% endif %}
 
 {% include project-navigation.html %}
