@@ -1,8 +1,8 @@
 <div class="project" id="{{ pj.id }}">
   <h3 class="project-title no-link-decoration"><a href='#{{ pj.id }}'>{{ pj.title }}</a></h3>
 
-  <!-- No credits shown, including mentor, unless create_ids assigned. -->
   {% if pj.creator_ids %}
+  <!-- Show no credits, including mentor, unless create_ids assigned. -->
   <p class="project-name">
     {% for creator_id in pj.creator_ids %}
       {% include creator.html is_simple=true %}
@@ -12,30 +12,20 @@
   </p>
   {% endif %}
 
-  <!--
-       Thumbnail Mode shows image instead of video for better rendering time.
-       This mode is usually fit to often-accessed pages like Top page.
-  -->
-  {% if pj.youtube == 'TBD' and pj.thumbnail == 'tbu.png' %}
-  <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/tbu.png"
-       alt="{{ pj.title }}" class="project-thumbnail lazyload" />
-  {% elsif pj.youtube == 'TBD' %}
-  <!-- TBD is used for project showcases with no PV before the final because no videos recorded then. -->
-  <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}"
-       alt="{{ pj.title }}" class="project-thumbnail lazyload" />
-  {% elsif pj.thumbnail == 'tbu.png' %}
-  <!-- TBU is used for project showcases that thumbnails are currently NOT set yet. -->
-  <div class="youtube">
-    <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.youtube }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
-  </div>
-  {% else %}
-  <!-- Not TBD/TBU means thumbnails and youtube videos are all set. -->
+  {% if pj.thumbnail %}
+  <!-- Show thumbnail image if already set. -->
   <a href="/projects/{{ pj.year }}/{{ pj.id }}">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}"
-         alt="{{ pj.title }}" class="project-thumbnail lazyload" />
+         alt="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
   </a>
-
+  {% else %}
+  <!-- Show TBD thumbnail image if not ready yet. -->
+  <a href="/projects/{{ pj.year }}/{{ pj.id }}">
+    <img src="/assets/img/spinner.svg" data-src="/assets/img/thumbnails/tbu.png"
+         alt="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
+  </a>
   {% endif %}
+
   <h4>概要</h4>
   <p class="project-description">{{ pj.description }}</p>
 
