@@ -27,8 +27,10 @@ thumbnail: /assets/img/thumbnails/final_2021.jpg
 </div>
 -->
 
+<!--
 ## タイムテーブル {#timetable}
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrWiIURPeouCLjQJ?backgroundColor=gray&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+-->
 
 ## {{ page.year }}年度のプロジェクト {#projects}
 
