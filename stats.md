@@ -249,9 +249,11 @@ Highcharts.chart('chances', {
 </ul>
 
 {% if stat.year == 2016 %}
-修了したクリエータ数は {{ stat.creators }} 名でした。なお、スーパークリエータ認定制度は2017年度から始まったため、{{ stat.year }}年度のデータはありません。
+修了したクリエータ数は {{ stat.creators }} 名です。なお、スーパークリエータ認定制度は2017年度から始まったため、{{ stat.year }}年度のデータはありません。
 {% elsif stat.creators and stat.spc %}
 修了したクリエータ数は {{ stat.creators }} 名、そのうち {{ stat.spc }} 名をスーパークリエータと認定しました。
+{% elsif stat.creators %}
+修了したクリエータ数は {{ stat.creators }} 名です。スーパークリエータの認定は後日発表されます。
 {% else %}
 修了したクリエータ数およびスーパークリエータ認定数は後日発表されます。
 {% endif %}
