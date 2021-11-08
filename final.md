@@ -10,7 +10,7 @@ thumbnail: /assets/img/thumbnails/final_2021.jpg
 2021年度の未踏ジュニア最終成果報告会を11月3日に実施しました。<a href="https://twitter.com/mitoujr/status/1455832719577944066" target="_blank">YouTubeの動画目次</a>を使うとお好きなシーンからご視聴いただけます。<br>
 
 <div class='youtube'>
-  <iframe frameborder="0" class="lazyload" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/OLVQKC7ST6I?start=445"></iframe>
+  <iframe frameborder="0" class="lazyload" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/OLVQKC7ST6I?start=445&rel=0"></iframe>
 </div>
 
 <div style='display: flex; flex-wrap: wrap'>
