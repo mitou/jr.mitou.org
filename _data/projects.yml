@@ -70,7 +70,7 @@
   description: 小中学生を対象とした能動的な学習を支援するアプリです。ユーザーの評価・タグ・レコメンドエンジンによってユーザーの興味に合った学習コンテンツを提示するほか、着せ替えゲームの要素を取り入れることで楽しく学び続けられる仕組みを提供します。
   thumbnail: curepathy.png
   #promotion:
-  final: OLVQKC7ST6I
+  final: qqrSS8K6ZI8
   final_start: 18922
   #link: 
   year: 2021
@@ -131,7 +131,7 @@
   description: SNSや匿名掲示板などを舞台にした、複数の投稿が織りなす物語の執筆を支援するツールです。開発者の執筆経験をもとに、投稿の並び替え、ランダムIDの生成、投稿のコピー&ペーストなど、書き手に嬉しい様々な機能を実装しました。
   thumbnail: anyget.png
   #promotion:
-  final: qqrSS8K6ZI8
+  final: ZjB5-88mEf0
   link: https://anyget.github.io/
   year: 2021
   mentor_id: suzuki_ryou
