@@ -1,6 +1,7 @@
 ---
 # ここにコメントかけます
 layout: default
+this_year: 2021
 ---
 
 <div class="cover-photo">
@@ -68,7 +69,7 @@ layout: default
 
 <section id="projects">
 
-  {% assign this_year = 2021 %}
+  {% assign this_year = page.this_year %}
   {% assign this_stat = site.data.stats | find: 'year', this_year %}
   <h2 class="heading-line">{{ this_year }}年度のクリエータ</h2>
   <p>{{ this_year }}年度は<a href='/stats'>{{ this_stat.applications }}件の応募</a>が集まり、<br class="ph">{{ this_stat.projects }}プロジェクト・{{ this_stat.creators }}名を採択しました。<br>
