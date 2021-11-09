@@ -61,11 +61,8 @@ layout: default
 
 <section id="media">
   <h2 class="heading-line"><i class="far fa-newspaper green"></i> メディア掲載</h2>
-  <ul class="list-none media-list">
-    {% for medium in site.data.media limit:5 %}
-    <li><span class="media-pc-date pc-inline-b">{{ medium.date }}</span><a href="{{ medium.url }}" target="_blank" rel="noopener">{{ medium.title }} <span class="ph-inline-b">- {{ medium.date }}</span></a></li>
-    {% endfor %}
-  </ul>
+  {% include media-list.html limit=5 %}
+
   <a href="/media" class="button">すべて見る</a>
 </section>
 
