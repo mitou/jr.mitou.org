@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 応募の手引き
+description: 応募から採択までの流れをまとめたページです。
 ---
 
 ## 募集要項
