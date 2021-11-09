@@ -191,7 +191,7 @@
   title: -Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品
   description: OculusのVRゴーグルで、美しい景色と音楽の中でリラックスしながら身体を鍛えることができる作品です。３つのミニゲームから構成されており、体幹、腹筋、前腿の筋肉などの筋力向上を期待できます。
   thumbnail: flight_fit_vr.jpg
-  promotion: qLBnTCVsPEk
+  promotion: 1Yz5uXKZxOM
   final: rIRHwI6EV8E
   link: https://www.oculus.com/experiences/rift/3341393319286540/
   year: 2020
@@ -215,7 +215,7 @@
   title: ぶらっしゅとーく〜小さな子どものための筆談アプリ〜
   description: これは文字がまだうまく書けない小さな子と耳が聞こえづらいお年寄りがコミュニケーションを取るための筆談アプリです。スマホを使い慣れないお年寄りも簡単に使えるように、操作するためのボタンをなるべく少なくしました。また、イラストを使用することで小さな子が感覚的に使えるようにしました。
   thumbnail: brush_talk.jpg
-  #promotion:
+  promotion: 5TuMO6SArG8
   final: BeSeF5Exw1s
   link: https://brushtalk-5c0f3.web.app/
   year: 2020
@@ -239,7 +239,7 @@
   title: Color Overlap - 光の三原色RGBを使ったパズルゲーム
   description: 魔法によって「色」を奪われ石にされてしまった人々を救うパズルゲームです。光の３原色RGBの様々な形のブロックをうまく重ねて、王国に色を取り戻そう。Unityで制作しています。
   thumbnail: color_overlap.jpg
-  #promotion:
+  promotion: TbMfAhm4wJk
   final: _S-EyVp4y1Q
   #link:
   year: 2020
@@ -287,7 +287,7 @@
   title: SKIMER - LINEで手軽にやること管理
   description: 「SKIMER(スキマー)」は中高生の宿題を管理するためにデザインされたタスク管理アプリです。LINEで友だち追加して簡単に始められます。「クラスのライングループ」から着想を得て、宿題の共有をしたり、宿題の遂行状況を可視化してランキングを作ることで、モチベーションを保てる工夫をしました。そのため、社会性・競争性を取り入れてゲーム感覚で宿題ができます。
   thumbnail: skimer.png
-  #promotion:
+  promotion: d5rDv1q9X20
   final: XWLnNYIoe-k
   link: https://twitter.com/_anharu/status/1344402886264934400
   year: 2020
@@ -300,7 +300,7 @@
   title: GliderGun - ブラウザOSを簡単に作成できるツール郡
   description: このプロジェクトはLinuxのディストリビューションを簡単に作成できるツール郡を提供します。また、作成するディストリビューションはブラウザを使うことを主な目的としており、このように機能を制限することで様々な恩恵を得ることができます。
   thumbnail: glider_gun.jpg
-  #promotion:
+  promotion: ReqtWF40Ukk
   final: N23eiKk_808
   #link:
   year: 2020
