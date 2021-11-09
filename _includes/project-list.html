@@ -1,5 +1,5 @@
 {% assign projects = site.data.projects | where_exp: "pj", "pj.year == include.year" %}
-<ul class="project-list {% if include.internal_link %}responsive-list{% endif %}">
+<ul class="project-list {% if include.center_mode %}responsive-list{% endif %}">
   {% for pj in projects %}
   <li>
     {% for creator_id in pj.creator_ids %}

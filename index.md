@@ -70,16 +70,20 @@ layout: default
 </section>
 
 <section id="projects">
-  <h2 class="heading-line">2020年度のクリエータ</h2>
-  <p>2020年度は115件の応募が集まり、<br class="ph">15プロジェクト・22名を採択しました。<br>
-    (☆ は未踏ジュニアスーパークリエータ認定者)</p>
 
-  {% include project-list.html year=2020 internal_link=true %}
+  {% assign this_year = 2021 %}
+  {% assign this_stat = site.data.stats | find: 'year', this_year %}
+  <h2 class="heading-line">{{ this_year }}年度のクリエータ</h2>
+  <p>{{ this_year }}年度は<a href='/stats'>{{ this_stat.applications }}件の応募</a>が集まり、<br class="ph">{{ this_stat.projects }}プロジェクト・{{ this_stat.creators }}名を採択しました。<br>
+    {% if this_stat.spc %}(☆ は未踏ジュニアスーパークリエータ認定者){% endif %}
+  </p>
+
+  {% include project-list.html year=this_year center_mode=true %}
 
   <a href="/projects" class="button">これまでの採択例を見る</a>
   <div class="projects flex">
     {% for pj in projects %}
-      {% include project-details.html thumbnail_mode=true %}
+      {% include project-details.html %}
     {% endfor %}
   </div>
   <a href="/projects" class="button">これまでの採択例を見る</a>
