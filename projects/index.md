@@ -2,6 +2,7 @@
 layout: post
 title: 採択プロジェクト
 description: 採択されたプロジェクトを年度別にまとめたページです。
+thumbnail: /assets/img/thumbnails/projects.png
 ---
 
 <div class="projects">
