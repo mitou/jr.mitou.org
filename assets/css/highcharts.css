@@ -17,6 +17,9 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
   font-size: 12px;
+  user-select: none;
+  touch-action: manipulation;
+  outline: none;
 }
 
 .highcharts-root {
@@ -75,6 +78,7 @@
 
 .highcharts-subtitle {
   fill: #666666;
+  font-size: 1em;
 }
 
 /* Axes */
@@ -184,6 +188,12 @@ div.highcharts-tooltip {
   stroke-linejoin: round;
 }
 
+.highcharts-empty-series {
+  stroke-width: 1px;
+  fill: none;
+  stroke: #cccccc;
+}
+
 .highcharts-state-hover .highcharts-graph {
   stroke-width: 3;
 }
@@ -287,6 +297,11 @@ g.highcharts-series,
   stroke: #ffffff;
 }
 
+.highcharts-a11y-markers-hidden .highcharts-point:not(.highcharts-point-hover):not(.highcharts-a11y-marker-visible),
+.highcharts-a11y-marker-hidden {
+  opacity: 0;
+}
+
 .highcharts-point {
   stroke-width: 1px;
 }
@@ -311,6 +326,10 @@ g.highcharts-series,
 
 .highcharts-data-label-connector {
   fill: none;
+}
+
+.highcharts-data-label-hidden {
+  pointer-events: none;
 }
 
 .highcharts-halo {
@@ -419,9 +438,17 @@ g.highcharts-series,
   stroke-width: 2px;
 }
 
-/* Dumbbell/lollipop connector */
 .highcharts-lollipop-stem {
   stroke: #000000;
+}
+
+.highcharts-focus-border {
+  fill: none;
+  stroke-width: 2px;
+}
+
+.highcharts-legend-item-hidden .highcharts-focus-border {
+  fill: none !important;
 }
 
 /* Legend */
@@ -750,6 +777,21 @@ input.highcharts-range-selector {
   fill: #ffffff;
 }
 
+.highcharts-hollowcandlestick-series .highcharts-point-down {
+  fill: #f21313;
+  stroke: #f21313;
+}
+
+.highcharts-hollowcandlestick-series .highcharts-point-down-bearish-up {
+  fill: #06b535;
+  stroke: #06b535;
+}
+
+.highcharts-hollowcandlestick-series .highcharts-point-up {
+  fill: transparent;
+  stroke: #06b535;
+}
+
 .highcharts-ohlc-series .highcharts-point-hover {
   stroke-width: 3px;
 }
@@ -906,6 +948,51 @@ text.highcharts-drilldown-data-label,
 
 .highcharts-annotation-label text {
   fill: #e6e6e6;
+}
+
+/* A11y module */
+.highcharts-a11y-proxy-button {
+  border-width: 0;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  opacity: 0.001;
+  z-index: 999;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: block;
+  position: absolute;
+}
+
+.highcharts-a11y-proxy-group ul {
+  list-style: none;
+}
+
+.highcharts-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  clip: rect(1px, 1px, 1px, 1px);
+  margin-top: -3px;
+  opacity: 0.01;
+}
+
+.highcharts-a11y-invisible {
+  visibility: hidden;
+}
+
+.highcharts-a11y-proxy-container,
+.highcharts-a11y-proxy-container-before,
+.highcharts-a11y-proxy-container-after {
+  position: absolute;
+  white-space: nowrap;
+}
+
+g.highcharts-series, .highcharts-markers, .highcharts-point {
+  outline: none;
 }
 
 /* Gantt */
