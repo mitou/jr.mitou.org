@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 統計情報
-description: 未踏ジュニアの応募数や採択数、倍率の推移を年度別にまとめたページです。{{ site.data.stats[0].year }}年度の応募数は{{ site.data.stats[0].applications }}件、採択数は{{ site.data.stats[0].projects }}件、倍率は{{ site.data.stats[0].competition_rate }}倍でした。
+description: 未踏ジュニアの応募数や採択数、倍率を年度別にまとめたページです。{{ site.data.stats[0].year }}年度の応募数は{{ site.data.stats[0].applications }}件、採択数は{{ site.data.stats[0].projects }}件、倍率は{{ site.data.stats[0].competition_rate }}倍でした。
 ---
 
 <style type="text/css">
@@ -63,7 +63,7 @@ description: 未踏ジュニアの応募数や採択数、倍率の推移を年�
 
 {% assign stat = site.data.stats[0] %}
 <p style='margin-top: 50px;'>
-  未踏ジュニアの応募数や採択数、倍率の推移を年度別にまとめたページです。{{ stat.year }}年度の応募数は{{ stat.applications }}件、採択数は{{ stat.projects }}件、倍率は{{ stat.competition_rate }}倍でした。
+  未踏ジュニアの応募数や採択数、倍率を年度別にまとめたページです。{{ stat.year }}年度の応募数は{{ stat.applications }}件、採択数は{{ stat.projects }}件、倍率は{{ stat.competition_rate }}倍でした。
 </p>
 
 <center><small>（ <i class="fas fa-mouse-pointer green"></i> カーソルまたはタップで数値が見れます）</small></center>
