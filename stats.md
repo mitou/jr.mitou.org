@@ -2,6 +2,7 @@
 layout: post
 title: 統計情報
 description: 未踏ジュニアの応募数や採択数、倍率を年度別にまとめたページです。{{ site.data.stats[0].year }}年度の応募数は{{ site.data.stats[0].applications }}件、採択数は{{ site.data.stats[0].projects }}件、倍率は{{ site.data.stats[0].competition_rate }}倍でした。
+thumbnail: /assets/img/thumbnails/stats.png
 ---
 
 <style type="text/css">
