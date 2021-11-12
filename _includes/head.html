@@ -22,9 +22,9 @@
   {% endif %}
 
   {% if page.description %}
-  <meta name="description"         content="{{ page.description }}" />
-  <meta name="twitter:description" content="{{ page.description }}" />
-  <meta property="og:description"  content="{{ page.description }}" />
+  <meta name="description"         content="{{ page.description | liquify }}" />
+  <meta name="twitter:description" content="{{ page.description | liquify }}" />
+  <meta property="og:description"  content="{{ page.description | liquify }}" />
   {% else %}
   <meta name="description"         content="{{ translations.description[lang] }}" />
   <meta name="twitter:description" content="{{ translations.description[lang] }}" />

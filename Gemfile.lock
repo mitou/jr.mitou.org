@@ -47,6 +47,9 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-liquify (0.0.2)
+      liquid (>= 2.5, < 5.0)
+      redcarpet (~> 3.1)
     jekyll-minifier (0.1.10)
       cssminify2 (~> 2.0)
       htmlcompressor (~> 0.4)
@@ -99,6 +102,7 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    redcarpet (3.5.1)
     rexml (3.2.5)
     rouge (3.26.1)
     safe_yaml (1.0.5)
@@ -129,6 +133,7 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-include-cache
+  jekyll-liquify
   jekyll-minifier
   jekyll-sitemap
   liquid-c

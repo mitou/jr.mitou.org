@@ -11,8 +11,10 @@ group :jekyll_plugins do
   gem 'jekyll-include-cache'
   gem 'jekyll-sitemap'
   gem 'jekyll-minifier'
+  gem 'jekyll-liquify'
 
-  # gem 'github-pages' # No need this. Build by GitHub Actions and serve on Pages.
+  # No need this gem because we build by GitHub Actions and serve on Pages.
+  # gem 'github-pages'
 end
 
 # Gems to use in Development & CI (GitHub Actions)
