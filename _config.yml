@@ -21,6 +21,7 @@ feed:
 
 exclude:
   - tasks/
+  - Rakefile
 
 sass:
   style:     compressed
