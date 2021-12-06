@@ -21,19 +21,6 @@
 
 <br>
 
-## :bookmark_tabs: メディア掲載を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`media.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/media.yml) にメディア掲載記事の情報があります。  
-上が新しい情報になるように記述するとよいでしょう。
-
-それぞれの項目は以下のような内容です。
-```yml
-- title: 記事タイトル (例：「テクノロジー×好きなこと」で“未踏”の領域に挑む10代のトップクリエーターたち (こどもとIT))
-  url: 記事ページのURL (例：https://www.watch.impress.co.jp/kodomo_it/news/1219499.html)
-  date: 公開日 (例：2019/11/20)
-```
-
-<br>
-
 ## :rocket: プロジェクト情報を更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) にプロジェクトの情報があります。
 
@@ -88,6 +75,19 @@
   twitter: Twitter ID。例：yasulab
   github: GitHub ID。例：yasulab
   web: 上記以外のURL。例: https://yasslab.jp/
+```
+
+<br>
+
+## :bookmark_tabs: メディア掲載を更新したい
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`media.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/media.yml) にメディア掲載記事の情報があります。  
+上が新しい情報になるように記述するとよいでしょう。
+
+それぞれの項目は以下のような内容です。
+```yml
+- title: 記事タイトル (例：「テクノロジー×好きなこと」で“未踏”の領域に挑む10代のトップクリエーターたち (こどもとIT))
+  url: 記事ページのURL (例：https://www.watch.impress.co.jp/kodomo_it/news/1219499.html)
+  date: 公開日 (例：2019/11/20)
 ```
 
 <br>
