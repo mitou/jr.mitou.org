@@ -37,6 +37,7 @@
   project_id: augment
   name: 中橋 遥斗
   year: 2021
+  is_spc: true
 
 - id: chou_masaki
   project_id: haniwa
