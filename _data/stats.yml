@@ -8,8 +8,8 @@
   competition_rate: 8.79 # 8.7858 倍
   acceptance_rate:  11.4 # 11.382 %
   creators: 14
-  spc: 6
-  spc_rate: 42.9 #42.857%
+  spc: 7
+  spc_rate: 50.0 #50.0%
 
 - year: 2020
   applications: 115
