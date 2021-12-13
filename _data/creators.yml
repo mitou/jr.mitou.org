@@ -3,21 +3,25 @@
   project_id: visible
   name: 森谷 頼安
   year: 2021
+  is_spc: true
 
 - id: kawaguchi_akari
   project_id: mark_sdgs
   name: 川口 明莉
   year: 2021
+  is_spc: true
 
 - id: shinmi_rick
   project_id: cybotanic
   name: 新美 陸人
   year: 2021
+  is_spc: true
 
 - id: mugisus
   project_id: telport
   name: 湊 真之
   year: 2021
+  is_spc: true
 
 - id: inoue_eisuke
   project_id: curepathy
@@ -53,11 +57,13 @@
   project_id: killin_engine
   name: 梅村 時空
   year: 2021
+  is_spc: true
 
 - id: s7tya
   project_id: web_koten
   name: 椎名
   year: 2021
+  is_spc: true
 
 - id: mizutani_shunsuke
   project_id: birds_eye
