@@ -138,5 +138,5 @@ $ bundle exec rake test
 
 ## :copyright: クレジット
 
-Copyright &copy; 2016-2021 [Mitou Foundation](https://www.mitou.org/)   
+Copyright &copy; 2016-2022 [Mitou Foundation](https://www.mitou.org/)   
 [未踏ジュニア](https://jr.mitou.org/)運営チーム
