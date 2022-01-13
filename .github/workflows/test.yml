@@ -96,4 +96,4 @@ jobs:
         hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
         format: 'markdown'
         message: |
-          <span class='label label-danger'>本番環境</span> @yasulab :warning: デプロイに失敗したためロールバックされました: [https://jr.mitou.org/](https://jr.mitou.org/) ([build](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}))
+          <span class='label label-danger'>本番環境</span> @yasulab :warning: デプロイに失敗したためロールバックされました: https://jr.mitou.org/ ([build](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}))
