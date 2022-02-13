@@ -8,8 +8,8 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 
 提案書のテンプレートを以下からダウンロードして、PDFに変換後、[応募フォーム](#ready)からアップロードしてください。
 
-<a href="https://jr.mitou.org/assets/other/mitoujr_application_2021.zip" class="button">Word・Pages を使う</a>
-<a href="https://docs.google.com/document/d/1hjDYf2DbFBkXLyrAl9HKKc9sS40XbZ_iN2j-HKZXD9g/edit?usp=sharing" class="button" target="_blank">Google Docs を使う</a>
+<a href="https://mitou-my.sharepoint.com/:w:/g/personal/yukai_mitou_org/EXicnZU6RaBKrB3wQx7ICTMBbmlqwoCKJiKdQshjO-_zuw?e=aD89Tv" class="button">Word を使う</a>
+<a href="https://docs.google.com/document/d/1hjDYf2DbFBkXLyrAl9HKKc9sS40XbZ_iN2j-HKZXD9g/copy" class="button" target="_blank">Google Docs を使う</a>
 
 
 ## 提案書サンプル {#sample}
