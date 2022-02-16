@@ -315,6 +315,18 @@ footer{
     margin-left: calc(100% + 8px);
   }
 }
+.list-agenda{
+  list-style: none;
+  li{
+    padding-left:  3.5em;
+    text-indent:  -3.5em;
+    text-align: left;
+    @media screen and (max-width:$header-phone) {
+      padding-left: 1em;
+    }
+  }
+}
+
 .list-none{
   list-style: none;
   text-align: left;
@@ -512,6 +524,7 @@ footer{
 .note{
   border: dotted 5px $main-color;
   border-radius: 8px;
+  max-width: $header-phone;
   padding: 16px;
   padding-left: 4em;
   text-indent: -3em;
