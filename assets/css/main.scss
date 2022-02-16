@@ -513,6 +513,9 @@ footer{
   border: dotted 5px $main-color;
   border-radius: 8px;
   padding: 16px;
+  padding-left: 4em;
+  text-indent: -3em;
+  text-align: left;
   &::before{
     border-right: solid 4px $main-color;
     content: '\f14a';
