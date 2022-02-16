@@ -994,6 +994,9 @@ footer{
 }
 .lets-apply{
   background-color: $lightgray;
+  @media screen and (min-width:$header-phone) {
+    padding: 24pt 26vw !important;
+  }
 
   h3  { margin-top: 50px; }
   img { max-width: 600px; }
