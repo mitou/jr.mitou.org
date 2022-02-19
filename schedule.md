@@ -41,7 +41,7 @@ thumbnail: /assets/img/thumbnails/schedule.png
 {% include arrow.html %}
 
 ## 成果報告会
-<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/saisyu.svg" alt="最終" width="50%" class="post-photo lazyload">
+<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/final.svg" alt="発表のイメージ図" width="50%" class="post-photo lazyload">
 成果報告会の内容も<a href='https://www.youtube.com/mitoujr'>YouTubeチャンネル</a>から公開しています。ご参考になれば幸いです。
 
 <a href="/final" class="button">成果報告会を見る</a>
