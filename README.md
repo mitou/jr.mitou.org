@@ -31,8 +31,8 @@
   description: プロジェクト概要。例：VisibleはWebサイトのアクセシビリティーを診断するサービスです。...
   thumbnail: サムネイル画像。まだ無い場合はコメントアウトしてください。
   promotion: プロジェクトの PV や紹介動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
-  final: 未踏ジュニア最終成果報告会の動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
-  final_start: （オプション）final の動画の開始時刻を指定できます。主に最終成果報告会の直後で使います。
+  final: 未踏ジュニア成果報告会の発表動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
+  final_start: （オプション）final の発表動画の開始時刻を指定できます。主に成果報告会の直後で使います。
   year: 採択プロジェクトの年度。例: 2020
   link: 公式サイトへのリンク（任意）。例: https://github.com/visible/visible
   mentor_id: 「mentors.yml」にあるメンターIDを入力。例: yasulab
