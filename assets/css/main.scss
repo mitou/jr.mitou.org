@@ -256,7 +256,10 @@ footer{
   .sns {
     padding: 20px 4px;
     a {
-      margin: 0 10px;
+      margin: 0 8px;
+      @media screen and (max-width:$phone-width) {
+	margin: 0 2px;
+      }
     }
     i {
       font-size: 34px;
