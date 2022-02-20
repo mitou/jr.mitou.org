@@ -264,6 +264,27 @@ Highcharts.chart('chances', {
 
 {% endfor %}
 
+
+## 累計データ { #total }
+<p style='margin-top: 50px;'>
+  2016年度から{{ current_stat.year }}年度までの累計データは以下のとおりです。
+  {% assign total_applications = 0 %}
+  {% assign total_projects = 0 %}
+  {% assign total_creators = 0 %}
+  {% assign total_spcs  = 0 %}
+  {% for stat in site.data.stats %}
+    {% assign total_applications = total_applications | plus: stat.applications %}
+    {% assign total_projects     = total_projects     | plus: stat.projects     %}
+    {% assign total_creators     = total_creators     | plus: stat.creators     %}
+    {% endfor %}
+  <ul>
+    <li>これまでの累計応募件数: {{ total_applications }} 件</li>
+    <li>採択したプロジェクト数: {{ total_projects     }} 件</li>
+    <li>採択したクリエータ人数: {{ total_creators     }} 名</li>
+  </ul>
+</p>
+
+
 ## お問い合わせ
 
 <div style="margin-top: 50px;">
