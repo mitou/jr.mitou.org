@@ -62,9 +62,9 @@ thumbnail: /assets/img/thumbnails/stats.png
 <script src="/assets/js/exporting.js"></script>
 -->
 
-{% assign stat = site.data.stats[0] %}
+{% assign current_stat = site.data.stats[0] %}
 <p style='margin-top: 50px;'>
-  未踏ジュニアの応募数や採択数、倍率を年度別にまとめたページです。{{ stat.year }}年度の応募数は{{ stat.applications }}件、採択数は{{ stat.projects }}件、倍率は{{ stat.competition_rate }}倍でした。
+  未踏ジュニアの応募数や採択数、倍率を年度別にまとめたページです。{{ current_stat.year }}年度の応募数は{{ current_stat.applications }}件、採択数は{{ current_stat.projects }}件、倍率は{{ current_stat.competition_rate }}倍でした。
 </p>
 
 <center><small>（ <i class="fas fa-mouse-pointer green"></i> カーソルまたはタップで数値が見れます）</small></center>
