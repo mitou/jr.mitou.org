@@ -265,7 +265,7 @@ Highcharts.chart('chances', {
 {% endfor %}
 
 
-## 累計データ { #total }
+## 累計データ {#total}
 <p style='margin-top: 50px;'>
   2016年度から{{ current_stat.year }}年度までの累計データは以下のとおりです。
   {% assign total_applications = 0 %}
