@@ -22,7 +22,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 
 <p class="text-center">提案書の準備ができたら応募フォームへ! <i class="fad fa-mailbox green"></i></p>
 
-<a href="https://mitoujr.wufoo.com/forms/xooh8f51235adn/" class="button" target="_blank">応募フォームはこちら</a>
+{% include application_form.html %}
 
 <a href="/guideline" class="button">応募の流れを確認する</a>
 
