@@ -1025,3 +1025,8 @@ footer{
   opacity: 1;
   transition: all 500ms;
 }
+
+/* bug fix for Helpfeeel Element */
+.helpfeel-launch-button span {
+  color: inherit;
+}
