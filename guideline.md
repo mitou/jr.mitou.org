@@ -28,7 +28,7 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 
 <a href="https://mitoujr.wufoo.com/forms/k5pu3rh0idfmgb/" class="button" target="_blank">応募フォームはこちら</a>
 
-<br>
+<!-- <div class="note">2022年度の応募フォームは3月上旬を目処に公開を予定しています。今しばらくお待ちください。</div> -->
 
 {% include arrow.html %}
 
