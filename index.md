@@ -6,8 +6,8 @@ this_year: 2021
 
 <div class="cover-photo">
   <img src="/assets/img/2019_all.min.png" data-src="/assets/img/2019_all.png" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
-  <a href="/projects" class="dialog ignore-sp">
-    🆕 2021年度の未踏ジュニアスーパークリエータを発表しました。</a>
+  <a href="/guideline" class="dialog ignore-sp">
+    🆕 2021年度の応募を開始しました。(4/9 23:59〆切）</a>
 </div>
 
 <section id="about">
