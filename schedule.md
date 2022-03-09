@@ -15,7 +15,7 @@ thumbnail: /assets/img/thumbnails/schedule.png
 ## メンターとのミーティング
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/mtg.svg" alt="ミーティング" width="50%" class="post-photo lazyload">
 基本的には、期間中週に一度程度、オンラインでメンターとのミーティングがあります。プログラミングの質問、方針の話でも、なんでも相談できる機会です！
-<a href="/mentors" class="button">メンター紹介</a>
+<a href="/mentors" class="button">メンター紹介を見る</a>
 
 ## ブースト合宿（6/13-14）
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/boost.svg" alt="ブースト合宿" width="50%" class="post-photo lazyload">

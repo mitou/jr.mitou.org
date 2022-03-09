@@ -54,6 +54,6 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 
 採択者全員が参加する未踏ジュニアブースト合宿が **6/11-12** の日程で開催されます。（開催方式は追ってご連絡させていただきます。）
 
-<a href="/#faq"     class="button">よくある質問</a>
-<a href="/q-box" class="button">匿名質問箱で質問する</a>
-<a href="/schedule" class="button">採択後の流れ</a>
+<a href="/#faq"     class="button">よくある質問を見る</a>
+<a href="/q-box"    class="button">匿名質問箱で質問する</a>
+<a href="/schedule" class="button">採択後の流れを見る</a>
