@@ -10,7 +10,12 @@ description: 2022年度未踏ジュニアへの応募から採択までの流れ
 ## 応募から採択までの流れ
 
 ### 1. プロジェクトの計画を立てる {#plan}
-プロジェクト期間にどのようなソフトウェア・ハードウェアの開発に挑戦したいか、計画を立てます。最大 4 人までのチームで開発することもできます。通っているプログラミング教室などで、大人に相談するのもよいでしょう。
+プロジェクト期間にどのようなソフトウェア・ハードウェアの開発に挑戦したいか、計画を立てます。最大 4 人までのチームで開発することもできます。通っているプログラミング教室やクラブなどで、大人に相談するのもよいでしょう。
+
+YouTube からは応募者向けのメッセージや提案のコツなどを公開しています。
+<center><h4 class="heading-balloon" style='margin-top: 20px; margin-bottom: 20px;'>公開している動画の例</h4></center>
+<a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank" rel="noopener"><img src="/assets/img/spinner.svg" data-src="/assets/img/highlights-for-creators.png" alt="Movies for Prospective Creators" width="100%" class="lazyload" loading="lazy"></a>
+<a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button" target="_blank" rel="noopner">応募者向けの動画を見る</a>
 {% include arrow.html %}
 
 ### 2. 申請書類を作成する {#proposal}
