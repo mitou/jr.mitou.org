@@ -1,0 +1,18 @@
+---
+---
+
+[ {% for mentor in site.data.mentors %}
+  {
+    "id"           : "{{ mentor.id }}",
+    "url"          : "{{ site.url }}/mentors#{{ mentor.id }}",
+    "name"         : "{{ mentor.name.last }} {{ mentor.name.first }}",
+    "affilication" : "{{ mentor.affiliation }}",
+    "interested"   : "{{ mentor.interested | escape }}",
+    "bio"          : "{{ mentor.bio | escape }}",
+    "img"          : "{{ site.url }}/assets/img/mentors/{{ mentor.img }}",
+    "projects"     : [
+      {% assign pjs = site.data.projects | where_exp: "pj", "pj.mentor_id == mentor.id" %}
+      {% for pj in pjs %}"{{ pj.title }}"{% unless forloop.last %}, {% endunless %}{% endfor %}
+    ]
+  }{% unless forloop.last %},{% endunless %}{% endfor %}
+]
