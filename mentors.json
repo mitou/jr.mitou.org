@@ -1,7 +1,8 @@
 ---
 ---
 
-[ {% for mentor in site.data.mentors %}
+{% assign mentors = site.data.mentors | where_exp: 'mentor', 'mentor.is_alumni != true' %}
+[ {% for mentor in mentors %}
   {
     "id"           : "{{ mentor.id }}",
     "url"          : "{{ site.url }}/mentors#{{ mentor.id }}",
