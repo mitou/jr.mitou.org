@@ -14,6 +14,10 @@ $header-phone: 940px;
   line-height: 1.8em;
 }
 
+i.fa-solid{
+  color: inherit;
+  font-size: 80%;
+}
 a{
   color: $text-green;
   font-weight: 500;
