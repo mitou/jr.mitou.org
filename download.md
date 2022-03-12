@@ -32,10 +32,11 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 未踏ジュニア採択者（クリエータ）による体験談などの記事もあります。こちらも合わせてご参考になれば幸いです。カッコ内は採択されたプロジェクト名です。
 
 <ul>
-  <!--<li><a href='https://note.com/ricksh/n/n5fa51f9142b2'>採択されるために私が意識したこと/アドバイス <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2021/cybotanic'>Cybotanic：サイボーグ化された植物</a></small>）</li>-->
-  <li><a href='https://note.com/anharu/n/ne00c1e774a29'>スーパークリエータに認定されたりアプリ甲子園で準優勝したりするまで <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2020/skimer'>SKIMER - LINEで手軽にやること管理</a>）</small></li>
-  <li><a href='https://note.com/inoue2002/n/nfb57cd6825a4'>未踏ジュニア振り返りと、技術力に差があるチーム開発の僕なりの攻略方法 <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2020/critica'>critica - 手軽で直感的なリアクション回収ツール</a>）</small></li>
+  <li><a href='https://note.com/ricksh/n/n5fa51f9142b2'>採択されるために私が意識したこと/アドバイス <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2021/cybotanic'>Cybotanic：サイボーグ化された植物</a></small>）</li>
   <li><a href='https://note.com/redapple0414/n/nd20c49794b79'>未踏ジュニアの振り返り <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2021/mark_sdgs'>マークみっけ！for  SDGs</a>）</small></li>
+  <li><a href='https://note.com/inoue2002/n/nfb57cd6825a4'>未踏ジュニア振り返りと、技術力に差があるチーム開発の僕なりの攻略方法 <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2020/critica'>critica - 手軽で直感的なリアクション回収ツール</a>）</small></li>
+  <li><a href='https://note.com/anharu/n/ne00c1e774a29'>スーパークリエータに認定されたりアプリ甲子園で準優勝したりするまで <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2020/skimer'>SKIMER - LINEで手軽にやること管理</a>）</small></li>
+  
 </ul>
 
 
