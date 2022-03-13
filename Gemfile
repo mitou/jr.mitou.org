@@ -5,9 +5,11 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "jekyll"
 gem "minima"   # default theme for new Jekyll sites
-gem "liquid-c" # Speedup with C implementation
 gem 'rake'     # Enable Rakefile to run tasks
 gem "webrick", "~> 1.7"
+
+# NOTE: Add this gem when being able to compile on M1 Mac.
+# gem "liquid-c" # Speedup with C implementation
 
 group :jekyll_plugins do
   gem 'jekyll-feed'
