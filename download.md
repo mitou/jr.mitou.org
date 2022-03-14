@@ -16,9 +16,10 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 
 過去の採択者による提案書を一部公開しています。今年の提案書とはフォーマットが少し異なりますが、採択された提案書の一例としてご参考になれば幸いです。
 
-<a href="https://jr.mitou.org/assets/other/2020_application_samples.zip" class="button">過去の提案書を見る</a>
+<a href="https://jr.mitou.org/assets/other/2020_application_samples.zip" id='tips' class="button">過去の提案書を見る</a>
 
-## 提案書のコツ {#tips}
+
+## 提案書のコツ
 
 未踏ジュニアのメンターが応募者に向けて書いた記事です。提案書を良くするヒントになれば嬉しいです。
 
