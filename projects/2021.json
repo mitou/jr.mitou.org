@@ -1,0 +1,7 @@
+---
+---
+
+{% assign this_year = page.path | remove: 'projects/' | remove: '.json' | abs %}
+{% assign projects  = site.data.projects | where_exp: "pj", "pj.year == this_year" %}
+
+{% include projects2json.json %}

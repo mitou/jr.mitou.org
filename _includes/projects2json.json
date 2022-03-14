@@ -1,0 +1,22 @@
+[ {% for pj in projects %}
+  {
+    "id"          : "{{ pj.id }}",
+    "title"       : "{{ pj.title }}",
+    "description" : "{{ pj.description | escape }}",
+    "thumbnail"   : "{{ site.url }}/{{ pj.thumbnail }}",
+    "url"         : "{{ site.url }}/projects/{{ pj.year }}/{{ pj.id }}",
+    "year"        : "{{ pj.year }}",
+    "creators"    : [
+      {% for creator_id in pj.creator_ids %}{% assign creator = site.data.creators | find_exp: 'item', 'item.id == creator_id' %}"{{ creator.name }}"{% unless forloop.last %}, {% endunless %}{% endfor %}
+    ],
+    "mentor"      : { {% assign mentor = site.data.mentors | find_exp: "item", "item.id == pj.mentor_id" %}
+      "id"           : "{{ mentor.id }}",
+      "url"          : "{{ site.url }}/mentors#{{ mentor.id }}",
+      "name"         : "{{ mentor.name.last }} {{ mentor.name.first }}",
+      "affilication" : "{{ mentor.affiliation }}",
+      "interested"   : "{{ mentor.interested | escape }}",
+      "bio"          : "{{ mentor.bio | escape }}",
+      "img"          : "{{ site.url }}/assets/img/mentors/{{ mentor.img }}"
+    }
+  }{% unless forloop.last %},{% endunless %}{% endfor %}
+]
