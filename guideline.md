@@ -31,7 +31,7 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 ### 3. 応募フォームから提案書をアップロードする (2022/4/9 23:59まで) {#apply}
 申請者情報やオンライン面接の希望日、その他必要な情報をフォームに入力し、作成した提案書をアップロードします。
 
-<a href="https://mitoujr.wufoo.com/forms/k5pu3rh0idfmgb/" class="button" target="_blank">応募フォームはこちら</a>
+<a href="https://mitoujr.wufoo.com/forms/k5pu3rh0idfmgb/" class="button" target="_blank">応募フォームを見る</a>
 
 <!-- <div class="note">2022年度の応募フォームは3月上旬を目処に公開を予定しています。今しばらくお待ちください。</div> -->
 
