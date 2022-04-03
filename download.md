@@ -35,7 +35,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 </ul>
 
 ## 採択者の体験談 {#voices}
-未踏ジュニア採択者（クリエータ）による体験談などもあります。こちらも合わせてご参考になれば幸いです。カッコ内は採択されたプロジェクト名です。
+未踏ジュニア採択者（クリエータ）による体験談もあります。こちらも合わせてご参考になれば幸いです。カッコ内は採択されたプロジェクト名です。
 
 <ul>
   <li><a href='https://note.com/ricksh/n/n5fa51f9142b2'>採択されるために私が意識したこと/アドバイス <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2021/cybotanic'>Cybotanic：サイボーグ化された植物</a></small>）</li>
