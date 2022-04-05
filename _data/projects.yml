@@ -92,7 +92,7 @@
 
 - id: augment
   title: Augment － リアルタイム音階推定を用いた音楽ゲーム
-  description: ユーザーが弾いている楽器の音をリアルタイムで音階推定し、直感的に楽器を楽しめる音楽ゲームです。タブレットやスマホの楽器アプリでも遊ぶことができます.
+  description: ユーザーが弾いている楽器の音をリアルタイムで音階推定し、直感的に楽器を楽しめる音楽ゲームです。タブレットやスマホの楽器アプリでも遊ぶことができます。
   thumbnail: augment.png
   promotion: DwA0pzPJs14
   final: ljeLi3lyKAY
