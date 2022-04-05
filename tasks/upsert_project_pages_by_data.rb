@@ -6,7 +6,7 @@ require 'yaml'
 projects = YAML.load_file("_data/projects.yml")
 projects.each_with_index do |project, index|
   # Generate individual project page by data
-  path = "./_posts/2021-02-20-#{project['id']}.md"
+  path = "./_posts/#{project['year']}-09-01-#{project['id']}.md"
   page = <<~PROJECT_PAGE
     ---
     layout: post
