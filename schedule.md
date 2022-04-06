@@ -17,9 +17,9 @@ thumbnail: /assets/img/thumbnails/schedule.png
 基本的には、期間中週に一度程度、オンラインでメンターとのミーティングがあります。プログラミングの質問、方針の話でも、なんでも相談できる機会です！
 <a href="/mentors" class="button">メンター紹介を見る</a>
 
-## ブースト合宿（6/13-14）
+## ブースト合宿（6/11-12）
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/boost.svg" alt="ブースト合宿" width="50%" class="post-photo lazyload">
-採択者全員が集まる未踏ジュニアブースト合宿が、6/13-14 の日程で行われます。
+採択者全員が集まる未踏ジュニアブースト合宿が、6/11-12 の日程で行われます。
 
 <small>
   ※
