@@ -70,9 +70,10 @@ jobs:
           if ( ruby -ryaml -e "p YAML.load(STDIN.read)" < _data/projects.yml > /dev/null ); then
             git config --global user.name  "Yohei Yasukawa"
             git config --global user.email "yohei@yasslab.jp"
+            git checkout main
             git add _posts/
             git commit -m '🤖 Upsert project page(s) by GitHub Actions'
-            git push
+            git push origin main
           else
             echo "Detect syntax error in '_data/projects.yml' file, check its syntax."
           fi
