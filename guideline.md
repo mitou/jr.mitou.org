@@ -45,6 +45,11 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 
 ### 5. インタビュー（2022/5/5 - 16 のいずれか） {#interview}
 あなたの提案に興味を持ったメンターが、オンラインで 10〜30 分程度のインタビューを行います。5分程度で提案の概要についてプレゼンテーションして頂いた後、いくつか質問をさせていただきます。採択可否の結果はその場では通知されません。
+
+<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/mtg.svg" alt="ミーティング" width="50%" class="post-photo lazyload">
+
+<br>
+
 {% include arrow.html %}
 
 ### 6. 追加インタビュー期間（2022/5/17 - 5/27） {#interview-more}
@@ -52,7 +57,7 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 {% include arrow.html %}
 
 ### 7. 採択結果の通知（2022/5/29前後） {#second-feedback}
-すべてのインタビュー日程が終了した後、**5月29日**前後に採択結果がメールで届きます。
+インタビュー期間終了後、**5月29日**前後に採択結果がメールで届きます。
 <div class="tips">結果を受け取れるよう、mitou.orgドメインからの迷惑メール解除設定をしておいてください。</div><br>
 {% include arrow.html %}
 
@@ -60,6 +65,8 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 **採択、おめでとうございます！**
 
 採択者全員が参加する未踏ジュニアブースト合宿が **6/11-12** の日程で開催されます。（開催方式は追ってご連絡させていただきます。）
+
+<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/boost.svg" alt="ブースト合宿" width="50%" class="post-photo lazyload">
 
 <a href="/#faq"     class="button">よくある質問を見る</a>
 <a href="/q-box"    class="button">匿名質問箱で質問する</a>
