@@ -28,11 +28,11 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 未踏ジュニアのメンターが応募者に向けて書いた記事です。提案書を良くするヒントになれば嬉しいです。
 
 <ul>
+  <li><a href='https://speakerdeck.com/yasulab/believe-in-your-passion'>多様なメンター、多様な基準</a> <small>by <a href='/mentors#yasulab'>安川</a></small></li>
   <li><a href='https://note.com/yoshifumiseki/n/n1e928281d7dc'>未踏ジュニアにおけるよい提案資料の書き方、もしくはアイデアの伝え方と評価について <i class="fa-solid fa-up-right-from-square"></i></a> <small>by <a href='/mentors#seki_yoshifumi'>関</a></small></li>
   <li><a href='https://zenn.dev/reputeless/articles/idea-mitoujr'>未踏ジュニア、伝わる提案書を作る 5 つのコツ <i class="fa-solid fa-up-right-from-square"></i></a> <small>by <a href='/mentors#suzuki_ryou'>鈴木</a></small></li>
   <li><a href='https://scrapbox.io/nishio/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8F%90%E6%A1%88%E6%9B%B8%E3%81%A3%E3%81%A6%E3%81%A9%E3%81%86%E6%9B%B8%E3%81%8F%E3%81%AE%EF%BC%9F'>プロジェクト提案書ってどう書くの？ <i class="fa-solid fa-up-right-from-square"></i></a> <small>by <a href='/mentors#nishio_hirokazu'>西尾</a></small></li>
   <li><a href='https://note.com/teramotodaiki/n/n148d35899016'>提案書のよくある「もったいない」点の紹介 <i class="fa-solid fa-up-right-from-square"></i></a> <small>by <a href='/mentors#teramoto_daiki'>寺本</a></small></li>
-  <li><a href='https://speakerdeck.com/yasulab/believe-in-your-passion'>多様なメンター、多様な基準</a> <small>by <a href='/mentors#yasulab'>安川</a></small></li>
 </ul>
 
 ## 採択者の体験談 {#voices}
