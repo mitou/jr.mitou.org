@@ -108,7 +108,21 @@ this_year: 2021
   <a href="/mentors" class="button">こんな人・こんな提案を<br>待っています</a>
 </section>
 
-{% include faq.html %}
+
+<section id="faq">
+  <h2>よくある質問</h2>
+  <div class="qanda">
+    {% for faq in site.data.faq %}
+    <div class="qanda-one">
+      <input type="checkbox" id="faq_{{faq.q}}">
+      <label for="faq_{{faq.q}}"><i class="fas fa-question-circle green"></i> {{faq.q}}</label>
+      <p class="qanda-a">{{faq.a}}</p>
+    </div>
+    {% endfor %}
+  </div>
+  <a href="/q-box" class="button">匿名質問箱で質問する</a>
+</section>
+
 
 <section id="for-creators" class="prospective-creators">
   <h2 class="heading-balloon">応募者向けお役立ち情報</h2>
