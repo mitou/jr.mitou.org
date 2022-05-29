@@ -9,7 +9,7 @@ thumbnail: /assets/img/thumbnails/schedule.png
 <img src="/assets/img/spinner.svg" data-src="/assets/img/schedule2021.svg" alt="一年のスケジュール" width="100%" class="post-photo lazyload">
 
 <div class="note">
-  <b>昨今の情勢を鑑みて、合宿および成果発表会などのオンライン開催を現在検討しています。</b>
+  <b>昨今の情勢を鑑みて、合宿および成果発表会などはオンライン開催になる可能性があります。</b>
 </div>
 
 ## メンターとのミーティング
