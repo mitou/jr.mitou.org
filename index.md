@@ -115,8 +115,8 @@ this_year: 2021
     {% for faq in site.data.faq %}
     <div class="qanda-one">
       <input type="checkbox" id="faq_{{faq.q}}">
-      <label for="faq_{{faq.q}}"><i class="fas fa-question-circle green"></i> {{faq.q}}</label>
-      <p class="qanda-a">{{faq.a}}</p>
+      <label for="faq_{{ faq.q }}"><i class="fas fa-question-circle green"></i> {{ faq.q }}</label>
+      <p class="qanda-a">{{ faq.a }}</p>
     </div>
     {% endfor %}
   </div>
