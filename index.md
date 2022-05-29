@@ -120,6 +120,7 @@ this_year: 2021
     </div>
     {% endfor %}
   </div>
+  <a href="https://helpfeel.com/mitoujr/" class="button">他の質問と回答を見る</a>
   <a href="/q-box" class="button">匿名質問箱で質問する</a>
 </section>
 
