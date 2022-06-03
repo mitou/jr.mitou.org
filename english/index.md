@@ -26,7 +26,7 @@ lang: en
   <p>Example projects, accepted and boosted by our program, are as follows.</p>
 
   <div class="project-showcase-list">
-    <a href='https://visi.dev/' class="project-showcase project-one" target="_blank" rel='noopener'>
+    <a href='https://github.com/visible/visible' class="project-showcase project-one" target="_blank" rel='noopener'>
       <img src="/assets/img/spinner.svg" data-src="/assets/img/english/visible.png" alt="Visible - Web Accessibility Validate & Fix" class="project-img lazyload" loading="lazy" />
     </a>
     <a href='https://www.youtube.com/watch?v=MePIVH21RZM' class="project-showcase project-one" target="_blank" rel='noopener'>
@@ -40,7 +40,7 @@ lang: en
       <img src="/assets/img/spinner.svg" data-src="/assets/img/english/abecobe.png" alt="abecobe - Puzzle game using two blocks" class="project-img lazyload" loading="lazy" />
     </a>
 
-    <a href='https://anjuart.com/' class="project-showcase project-one" target="_blank" rel='noopener'>
+    <a href='https://anjuart.com/en/' class="project-showcase project-one" target="_blank" rel='noopener'>
       <img src="/assets/img/spinner.svg" data-src="/assets/img/english/flight-fit-vr.jpg" alt="Flight Fit -VR-" class="project-img lazyload" loading="lazy" />
     </a>
     <a href='https://vamboo.net/' class="project-showcase project-one" target="_blank" rel='noopener'>
