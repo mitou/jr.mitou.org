@@ -1,78 +1,101 @@
 <!-- 以下スポンサー一覧のHTMLです。スポンサー情報は/_data/sponsors.ymlを参照してください。 -->
 
 {% assign lang = page.lang | default: "ja" %}
-{% assign platinum_sponsors   = site.data.sponsors | where: "type", "platinum"   %}
-{% assign gold_sponsors   = site.data.sponsors | where: "type", "gold"   %}
-{% assign silver_sponsors = site.data.sponsors | where: "type", "silver" %}
-{% assign bronze_sponsors = site.data.sponsors | where: "type", "bronze" %}
-{% assign inkind_sponsors = site.data.sponsors | where: "type", "inkind" %}
-{% assign media_sponsors  = site.data.sponsors | where: "type", "media"  %}
+{% assign platinum_sponsors = site.data.sponsors | where: "type", "platinum" %}
+{% assign gold_sponsors     = site.data.sponsors | where: "type", "gold"     %}
+{% assign silver_sponsors   = site.data.sponsors | where: "type", "silver"   %}
+{% assign bronze_sponsors   = site.data.sponsors | where: "type", "bronze"   %}
+{% assign inkind_sponsors   = site.data.sponsors | where: "type", "inkind"   %}
+{% assign media_sponsors    = site.data.sponsors | where: "type", "media"    %}
 
 <section id="sponsors">
-
   <h2 class="heading-line">{{ site.data.translations.sponsorHeading[lang] }}</h2>
 
+  {% for sponsor in platinum_sponsors %}
+  {% if forloop.first %}
   <h3 id='sponsor-platinum'>{{ site.data.translations.sponsorPlatinum[lang] }}</h3>
   <div class="sponsors-list-platinum">
-    {% for sponsor in platinum_sponsors %}
+  {% endif %}
     <a href="{{sponsor.url}}" target="_blank" rel='noopener'>
       <div class="sponsor-platinum sponsor-one">
         <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img lazyload">
       </div>
     </a>
-    {% endfor %}
+  {% if forloop.last %}
   </div>
+  {% endif %}
+  {% endfor %}
 
+  {% for sponsor in gold_sponsors %}
+  {% if forloop.first %}
   <h3 id='sponsor-gold'>{{ site.data.translations.sponsorGold[lang] }}</h3>
   <div class="sponsors-list-gold">
-    {% for sponsor in gold_sponsors %}
+  {% endif %}
     <a href="{{sponsor.url}}" target="_blank" rel='noopener'>
       <div class="sponsor-gold sponsor-one">
         <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img lazyload">
       </div>
     </a>
-    {% endfor %}
+  {% if forloop.last %}
   </div>
+  {% endif %}
+  {% endfor %}
 
+  {% for sponsor in silver_sponsors %}
+  {% if forloop.first %}
   <h3 id='sponsor-silver'>{{ site.data.translations.sponsorSilver[lang] }}</h3>
   <div class="sponsors-list-silver">
-    {% for sponsor in silver_sponsors %}
+  {% endif %}
     <a href="{{sponsor.url}}" target="_blank" rel='noopener'>
       <div class="sponsor-silver sponsor-one">
         <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img lazyload">
       </div>
     </a>
-    {% endfor %}
+  {% if forloop.last %}
   </div>
+  {% endif %}
+  {% endfor %}
 
+  {% for sponsor in bronze_sponsors %}
+  {% if forloop.first %}
   <h3 id='sponsor-bronze'>{{ site.data.translations.sponsorBronze[lang] }}</h3>
   <div class="sponsors-list-bronze">
-    {% for sponsor in bronze_sponsors %}
+  {% endif %}
     <a href="{{sponsor.url}}" target="_blank" rel='noopener'>
       <div class="sponsor-bronze sponsor-one">
         <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img lazyload">
       </div>
     </a>
-    {% endfor %}
+  {% if forloop.last %}
   </div>
+  {% endif %}
+  {% endfor %}
 
+  {% for sponsor in inkind_sponsors %}
+  {% if forloop.first %}
   <h3 id='sponsor-inkind'>{{ site.data.translations.sponsorInkind[lang] }}</h3>
   <div class="sponsors-list-inkind">
-    {% for sponsor in inkind_sponsors %}
+  {% endif %}
     <a href="{{sponsor.url}}" class="sponsor-inkind sponsor-one" target="_blank" rel='noopener'>
       <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img lazyload">
     </a>
-    {% endfor %}
+  {% if forloop.last %}
   </div>
+  {% endif %}
+  {% endfor %}
 
+  {% for sponsor in media_sponsors %}
+  {% if forloop.first %}
   <h3 id='sponsor-media'>{{ site.data.translations.sponsorMedia[lang] }}</h3>
   <div class="sponsors-list-media">
-    {% for sponsor in media_sponsors %}
+  {% endif %}
     <a href="{{sponsor.url}}" class="sponsor-media sponsor-one" target="_blank" rel='noopener'>
       <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-img lazyload">
     </a>
-    {% endfor %}
+  {% if forloop.last %}
   </div>
+  {% endif %}
+  {% endfor %}
 
   <div class="sponsors-text-for-inquiry">
     {{ site.data.translations.sponsorText[lang] }}
