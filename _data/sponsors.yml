@@ -14,10 +14,10 @@
   url:  https://www.recruit.co.jp/
   type: gold
 
-- name: KDDI株式会社
-  img:  kddi.png
-  url:  https://www.kddi.com/
-  type: gold
+#- name: KDDI株式会社
+#  img:  kddi.png
+#  url:  https://www.kddi.com/
+#  type: gold
 
 - name: 株式会社ドワンゴ
   img:  dwango.png
