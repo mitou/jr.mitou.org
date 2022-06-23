@@ -34,10 +34,10 @@
   url:  https://www.procommit.co.jp/
   type: bronze
 
-- name: 株式会社アイデミー
-  img:  aidemy.png
-  url:  https://aidemy.net/
-  type: inkind
+#- name: 株式会社アイデミー
+#  img:  aidemy.png
+#  url:  https://aidemy.net/
+#  type: inkind
 
 - name: さくらインターネット株式会社
   img:  sakura.png
