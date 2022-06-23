@@ -54,6 +54,11 @@
   url:  https://railstutorial.jp/
   type: inkind
 
+- name: Scrapbox
+  img:  scrapbox.svg
+  url:  https://scrapbox.io/
+  type: inkind
+
 - name: Helpfeel
   img:  helpfeel.png
   url:  https://helpfeel.com/
