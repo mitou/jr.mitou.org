@@ -1,17 +1,25 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.2"
+# Replace 'git' with 'https' protocol
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+gem "jekyll"
 gem "minima"   # default theme for new Jekyll sites
-gem "liquid-c" # Speedup with C implementation
 gem 'rake'     # Enable Rakefile to run tasks
+gem "webrick", "~> 1.7"
+
+# NOTE: Add this gem when being able to compile on M1 Mac.
+# gem "liquid-c" # Speedup with C implementation
 
 group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-include-cache'
   gem 'jekyll-sitemap'
   gem 'jekyll-minifier'
+  gem 'jekyll-liquify'
 
-  # gem 'github-pages' # No need this. Build by GitHub Actions and serve on Pages.
+  # No need this gem because we build by GitHub Actions and serve on Pages.
+  # gem 'github-pages'
 end
 
 # Gems to use in Development & CI (GitHub Actions)

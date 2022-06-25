@@ -1,13 +1,17 @@
 ---
-# ここにコメントかけます
 layout: default
+this_year: 2021
+# this_year を変更するとトップページの採択プロジェクトが切り替わります。
+# 成果報告会の公開準備が整ったら this_year を今年度の数字に変更してください。
 ---
 
 <div class="cover-photo">
   <img src="/assets/img/2019_all.min.png" data-src="/assets/img/2019_all.png" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
+  <!--
   <a href="/guideline" class="dialog ignore-sp">
-    2021年度の応募受付を締め切りました!<br>
-    たくさんのご応募ありがとうございます 🙏</a>
+    🆕 2022年度の応募を開始しました。(4/9 23:59〆切）
+  </a>
+  -->
 </div>
 
 <section id="about">
@@ -33,7 +37,7 @@ layout: default
     <div class="service-one">
       <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/sp-creator.svg" alt="スーパークリエータ認定" class="service-img lazyload" loading="lazy">
       <h3>スーパークリエータ認定</h3>
-      <p>特に顕著な成果を残した方を未踏ジュニアスーパークリエータとして認定します。<a href="https://www.sfc.keio.ac.jp/news/012903.html">慶應義塾大学SFC</a>や<a href="https://www.tmu.ac.jp/entrance/revision/y2021/tayou.html">東京都立大学</a>に推薦枠で出願できます</p>
+      <p>特に顕著な成果を残した方を表彰します。<a href="https://www.sfc.keio.ac.jp/news/012903.html">慶應SFC</a>や<a href="https://cs.sd.tmu.ac.jp/admission_office.html">都立大学</a>、<a href='https://newscast.jp/news/1055602'>近畿大学</a>に推薦枠で出願できます</p>
     </div>
     <a href="/about" class="button">詳細を見る</a>
   </div>
@@ -62,25 +66,26 @@ layout: default
 
 <section id="media">
   <h2 class="heading-line"><i class="far fa-newspaper green"></i> メディア掲載</h2>
-  <ul class="list-none media-list">
-    {% for medium in site.data.media limit:5 %}
-    <li><span class="media-pc-date pc-inline-b">{{ medium.date }}</span><a href="{{ medium.url }}" target="_blank" rel="noopener">{{ medium.title }} <span class="ph-inline-b">- {{ medium.date }}</span></a></li>
-    {% endfor %}
-  </ul>
+  {% include media-list.html limit=5 %}
+
   <a href="/media" class="button">すべて見る</a>
 </section>
 
 <section id="projects">
-  <h2 class="heading-line">2020年度のクリエータ</h2>
-  <p>2020年度は115件の応募が集まり、<br class="ph">15プロジェクト・22名を採択しました。<br>
-    (☆ は未踏ジュニアスーパークリエータ認定者)</p>
 
-  {% include project-list.html year=2020 internal_link=true %}
+  {% assign this_year = page.this_year %}
+  {% assign this_stat = site.data.stats | find: 'year', this_year %}
+  <h2 class="heading-line">{{ this_year }}年度のクリエータ</h2>
+  <p>{{ this_year }}年度は<a href='/stats'>{{ this_stat.applications }}件の応募</a>が集まり、<br class="ph">{{ this_stat.projects }}プロジェクト・{{ this_stat.creators }}名を採択しました。<br>
+    {% if this_stat.spc %}(☆ は未踏ジュニアスーパークリエータ認定者){% endif %}
+  </p>
+
+  {% include project-list.html year=this_year center_mode=true %}
 
   <a href="/projects" class="button">これまでの採択例を見る</a>
   <div class="projects flex">
     {% for pj in projects %}
-      {% include project-details.html thumbnail_mode=true %}
+      {% include project-details.html %}
     {% endfor %}
   </div>
   <a href="/projects" class="button">これまでの採択例を見る</a>
@@ -103,13 +108,29 @@ layout: default
   <a href="/mentors" class="button">こんな人・こんな提案を<br>待っています</a>
 </section>
 
-{% include faq.html %}
+
+<section id="faq">
+  <h2>よくある質問</h2>
+  <div class="qanda">
+    {% for faq in site.data.faq %}
+    <div class="qanda-one">
+      <input type="checkbox" id="faq_{{faq.q}}">
+      <label for="faq_{{ faq.q }}"><i class="fas fa-question-circle green"></i> {{ faq.q }}</label>
+      <p class="qanda-a">{{ faq.a }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  <a href="https://helpfeel.com/mitoujr/" class="button">他の質問と回答を見る</a>
+  <a href="/q-box" class="button">匿名質問箱で質問する</a>
+</section>
+
 
 <section id="for-creators" class="prospective-creators">
   <h2 class="heading-balloon">応募者向けお役立ち情報</h2>
 
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank" rel="noopener">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/highlights-for-creators.png" alt="Movies for Prospective Creators" width="100%" class="lazyload" loading="lazy"></a>
+    <img src="/assets/img/spinner.svg" data-src="/assets/img/highlights-for-creators.png" alt="Movies for Prospective Creators" width="100%" class="lazyload" loading="lazy">
+  </a>
 
   <p>応募者に役立つ動画を YouTube でまとめました。<br>質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="/q-box">匿名質問箱</a>でも受付中！</p>
 

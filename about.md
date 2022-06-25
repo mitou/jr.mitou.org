@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 未踏ジュニアとは
+description: 本ページでは初めての方を対象としたコンテンツをまとめています。
 ---
 
 <p style='margin: 50px auto;'><b>未踏ジュニアへようこそ!</b> 本ページでは初めての方を対象としたコンテンツをまとめています <i class="fas fa-tv green" aria-hidden="true"></i> ✨</p>
@@ -14,16 +15,16 @@ title: 未踏ジュニアとは
 ## 未踏ジュニアとは？
 独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を支援するプログラムです。
 
-[未踏事業](https://www.ipa.go.jp/jinzai/mitou/outline.html)という、経産省所管の独立行政法人情報処理推進機構が主催している、優秀な25歳以下の若者を支援するプログラムがあります。そして、その未踏卒業生がボランティアで運営しているのが、**未踏ジュニア**です。
+[未踏事業](https://www.ipa.go.jp/jinzai/mitou/outline.html)という、経産省所管の独立行政法人情報処理推進機構（IPA）が主催している、優秀な25歳以下の若者を支援するプログラムがあります。そして、その未踏卒業生がボランティアで運営しているのが、**未踏ジュニア**です。
 
-<a href="https://www.ipa.go.jp/jinzai/mitou/outline.html" class="button" target="_blank" rel='noopener'>未踏事業について</a>
+<a href="https://www.ipa.go.jp/jinzai/mitou/outline.html" class="button" target="_blank" rel='noopener'>IPA 未踏事業を見る</a>
 
 ## 支援
 ### メンタリングの提供
 担当の[メンター](/mentors)をはじめ、未踏卒業生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
 
 <div class="tips">期間中は、オンラインでメンターとの時間を週に一時間ずつくらい取れる仕組みとなっていて、プログラミングの質問、方針の話でも、なんでも相談できる機会があります。</div>
-<a href="/mentors" class="button">メンター紹介</a>
+<a href="/mentors" class="button">メンター紹介を見る</a>
 
 ### 開発資金の援助
 採択された各グループへ、50万円を上限として開発資金の援助を行います。

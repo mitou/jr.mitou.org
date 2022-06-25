@@ -12,15 +12,32 @@
   {% else %}
   <title>{{ translations.title[lang] }} - {{ translations.subtitle[lang] }}</title>
   {% endif %}
-  
+
+  {% if page.title %}
+  <meta property="og:title"  content="{{ page.title }} - {{ translations.title[lang] }}" />
+  <meta name="twitter:title" content="{{ page.title }} - {{ translations.title[lang] }}">
+  {% else %}
+  <meta property="og:title"  content="{{ translations.title[lang] }} - {{ translations.subtitle[lang] }}" />
+  <meta name="twitter:title" content="{{ translations.title[lang] }} - {{ translations.subtitle[lang] }}">
+  {% endif %}
+
+  {% if page.description %}
+  <meta name="description"         content="{{ page.description | liquify }}" />
+  <meta name="twitter:description" content="{{ page.description | liquify }}" />
+  <meta property="og:description"  content="{{ page.description | liquify }}" />
+  {% else %}
+  <meta name="description"         content="{{ translations.description[lang] }}" />
+  <meta name="twitter:description" content="{{ translations.description[lang] }}" />
+  <meta property="og:description"  content="{{ translations.description[lang] }}" />
+  {% endif %}
+
+  <meta name="author"              content="{{ translations.author[lang] }}">
+
   <link rel="stylesheet" href="/assets/css/main.css" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <script src="https://kit.fontawesome.com/82f32b9df5.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700&display=swap" rel="stylesheet">
-
-  <meta name="author"      content="{{ translations.author[lang] }}">
-  <meta name="description" content="{{ translations.description[lang] }}">
 
   <!-- Facebook OGP (Static) -->
   <meta property="fb:admins" content="715330868"  />
@@ -50,22 +67,6 @@
   {% endif %}
   <meta property="og:image:width"  content="2050" />
   <meta property="og:image:height" content="900"  />
-  
-  {% if page.title %}
-  <meta property="og:title"  content="{{ page.title }} - {{ translations.title[lang] }}" />
-  <meta name="twitter:title" content="{{ page.title }} - {{ translations.title[lang] }}">
-  {% else %}
-  <meta property="og:title"  content="{{ translations.title[lang] }} - {{ translations.subtitle[lang] }}" />
-  <meta name="twitter:title" content="{{ translations.title[lang] }} - {{ translations.subtitle[lang] }}">
-  {% endif %}
-
-  {% if page.description %}
-  <meta property="og:description"  content="{{ page.description }}" />
-  <meta name="twitter:description" content="{{ page.description }}">
-  {% else %}
-  <meta property="og:description"  content="{{ translations.description[lang] }}" />
-  <meta name="twitter:description" content="{{ translations.description[lang] }}">
-  {% endif %}
 
   <!-- Mobile icons for iOS/Android -->
   <link rel="apple-touch-icon"      href="/assets/img/apple-touch-icon.png" sizes="180x180">
@@ -99,4 +100,13 @@
     gtag('js', new Date());
     gtag('config', 'G-GWHM8P0RTE');
   </script>
+  
+  <!-- Helpfeel -->
+  {% if page.url contains '/guideline' or
+        page.url contains '/download'  or
+        page.url contains '/schedule'  or
+        page.url contains '/about'     or
+        page.url contains '/q-box'  %}
+  <script src="https://helpfeel.com/projects/js/helpfeel-element.js" data-project-name="mitoujr" defer></script>
+  {% endif %}
 </head>

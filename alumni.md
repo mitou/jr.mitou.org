@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mentor Alumni
+description: 本ページでは、未踏ジュニアに応募するクリエータを支援してくださった方々（これまでのメンター）を紹介しています。
 ---
 
 ## Mentor Alumni

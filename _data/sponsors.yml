@@ -2,21 +2,31 @@
 # - name: 会社名
 #   img:  /assets/img/sponsor 内の画像ファイルパス
 #   url:  会社のホームページ
-#   type: [gold|silver|bronze|inkind|media]
+#   type: [platinum|gold|silver|bronze|inkind|media]
+
+- name: 近畿大学情報学部
+  img:  kindai.jpg
+  url:  https://www.kindai.ac.jp/informatics/
+  type: platinum
 
 - name: 株式会社リクルート
   img:  recruit.jpg
   url:  https://www.recruit.co.jp/
   type: gold
 
-- name: KDDI株式会社
-  img:  kddi.png
-  url:  https://www.kddi.com/
-  type: gold
+#- name: KDDI株式会社
+#  img:  kddi.png
+#  url:  https://www.kddi.com/
+#  type: gold
 
 - name: 株式会社ドワンゴ
   img:  dwango.png
   url:  https://dwango.co.jp/
+  type: silver
+
+- name: 合同会社DMM.com
+  img:  DMM.com_logo_RGB.png
+  url:  https://dmm-corp.com/
   type: silver
 
 - name: 株式会社プロコミット
@@ -24,10 +34,10 @@
   url:  https://www.procommit.co.jp/
   type: bronze
 
-- name: 株式会社アイデミー
-  img:  aidemy.png
-  url:  https://aidemy.net/
-  type: inkind
+#- name: 株式会社アイデミー
+#  img:  aidemy.png
+#  url:  https://aidemy.net/
+#  type: inkind
 
 - name: さくらインターネット株式会社
   img:  sakura.png
@@ -42,6 +52,21 @@
 - name: Ruby on Railsチュートリアル
   img:  railstutorial.png
   url:  https://railstutorial.jp/
+  type: inkind
+
+- name: Scrapbox
+  img:  scrapbox.svg
+  url:  https://scrapbox.io/
+  type: inkind
+
+- name: Helpfeel
+  img:  helpfeel.png
+  url:  https://helpfeel.com/
+  type: inkind
+
+- name: GitHub
+  img:  github.png
+  url:  https://github.com/
   type: inkind
 
 - name: エドテックジン

@@ -6,14 +6,18 @@ $text-black: rgb(51,  51, 51); // Default
 $shadow-color: rgba($main-color,0.3);
 $sub-color: #ffed4d; // Yellow
 $lightgray: #eff2f6; // Light gray
-$phone-width: 800px;
-$header-phone: 970px;
+$phone-width:  760px;
+$header-phone: 940px;
 * {
   box-sizing: border-box;
   color: $text-black;
   line-height: 1.8em;
 }
 
+i.fa-solid{
+  color: inherit;
+  font-size: 80%;
+}
 a{
   color: $text-green;
   font-weight: 500;
@@ -256,7 +260,10 @@ footer{
   .sns {
     padding: 20px 4px;
     a {
-      margin: 0 10px;
+      margin: 0 8px;
+      @media screen and (max-width:$phone-width) {
+	margin: 0 2px;
+      }
     }
     i {
       font-size: 34px;
@@ -315,6 +322,17 @@ footer{
     margin-left: calc(100% + 8px);
   }
 }
+.list-agenda{
+  list-style: none;
+  padding-left: 0px;
+
+  li{
+    padding-left:  3.5em;
+    text-indent:  -3.5em;
+    text-align: left;
+  }
+}
+
 .list-none{
   list-style: none;
   text-align: left;
@@ -483,6 +501,9 @@ footer{
   border: dotted 5px $main-color;
   border-radius: 8px;
   padding: 16px;
+  padding-left: 4em;
+  text-indent: -3.1em;
+  text-align: left;
   &::before{
     border-right: solid 4px $main-color;
     content: '\f0eb';
@@ -512,7 +533,11 @@ footer{
 .note{
   border: dotted 5px $main-color;
   border-radius: 8px;
+  max-width: $header-phone;
   padding: 16px;
+  padding-left: 4em;
+  text-indent: -3em;
+  text-align: left;
   &::before{
     border-right: solid 4px $main-color;
     content: '\f14a';
@@ -787,6 +812,24 @@ footer{
 .results-radio:checked + .results-pjs{
   display: block;
 }
+
+.separator {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  &::before, &::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid;
+  }
+  &:not(:empty)::before {
+    margin-right: 1.25em;
+  }
+  &:not(:empty)::after {
+    margin-left: 1.25em;
+  }
+}
+
 .service{
   @media screen and (max-width:$phone-width) {
     display: block;
@@ -865,9 +908,14 @@ footer{
   margin: 30px 15px;
 }
 
-.sponsors-list-gold, .sponsors-list-silver, .sponsors-list-bronze {
+.sponsors-list-platinum, .sponsors-list-gold, .sponsors-list-silver, .sponsors-list-bronze {
   margin-bottom: 60px;
 }
+
+.sponsor-platinum{
+  max-width: 350px;
+}
+
 .sponsor-gold{
   max-width: 300px;
 }
@@ -955,6 +1003,9 @@ footer{
 }
 .lets-apply{
   background-color: $lightgray;
+  @media screen and (min-width:$header-phone) {
+    padding: 24pt 26vw !important;
+  }
 
   h3  { margin-top: 50px; }
   img { max-width: 600px; }
@@ -977,4 +1028,9 @@ footer{
 .lazyloaded {
   opacity: 1;
   transition: all 500ms;
+}
+
+/* bug fix for Helpfeeel Element */
+.helpfeel-launch-button span {
+  color: inherit;
 }

@@ -2,9 +2,9 @@
   name:
     last: 石丸
     first: 翔也
-  affiliation: ドイツ人工知能研究センター
+  affiliation: カイザースラウテルン工科大学
   interested: 自身の興味や経験を活かしたプロジェクト
-  bio: 2015年度未踏スーパークリエータ。2016年に大阪府立大学大学院工学研究科にて博士前期課程 (修士) を修了したのち渡欧。2019年にカイザースラウテルン工科大学で工学博士号を取得。現在はドイツ人工知能研究センター (DFKI) シニアリサーチャー。人の知的能力を拡張する技術の研究開発に取り組んでいる。
+  bio: 2015年度未踏スーパークリエータ。博士 (工学)。ドイツ・カイザースラウテルン工科大学にて<a href="https://psyberlab.de">Psybernetics Lab</a>を主宰するほか、学習支援技術のリビングラボ<a href="http://iql-lab.de">iQL-Lab</a>や読書支援技術の会社<a href="https://alphaben.app">Alphaben</a>を共同設立し、人の知性を拡張するAI技術について研究している。
   facebook: shoya.i
   twitter: shoya140
   web: https://shoya.io
@@ -14,9 +14,9 @@
   name:
     last: 尾藤
     first: 正人
-  affiliation: ニート
+  affiliation: Repro株式会社
   interested: 今までにない面白いものを実装するプロジェクト<br>常に前向きで失敗を恐れずにどんどんチャレンジしてくれるような人
-  bio: OSSコミッタ (Vine SPARC開発)<br> 未踏ユース採択者(2003年度)<br>元ウノウCTO<br>元UUUM CTO<br><br>ニート <- ｲﾏｺｺ
+  bio: OSSコミッタ (Vine SPARC開発)<br> 未踏ユース採択者(2003年度)<br>元ウノウCTO<br>元UUUM CTO<br>元ニート<br>Repro株式会社 CTO
   facebook: btomasato
   twitter: bto
   img: bto.png
@@ -25,12 +25,12 @@
   name:
     last: 神武
     first: 里奈
-  affiliation: 株式会社ディー・エヌ・エー
+  affiliation: 株式会社マンガボックス
   interested: 自分が感じた楽しいを楽しく届けたい人
-  bio: 将来の夢は「ポケモンマスター」。未踏「スーパークリエータ」に認定されて以降、ものづくりの楽しさに目覚める。多くのハッカソンやコンテストに参加し、25以上の賞を獲得。現在はDeNAにてiOSアプリケーションの開発やプロダクトマネジメントを行う。
+  bio: 未踏「スーパークリエータ」。多くのハッカソンやコンテストに参加し、30以上の賞を獲得。近年ではSPAJAM 2020最優秀賞、Yahoo! Digital Hack Day最優秀賞を獲得し、ハッカソンの審査員も務める。株式会社ディー・エヌ・エーに入社後、現在は株式会社マンガボックスにてエンジニアとして勤務。将来の夢は「ポケモンマスター」。
   facebook: koooootake
   twitter: koooootake
-  youtube: 2iu1Bw_EhSA
+  #youtube: 2iu1Bw_EhSA
   web: https://koooootake.com/
   img: kohtake.png
 
@@ -52,12 +52,12 @@
     first: 翔
   affiliation: ''
   interested: 今この瞬間必要ではないかもしれないが、あなたが考える未来で必要とされるようなアプリケーション/ライブラリ
-  bio: 2016年度未踏スーパークリエータ。2018年度未踏アドバンストイノベータ。未踏事業では「Web開発に親和するWeb3Dライブラリ」として採択され、このプロジェクトで開発したOSSのWebGLフレームワーク<a href="https://grimoire.gl/">Grimoire.js</a>の開発者。 未踏アドバンスト事業では「Web技術を活用したARクラウド」で採択され、AltLayer株式会社を創業。 8歳からプログラミングを始め、主にリアルタイムCG技術やWeb技術を中心に活動している。チームプロジェクトが好き。
+  bio: 2016年度未踏スーパークリエータ。2018年度未踏アドバンストイノベータ。未踏事業では「Web開発に親和するWeb3Dライブラリ」として採択され、このプロジェクトで開発したOSSのWebGLフレームワーク<a href="https://grimoire.gl/">Grimoire.js</a>の開発者。 未踏アドバンスト事業では「Web技術を活用したARクラウド」で採択された。 8歳からプログラミングを始め、主にリアルタイムCG技術やWeb技術を中心に活動している。チームプロジェクトが好き。
   facebook: kakeru1994
   twitter: kyasbal_1994
   github: kyasbal-1994
   img: ishii.png
-  youtube: eOh0a5y313c
+  youtube: USZ4uQYNuPg
 
 - id: yonetsuji_taizan
   name:
@@ -87,9 +87,9 @@
   name:
     last: 関
     first: 喜史
-  affiliation: 株式会社Gunosy
+  affiliation: Fairy Devices Inc.
   interested: サービスの作り方を学んで、自分の周りの人、さらには世界中の人に届けられるようなサービスを生み出したい人の提案を待っています
-  bio: 東京大学工学部卒業、同大学院工学系研究科博士課程修了。博士(工学)。2011年度未踏OB。大学院在籍中にGunosy（グノシー）を共同開発し、2012年当社創業。 創業期からニュース配信ロジックの開発を担当し、推薦システムを中心としたウェブマイニング、機械学習応用、自然言語処理応用を専門とする。
+  bio: 東京大学工学部卒業、同大学院工学系研究科博士課程修了。博士(工学)。2011年度未踏OB。大学院在籍中にGunosy（グノシー）を共同開発し、2012年当社創業。 創業期からニュース配信ロジックの開発を担当し、推薦システムを中心としたウェブマイニング、機械学習応用、自然言語処理応用を専門とする。2021年夏に退職後、現在 Fairy Devices Inc. に所属。
   facebook: yoshifumi.seki
   twitter: YoshifumiSeki
   youtube: xtutSXIB5ms
@@ -120,17 +120,17 @@
   web: https://ryo-suzuki-contact.github.io/
   img: suzuki.png
 
-- id: yasukawa_yohei
+- id: yasulab
   name:
     last: 安川
     first: 要平
   affiliation: (一社) CoderDojo Japan / YassLab (株)
-  interested: スクリプト言語やWebの特長を活かしたプロジェクト。応募時点で動くプロトタイプがあると素晴らしいですね ;)
-  bio: <a href="https://yasslab.jp/">YassLab</a> 代表取締役。<a href="https://coderdojo.jp/">CoderDojo Japan</a> 代表理事。早稲田大学情報理工学科卒 (修士)。米国留学中に開発した震災対策アプリのヒットを契機に、沖縄と東京を拠点にした<a href="https://speakerdeck.com/yasslab/remote-first-company">完全リモートワーク制の会社</a>を起業。<a href="https://railstutorial.jp/">Railsチュートリアル</a>や<a href="https://railsguides.jp/">Railsガイド</a>を開発し、AIITや筑波大学、琉球大学や工学院大学などで採用。2012年度未踏スーパークリエータ、TEDxRyukyuスピーカー。
+  interested: あなたが情熱を持って取り組めるプロジェクト
+  bio: '<a href="https://yasslab.jp/ja/">YassLab</a> 代表取締役。<a href="https://coderdojo.jp/">CoderDojo Japan</a> 代表理事。早稲田大学情報理工学科卒 (修士)。米国留学中に開発した<a href="https://speakerdeck.com/yasulab/zhen-zai-dui-ce-apuri-hoitusuru-on-android-xiao-sanakodo-da-kinacheng-guo">震災対策アプリのヒット</a>を契機に、<a href="https://speakerdeck.com/yasslab/remote-first-company">完全リモートワーク制の会社</a>を起業。<a href="https://railstutorial.jp/">Railsチュートリアル</a>や<a href="https://railsguides.jp/">Railsガイド</a>を開発し、AIITや工学院大学、GMOペパボなどで<a href="https://railstutorial.jp/business#partners">採用</a>される。2012年度未踏スーパークリエータ、TEDxRyukyuスピーカー。'
   facebook: yasulab
   twitter: yasulab
   github: yasulab
-  img: yasukawa.png
+  img: yasulab.png
   youtube: qXQsdtw7BI4
 
 - id: ukai_yuu

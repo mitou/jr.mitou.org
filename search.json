@@ -9,7 +9,7 @@ layout: null
     "title"       : "{{ pj.title | escape }}",
     "description" : {{ pj.description | jsonify }},
     "thumbnail"   : "{{ pj.thumbnail }}",
-    "permalink"   : "{{ site.url }}{{ pj.permalink }}"
+    "permalink"   : "{{ pj.permalink }}"
   } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

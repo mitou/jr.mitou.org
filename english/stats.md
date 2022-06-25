@@ -65,7 +65,7 @@ lang:   en
 
 <center><small>( <i class="fas fa-mouse-pointer green"></i> Place the cursor or tap to check the number.)</small></center>
 
-<a href="/english" class="button">Back to top</a>
+<!--<a href="/english" class="button">Back to top</a>-->
 
 <h2 style="margin-bottom: 60px;">Applications</h2>
 <div id="applications"></div>
@@ -111,11 +111,9 @@ Highcharts.chart('applications', {
      {
        name: 'Number of applications submitted',
        data: [
-	 [Date.parse('2016'), 15],
-	 [Date.parse('2017'), 41],
-	 [Date.parse('2018'), 105],
-	 [Date.parse('2019'), 127],
-	 [Date.parse('2020'), 115]
+	 {% for stat in site.data.stats reversed %}
+	 [Date.parse('{{ stat.year }}'), {{ stat.applications }}]{% unless forloop.last %},{% endunless %}
+	 {% endfor %}
        ]
      }
    ]
@@ -166,11 +164,9 @@ Highcharts.chart('selections', {
      {
        name: 'Number of projects selected',
        data: [
-	 [Date.parse('2016'),  4],
-	 [Date.parse('2017'), 11],
-	 [Date.parse('2018'), 12],
-	 [Date.parse('2019'), 13],
-	 [Date.parse('2020'), 15]
+	 {% for stat in site.data.stats reversed %}
+	 [Date.parse('{{ stat.year }}'), {{ stat.projects }}]{% unless forloop.last %},{% endunless %}
+	 {% endfor %}
        ]
      }
    ]
@@ -222,11 +218,9 @@ Highcharts.chart('chances', {
      {
        name: 'Acceptance Rate (%)',
        data: [
-	 [Date.parse('2016'), 20.0],
-	 [Date.parse('2017'), 26.8],
-	 [Date.parse('2018'), 11.4],
-	 [Date.parse('2019'), 10.2],
-	 [Date.parse('2020'), 13.0]
+	 {% for stat in site.data.stats reversed %}
+	 [Date.parse('{{ stat.year }}'), {{ stat.acceptance_rate }}]{% unless forloop.last %},{% endunless %}
+	 {% endfor %}
        ]
      }
    ]
@@ -235,7 +229,13 @@ Highcharts.chart('chances', {
 
 
 {% for stat in site.data.stats %}
-<h3><a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }}</a></h3>
+<h3>
+  {% if stat.creators %}
+  <a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }}</a>
+  {% else %}
+  {{ stat.year }}
+  {% endif %}
+</h3>
 <ul>
   <li><b>{{ stat.applications    }} applications</b> were submitted.</li>
   <li><b>{{ stat.projects        }} projects</b> were selected.</li>
@@ -244,8 +244,10 @@ Highcharts.chart('chances', {
 
 {% if stat.year == 2016 %}
 <b>{{ stat.creators }} creators</b> joined in the Mitou Junior program in {{ stat.year }}. Outstanding performace award started since 2017, so N/A this year.
-{% else %}
+{% elsif stat.creators and stat.spc %}
 <b>{{ stat.creators }} creators</b> joined in the Mitou Junior program in {{ stat.year }}. <b>{{ stat.spc }} in {{ stat.creators }} creators ({{ stat.spc_rate }} %)</b> received an outstanding performance award this year.
+{% else %}
+Mitou Junior program in {{ stat.year }} is now in progress. Number of creators and who received outstanding performance award will be published by late this year or early next year.
 {% endif %}
 
 {% endfor %}

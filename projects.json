@@ -1,0 +1,5 @@
+---
+---
+
+{% assign projects  = site.data.projects %}
+{% include projects2json.json %}

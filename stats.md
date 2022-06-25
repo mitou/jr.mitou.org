@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 統計情報
+description: 未踏ジュニアの応募数や採択数、倍率を年度別にまとめたページです。{{ site.data.stats[0].year }}年度の応募数は{{ site.data.stats[0].applications }}件、採択数は{{ site.data.stats[0].projects }}件、倍率は{{ site.data.stats[0].competition_rate }}倍でした。
+thumbnail: /assets/img/thumbnails/stats.png
 ---
 
 <style type="text/css">
@@ -60,7 +62,10 @@ title: 統計情報
 <script src="/assets/js/exporting.js"></script>
 -->
 
-<p style='margin-top: 50px;'>未踏ジュニアの統計情報です。<a href='/guideline'>応募</a>または<a href='/#sponsors'>スポンサー</a>を検討されている方々のご参考になれば幸いです。</p>
+{% assign current_stat = site.data.stats[0] %}
+<p style='margin-top: 50px;'>
+  未踏ジュニアの応募数や採択数、倍率を年度別にまとめたページです。{{ current_stat.year }}年度の応募数は{{ current_stat.applications }}件、採択数は{{ current_stat.projects }}件、倍率は{{ current_stat.competition_rate }}倍でした。
+</p>
 
 <center><small>（ <i class="fas fa-mouse-pointer green"></i> カーソルまたはタップで数値が見れます）</small></center>
 
@@ -108,11 +113,9 @@ Highcharts.chart('applications', {
      {
        name: '応募数',
        data: [
-	 [Date.parse('2016'), 15],
-	 [Date.parse('2017'), 41],
-	 [Date.parse('2018'), 105],
-	 [Date.parse('2019'), 127],
-	 [Date.parse('2020'), 115]
+	 {% for stat in site.data.stats reversed %}
+	 [Date.parse('{{ stat.year }}'), {{ stat.applications }}]{% unless forloop.last %},{% endunless %}
+	 {% endfor %}
        ]
      }
    ]
@@ -163,11 +166,9 @@ Highcharts.chart('selections', {
      {
        name: '採択数',
        data: [
-	 [Date.parse('2016'),  3],
-	 [Date.parse('2017'), 11],
-	 [Date.parse('2018'), 12],
-	 [Date.parse('2019'), 13],
-	 [Date.parse('2020'), 15]
+	 {% for stat in site.data.stats reversed %}
+	 [Date.parse('{{ stat.year }}'), {{ stat.projects }}]{% unless forloop.last %},{% endunless %}
+	 {% endfor %}
        ]
      }
    ]
@@ -219,11 +220,9 @@ Highcharts.chart('chances', {
      {
        name: '倍率',
        data: [
-	 [Date.parse('2016'), 5.0],
-	 [Date.parse('2017'), 3.73],
-	 [Date.parse('2018'), 8.75],
-	 [Date.parse('2019'), 9.77],
-	 [Date.parse('2020'), 7.67]
+	 {% for stat in site.data.stats reversed %}
+	 [Date.parse('{{ stat.year }}'), {{ stat.competition_rate }}]{% unless forloop.last %},{% endunless %}
+	 {% endfor %}
        ]
      }
    ]
@@ -232,7 +231,14 @@ Highcharts.chart('chances', {
 
 
 {% for stat in site.data.stats %}
-<h3><a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }} 年度</a></h3>
+<h3>
+  <!-- NOTE: Latest projects page will be published after its final registration page. -->
+  {% if stat.creators %}
+  <a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }} 年度</a>
+  {% else %}
+  {{ stat.year }} 年度
+  {% endif %}
+</h3>
 <ul>
   {% comment %}
   <!-- NOTE: Check if manual stats data are exactly matched with calcularated ones by uncommentting. -->
@@ -247,12 +253,37 @@ Highcharts.chart('chances', {
 </ul>
 
 {% if stat.year == 2016 %}
-修了したクリエータ数は {{ stat.creators }} 名でした。なお、スーパークリエータ認定制度は2017年度から始まったため、{{ stat.year }}年度のデータはありません。
-{% else %}
+修了したクリエータ数は {{ stat.creators }} 名です。なお、スーパークリエータ認定制度は2017年度から始まったため、{{ stat.year }}年度のデータはありません。
+{% elsif stat.creators and stat.spc %}
 修了したクリエータ数は {{ stat.creators }} 名、そのうち {{ stat.spc }} 名をスーパークリエータと認定しました。
+{% elsif stat.creators %}
+修了したクリエータ数は {{ stat.creators }} 名です。スーパークリエータの認定は後日発表されます。
+{% else %}
+修了したクリエータ数およびスーパークリエータ認定数は後日発表されます。
 {% endif %}
 
 {% endfor %}
+
+
+## 累計データ {#total}
+<p style='margin-top: 50px;'>
+  2016年度から{{ current_stat.year }}年度までの累計データは以下のとおりです。
+  {% assign total_applications = 0 %}
+  {% assign total_projects = 0 %}
+  {% assign total_creators = 0 %}
+  {% assign total_spcs  = 0 %}
+  {% for stat in site.data.stats %}
+    {% assign total_applications = total_applications | plus: stat.applications %}
+    {% assign total_projects     = total_projects     | plus: stat.projects     %}
+    {% assign total_creators     = total_creators     | plus: stat.creators     %}
+    {% endfor %}
+  <ul>
+    <li>これまでの累計応募件数: {{ total_applications }} 件</li>
+    <li>採択したプロジェクト数: {{ total_projects     }} 件</li>
+    <li>採択したクリエータ人数: {{ total_creators     }} 名</li>
+  </ul>
+</p>
+
 
 ## お問い合わせ
 
@@ -266,3 +297,4 @@ Highcharts.chart('chances', {
 
   <a href="mailto:jr@mitou.org" class="button">メールを送る</a>
 </div>
+

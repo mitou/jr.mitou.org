@@ -1,0 +1,98 @@
+name: Test & Deploy
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - "*"
+
+jobs:
+
+  # Test job is always triggered as continuous integration
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: ☑️ Checkout code
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 2
+
+    - name: 💎 Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+
+    - name: 🔧 Build & Test
+      run: |
+        JEKYLL_ENV=production bundle exec jekyll build
+        JEKYLL_ENV=production bundle exec jekyll doctor
+        SKIP_BUILD=true       bundle exec rake test
+
+    - name: 🔔 Notify results
+      env:
+        IDOBATA_GITHUB_ACTIONS: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
+      if: always() && ( env.IDOBATA_GITHUB_ACTIONS!= null )
+      uses: yasslab/idobata_notify@main # https://github.com/yasslab/idobata_notify
+      with:
+        idobata_hook_url: ${{ env.IDOBATA_GITHUB_ACTIONS }}
+
+  # Deploy job is triggered only pushed to main branch && CI passed
+  deploy:
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+    - name: ☑️ Checkout code
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 1
+
+    - name: 💎 Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+
+    - name: 🧪 Install gems
+      run: |
+        bundle config set with 'test'
+        bundle config set path 'vendor/bundle'
+        bundle install --jobs 4 --retry 3
+
+    - name: 🔧 Build
+      run: |
+        JEKYLL_ENV=production bundle exec jekyll build
+
+    - name: 🤖 Generate individual pages by projects.yml data
+      run: |
+        bundle exec rake upsert_project_pages_by_data
+        if [ -n "$(git status ./_posts --porcelain)" ]; then
+          if ( ruby -ryaml -e "p YAML.load(STDIN.read)" < _data/projects.yml > /dev/null ); then
+            git config --global user.name  "Yohei Yasukawa"
+            git config --global user.email "yohei@yasslab.jp"
+            git checkout main
+            git add _posts/
+            git commit -m '🤖 Upsert project page(s) by GitHub Actions'
+            git push origin main
+          else
+            echo "Detect syntax error in '_data/projects.yml' file, check its syntax."
+          fi
+        fi
+
+    - name: 🚀 Deploy to GitHub Pages
+      if:   github.ref == 'refs/heads/main' && job.status == 'success'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir:    ./_site
+
+    - name: 🚨 Notify alert if failed on deployment
+      env:
+        IDOBATA_GITHUB_ACTIONS: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
+      if: failure() && (env.IDOBATA_GITHUB_ACTIONS != null)
+      uses: mahaker/actions-idobata@v1.1.2
+      with:
+        hookUrl: ${{ secrets.IDOBATA_GITHUB_ACTIONS }}
+        format: 'markdown'
+        message: |
+          <span class='label label-danger'>本番環境</span> @yasulab :warning: デプロイに失敗したためロールバックされました: https://jr.mitou.org/ ([build](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}))

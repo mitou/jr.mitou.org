@@ -6,7 +6,7 @@ require 'yaml'
 projects = YAML.load_file("_data/projects.yml")
 projects.each_with_index do |project, index|
   # Generate individual project page by data
-  path = "./_posts/2021-02-20-#{project['id']}.md"
+  path = "./_posts/#{project['year']}-09-01-#{project['id']}.md"
   page = <<~PROJECT_PAGE
     ---
     layout: post
@@ -19,9 +19,9 @@ projects.each_with_index do |project, index|
     {% assign pj = site.data.projects | where_exp: "pj", "pj.id == '#{project['id']}'" | first %}
 
     <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-    {% if pj.thumbnail == "tbu.png" %} data-src='/assets/img/thumbnails/tbu.png'
-    {% else %}                         data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-    {% endif %}                        style='margin-bottom: 10px; border-radius: 6px;' />
+    {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+    {% else %}               data-src='/assets/img/thumbnails/tbu.png'
+    {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
     {{ pj.description }}
 
@@ -46,11 +46,21 @@ projects.each_with_index do |project, index|
     <p class="project-comment">{{ pj.comment }}</p>
     {% endif %}
 
+    {% if pj.promotion %}
+    ## 紹介動画
+    <div class="youtube">
+      <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.promotion }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+    <a href="https://youtu.be/{{ pj.promotion }}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
+    {% endif %}
+
+    {% if pj.final %}
     ## 発表動画
     <div class="youtube">
-      <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.youtube }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
+      <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.final }}?rel=0{% if pj.final_start %}&start={{ pj.final_start }}{% endif %}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
     </div>
-    <a href="https://www.youtube.com/watch?v={{ pj.youtube }}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
+    <a href="https://youtu.be/{{ pj.final }}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
+    {% endif %}
 
     {% include project-navigation.html %}
 
