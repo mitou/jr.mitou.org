@@ -59,6 +59,7 @@ contactHeading:
   en: 'Contact'
 
 contactText:
-  ja: '<p>お返事が遅くなる場合もありますが、ご了承ください。<br>チラシ配布にご協力頂ける方は<a href="/flyer">コチラ</a>からご請求をお願い致します。</p><a href="/q-box" class="button">匿名質問箱はこちら</a>'
+  ja: '<p>お返事が遅くなる場合もありますが、ご了承ください。</p><a href="/q-box" class="button">匿名質問箱はこちら</a>'
   en: '<p>Let us know if you have any questions or interests!</p>'
 
+# <!--<br>チラシ配布にご協力頂ける方は<a href="/flyer">コチラ</a>からご請求をお願い致します。
