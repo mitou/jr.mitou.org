@@ -27,7 +27,11 @@ projects.each_with_index do |project, index|
 
     <div style='display: flex; flex-wrap: wrap'>
       {% if pj.link %}
-      <a href="{{ pj.link }}" target="_blank" class="button">公式サイトを見る</a>
+        {% if pj.link contains 'github.com' %}
+           <a href='{{ pj.link }}' target='_blank' class='button'>ソースコードを見る</a>
+        {% else %}
+           <a href='{{ pj.link }}' target='_blank' class='button'>公式サイトを見る</a>
+        {% endif %}
       {% endif %}
 
       <a href="https://twitter.com/intent/tweet?text={{ pj.title }}&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/{{ pj.year }}/{{ pj.id }}" class="button" target="_blank" rel="noopener">ツイートする</a>
