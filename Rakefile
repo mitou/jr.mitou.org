@@ -13,16 +13,20 @@ require 'html-proofer'
 task test: [:build] do
   options = {
     allow_hash_href:  false,
-    disable_external: true,
     checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon'],
     check_internal_hash: true,
+    disable_external:    true,
     enforce_https:       true,
 
-    # NOTE: You can ignore file, URL, and response as follows
+    # NOTE: Ignore file, URL, and response as follows
     ignore_files: [
       /google(.*)\.html/,
     ],
-    #ignore_urls:  %w(coderdojo.com linkedin.com),
+    ignore_urls: [
+      'http://www.ecomaki.com/', # URL should be perfect-matching
+      %r{^http://iql-lab.de},    # Use REGEX to ignore URLs in a domain
+      %r{^http://nhiro.org},
+    ],
     #ignore_status_codes: [0, 500, 999],
   }
 
