@@ -13,23 +13,24 @@ require 'html-proofer'
 task test: [:build] do
   options = {
     allow_hash_href:  false,
-    assume_extension: true,
-    check_opengraph:  true,
-    check_favicon:    true,
-    check_html:       true,
-    disable_external: true,
-    # checks_to_ignore: %w(ImageCheck), # for debugging
+    checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon'],
+    check_internal_hash: true,
+    disable_external:    true,
+    enforce_https:       true,
 
-    # NOTE: You can ignore file, URL, and response as follows
-    file_ignore: [
-      /404\.html/,
+    # NOTE: Ignore file, URL, and response as follows
+    ignore_files: [
       /google(.*)\.html/,
     ],
-    #url_ignore:  %w(coderdojo.com linkedin.com),
-    #http_status_ignore: [0, 500, 999],
+    ignore_urls: [
+      'http://www.ecomaki.com/', # URL should be perfect-matching
+      %r{^http://iql-lab.de},    # Use REGEX to ignore URLs in a domain
+      %r{^http://nhiro.org},
+    ],
+    #ignore_status_codes: [0, 500, 999],
   }
 
-  HTMLProofer.check_directory('./_site', options).run
+  HTMLProofer.check_directory('_site', options).run
 end
 
 # Enable 'build' to flush cache files via 'clean'
