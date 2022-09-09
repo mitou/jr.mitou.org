@@ -28,6 +28,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 未踏ジュニアのメンターが応募者に向けて書いた記事です。提案書を良くするヒントになれば嬉しいです。
 
 <ul>
+  <li><a href='https://medium.com/@ukkaripon/%E3%81%AA%E3%81%9C-%E6%9C%AA%E8%B8%8F-%E3%81%AF%E5%A4%9A%E3%81%8F%E3%81%AE%E8%8B%A5%E3%81%84%E4%B8%96%E4%BB%A3%E3%81%AB%E7%9F%A5%E3%82%89%E3%82%8C%E3%82%8B%E3%81%B9%E3%81%8D%E3%81%AA%E3%81%AE%E3%81%8B-1fb31ac9fda3'>なぜ「未踏」は多くの若い世代に知られるべきなのか</a> <small>by <a href='/mentors#ukai_yuu'>鵜飼</a></small></li>
   <li><a href='https://speakerdeck.com/yasulab/believe-in-your-passion'>多様なメンター、多様な基準</a> <small>by <a href='/mentors#yasulab'>安川</a></small></li>
   <li><a href='https://note.com/yoshifumiseki/n/n1e928281d7dc'>未踏ジュニアにおけるよい提案資料の書き方、もしくはアイデアの伝え方と評価について <i class="fa-solid fa-up-right-from-square"></i></a> <small>by <a href='/mentors#seki_yoshifumi'>関</a></small></li>
   <li><a href='https://zenn.dev/reputeless/articles/idea-mitoujr'>未踏ジュニア、伝わる提案書を作る 5 つのコツ <i class="fa-solid fa-up-right-from-square"></i></a> <small>by <a href='/mentors#suzuki_ryou'>鈴木</a></small></li>
