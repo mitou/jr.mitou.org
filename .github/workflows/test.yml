@@ -67,7 +67,7 @@ jobs:
       run: |
         bundle exec rake upsert_project_pages_by_data
         if [ -n "$(git status ./_posts --porcelain)" ]; then
-          if ( ruby -ryaml -e "p YAML.load(STDIN.read)" < _data/projects.yml > /dev/null ); then
+          if ( ruby -ryaml -e "p YAML.unsafe_load(STDIN.read)" < _data/projects.yml > /dev/null ); then
             git config --global user.name  "Yohei Yasukawa"
             git config --global user.email "yohei@yasslab.jp"
             git checkout main
