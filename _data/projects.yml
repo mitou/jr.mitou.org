@@ -14,6 +14,165 @@
 #  - 「cretors.yml」にあるクリエータID。例：igarashi_ryo
 #  - 複数名いる場合は、複数記述します
 
+# 以下、コピペ用
+#- id: 
+#  title: 
+#  description: 
+#  thumbnail: 
+#  #promotion:   # YouTube上にPVがあれば追記する
+#  #final:       # 成果報告会後に追記する
+#  #final_start: # 成果報告会後に追記する
+#  #link:        # 公式サイトがあれば追記する
+#  year: 
+#  mentor_id: 
+#  creator_ids:
+#  - 
+
+# 2022年度
+- id: magnelek
+  title: Magnelek - 磁気浮上式リニア電磁加速投射機の開発と応用
+  description: 直線レール上に物体を磁気浮上させ電磁力によって加速し射出する装置です。固定翼型輸送ドローンの短距離離陸に電磁カタパルトを利用できると考え開発した物です。レール上のコイルに順々にパルス電流を与えて素早く加速させます。モーターやベルト等の機械的動作がありません。
+  thumbnail: magnelek.png
+  #promotion: 
+  #final: 
+  #final_start: 
+  #link: 
+  year: 2022
+  mentor_id: yasulab
+  creator_ids:
+  - akito_hoshi
+
+- id: r-order
+  title: R-Order - 学校版UberEatsを実現するデリバリーサービス
+  description: R-Orderは、休み時間にコンビニの商品を注文すると自分の教室まで商品を届けてくれるデリバリーアプリです。実際に僕の学校で導入するために、授業中は注文できないようにするなど学校運営に寄り添ったサービスに改善していきました。また、学校以外でも、ホテルや病院などクローズドなコミュニティ内で使用することができます。
+  thumbnail: r-order.png
+  #promotion: 
+  #final: 
+  #final_start: 
+  #link: 
+  year: 2022
+  mentor_id: teramoto_daiki
+  creator_ids:
+  - nabeta_kai
+
+- id: motion_rapid
+  title: Motion Rapid - 動画編集ソフトのようなUIでCSSアニメーションを作成するツール
+  description: MotionRapidはCSSパララックスアニメーションを動画編集ソフトのようなUIから作成できるツールです。動画編集ソフトで広く採用されているタイムラインUIを使い、HTMLやCSS、JavaScriptを直接コーディングすることなくパララックスアニメーションを作成することができます。
+  thumbnail: motion_rapid.png
+  #promotion: 
+  #final: 
+  #final_start: 
+  #link: 
+  year: 2022
+  mentor_id: koutake_rina
+  creator_ids:
+  - maruyama_takuma
+
+- id: michishirube
+  title: スマート盲導杖『みちしる兵衛』～AI搭載白杖による視覚障害者歩行支援～
+  description: 『みちしる兵衛』は、独自の機械学習モデルに基づくAIを搭載した白杖です。視覚障害者の方々の歩行中に、線路や横断歩道、クルマといった危険を検出・通知し、より安心して歩行ができるよう補助します。
+  thumbnail: michishirube.png
+  #promotion: 
+  #final: 
+  #final_start: 
+  #link: 
+  year: 2022
+  mentor_id: seki_yoshifumi
+  creator_ids:
+  - takada_haruki
+
+- id: hak
+  title: HAK － Hand Action Keyboard － 物理的なタッチを必要としない装着型入力デバイス
+  description: HAKは指と手首の動きをトラッキングし、文字やカーソルの入力に変換する、まるでSFの世界から来たかのような装着型の入力デバイスです。入力における手の動作はすべて空中で完結でき、従来の平面的な操作による入力デバイスとは違い、空間による制約が少なくできます。
+  thumbnail: hak.png
+  #promotion: 
+  #final: 
+  #final_start: 
+  #link: 
+  year: 2022
+  mentor_id: komuro_maki
+  creator_ids:
+  - muramatsu_takuto
+
+- id: nu_desktop
+  title: NuDesktop - 軽量かつ柔軟なデスクトップ環境
+  description: NuDesktopは、デバイスの状態や形態に合わせて変化するUIを提供するLinux向けのデスクトップ環境です。これにより、従来の環境ではUIが提供されなかったデバイスをより良いUIとともに使うことができます。
+  #thumbnail: 
+  #promotion: 
+  #final: 
+  #final_start: 
+  #link: 
+  year: 2022
+  mentor_id: seki_yoshifumi
+  creator_ids:
+  - nakamura_souma
+
+- id: noxicel
+  title: Noxicel - 英作文とAIを用いた英単語学習アプリ
+  description: NoxicelはAIを用いた、英作文を通じて英単語を学習するアプリです。英作文によって、英単語を文脈や文法と共に覚えることができます。また、教師がいない場面でも気軽に英作文ができるように、OpenAIの技術を使用し文法や用法等の提案をします。
+  thumbnail: noxicel.png
+  #promotion: 
+  #final: 
+  #final_start: 
+  #link: 
+  year: 2022
+  mentor_id: ishii_kakeru
+  creator_ids:
+  - okamura_arisa
+  - kanao_makito
+
+- id: scairecrow
+  title: scairecrow - カラスからゴミを守るシステム
+  description: scairecrowはゴミ捨て場に近づくカラスを迎撃するハードウェアプロジェクトです。カラスによってゴミが荒らされることで町が汚くなっています。その問題を解決するために、リアルタイムでカラスを物体検出し、レーザーを照射することで効果的に迎撃できるシステムを開発しました。
+  thumbnail: scairecrow.png
+  #promotion: 
+  #final: 
+  #final_start: 
+  #link: 
+  year: 2022
+  mentor_id: bitou_masato
+  creator_ids:
+  - gotou_shuntarou
+
+- id: sanitas
+  title: Sanitas 努力量を共有して美容と健康を支えるアプリ
+  description: Sanitasは健康・ダイエットに対する意識や努力のポイントを、友達と共有してゲーム感覚で楽しく健康維持・ダイエットの継続をサポートするアプリです。運動や歩数・毎日の自己評価によるポイントを集めて友達と競いましょう。努力の可視化によって毎日のダイエットや健康維持のモチベーションを保ちます。
+  thumbnail: sanitas.jpg
+  #promotion: 
+  #final: 
+  #final_start: 
+  #link: 
+  year: 2022
+  mentor_id: shouya_ishimaru
+  creator_ids:
+  - masuda_hinata
+
+- id: study_rec
+  title: StudyRec - タイムラプスやポモドーロ・タイマーを使って勉強時間を管理する学習アプリ
+  description: StudyRecは勉強時間の可視化によりモチベーションをアップさせる勉強アプリです。勉強している姿をタイムラプスで撮影することでスマホ使用を制限、友人との共有が可能になります。集中力を維持するポモドーロタイマーも使うことができます。
+  thumbnail: study_rec.png
+  #promotion: 
+  #final: 
+  #final_start: 
+  link: https://mofu-tom.github.io/StudyRec/
+  year: 2022
+  mentor_id: nishio_hirokazu 
+  creator_ids:
+  - soda_kan
+  - kroumov_tom
+
+- id: craftere_post
+  title: CrafterePost - Minecraft建築物3D共有Webサービス
+  description: CrafterePostは、Minecraftの建築物を3D共有できるWebサービスです。視聴者はブラウザだけで、建築物を好きな角度から眺めることができます。投稿者が建築過程を3D動画にすれば、視聴者は任意の時点・視点から眺めることができ、ブロックが複雑に入り組んでる構造でもわかりやすいです。
+  thumbnail: craftere_post.jpg
+  #promotion: 
+  #final: 
+  #final_start: 
+  link: https://crafterepost.netlify.app/
+  year: 2022
+  mentor_id: nishio_hirokazu
+  creator_ids:
+  - matsui_yuuto
 
 # 2021年度
 - id: vr_sandbox

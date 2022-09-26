@@ -7,6 +7,76 @@
 #  is_spc: スーパークリエータ認定について。例：true
 #  year: 何年度に採択されたプロジェクトか。例: 2018
 
+## テンプレート（コピペ用）
+#- id: 
+#  project_id: 
+#  name: 
+#  year: 
+#  #is_spc: true # 認定された際にコメントアウトする
+
+- id: akito_hoshi
+  project_id: magnelek
+  name: 星 暁翔
+  year: 2022
+
+- id: nabeta_kai
+  project_id: r-order
+  name: 鍋田 櫂
+  year: 2022
+
+- id: maruyama_takuma
+  project_id: motion_rapid
+  name: 丸山 拓真
+  year: 2022
+
+- id: takada_haruki
+  project_id: michishirube
+  name: 高田 悠希
+  year: 2022
+
+- id: muramatsu_takuto
+  project_id: hak
+  name: 村松 拓人
+  year: 2022
+
+- id: nakamura_souma
+  project_id: nu_desktop
+  name: 中村 壮馬
+  year: 2022
+
+- id: okamura_arisa
+  project_id: noxicel
+  name: 岡村 有紗
+  year: 2022
+- id: kanao_makito
+  project_id: noxicel
+  name: 金尾 真樹斗
+  year: 2022
+
+- id: gotou_shuntarou
+  project_id: scairecrow
+  name: 五島 舜太郎
+  year: 2022
+
+- id: masuda_hinata
+  project_id: sanitas
+  name: 増田 ひなた
+  year: 2022
+
+- id: soda_kan
+  project_id: study_rec
+  name: 曽田 柑
+  year: 2022
+- id: kroumov_tom
+  project_id: study_rec
+  name: クルモフ 斗務
+  year: 2022
+
+- id: matsui_yuuto
+  project_id: craftere_post
+  name: 松井 悠十
+  year: 2022
+
 
 # 2021年度
 - id: moriya_ryan 

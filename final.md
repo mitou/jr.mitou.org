@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  2021年 成果報告会
-year:   2021
+title:  2022年 成果報告会
+year:   2022
 description: "未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！"
 thumbnail: /assets/img/thumbnails/final_2021.jpg
 ---
