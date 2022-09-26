@@ -1,6 +1,6 @@
 ---
 layout: default
-this_year: 2021
+this_year: 2022
 # this_year を変更するとトップページの採択プロジェクトが切り替わります。
 # 成果報告会の公開準備が整ったら this_year を今年度の数字に変更してください。
 ---
