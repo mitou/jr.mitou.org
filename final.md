@@ -3,15 +3,21 @@ layout: post
 title:  2022年 成果報告会
 year:   2022
 description: "未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！"
-thumbnail: /assets/img/thumbnails/final_2021.jpg
+thumbnail: /assets/img/thumbnails/final_2022.jpg
 ---
 
 <br>
+
+<img src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}" alt="{{ page.title }}サムネイル画像"
+     class="project-thumbnail lazyload" width='100%' loading="lazy" />
+
+<!--
 2021年度の未踏ジュニア成果報告会を11月3日に実施しました。<a href="https://twitter.com/mitoujr/status/1455832719577944066" target="_blank">YouTubeの動画目次</a>を使うとお好きなシーンからご視聴いただけます。<br>
 
 <div class='youtube'>
   <iframe frameborder="0" class="lazyload" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/OLVQKC7ST6I?start=445&rel=0"></iframe>
 </div>
+-->
 
 <div style='display: flex; flex-wrap: wrap'>
   
