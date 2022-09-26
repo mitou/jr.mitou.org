@@ -46,7 +46,10 @@ this_year: 2022
   </div>
 </section>
 
-{% include lets-apply.html %}
+
+{% comment %}
+{% include lets-apply.html %}-->
+{% endcomment %}
 
 <!--
 <section id="sponsor-logos">
