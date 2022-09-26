@@ -3,7 +3,7 @@ layout: post
 title:  2022年 成果報告会
 year:   2022
 description: "未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！"
-thumbnail: /assets/img/thumbnails/final_2022.jpg
+thumbnail: /assets/img/thumbnails/final_2022.png
 ---
 
 <br>
@@ -20,7 +20,12 @@ thumbnail: /assets/img/thumbnails/final_2022.jpg
 -->
 
 <div style='display: flex; flex-wrap: wrap'>
-  
+  <a href="https://mitoujr2022.peatix.com/view" class="button" target="_blank" rel='noopener'>チケットを申し込む</a>
+</div>
+
+<hr>
+
+<div style='display: flex; flex-wrap: wrap'>
   <a href="https://twitter.com/hashtag/%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2?f=live" class="button" target="_blank" rel='noopener'>#未踏ジュニア の<br>ハッシュタグを見る</a>
 
   <a href="https://twitter.com/intent/tweet?hashtags=%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&&url=https://jr.mitou.org/final&lang=jp&related=mitoujr" class="button" target="_blank" rel='noopener'>#未踏ジュニア で<br>ツイートする</a>
