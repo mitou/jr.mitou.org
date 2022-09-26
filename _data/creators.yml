@@ -1,6 +1,16 @@
+## 各項目の用途と使い方
+#
+#- id: クリエータのID。例: mihashi
+#  project_id: 開発したプロジェクトのID。例: utips（記録用。システム的には使われていない）
+#  mentor_id: 担当メンターのID。例: yasulab
+#  name: クリエータの名前。例: 三橋 優希
+#  is_spc: スーパークリエータ認定について。例：true
+#  year: 何年度に採択されたプロジェクトか。例: 2018
+
+
 # 2021年度
 - id: moriya_ryan 
-  project_id: visible
+  project_id: vr_sandbox
   name: 森谷 頼安
   year: 2021
   is_spc: true
