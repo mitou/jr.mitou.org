@@ -12,6 +12,9 @@ this_year: 2022
     🆕 2022年度の応募を開始しました。(4/9 23:59〆切）
   </a>
   -->
+  <a href="/final" class="dialog ignore-sp">
+    🆕 成果報告会の参加申込を開始しました！<br>11月3日 @ 東京大学 情報学環・福武ホール
+  </a>
 </div>
 
 <section id="about">
