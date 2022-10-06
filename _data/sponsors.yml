@@ -69,6 +69,11 @@
   url:  https://github.com/
   type: inkind
 
+- name: CASE Shinjuku
+  img:  case-shinjuku.png
+  url:  https://case-shinjuku.com/
+  type: inkind
+
 - name: エドテックジン
   img:  ed-tech-zine.png
   url:  https://edtechzine.jp/
