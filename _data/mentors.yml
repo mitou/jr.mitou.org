@@ -8,7 +8,7 @@
   facebook: shoya.i
   twitter: shoya140
   web: https://shoya.io
-  img: ishimaru.png
+  img: ishimaru.webp
 
 - id: bitou_masato
   name:
@@ -19,7 +19,7 @@
   bio: OSSコミッタ (Vine SPARC開発)<br> 未踏ユース採択者(2003年度)<br>元ウノウCTO<br>元UUUM CTO<br>元ニート<br>元Repro CTO
   facebook: btomasato
   twitter: bto
-  img: bto.png
+  img: bto.webp
 
 - id: koutake_rina
   name:
@@ -32,7 +32,7 @@
   twitter: koooootake
   #youtube: 2iu1Bw_EhSA
   web: https://koooootake.com/
-  img: kohtake.png
+  img: kohtake.webp
 
 - id: komuro_maki
   name:
@@ -44,7 +44,7 @@
   facebook: MKnkgw
   twitter: MKnkgw
   youtube: 4D-WfHk-UYc
-  img: komuro.png
+  img: komuro.webp
 
 - id: ishii_kakeru
   name:
@@ -56,7 +56,7 @@
   facebook: kakeru1994
   twitter: kyasbal_1994
   github: kyasbal-1994
-  img: ishii.png
+  img: ishii.webp
   youtube: USZ4uQYNuPg
 
 - id: yonetsuji_taizan
@@ -68,7 +68,7 @@
   bio: Preferred NetworkにてAmazon Picking ChallengeやCeaTec展示会等でのロボット開発を行った後、Chainerを用いた自動着色サービス<a href="https://paintschainer.preferred.tech/">PaintsChainer</a>を開発。 大学時代は東京大学ロボコンサークルRoboTechに所属しメカニックを担当。 未踏人材育成発掘事業ではwebマンガをテーマに<a href="http://www.ecomaki.com/">"ecomaki"</a>を開発リリース。
   twitter: tai2an
   web: https://paintschainer.preferred.tech/
-  img: yonetsuji.png
+  img: yonetsuji.webp
 
 - id: teramoto_daiki
   name:
@@ -81,7 +81,7 @@
   twitter: teramotodaiki
   github: teramotodaiki
   youtube: xLfofvH9lkY
-  img: teramoto.png
+  img: teramoto.webp
 
 - id: seki_yoshifumi
   name:
@@ -93,7 +93,7 @@
   facebook: yoshifumi.seki
   twitter: YoshifumiSeki
   youtube: xtutSXIB5ms
-  img: seki.png
+  img: seki.webp
 
 - id: nishio_hirokazu
   name:
@@ -106,7 +106,7 @@
   twitter: nishio
   youtube: PQ_FXIBFHrI
   github: nishio
-  img: nishio.png
+  img: nishio.webp
 
 - id: suzuki_ryou
   name:
@@ -118,7 +118,7 @@
   twitter: Reputeless
   github: Reputeless
   web: https://ryo-suzuki-contact.github.io/
-  img: suzuki.png
+  img: suzuki.webp
 
 - id: yasulab
   name:
@@ -130,7 +130,7 @@
   facebook: yasulab
   twitter: yasulab
   github: yasulab
-  img: yasulab.png
+  img: yasulab.webp
   youtube: qXQsdtw7BI4
 
 - id: ukai_yuu
@@ -143,7 +143,7 @@
   facebook: ukai.yu
   twitter: ukkaripon
   youtube: GgJmBKaUzGs
-  img: ukai.png
+  img: ukai.webp
 
 
 # PM Alumni
@@ -159,7 +159,7 @@
   facebook: natsu92.toz413
   twitter: n_toz
   youtube: b3EezuRxvIk
-  img: wada.png
+  img: wada.webp
   is_alumni: true
 
 ## 2019
@@ -173,7 +173,7 @@
   facebook: sugar.ayaka
   youtube: wL0nUbRhcMo
   web: https://ayakasato.com/
-  img: sato.png
+  img: sato.webp
   is_alumni: true
 
 ## 2017..2019
@@ -186,5 +186,5 @@
   bio: 大学在学時からRuby向け仮想マシンYARVを開発し、2007年に「Ruby 1.9」に採用される。以降、Rubyコミッターとして、言語処理系の高速化に従事し、仮想マシンやガーベージコレクションの性能改善などを行なう。東京大学大学院情報理工学系研究科助手、助教、講師、株式会社セールスフォース・ドットコム、Heroku, Inc.を経て、クックパッドにてRubyインタプリタ開発に従事。博士（情報理工学）。未踏ユーススーパークリエータ（2004）。
   github: ko1
   youtube: hJSpCDTuK2o
-  img: sasada.png
+  img: sasada.webp
   is_alumni: true

@@ -27,56 +27,44 @@ lang: en
 
   <div class="project-showcase-list">
     <a href='https://github.com/visible/visible' class="project-showcase project-one" target="_blank" rel='noopener'>
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/visible.png" alt="Visible - Web Accessibility Validate & Fix" class="project-img lazyload" loading="lazy" />
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/visible.webp" alt="Visible - Web Accessibility Validate & Fix" class="project-img lazyload" loading="lazy" />
     </a>
     <a href='https://www.youtube.com/watch?v=MePIVH21RZM' class="project-showcase project-one" target="_blank" rel='noopener'>
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/spaghetian.jpg" alt="Spaghetian - 4-bit CPU of Electromagnet" class="project-img lazyload" loading="lazy" />
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/spaghetian.webp" alt="Spaghetian - 4-bit CPU of Electromagnet" class="project-img lazyload" loading="lazy" />
     </a>
 
     <a href='https://detexploit.org/' class="project-showcase project-one" target="_blank" rel='noopener'>
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/detexploit.png" alt="abecobe - Puzzle game using two blocks" class="project-img lazyload" loading="lazy" />
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/detexploit.webp" alt="abecobe - Puzzle game using two blocks" class="project-img lazyload" loading="lazy" />
     </a>
     <a href='https://keidaroo.github.io/keidaroo_pages/links/abecobe/' class="project-showcase project-one" target="_blank" rel='noopener'>
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/abecobe.png" alt="abecobe - Puzzle game using two blocks" class="project-img lazyload" loading="lazy" />
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/abecobe.webp" alt="abecobe - Puzzle game using two blocks" class="project-img lazyload" loading="lazy" />
     </a>
 
     <a href='https://anjuart.com/en/' class="project-showcase project-one" target="_blank" rel='noopener'>
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/flight-fit-vr.jpg" alt="Flight Fit -VR-" class="project-img lazyload" loading="lazy" />
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/flight-fit-vr.webp" alt="Flight Fit -VR-" class="project-img lazyload" loading="lazy" />
     </a>
     <a href='https://vamboo.net/' class="project-showcase project-one" target="_blank" rel='noopener'>
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/vamboo.png" alt="vamboo - A visual programming language to create GUI application in functional and reactive way." class="project-img lazyload" loading="lazy" />
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/vamboo.webp" alt="vamboo - A visual programming language to create GUI application in functional and reactive way." class="project-img lazyload" loading="lazy" />
     </a>
 
     <a href='https://github.com/Vreath-core' class="project-showcase project-one" target="_blank" rel='noopener'>
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/vreath.png" alt="Vreath - A New Consensus Algorithm Makes CryptoCurrency Easily Available" class="project-img lazyload" loading="lazy" />
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/vreath.webp" alt="Vreath - A New Consensus Algorithm Makes CryptoCurrency Easily Available" class="project-img lazyload" loading="lazy" />
     </a>
     <a href='https://sites.google.com/view/toubans-en' class="project-showcase project-one" target="_blank" rel='noopener'>
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/toubans.png" alt="Toubans! - The easy-to-use duty-management chatbot" class="project-img lazyload" loading="lazy" />
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/toubans.webp" alt="Toubans! - The easy-to-use duty-management chatbot" class="project-img lazyload" loading="lazy" />
     </a>
   </div>
 
   <a href="/projects" class="button">Check accepted projects (in Japanese)</a>
 
 
-  <h2 id='supporters'>Supporters and Sponsors</h2>
-  <p>Mitou Junior is officially recognized and supported by the Ministry of Education, Culture, Sports, Science and Technology, and the Ministry of Economy, Trade and Industry. Also we have 10+ financial and in-kind sponsors.</p>
-</div>
-
-<div class="sponsors-list-supporter">
-  <a href="https://www.mext.go.jp/" target="_blank">
-    <div class="sponsor-supporter sponsor-one">
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/mext.png" alt="Ministry of Education, Culture, Sports, Science and Technology" class="sponsor-img lazyload">
-    </div>
-  </a>
-  <a href="https://www.meti.go.jp/" class="sponsor-supporter sponsor-one" target="_blank">
-    <div class="sponsor-supporter sponsor-one">
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/meti.png" alt="Ministry of Economy, Trade and Industry" class="sponsor-img lazyload">
-    </div>
-  </a>
+  <h2 id='supporters'>Sponsors & Supporters</h2>
+  <p>Mitou Junior program has 10+ financial and in-kind sponsors. Also we have 10+ supporters, including MEXT (Ministry of Education, Culture, Sports, Science and Technology) and METI (Ministry of Economy, Trade and Industry).</p>
 </div>
 
 {% include sponsors.html %}
 {% include collaborators.html %}
+{% include supporters.html %}
 
 {% include contact.html %}
 

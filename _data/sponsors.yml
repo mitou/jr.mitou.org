@@ -2,55 +2,55 @@
 # - name: 会社名
 #   img:  /assets/img/sponsor 内の画像ファイルパス
 #   url:  会社のホームページ
-#   type: [platinum|gold|silver|bronze|inkind|media]
+#   type: [platinum|gold|silver|bronze|inkind|media|supporter|collaborator]
 
 - name: 近畿大学情報学部
-  img:  kindai.jpg
+  img:  kindai.webp
   url:  https://www.kindai.ac.jp/informatics/
   type: platinum
 
 - name: 株式会社リクルート
-  img:  recruit.jpg
+  img:  recruit.webp
   url:  https://www.recruit.co.jp/
   type: gold
 
 #- name: KDDI株式会社
-#  img:  kddi.png
+#  img:  kddi.webp
 #  url:  https://www.kddi.com/
 #  type: gold
 
 - name: 株式会社ドワンゴ
-  img:  dwango.png
+  img:  dwango.webp
   url:  https://dwango.co.jp/
   type: silver
 
 - name: 合同会社DMM.com
-  img:  DMM.com_logo_RGB.png
+  img:  DMM.com_logo_RGB.webp
   url:  https://dmm-corp.com/
   type: silver
 
 - name: 株式会社プロコミット
-  img:  pro-commit.png
+  img:  pro-commit.webp
   url:  https://www.procommit.co.jp/
   type: bronze
 
 #- name: 株式会社アイデミー
-#  img:  aidemy.png
+#  img:  aidemy.webp
 #  url:  https://aidemy.net/
 #  type: inkind
 
 - name: さくらインターネット株式会社
-  img:  sakura.png
+  img:  sakura.webp
   url:  https://www.sakura.ad.jp/
   type: inkind
 
-- name: 株式会社 Progate
-  img:  progate.png
+- name: Progate
+  img:  progate.webp
   url:  https://prog-8.com/
   type: inkind
 
 - name: Ruby on Railsチュートリアル
-  img:  railstutorial.png
+  img:  railstutorial.webp
   url:  https://railstutorial.jp/
   type: inkind
 
@@ -60,26 +60,75 @@
   type: inkind
 
 - name: Helpfeel
-  img:  helpfeel.png
+  img:  helpfeel.webp
   url:  https://helpfeel.com/
   type: inkind
 
 - name: GitHub
-  img:  github.png
+  img:  github.webp
   url:  https://github.com/
   type: inkind
 
 - name: CASE Shinjuku
-  img:  case-shinjuku.png
+  img:  case-shinjuku.webp
   url:  https://case-shinjuku.com/
   type: inkind
 
 - name: エドテックジン
-  img:  ed-tech-zine.png
+  img:  ed-tech-zine.webp
   url:  https://edtechzine.jp/
   type: media
 
 - name: こどもとIT
-  img:  kodomo-to-it.png
+  img:  kodomo-to-it.webp
   url:  https://www.watch.impress.co.jp/kodomo_it/
   type: media
+
+
+# 後援団体 - Supportors
+- name: 文部科学省
+  img: mext.webp
+  url: https://www.mext.go.jp/
+  type: supporter
+
+- name: 経済産業省
+  img:  meti.webp
+  url:  https://www.meti.go.jp/
+  type: supporter
+
+# 協力団体 - Collaborators
+- name: CoderDojo Japan
+  img:  coderdojo-japan.webp
+  url:  https://coderdojo.jp/
+  type: collaborator
+
+- name: GPA ぐんまプログラミングアワード
+  img:  gpa.webp
+  url:  https://www.gp-award.jp/
+  type: collaborator
+
+- name: Tech Kids School
+  img:  tech-kids-school.webp
+  url:  https://techkidsschool.jp/
+  type: collaborator
+
+- name: U-22 プログラミングコンテスト
+  img:  bn-u22-2021.webp
+  url:  https://u22procon.com/
+  type: collaborator
+
+- name: 全国高専プログラミングコンテスト
+  img:  kousen-pg-contest.webp
+  url:  https://www.procon.gr.jp/
+  type: collaborator
+
+- name: パソコン甲子園
+  img:  PCK2021_banner.webp
+  url:  https://u-aizu.ac.jp/pc-concours/index.html
+  type: collaborator
+
+- name: 中高生国際Rubyプログラミングコンテスト
+  img:  ruby-procon.webp
+  url:  https://www.ruby-procon.net/
+  type: collaborator
+
