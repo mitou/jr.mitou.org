@@ -14,7 +14,7 @@ description: 未踏ジュニアへの応募から採択までの流れをまと�
 
 YouTube からは応募者向けのメッセージや提案のコツなどを公開しています。
 <center><h4 class="heading-balloon" style='margin-top: 20px; margin-bottom: 20px;'>公開している動画の例</h4></center>
-<a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank" rel="noopener"><img src="/assets/img/spinner.svg" data-src="/assets/img/highlights-for-creators.png" alt="Movies for Prospective Creators" width="100%" class="lazyload" loading="lazy"></a>
+<a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank" rel="noopener"><img src="/assets/img/highlights-for-creators.min.webp" data-src="/assets/img/highlights-for-creators.webp" alt="Movies for Prospective Creators" width="100%" class="lazyload" loading="lazy"></a>
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button" target="_blank" rel="noopner">応募者向けの動画を見る</a>
 
 「動画ではなくテキストで読みたい！」という方向けの記事もあります。こちらもご参考になれば幸いです。
