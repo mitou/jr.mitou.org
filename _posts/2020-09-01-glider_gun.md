@@ -2,7 +2,7 @@
 layout: post
 title: "GliderGun - ブラウザOSを簡単に作成できるツール郡"
 permalink: /projects/2020/glider_gun
-thumbnail: /assets/img/thumbnails/2020/glider_gun.jpg
+thumbnail: /assets/img/thumbnails/2020/glider_gun.webp
 description: "このプロジェクトはLinuxのディストリビューションを簡単に作成できるツール郡を提供します。また、作成するディストリビューションはブラウザを使うことを主な目的としており、このように機能を制限することで様々な恩恵を得ることができます。"
 ---
 
@@ -10,7 +10,7 @@ description: "このプロジェクトはLinuxのディストリビューショ�
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

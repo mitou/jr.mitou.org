@@ -2,7 +2,7 @@
 layout: post
 title: 採択後の流れ
 description: 未踏ジュニア採択後のスケジュールをまとめています。応募を検討されている方々のご参考になれば幸いです。
-thumbnail: /assets/img/thumbnails/schedule.png
+thumbnail: /assets/img/thumbnails/schedule.webp
 ---
 
 ## スケジュール

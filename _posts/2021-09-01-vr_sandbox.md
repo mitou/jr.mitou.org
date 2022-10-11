@@ -2,7 +2,7 @@
 layout: post
 title: "VRSandbox：誰でも簡単3Dモデリングツール"
 permalink: /projects/2021/vr_sandbox
-thumbnail: /assets/img/thumbnails/2021/vr_sandbox.png
+thumbnail: /assets/img/thumbnails/2021/vr_sandbox.webp
 description: "VRコントローラーを筆とパレットのように使い、直感的に立体物が作れるアプリです。仮想空間や３Dモデルが身近になりましたが、現状で個人が作るのは簡単ではありません。難解なモデリングソフトを使用しなくても簡単に３Dモデリングできます。しゃがむアクションで縮尺が変わり、実物大の建造物に入れます。"
 ---
 
@@ -10,7 +10,7 @@ description: "VRコントローラーを筆とパレットのように使い、�
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

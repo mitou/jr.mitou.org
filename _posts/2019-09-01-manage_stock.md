@@ -2,7 +2,7 @@
 layout: post
 title: "ManageStock - 家庭向け在庫管理アプリ"
 permalink: /projects/2019/manage_stock
-thumbnail: /assets/img/thumbnails/2019/manage_stock.jpg
+thumbnail: /assets/img/thumbnails/2019/manage_stock.webp
 description: "ティッシュペーパーのような日用品を買い忘れてしまい、困った経験はありませんか？ ManageStock はそのような問題を解決するために、在庫を IoT などを活用して管理するアプリケーションです。"
 ---
 
@@ -10,7 +10,7 @@ description: "ティッシュペーパーのような日用品を買い忘れて
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

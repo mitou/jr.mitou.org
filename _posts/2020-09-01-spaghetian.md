@@ -2,7 +2,7 @@
 layout: post
 title: "Spaghetian - 電気と電磁石だけでCPUを自作する！"
 permalink: /projects/2020/spaghetian
-thumbnail: /assets/img/thumbnails/2020/spaghetian.jpg
+thumbnail: /assets/img/thumbnails/2020/spaghetian.webp
 description: "三機の電磁石式自作自作CPUを互いにつなげてネットワークにし、その上でオンラインピンポンゲームが動くロマン溢れるプロジェクトです！魔法と見分けがつかなくなった現代のコンピュータテクノロジーの基本を自作することにより、それらが誰でも理解できることを示します。"
 ---
 
@@ -10,7 +10,7 @@ description: "三機の電磁石式自作自作CPUを互いにつなげてネッ
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

@@ -2,7 +2,7 @@
 layout: post
 title: "メモリーカプセル - カプセルを通して繋がるSNS"
 permalink: /projects/2018/memory_capsule
-thumbnail: /assets/img/thumbnails/2018/memory_capsule.png
+thumbnail: /assets/img/thumbnails/2018/memory_capsule.webp
 description: "場所に紐付いて、仮想カプセルを埋め、それを掘り出すことのできるSNSを開発。"
 ---
 
@@ -10,7 +10,7 @@ description: "場所に紐付いて、仮想カプセルを埋め、それを掘
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

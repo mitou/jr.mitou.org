@@ -2,7 +2,7 @@
 layout: post
 title: "fresh capsule - 食材管理アプリ"
 permalink: /projects/2019/fresh_capsule
-thumbnail: /assets/img/thumbnails/2019/fresh_capsule.jpg
+thumbnail: /assets/img/thumbnails/2019/fresh_capsule.webp
 description: "fresh capsuleは、購入した食材の賞味期限を管理する携帯アプリです。 賞味期限が印字されている部分をスマートフォンで撮影すると、賞味期限がアプリ内のリストに落とし込まれます。"
 ---
 
@@ -10,7 +10,7 @@ description: "fresh capsuleは、購入した食材の賞味期限を管理す�
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

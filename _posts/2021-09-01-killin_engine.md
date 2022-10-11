@@ -2,7 +2,7 @@
 layout: post
 title: "KillinEngine -マルチプレイ型ゲーム制作エンジン-"
 permalink: /projects/2021/killin_engine
-thumbnail: /assets/img/thumbnails/2021/killin_engine.png
+thumbnail: /assets/img/thumbnails/2021/killin_engine.webp
 description: "キリンエンジンは、仲間と遊びながらオンラインマルチプレイゲームが作れるゲーム制作ツールです。最新のネットワーク技術により、クリエイターたちは一つの仮想空間に召喚されゲームをリアルタイム共同編集することができます。"
 ---
 
@@ -10,7 +10,7 @@ description: "キリンエンジンは、仲間と遊びながらオンライン
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

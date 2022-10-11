@@ -2,7 +2,7 @@
 layout: post
 title: "ぶらっしゅとーく〜小さな子どものための筆談アプリ〜"
 permalink: /projects/2020/brush_talk
-thumbnail: /assets/img/thumbnails/2020/brush_talk.jpg
+thumbnail: /assets/img/thumbnails/2020/brush_talk.webp
 description: "これは文字がまだうまく書けない小さな子と耳が聞こえづらいお年寄りがコミュニケーションを取るための筆談アプリです。スマホを使い慣れないお年寄りも簡単に使えるように、操作するためのボタンをなるべく少なくしました。また、イラストを使用することで小さな子が感覚的に使えるようにしました。"
 ---
 
@@ -10,7 +10,7 @@ description: "これは文字がまだうまく書けない小さな子と耳が
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

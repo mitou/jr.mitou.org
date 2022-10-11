@@ -2,7 +2,7 @@
 layout: post
 title: "ForceBook - つよつよ自作ノートPC"
 permalink: /projects/2020/force_book
-thumbnail: /assets/img/thumbnails/2020/forcebook.png
+thumbnail: /assets/img/thumbnails/2020/forcebook.webp
 description: "筐体から設計・自作し、開発者やゲーマーに使ってほしいノートPCを実現しました。カスタマイズ性を重視してデスクトップ用のパーツを使い、あえてバッテリーを搭載せず電源接続とすることでコンパクトにしました。さらにトラックパッドとしてタッチディスプレイによる新しいインターフェースを考案・実装し、使いやすさにこだわりました。"
 ---
 
@@ -10,7 +10,7 @@ description: "筐体から設計・自作し、開発者やゲーマーに使っ
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

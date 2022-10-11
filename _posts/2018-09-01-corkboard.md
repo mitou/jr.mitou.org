@@ -2,7 +2,7 @@
 layout: post
 title: "Corkboard - 位置的に管理するメモサービス"
 permalink: /projects/2018/corkboard
-thumbnail: /assets/img/thumbnails/2018/corkboard.png
+thumbnail: /assets/img/thumbnails/2018/corkboard.webp
 description: "使用者の記録や感情を蓄え変化する「森」を基調としたメモ帳アプリのデザインコンセプトを提案"
 ---
 
@@ -10,7 +10,7 @@ description: "使用者の記録や感情を蓄え変化する「森」を基調
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

@@ -2,7 +2,7 @@
 layout: post
 title: "NuDesktop - 軽量かつ柔軟なデスクトップ環境"
 permalink: /projects/2022/nu_desktop
-thumbnail: /assets/img/thumbnails/2022/nu_desktop.png
+thumbnail: /assets/img/thumbnails/2022/nu_desktop.webp
 description: "NuDesktopは、デバイスの状態や形態に合わせて変化するUIを提供するLinux向けのデスクトップ環境です。これにより、従来の環境ではUIが提供されなかったデバイスをより良いUIとともに使うことができます。"
 ---
 
@@ -10,7 +10,7 @@ description: "NuDesktopは、デバイスの状態や形態に合わせて変化
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

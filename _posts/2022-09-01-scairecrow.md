@@ -2,7 +2,7 @@
 layout: post
 title: "scairecrow - カラスからゴミを守るシステム"
 permalink: /projects/2022/scairecrow
-thumbnail: /assets/img/thumbnails/2022/scairecrow.png
+thumbnail: /assets/img/thumbnails/2022/scairecrow.webp
 description: "scairecrowはゴミ捨て場に近づくカラスを迎撃するハードウェアプロジェクトです。カラスによってゴミが荒らされることで町が汚くなっています。その問題を解決するために、リアルタイムでカラスを物体検出し、レーザーを照射することで効果的に迎撃できるシステムを開発しました。"
 ---
 
@@ -10,7 +10,7 @@ description: "scairecrowはゴミ捨て場に近づくカラスを迎撃する�
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

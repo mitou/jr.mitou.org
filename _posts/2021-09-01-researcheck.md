@@ -2,7 +2,7 @@
 layout: post
 title: "Researcheck-調べ学習サポートアプリ-"
 permalink: /projects/2021/researcheck
-thumbnail: /assets/img/thumbnails/2021/researcheck.png
+thumbnail: /assets/img/thumbnails/2021/researcheck.webp
 description: "Researcheckは学生の知りたい気持ちを応援する調べ学習アプリです。インターネットには信憑性が低い情報や芸能ニュースによる検索結果の汚染、情報の偏りなどの問題がありますResearcheckは、調べ学習に不適切な情報を警告、除外し対義語を挿入して検索結果の中立性を保ちます。"
 ---
 
@@ -10,7 +10,7 @@ description: "Researcheckは学生の知りたい気持ちを応援する調べ�
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

@@ -2,7 +2,7 @@
 layout: post
 title: "写して翻訳"
 permalink: /projects/2018/camera_translation
-thumbnail: /assets/img/thumbnails/2018/camera_translation.png
+thumbnail: /assets/img/thumbnails/2018/camera_translation.webp
 description: "写真を写すことで、そこに写った物体の名前を他の言語に翻訳するスマートフォンアプリの開発。"
 ---
 
@@ -10,7 +10,7 @@ description: "写真を写すことで、そこに写った物体の名前を他
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

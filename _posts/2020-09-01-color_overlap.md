@@ -2,7 +2,7 @@
 layout: post
 title: "Color Overlap - 光の三原色RGBを使ったパズルゲーム"
 permalink: /projects/2020/color_overlap
-thumbnail: /assets/img/thumbnails/2020/color_overlap.jpg
+thumbnail: /assets/img/thumbnails/2020/color_overlap.webp
 description: "魔法によって「色」を奪われ石にされてしまった人々を救うパズルゲームです。光の３原色RGBの様々な形のブロックをうまく重ねて、王国に色を取り戻そう。Unityで制作しています。"
 ---
 
@@ -10,7 +10,7 @@ description: "魔法によって「色」を奪われ石にされてしまった
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

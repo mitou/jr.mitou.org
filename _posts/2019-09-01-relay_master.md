@@ -2,7 +2,7 @@
 layout: post
 title: "リレーマスター"
 permalink: /projects/2019/relay_master
-thumbnail: /assets/img/thumbnails/2019/relay_master.png
+thumbnail: /assets/img/thumbnails/2019/relay_master.webp
 description: "センサが埋め込まれた特殊なバトンを持って走るだけで，あらゆる運動を解析するシステムを開発しました。データは専用のwebにアップロードして，あなたの運動をAIで分析・最適化します。“リレーマスター” を利用して，プロに匹敵するパフォーマンスを実現してみませんか？"
 ---
 
@@ -10,7 +10,7 @@ description: "センサが埋め込まれた特殊なバトンを持って走る
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

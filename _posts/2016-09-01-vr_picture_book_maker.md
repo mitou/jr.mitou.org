@@ -2,7 +2,7 @@
 layout: post
 title: "VR絵本メーカー"
 permalink: /projects/2016/vr_picture_book_maker
-thumbnail: /assets/img/thumbnails/2016/vr_picture_book_maker.png
+thumbnail: /assets/img/thumbnails/2016/vr_picture_book_maker.webp
 description: "VR絵本メーカーは、 VRで体験できる世界やストーリーを制作するためのスマートフォンアプリケーションです。 物語の世界に入ることができる！大好きなあの人とデートができる！憧れのアーティストのライブにも行けちゃう！誰でも簡単にスマホで観れるVR絵本をつくれます。 ユーザーは背景となる360度画像を選択し、キャラクターや吹き出し、さらに効果音、遷移エフェクトを選択してVR絵本にします。"
 ---
 
@@ -10,7 +10,7 @@ description: "VR絵本メーカーは、 VRで体験できる世界やストー�
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

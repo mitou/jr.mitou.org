@@ -2,7 +2,7 @@
 layout: post
 title: "narratica〜ストーリーコンサルタント〜"
 permalink: /projects/2017/narratica
-thumbnail: /assets/img/thumbnails/2017/narratica.png
+thumbnail: /assets/img/thumbnails/2017/narratica.webp
 description: "自然言語処理によって、映画脚本のテキスト分析を行い、登場人物の感情変化をもとにストーリーを評価。自分で書いた文章もリアルタイムに感情分析。"
 ---
 
@@ -10,7 +10,7 @@ description: "自然言語処理によって、映画脚本のテキスト分析
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

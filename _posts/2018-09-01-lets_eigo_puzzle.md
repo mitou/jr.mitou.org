@@ -2,7 +2,7 @@
 layout: post
 title: "Let'sえいごパズル! - 変化するキューブで楽しく学ぶ英単語"
 permalink: /projects/2018/lets_eigo_puzzle
-thumbnail: /assets/img/thumbnails/2018/lets_eigo_puzzle.png
+thumbnail: /assets/img/thumbnails/2018/lets_eigo_puzzle.webp
 description: "小学生が遊びながら英単語を学べる、赤外線通信ブロックとゲームを開発。"
 ---
 
@@ -10,7 +10,7 @@ description: "小学生が遊びながら英単語を学べる、赤外線通信
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

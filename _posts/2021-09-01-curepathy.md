@@ -2,7 +2,7 @@
 layout: post
 title: "Curepathy -子供の興味を深めるアプリ-"
 permalink: /projects/2021/curepathy
-thumbnail: /assets/img/thumbnails/2021/curepathy.png
+thumbnail: /assets/img/thumbnails/2021/curepathy.webp
 description: "小中学生を対象とした能動的な学習を支援するアプリです。ユーザーの評価・タグ・レコメンドエンジンによってユーザーの興味に合った学習コンテンツを提示するほか、着せ替えゲームの要素を取り入れることで楽しく学び続けられる仕組みを提供します。"
 ---
 
@@ -10,7 +10,7 @@ description: "小中学生を対象とした能動的な学習を支援するア
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

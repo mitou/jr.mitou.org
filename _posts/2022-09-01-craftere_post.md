@@ -2,7 +2,7 @@
 layout: post
 title: "CrafterePost - Minecraft建築物3D共有Webサービス"
 permalink: /projects/2022/craftere_post
-thumbnail: /assets/img/thumbnails/2022/craftere_post.jpg
+thumbnail: /assets/img/thumbnails/2022/craftere_post.webp
 description: "CrafterePostは、Minecraftの建築物を3D共有できるWebサービスです。視聴者はブラウザだけで、建築物を好きな角度から眺めることができます。投稿者が建築過程を3D動画にすれば、視聴者は任意の時点・視点から眺めることができ、ブロックが複雑に入り組んでる構造でもわかりやすいです。"
 ---
 
@@ -10,7 +10,7 @@ description: "CrafterePostは、Minecraftの建築物を3D共有できるWebサ�
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

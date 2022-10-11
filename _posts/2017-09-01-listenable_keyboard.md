@@ -2,7 +2,7 @@
 layout: post
 title: "'聞く'キーボード"
 permalink: /projects/2017/listenable_keyboard
-thumbnail: /assets/img/thumbnails/2017/listenable_keyboard.png
+thumbnail: /assets/img/thumbnails/2017/listenable_keyboard.webp
 description: "日本語、英語、中国語の3言語で利用できる、音声認識機能を搭載したキーボード。"
 ---
 
@@ -10,7 +10,7 @@ description: "日本語、英語、中国語の3言語で利用できる、音�
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}

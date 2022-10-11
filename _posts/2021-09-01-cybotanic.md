@@ -2,7 +2,7 @@
 layout: post
 title: "Cybotanic：サイボーグ化された植物。"
 permalink: /projects/2021/cybotanic
-thumbnail: /assets/img/thumbnails/2021/cybotanic.png
+thumbnail: /assets/img/thumbnails/2021/cybotanic.webp
 description: "「植物が生きている」ことを直感的に感じるために、テクノロジーの力で「植物の機能」を拡張するプロジェクトです。植物のイオンチャネルに流れる生体電位を電極で取得し、そこから採れたデータを基に植物を人工筋肉で動かしたり、シンセサイザーを人間と共演します。"
 ---
 
@@ -10,7 +10,7 @@ description: "「植物が生きている」ことを直感的に感じるため
 
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
 {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.png'
+{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
 {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
 
 {{ pj.description }}
