@@ -12,11 +12,10 @@ end
 require 'html-proofer'
 task test: [:build] do
   options = {
-    allow_hash_href:  false,
     checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon'],
-    check_internal_hash: true,
-    disable_external:    true,
-    enforce_https:       true,
+    allow_hash_href:  false,
+    disable_external: true,
+    enforce_https:    true,
 
     # NOTE: Ignore file, URL, and response as follows
     ignore_files: [
