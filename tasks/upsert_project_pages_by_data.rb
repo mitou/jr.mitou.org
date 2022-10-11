@@ -3,6 +3,9 @@
 require 'pry' unless ENV['JEKYLL_ENV'] == 'production'
 require 'yaml'
 
+# Remove existing files and re-generate them
+Dir.glob("./_posts/*.md").each { |filename| File.delete(filename) }
+
 projects = YAML.load_file("_data/projects.yml")
 projects.each_with_index do |project, index|
   # Generate individual project page by data
