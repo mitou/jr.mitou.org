@@ -8,19 +8,25 @@ thumbnail: /assets/img/thumbnails/final_2022.webp
 
 <br>
 
+<!--
 <img src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}" alt="{{ page.title }}サムネイル画像"
      class="project-thumbnail lazyload" width='100%' loading="lazy" />
+-->
+
+<div class='youtube'>
+  <iframe src="https://www.youtube.com/embed/fw1LFIZz-zo" title="2022年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <!--
 2021年度の未踏ジュニア成果報告会を11月3日に実施しました。<a href="https://twitter.com/mitoujr/status/1455832719577944066" target="_blank">YouTubeの動画目次</a>を使うとお好きなシーンからご視聴いただけます。<br>
 
 <div class='youtube'>
-  <iframe frameborder="0" class="lazyload" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/OLVQKC7ST6I?start=445&rel=0"></iframe>
+  <iframe frameborder="0" class="lazyload" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/fw1LFIZz-zo&rel=0"></iframe>
 </div>
 -->
 
 <div style='display: flex; flex-wrap: wrap'>
-  <a href="https://mitoujr2022.peatix.com/view" class="button" target="_blank" rel='noopener'>チケットを申し込む</a>
+  <a href="https://mitoujr2022.peatix.com/view" class="button" target="_blank" rel='noopener'>現地参加を申し込む</a>
 </div>
 
 <hr>
