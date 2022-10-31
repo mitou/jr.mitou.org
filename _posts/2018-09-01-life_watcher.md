@@ -27,7 +27,7 @@ description: "スマートウォッチ上で動作する、急変する持病を
   <a href="https://twitter.com/intent/tweet?text={{ pj.title }}&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url={{ site.url }}/projects/{{ pj.year }}/{{ pj.id }}" class="button" target="_blank" rel="noopener">ツイートする</a>
 </div>
 
-### クリエータ
+### クリエータ {#creator}
 <p>
   {% for creator_id in pj.creator_ids %}
     {% include creator.html is_simple=true %}
@@ -36,18 +36,18 @@ description: "スマートウォッチ上で動作する、急変する持病を
 </p>
 
 {% if pj.comment %}
-### PMコメント
+### PMコメント {#comment}
 <p class="project-comment">{{ pj.comment }}</p>
 {% endif %}
 
 {% if pj.promotion %}
 {% if pj.promotion contains '.gif' %}
-## デモ動画
+## デモ動画 {#demo}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='デモ動画 (Gif)'
      data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
-## デモ動画
+## デモ動画 {#demo}
 <div class="youtube">
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.promotion }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
@@ -56,7 +56,7 @@ description: "スマートウォッチ上で動作する、急変する持病を
 {% endif %}
 
 {% if pj.final %}
-## 発表動画
+## 発表動画 {#final}
 <div class="youtube">
   <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.final }}?rel=0{% if pj.final_start %}&start={{ pj.final_start }}{% endif %}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
