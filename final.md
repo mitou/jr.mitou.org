@@ -14,7 +14,7 @@ thumbnail: /assets/img/thumbnails/final_2022.webp
 -->
 
 <div class='youtube'>
-  <iframe src="https://www.youtube.com/embed/fw1LFIZz-zo" title="2022年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/fw1LFIZz-zo?rel=0&start=615" title="2022年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <!--
@@ -25,10 +25,11 @@ thumbnail: /assets/img/thumbnails/final_2022.webp
 </div>
 -->
 
-<div style='display: flex; flex-wrap: wrap'>
-  <a href="https://mitoujr2022.peatix.com/view" class="button" target="_blank" rel='noopener'>現地参加を申し込む</a>
 
-  <a href="https://youtu.be/fw1LFIZz-zo" class="button" target="_blank" rel='noopener'>ライブ配信を見る</a>
+<div style='display: flex; flex-wrap: wrap'>
+  <!--<a href="https://mitoujr2022.peatix.com/view" class="button" target="_blank" rel='noopener'>現地参加を申し込む</a>-->
+
+  <a href="https://www.youtube.com/watch?v=fw1LFIZz-zo&t=637s" class="button" target="_blank" rel='noopener'>ライブ配信を見る</a>
 </div>
 
 <hr>
