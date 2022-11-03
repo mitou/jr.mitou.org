@@ -27,6 +27,8 @@ thumbnail: /assets/img/thumbnails/final_2022.webp
 
 <div style='display: flex; flex-wrap: wrap'>
   <a href="https://mitoujr2022.peatix.com/view" class="button" target="_blank" rel='noopener'>現地参加を申し込む</a>
+
+  <a href="https://youtu.be/fw1LFIZz-zo" class="button" target="_blank" rel='noopener'>ライブ配信を見る</a>
 </div>
 
 <hr>
