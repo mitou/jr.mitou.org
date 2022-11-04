@@ -7,13 +7,23 @@ this_year: 2022
 
 <div class="cover-photo">
   <img src="/assets/img/2019_all.min.webp" data-src="/assets/img/2019_all.webp" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
+  <!--【募集時期のアナウンス】-->
   <!--
   <a href="/guideline" class="dialog ignore-sp">
     🆕 2022年度の応募を開始しました。(4/9 23:59〆切）
   </a>
   -->
+
+  <!--【成果報告前のアナウンス】-->
+  <!--
   <a href="/final" class="dialog ignore-sp">
     🆕 成果報告会の参加申込を開始しました！<br>11月3日 @ 東京大学 情報学環・福武ホール
+  </a>
+  -->
+
+  <!--【成果報告後のアナウンス】-->
+  <a href="/final" class="dialog ignore-sp">
+    🆕 成果報告会の動画が公開されました！<br>2022年度の発表をぜひチェックしてみてください。
   </a>
 </div>
 
@@ -164,7 +174,7 @@ this_year: 2022
       <iframe data-src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmitoujr&tabs=timeline&width=340&height=400&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" class="lazyload"></iframe>
     </div>
     <div class="twitter w-half">
-      <a class="twitter-timeline" data-height="400" data-width="340" href="https://twitter.com/mitoujr?ref_src=twsrc%5Etfw">Tweets by mitoujr</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a class="twitter-timeline" data-height="400" data-width="340" href="https://twitter.com/MitouJr?ref_src=twsrc%5Etfw">Tweets by mitoujr</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
 </section>
