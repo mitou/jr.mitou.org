@@ -30,6 +30,8 @@ thumbnail: /assets/img/thumbnails/final_2022.webp
   <!--<a href="https://mitoujr2022.peatix.com/view" class="button" target="_blank" rel='noopener'>現地参加を申し込む</a>-->
 
   <a href="https://www.youtube.com/watch?v=fw1LFIZz-zo&t=615s" class="button" target="_blank" rel='noopener'>YouTube で見る</a>
+
+  <a href="https://togetter.com/li/1968577" class="button" target="_blank" rel='noopener'>Twitter の反響を見る</a>
 </div>
 
 <hr>
