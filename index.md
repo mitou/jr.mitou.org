@@ -6,7 +6,9 @@ this_year: 2022
 ---
 
 <div class="cover-photo">
-  <img src="/assets/img/2019_all.min.webp" data-src="/assets/img/2019_all.webp" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
+  <img src="/assets/img/2022_cover.min.webp" data-src="/assets/img/2022_cover.webp" alt="2022年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
+  <!--<img src="/assets/img/2019_all.min.webp" data-src="/assets/img/2019_all.webp" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">-->
+
   <!--【募集時期のアナウンス】-->
   <!--
   <a href="/guideline" class="dialog ignore-sp">
