@@ -9,12 +9,12 @@ thumbnail: /assets/img/thumbnails/final_2022.webp
 <br>
 
 <!--
-<img src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}" alt="{{ page.title }}サムネイル画像"
+<img src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}" alt="{{ page.year }}年度 未踏ジュニア成果報告会 サムネイル画像"
      class="project-thumbnail lazyload" width='100%' loading="lazy" />
 -->
 
 <div class='youtube'>
-  <iframe src="https://www.youtube.com/embed/fw1LFIZz-zo?rel=0&start=615" title="2022年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/fw1LFIZz-zo?rel=0&start=615" title="{{ page.year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <!--
