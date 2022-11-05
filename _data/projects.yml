@@ -33,7 +33,7 @@
   title: Fluxel - 磁気浮上式リニア電磁加速投射機の開発と応用
   description: 直線レール上に物体を磁気浮上させ電磁力によって加速し射出する装置です。固定翼型輸送ドローンの短距離離陸に電磁カタパルトを利用できると考え開発した物です。レール上のコイルに順々にパルス電流を与えて素早く加速させます。モーターやベルト等の機械的動作がありません。
   thumbnail: fluxel.webp
-  #promotion: 
+  promotion: Cu3VyQFlod8
   final: fw1LFIZz-zo
   final_start: 1311
   #link: 
