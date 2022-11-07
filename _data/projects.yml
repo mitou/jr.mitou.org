@@ -124,7 +124,7 @@
 - id: scairecrow
   title: scairecrow - カラスからゴミを守るシステム
   description: scairecrowはゴミ捨て場に近づくカラスを迎撃するハードウェアプロジェクトです。カラスによってゴミが荒らされることで町が汚くなっています。その問題を解決するために、リアルタイムでカラスを物体検出し、レーザーを照射することで効果的に迎撃できるシステムを開発しました。
-  thumbnail: scairecrow.webp
+  thumbnail: scairecrow.png
   #promotion: scairecrow.gif
   final: ZwLbVkF79eE
   #final_start: 15567
