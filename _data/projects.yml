@@ -34,8 +34,8 @@
   description: 直線レール上に物体を磁気浮上させ電磁力によって加速し射出する装置です。固定翼型輸送ドローンの短距離離陸に電磁カタパルトを利用できると考え開発した物です。レール上のコイルに順々にパルス電流を与えて素早く加速させます。モーターやベルト等の機械的動作がありません。
   thumbnail: fluxel.webp
   promotion: Cu3VyQFlod8
-  final: fw1LFIZz-zo
-  final_start: 1311
+  final: ks_hZaEE8Kk
+  final_start: 196
   #link: 
   year: 2022
   mentor_id: yasulab
@@ -47,8 +47,8 @@
   description: R-Orderは、休み時間にコンビニの商品を注文すると自分の教室まで商品を届けてくれるデリバリーアプリです。実際に僕の学校で導入するために、授業中は注文できないようにするなど学校運営に寄り添ったサービスに改善していきました。また、学校以外でも、ホテルや病院などクローズドなコミュニティ内で使用することができます。
   thumbnail: r-order.webp
   #promotion: 
-  final: fw1LFIZz-zo
-  final_start: 2745
+  final: ZAx4682otHM
+  #final_start: 49
   #link: 
   year: 2022
   mentor_id: teramoto_daiki
@@ -60,8 +60,8 @@
   description: MotionRapidはCSSパララックスアニメーションを動画編集ソフトのようなUIから作成できるツールです。動画編集ソフトで広く採用されているタイムラインUIを使い、HTMLやCSS、JavaScriptを直接コーディングすることなくパララックスアニメーションを作成することができます。
   thumbnail: motion_rapid.webp
   #promotion: 
-  final: fw1LFIZz-zo
-  final_start: 4126
+  final: XeGCnR6O8I8
+  #final_start: 4126
   #link: 
   year: 2022
   mentor_id: koutake_rina
@@ -73,8 +73,8 @@
   description: 『みちしる兵衛』は、独自の機械学習モデルに基づくAIを搭載した白杖です。視覚障害者の方々の歩行中に、線路や横断歩道、クルマといった危険を検出・通知し、より安心して歩行ができるよう補助します。
   thumbnail: michishirube.webp
   #promotion: 
-  final: fw1LFIZz-zo
-  final_start: 8420
+  final: PpQ97fcAjLA
+  #final_start: 8420
   #link: 
   year: 2022
   mentor_id: seki_yoshifumi
@@ -86,8 +86,8 @@
   description: HAKは指と手首の動きをトラッキングし、文字やカーソルの入力に変換する、まるでSFの世界から来たかのような装着型の入力デバイスです。入力における手の動作はすべて空中で完結でき、従来の平面的な操作による入力デバイスとは違い、空間による制約が少なくできます。
   thumbnail: hak.webp
   #promotion: 
-  final: fw1LFIZz-zo
-  final_start: 9912
+  final: S-mvizBJd2o
+  #final_start: 9912
   #link: 
   year: 2022
   mentor_id: komuro_maki
@@ -99,8 +99,8 @@
   description: NuDesktopは、デバイスの状態や形態に合わせて変化するUIを提供するLinux向けのデスクトップ環境です。これにより、従来の環境ではUIが提供されなかったデバイスをより良いUIとともに使うことができます。
   thumbnail: nu_desktop.webp
   #promotion: 
-  final: fw1LFIZz-zo
-  final_start: 12003
+  final: JAdqgpCSRJg
+  final_start: 349
   link: https://github.com/CentRa-Linux/NuDesktop_Shell
   year: 2022
   mentor_id: seki_yoshifumi
@@ -112,8 +112,8 @@
   description: NoxicelはAIを用いた、英作文を通じて英単語を学習するアプリです。英作文によって、英単語を文脈や文法と共に覚えることができます。また、教師がいない場面でも気軽に英作文ができるように、OpenAIの技術を使用し文法や用法等の提案をします。
   thumbnail: noxicel.webp
   #promotion: 
-  final: fw1LFIZz-zo
-  final_start: 13385
+  final: 3com6y8EWlM
+  #final_start: 13385
   link: https://noxicel.app/
   year: 2022
   mentor_id: ishii_kakeru
@@ -126,8 +126,8 @@
   description: scairecrowはゴミ捨て場に近づくカラスを迎撃するハードウェアプロジェクトです。カラスによってゴミが荒らされることで町が汚くなっています。その問題を解決するために、リアルタイムでカラスを物体検出し、レーザーを照射することで効果的に迎撃できるシステムを開発しました。
   thumbnail: scairecrow.webp
   #promotion: scairecrow.gif
-  final: fw1LFIZz-zo
-  final_start: 15567
+  final: ZwLbVkF79eE
+  #final_start: 15567
   #link: 
   year: 2022
   mentor_id: bitou_masato
@@ -139,8 +139,8 @@
   description: Sanitasは健康・ダイエットに対する意識や努力のポイントを、友達と共有してゲーム感覚で楽しく健康維持・ダイエットの継続をサポートするアプリです。運動や歩数・毎日の自己評価によるポイントを集めて友達と競いましょう。努力の可視化によって毎日のダイエットや健康維持のモチベーションを保ちます。
   thumbnail: sanitas.webp
   #promotion: 
-  final: fw1LFIZz-zo
-  final_start: 17195
+  final: KMGerRGhih8
+  #final_start: 17195
   link: https://sanitas.cc/
   year: 2022
   mentor_id: shouya_ishimaru
@@ -152,8 +152,8 @@
   description: StudyRecは勉強時間の可視化によりモチベーションをアップさせる勉強アプリです。勉強している姿をタイムラプスで撮影することでスマホ使用を制限、友人との共有が可能になります。集中力を維持するポモドーロタイマーも使うことができます。
   thumbnail: study_rec.webp
   #promotion: 
-  final: fw1LFIZz-zo
-  final_start: 18484
+  final: sZMZJaxGQa0
+  #final_start: 18484
   link: https://mofu-tom.github.io/StudyRec/
   year: 2022
   mentor_id: nishio_hirokazu 
@@ -166,8 +166,8 @@
   description: CrafterePostは、Minecraftの建築物を3D共有できるWebサービスです。視聴者はブラウザだけで、建築物を好きな角度から眺めることができます。投稿者が建築過程を3D動画にすれば、視聴者は任意の時点・視点から眺めることができ、ブロックが複雑に入り組んでる構造でもわかりやすいです。
   thumbnail: craftere_post.webp
   promotion: S1XG9FEY9ko
-  final: fw1LFIZz-zo
-  final_start: 19991
+  final: lad_C_JzR0E
+  #final_start: 19991
   link: https://crafterepost.netlify.app/
   year: 2022
   mentor_id: nishio_hirokazu
