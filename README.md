@@ -140,6 +140,11 @@ $ bundle exec rake test
 
 <br>
 
+## :two_hearts: 使用素材など
+
+- [Twemoji](https://twemoji.twitter.com/) - Copyright 2020 Twitter, Inc and other contributors
+
+
 ## :copyright: クレジット
 
 Copyright &copy; [未踏ジュニア](https://jr.mitou.org/)実行委員会
