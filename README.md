@@ -145,6 +145,7 @@ $ bundle exec rake test
 - [Font Awesome](https://fontawesome.com/license/) - :copyright: Fonticons, Inc.
 - [Twemoji](https://twemoji.twitter.com/) - :copyright: Twitter, Inc and other contributors.
 
+<br>
 
 ## :copyright: クレジット
 
