@@ -142,7 +142,8 @@ $ bundle exec rake test
 
 ## :two_hearts: 使用素材など
 
-- [Twemoji](https://twemoji.twitter.com/) - Copyright 2020 Twitter, Inc and other contributors
+- [Font Awesome](https://fontawesome.com/license/) - :copyright: Fonticons, Inc.
+- [Twemoji](https://twemoji.twitter.com/) - :copyright: Twitter, Inc and other contributors.
 
 
 ## :copyright: クレジット
