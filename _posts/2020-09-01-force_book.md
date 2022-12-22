@@ -70,8 +70,8 @@ description: "筐体から設計・自作し、開発者やゲーマーに使っ
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 次<br><a href='critica'>critica  - 手軽で直感的なリアクション回収ツール</a></p>
-  <p class="nav next">前 &rarr;<br><a href='levo'>Levo - 全く新しい近未来的デザインのエアソフトガン</a></p>
+  <p class="nav prev">&larr; 前<br><a href='critica'>critica  - 手軽で直感的なリアクション回収ツール</a></p>
+  <p class="nav next">次 &rarr;<br><a href='levo'>Levo - 全く新しい近未来的デザインのエアソフトガン</a></p>
 </div>
 
 {% include project-navigation.html %}

@@ -70,8 +70,8 @@ description: "自然言語処理によって、映画脚本のテキスト分析
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 次<br><a href='anki_cookie'>暗記クッキー</a></p>
-  <p class="nav next">前 &rarr;<br><a href='savacs'>見守りフォトスタンド</a></p>
+  <p class="nav prev">&larr; 前<br><a href='anki_cookie'>暗記クッキー</a></p>
+  <p class="nav next">次 &rarr;<br><a href='savacs'>見守りフォトスタンド</a></p>
 </div>
 
 {% include project-navigation.html %}

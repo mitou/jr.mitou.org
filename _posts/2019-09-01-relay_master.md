@@ -70,8 +70,8 @@ description: "センサが埋め込まれた特殊なバトンを持って走る
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 次<br><a href='manage_stock'>ManageStock - 家庭向け在庫管理アプリ</a></p>
-  <p class="nav next">前 &rarr;<br><a href='virtual_presents'>VirtualPresents - 仮想世界で用いるWebサ...</a></p>
+  <p class="nav prev">&larr; 前<br><a href='manage_stock'>ManageStock - 家庭向け在庫管理アプリ</a></p>
+  <p class="nav next">次 &rarr;<br><a href='virtual_presents'>VirtualPresents - 仮想世界で用いるWebサ...</a></p>
 </div>
 
 {% include project-navigation.html %}

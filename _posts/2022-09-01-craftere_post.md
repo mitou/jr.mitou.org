@@ -70,8 +70,8 @@ description: "CrafterePostは、Minecraftの建築物を3D共有できるWebサ�
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 次<br><a href='study_rec'>StudyRec - タイムラプスやポモドーロ・タイマーを使...</a></p>
-  <p class="nav next">前 &rarr;<br><a href='fluxel'>Fluxel - 磁気浮上式リニア電磁加速投射機の開発と応用...</a></p>
+  <p class="nav prev">&larr; 前<br><a href='study_rec'>StudyRec - タイムラプスやポモドーロ・タイマーを使...</a></p>
+  <p class="nav next">次 &rarr;<br><a href='fluxel'>Fluxel - 磁気浮上式リニア電磁加速投射機の開発と応用...</a></p>
 </div>
 
 {% include project-navigation.html %}

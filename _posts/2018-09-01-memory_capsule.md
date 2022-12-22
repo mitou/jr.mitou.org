@@ -70,8 +70,8 @@ description: "場所に紐付いて、仮想カプセルを埋め、それを掘
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 次<br><a href='robot_soccer'>強化学習を用いたロボットサッカーシミュレーション</a></p>
-  <p class="nav next">前 &rarr;<br><a href='sound_in_the_forest'>Sound in the forest - 複数のスマートフ...</a></p>
+  <p class="nav prev">&larr; 前<br><a href='robot_soccer'>強化学習を用いたロボットサッカーシミュレーション</a></p>
+  <p class="nav next">次 &rarr;<br><a href='sound_in_the_forest'>Sound in the forest - 複数のスマートフ...</a></p>
 </div>
 
 {% include project-navigation.html %}

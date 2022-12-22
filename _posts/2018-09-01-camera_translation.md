@@ -70,8 +70,8 @@ description: "写真を写すことで、そこに写った物体の名前を他
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 次<br><a href='toubans'>Toubans! -LINEで設定・通知できる当番お知らせサ...</a></p>
-  <p class="nav next">前 &rarr;<br><a href='life_watcher'>Life Watcher - 急変する持病を持つ人のための警...</a></p>
+  <p class="nav prev">&larr; 前<br><a href='toubans'>Toubans! -LINEで設定・通知できる当番お知らせサ...</a></p>
+  <p class="nav next">次 &rarr;<br><a href='life_watcher'>Life Watcher - 急変する持病を持つ人のための警...</a></p>
 </div>
 
 {% include project-navigation.html %}

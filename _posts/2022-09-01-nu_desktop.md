@@ -70,8 +70,8 @@ description: "NuDesktopは、デバイスの状態や形態に合わせて変化
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 次<br><a href='hak'>HAK － Hand Action Keyboard － 物...</a></p>
-  <p class="nav next">前 &rarr;<br><a href='noxicel'>Noxicel - 英作文とAIを用いた英単語学習アプリ</a></p>
+  <p class="nav prev">&larr; 前<br><a href='hak'>HAK － Hand Action Keyboard － 物...</a></p>
+  <p class="nav next">次 &rarr;<br><a href='noxicel'>Noxicel - 英作文とAIを用いた英単語学習アプリ</a></p>
 </div>
 
 {% include project-navigation.html %}

@@ -70,8 +70,8 @@ description: "カラオケで歌った曲、見た映画等の経験に基づい
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 次<br><a href='rakuraku_yomiyomi'>らくらく読み読み</a></p>
-  <p class="nav next">前 &rarr;<br><a href='papa'>学校現場における情報共有やスケジューリングを支援するウェブア...</a></p>
+  <p class="nav prev">&larr; 前<br><a href='rakuraku_yomiyomi'>らくらく読み読み</a></p>
+  <p class="nav next">次 &rarr;<br><a href='papa'>学校現場における情報共有やスケジューリングを支援するウェブア...</a></p>
 </div>
 
 {% include project-navigation.html %}

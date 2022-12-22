@@ -70,8 +70,8 @@ description: "使用者の記録や感情を蓄え変化する「森」を基調
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 次<br><a href='vreath'>Vreath - 暗号通貨の入手障壁を下げるための、独自合意...</a></p>
-  <p class="nav next">前 &rarr;<br><a href='touch_buy'>TouchBuy - VRにおけるECの在り方の模索</a></p>
+  <p class="nav prev">&larr; 前<br><a href='vreath'>Vreath - 暗号通貨の入手障壁を下げるための、独自合意...</a></p>
+  <p class="nav next">次 &rarr;<br><a href='touch_buy'>TouchBuy - VRにおけるECの在り方の模索</a></p>
 </div>
 
 {% include project-navigation.html %}

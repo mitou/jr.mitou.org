@@ -70,8 +70,8 @@ description: "三機の電磁石式自作自作CPUを互いにつなげてネッ
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 次<br><a href='brush_talk'>ぶらっしゅとーく〜小さな子どものための筆談アプリ〜</a></p>
-  <p class="nav next">前 &rarr;<br><a href='color_overlap'>Color Overlap - 光の三原色RGBを使ったパズ...</a></p>
+  <p class="nav prev">&larr; 前<br><a href='brush_talk'>ぶらっしゅとーく〜小さな子どものための筆談アプリ〜</a></p>
+  <p class="nav next">次 &rarr;<br><a href='color_overlap'>Color Overlap - 光の三原色RGBを使ったパズ...</a></p>
 </div>
 
 {% include project-navigation.html %}

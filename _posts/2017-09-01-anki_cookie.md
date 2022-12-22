@@ -70,8 +70,8 @@ description: "WEBクイズで頑張って覚えた漢字や単語がクッキー
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 次<br><a href='papa'>学校現場における情報共有やスケジューリングを支援するウェブア...</a></p>
-  <p class="nav next">前 &rarr;<br><a href='narratica'>narratica〜ストーリーコンサルタント〜</a></p>
+  <p class="nav prev">&larr; 前<br><a href='papa'>学校現場における情報共有やスケジューリングを支援するウェブア...</a></p>
+  <p class="nav next">次 &rarr;<br><a href='narratica'>narratica〜ストーリーコンサルタント〜</a></p>
 </div>
 
 {% include project-navigation.html %}
