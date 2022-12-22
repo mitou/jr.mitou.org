@@ -6,20 +6,21 @@ require 'yaml'
 # Remove existing files and re-generate them
 Dir.glob("./_posts/*.md").each { |filename| File.delete(filename) }
 
-projects = YAML.load_file("_data/projects.yml")
+projects = YAML.load_file("_data/projects.yml", symbolize_names: true)
 projects.each_with_index do |project, index|
   # Generate individual project page by data
-  path = "./_posts/#{project['year']}-09-01-#{project['id']}.md"
+  this_year_projects = projects.select{|pj| pj[:year] == project[:year]}
+  path = "./_posts/#{project[:year]}-09-01-#{project[:id]}.md"
   page = <<~PROJECT_PAGE
     ---
     layout: post
-    title: "#{project['title']}"
-    permalink: /projects/#{project['year']}/#{project['id']}
-    thumbnail: /assets/img/thumbnails/#{project['year']}/#{project['thumbnail']}
-    description: "#{project['description']}"
+    title: "#{project[:title]}"
+    permalink: /projects/#{project[:year]}/#{project[:id]}
+    thumbnail: /assets/img/thumbnails/#{project[:year]}/#{project[:thumbnail]}
+    description: "#{project[:description]}"
     ---
 
-    {% assign pj = site.data.projects | where_exp: "pj", "pj.id == '#{project['id']}'" | first %}
+    {% assign pj = site.data.projects | where_exp: "pj", "pj.id == '#{project[:id]}'" | first %}
 
     <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
     {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
