@@ -2,24 +2,32 @@
 
 require 'pry' unless ENV['JEKYLL_ENV'] == 'production'
 require 'yaml'
+require 'truncato'
+t = Truncato
 
 # Remove existing files and re-generate them
 Dir.glob("./_posts/*.md").each { |filename| File.delete(filename) }
 
-projects = YAML.load_file("_data/projects.yml")
+projects = YAML.load_file("_data/projects.yml", symbolize_names: true)
 projects.each_with_index do |project, index|
+  # Prev/Next project data for navigation
+  this_year_projects = projects.select{|pj| pj[:year] == project[:year] }
+  project_index = this_year_projects.index(project)
+  prev_project  = this_year_projects.rotate(project_index - 1).first
+  next_project  = this_year_projects.rotate(project_index + 1).first
+
   # Generate individual project page by data
-  path = "./_posts/#{project['year']}-09-01-#{project['id']}.md"
+  path = "./_posts/#{project[:year]}-09-01-#{project[:id]}.md"
   page = <<~PROJECT_PAGE
     ---
     layout: post
-    title: "#{project['title']}"
-    permalink: /projects/#{project['year']}/#{project['id']}
-    thumbnail: /assets/img/thumbnails/#{project['year']}/#{project['thumbnail']}
-    description: "#{project['description']}"
+    title: "#{project[:title]}"
+    permalink: /projects/#{project[:year]}/#{project[:id]}
+    thumbnail: /assets/img/thumbnails/#{project[:year]}/#{project[:thumbnail]}
+    description: "#{project[:description]}"
     ---
 
-    {% assign pj = site.data.projects | where_exp: "pj", "pj.id == '#{project['id']}'" | first %}
+    {% assign pj = site.data.projects | where_exp: "pj", "pj.id == '#{project[:id]}'" | first %}
 
     <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
     {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
@@ -76,8 +84,18 @@ projects.each_with_index do |project, index|
     <a href="https://youtu.be/{{ pj.final }}{% if pj.final_start %}?t={{ pj.final_start }}{% endif %}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
     {% endif %}
 
-    {% include project-navigation.html %}
+    <style type="text/css">
+      .prev { display: table-cell; color: white; text-align: left;   }
+      .toc  { display: table-cell; color: white; text-align: center; }
+      .next { display: table-cell; color: white; text-align: right;  }
+      .nav a:link, .nav a:visited { color: white; }
+    </style>
+    <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
+      <p class="nav prev">&larr; 次<br><a href='#{prev_project[:id]}'>#{ t.truncate(prev_project[:title]) }</a></p>
+      <p class="nav next">前 &rarr;<br><a href='#{next_project[:id]}'>#{ t.truncate(next_project[:title]) }</a></p>
+    </div>
 
+    {% include project-navigation.html %}
   PROJECT_PAGE
 
   IO.write(path, page)
