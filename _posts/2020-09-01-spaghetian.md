@@ -63,5 +63,15 @@ description: "三機の電磁石式自作自作CPUを互いにつなげてネッ
 <a href="https://youtu.be/{{ pj.final }}{% if pj.final_start %}?t={{ pj.final_start }}{% endif %}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
 {% endif %}
 
-{% include project-navigation.html %}
+<style type="text/css">
+  .prev { display: table-cell; color: white; text-align: left;   }
+  .toc  { display: table-cell; color: white; text-align: center; }
+  .next { display: table-cell; color: white; text-align: right;  }
+  .nav a:link, .nav a:visited { color: white; }
+</style>
+<div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
+  <p class="nav prev">&larr; 次<br><a href='brush_talk'>ぶらっしゅとーく〜小さな子どものための筆談アプリ〜</a></p>
+  <p class="nav next">前 &rarr;<br><a href='color_overlap'>Color Overlap - 光の三原色RGBを使ったパズ...</a></p>
+</div>
 
+{% include project-navigation.html %}
