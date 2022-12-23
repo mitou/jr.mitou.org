@@ -70,8 +70,10 @@ description: "これは文字がまだうまく書けない小さな子と耳が
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 前<br><a href='guinfra'>GUInfra〜GUIで建てるインフラストラクチャー〜</a></p>
-  <p class="nav next">次 &rarr;<br><a href='spaghetian'>Spaghetian - 電気と電磁石だけでCPUを自作する...</a></p>
+  <p class="nav prev"><a href='guinfra'>&larr; 前<br>
+    GUInfra〜GUIで建てるインフラストラクチャー〜</a></p>
+  <p class="nav next"><a href='spaghetian'>次 &rarr;<br>
+    Spaghetian - 電気と電磁石だけでCPUを自作する...</a></p>
 </div>
 
 {% include project-navigation.html %}

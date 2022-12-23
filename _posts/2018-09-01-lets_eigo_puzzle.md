@@ -70,8 +70,10 @@ description: "小学生が遊びながら英単語を学べる、赤外線通信
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 前<br><a href='utips'>UTIPS - 家事の情報共有サービス</a></p>
-  <p class="nav next">次 &rarr;<br><a href='smile_meeting_room'>スマイル会議室 - IoTで会議室の効率的な利用を</a></p>
+  <p class="nav prev"><a href='utips'>&larr; 前<br>
+    UTIPS - 家事の情報共有サービス</a></p>
+  <p class="nav next"><a href='smile_meeting_room'>次 &rarr;<br>
+    スマイル会議室 - IoTで会議室の効率的な利用を</a></p>
 </div>
 
 {% include project-navigation.html %}

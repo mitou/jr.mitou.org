@@ -70,8 +70,10 @@ description: "MotionRapidはCSSパララックスアニメーションを動画�
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 前<br><a href='r-order'>R-Order - 学校版UberEatsを実現するデリバリ...</a></p>
-  <p class="nav next">次 &rarr;<br><a href='michishirube'>スマート盲導杖『みちしる兵衛』～AI搭載白杖による視覚障害者...</a></p>
+  <p class="nav prev"><a href='r-order'>&larr; 前<br>
+    R-Order - 学校版UberEatsを実現するデリバリ...</a></p>
+  <p class="nav next"><a href='michishirube'>次 &rarr;<br>
+    スマート盲導杖『みちしる兵衛』～AI搭載白杖による視覚障害者...</a></p>
 </div>
 
 {% include project-navigation.html %}

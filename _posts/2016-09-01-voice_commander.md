@@ -70,8 +70,10 @@ description: "Voice Commanderは、声とジェスチャーで操作する新感
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 前<br><a href='vr_picture_book_maker'>VR絵本メーカー</a></p>
-  <p class="nav next">次 &rarr;<br><a href='smart_pen'>スマートペン</a></p>
+  <p class="nav prev"><a href='vr_picture_book_maker'>&larr; 前<br>
+    VR絵本メーカー</a></p>
+  <p class="nav next"><a href='smart_pen'>次 &rarr;<br>
+    スマートペン</a></p>
 </div>
 
 {% include project-navigation.html %}

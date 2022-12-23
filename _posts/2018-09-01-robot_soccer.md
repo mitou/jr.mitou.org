@@ -70,8 +70,10 @@ description: "強化学習を用いた、ロボットサッカーのプレイヤ
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 前<br><a href='touch_buy'>TouchBuy - VRにおけるECの在り方の模索</a></p>
-  <p class="nav next">次 &rarr;<br><a href='memory_capsule'>メモリーカプセル - カプセルを通して繋がるSNS</a></p>
+  <p class="nav prev"><a href='touch_buy'>&larr; 前<br>
+    TouchBuy - VRにおけるECの在り方の模索</a></p>
+  <p class="nav next"><a href='memory_capsule'>次 &rarr;<br>
+    メモリーカプセル - カプセルを通して繋がるSNS</a></p>
 </div>
 
 {% include project-navigation.html %}

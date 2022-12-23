@@ -70,8 +70,10 @@ description: "『みちしる兵衛』は、独自の機械学習モデルに基
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 前<br><a href='motion_rapid'>Motion Rapid - 動画編集ソフトのようなUIでC...</a></p>
-  <p class="nav next">次 &rarr;<br><a href='hak'>HAK － Hand Action Keyboard － 物...</a></p>
+  <p class="nav prev"><a href='motion_rapid'>&larr; 前<br>
+    Motion Rapid - 動画編集ソフトのようなUIでC...</a></p>
+  <p class="nav next"><a href='hak'>次 &rarr;<br>
+    HAK － Hand Action Keyboard － 物...</a></p>
 </div>
 
 {% include project-navigation.html %}

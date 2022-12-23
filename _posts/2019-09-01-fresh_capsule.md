@@ -70,8 +70,10 @@ description: "fresh capsuleは、購入した食材の賞味期限を管理す�
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 前<br><a href='tea'>Tea - 仮想経済シミュレーションプラットフォームとゲーム...</a></p>
-  <p class="nav next">次 &rarr;<br><a href='smart_vj'>SmartVJ - 参加型の新しいメディアアート</a></p>
+  <p class="nav prev"><a href='tea'>&larr; 前<br>
+    Tea - 仮想経済シミュレーションプラットフォームとゲーム...</a></p>
+  <p class="nav next"><a href='smart_vj'>次 &rarr;<br>
+    SmartVJ - 参加型の新しいメディアアート</a></p>
 </div>
 
 {% include project-navigation.html %}

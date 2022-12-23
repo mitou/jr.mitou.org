@@ -70,8 +70,10 @@ description: "魔法によって「色」を奪われ石にされてしまった
   .nav a:link, .nav a:visited { color: white; }
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
-  <p class="nav prev">&larr; 前<br><a href='spaghetian'>Spaghetian - 電気と電磁石だけでCPUを自作する...</a></p>
-  <p class="nav next">次 &rarr;<br><a href='poet'>Poet ~詩人のための創作ツール~</a></p>
+  <p class="nav prev"><a href='spaghetian'>&larr; 前<br>
+    Spaghetian - 電気と電磁石だけでCPUを自作する...</a></p>
+  <p class="nav next"><a href='poet'>次 &rarr;<br>
+    Poet ~詩人のための創作ツール~</a></p>
 </div>
 
 {% include project-navigation.html %}
