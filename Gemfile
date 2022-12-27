@@ -4,7 +4,6 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "jekyll"
-gem "minima"   # default theme for new Jekyll sites
 gem 'rake'     # Enable Rakefile to run tasks
 gem 'truncato' # https://github.com/jorgemanrubia/truncato
 
