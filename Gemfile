@@ -1,14 +1,14 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 # Replace 'git' with 'https' protocol
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+git_source(:github) {|repo_name| 'https://github.com/' + repo_name }
 
-gem "jekyll"
+gem 'jekyll'
 gem 'rake'     # Enable Rakefile to run tasks
 gem 'truncato' # https://github.com/jorgemanrubia/truncato
 
 # NOTE: Add this gem when being able to compile on M1 Mac.
-# gem "liquid-c" # Speedup with C implementation
+# gem 'liquid-c' # Speedup with C implementation
 
 group :jekyll_plugins do
   gem 'jekyll-feed'
@@ -30,9 +30,9 @@ end
 # Windows and JRuby does not include zoneinfo files,
 # so bundle the tzinfo-data gem and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "~> 1.2"
-  gem "tzinfo-data"
+  gem 'tzinfo', '~> 1.2'
+  gem 'tzinfo-data'
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+gem 'wdm', '~> 0.1.1', :install_if => Gem.win_platform?
