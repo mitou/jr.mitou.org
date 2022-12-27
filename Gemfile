@@ -6,7 +6,6 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "jekyll"
 gem "minima"   # default theme for new Jekyll sites
 gem 'rake'     # Enable Rakefile to run tasks
-gem "webrick", "~> 1.7"
 gem 'truncato' # https://github.com/jorgemanrubia/truncato
 
 # NOTE: Add this gem when being able to compile on M1 Mac.
