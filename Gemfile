@@ -7,9 +7,6 @@ gem 'jekyll'
 gem 'rake'     # Enable Rakefile to run tasks
 gem 'truncato' # https://github.com/jorgemanrubia/truncato
 
-# NOTE: Add this gem when being able to compile on M1 Mac.
-# gem 'liquid-c' # Speedup with C implementation
-
 group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-include-cache'
@@ -17,7 +14,8 @@ group :jekyll_plugins do
   gem 'jekyll-minifier'
   gem 'jekyll-liquify'
 
-  # No need this gem because we build by GitHub Actions and serve on Pages.
+  # No need this gem because we build by GitHub Actions and
+  # serve the built results (static files) on GitHub Pages.
   # gem 'github-pages'
 end
 
