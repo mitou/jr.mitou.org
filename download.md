@@ -66,7 +66,12 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
   </li>
 </ul>
 
-## 採択者の体験談 {#voices}
+上記の他にも、メンターから応募者に向けたメッセージがあります。詳しくは下記ページをご確認ください。
+
+<a href="/mentors" id="voices" class="button" style='padding-left: 8px; padding-right: 8px;'>応募者向けメッセージを見る</a>
+
+
+## 採択者の体験談
 未踏ジュニア採択者（クリエータ）による体験談もあります。こちらも合わせてご参考になれば幸いです。カッコ内はプロジェクト名です。
 
 <ul>
@@ -78,7 +83,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
   <li><a href='https://note.com/inoue2002/n/nfb57cd6825a4'>未踏ジュニア振り返りと、技術力に差があるチーム開発の僕なりの攻略方法 <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2020/critica'>critica - 手軽で直感的なリアクション回収ツール</a>）</small></li>
 </ul>
 
-上記の他にも、クリエータをインタビューした記事などがあります。詳しくはメディア掲載のページをご確認ください。
+上記の他にも、クリエータをインタビューした記事などがあります。詳しくは下記ページをご確認ください。
 
 <a href="/media" class="button">メディア掲載を見る</a>
 
