@@ -81,6 +81,7 @@
   twitter: teramotodaiki
   github: teramotodaiki
   youtube: xLfofvH9lkY
+  article: true
   img: teramoto.webp
 
 - id: seki_yoshifumi
@@ -93,6 +94,7 @@
   facebook: yoshifumi.seki
   twitter: YoshifumiSeki
   youtube: xtutSXIB5ms
+  article: true
   img: seki.webp
 
 - id: nishio_hirokazu
@@ -105,6 +107,7 @@
   facebook: nishiohirokazu
   twitter: nishio
   youtube: PQ_FXIBFHrI
+  article: true
   github: nishio
   img: nishio.webp
 
@@ -116,7 +119,8 @@
   interested: 「コンピューターって面白い！」もしくは「コンピューターを使って何かを作りたい！」と思う人が増えるようなプロジェクト
   bio: 2013 年度未踏スーパークリエータ。ゲームやメディアアートを簡単に作れる C++ フレームワーク <a href="https://siv3d.github.io/ja-jp/" target="_blank">Siv3D</a>, 子ども向けのプログラミング体験ツール <a href="https://siv3d-for-kids.github.io/" target="_blank">Siv3D for Kids</a> の開発者。早稲田大学メディアデザイン研究室在籍、早稲田情報科学ジュニア・アカデミーをはじめ各所でプログラミング講師。著書に「冒険で学ぶ はじめてのプログラミング」。
   twitter: Reputeless
-  github: Reputeless
+  github:  Reputeless
+  article: true
   web: https://ryo-suzuki-contact.github.io/
   img: suzuki.webp
 
@@ -132,6 +136,7 @@
   github: yasulab
   img: yasulab.webp
   youtube: qXQsdtw7BI4
+  article: true
 
 - id: ukai_yuu
   name:
@@ -143,6 +148,7 @@
   facebook: ukai.yu
   twitter: ukkaripon
   youtube: GgJmBKaUzGs
+  article: true
   img: ukai.webp
 
 
