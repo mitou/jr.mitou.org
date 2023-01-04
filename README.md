@@ -145,6 +145,8 @@ $ bundle exec rake test
 - [Font Awesome](https://fontawesome.com/license/) - :copyright: Fonticons, Inc.
 - [Twemoji](https://twemoji.twitter.com/) - :copyright: Twitter, Inc and other contributors.
 
+[各プロジェクト](https://jr.mitou.org/projects/)のカバー画像やデモ動画、およびそのソースコードなどは当該プロジェクトのクリエータの著作物となります。
+
 <br>
 
 ## :copyright: クレジット
