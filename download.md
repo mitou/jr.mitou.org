@@ -68,7 +68,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 
 上記の他にも、メンターから応募者に向けたメッセージがあります。詳しくは下記ページをご確認ください。
 
-<a href="/mentors" id="story" class="button" style='padding-left: 8px; padding-right: 8px;'>応募者向けメッセージを見る</a>
+<a href="/mentors" id="story" class="button" style='padding-left: 7px; padding-right: 7px;'>応募者向けメッセージを見る</a>
 
 
 ## 採択者の体験談
