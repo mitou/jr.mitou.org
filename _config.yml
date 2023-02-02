@@ -16,7 +16,7 @@ plugins:
   - jekyll-liquify # This enable to use variables in frontmatter
 
 feed:
-  posts_limit: 100
+  posts_limit: 1000
 
 exclude:
   - tasks/
