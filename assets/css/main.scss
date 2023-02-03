@@ -26,6 +26,7 @@ a{
     text-decoration: underline;
   }
 }
+:target { scroll-margin-top: 100px; }
 
 li {
   margin: 0.4em auto;
@@ -378,9 +379,9 @@ footer{
   }
 
   // scroll-margin-top equals to header height
-  scroll-margin-top: 80px;
+  scroll-margin-top: 100px;
   @media screen and (max-width: $header-phone) {
-    scroll-margin-top: 60px;
+    scroll-margin-top: 80px;
   }
   scroll-snap-align: center;
 }
