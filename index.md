@@ -10,11 +10,9 @@ this_year: 2022
   <!--<img src="/assets/img/2019_all.min.webp" data-src="/assets/img/2019_all.webp" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">-->
 
   <!--【募集時期のアナウンス】-->
-  <!--
   <a href="/guideline" class="dialog ignore-sp">
-    🆕 2022年度の応募を開始しました。(4/9 23:59〆切）
+    🆕 2023年度の応募を開始しました。（〆 4/8 23:59）
   </a>
-  -->
 
   <!--【成果報告前のアナウンス】-->
   <!--
@@ -24,9 +22,11 @@ this_year: 2022
   -->
 
   <!--【成果報告後のアナウンス】-->
+  <!--
   <a href="/final" class="dialog ignore-sp">
     🆕 成果報告会の動画が公開されました！
   </a>
+  -->
 </div>
 
 <section id="about">
@@ -58,9 +58,8 @@ this_year: 2022
   </div>
 </section>
 
-
+{% include lets-apply.html %}
 {% comment %}
-{% include lets-apply.html %}-->
 {% endcomment %}
 
 <!--
