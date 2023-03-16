@@ -1,14 +1,14 @@
 ---
 layout: post
 title: AI メンター - 提案書の文章を良くします
-description: 未踏ジュニアの応募予定者に向けて、提案書の文章を改善するためのシステムです。特に提案書を初めて書く人にオススメです。
+description: 未踏ジュニアの応募予定者に向けて、提案書の文章を良くするためのシステムです。特に提案書を初めて書く人にオススメです。
 ---
 
 <style>
 .iframe-form{
-  margin: auto;
+  margin:  auto;
   display: block;
-  height: 660px;
+  height:  660px;
 }
  
 @media screen and (max-width: 600px){
@@ -21,9 +21,9 @@ description: 未踏ジュニアの応募予定者に向けて、提案書の文�
 </style>
 
 <p style="text-align:center; padding: 50px 0px 40px;">
-  未踏ジュニアの応募予定者に向けて、提案書の文章を改善するためのシステムです。特に提案書を初めて書く人にオススメです。<br>
+  <a href='/download'>提案書</a>の文章を良くするためのシステムです。<br>特に提案書を初めて書く人にオススメです。<br>
   <br>
-  <small><a href='https://chat.openai.com/chat' target='_blank' rel='noopener'>ChatGPT</a> を内部で使っています。アカウントを作ると誰でも無料で試せるので、興味が出たら本家の AI に触ってみてください！</small><br>
+  <small><a href='https://chat.openai.com/chat' target='_blank' rel='noopener'>ChatGPT</a> を内部で使っています。アカウントを作ると誰でも無料で試せるのでぜひ！</small><br>
 </p>
 
-<iframe src="https://ai-mentor.onrender.com" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://ai-mentor.onrender.com" width="100%" height="1000" frameborder="0" allowfullscreen></iframe>
