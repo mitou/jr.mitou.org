@@ -21,7 +21,7 @@ description: ChatGPT で提案書の文章を良くするシステムです。�
 </style>
 
 <p style="text-align:center; padding: 50px 0px 40px;">
-  <a href='/download'>提案書</a>の文章作成を AI が支援します。<br>文章を良くしたい場面でにオススメです。<br>
+  <a href='/download'>提案書</a>の文章作成を AI が支援します。<br>文章を良くしたい場面にオススメです。<br>
   <br>
   <small><a href='https://twitter.com/hashtag/ChatGPT' target='_blank' rel='noopener'>#ChatGPT</a> を内部で使っています。<a href='https://chat.openai.com/chat' target='_blank' rel='noopener'>OpenAI アカウントを作る</a>と文章作成も依頼できて便利です。</small><br>
 </p>
