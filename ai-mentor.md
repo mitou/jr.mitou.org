@@ -10,7 +10,7 @@ description: ChatGPT で提案書の文章を良くするシステムです。�
   display: block;
   height:  660px;
 }
- 
+
 @media screen and (max-width: 600px){
   .iframe-form{
     height: 830px;
