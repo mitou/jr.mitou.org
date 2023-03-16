@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI メンター ー 提案書の文章作成サポート
+title: AI メンター（提案書の文章作成サポート）
 description: ChatGPT で提案書の文章を良くするシステムです。提案書を初めて書く人に特にオススメです。
 ---
 
@@ -21,9 +21,9 @@ description: ChatGPT で提案書の文章を良くするシステムです。�
 </style>
 
 <p style="text-align:center; padding: 50px 0px 40px;">
-  <a href='/download'>提案書</a>の文章を良くするためのシステムです。<br>特に提案書を初めて書く人にオススメです。<br>
+  <a href='/download'>提案書</a>の文章作成を AI が支援します。<br>文章を良くしたい場面でにオススメです。<br>
   <br>
-  <small><a href='https://chat.openai.com/chat' target='_blank' rel='noopener'>ChatGPT</a> を内部で使っています。アカウントを作ると誰でも無料で試せるのでぜひ！</small><br>
+  <small><a href='https://twitter.com/hashtag/ChatGPT' target='_blank' rel='noopener'>#ChatGPT</a> を内部で使っています。<a href='https://chat.openai.com/chat' target='_blank' rel='noopener'>OpenAI アカウントを作る</a>と文章作成も依頼できて便利です。</small><br>
 </p>
 
 <iframe src="https://ai-mentor.onrender.com" width="100%" height="1000" frameborder="0" allowfullscreen></iframe>
