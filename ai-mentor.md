@@ -5,20 +5,68 @@ description: ChatGPT で提案書の文章を良くするシステムです。�
 ---
 
 <style>
-.iframe-form{
-  margin:  auto;
-  display: block;
-  height:  660px;
-}
-
-@media screen and (max-width: 600px){
-  .iframe-form{
-    height: 830px;
-    width:  120%;
-    margin-left: -30px;
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
   }
-}
+  textarea, #resultDiv {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+  }
+  button {
+    margin: 0.5em 1em 0.5em 0; /* 1emの余白を追加 */
+  }
+  /* スマホの画面サイズのときに適用するスタイル */
+  @media screen and (max-width: 768px) {
+    button {
+      font-size: 1.1em;     /* フォントサイズを大きくする */
+      padding: 0.5em 0.9em; /* パディングを追加してボタンを大きく見せる */
+      display: block;       /* ボタンをブロック要素に変更 */
+    }
+    #inputText {
+      height: 300px; /* 入力画面の高さを1.5倍にする */
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
+  .loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  @keyframes spin {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  textarea, #result {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-top: 1em;
+    //background-color: #f0f8ff;
+    min-height: 100px;
+  }
+  #result {
+    height: 100%;
+    overflow-y: scroll;
+    margin-top: 10px;
+    position: relative;
+  }
+  #result-placeholder {
+    color: #777;
+  }
 </style>
+<script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
 
 <p style="text-align:center; padding: 50px 0px 40px;">
   <a href='/download'>提案書</a>の文章作成を AI が支援します。<br>文章を良くしたい場面にオススメです。<br>
@@ -26,4 +74,94 @@ description: ChatGPT で提案書の文章を良くするシステムです。�
   <small><a href='https://twitter.com/hashtag/ChatGPT' target='_blank' rel='noopener'>#ChatGPT</a> を内部で使っています。<a href='https://chat.openai.com/chat' target='_blank' rel='noopener'>OpenAI アカウントを作る</a>と幅広い依頼が可能になります。</small><br>
 </p>
 
-<iframe src="https://ai-mentor.onrender.com" width="100%" height="1000" frameborder="0" allowfullscreen></iframe>
+<div id="container">
+  <textarea id="inputText" rows="8" cols="80" maxlength="500" placeholder="提案書の文章を入力してください（上限：500文字）"></textarea><br>
+  <button id="submitButton">AI に文章を見てもらう</button>
+  <button id="sampleButton">サンプル文章を入力する</button>
+  <span id="inputLength">0</span> / 500
+  <div id="result"><span id='result-placeholder'>ココに AI の回答が表示されます</span></div>
+  <div class="loader" style="display: none;"></div>
+  <p style="display: none;">AI が回答を考えています...</p>
+</div>
+
+<script>
+ const sampleTexts = [
+   "自宅で手軽に筋トレができるVRソフトです。VRゴーグルを装着し、椅子などを補助に利用し、自分の体重(自重)でトレーニングができます。激しく動く有酸素運動とは逆で、この3部作は美しい映像と音楽に包まれてリラックスしながらゆっくり動くワークアウトなので幅広い年代の方の運動能力、基礎体力の向上、健康維持に役立ちます。省スペースでもあります。",
+   "逆方向に動く2つのキューブを同時にゴールに持っていく、シンプルなパズルゲームです。ルールの簡単さに対し、実は非常に頭をつかうゲームで、論理力の育成に役立ちます。現行のバージョンをゲームデザインを中心に改良し、老若男女問わず幅広い層に受け入れられるような、リリースが可能なレベルのゲームにする事が目標です。",
+   "編模様は編み物を支援するツールです。編み物の本などは、モノクロで図も小さく自分の考えた絵では編むことはできません。そこで自分の描いたイラストを編もうとすると方眼紙にイラストを描いてそれを数えながら編んでいくので気が遠くなるほどのの手間がかかります。編模様は自分で描いた絵を編み図にカラーで変換し、色が変わるまでの数などを表示し編み間違いを減らし、オリジナルの作品を効率的に作れるようにします。",
+   "DetExploit は WMI (Windows Management Instrumentation)やレジストリなどを参照することによって取得したシステム上のアプリケーションの情報と様々なデータベースから取得した情報を照合することによってセキュリティ的に脆弱なソフトウェアを検知し、ユーザーに通知するソフトウェアです。",
+   "「Visible」はNode.jsで開発されるオープンソースのWebアクセシビリティーテストツールです。WebサイトのURLやソースコードからアクセシビリティー上の問題点を検出するほか、アルゴリズムや機械学習プラットフォームを有効活用して修正を提案します。",
+   "Mer はリコーダーを基にして、色々な機能を搭載したウィンドシンセサイザーです。発音が簡単なので初心者でも完成度の高い演奏を体験できますし、自然な呼吸を応用して演奏するので健康に良いです。更に、サミング奏法とオクターブジャンプ奏法で高速かつ正確な演奏ができます。加えて、MIDI 出力ができるので、ユーザーの好きな音源で演奏できます。また、運指や息の感度を変更したり、アルペジオを割り当てたりできます。"
+ ];
+
+ function setInputText(text) {
+   const inputText = document.getElementById("inputText");
+   inputText.value = text;
+   updateInputLength();
+ }
+
+ function updateInputLength() {
+   const inputText   = document.getElementById("inputText");
+   const inputLength = document.getElementById("inputLength");
+   inputLength.textContent = inputText.value.length;
+ }
+
+ document.getElementById("inputText").addEventListener("input_text", updateInputLength);
+
+ document.getElementById("sampleButton").onclick = function() {
+   const randomIndex = Math.floor(Math.random() * sampleTexts.length);
+   setInputText(sampleTexts[randomIndex]);
+ };
+
+ function showThinkingAnimation() {
+   const resultDiv = document.getElementById("result");
+   resultDiv.innerHTML = '<div class="loader"></div><p>AI が回答を考えています...</p>';
+ }
+
+ function hideThinkingAnimation() {
+   const resultDiv = document.getElementById("result");
+   //resultDiv.innerHTML = 'ココに AI の回答が表示されます';
+ }
+
+ const md = window.markdownit();
+ let dotAnimation;
+
+ document.getElementById("submitButton").onclick = async function() {
+   const inputText = document.getElementById("inputText").value;
+   if (inputText.length === 0 || inputText.length > 500) {
+     return;
+   }
+   this.disabled = true;
+   showThinkingAnimation();
+
+   // APIリクエストを行う処理をここに追加してください。
+   // Send request and display ChatGPT response
+   const response = await fetch('https://ai-mentor.onrender.com/gpt', {
+     method: 'POST',
+     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+     body: new URLSearchParams({ input_text: inputText })
+   });
+   const data = await response.json();
+
+   // APIリクエストが完了したら、次のように回答を表示します。
+   const resultDiv = document.getElementById("result");
+   resultDiv.innerHTML = md.render(data.response); // Convert Markdown to HTML and display
+
+   this.disabled = false;
+   hideThinkingAnimation();
+ };
+
+ const inputText = document.getElementById('inputText');
+ const charCount = document.getElementById('inputLength');
+
+ // 入力画面の内容が変更されるたびに文字数を更新する関数
+ function updateCharCount() {
+   charCount.innerText = inputText.value.length;
+ }
+
+ // 入力画面の内容が変更されたときに updateCharCount 関数を実行
+ inputText.addEventListener('input', updateCharCount);
+
+ // 初期の文字数を設定
+ updateCharCount();
+</script>
