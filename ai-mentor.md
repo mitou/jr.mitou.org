@@ -6,12 +6,12 @@ description: ChatGPT で提案書の文章を良くするシステムです。�
 
 <style>
   body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin:  0;
     padding: 0;
   }
   textarea, #resultDiv {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 16px;
   }
   button {
@@ -29,9 +29,6 @@ description: ChatGPT で提案書の文章を良くするシステムです。�
     }
   }
 
-  .hidden {
-    display: none;
-  }
   .loader {
     border: 5px solid #f3f3f3;
     border-top: 5px solid #3498db;
