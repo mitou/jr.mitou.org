@@ -74,6 +74,7 @@
   <meta name="msapplication-TileColor" content="#509E48">
   <meta name="theme-color"             content="#509E48">
 
+  {% if site.env.JEKYLL_ENV == 'production' %}
   <!-- Google Analytics -->
   <script>
    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -93,6 +94,7 @@
     gtag('js', new Date());
     gtag('config', 'G-GWHM8P0RTE');
   </script>
+  {% endif %}
 
   <!-- Helpfeel -->
   {% if page.url contains '/guideline' or
