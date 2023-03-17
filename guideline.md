@@ -26,7 +26,6 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 ### 2. 提案書を作成する {#proposal}
 開発するプロジェクトと、自身の開発経験などを提案書に記入します。文章作成を支援する [AI メンター](/ai-mentor)もお使いいただけます。
 <a href="/download" class="button">提案書を準備する</a>
-<a href="/ai-mentor" class="button">提案書を AI に見てもらう</a>
 {% include arrow.html %}
 
 ### 3. 応募フォームから提案書をアップロードする（2023年4月8日 23:59まで） {#apply}
