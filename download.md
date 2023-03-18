@@ -53,22 +53,28 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
     <small>（<a href='/mentors#suzuki_ryou'>鈴木</a>）</small>
   </li>
   <li>
+    <a href='https://note.com/teramotodaiki/n/n148d35899016'>提案書のよくある「もったいない」点の紹介
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a>
+    <small>（<a href='/mentors#teramoto_daiki'>寺本</a>）</small>
+  </li>
+  <li>
     <a href='https://scrapbox.io/nishio/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8F%90%E6%A1%88%E6%9B%B8%E3%81%A3%E3%81%A6%E3%81%A9%E3%81%86%E6%9B%B8%E3%81%8F%E3%81%AE%EF%BC%9F'>プロジェクト提案書ってどう書くの？
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
     <small>（<a href='/mentors#nishio_hirokazu'>西尾</a>）</small>
   </li>
   <li>
-    <a href='https://scrapbox.io/nishio/ChatGPT%E3%81%AB%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%81%AB%E6%8E%A1%E6%8A%9E%E3%81%95%E3%82%8C%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E3%81%AF%E4%BD%95%E3%82%92%E3%81%97%E3%81%9F%E3%82%89%E3%81%84%E3%81%84%E3%81%8B%E8%81%9E%E3%81%84%E3%81%9F'>ChatGPTに未踏ジュニアに採択されるためには何をしたらいいか聞いた
+    <a href='https://scrapbox.io/nishio/ChatGPT%E3%81%AB%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%81%AB%E6%8E%A1%E6%8A%9E%E3%81%95%E3%82%8C%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E3%81%AF%E4%BD%95%E3%82%92%E3%81%97%E3%81%9F%E3%82%89%E3%81%84%E3%81%84%E3%81%8B%E8%81%9E%E3%81%84%E3%81%9F'>ChatGPT に未踏ジュニアに採択されるためには何をしたらいいか聞いた
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
     <small>（<a href='/mentors#nishio_hirokazu'>西尾</a>）</small>
   </li>
   <li>
-    <a href='https://note.com/teramotodaiki/n/n148d35899016'>提案書のよくある「もったいない」点の紹介
+    <a href='https://twitter.com/yasulab/status/1636579774394138624'>ChatGPT による文章チェック支援ツール (Linter)
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
-    <small>（<a href='/mentors#teramoto_daiki'>寺本</a>）</small>
+    <small>（<a href='/mentors#yasulab'>安川</a>）</small>
   </li>
 </ul>
 
