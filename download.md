@@ -70,12 +70,6 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
     </a>
     <small>（<a href='/mentors#nishio_hirokazu'>西尾</a>）</small>
   </li>
-  <li>
-    <a href='https://twitter.com/yasulab/status/1636938702290292737'>ChatGPT による文章チェック支援ツール (Linter)
-      <i class="fa-solid fa-up-right-from-square"></i>
-    </a>
-    <small>（<a href='/mentors#yasulab'>安川</a>）</small>
-  </li>
 </ul>
 
 上記の他にも、メンターから応募者に向けたメッセージがあります。詳しくは下記ページをご確認ください。
