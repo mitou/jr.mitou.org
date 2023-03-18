@@ -24,7 +24,7 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 {% include arrow.html %}
 
 ### 2. 提案書を作成する {#proposal}
-開発するプロジェクトと、自身の開発経験などを提案書に記入します。文章作成を支援する [AI メンター](/ai-mentor)もお使いいただけます。
+開発するプロジェクトと、自身の開発経験などを提案書に記入します。
 <a href="/download" class="button">提案書を準備する</a>
 {% include arrow.html %}
 
