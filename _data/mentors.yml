@@ -1,3 +1,12 @@
+- id: 
+  name: takahiro_anno
+    last: 安野
+    first: 貴博
+  affiliation: 日本SF作家クラブ
+  interested: とにかく何かを作ることが好きな人や、創作や実装の先に世界観がある提案を待っています
+  bio: 東京大学工学部松尾研究室卒。AIテクノスリラー小説「サーキット・スイッチャー」が第9回ハヤカワSFコンテストで優秀賞を受賞しデビュー。第六回星新一賞優秀賞受賞。2015年度未踏スーパークリエイターに認定され、2016年よりチャットボットソリューションの株式会社BEDORE（現PKSHA Communication）の代表取締役を務めたのち、2018年にリーガルテックのMNTSQを共同創業。M-1グランプリ2回戦敗退。
+  img: anno.webp
+  
 - id: rizumu_sakamoto
   name:
     last: 坂元
