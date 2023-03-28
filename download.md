@@ -65,7 +65,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
     <small>（<a href='/mentors#nishio_hirokazu'>西尾</a>）</small>
   </li>
   <li>
-    <a href='https://scrapbox.io/nishio/ChatGPT%E3%81%AB%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%81%AB%E6%8E%A1%E6%8A%9E%E3%81%95%E3%82%8C%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E3%81%AF%E4%BD%95%E3%82%92%E3%81%97%E3%81%9F%E3%82%89%E3%81%84%E3%81%84%E3%81%8B%E8%81%9E%E3%81%84%E3%81%9F'>ChatGPT に未踏ジュニアに採択されるためには何をしたらいいか聞いた
+    <a href='https://twitter.com/nishio/status/1640626474108727299'>中高生のための ChatGPT
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
     <small>（<a href='/mentors#nishio_hirokazu'>西尾</a>）</small>
