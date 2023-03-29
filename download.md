@@ -15,6 +15,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 <a href="https://mitou-my.sharepoint.com/:w:/g/personal/yukai_mitou_org/EXicnZU6RaBKrB3wQx7ICTMBbmlqwoCKJiKdQshjO-_zuw?e=aD89Tv" class="button" target='_blank' rel='noopener'>Word を使う</a>
 <a href="https://docs.google.com/document/d/1hjDYf2DbFBkXLyrAl9HKKc9sS40XbZ_iN2j-HKZXD9g/copy" class="button" target='_blank' rel='noopener'>Google Docs を使う</a>
 
+なお上記と同じ形式に揃っていれば（つまりタイトルや提案者の氏名、および 1. から 8. までの項目が揃っていれば）、[Notion](https://www.notion.so/ja-jp/product) や [Scrapbox](https://scrapbox.io/) など他ツールから PDF に変換して提出していただいても大丈夫です。
 
 ## 提案書サンプル {#sample}
 
