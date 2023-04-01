@@ -41,14 +41,13 @@
 
 - id: koutake_rina
   name:
-    last: 神武
-    first: 里奈
+    last: こうたけ
+    first: りな
   affiliation: 株式会社マンガボックス
   interested: 自分が感じた楽しいを楽しく届けたい人
   bio: 未踏「スーパークリエータ」。多くのハッカソンやコンテストに参加し、30以上の賞を獲得。近年ではSPAJAM 2020最優秀賞、Yahoo! Digital Hack Day最優秀賞を獲得し、ハッカソンの審査員も務める。株式会社ディー・エヌ・エーに入社後、現在は株式会社マンガボックスにてエンジニアとして勤務。将来の夢は「ポケモンマスター」。
   facebook: koooootake
   twitter: koooootake
-  #youtube: 2iu1Bw_EhSA
   web: https://koooootake.com/
   img: kohtake.webp
 
