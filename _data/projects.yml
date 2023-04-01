@@ -193,7 +193,7 @@
   thumbnail: sdgs.webp
   promotion: z_dMy_3UZM8
   final: FSzbb8Kvkyw
-  link: https://www.marksdgs.net/
+  #link: https://www.marksdgs.net/
   year: 2021
   mentor_id: koutake_rina
   creator_ids:
@@ -364,7 +364,7 @@
   thumbnail: guinfra.webp
   #promotion:
   final: ArN9NrsmRs4
-  link: https://guinfra.app/
+  #link: https://guinfra.app/
   year: 2020
   mentor_id: bitou_masato
   creator_ids:
@@ -518,7 +518,7 @@
     - yamaguchi_yuya
 
 - id: rocat
-  link: https://rocat.jp/
+  #link: https://rocat.jp/
   title: Rocat ～モデルロケットを使ったSTEM教育～
   description: Rocatは様々なセンサを搭載したプログラミング可能なモデルロケットSTEM教材です。ロケットを組み立てて飛ばして得たデータを考察し合い、楽しく科学や技術への理解を深めていける教材の開発を行っています。
   thumbnail: rocat.webp
@@ -544,7 +544,7 @@
   thumbnail: amoyo.webp
   #promotion:
   final: irYt3B7l8yg
-  link: https://amo-yotakenoko.github.io/portfolio/amo-yo.html
+  link: https://play.google.com/store/apps/details?id=com.amoyoEX
   year: 2019
 
 - id: det_exploit
@@ -824,7 +824,7 @@
   thumbnail: toubans.webp
   #promotion:
   final: c1R1h4ihcgw
-  link: https://www.toubans.com/
+  #link: https://www.toubans.com/
   year: 2018
 
 - id: camera_translation
@@ -919,7 +919,7 @@
   thumbnail: savacs.webp
   #promotion:
   final: lOrb8nH85qo
-  link: https://blog.yr32.net/post/savacs/
+  link: https://github.com/yanorei32/savacs
   year: 2017
 
 - id: fall_in_friends
@@ -945,7 +945,7 @@
   thumbnail: draw_code.webp
   #promotion:
   final: t0Ho0S08hJI
-  link: https://drawcode.net/
+  #link: https://drawcode.net/
   year: 2017
 
 - id: listenable_keyboard

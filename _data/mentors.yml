@@ -41,13 +41,14 @@
 
 - id: koutake_rina
   name:
-    last: こうたけ
-    first: りな
+    last: 神武
+    first: 里奈
   affiliation: 株式会社マンガボックス
   interested: 自分が感じた楽しいを楽しく届けたい人
   bio: 未踏「スーパークリエータ」。多くのハッカソンやコンテストに参加し、30以上の賞を獲得。近年ではSPAJAM 2020最優秀賞、Yahoo! Digital Hack Day最優秀賞を獲得し、ハッカソンの審査員も務める。株式会社ディー・エヌ・エーに入社後、現在は株式会社マンガボックスにてエンジニアとして勤務。将来の夢は「ポケモンマスター」。
   facebook: koooootake
   twitter: koooootake
+  meikan: こうたけ_りな
   web: https://koooootake.com/
   img: kohtake.webp
 
@@ -69,10 +70,10 @@
     first: 翔
   affiliation: ''
   interested: 今この瞬間必要ではないかもしれないが、あなたが考える未来で必要とされるようなアプリケーション/ライブラリ
-  bio: 2016年度未踏スーパークリエータ。2018年度未踏アドバンストイノベータ。未踏事業では「Web開発に親和するWeb3Dライブラリ」として採択され、このプロジェクトで開発したOSSのWebGLフレームワーク<a href="https://grimoire.gl/">Grimoire.js</a>の開発者。 未踏アドバンスト事業では「Web技術を活用したARクラウド」で採択された。 8歳からプログラミングを始め、主にリアルタイムCG技術やWeb技術を中心に活動している。チームプロジェクトが好き。
+  bio: 2016年度未踏スーパークリエータ。2018年度未踏アドバンストイノベータ。未踏事業では「Web開発に親和するWeb3Dライブラリ」として採択され、このプロジェクトで開発したOSSのWebGLフレームワーク<a href="https://github.com/GrimoireGL">Grimoire.js</a>の開発者。 未踏アドバンスト事業では「Web技術を活用したARクラウド」で採択された。 8歳からプログラミングを始め、主にリアルタイムCG技術やWeb技術を中心に活動している。チームプロジェクトが好き。
   facebook: kakeru1994
   twitter: kyasbal_1994
-  github: kyasbal-1994
+  github: kyasbal
   img: ishii.webp
   youtube: USZ4uQYNuPg
 

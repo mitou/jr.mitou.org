@@ -98,9 +98,10 @@
   url: https://www.watch.impress.co.jp/kodomo_it/news/1109737.html
   date: 2018/03/05
 
-- title: 独創アイデア、技術力を持つ小中高生クリエータの11プロジェクト─今、未踏ジュニアが生み出すもの (CodeIQ Magazine)
-  url: https://codeiq.jp/magazine/2017/12/56070/
-  date: 2017/12/01
+# 404 link
+#- title: 独創アイデア、技術力を持つ小中高生クリエータの11プロジェクト─今、未踏ジュニアが生み出すもの (CodeIQ Magazine)
+#  url: https://codeiq.jp/magazine/2017/12/56070/
+#  date: 2017/12/01
 
 - title: 出る杭を伸ばせ！　プログラミングで頭角を現す小中高生クリエイターたち (こどもとIT)
   url: https://www.watch.impress.co.jp/kodomo_it/news/1093210.html

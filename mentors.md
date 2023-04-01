@@ -24,7 +24,7 @@ description: クリエータを支援する人達（メンター）の紹介ペ�
           {% if mentor.twitter %}<a href="https://twitter.com/{{ mentor.twitter }}"><i class="fab fa-twitter-square green"></i></a>{%endif%}
           {% if mentor.web %}<a href="{{ mentor.web }}"><i class="fas fa-globe green"></i></a>{% endif %}
           {% if mentor.github %}<a href="https://github.com/{{ mentor.github }}"><i class="fab fa-github-square green"></i></a>{% endif %}
-          <a href="https://scrapbox.io/mitou-meikan/{{ mentor.name.last }}_{{ mentor.name.first }}"><img class="icon-mitou-meikan" src="/assets/img/mitou_meikan.png" alt="未踏名鑑" /></a>
+	  <a href="https://scrapbox.io/mitou-meikan/{% if mentor.meikan %}{{ mentor.meikan }}{% else %}{{ mentor.name.last }}_{{ mentor.name.first }}{% endif %}"><img class="icon-mitou-meikan" src="/assets/img/mitou_meikan.png" alt="未踏名鑑" /></a>
         </div>
       </div>
 
