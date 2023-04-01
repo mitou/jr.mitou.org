@@ -14,7 +14,7 @@ task test: [:build] do
   options = {
     checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon'],
     allow_hash_href:  false,
-    disable_external: true,
+    disable_external: ENV['TEST_EXTERNAL_LINKS'] != 'true',
     enforce_https:    true,
 
     # NOTE: Ignore file, URL, and response as follows
@@ -34,7 +34,7 @@ end
 
 # Enable 'build' to flush cache files via 'clean'
 task build: [:clean] do
-  system 'bundle exec jekyll build' unless ENV['SKIP_BUILD'] == 'true'
+  system 'JEKYLL_ENV=test bundle exec jekyll build' unless ENV['SKIP_BUILD'] == 'true'
 end
 
 task :clean do
