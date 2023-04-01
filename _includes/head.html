@@ -35,7 +35,11 @@
 
   <link rel="stylesheet" href="/assets/css/main.css" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  {% unless site.env.JEKYLL_ENV == 'test' %}
   <script src="https://kit.fontawesome.com/82f32b9df5.js" crossorigin="anonymous"></script>
+  {% endunless %}
+
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700&display=swap" rel="stylesheet">
 
