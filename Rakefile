@@ -14,7 +14,7 @@ task test: [:build] do
   options = {
     checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon'],
     allow_hash_href:  false,
-    disable_external: true,
+    disable_external: ENV['TEST_EXTERNAL_LINKS'] != 'true',
     enforce_https:    true,
 
     # NOTE: Ignore file, URL, and response as follows
