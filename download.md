@@ -21,10 +21,10 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 
 過去の採択者による提案書を一部公開しています。今年の提案書とはフォーマットが少し異なりますが、採択された提案書の一例としてご参考になれば幸いです。
 
-<a href="https://jr.mitou.org/assets/other/2020_application_samples.zip" id='tips' class="button">過去の提案書を見る</a>
+<a href="https://jr.mitou.org/assets/other/2020_application_samples.zip" class="button">過去の提案書を見る</a>
 
 
-## 提案書のコツ
+## 提案書のコツ {#tips}
 
 未踏ジュニアのメンターが応募者に向けて書いた記事です。提案書を良くするヒントになれば嬉しいです。カッコ内はメンター名です。
 
@@ -84,7 +84,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 <a href="/mentors" id="story" class="button" style='padding-left: 7px; padding-right: 7px;'>応募者向けメッセージを見る</a>
 
 
-## 採択者の体験談
+## 採択者の体験談 {#voice}
 未踏ジュニア採択者（クリエータ）による体験談もあります。こちらも合わせてご参考になれば幸いです。カッコ内はプロジェクト名です。
 
 <ul>
