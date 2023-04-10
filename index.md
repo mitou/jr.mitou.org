@@ -9,9 +9,14 @@ this_year: 2022
   <img src="/assets/img/2022_cover.min.webp" data-src="/assets/img/2022_cover.webp" alt="2022年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
   <!--<img src="/assets/img/2019_all.min.webp" data-src="/assets/img/2019_all.webp" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">-->
 
-  <!--【募集時期のアナウンス】-->
+  <!--【募集中のアナウンス】-->
   <a href="/guideline" class="dialog ignore-sp">
     🆕 2023年度の募集要項を見る (〆 4月8日 23:59)
+  </a>
+
+  <!--【〆切後のアナウンス】-->
+  <a href="/guideline" class="dialog ignore-sp">
+    たくさんのご応募ありがとうございました!!
   </a>
 
   <!--【成果報告前のアナウンス】-->
@@ -58,8 +63,9 @@ this_year: 2022
   </div>
 </section>
 
-{% include lets-apply.html %}
 {% comment %}
+<!-- 募集開始〜〆切になったら以下のコードを comment の直前（）に移動し、〆切後はココに戻してください -->
+{% include lets-apply.html %}
 {% endcomment %}
 
 <!--
