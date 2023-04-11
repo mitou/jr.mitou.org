@@ -113,7 +113,7 @@
   type: collaborator
 
 - name: U-22 プログラミングコンテスト
-  img:  bn-u22-2021.webp
+  img:  pg-contest.webp
   url:  https://u22procon.com/
   type: collaborator
 
@@ -123,8 +123,8 @@
   type: collaborator
 
 - name: パソコン甲子園
-  img:  PCK2021_banner.webp
-  url:  https://u-aizu.ac.jp/pc-concours/index.html
+  img:  pc-koshien.webp
+  url:  https://pckoshien.u-aizu.ac.jp/
   type: collaborator
 
 - name: 中高生国際Rubyプログラミングコンテスト
