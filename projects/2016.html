@@ -56,12 +56,26 @@
    history.replaceState(null, '', url.toString());
  }
 
+ function handleClick() {
+   const randomCategory = categories[Math.floor(Math.random() * categories.length)];
+   setInputValue('search-input', randomCategory);
+ }
+
  window.addEventListener('load', () => {
-   const searchInput = document.getElementById('search-input');
+   const searchInput  = document.getElementById('search-input');
+   const categoryLink = document.getElementById('category-link');
+
    if (searchInput) {
      searchInput.addEventListener('input', (event) => {
        const inputValue = event.target.value;
        updateURL('q', inputValue);
+     });
+   }
+
+   if (categoryLink) {
+     categoryLink.addEventListener('click', (event) => {
+       event.preventDefault();
+       handleClick();
      });
    }
 
