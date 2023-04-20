@@ -14,10 +14,10 @@
 
 <script src="/assets/js/simple-jekyll-search.js"></script>
 <script type="text/javascript">
- var categories = ['自作', 'LINE', '言語', 'ゲーム', '学習', 'VR', 'Web', 'アプリ', 'SNS', 'デザイン',
+ const categories = ['自作', 'LINE', '言語', 'ゲーム', '学習', 'VR', 'Web', 'アプリ', 'SNS', 'デザイン',
 		   '音', 'ツール', 'OS', '3D', '自動', '教育', 'IoT', '生体', '脆弱性', 'ブロック',
                    '暗号', '学校', '美容', '動画', '環境', '電磁', 'デバイス', '単語', '危険'];
- var placeholder_text = 'キーワードで検索する (例: ';
+ let placeholder_text = 'キーワードで検索する (例: ';
 
  // Durstenfeld Shuffle Algorithm
  // https://ja.wikipedia.org/wiki/フィッシャー–イェーツのシャッフル
@@ -28,7 +28,7 @@
  placeholder_text += categories[0] + ", " + categories[1] + ", " + categories[2] + ")";
  document.getElementById("search-input").placeholder = placeholder_text;
 
- var sjs = SimpleJekyllSearch({
+ const sjs = SimpleJekyllSearch({
    searchInput:          document.getElementById('search-input'),
    resultsContainer:     document.getElementById('search-results'),
    json:                 '/search.json',
