@@ -60,6 +60,7 @@
  function handleClick() {
    const randomCategory = categories[Math.floor(Math.random() * categories.length)];
    setInputValue('search-input', randomCategory);
+   updateURL('q', randomCategory);
  }
 
  window.addEventListener('load', () => {
