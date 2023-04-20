@@ -10,7 +10,8 @@ thumbnail: /assets/img/thumbnails/projects.webp
   <p>
     <a href='/stats#total'>100件</a>以上の未踏ジュニア<a href='/projects'>採択プロジェクト</a>を検索して探すためのページです。
   </p>
-  
+
+  <a href="#" class="button" id="category-link">サンプル文で検索してみる</a>
 
   {% include project-search.html %}
 </div>
