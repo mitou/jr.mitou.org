@@ -10,8 +10,7 @@ thumbnail: /assets/img/thumbnails/projects.webp
   <p>
     これまでの採択プロジェクトです。☆はスーパークリエータに認定されました。
   </p>
-
-  {% include project-search.html %}
+  <a href="/search" class="button">検索して探す</a>
 
   {% for this_year in (2016..2022) reversed %}
     <a href="/projects/{{ this_year }}"><h3>{{ this_year }}年度</h3></a>
