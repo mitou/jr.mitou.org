@@ -15,8 +15,8 @@
 <script src="/assets/js/simple-jekyll-search.js"></script>
 <script type="text/javascript">
  const categories = ['自作', 'LINE', '言語', 'ゲーム', '学習', 'VR', 'Web', 'アプリ', 'SNS', 'デザイン',
-		   '音', 'ツール', 'OS', '3D', '自動', '教育', 'IoT', '生体', '脆弱性', 'ブロック',
-                   '暗号', '学校', '美容', '動画', '環境', '電磁', 'デバイス', '単語', '危険'];
+		     '音', 'ツール', 'OS', '3D', '自動', '教育', 'IoT', '生体', '脆弱性', 'ブロック',
+                     '暗号', '学校', '美容', '動画', '環境', '電磁', 'デバイス', '単語', '危険'];
  let placeholder_text = 'キーワードで検索する (例: ';
 
  // Durstenfeld Shuffle Algorithm
@@ -39,7 +39,7 @@
  });
 
  function getQueryParam(name) {
-   const urlSearchParams = new URLSearchParams(window.location.search);
+   const  urlSearchParams = new URLSearchParams(window.location.search);
    return urlSearchParams.get(name);
  }
 
@@ -57,19 +57,20 @@
    history.replaceState(null, '', url.toString());
  }
 
- const searchInput = document.getElementById('search-input');
- if (searchInput) {
-   searchInput.addEventListener('input', (event) => {
-     const inputValue = event.target.value;
-     updateURL('q', inputValue);
-   });
- }
+ window.addEventListener('load', () => {
+   const searchInput = document.getElementById('search-input');
+   if (searchInput) {
+     searchInput.addEventListener('input', (event) => {
+       const inputValue = event.target.value;
+       updateURL('q', inputValue);
+     });
+   }
 
- const queryParamValue = getQueryParam('q');
- if (queryParamValue) {
-   // Need to wait a few seconds to get search results correctly.
-   setTimeout( () => { setInputValue('search-input', queryParamValue); }, 300);
- }
+   const queryParamValue = getQueryParam('q');
+   if (queryParamValue) {
+     setInputValue('search-input', queryParamValue);
+   }
+ });
 
 </script>
 <!-- Project Search -->
