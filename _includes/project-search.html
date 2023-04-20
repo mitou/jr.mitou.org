@@ -51,6 +51,20 @@
    }
  }
 
+ function updateURL(paramName, paramValue) {
+   const url = new URL(window.location.href);
+   url.searchParams.set(paramName, paramValue);
+   history.replaceState(null, '', url.toString());
+ }
+
+ const searchInput = document.getElementById('search-input');
+ if (searchInput) {
+   searchInput.addEventListener('input', (event) => {
+     const inputValue = event.target.value;
+     updateURL('q', inputValue);
+   });
+ }
+
  const queryParamValue = getQueryParam('q');
  if (queryParamValue) {
    // Need to wait a few seconds to get search results correctly.
