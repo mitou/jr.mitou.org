@@ -9,10 +9,15 @@
   url:  https://www.kindai.ac.jp/informatics/
   type: platinum
 
-- name: 株式会社リクルート
-  img:  recruit.webp
-  url:  https://www.recruit.co.jp/
+- name: ハヤブサ財団
+  img:  hayabusa.png
+  url:  https://hayabusa.foundation/
   type: gold
+
+#- name: 株式会社リクルート
+#  img:  recruit.webp
+#  url:  https://www.recruit.co.jp/
+#  type: gold
 
 #- name: KDDI株式会社
 #  img:  kddi.webp
@@ -24,10 +29,10 @@
   url:  https://dwango.co.jp/
   type: silver
 
-- name: 合同会社DMM.com
-  img:  DMM.com_logo_RGB.webp
-  url:  https://dmm-corp.com/
-  type: silver
+#- name: 合同会社DMM.com
+#  img:  DMM.com_logo_RGB.webp
+#  url:  https://dmm-corp.com/
+#  type: silver
 
 - name: 株式会社プロコミット
   img:  pro-commit.webp
