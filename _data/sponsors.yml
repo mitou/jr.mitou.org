@@ -29,10 +29,10 @@
   url:  https://dwango.co.jp/
   type: silver
 
-#- name: 合同会社DMM.com
-#  img:  DMM.com_logo_RGB.webp
-#  url:  https://dmm-corp.com/
-#  type: silver
+- name: 合同会社DMM.com
+ img:  DMM.com_logo_RGB.webp
+ url:  https://dmm-corp.com/
+ type: silver
 
 - name: 株式会社プロコミット
   img:  pro-commit.webp
