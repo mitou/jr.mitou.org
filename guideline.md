@@ -64,7 +64,7 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 ### 8. ブースト合宿 {#boost-your-project}
 **採択、おめでとうございます！**
 
-採択者全員が参加する未踏ジュニアブースト合宿が **2023年6月11日〜12日** に開催されます。（開催方式は追ってご連絡させていただきます。）
+採択者全員が参加する未踏ジュニアブースト合宿が **2023年6月17日〜18日** に開催されます。（開催方式は追ってご連絡させていただきます。）
 
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/boost.svg" alt="ブースト合宿" width="50%" class="post-photo lazyload">
 
