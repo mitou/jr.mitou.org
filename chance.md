@@ -21,3 +21,8 @@ description: 未踏ジュニア以外にも、あなたの「提案書」を評�
 <strong>北海道在住</strong>の25歳未満のITに関係した開発者（プログラマー）、デザイナ、アーティストの発掘と育成を行う事業です。「なにかをつくりたい」という気持ちを抑えられないITクリエータからの提案や、ITを活用した将来の北海道を明るくする提案を歓迎しています。
 
 詳細を見る → [https://shinsetsu.hokkaido.jp/koubo/2023](https://shinsetsu.hokkaido.jp/koubo/2023)
+
+## サイボウズ・ラボユース {#cybozu}
+[世界に通用する若手エンジニアの発掘と育成](https://labs.cybozu.co.jp/youth/youth-leaflet-2023spring.pdf)をする学生支援制度です。ソフトウェア研究開発への熱意を支援し、開発成果はオープンソースライセンスに基づき広く世の中に公開されることが期待されています。開発成果物の権利も企業ではなく、個人本人に帰属します。
+
+詳細を見る → [https://labs.cybozu.co.jp/youth/requirements.html](https://labs.cybozu.co.jp/youth/requirements.html)
