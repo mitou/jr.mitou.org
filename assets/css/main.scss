@@ -189,15 +189,15 @@ header{
 }
 
 .ignore-pc{
-  display: none;
+  display: inline;
   @media screen and (min-width: $phone-width) {
-    display: inline;
+    display: none;
   }
 }
 .ignore-sp{
   display: inline;
   @media screen and (max-width: $phone-width) {
-    display:none;
+    display: none;
   }
 }
 
