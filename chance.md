@@ -8,7 +8,7 @@ description: 未踏ジュニア以外にも、あなたの「提案書」を評�
 <p style="text-align:center; padding: 50px 0px 40px; font-size: 99%;">
   <a href='/about'>未踏ジュニア</a>以外にも、あなたの<a href='download'>提案書</a>を評価してくれる支援プログラムがあります。<br class='ignore-sp'>より多くの応募者がチャンスを掴めるよう、本ページでは他の支援プログラムを紹介しています。<br>
   <br>
-  <small>細かな募集要項は未踏ジュニアとは異なります。<br class='ignore-pc'>詳細は以下の公式 URL からご確認ください。</small><br>
+  <small>細かな募集要項は未踏ジュニアとは異なります。<br class='ignore-pc'>詳細は以下の公式サイトからご確認ください。</small><br>
 </p>
 
 ## 未踏福岡コンソーシアム {#fukuoka}
