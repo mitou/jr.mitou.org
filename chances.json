@@ -1,0 +1,11 @@
+---
+---
+
+[ {% for chance in site.data.chances %}
+  {
+    "id"          : "{{ chance.id }}",
+    "url"         : "{{ chance.url }}",
+    "title"       : "{{ chance.title }}",
+    "description" : "{{ chance.description }}"
+  }{% unless forloop.last %},{% endunless %}{% endfor %}
+]
