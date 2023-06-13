@@ -12,3 +12,18 @@
   url:   https://labs.cybozu.co.jp/youth/requirements.html
   title: サイボウズ・ラボユース
   description: "<a href='https://labs.cybozu.co.jp/youth/youth-leaflet-2023spring.pdf'>世界に通用する若手エンジニアの発掘と育成</a>をする学生支援制度です。ソフトウェア研究開発への熱意を支援し、開発成果はオープンソースライセンスに基づき広く世の中に公開されることが期待されています。開発成果物の権利も企業ではなく、個人本人に帰属します。"
+
+- id:    ipa-mitou
+  url:   https://www.ipa.go.jp/jinzai/mitou/it/about.html
+  title: 未踏IT人材発掘・育成事業
+  description: "独創的なアイディアと優れた技術を持つ、<strong>25歳未満</strong>のIT人材を発掘・育成する事業です。2000年度から始まり、現在までに約2,000人以上のクリエータを輩出しています。<a href='/mentors'>未踏ジュニアのメンター陣</a>も、本事業の修了生です。これまでの成果報告会の様子は <a href='https://www.youtube.com/@ipa5619/playlists?view=50&sort=dd&shelf_id=5'>YouTube から公開</a>されています。"
+
+- id:    ipa-mitou-target
+  url:   https://www.ipa.go.jp/jinzai/mitou/target/about.html
+  title: 未踏ターゲット事業
+  description: "基礎技術や領域横断的技術革新に取り組むIT人材を支援する事業です。<strong>ターゲットとなる分野</strong>（量子コンピュータなど）が毎年事前に定められ、その分野に興味を持つ人材からの提案を募集しています。年齢制限はありません。（参考: <a href='https://twitter.com/search?q=未踏ターゲット'>Twitter Search - 未踏ターゲット</a>）"
+
+- id:    ipa-mitou-advanced
+  url:   https://www.ipa.go.jp/jinzai/mitou/advanced/about.html
+  title: 未踏アドバンスト事業
+  description: "<strong>年齢不問</strong>の、ビジネスや社会課題の解決につなげたいと考えているIT人材を発掘・育成する事業です。製品・サービスの企画・構想を練っている段階、もしくはプロトタイプ開発を継続している段階のプロジェクトを募集しています。これまでの成果報告会の様子は <a href='https://www.youtube.com/@ipa5619/playlists?view=50&sort=dd&shelf_id=6'>YouTube から公開</a>されています。"
