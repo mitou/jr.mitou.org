@@ -175,9 +175,9 @@ Highcharts.chart('selections', {
 
 
 <h2 style="margin-bottom: 60px;">Acceptance Rate</h2>
-<div id="chances"></div>
+<div id="rates"></div>
 <script type="text/javascript">
-Highcharts.chart('chances', {
+Highcharts.chart('rates', {
    chart: {
      type: 'line',
      styledMode: true
