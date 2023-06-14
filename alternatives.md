@@ -11,7 +11,7 @@ description: 未踏ジュニア以外にも、あなたの「提案書」を評�
 </p>
 
 {% for alt in site.data.alternatives %}
-<h2 id='{{ alternative.id }}'>{{ alt.title }}</h2>
+<h2 id='{{ alt.id }}'>{{ alt.title }}</h2>
 <p>{{ alt.description }}</p>
 
 <a href='{{ alt.url }}' class='button'>公式サイトを見る</a>
