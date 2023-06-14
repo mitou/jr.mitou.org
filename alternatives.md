@@ -10,9 +10,9 @@ description: 未踏ジュニア以外にも、あなたの「提案書」を評�
   <small>細かな募集要項は未踏ジュニアとは異なります。<br class='ignore-pc'>詳細は以下の公式サイトからご確認ください。</small><br>
 </p>
 
-{% for chance in site.data.chances %}
-<h2 id='{{ chance.id }}'>{{ chance.title }}</h2>
-<p>{{ chance.description }}</p>
+{% for alt in site.data.alternatives %}
+<h2 id='{{ alternative.id }}'>{{ alt.title }}</h2>
+<p>{{ alt.description }}</p>
 
-<a href='{{ chance.url }}' class='button'>公式サイトを見る</a>
+<a href='{{ alt.url }}' class='button'>公式サイトを見る</a>
 {% endfor %}
