@@ -1,5 +1,5 @@
 ---
 layout: redirect
-permalink:   /chance
+permalink:   /chances
 redirect_to: /alternatives
 ---
