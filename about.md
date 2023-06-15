@@ -46,8 +46,15 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg&disable_polymer=true" class="button">YouTubeで視聴する</a>
 
-### 他の支援プログラム
-<a href='https://www.mitou.org/'>未踏社団</a>が運営する未踏ジュニア以外にも、あなたの<a href='/download'>提案書</a>を評価してくれる支援プログラムがあります。こちらもぜひ！
+### 応募〜採択までの流れ
+未踏ジュニアでは応募から採択までの流れや、応募書類（提案書）を書くコツ、採択者の体験談なども公開しています。もし興味があればぜひチェックしてみてください。
 
+<div style='display: flex; flex-wrap: wrap'>
+  <a href="/guideline" class="button">採択までの流れを見る</a>
+  <a href="/download"  class="button">提案書・体験談を見る</a>
+</div>
+
+### 他の支援プログラム
+<a href='https://www.mitou.org/'>未踏社団</a>が運営する未踏ジュニア以外にも、あなたの作りたいもの（<a href='/download'>提案書</a>）を支援してくれるプログラムがあります。こちらもぜひ！
 
 <a href="/opportunities" class="button">他の支援プログラムを見る</a>
