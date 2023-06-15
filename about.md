@@ -12,14 +12,14 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTubeで視聴する</a>
 
-## 未踏ジュニアとは？
+## 未踏ジュニアとは？ {#mitoujr}
 独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を支援するプログラムです。
 
 [未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)という、経産省所管の独立行政法人情報処理推進機構（IPA）が主催している、優秀な25歳以下の若者を支援するプログラムがあります。そして、その未踏卒業生がボランティアで運営しているのが、**未踏ジュニア**です。
 
 <a href="https://www.ipa.go.jp/jinzai/mitou/about.html" class="button" target="_blank" rel='noopener'>IPA 未踏事業を見る</a>
 
-## 支援
+## 支援 {#supports}
 ### メンタリングの提供
 担当の[メンター](/mentors)をはじめ、未踏卒業生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
 
@@ -37,16 +37,16 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 ### 未踏ジュニアスーパークリエータの認定
 特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや東京都立大学に推薦枠で出願できます。(追記: 東京都立大学の推薦枠は<a href='https://twitter.com/mamoruk/status/1318484847317315584' target="_blank" rel='noopener'>認定不要に緩和</a>されました。詳細は<a href='https://www.tmu.ac.jp/extra/download.html?dd=assets%2Ffiles%2Fdownload%2Fentrance%2F2021_ako_bosyuyoko1.pdf' target="_blank" rel='noopener'>募集要項</a>をご参照ください)
 
-## 運営団体について
+## 運営団体について {#organizer}
 [一般社団法人未踏](https://www.mitou.org/)という、[未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)の卒業生を中心とした団体が運営をしています。未踏ジュニアは、その中のプログラミング教育研究会というグループで取り組んでいる事業となっています。
 
-### 未踏関係者インタビュー
+### 未踏関係者インタビュー {#interviews}
 未踏関係者に『**なんで未踏?**』という質問をしてみました。未踏について一歩深く知るキッカケになれば嬉しいです <i class="far fa-laugh-squint" aria-hidden="true"> <i class="far fa-thumbs-up" aria-hidden="true" />
 <div class="youtube"><iframe width="779" height="438" src="https://www.youtube.com/embed/playlist?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg&disable_polymer=true" class="button">YouTubeで視聴する</a>
 
-### 応募〜採択までの流れ
+### 応募〜採択までの流れ {#guideline}
 未踏ジュニアでは応募から採択までの流れや、応募書類（提案書）を書くコツ、採択者の体験談なども公開しています。もし興味があればぜひチェックしてみてください。
 
 <div style='display: flex; flex-wrap: wrap'>
@@ -54,7 +54,7 @@ description: 本ページでは初めての方を対象としたコンテンツ�
   <a href="/download"  class="button">提案書・体験談を見る</a>
 </div>
 
-### 他の支援プログラム
+### 他の支援プログラム {#opportunities}
 <a href='https://www.mitou.org/'>未踏社団</a>が運営する未踏ジュニア以外にも、あなたの作りたいもの（<a href='/download'>提案書</a>）を支援してくれるプログラムがあります。こちらもぜひ！
 
 <a href="/opportunities" class="button">他の支援プログラムを見る</a>
