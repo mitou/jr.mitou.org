@@ -1,5 +1,5 @@
 ---
 layout: redirect
 permalink:   /chance
-redirect_to: /alternatives
+redirect_to: /opportunities
 ---
