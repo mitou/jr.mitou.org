@@ -1,0 +1,11 @@
+---
+---
+
+[ {% for opportunity in site.data.opportunities %}
+  {
+    "id"          : "{{ opportunity.id }}",
+    "url"         : "{{ opportunity.url }}",
+    "title"       : "{{ opportunity.title }}",
+    "description" : "{{ opportunity.description }}"
+  }{% unless forloop.last %},{% endunless %}{% endfor %}
+]
