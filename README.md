@@ -140,7 +140,7 @@ $ bundle exec rake test
 
 <br>
 
-## :two_hearts: 使用素材など
+## :two_hearts: 使用素材、著作物、ライセンスについて
 
 - [Font Awesome](https://fontawesome.com/license/) - :copyright: Fonticons, Inc.
 - [Twemoji](https://twemoji.twitter.com/) - :copyright: Twitter, Inc and other contributors.
