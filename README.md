@@ -147,7 +147,7 @@ $ bundle exec rake test
 
 [各プロジェクト](https://jr.mitou.org/projects/)のカバー画像やデモ動画、およびそのソースコードなどは当該プロジェクトのクリエータの著作物となります。
 
-上記の著作物を除く、Ruby のソースコード ([tasks/*.rb](https://github.com/mitou/jr.mitou.org/tree/main/tasks), [Gemfile](https://github.com/mitou/jr.mitou.org/blob/main/Gemfile), [Rakefile](https://github.com/mitou/jr.mitou.org/blob/main/Rakefile) など) や、各種設定ファイル ([_config.yml](https://github.com/mitou/jr.mitou.org/blob/main/_config.yml), [.github/workflows/*.yml](https://github.com/mitou/jr.mitou.org/tree/main/.github/workflows) など) については、以下のライセンス (MIT) のもとで自由にご活用いただけます。
+上記の著作物を除く、Ruby のソースコード ([`tasks/*.rb`](https://github.com/mitou/jr.mitou.org/tree/main/tasks), [`Gemfile`](https://github.com/mitou/jr.mitou.org/blob/main/Gemfile), [`Rakefile`](https://github.com/mitou/jr.mitou.org/blob/main/Rakefile) など) や、各種設定ファイル ([`_config.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_config.yml), [`.github/workflows/*.yml`](https://github.com/mitou/jr.mitou.org/tree/main/.github/workflows) など) については、以下のライセンス (MIT) のもとで自由にご活用いただけます。
 
 <details>
   <summary><strong>The MIT License</strong></summary>
