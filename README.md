@@ -145,7 +145,7 @@ $ bundle exec rake test
 - [Font Awesome](https://fontawesome.com/license/) - :copyright: Fonticons, Inc.
 - [Twemoji](https://twemoji.twitter.com/) - :copyright: Twitter, Inc and other contributors.
 
-[各プロジェクト](https://jr.mitou.org/projects/)のカバー画像やデモ動画、およびそのソースコードなどは当該プロジェクトのクリエータの著作物となります。
+[各プロジェクト](https://jr.mitou.org/projects/)のカバー画像やデモ動画、および説明文などは当該プロジェクトのクリエータの著作物となります。その他のロゴ画像やプロフィール画像、および説明文なども同様に、各著作者の著作物となります。
 
 上記の著作物を除く、Ruby のソースコード ([`tasks/*.rb`](https://github.com/mitou/jr.mitou.org/tree/main/tasks), [`Gemfile`](https://github.com/mitou/jr.mitou.org/blob/main/Gemfile), [`Rakefile`](https://github.com/mitou/jr.mitou.org/blob/main/Rakefile) など) や、各種設定ファイル ([`_config.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_config.yml), [`.github/workflows/*.yml`](https://github.com/mitou/jr.mitou.org/tree/main/.github/workflows) など) については、以下のライセンス (MIT) のもとで自由にご活用いただけます。
 
