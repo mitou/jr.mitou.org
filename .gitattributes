@@ -6,3 +6,7 @@
 
 _includes/* linguist-language=Ruby
 _layouts/*  linguist-language=Ruby
+
+# Exclude vendored files from statistics.
+assets/css/highcharts.css  linguist-vendored
+assets/css/highcharts.scss linguist-vendored
