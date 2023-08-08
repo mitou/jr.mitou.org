@@ -36,7 +36,7 @@
 - id:    ipa-mitou-target
   url:   https://www.ipa.go.jp/jinzai/mitou/target/about.html
   title: 未踏ターゲット事業
-  description: "基礎技術や領域横断的技術革新に取り組むIT人材を支援する事業です。<strong>ターゲットとなる分野</strong>（量子コンピュータなど）が毎年事前に定められ、その分野に興味を持つ人材からの提案を募集しています。年齢制限はありません。（参考: <a href='https://twitter.com/search?q=未踏ターゲット'>Twitter Search - 未踏ターゲット</a>）"
+  description: "基礎技術や領域横断的技術革新に取り組むIT人材を支援する事業です。<strong>ターゲットとなる分野</strong>（量子コンピュータ分野やリザバーコンピューティング分野など）が毎年事前に定められ、その分野に興味を持つ人材からの提案を募集しています。年齢制限はありません。（参考: <a href='https://twitter.com/search?q=未踏ターゲット'>Twitter Search - 未踏ターゲット</a>）"
 
 - id:    ipa-mitou-advanced
   url:   https://www.ipa.go.jp/jinzai/mitou/advanced/about.html
