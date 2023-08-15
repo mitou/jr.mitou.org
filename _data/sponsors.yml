@@ -14,15 +14,15 @@
   url:  https://hayabusa.foundation/
   type: gold
 
-#- name: 株式会社リクルート
-#  img:  recruit.webp
-#  url:  https://www.recruit.co.jp/
-#  type: gold
-
 #- name: KDDI株式会社
 #  img:  kddi.webp
 #  url:  https://www.kddi.com/
 #  type: gold
+
+- name: 株式会社リクルート
+  img:  recruit.webp
+  url:  https://www.recruit.co.jp/
+  type: silver
 
 - name: 株式会社ドワンゴ
   img:  dwango.webp
