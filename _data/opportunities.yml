@@ -8,6 +8,11 @@
   title: 関西テック・クリエイター・チャレンジ
   description: "<strong>関西の大学・大学院・高等専門学校に在籍中</strong>の若手テック人材を発掘・育成するプログラムです。本プログラムをきっかけに、若手テック人材の育成コミュニティを形成し、他の大学や企業と産学官連携を強化することで、人材育成のエコシステム構築もめざしています。"
 
+- id:    ippo
+  url:   https://mitou-kumamoto.com/
+  title: 熊本版未踏的プロジェクト「IPPO （一歩）」
+  description: "<strong>熊本県内の15～39歳</strong>で、IT・デジタル系、テック系、アプリ開発など、試作開発を伴い社会課題解決に向けたアイデアをお持ちの若手クリエータの皆さんのチャレンジを支援します。独創的なアイデアと情熱を持った方の応募をお待ちしています。"
+
 - id:    hokkaido
   url:   https://shinsetsu.hokkaido.jp/koubo/2023
   title: 北海道ITクリエータ発掘・育成事業（新雪プログラム）
@@ -22,11 +27,6 @@
   url:   https://hokuriku-choetsu.studio.site/
   title: 「北陸超越」人材発掘プロジェクト
   description: "<strong>石川・富山・福井のいずれかに在住</strong>している30歳以下の方々を対象とした支援プログラムです。具体的な開発・製作活動を通して具現化し、そして成長していくことを願い、そのような若い人たちからの意欲的な開発・製作テーマを募集しています。"
-
-- id:    ippo
-  url:   https://mitou-kumamoto.com/
-  title: 熊本版未踏的プロジェクト「IPPO （一歩）」
-  description: "<strong>熊本県内の15～39歳</strong>で、IT・デジタル系、テック系、アプリ開発など、試作開発を伴い社会課題解決に向けたアイデアをお持ちの若手クリエータの皆さんのチャレンジを支援します。独創的なアイデアと情熱を持った方の応募をお待ちしています。"
 
 - id:    cybozu
   url:   https://labs.cybozu.co.jp/youth/requirements.html
