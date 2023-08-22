@@ -23,6 +23,11 @@
   title: 「北陸超越」人材発掘プロジェクト
   description: "<strong>石川・富山・福井のいずれかに在住</strong>している30歳以下の方々を対象とした支援プログラムです。具体的な開発・製作活動を通して具現化し、そして成長していくことを願い、そのような若い人たちからの意欲的な開発・製作テーマを募集しています。"
 
+- id:    ippo
+  url:   https://mitou-kumamoto.com/
+  title: 熊本版未踏的プロジェクト「IPPO （一歩）」
+  description: "<strong>熊本県内の15～39歳</strong>で、IT・デジタル系、テック系、アプリ開発など、試作開発を伴い社会課題解決に向けたアイデアをお持ちの若手クリエータの皆さんのチャレンジを支援します。独創的なアイデアと情熱を持った方の応募をお待ちしています。"
+
 - id:    cybozu
   url:   https://labs.cybozu.co.jp/youth/requirements.html
   title: サイボウズ・ラボユース
