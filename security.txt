@@ -1,0 +1,4 @@
+Contact: mailto:jr@mitou.org
+Expires: 2033-12-31T14:59:00.000Z
+Preferred-Languages: ja, en
+Policy: https://jr.mitou.org/privacy-policy
