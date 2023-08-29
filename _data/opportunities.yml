@@ -38,6 +38,11 @@
   title: 異能（Inno）vation
   description: "異能vationプログラムはICT分野において破壊的な地球規模の価値創造を生み出すために、大いなる可能性がある奇想天外でアンビシャスな技術課題への挑戦を支援します。あらたな日常が始まろうとしている中、あらたな挑戦をする方々からの応募を歓迎しています。（公式アカウント: <a href='https://www.youtube.com/@innoproject'>YouTube</a> / <a href='https://www.instagram.com/inno_project/'>Instagram</a> / <a href='https://www.facebook.com/innovationproject/'>Facebook</a> / <a href='https://twitter.com/inno_project'>Twitter</a>）"
 
+- id:    kakusei
+  url:   https://kakusei.aist.go.jp/
+  title: 国立研究開発法人 産総研「覚醒プロジェクト」
+  description: "若手人材が、国立研究開発法人産業技術総合研究所（産総研）の保有する先端的研究設備等を活用することにより、ディープテック分野の独創的かつ斬新な研究開発を推進し、社会課題解決にチャレンジするプロジェクトです。"
+
 - id:    ipa-mitou
   url:   https://www.ipa.go.jp/jinzai/mitou/it/about.html
   title: 未踏IT人材発掘・育成事業
