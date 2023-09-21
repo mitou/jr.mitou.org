@@ -6,7 +6,7 @@ description: 見積書・請求書・納品書などの送付先の情報など�
 
 <br>
 
-本ページでは、未踏ジュニアを運営する一般社団法人[未踏](https://www.mitou.org/) ([Mitou Foundation](https://www.mitou.org/)) 宛に見積書・請求書・納品書などを送るときの送付先情報などをまとめています。
+本ページでは、未踏ジュニアを運営する一般社団法人[未踏](https://www.mitou.org/) ([Mitou Foundation](https://www.mitou.org/)) 宛に見積書・請求書・納品書などを送るときの送付先情報についてまとめています。
 
 ## 送付先 {#address}
 
