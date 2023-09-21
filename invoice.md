@@ -19,4 +19,6 @@ description: 見積書・請求書・納品書などの送付先の情報など�
   <li>e-mail: jr@mitou.org</li>
 </ul>
 
-メールで見積書などをお送りされる場合は `jr@mitou.org` 宛に送付していただけると幸いです。
+<div class="note">
+  メールで見積書などをお送りされる場合は <b>jr@mitou.org 宛ではなく、担当者宛に送付</b>していただけると幸いです。
+</div>
