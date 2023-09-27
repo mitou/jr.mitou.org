@@ -27,7 +27,7 @@
   {% endif %}
 
   <h4>概要</h4>
-  <p class="project-description">{{ pj.description }}</p>
+  <p class="project-description">{{ pj.description | markdownify }}</p>
 
   {% if pj.comment %}
   <h4>PMコメント</h4>

@@ -1,21 +1,21 @@
 ---
 layout: post
-title:  2022年 成果報告会
-year:   2022
+title:  2023年 成果報告会
+year:   2023
 description: "未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！"
-thumbnail: /assets/img/thumbnails/final_2022.webp
+thumbnail: /assets/img/thumbnails/final_2023.webp
 ---
 
 <br>
 
-<!--
 <img src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}" alt="{{ page.year }}年度 未踏ジュニア成果報告会 サムネイル画像"
      class="project-thumbnail lazyload" width='100%' loading="lazy" />
--->
 
+<!--
 <div class='youtube'>
   <iframe src="https://www.youtube.com/embed/fw1LFIZz-zo?rel=0&start=615" title="{{ page.year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+-->
 
 <!--
 2021年度の未踏ジュニア成果報告会を11月3日に実施しました。<a href="https://twitter.com/mitoujr/status/1455832719577944066" target="_blank">YouTubeの動画目次</a>を使うとお好きなシーンからご視聴いただけます。<br>
@@ -25,13 +25,15 @@ thumbnail: /assets/img/thumbnails/final_2022.webp
 </div>
 -->
 
+2023年度の未踏ジュニア成果報告会を11月3日 (金曜・祝日) に東京大学で開催します。今年は現地でデモ展示の時間なども用意する予定ですので、ぜひ現地までお越しいただけると幸いです。
 
 <div style='display: flex; flex-wrap: wrap'>
-  <!--<a href="https://mitoujr2022.peatix.com/view" class="button" target="_blank" rel='noopener'>現地参加を申し込む</a>-->
+  <a href="https://peatix.com/event/3690894/view" class="button" target="_blank" rel='noopener'>現地参加を申し込む</a>
 
+  <!--
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6ldtjWuPw3Cum2cjzglIU-wD" class="button" target="_blank" rel='noopener'>YouTube で見る</a>
-
   <a href="https://togetter.com/li/1968577" class="button" target="_blank" rel='noopener'>Twitter の反響を見る</a>
+  -->
 </div>
 
 <hr>
