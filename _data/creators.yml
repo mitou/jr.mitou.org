@@ -12,8 +12,89 @@
 #  project_id: 
 #  name: 
 #  year: 
-#  #is_spc: true # 認定された際にコメントアウトする
+#  #is_spc: true # 認定されたらコメントアウトする
 
+# 2023年度
+- id: toshihiro_tange
+  project_id: stask
+  name: 丹下 稔大
+  year: 2023
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: itsuki_tsuruta
+  project_id: lescued
+  name: 鶴田 慈貴
+  year: 2023
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: yuta_kobayashi
+  project_id: capitalens
+  name: 小林 優太
+  year: 2023
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: sota_ueda
+  project_id: be_free
+  name: 上田 蒼大
+  year: 2023
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: ken_shibata
+  project_id: hato
+  name: 柴田 謙
+  year: 2023
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: taiki_aki
+  project_id: motion_simulator
+  name: 安枝 太基
+  year: 2023
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: mizuki_hara
+  project_id: bakusoku_agv
+  name: 原 瑞樹
+  year: 2023
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: kai_tanaka
+  project_id: ai_4koma_maker
+  name: 田中 魁
+  year: 2023
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: mona_sako
+  project_id: umeda_sansei_kai
+  name: 佐古 萌奈
+  year: 2023
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: noritada_yamamoto
+  project_id: voice_genius
+  name: 山本 規宰
+  year: 2023
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: hikari_yoshida
+  project_id: niwangojs
+  name: 吉田 光
+  year: 2023
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: ryu_wakasa
+  project_id: code_museum
+  name: 若狭 龍
+  year: 2023
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: rekka_igumi
+  project_id: a9n
+  name: 伊組 烈火
+  year: 2023
+#  #is_spc: true # 認定されたらコメントアウトする
+
+
+# 2022年度
 - id: akito_hoshi
   project_id: magnelek
   name: 星 暁翔

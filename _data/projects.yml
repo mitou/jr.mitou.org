@@ -28,6 +28,177 @@
 #  creator_ids:
 #  - 
 
+# 2023年度
+- id: stask
+  title: Stask - 学生の課題進捗を助けるアプリ
+  description: Staskは多くの宿題が科されながらも、それらの管理をうまくできていない学生を対象とした課題管理アプリです。宿題を管理できない人でもどの課題から始めれば良いかすぐわかる見た目になっているため課題を始めるハードルが低くなっている上、同じ課題を学校から課されている友達と課題の進捗を競争することで課題に早めのうちから取り組みやすくなっています。
+  thumbnail: stask.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # 成果報告会後に追記する
+  #final_start: # 成果報告会後に追記する
+  link: https://stask.ampoi.net/
+  year: 2023
+  mentor_id: seki_yoshifumi
+  creator_ids:
+  - toshihiro_tange
+
+- id: lescued
+  title: lescued - AIで好みの曲を生成するシステム
+  description: lescuedはユーザーが「聴きたい曲」を言語化不要で生成する作曲AIです。これはAIがユーザーの好みを学習していき、その過程で生成した曲をユーザーに提供することによって実現させています。この仕組みをアプリとして提供することで、自分が必要としている曲に直接アクセスできるようになります。
+  thumbnail: lescued.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # 成果報告会後に追記する
+  #final_start: # 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  year: 2023
+  mentor_id: shouya_ishimaru
+  creator_ids:
+  - itsuki_tsuruta
+
+- id: capitalens
+  title: Capitalens
+  description: Capitalensは、国会の一次情報をベースに、AIなどの新しい技術を駆使して今何が行われているのかを可視化するウェブアプリケーションです。会議の前後のコンテキストが切り取られてSNSで拡散される問題を解決したり、会議のAI要約やスピーカーの分類機能で、より議論を身近なものにします。
+  thumbnail: capitalens.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # 成果報告会後に追記する
+  #final_start: # 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  year: 2023
+  mentor_id: takahiro_anno
+  creator_ids:
+  - yuta_kobayashi
+
+- id: be_free
+  title: BeFree 話せない人が自由に会話できるアプリ
+  description: Be Freeは、声で会話ができない人のためのアプリケーションです。会話シーンを選んで、相手の声を音声認識。返事の組み立てをAIがサポートし、声で返答します。声のない生活を送る人にとって、役に立つサービスのヒントになったらいいと考えプロジェクトを進めています。
+  thumbnail: be_free.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # 成果報告会後に追記する
+  #final_start: # 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  year: 2023
+  mentor_id: suzuki_ryou
+  creator_ids:
+  - sota_ueda
+
+- id: hato
+  title: "Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム"
+  description: HATOは鉄道模型の世界に没入するためのNゲージ列車全自動運行システムです。メインプログラムは、センサ郡と制御電源を独自USB上プロトコルHLCPを介して制御し、車両の位置等を検知し、事故を回避します。運転指令所にあるような列車制御UIを実装することで、ユーザの鉄道模型世界への没入度を高めます。
+  thumbnail: hato.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # 成果報告会後に追記する
+  #final_start: # 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  year: 2023
+  mentor_id: rizumu_sakamoto
+  creator_ids:
+  - ken_shibata
+
+- id: motion_simulator
+  title: Motion Simulator - 動き、風が吹き、水が出て、 VRで360度見渡せる椅子に座って仮想現実やゲーム世界での体験をより臨場感のあるものにするデバイス
+  description: Motion SimulatorはユーザーがVRゴーグルをつけて6自由度の座面に座ると、座面がコンテンツに合わせて動き、風や水が噴射される家庭用デバイスです。映画やVRゲーム、シミュレーションゲームなどでの臨場感を高めることが出来ます。今までは映画館やテーマパークでしか体験できなかったことも家庭で簡単に体験出来るようになります。
+  thumbnail: motion_simulator.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # 成果報告会後に追記する
+  #final_start: # 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  year: 2023
+  mentor_id: seki_yoshifumi
+  creator_ids:
+  - taiki_aki
+
+- id: bakusoku_agv
+  title: 爆速AGV
+  description: 高速を発揮し、かつ、小回りのきく独立ステアリング機構を搭載したAGVです。最近、物流2042問題など私たちの生活を支えるロジスティクスが逼迫していますが、このPJで開発しているような高速AGVはロジスティクスの効率向上に寄与できると期待できます。設計にはトポロジー最適化を用いるなどして工夫しています。
+  thumbnail: bakusoku_agv.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # 成果報告会後に追記する
+  #final_start: # 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  year: 2023
+  mentor_id: teramoto_daiki
+  creator_ids:
+  - mizuki_hara
+
+- id: ai_4koma_maker
+  title: AI 4コマメーカー
+  description: 「AI 4コマメーカー」は AI があなたの描いた絵を活用し、4コマ漫画を作成するwebアプリケーションです。落書きのように絵を描き、その絵を認識しgpt-4によってストーリーを生成します。そのため、ストーリー構成など考える必要がなく手軽に4コマ漫画を作ることができます。あなたの絵であなただけの4コマ漫画を作りましょう！
+  thumbnail: ai_4koma_maker.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # 成果報告会後に追記する
+  #final_start: # 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  year: 2023
+  mentor_id: ukai_yuu
+  creator_ids:
+  - kai_tanaka
+
+- id: umeda_sansei_kai
+  title: 人名攻撃力表示装置(梅田三世(改))
+  description: 梅田三世とは、人の顔を見ると片メガネ型のディスプレイにその人の名前、攻撃力を表示してくれる装置です。これを身につけることによって、相手の名前を覚えていない時などのコミュニケーションを円滑にし、活性化する事が出来ます。表示される情報は、Webアプリによる閲覧/追加/更新/削除ができます。
+  thumbnail: umeda_sansei_kai.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # 成果報告会後に追記する
+  #final_start: # 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  year: 2023
+  mentor_id: bitou_masato
+  creator_ids:
+  - mona_sako
+
+- id: voice_genius
+  title: Voice Genius - AI x ゆっくり解説
+  description: Voice Geniusは最近話題のChatGPTなどのAIを用い、完全自動でゆっくり解説を作成するソフトウェアです。タイトルや記事から動画を生成します。テキストではわかりにくいデータや記事を慣れ親しんだ動画に変換できます。生成した動画は[YouTube](https://www.youtube.com/@ai-yukkuri/featured)または[TikTok](https://www.tiktok.com/@ai.yukkuri)から閲覧できます。
+  thumbnail: voice_genius.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # 成果報告会後に追記する
+  #final_start: # 成果報告会後に追記する
+  link: https://www.youtube.com/@ai-yukkuri/featured
+  year: 2023
+  mentor_id: koutake_rina
+  creator_ids:
+  - noritada_yamamoto
+
+- id: niwangojs
+  title: niwango.js - ブラウザで動くインタプリタエンジン
+  description: ブラウザで「ニワスクリプト」というプログラミング言語を実行するインタプリタエンジンです。時系列に沿った処理系を提供し、描画結果を返します。過去にこの言語で制作された作品を再度実行可能にすることを第一目標とし、最終的にはニワスクリプトコミュニティの活性化を目指して開発を行っています。
+  thumbnail: niwangojs.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # 成果報告会後に追記する
+  #final_start: # 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  year: 2023
+  mentor_id: yasulab
+  creator_ids:
+  - hikari_yoshida
+
+- id: code_museum
+  title: Code Museum - 読むことだけに特化したソースコードエディタ
+  description: Code Museumは、一般的なエディタからあえて「書く機能」をなくし、「読む機能」に特化したソースコードエディタです。範囲実行やGPTを活用した機能など、様々な「読む機能」があります。このエディタを使うことで、コードを読んでいる時間を短縮し、生産性を上げることができます。
+  thumbnail: code_museum.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # 成果報告会後に追記する
+  #final_start: # 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  year: 2023
+  mentor_id: nishio_hirokazu
+  creator_ids:
+  - ryu_wakasa
+
+- id: a9n
+  title: "A9N: HALを用いて移植用意性を実現するマイクロカーネル"
+  description: A9NはHAL + マイクロカーネルによって構築されたカーネル + ソフトウェアです. これにより, 高い移植容易性・安定性・拡張性を兼ね備えます. 近年の複雑化し巨大化したOSとは異なり, 十分に小さいA9Nは本質の理解を助け, OS学習をより容易なものとします.
+  thumbnail: a9n.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # 成果報告会後に追記する
+  #final_start: # 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  year: 2023
+  mentor_id: ishii_kakeru
+  creator_ids:
+  - rekka_igumi
+
+
 # 2022年度
 - id: fluxel
   title: Fluxel - 磁気浮上式リニア電磁加速投射機の開発と応用
