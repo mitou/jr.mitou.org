@@ -71,7 +71,7 @@ description: "Code Museumは、一般的なエディタからあえて「書く�
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
   <p class="nav prev"><a href='niwangojs'>&larr; 前<br>
-    niwango.js - ブラウザで動くインタプリタエンジン...</a></p>
+    niwango.js - 動画のコメントでプログラミング可能...</a></p>
   <p class="nav next"><a href='a9n'>次 &rarr;<br>
     A9N: HALを用いて移植用意性を実現するマイクロカーネル...</a></p>
 </div>
