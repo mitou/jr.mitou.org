@@ -3,7 +3,7 @@ layout: post
 title:  2023年 成果報告会
 year:   2023
 description: "未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！"
-thumbnail: /assets/img/thumbnails/final_2023.webp
+thumbnail: /assets/img/thumbnails/final_2023.jpg
 ---
 
 <br>
