@@ -33,7 +33,9 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 <br>
 
-## 支援 {#supports}
+## 採択者への支援 {#supports}
+未踏ジュニアに応募し、採択されると、採択者（クリエータ）は以下の支援を得られます。
+
 ### メンタリングの提供 {#mentoring-support}
 担当の[メンター](/mentors)をはじめ、未踏卒業生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
 
@@ -49,7 +51,9 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 必要に応じて、開発場所及び工作機材の援助を行います。
 
 ### 未踏ジュニアスーパークリエータの認定 {#award-outstanding-performance}
-特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。[慶應義塾大学SFC](https://www.sfc.keio.ac.jp/news/012903.html)や[東京都立大学](https://cs.sd.tmu.ac.jp/admission_office.html#:~:text=未踏ジュニア)、[近畿大学](https://newscast.jp/news/1055602)に推薦枠で出願できます。(追記: 東京都立大学の推薦枠は<a href='https://twitter.com/mamoruk/status/1318484847317315584'>採択者全員に緩和</a>されました)
+特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。[慶應義塾大学SFC](https://www.sfc.keio.ac.jp/news/012903.html)や[東京都立大学](https://cs.sd.tmu.ac.jp/admission_office.html#:~:text=未踏ジュニア)、[近畿大学](https://newscast.jp/news/1055602)に推薦枠で出願できます。
+
+<!--(追記: 東京都立大学の推薦枠は<a href='https://twitter.com/mamoruk/status/1318484847317315584'>採択者全員に緩和</a>されました)-->
 
 <!--<img src="/assets/img/press_by_universities.webp" data-src="/assets/img/press_by_universities.webp" alt="各大学の発表資料の例" class="top-img lazyload" loading="lazy" style='margin-top: 30px;'>-->
 
@@ -77,6 +81,8 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg&disable_polymer=true" class="button">YouTubeで視聴する</a>
 
+<br>
+
 ### 応募〜採択までの流れ {#guideline}
 未踏ジュニアでは応募から採択までの流れや、応募書類（提案書）を書くコツ、採択者の体験談なども公開しています。もし興味があればぜひチェックしてみてください。
 
@@ -84,6 +90,7 @@ description: 本ページでは初めての方を対象としたコンテンツ�
   <a href="/guideline" class="button">採択までの流れを見る</a>
   <a href="/download"  class="button">提案書・体験談を見る</a>
 </div>
+
 
 ### 他の支援プログラム {#opportunities}
 <a href='https://www.mitou.org/'>未踏社団</a>が運営する未踏ジュニア以外にも、あなたの作りたいもの（<a href='/download'>提案書</a>）を支援してくれるプログラムがあります。こちらもぜひ！
