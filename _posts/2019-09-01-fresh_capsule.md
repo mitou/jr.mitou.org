@@ -15,7 +15,7 @@ description: "fresh capsuleは、購入した食材の賞味期限を管理す�
 
 {{ pj.description }}
 
-<div style='display: flex; flex-wrap: wrap'>
+<div class='flex'>
   {% if pj.link %}
     {% if pj.link contains 'github.com' %}
        <a href='{{ pj.link }}' target='_blank' class='button'>ソースコードを見る</a>

@@ -15,7 +15,7 @@ description: "Voice Geniusは最近話題のChatGPTなどのAIを用い、完全
 
 {{ pj.description }}
 
-<div style='display: flex; flex-wrap: wrap'>
+<div class='flex'>
   {% if pj.link %}
     {% if pj.link contains 'github.com' %}
        <a href='{{ pj.link }}' target='_blank' class='button'>ソースコードを見る</a>

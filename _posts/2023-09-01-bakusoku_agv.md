@@ -15,7 +15,7 @@ description: "高速を発揮し、かつ、小回りのきく独立ステアリ
 
 {{ pj.description }}
 
-<div style='display: flex; flex-wrap: wrap'>
+<div class='flex'>
   {% if pj.link %}
     {% if pj.link contains 'github.com' %}
        <a href='{{ pj.link }}' target='_blank' class='button'>ソースコードを見る</a>

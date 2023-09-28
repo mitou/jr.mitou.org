@@ -15,7 +15,7 @@ description: "小学生が遊びながら英単語を学べる、赤外線通信
 
 {{ pj.description }}
 
-<div style='display: flex; flex-wrap: wrap'>
+<div class='flex'>
   {% if pj.link %}
     {% if pj.link contains 'github.com' %}
        <a href='{{ pj.link }}' target='_blank' class='button'>ソースコードを見る</a>

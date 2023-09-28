@@ -15,7 +15,7 @@ description: "日本語、英語、中国語の3言語で利用できる、音�
 
 {{ pj.description }}
 
-<div style='display: flex; flex-wrap: wrap'>
+<div class='flex'>
   {% if pj.link %}
     {% if pj.link contains 'github.com' %}
        <a href='{{ pj.link }}' target='_blank' class='button'>ソースコードを見る</a>
