@@ -166,7 +166,7 @@
   promotion: jU5WgPZblxM
   #final:       # 成果報告会後に追記する
   #final_start: # 成果報告会後に追記する
-  #link:        # 公式サイトがあれば追記する
+  link: https://github.com/xpadev-net/niwango.js
   year: 2023
   mentor_id: yasulab
   creator_ids:
