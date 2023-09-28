@@ -1,10 +1,24 @@
 {% include project-navigation.html this_year=include.year %}
+{% assign this_stat = site.data.stats | find: 'year', include.year %}
 
 <h2 style="margin-top: 0px;">{{ include.year }}年度の採択者と成果</h2>
-<p>{{ page.description }}</p>
+<p>{{ page.description }}(採択倍率: <a href='/stats'>{{ this_stat.competition_rate }}倍</a>)</p>
 
-{% include project-search.html %}
+<br>
+
 {% include project-list.html year=include.year %}
+
+{% if this_stat.year == 2016 %}
+<p><small>（※
+  <a href='/about#award-outstanding-performance'>スーパークリエータ</a>認定は2017年度から始まったため2016年度は採択者のみとなります）
+</small></p>
+{% elsif this_stat.spc %}
+<p><small>（☆
+  は<a href='/about#award-outstanding-performance'>スーパークリエータ</a>認定者となります）
+</small></p>
+{% endif %}
+
+<br>
 
 <div class="projects flex">
   {% for pj in projects %}
