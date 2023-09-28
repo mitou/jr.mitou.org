@@ -114,7 +114,11 @@ this_year: 2023
 
   {% include project-list.html year=this_year center_mode=true %}
 
-  <a href="/projects" class="button">これまでの採択例を見る</a>
+  <div class="flex">
+    <a href="/projects" class="button">これまでの採択例を見る</a>
+    <a href="/final"    class="button">成果報告会の発表を見る</a>
+  </div>
+
   <div class="projects flex">
     {% for pj in projects %}
       {% include project-details.html %}
