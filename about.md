@@ -30,22 +30,22 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 <a href="https://www.ipa.go.jp/jinzai/mitou/about.html" class="button" target="_blank" rel='noopener'>IPA 未踏事業を見る</a>
 
 ## 支援 {#supports}
-### メンタリングの提供
+### メンタリングの提供 {#mentoring-support}
 担当の[メンター](/mentors)をはじめ、未踏卒業生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
 
 <div class="tips">期間中は、オンラインでメンターとの時間を週に一時間ずつくらい取れる仕組みとなっていて、プログラミングの質問、方針の話でも、なんでも相談できる機会があります。</div>
 <a href="/mentors" class="button">メンター紹介を見る</a>
 
-### 開発資金の援助
+### 開発資金の援助 {#financial-support}
 採択された各グループへ、50万円を上限として開発資金の援助を行います。
 
 例えばハードウェア開発で機材・資材を使いたい場面や、ソフトウェア開発で有料のAPI・サーバーを使いたい場面などで、50万円まで使える仕組みになっています。
 
-### 開発場所の援助
+### 開発場所の援助 {#development-support}
 必要に応じて、開発場所及び工作機材の援助を行います。
 
-### 未踏ジュニアスーパークリエータの認定
-特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや東京都立大学に推薦枠で出願できます。(追記: 東京都立大学の推薦枠は<a href='https://twitter.com/mamoruk/status/1318484847317315584' target="_blank" rel='noopener'>認定不要に緩和</a>されました。詳細は<a href='https://www.tmu.ac.jp/extra/download.html?dd=assets%2Ffiles%2Fdownload%2Fentrance%2F2021_ako_bosyuyoko1.pdf' target="_blank" rel='noopener'>募集要項</a>をご参照ください)
+### 未踏ジュニアスーパークリエータの認定 {#award-outstanding-performance}
+特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。[慶應義塾大学SFC](https://www.sfc.keio.ac.jp/news/012903.html)や[東京都立大学](https://cs.sd.tmu.ac.jp/admission_office.html#:~:text=未踏ジュニア)、[近畿大学](https://newscast.jp/news/1055602)に推薦枠で出願できます。(追記: 東京都立大学の推薦枠は<a href='https://twitter.com/mamoruk/status/1318484847317315584'>採択者全員に緩和</a>されました)
 
 ## 運営団体について {#organizer}
 [一般社団法人未踏](https://www.mitou.org/)という、[未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)の卒業生を中心とした団体が運営をしています。未踏ジュニアは、その中のプログラミング教育研究会というグループで取り組んでいる事業となっています。
