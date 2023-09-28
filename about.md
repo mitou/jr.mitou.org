@@ -22,12 +22,16 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTubeで視聴する</a>
 
+<br>
+
 ## 未踏ジュニアとは？ {#mitoujr}
 独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を支援するプログラムです。
 
 [未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)という、経産省所管の独立行政法人情報処理推進機構（IPA）が主催している、優秀な25歳以下の若者を支援するプログラムがあります。そして、その未踏卒業生がボランティアで運営しているのが、**未踏ジュニア**です。
 
-<a href="https://www.ipa.go.jp/jinzai/mitou/about.html" class="button" target="_blank" rel='noopener'>IPA 未踏事業を見る</a>
+<a href="https://www.ipa.go.jp/jinzai/mitou/about.html" class="button">IPA 未踏事業を見る</a>
+
+<br>
 
 ## 支援 {#supports}
 ### メンタリングの提供 {#mentoring-support}
@@ -46,6 +50,10 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 ### 未踏ジュニアスーパークリエータの認定 {#award-outstanding-performance}
 特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。[慶應義塾大学SFC](https://www.sfc.keio.ac.jp/news/012903.html)や[東京都立大学](https://cs.sd.tmu.ac.jp/admission_office.html#:~:text=未踏ジュニア)、[近畿大学](https://newscast.jp/news/1055602)に推薦枠で出願できます。(追記: 東京都立大学の推薦枠は<a href='https://twitter.com/mamoruk/status/1318484847317315584'>採択者全員に緩和</a>されました)
+
+<!--<img src="/assets/img/press_by_universities.webp" data-src="/assets/img/press_by_universities.webp" alt="各大学の発表資料の例" class="top-img lazyload" loading="lazy" style='margin-top: 30px;'>-->
+
+<br>
 
 ## 運営団体について {#organizer}
 [一般社団法人未踏](https://www.mitou.org/)という、[未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)の卒業生を中心とした団体が運営をしています。未踏ジュニアは、その中のプログラミング教育研究会というグループで取り組んでいる事業となっています。
