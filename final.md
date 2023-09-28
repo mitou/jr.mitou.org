@@ -27,7 +27,7 @@ thumbnail: /assets/img/thumbnails/final_2023.jpg
 
 2023年度の未踏ジュニア成果報告会を11月3日 (金曜・祝日) に東京大学で開催します。今年は現地でデモ展示の時間なども用意する予定ですので、ぜひ現地までお越しいただけると幸いです。
 
-<div style='display: flex; flex-wrap: wrap'>
+<div class='flex'>
   <a href="https://peatix.com/event/3690894/view" class="button" target="_blank" rel='noopener'>現地参加を申し込む</a>
 
   <!--
@@ -38,7 +38,7 @@ thumbnail: /assets/img/thumbnails/final_2023.jpg
 
 <hr>
 
-<div style='display: flex; flex-wrap: wrap'>
+<div class='flex'>
   <a href="https://twitter.com/hashtag/未踏ジュニア?f=live" class="button" target="_blank" rel='noopener'>#未踏ジュニア の<br>ハッシュタグを見る</a>
 
   <a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final&lang=jp&related=mitoujr" class="button" target="_blank" rel='noopener'>#未踏ジュニア で<br>ツイートする</a>
