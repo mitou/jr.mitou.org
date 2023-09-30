@@ -53,10 +53,6 @@ jobs:
         bundle config set path 'vendor/bundle'
         bundle install --jobs 4 --retry 3
 
-    - name: 🔧 Build
-      run: |
-        JEKYLL_ENV=production bundle exec jekyll build
-
     - name: 🤖 Generate individual pages by projects.yml data
       run: |
         bundle exec rake upsert_project_pages_by_data
@@ -72,6 +68,10 @@ jobs:
             echo "Detect syntax error in '_data/projects.yml' file, check its syntax."
           fi
         fi
+
+    - name: 🔧 Build
+      run: |
+        JEKYLL_ENV=production bundle exec jekyll build
 
     - name: 🚀 Deploy to GitHub Pages
       if:   github.ref == 'refs/heads/main' && job.status == 'success'
