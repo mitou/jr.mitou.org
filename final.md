@@ -1,20 +1,24 @@
 ---
-layout: post
-title:  2023年 成果報告会
-year:   2023
-description: "未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！"
+layout:    post
+title:     2023年 成果報告会
+this_year: 2023
 thumbnail: /assets/img/thumbnails/final_2023.jpg
+description: 未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！
+
+# this_year を変更するとトップページの採択プロジェクトが切り替わります。
+# 成果報告会の公開準備が整ったら this_year を今年度の数字に変更してください。
+# 詳細: https://github.com/mitou/jr.mitou.org#new-新年度の採択プロジェクトを公開する
 ---
 
 <br>
 
 <img src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}"
-     alt="{{ page.year }}年度 未踏ジュニア成果報告会 サムネイル画像"
+     alt="{{ page.this_year }}年度 未踏ジュニア成果報告会 サムネイル画像"
      class="project-thumbnail lazyload" width='100%' loading="lazy" />
 
 <!--
 <div class='youtube'>
-  <iframe src="https://www.youtube.com/embed/fw1LFIZz-zo?rel=0&start=615" title="{{ page.year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/fw1LFIZz-zo?rel=0&start=615" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 -->
 
@@ -57,13 +61,13 @@ thumbnail: /assets/img/thumbnails/final_2023.jpg
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrWiIURPeouCLjQJ?backgroundColor=gray&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 -->
 
-## {{ page.year }}年度のプロジェクト {#projects}
+## {{ page.this_year }}年度のプロジェクト {#projects}
 
-{% assign projects = site.data.projects | where_exp: "pj", "pj.year == page.year" %}
+{% assign projects = site.data.projects | where_exp: "pj", "pj.year == page.this_year" %}
 <div class="projects flex">
   {% for pj in projects %}
     {% include project-details.html %}
   {% endfor %}
 </div>
 
-{% include project-navigation.html this_year=page.year %}
+{% include project-navigation.html this_year=page.this_year %}
