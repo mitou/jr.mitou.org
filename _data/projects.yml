@@ -8,6 +8,7 @@
 #  final: 未踏ジュニア成果報告会の発表動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
 #  final_start: （任意）final の動画再生の開始時刻を指定できます。成果報告会の直後で使います。(例: 123)
 #  link: 公式サイトへのリンク（任意）。例: https://github.com/visible/visible
+#  tags: SNS用のハッシュタグ。例: [a11y, Web, アクセスビリティー]
 #  year: 採択プロジェクトの年度。例: 2020
 #  mentor_id: 「mentors.yml」にあるメンターIDを入力。例: yasulab
 #  creator_ids:
@@ -23,6 +24,7 @@
 #  #final:       # 成果報告会後に追記する
 #  #final_start: # 成果報告会後に追記する
 #  #link:        # 公式サイトがあれば追記する
+#  #tags:        # ハッシュタグがあれば追記する
 #  year: 
 #  mentor_id: 
 #  creator_ids:
@@ -89,6 +91,7 @@
   #final:       # 成果報告会後に追記する
   #final_start: # 成果報告会後に追記する
   #link:        # 公式サイトがあれば追記する
+  tags: [鉄道, 鉄道模型, Nゲージ]
   year: 2023
   mentor_id: rizumu_sakamoto
   creator_ids:
