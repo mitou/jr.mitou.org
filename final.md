@@ -8,7 +8,8 @@ thumbnail: /assets/img/thumbnails/final_2023.jpg
 
 <br>
 
-<img src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}" alt="{{ page.year }}年度 未踏ジュニア成果報告会 サムネイル画像"
+<img src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}"
+     alt="{{ page.year }}年度 未踏ジュニア成果報告会 サムネイル画像"
      class="project-thumbnail lazyload" width='100%' loading="lazy" />
 
 <!--
