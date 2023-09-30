@@ -33,8 +33,9 @@
   promotion: プロジェクトの PV やデモ動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。(Gif にも対応)
   final: 未踏ジュニア成果報告会の発表動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
   final_start: （任意）final の動画再生の開始時刻を指定できます。成果報告会の直後で使います。(例: 123)
-  year: 採択プロジェクトの年度。例: 2020
   link: 公式サイトへのリンク（任意）。例: https://github.com/visible/visible
+  tags: SNS用のハッシュタグ。例: [a11y, Web, アクセスビリティー]
+  year: 採択プロジェクトの年度。例: 2020
   mentor_id: 「mentors.yml」にあるメンターIDを入力。例: yasulab
   creator_ids:
   - 「cretors.yml」にあるクリエータID。例：igarashi_ryo
