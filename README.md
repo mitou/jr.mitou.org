@@ -148,9 +148,9 @@ $ bundle exec rake test
 1. [README 冒頭にある手順](https://github.com/mitou/jr.mitou.org#readme)に沿って [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) を追加する
 1. [README 冒頭にある手順](https://github.com/mitou/jr.mitou.org#readme)に沿って [`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) を追加する
 1. 上記の情報をベースに、新年度の統計情報を [`_data/stats.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/stats.yml) に追加する
-1. トップページ ([`index.md`](https://github.com/mitou/jr.mitou.org/blob/main/index.md)) と成果報告会ページ ([`final.md`](https://github.com/mitou/jr.mitou.org/blob/main/final.md)) で表示するプロジェクトを新年度に更新する
+1. トップページ ([`index.md`](https://github.com/mitou/jr.mitou.org/blob/main/index.md?plain=1)) と成果報告会ページ ([`final.md`](https://github.com/mitou/jr.mitou.org/blob/main/final.md?plain=1)) で表示するプロジェクトを新年度に更新する
 1. [`/projects`](https://github.com/mitou/jr.mitou.org/blob/main/projects) ディレクトリに `20xx.md` ファイルと `20xx.json` ファイルを追加する
-1. コメントアウトされているトップページ ([`index.md`](https://github.com/mitou/jr.mitou.org/blob/main/index.md)) のアナウンス情報を更新する
+1. コメントアウトされているトップページ ([`index.md`](https://github.com/mitou/jr.mitou.org/blob/main/index.md?plain=1)) のアナウンス情報を更新する
 
 :octocat: 更新作業の例: [2023年度の採択プロジェクト公開時のPR (#144) - GitHub](https://github.com/mitou/jr.mitou.org/pull/144)
 
