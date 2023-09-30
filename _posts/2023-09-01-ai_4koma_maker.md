@@ -71,7 +71,7 @@ description: "「AI 4コマメーカー」は AI があなたの描いた絵を�
 </style>
 <div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
   <p class="nav prev"><a href='bakusoku_agv'>&larr; 前<br>
-    爆速AGV</a></p>
+    新型独立ステアリング機構の開発およびそれを用いたAGVの開発...</a></p>
   <p class="nav next"><a href='umeda_sansei_kai'>次 &rarr;<br>
     人名攻撃力表示装置(梅田三世(改))</a></p>
 </div>
