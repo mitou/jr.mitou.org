@@ -73,7 +73,7 @@ description: "Code Museumは、一般的なエディタからあえて「書く�
   <p class="nav prev"><a href='niwangojs'>&larr; 前<br>
     niwango.js - 動画のコメントでプログラミング可能...</a></p>
   <p class="nav next"><a href='a9n'>次 &rarr;<br>
-    A9N: HALを用いて移植用意性を実現するマイクロカーネル...</a></p>
+    A9N: HALを用いて移植容易性を実現するマイクロカーネル...</a></p>
 </div>
 
 {% include project-navigation.html %}
