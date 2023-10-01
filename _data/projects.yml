@@ -170,6 +170,7 @@
   #final:       # 成果報告会後に追記する
   #final_start: # 成果報告会後に追記する
   link: https://github.com/xpadev-net/niwango.js
+  tags: [ニワン語]
   year: 2023
   mentor_id: yasulab
   creator_ids:
