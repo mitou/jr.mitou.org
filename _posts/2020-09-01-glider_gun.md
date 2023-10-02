@@ -8,10 +8,12 @@ description: "このプロジェクトはLinuxのディストリビューショ�
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'glider_gun'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "このプロジェクトはLinuxのディストリビューショ�
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='skimer'>&larr; 前<br>
+  <p class='nav prev'><a href='skimer' title='SKIMER - LINEで手軽にやること管理'>&larr; 前<br>
     SKIMER - LINEで手軽にやること管理</a></p>
-  <p class="nav next"><a href='align'>次 &rarr;<br>
+  <p class='nav next'><a href='align' title='Align - バッテリー残量からはじまるエモチャット'>次 &rarr;<br>
     Align - バッテリー残量からはじまるエモチャット</a></p>
 </nav>
 

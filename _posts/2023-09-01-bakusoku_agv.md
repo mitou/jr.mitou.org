@@ -8,10 +8,12 @@ description: "「物流2024問題」のように、私たちの生活を支え�
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'bakusoku_agv'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "「物流2024問題」のように、私たちの生活を支え�
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='motion_simulator'>&larr; 前<br>
+  <p class='nav prev'><a href='motion_simulator' title='Motion Simulator - 動き、風が吹き、水が出て、 VRで360度見渡せる椅子に座って仮想現実やゲーム世界での体験をより臨場感のあるものにするデバイス'>&larr; 前<br>
     Motion Simulator - 動き、風が吹き、水が出...</a></p>
-  <p class="nav next"><a href='ai_4koma_maker'>次 &rarr;<br>
+  <p class='nav next'><a href='ai_4koma_maker' title='AI 4コマメーカー'>次 &rarr;<br>
     AI 4コマメーカー</a></p>
 </nav>
 

@@ -8,10 +8,12 @@ description: "キリンエンジンは、仲間と遊びながらオンライン
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'killin_engine'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "キリンエンジンは、仲間と遊びながらオンライン
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='anyget'>&larr; 前<br>
+  <p class='nav prev'><a href='anyget' title='>>Anyget/掲示板形式小説執筆支援ツール'>&larr; 前<br>
     &gt;&gt;Anyget/掲示板形式小説執筆支援ツール</a></p>
-  <p class="nav next"><a href='web_koten'>次 &rarr;<br>
+  <p class='nav next'><a href='web_koten' title='Web個展 - Webであることを活かしたオンライン展示形式の模索'>次 &rarr;<br>
     Web個展 - Webであることを活かしたオンライン展示形式...</a></p>
 </nav>
 

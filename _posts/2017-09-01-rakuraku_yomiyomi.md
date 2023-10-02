@@ -8,10 +8,12 @@ description: "視力が低下したお年寄りから子どもまでが楽にニ
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'rakuraku_yomiyomi'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "視力が低下したお年寄りから子どもまでが楽にニ
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='vamboo'>&larr; 前<br>
+  <p class='nav prev'><a href='vamboo' title='FRPの概念に触れられるビジュアルプログラミング言語の開発'>&larr; 前<br>
     FRPの概念に触れられるビジュアルプログラミング言語の開発</a></p>
-  <p class="nav next"><a href='music_reminder'>次 &rarr;<br>
+  <p class='nav next'><a href='music_reminder' title='個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案'>次 &rarr;<br>
     個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーシ...</a></p>
 </nav>
 

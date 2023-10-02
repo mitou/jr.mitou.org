@@ -8,10 +8,12 @@ description: "梅田三世とは、人の顔を見ると片メガネ型のディ
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'umeda_sansei_kai'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "梅田三世とは、人の顔を見ると片メガネ型のディ
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='ai_4koma_maker'>&larr; 前<br>
+  <p class='nav prev'><a href='ai_4koma_maker' title='AI 4コマメーカー'>&larr; 前<br>
     AI 4コマメーカー</a></p>
-  <p class="nav next"><a href='voice_genius'>次 &rarr;<br>
+  <p class='nav next'><a href='voice_genius' title='Voice Genius - AI x ゆっくり解説'>次 &rarr;<br>
     Voice Genius - AI x ゆっくり解説</a></p>
 </nav>
 

@@ -8,10 +8,12 @@ description: "筐体から設計・自作し、開発者やゲーマーに使っ
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'force_book'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "筐体から設計・自作し、開発者やゲーマーに使っ
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='critica'>&larr; 前<br>
+  <p class='nav prev'><a href='critica' title='critica  - 手軽で直感的なリアクション回収ツール'>&larr; 前<br>
     critica  - 手軽で直感的なリアクション回収ツール</a></p>
-  <p class="nav next"><a href='levo'>次 &rarr;<br>
+  <p class='nav next'><a href='levo' title='Levo - 全く新しい近未来的デザインのエアソフトガン'>次 &rarr;<br>
     Levo - 全く新しい近未来的デザインのエアソフトガン</a></p>
 </nav>
 

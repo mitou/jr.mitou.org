@@ -8,10 +8,12 @@ description: "ティッシュペーパーのような日用品を買い忘れて
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'manage_stock'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "ティッシュペーパーのような日用品を買い忘れて
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='abecobe'>&larr; 前<br>
+  <p class='nav prev'><a href='abecobe' title='abecobe - シンプルかつ難しいパズルゲーム'>&larr; 前<br>
     abecobe - シンプルかつ難しいパズルゲーム</a></p>
-  <p class="nav next"><a href='relay_master'>次 &rarr;<br>
+  <p class='nav next'><a href='relay_master' title='リレーマスター'>次 &rarr;<br>
     リレーマスター</a></p>
 </nav>
 

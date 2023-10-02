@@ -8,10 +8,12 @@ description: "Capitalensは、国会の一次情報をベースに、AIなどの
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'capitalens'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "Capitalensは、国会の一次情報をベースに、AIなどの
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='lescued'>&larr; 前<br>
+  <p class='nav prev'><a href='lescued' title='lescued - AIで好みの曲を生成するシステム'>&larr; 前<br>
     lescued - AIで好みの曲を生成するシステム</a></p>
-  <p class="nav next"><a href='be_free'>次 &rarr;<br>
+  <p class='nav next'><a href='be_free' title='BeFree 話せない人が自由に会話できるアプリ'>次 &rarr;<br>
     BeFree 話せない人が自由に会話できるアプリ</a></p>
 </nav>
 

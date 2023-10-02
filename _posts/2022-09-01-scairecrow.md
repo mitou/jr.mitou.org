@@ -8,10 +8,12 @@ description: "scairecrowはゴミ捨て場に近づくカラスを迎撃する�
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'scairecrow'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "scairecrowはゴミ捨て場に近づくカラスを迎撃する�
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='noxicel'>&larr; 前<br>
+  <p class='nav prev'><a href='noxicel' title='Noxicel - 英作文とAIを用いた英単語学習アプリ'>&larr; 前<br>
     Noxicel - 英作文とAIを用いた英単語学習アプリ</a></p>
-  <p class="nav next"><a href='sanitas'>次 &rarr;<br>
+  <p class='nav next'><a href='sanitas' title='Sanitas 努力量を共有して美容と健康を支えるアプリ'>次 &rarr;<br>
     Sanitas 努力量を共有して美容と健康を支えるアプリ</a></p>
 </nav>
 

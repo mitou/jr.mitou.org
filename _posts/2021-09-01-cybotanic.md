@@ -8,10 +8,12 @@ description: "「植物が生きている」ことを直感的に感じるため
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'cybotanic'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "「植物が生きている」ことを直感的に感じるため
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='mark_sdgs'>&larr; 前<br>
+  <p class='nav prev'><a href='mark_sdgs' title='マークみっけ！for SDGs'>&larr; 前<br>
     マークみっけ！for SDGs</a></p>
-  <p class="nav next"><a href='telport'>次 &rarr;<br>
+  <p class='nav next'><a href='telport' title='TELPort/テルポート：音波による高速通信プロトコル及び、スピーカーとマイクを介した送受信アプリ'>次 &rarr;<br>
     TELPort/テルポート：音波による高速通信プロトコル及び...</a></p>
 </nav>
 

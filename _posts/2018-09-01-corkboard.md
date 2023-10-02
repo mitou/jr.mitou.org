@@ -8,10 +8,12 @@ description: "使用者の記録や感情を蓄え変化する「森」を基調
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'corkboard'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "使用者の記録や感情を蓄え変化する「森」を基調
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='vreath'>&larr; 前<br>
+  <p class='nav prev'><a href='vreath' title='Vreath - 暗号通貨の入手障壁を下げるための、独自合意アルゴリズムの開発'>&larr; 前<br>
     Vreath - 暗号通貨の入手障壁を下げるための、独自合意...</a></p>
-  <p class="nav next"><a href='touch_buy'>次 &rarr;<br>
+  <p class='nav next'><a href='touch_buy' title='TouchBuy - VRにおけるECの在り方の模索'>次 &rarr;<br>
     TouchBuy - VRにおけるECの在り方の模索</a></p>
 </nav>
 

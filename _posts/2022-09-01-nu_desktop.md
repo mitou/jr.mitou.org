@@ -8,10 +8,12 @@ description: "NuDesktopは、デバイスの状態や形態に合わせて変化
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'nu_desktop'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "NuDesktopは、デバイスの状態や形態に合わせて変化
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='hak'>&larr; 前<br>
+  <p class='nav prev'><a href='hak' title='HAK － Hand Action Keyboard － 物理的なタッチを必要としない装着型入力デバイス'>&larr; 前<br>
     HAK － Hand Action Keyboard － 物...</a></p>
-  <p class="nav next"><a href='noxicel'>次 &rarr;<br>
+  <p class='nav next'><a href='noxicel' title='Noxicel - 英作文とAIを用いた英単語学習アプリ'>次 &rarr;<br>
     Noxicel - 英作文とAIを用いた英単語学習アプリ</a></p>
 </nav>
 

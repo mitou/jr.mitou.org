@@ -8,10 +8,12 @@ description: "MotionRapidはCSSパララックスアニメーションを動画�
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'motion_rapid'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "MotionRapidはCSSパララックスアニメーションを動画�
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='r-order'>&larr; 前<br>
+  <p class='nav prev'><a href='r-order' title='R-Order - 学校版UberEatsを実現するデリバリーサービス'>&larr; 前<br>
     R-Order - 学校版UberEatsを実現するデリバリ...</a></p>
-  <p class="nav next"><a href='michishirube'>次 &rarr;<br>
+  <p class='nav next'><a href='michishirube' title='スマート盲導杖『みちしる兵衛』～AI搭載白杖による視覚障害者歩行支援～'>次 &rarr;<br>
     スマート盲導杖『みちしる兵衛』～AI搭載白杖による視覚障害者...</a></p>
 </nav>
 

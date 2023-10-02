@@ -8,10 +8,12 @@ description: "写真を写すことで、そこに写った物体の名前を他
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'camera_translation'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "写真を写すことで、そこに写った物体の名前を他
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='toubans'>&larr; 前<br>
+  <p class='nav prev'><a href='toubans' title='Toubans! -LINEで設定・通知できる当番お知らせサービス'>&larr; 前<br>
     Toubans! -LINEで設定・通知できる当番お知らせサ...</a></p>
-  <p class="nav next"><a href='life_watcher'>次 &rarr;<br>
+  <p class='nav next'><a href='life_watcher' title='Life Watcher - 急変する持病を持つ人のための警報システム'>次 &rarr;<br>
     Life Watcher - 急変する持病を持つ人のための警...</a></p>
 </nav>
 

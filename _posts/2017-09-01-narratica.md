@@ -8,10 +8,12 @@ description: "自然言語処理によって、映画脚本のテキスト分析
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'narratica'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "自然言語処理によって、映画脚本のテキスト分析
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='anki_cookie'>&larr; 前<br>
+  <p class='nav prev'><a href='anki_cookie' title='暗記クッキー'>&larr; 前<br>
     暗記クッキー</a></p>
-  <p class="nav next"><a href='savacs'>次 &rarr;<br>
+  <p class='nav next'><a href='savacs' title='見守りフォトスタンド'>次 &rarr;<br>
     見守りフォトスタンド</a></p>
 </nav>
 

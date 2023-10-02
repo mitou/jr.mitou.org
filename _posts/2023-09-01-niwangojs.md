@@ -8,10 +8,12 @@ description: "ブラウザで「ニワスクリプト」というプログラミ
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'niwangojs'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "ブラウザで「ニワスクリプト」というプログラミ
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='voice_genius'>&larr; 前<br>
+  <p class='nav prev'><a href='voice_genius' title='Voice Genius - AI x ゆっくり解説'>&larr; 前<br>
     Voice Genius - AI x ゆっくり解説</a></p>
-  <p class="nav next"><a href='code_museum'>次 &rarr;<br>
+  <p class='nav next'><a href='code_museum' title='Code Museum - 読むことだけに特化したソースコードエディタ'>次 &rarr;<br>
     Code Museum - 読むことだけに特化したソースコー...</a></p>
 </nav>
 

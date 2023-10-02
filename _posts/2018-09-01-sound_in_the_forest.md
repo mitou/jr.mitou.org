@@ -8,10 +8,12 @@ description: "複数のスマートフォン上のウェブブラウザをリア
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'sound_in_the_forest'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "複数のスマートフォン上のウェブブラウザをリア
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='memory_capsule'>&larr; 前<br>
+  <p class='nav prev'><a href='memory_capsule' title='メモリーカプセル - カプセルを通して繋がるSNS'>&larr; 前<br>
     メモリーカプセル - カプセルを通して繋がるSNS</a></p>
-  <p class="nav next"><a href='toubans'>次 &rarr;<br>
+  <p class='nav next'><a href='toubans' title='Toubans! -LINEで設定・通知できる当番お知らせサービス'>次 &rarr;<br>
     Toubans! -LINEで設定・通知できる当番お知らせサ...</a></p>
 </nav>
 

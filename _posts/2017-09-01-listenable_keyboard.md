@@ -8,10 +8,12 @@ description: "日本語、英語、中国語の3言語で利用できる、音�
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'listenable_keyboard'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "日本語、英語、中国語の3言語で利用できる、音�
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='draw_code'>&larr; 前<br>
+  <p class='nav prev'><a href='draw_code' title='DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜'>&larr; 前<br>
     DrawCode　〜ブロックをつなげて自由にHTMLを描こう...</a></p>
-  <p class="nav next"><a href='smile_iot'>次 &rarr;<br>
+  <p class='nav next'><a href='smile_iot' title='SmileI/OT'>次 &rarr;<br>
     SmileI/OT</a></p>
 </nav>
 

@@ -8,10 +8,12 @@ description: "『みちしる兵衛』は、独自の機械学習モデルに基
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'michishirube'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "『みちしる兵衛』は、独自の機械学習モデルに基
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='motion_rapid'>&larr; 前<br>
+  <p class='nav prev'><a href='motion_rapid' title='Motion Rapid - 動画編集ソフトのようなUIでCSSアニメーションを作成するツール'>&larr; 前<br>
     Motion Rapid - 動画編集ソフトのようなUIでC...</a></p>
-  <p class="nav next"><a href='hak'>次 &rarr;<br>
+  <p class='nav next'><a href='hak' title='HAK － Hand Action Keyboard － 物理的なタッチを必要としない装着型入力デバイス'>次 &rarr;<br>
     HAK － Hand Action Keyboard － 物...</a></p>
 </nav>
 

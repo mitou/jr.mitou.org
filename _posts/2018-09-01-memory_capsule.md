@@ -8,10 +8,12 @@ description: "場所に紐付いて、仮想カプセルを埋め、それを掘
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'memory_capsule'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "場所に紐付いて、仮想カプセルを埋め、それを掘
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='robot_soccer'>&larr; 前<br>
+  <p class='nav prev'><a href='robot_soccer' title='強化学習を用いたロボットサッカーシミュレーション'>&larr; 前<br>
     強化学習を用いたロボットサッカーシミュレーション</a></p>
-  <p class="nav next"><a href='sound_in_the_forest'>次 &rarr;<br>
+  <p class='nav next'><a href='sound_in_the_forest' title='Sound in the forest - 複数のスマートフォンによる「動く音」の表現'>次 &rarr;<br>
     Sound in the forest - 複数のスマートフ...</a></p>
 </nav>
 

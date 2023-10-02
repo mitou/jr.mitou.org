@@ -8,10 +8,12 @@ description: "VR絵本メーカーは、 VRで体験できる世界やストー�
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'vr_picture_book_maker'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "VR絵本メーカーは、 VRで体験できる世界やストー�
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='smart_pen'>&larr; 前<br>
+  <p class='nav prev'><a href='smart_pen' title='スマートペン'>&larr; 前<br>
     スマートペン</a></p>
-  <p class="nav next"><a href='voice_commander'>次 &rarr;<br>
+  <p class='nav next'><a href='voice_commander' title='Voice Commander ～命令×ポーズ×チェス～'>次 &rarr;<br>
     Voice Commander ～命令×ポーズ×チェス～</a></p>
 </nav>
 

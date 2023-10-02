@@ -8,10 +8,12 @@ description: "Voice Geniusは最近話題のChatGPTなどのAIを用い、完全
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'voice_genius'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "Voice Geniusは最近話題のChatGPTなどのAIを用い、完全
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='umeda_sansei_kai'>&larr; 前<br>
+  <p class='nav prev'><a href='umeda_sansei_kai' title='人名攻撃力表示装置(梅田三世(改))'>&larr; 前<br>
     人名攻撃力表示装置(梅田三世(改))</a></p>
-  <p class="nav next"><a href='niwangojs'>次 &rarr;<br>
+  <p class='nav next'><a href='niwangojs' title='niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン'>次 &rarr;<br>
     niwango.js - 動画のコメントでプログラミング可能...</a></p>
 </nav>
 

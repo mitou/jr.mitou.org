@@ -8,10 +8,12 @@ description: "Motion SimulatorはユーザーがVRゴーグルをつけて6自�
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'motion_simulator'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "Motion SimulatorはユーザーがVRゴーグルをつけて6自�
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='hato'>&larr; 前<br>
+  <p class='nav prev'><a href='hato' title='Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム'>&larr; 前<br>
     Hopefully Automatic Train Oper...</a></p>
-  <p class="nav next"><a href='bakusoku_agv'>次 &rarr;<br>
+  <p class='nav next'><a href='bakusoku_agv' title='新型独立ステアリング機構の開発およびそれを用いたAGVの開発'>次 &rarr;<br>
     新型独立ステアリング機構の開発およびそれを用いたAGVの開発...</a></p>
 </nav>
 

@@ -8,10 +8,12 @@ description: "センサが埋め込まれた特殊なバトンを持って走る
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'relay_master'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "センサが埋め込まれた特殊なバトンを持って走る
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='manage_stock'>&larr; 前<br>
+  <p class='nav prev'><a href='manage_stock' title='ManageStock - 家庭向け在庫管理アプリ'>&larr; 前<br>
     ManageStock - 家庭向け在庫管理アプリ</a></p>
-  <p class="nav next"><a href='virtual_presents'>次 &rarr;<br>
+  <p class='nav next'><a href='virtual_presents' title='VirtualPresents - 仮想世界で用いるWebサービス'>次 &rarr;<br>
     VirtualPresents - 仮想世界で用いるWebサ...</a></p>
 </nav>
 

@@ -8,10 +8,12 @@ description: "CrafterePostは、Minecraftの建築物を3D共有できるWebサ�
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'craftere_post'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "CrafterePostは、Minecraftの建築物を3D共有できるWebサ�
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='study_rec'>&larr; 前<br>
+  <p class='nav prev'><a href='study_rec' title='StudyRec - タイムラプスやポモドーロ・タイマーを使って勉強時間を管理する学習アプリ'>&larr; 前<br>
     StudyRec - タイムラプスやポモドーロ・タイマーを使...</a></p>
-  <p class="nav next"><a href='fluxel'>次 &rarr;<br>
+  <p class='nav next'><a href='fluxel' title='Fluxel - 磁気浮上式リニア電磁加速投射機の開発と応用'>次 &rarr;<br>
     Fluxel - 磁気浮上式リニア電磁加速投射機の開発と応用...</a></p>
 </nav>
 

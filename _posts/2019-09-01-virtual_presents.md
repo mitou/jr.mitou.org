@@ -8,10 +8,12 @@ description: "仮想世界を彩るためのWebサービスのあり方を模索
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'virtual_presents'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "仮想世界を彩るためのWebサービスのあり方を模索
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='relay_master'>&larr; 前<br>
+  <p class='nav prev'><a href='relay_master' title='リレーマスター'>&larr; 前<br>
     リレーマスター</a></p>
-  <p class="nav next"><a href='edge_guided_anime_characters_generation'>次 &rarr;<br>
+  <p class='nav next'><a href='edge_guided_anime_characters_generation' title='Edge-guided Anime Characters Generation'>次 &rarr;<br>
     Edge-guided Anime Characters G...</a></p>
 </nav>
 

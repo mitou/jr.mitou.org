@@ -8,10 +8,12 @@ description: "小学生が遊びながら英単語を学べる、赤外線通信
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'lets_eigo_puzzle'" | first %}
 
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-{% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-{% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-{% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+<div style='margin-top: 50px; margin-bottom: 30px;'>
+  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+</div>
 
 {{ pj.description }}
 
@@ -64,9 +66,9 @@ description: "小学生が遊びながら英単語を学べる、赤外線通信
 {% endif %}
 
 <nav>
-  <p class="nav prev"><a href='utips'>&larr; 前<br>
+  <p class='nav prev'><a href='utips' title='UTIPS - 家事の情報共有サービス'>&larr; 前<br>
     UTIPS - 家事の情報共有サービス</a></p>
-  <p class="nav next"><a href='smile_meeting_room'>次 &rarr;<br>
+  <p class='nav next'><a href='smile_meeting_room' title='スマイル会議室 - IoTで会議室の効率的な利用を'>次 &rarr;<br>
     スマイル会議室 - IoTで会議室の効率的な利用を</a></p>
 </nav>
 
