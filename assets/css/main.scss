@@ -490,11 +490,25 @@ footer{
     padding: 8px;
   }
   ul{
-
     @media screen and (max-width:$phone-width) {
       list-style: none;
       padding: 0;
     }
+  }
+
+  nav {
+    .prev { display: table-cell; color: white; text-align: left;   }
+    .toc  { display: table-cell; color: white; text-align: center; }
+    .next { display: table-cell; color: white; text-align: right;  }
+    a:link, .nav a:visited { color: white; }
+    display: table;
+    border-collapse: separate;
+    border-spacing: 15px 0;
+    font-size: 70%;
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 100px;
+    background-color: $main-color;
   }
 }
 
