@@ -28,10 +28,12 @@ projects.each_with_index do |project, index|
 
     {% assign pj = site.data.projects | where_exp: "pj", "pj.id == '#{project[:id]}'" | first %}
 
-    <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像' loading='lazy'
-    {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-    {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
-    {% endif %}                 style='margin-bottom: 10px; border-radius: 6px;' />
+    <div style='margin-top: 50px; margin-bottom: 30px;'>
+      <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
+      {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
+      {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+      {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
+    </div>
 
     {{ pj.description }}
 
@@ -84,9 +86,9 @@ projects.each_with_index do |project, index|
     {% endif %}
 
     <nav>
-      <p class="nav prev"><a href='#{prev_project[:id]}'>&larr; 前<br>
+      <p class='nav prev'><a href='#{prev_project[:id]}' title='#{prev_project[:title]}'>&larr; 前<br>
         #{ t.truncate(prev_project[:title]) }</a></p>
-      <p class="nav next"><a href='#{next_project[:id]}'>次 &rarr;<br>
+      <p class='nav next'><a href='#{next_project[:id]}' title='#{next_project[:title]}'>次 &rarr;<br>
         #{ t.truncate(next_project[:title]) }</a></p>
     </nav>
 
