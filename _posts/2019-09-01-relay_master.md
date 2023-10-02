@@ -63,17 +63,11 @@ description: "センサが埋め込まれた特殊なバトンを持って走る
 <a href="https://youtu.be/{{ pj.final }}{% if pj.final_start %}?t={{ pj.final_start }}{% endif %}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
 {% endif %}
 
-<style type="text/css">
-  .prev { display: table-cell; color: white; text-align: left;   }
-  .toc  { display: table-cell; color: white; text-align: center; }
-  .next { display: table-cell; color: white; text-align: right;  }
-  .nav a:link, .nav a:visited { color: white; }
-</style>
-<div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
+<nav>
   <p class="nav prev"><a href='manage_stock'>&larr; 前<br>
     ManageStock - 家庭向け在庫管理アプリ</a></p>
   <p class="nav next"><a href='virtual_presents'>次 &rarr;<br>
     VirtualPresents - 仮想世界で用いるWebサ...</a></p>
-</div>
+</nav>
 
 {% include project-navigation.html %}

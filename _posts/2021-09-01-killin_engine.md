@@ -63,17 +63,11 @@ description: "キリンエンジンは、仲間と遊びながらオンライン
 <a href="https://youtu.be/{{ pj.final }}{% if pj.final_start %}?t={{ pj.final_start }}{% endif %}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
 {% endif %}
 
-<style type="text/css">
-  .prev { display: table-cell; color: white; text-align: left;   }
-  .toc  { display: table-cell; color: white; text-align: center; }
-  .next { display: table-cell; color: white; text-align: right;  }
-  .nav a:link, .nav a:visited { color: white; }
-</style>
-<div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
+<nav>
   <p class="nav prev"><a href='anyget'>&larr; 前<br>
     &gt;&gt;Anyget/掲示板形式小説執筆支援ツール</a></p>
   <p class="nav next"><a href='web_koten'>次 &rarr;<br>
     Web個展 - Webであることを活かしたオンライン展示形式...</a></p>
-</div>
+</nav>
 
 {% include project-navigation.html %}

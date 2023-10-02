@@ -63,17 +63,11 @@ description: "カラオケで歌った曲、見た映画等の経験に基づい
 <a href="https://youtu.be/{{ pj.final }}{% if pj.final_start %}?t={{ pj.final_start }}{% endif %}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
 {% endif %}
 
-<style type="text/css">
-  .prev { display: table-cell; color: white; text-align: left;   }
-  .toc  { display: table-cell; color: white; text-align: center; }
-  .next { display: table-cell; color: white; text-align: right;  }
-  .nav a:link, .nav a:visited { color: white; }
-</style>
-<div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
+<nav>
   <p class="nav prev"><a href='rakuraku_yomiyomi'>&larr; 前<br>
     らくらく読み読み</a></p>
   <p class="nav next"><a href='papa'>次 &rarr;<br>
     学校現場における情報共有やスケジューリングを支援するウェブア...</a></p>
-</div>
+</nav>
 
 {% include project-navigation.html %}

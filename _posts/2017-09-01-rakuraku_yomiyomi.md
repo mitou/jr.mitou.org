@@ -63,17 +63,11 @@ description: "視力が低下したお年寄りから子どもまでが楽にニ
 <a href="https://youtu.be/{{ pj.final }}{% if pj.final_start %}?t={{ pj.final_start }}{% endif %}" target="_blank" rel="noopener" class="button">YouTube で見る</a>
 {% endif %}
 
-<style type="text/css">
-  .prev { display: table-cell; color: white; text-align: left;   }
-  .toc  { display: table-cell; color: white; text-align: center; }
-  .next { display: table-cell; color: white; text-align: right;  }
-  .nav a:link, .nav a:visited { color: white; }
-</style>
-<div style="display: table; border-collapse: separate; border-spacing: 15px 0; font-size: 70%; width: 100%; padding: 10px 10px; margin-top: 100px; background-color: rgb(40, 161, 58);">
+<nav>
   <p class="nav prev"><a href='vamboo'>&larr; 前<br>
     FRPの概念に触れられるビジュアルプログラミング言語の開発</a></p>
   <p class="nav next"><a href='music_reminder'>次 &rarr;<br>
     個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーシ...</a></p>
-</div>
+</nav>
 
 {% include project-navigation.html %}
