@@ -51,7 +51,7 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 必要に応じて、開発場所及び工作機材の援助を行います。
 
 ### 未踏ジュニアスーパークリエータの認定 {#award-outstanding-performance}
-特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。[慶應義塾大学SFC](https://www.sfc.keio.ac.jp/news/012903.html)や[東京都立大学](https://cs.sd.tmu.ac.jp/admission_office.html#:~:text=未踏ジュニア)、[近畿大学](https://newscast.jp/news/1055602)に推薦枠で出願できます。
+特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。[慶應義塾大学SFC](https://www.sfc.keio.ac.jp/news/012903.html)や[東京都立大学](https://cs.sd.tmu.ac.jp/admission_office.html)、[近畿大学](https://newscast.jp/news/1055602)に推薦枠で出願できます。
 
 <!--(追記: 東京都立大学の推薦枠は<a href='https://twitter.com/mamoruk/status/1318484847317315584'>採択者全員に緩和</a>されました)-->
 
