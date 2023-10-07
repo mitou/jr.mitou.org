@@ -66,8 +66,8 @@ description: "「AI 4コマメーカー」は AI があなたの描いた絵を�
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='bakusoku_agv' title='新型独立ステアリング機構の開発およびそれを用いたAGVの開発'>&larr; 前<br>
-    新型独立ステアリング機構の開発およびそれを用いたAGVの開発...</a></p>
+  <p class='nav prev'><a href='bakusoku_agv' title='新型独立ステアリング機構の開発およびそれを用いたAGVモジュールの開発'>&larr; 前<br>
+    新型独立ステアリング機構の開発およびそれを用いたAGVモジュ...</a></p>
   <p class='nav next'><a href='umeda_sansei_kai' title='人名攻撃力表示装置(梅田三世(改))'>次 &rarr;<br>
     人名攻撃力表示装置(梅田三世(改))</a></p>
 </nav>

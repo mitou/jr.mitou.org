@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "新型独立ステアリング機構の開発およびそれを用いたAGVの開発"
+title: "新型独立ステアリング機構の開発およびそれを用いたAGVモジュールの開発"
 permalink: /projects/2023/bakusoku_agv
 thumbnail: /assets/img/thumbnails/2023/bakusoku_agv.webp
-description: "「物流2024問題」のように、私たちの生活を支えるロジスティクスが逼迫している中、このPJで開発しているような高速で小回りの効く独立ステアリング機構を搭載したAGVは、物流の効率化に寄与すると期待されます。設計にはトポロジー最適化などを用いて工夫しています。"
+description: "「物流2024問題」のように、私たちの生活を支えるロジスティクスが逼迫している中、このPJで開発しているような高速で小回りの効く独立ステアリング機構を搭載したAGVは、物流の効率化に寄与すると期待されます。設計にはトポロジー最適化やモジュラー設計を取り入れるなど工夫しています。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'bakusoku_agv'" | first %}

@@ -68,8 +68,8 @@ description: "Motion SimulatorはユーザーがVRゴーグルをつけて6自�
 <nav>
   <p class='nav prev'><a href='hato' title='Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム'>&larr; 前<br>
     Hopefully Automatic Train Oper...</a></p>
-  <p class='nav next'><a href='bakusoku_agv' title='新型独立ステアリング機構の開発およびそれを用いたAGVの開発'>次 &rarr;<br>
-    新型独立ステアリング機構の開発およびそれを用いたAGVの開発...</a></p>
+  <p class='nav next'><a href='bakusoku_agv' title='新型独立ステアリング機構の開発およびそれを用いたAGVモジュールの開発'>次 &rarr;<br>
+    新型独立ステアリング機構の開発およびそれを用いたAGVモジュ...</a></p>
 </nav>
 
 {% include project-navigation.html %}
