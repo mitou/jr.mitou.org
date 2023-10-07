@@ -85,7 +85,11 @@
 
 - id: hato
   title: "Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム"
-  description: HATOは鉄道模型の世界に没入するためのNゲージ列車全自動運行システムです。メインプログラムは、センサ郡と制御電源を独自USB上プロトコルHLCPを介して制御し、車両の位置等を検知し、事故を回避します。運転指令所にあるような列車制御UIを実装することで、ユーザの鉄道模型世界への没入度を高めます。
+  description: |
+    HATOは鉄道模型の世界に没入するためのNゲージ列車全自動運行システムです。
+    メインプログラムは、センサ郡と制御電源を独自USB上プロトコルHLCPを介して制御し、車両の位置等を検知し、事故を回避します。
+    運転指令所にあるような列車制御UIを実装することで、ユーザの鉄道模型世界への没入度を高めます。
+    An <a href='https://https://hato.nyiyui.ca/README-en.html'>English website</a> is also available.
   thumbnail: hato.webp
   promotion: rcGFUpEQFpU # 日本語版
   #final:       # 成果報告会後に追記する
