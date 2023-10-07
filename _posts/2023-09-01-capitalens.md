@@ -66,8 +66,8 @@ description: "Capitalensは、国会の一次情報をベースに、AIなどの
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='lescued' title='lescued - AIで好みの曲を生成するシステム'>&larr; 前<br>
-    lescued - AIで好みの曲を生成するシステム</a></p>
+  <p class='nav prev'><a href='3d_printed_brushless_motor' title='3Dプリンタで作る自作モーター'>&larr; 前<br>
+    3Dプリンタで作る自作モーター</a></p>
   <p class='nav next'><a href='be_free' title='BeFree 話せない人が自由に会話できるアプリ'>次 &rarr;<br>
     BeFree 話せない人が自由に会話できるアプリ</a></p>
 </nav>

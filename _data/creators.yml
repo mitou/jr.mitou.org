@@ -27,6 +27,12 @@
   year: 2023
   #is_spc: true # 認定されたらコメントアウトする
 
+- id: jumpei_saito
+  project_id: 3d_printed_brushless_motor
+  name: 齋藤 淳平
+  year: 2023
+  #is_spc: true # 認定されたらコメントアウトする
+
 - id: yuta_kobayashi
   project_id: capitalens
   name: 小林 優太
