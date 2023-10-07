@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "lescued - AIで好みの曲を生成するシステム"
-permalink: /projects/2023/lescued
-thumbnail: /assets/img/thumbnails/2023/lescued.webp
-description: "lescuedはユーザーが「聴きたい曲」を言語化不要で生成する作曲AIです。これはAIがユーザーの好みを学習していき、その過程で生成した曲をユーザーに提供することによって実現させています。この仕組みをアプリとして提供することで、自分が必要としている曲に直接アクセスできるようになります。"
+title: "3Dプリンタで作る自作モーター"
+permalink: /projects/2023/3d_printed_brushless_motor
+thumbnail: /assets/img/thumbnails/2023/3d_printed_brushless_motor.webp
+description: "このプロジェクトの最終目標は、モーター選定に自作という選択肢を増やし、アイデアをより的確に実現できるようにすることです。そのための第一歩として、3Dプリント部品でブラシレスモーターを作り、制御回路を自作し、モーターを回すことに成功しました。今後は、高効率化や情報公開を進め、モーター自作文化を作ります。"
 ---
 
-{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'lescued'" | first %}
+{% assign pj = site.data.projects | where_exp: "pj", "pj.id == '3d_printed_brushless_motor'" | first %}
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
   <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
@@ -66,10 +66,10 @@ description: "lescuedはユーザーが「聴きたい曲」を言語化不要�
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='stask' title='Stask - 学生の課題進捗を助けるアプリ'>&larr; 前<br>
-    Stask - 学生の課題進捗を助けるアプリ</a></p>
-  <p class='nav next'><a href='3d_printed_brushless_motor' title='3Dプリンタで作る自作モーター'>次 &rarr;<br>
-    3Dプリンタで作る自作モーター</a></p>
+  <p class='nav prev'><a href='lescued' title='lescued - AIで好みの曲を生成するシステム'>&larr; 前<br>
+    lescued - AIで好みの曲を生成するシステム</a></p>
+  <p class='nav next'><a href='capitalens' title='Capitalens'>次 &rarr;<br>
+    Capitalens</a></p>
 </nav>
 
 {% include project-navigation.html %}
