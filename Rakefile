@@ -25,6 +25,7 @@ task test: [:build] do
       'http://www.ecomaki.com/', # URL should be perfect-matching
       %r{^http://iql-lab.de},    # Use REGEX to ignore URLs in a domain
       %r{^http://nhiro.org},
+      %r{^https://twitter.com},  # Skip testing Twitter URLs
     ],
     #ignore_status_codes: [0, 500, 999],
   }
