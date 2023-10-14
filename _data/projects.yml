@@ -84,7 +84,7 @@
   - yuta_kobayashi
 
 - id: be_free
-  title: BeFree 話せない人が自由に会話できるアプリ
+  title: Be Free - 話せない人が自由に会話できるアプリ
   description: Be Freeは、声で会話ができない人のためのアプリケーションです。会話シーンを選んで、相手の声を音声認識。返事の組み立てをAIがサポートし、声で返答します。声のない生活を送る人にとって、役に立つサービスのヒントになったらいいと考えプロジェクトを進めています。
   thumbnail: be_free.webp
   #promotion:   # YouTube上にPVがあれば追記する
