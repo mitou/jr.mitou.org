@@ -25,9 +25,9 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 <br>
 
 ## 未踏ジュニアとは？ {#mitoujr}
-独創的なアイデア、卓越した技術を持つ17歳以下の小中高生や[高専生](https://ja.wikipedia.org/wiki/高等専門学校)などを支援するプログラムです。
+独創的なアイデア、卓越した技術を持つ 17 歳以下の小中高生や[高専生](https://ja.wikipedia.org/wiki/高等専門学校)などを支援するプログラムです。
 
-[未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)という、経産省所管の独立行政法人情報処理推進機構（[IPA](https://www.ipa.go.jp/about/index.html)）が主催している、優秀な25歳以下の若者を支援するプログラムがあります。この未踏事業の修了生を中心に設立・運営されているのが、**未踏ジュニア**です。
+[未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)という、経産省所管の独立行政法人情報処理推進機構（[IPA](https://www.ipa.go.jp/about/index.html)）が主催している、優秀な 25 歳以下の若者を支援するプログラムがあります。この未踏事業の修了生を中心に設立・運営されているのが、**未踏ジュニア**です。
 
 {% assign total_applications = 0 %}
 {% assign total_creators     = 0 %}
@@ -37,6 +37,10 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 {% endfor %}
 
 2016年から未踏ジュニアが始まり、これまでに **{{ total_applications }} 件の応募、{{ total_creators }} 名のクリエータを支援・採択**してきました。
+
+<div class="cover-photo">
+  <img src="/assets/img/2022_cover.min.webp" data-src="/assets/img/2022_cover.webp" alt="2022年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
+</div>
 
 <div class='flex'>
   <a href='/final'    class='button'>最新の採択例を見る</a>
@@ -48,21 +52,37 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 ## 採択者への支援 {#supports}
 未踏ジュニアに応募し、採択されると、採択者（クリエータ）は以下の支援を得られます。
 
-### メンタリングの提供 {#mentoring-support}
+<h3 id='mentoring-support'>
+  <a href='#mentoring-support'><i class="fas fa-graduation-cap green"></i></a>
+  メンタリングの提供
+</h3>
+
 担当の[メンター](/mentors)をはじめ、未踏事業の修了生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
 
 <div class="tips">期間中は、毎週１時間ほど、オンラインでメンターと話せる機会があります。プログラミングの質問やプロジェクトの方針など、なんでも相談できます。</div>
 <a href="/mentors" class="button">メンター紹介を見る</a>
 
-### 開発資金の援助 {#financial-support}
-採択された各グループへ、50万円を上限として開発資金の援助を行います。
+<h3 id='financial-support'>
+  <a href='#financial-support'><i class="fas fa-badge-dollar green"></i></a>
+  開発資金の援助
+</h3>
 
-例えばハードウェア開発で機材・資材を使いたい場面や、ソフトウェア開発で有料のAPI・サーバーを使いたい場面などで、50万円まで使える仕組みになっています。
+採択された各グループへ、50 万円を上限として開発資金の援助を行います。
 
-### 開発場所の援助 {#development-support}
+例えばハードウェア開発で機材・資材を使いたい場面や、ソフトウェア開発で有料のAPI・サーバーを使いたい場面などで、50 万円まで使える仕組みになっています。
+
+<h3 id='development-support'>
+  <a href='#development-support'><i class="fas fa-gear green"></i></a>
+  開発場所の援助
+</h3>
+
 必要に応じて、開発場所及び工作機材の援助を行います。
 
-### 未踏ジュニアスーパークリエータの認定 {#award-outstanding-performance}
+<h3 id='award-outstanding-performance'>
+  <a href='#award-outstanding-performance'><i class="fas fa-link green"></i></a>
+  未踏ジュニアスーパークリエータの認定
+</h3>
+
 特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。[慶應義塾大学SFC](https://www.sfc.keio.ac.jp/news/012903.html)や[東京都立大学](https://cs.sd.tmu.ac.jp/admission_office.html)、[近畿大学](https://newscast.jp/news/1055602)に推薦枠で出願できます。
 
 <!--(追記: 東京都立大学の推薦枠は<a href='https://twitter.com/mamoruk/status/1318484847317315584'>採択者全員に緩和</a>されました)-->
@@ -71,11 +91,28 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 <br>
 
-## 運営団体について {#organizer}
-[一般社団法人未踏](https://www.mitou.org/)という、[未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)の修了生を中心とした団体が運営をしています。未踏ジュニアは、その中のプログラミング教育研究会というグループで取り組んでいる事業となっています。
+## 応募〜採択の流れ {#guideline}
+未踏ジュニアでは応募から採択までの流れや、応募書類（提案書）を書くコツ、採択者の体験談なども公開しています。もし興味があればぜひチェックしてみてください。
 
-### 未踏関係者インタビュー {#interviews}
-未踏関係者に『**なんで未踏?**』という質問をしてみました。未踏について一歩深く知るキッカケになれば嬉しいです <i class="far fa-laugh-squint" aria-hidden="true" /> <i class="far fa-thumbs-up" aria-hidden="true" />
+<div class='flex'>
+  <a href="/guideline" class="button">採択までの流れを見る</a>
+  <a href="/download"  class="button">提案書・体験談を見る</a>
+</div>
+
+## 運営団体について {#organizer}
+未踏ジュニアは、[未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)の修了生などが集まる一般社団法人未踏（[未踏社団](https://www.mitou.org/)）によって運営されています。未踏ジュニアは、未踏社団の取り組んでいる事業の１つです。
+
+<div class='flex'>
+  <a href="https://www.ipa.go.jp/jinzai/mitou/about.html" class="button">IPA 未踏事業を見る</a>
+  <a href="https://www.mitou.org/"  class="button">未踏社団を見る</a>
+</div>
+
+<h3 id='interviews'>
+  <a href='#interviews'><i class="fa-brands fa-youtube green"></i></a>
+  推薦のことば
+</h3>
+
+未踏関係者に『**なんで未踏?**』という質問をしてみました。未踏ジュニアについて一歩深く知るキッカケになれば嬉しいです <i class="far fa-laugh-squint" aria-hidden="true" /> <i class="far fa-thumbs-up" aria-hidden="true" />
 
 <div class="youtube" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
   <meta itemprop="isFamilyFriendly"     content="True">
@@ -95,16 +132,11 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 <br>
 
-### 応募〜採択までの流れ {#guideline}
-未踏ジュニアでは応募から採択までの流れや、応募書類（提案書）を書くコツ、採択者の体験談なども公開しています。もし興味があればぜひチェックしてみてください。
-
-<div class='flex'>
-  <a href="/guideline" class="button">採択までの流れを見る</a>
-  <a href="/download"  class="button">提案書・体験談を見る</a>
-</div>
-
-
-### 他の支援プログラム {#opportunities}
-<a href='https://www.mitou.org/'>未踏社団</a>が運営する未踏ジュニア以外にも、あなたの作りたいもの（<a href='/download'>提案書</a>）を支援してくれるプログラムがあります。こちらもぜひ！
+### 他の支援プログラム紹介 {#opportunities}
+未踏ジュニアは 17 歳以下を対象として支援しておりますが、24 歳以下を対象とした『未踏事業』や、**年齢制限の無い**『未踏アドバンスト』『未踏ターゲット』など、あなたの作りたいもの（[提案書](/download)）を支援してくれるプログラムがあります。コチラもぜひ！
 
 <a href="/opportunities" class="button">他の支援プログラムを見る</a>
+
+<div class="tips">17 歳以下のクリエータが、24 歳以下を対象とした『未踏事業』に採択された例もあります。また未踏事業への応募資料（提案書）を、未踏ジュニアにそのまま再利用することも可能です。</div>
+
+<br>
