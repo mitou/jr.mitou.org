@@ -47,7 +47,7 @@ this_year: 2023
     <div class="service-one">
       <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/mentor.svg" alt="メンター" class="service-img lazyload" loading="lazy">
       <h3>メンタリング</h3>
-      <p>未踏卒業生らを中心に、各界で活躍する<a href="#mentors">エンジニアや専門家</a>からサポートが得られます</p>
+      <p>未踏修了生らを中心に、各界で活躍する<a href="#mentors">エンジニアや専門家</a>からサポートが得られます</p>
     </div>
     <div class="service-one">
       <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/money.svg" alt="資金" class="service-img lazyload" loading="lazy">
@@ -131,7 +131,7 @@ this_year: 2023
 
 <section id="mentors">
   <p class="subtitle">皆さんのプロジェクトを支援するメンター陣</p>
-  <h2 class="s-title">未踏卒業生らを中心に、各界で活躍する<br>エンジニアや専門家がサポートします</h2>
+  <h2 class="s-title">未踏修了生らを中心に、各界で活躍する<br>エンジニアや専門家がサポートします</h2>
   <div class="mentor-list flex">
     {% for mentor in site.data.mentors %}
       {% if mentor.is_alumni %} {% continue %} {% endif %}
