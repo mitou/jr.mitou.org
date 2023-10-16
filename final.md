@@ -50,7 +50,7 @@ description: 未踏ジュニアに採択されたクリエータの成果一覧�
 </div>
 
 <!--
-<div style='display: flex; flex-wrap: wrap'>
+<div class='flex'>
   <a class="button" target="_blank" rel='noopener' href="https://www.google.com/calendar/render?action=TEMPLATE&text=2021年度未踏ジュニア成果報告会&dates=20211103T100000/20211103T180000&location=https://jr.mitou.org/final&trp=true&details=タイムテーブルなどはこちら: https://jr.mitou.org/final&trp=undefined&trp=true&sprop=https://jr.mitou.org/final">Google カレンダーに追加</a>
   <a class="button" target="_blank" rel='noopener' href="https://fb.me/e/237iDG0Ne">Facebook イベント</a>
 </div>

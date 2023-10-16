@@ -19,7 +19,7 @@ description: 未踏ジュニア以外にも、あなたの「提案書」を評�
 
 <hr style='margin: 100px auto 100px auto;'>
 
-<div style='display: flex; flex-wrap: wrap'>
+<div class='flex'>
   <a href="https://twitter.com/hashtag/%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2?f=live" class="button" target="_blank" rel='noopener'>ハッシュタグを見る</a>
 
   <a href="https://twitter.com/intent/tweet?hashtags=%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&&url=https://jr.mitou.org/opportunities&lang=jp&related=mitoujr" class="button" target="_blank" rel='noopener'>ツイートする</a>

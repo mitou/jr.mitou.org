@@ -276,7 +276,7 @@ Highcharts.chart('rates', {
     {% assign total_applications = total_applications | plus: stat.applications %}
     {% assign total_projects     = total_projects     | plus: stat.projects     %}
     {% assign total_creators     = total_creators     | plus: stat.creators     %}
-    {% endfor %}
+  {% endfor %}
   <ul>
     <li>これまでの累計応募件数: {{ total_applications }} 件</li>
     <li>採択したプロジェクト数: {{ total_projects     }} 件</li>

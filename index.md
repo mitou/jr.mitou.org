@@ -76,7 +76,7 @@ this_year: 2023
 <!--
 <section id="sponsor-logos">
   <h2 class="heading-line"><i class="far fa-handshake green"></i> スポンサー</h2>
-  <div style='display: flex; flex-wrap: wrap'>
+  <div class='flex'>
     {% for sponsor in site.data.sponsors %}
     {% unless sponsor.type == 'gold'   or
               sponsor.type == 'silver' or
