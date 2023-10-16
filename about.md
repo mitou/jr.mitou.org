@@ -25,11 +25,23 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 <br>
 
 ## 未踏ジュニアとは？ {#mitoujr}
-独創的なアイデア、卓越した技術を持つ17歳以下の小中高生及び高専生を支援するプログラムです。
+独創的なアイデア、卓越した技術を持つ17歳以下の小中高生や[高専生](https://ja.wikipedia.org/wiki/高等専門学校)などを支援するプログラムです。
 
-[未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)という、経産省所管の独立行政法人情報処理推進機構（IPA）が主催している、優秀な25歳以下の若者を支援するプログラムがあります。そして、その未踏卒業生がボランティアで運営しているのが、**未踏ジュニア**です。
+[未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)という、経産省所管の独立行政法人情報処理推進機構（[IPA](https://www.ipa.go.jp/about/index.html)）が主催している、優秀な25歳以下の若者を支援するプログラムがあります。この未踏事業の修了生を中心に設立・運営されているのが、**未踏ジュニア**です。
 
-<a href="https://www.ipa.go.jp/jinzai/mitou/about.html" class="button">IPA 未踏事業を見る</a>
+{% assign total_applications = 0 %}
+{% assign total_creators     = 0 %}
+{% for stat in site.data.stats %}
+  {% assign total_applications = total_applications | plus: stat.applications %}
+  {% assign total_creators     = total_creators     | plus: stat.creators     %}
+{% endfor %}
+
+2016年から未踏ジュニアが始まり、これまでに **{{ total_applications }} 件の応募、{{ total_creators }} 名のクリエータを支援・採択**してきました。
+
+<div class='flex'>
+  <a href='/final'    class='button'>最新の採択例を見る</a>
+  <a href='/projects' class='button'>過去の採択例を見る</a>
+</div>
 
 <br>
 
@@ -37,9 +49,9 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 未踏ジュニアに応募し、採択されると、採択者（クリエータ）は以下の支援を得られます。
 
 ### メンタリングの提供 {#mentoring-support}
-担当の[メンター](/mentors)をはじめ、未踏卒業生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
+担当の[メンター](/mentors)をはじめ、未踏事業の修了生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
 
-<div class="tips">期間中は、オンラインでメンターとの時間を週に一時間ずつくらい取れる仕組みとなっていて、プログラミングの質問、方針の話でも、なんでも相談できる機会があります。</div>
+<div class="tips">期間中は、毎週１時間ほど、オンラインでメンターと話せる機会があります。プログラミングの質問やプロジェクトの方針など、なんでも相談できます。</div>
 <a href="/mentors" class="button">メンター紹介を見る</a>
 
 ### 開発資金の援助 {#financial-support}
@@ -86,7 +98,7 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 ### 応募〜採択までの流れ {#guideline}
 未踏ジュニアでは応募から採択までの流れや、応募書類（提案書）を書くコツ、採択者の体験談なども公開しています。もし興味があればぜひチェックしてみてください。
 
-<div style='display: flex; flex-wrap: wrap'>
+<div class='flex'>
   <a href="/guideline" class="button">採択までの流れを見る</a>
   <a href="/download"  class="button">提案書・体験談を見る</a>
 </div>
