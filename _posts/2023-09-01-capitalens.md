@@ -68,8 +68,8 @@ description: "Capitalensは、国会の一次情報をベースに、AIなどの
 <nav>
   <p class='nav prev'><a href='3d_printed_brushless_motor' title='3Dプリンタで作る自作モーター'>&larr; 前<br>
     3Dプリンタで作る自作モーター</a></p>
-  <p class='nav next'><a href='be_free' title='BeFree 話せない人が自由に会話できるアプリ'>次 &rarr;<br>
-    BeFree 話せない人が自由に会話できるアプリ</a></p>
+  <p class='nav next'><a href='be_free' title='Be Free - 話せない人が自由に会話できるアプリ'>次 &rarr;<br>
+    Be Free - 話せない人が自由に会話できるアプリ</a></p>
 </nav>
 
 {% include project-navigation.html %}
