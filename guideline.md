@@ -4,8 +4,16 @@ title: 応募の手引き
 description: 未踏ジュニアへの応募から採択までの流れをまとめたページです。
 ---
 
+<br>
+
+本ページでは未踏ジュニアに応募するまでの流れをまとめています。[応募者向けの応援メッセージ](#flow)などもまとめているので、応募時のご参考になれば嬉しいです。
+
 ## 募集要項
 {% include agenda.html %}
+
+<a href='https://prtimes.jp/main/html/searchrlp/company_id/22934' class='button'>これまでの募集告知を見る</a>
+
+<br>
 
 ## 応募から採択までの流れ {#flow}
 
