@@ -1,7 +1,7 @@
 task default: 'test'
 
 desc 'Check JSON format'
-task :check_json_format do
+task check_json_format: [:build] do
   ruby "tests/check_json_format.rb"
 end
 
