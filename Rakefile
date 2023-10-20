@@ -1,5 +1,10 @@
 task default: 'test'
 
+desc 'Check JSON format'
+task :check_json_format do
+  ruby "tests/check_json_format.rb"
+end
+
 # Upsert individual project page by data
 desc 'Upsert project page by project data'
 task :upsert_project_pages_by_data do
@@ -12,8 +17,9 @@ end
 require 'html-proofer'
 task test: [:build] do
   options = {
-    checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon'],
+    checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'Jsons'],
     allow_hash_href:  true,
+    assume_extension: '.json',
     disable_external: ENV['TEST_EXTERNAL_LINKS'] != 'true',
     enforce_https:    true,
 
