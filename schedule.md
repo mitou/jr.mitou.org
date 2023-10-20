@@ -29,7 +29,7 @@ thumbnail: /assets/img/thumbnails/schedule.webp
 {% include arrow.html %}
 
 ## 中間合宿（8月ごろ）
-<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/chukan.svg" alt="中間" width="50%" class="post-photo lazyload">
+<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/chukan.svg" alt="中間合宿でメンターなどに相談している様子のイラスト" width="50%" class="post-photo lazyload">
 採択者全員が集まる２回目の合宿です。ある程度プロジェクトが進んだ時点でフィードバックを得られる、貴重な機会です。
 
 <small>

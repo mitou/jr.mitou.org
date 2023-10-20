@@ -108,9 +108,9 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 
 ## 応募〜採択の流れ {#guideline}
-未踏ジュニアでは応募から採択までの流れや、応募書類（提案書）を書くコツ、採択者の体験談なども公開しています。もし興味があればぜひチェックしてみてください。
+未踏ジュニアでは応募から採択までの流れや、応募書類（提案書）を書くコツ、採択者の体験談なども公開しています。提案書を良くするコツなども公開しているので、ぜひチェックしてみてください！
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/chukan.svg" alt="中間" width="50%" class="post-photo lazyload">
+<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/chukan.svg" alt="応募について身近な人などに相談している様子のイラスト" width="50%" class="post-photo lazyload">
 
 <div class='flex'>
   <a href="/guideline"       class="button">採択までの流れを見る</a>
