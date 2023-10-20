@@ -8,7 +8,7 @@ thumbnail: /assets/img/thumbnails/projects.webp
 <div class="projects">
   <h2>未踏ジュニア<br class="ph">採択プロジェクト</h2>
   <p>
-    これまでの採択プロジェクトです。☆は<a href='/about#award-outstanding-performance'>スーパークリエータ</a>認定者となります。
+    これまでの採択プロジェクトです。☆は<a href='/about#supports-awarding>スーパークリエータ</a>認定者となります。
   </p>
   <a href="/search" class="button">検索して探す</a>
 

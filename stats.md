@@ -253,7 +253,7 @@ Highcharts.chart('rates', {
 </ul>
 
 {% if stat.year == 2016 %}
-修了したクリエータ数は {{ stat.creators }} 名です。なお、<a href='/about#award-outstanding-performance'>スーパークリエータ認定</a>は2017年度から始まったため、{{ stat.year }}年度のデータはありません。
+修了したクリエータ数は {{ stat.creators }} 名です。なお、<a href='/about#supports-awarding'>スーパークリエータ認定</a>は2017年度から始まったため、{{ stat.year }}年度のデータはありません。
 {% elsif stat.creators and stat.spc %}
 修了したクリエータ数は {{ stat.creators }} 名、そのうち {{ stat.spc }} 名をスーパークリエータと認定しました。（認定率: {{ stat.spc_rate }}%）
 {% elsif stat.creators %}
