@@ -19,7 +19,7 @@ thumbnail: /assets/img/thumbnails/schedule.webp
 
 ## ブースト合宿（6月ごろ）
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/boost.svg" alt="ブースト合宿" width="50%" class="post-photo lazyload">
-採択者全員が集まる未踏ジュニアブースト合宿が、6月の週末に行われます。具体的な日程は採択時のメールでご案内し、全日程の参加が厳しい場合でも別途サポートいたしますので、ご安心ください。
+採択者全員が集まる『ブースト合宿』が、6月の週末に行われます。具体的な日程は採択時のメールでご案内し、全日程の参加が厳しい場合でも別途サポートいたしますので、ご安心ください。
 
 {% include arrow.html %}
 
