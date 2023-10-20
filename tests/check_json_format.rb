@@ -15,4 +15,4 @@ Dir.glob("_site/**/*.json") do |filename|
   end
 end
 
-raise unless is_test_passed
+is_test_passed ? puts("✅ /**/*.json URLs are all valid.") : raise
