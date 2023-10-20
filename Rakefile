@@ -19,7 +19,6 @@ task test: [:build] do
   options = {
     checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'Jsons'],
     allow_hash_href:  true,
-    assume_extension: '.json',
     disable_external: ENV['TEST_EXTERNAL_LINKS'] != 'true',
     enforce_https:    true,
 
