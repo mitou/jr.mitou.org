@@ -3,8 +3,12 @@
 
 <ul style="list-style: none; text-align: center; padding: 30px 0px;">
   <li style="display: inline-block; margin: auto 10px;">
-    <a href="/projects">採択プロジェクト目次</a>
+    <a href="/projects">採択年度から探す</a>
   </li>
+  <li style="display: inline-block; margin: auto 10px;">
+    <a href="/search">検索して探す</a>
+  </li>
+  <br>
   <br>
   {% for year in (2016..latest_year) reversed %}
     {% if year == include.this_year %}
