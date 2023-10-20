@@ -50,10 +50,12 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 <br>
 
 ## 採択者への支援 {#supports}
+
 未踏ジュニアに応募し、採択されると、採択者（クリエータ）は以下の支援を得られます。
 
-<h3 id='mentoring-support'>
-  <a href='#mentoring-support'><i class="fas fa-graduation-cap green"></i></a>
+
+<h3 id='supports-mentoring'>
+  <a href='#supports-mentoring'><i class="fas fa-graduation-cap green"></i></a>
   メンタリングの提供
 </h3>
 
@@ -62,8 +64,11 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 <div class="tips">期間中は、毎週１時間ほど、オンラインでメンターと話せる機会があります。プログラミングの質問やプロジェクトの方針など、なんでも相談できます。</div>
 <a href="/mentors" class="button">メンター紹介を見る</a>
 
-<h3 id='financial-support'>
-  <a href='#financial-support'><i class="fas fa-badge-dollar green"></i></a>
+<br>
+
+
+<h3 id='supports-development'>
+  <a href='#supports-development'><i class="fas fa-badge-dollar green"></i></a>
   開発資金の援助
 </h3>
 
@@ -71,28 +76,41 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 例えばハードウェア開発で機材・資材を使いたい場面や、ソフトウェア開発で有料のAPI・サーバーを使いたい場面などで、50 万円まで使える仕組みになっています。
 
-<h3 id='development-support'>
-  <a href='#development-support'><i class="fas fa-gear green"></i></a>
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_development.jpg" alt="ハードウェア開発を支援している様子" class="top-img lazyload" loading="lazy">
+
+<br>
+
+
+<h3 id='supports-expenses'>
+  <a href='#supports-expenses'><i class="fas fa-gear green"></i></a>
   開発場所の援助
 </h3>
 
-必要に応じて、開発場所及び工作機材の援助を行います。
+必要に応じて、開発場所や工作機材などの援助を行います。
 
-<h3 id='award-outstanding-performance'>
-  <a href='#award-outstanding-performance'><i class="fas fa-link green"></i></a>
+また[成果報告会](/final)などのイベントが現地開催となる場合、イベント参加のための交通費・宿泊費も支給されます。
+
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.png" alt="Maker Faire Tokyo 2023 にブース出展している様子" class="top-img lazyload" loading="lazy">
+
+<br>
+
+
+<h3 id='supports-awarding'>
+  <a href='#supports-awarding'><i class="fas fa-link green"></i></a>
   未踏ジュニアスーパークリエータの認定
 </h3>
 
 特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。[慶應義塾大学SFC](https://www.sfc.keio.ac.jp/news/012903.html)や[東京都立大学](https://cs.sd.tmu.ac.jp/admission_office.html)、[近畿大学](https://newscast.jp/news/1055602)に推薦枠で出願できます。
 
-<!--(追記: 東京都立大学の推薦枠は<a href='https://twitter.com/mamoruk/status/1318484847317315584'>採択者全員に緩和</a>されました)-->
-
-<!--<img src="/assets/img/press_by_universities.webp" data-src="/assets/img/press_by_universities.webp" alt="各大学の発表資料の例" class="top-img lazyload" loading="lazy" style='margin-top: 30px;'>-->
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.jpg" alt="クリエータに修了証書を授与している様子" class="top-img lazyload" loading="lazy">
 
 <br>
 
+
 ## 応募〜採択の流れ {#guideline}
 未踏ジュニアでは応募から採択までの流れや、応募書類（提案書）を書くコツ、採択者の体験談なども公開しています。もし興味があればぜひチェックしてみてください。
+
+<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/chukan.svg" alt="中間" width="50%" class="post-photo lazyload">
 
 <div class='flex'>
   <a href="/guideline"       class="button">採択までの流れを見る</a>
@@ -100,7 +118,13 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 </div>
 
 ## 運営団体について {#organizer}
+
 未踏ジュニアは、[IPA 未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)の修了生などが集まる一般社団法人未踏（[未踏社団](https://www.mitou.org/)）によって運営されています。未踏ジュニアは、未踏社団の取り組んでいる事業の１つです。
+
+<div style='padding-top: 30px; max-width: 400px; margin: auto; display: block;'>
+  <a href="https://www.mitou.org/"><img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.png" alt="一般社団法人未踏" class="lazyload" loading="lazy" width='100%'></a>
+
+</div>
 
 <div class='flex'>
   <a href="https://www.ipa.go.jp/jinzai/mitou/about.html" class="button">IPA 未踏事業を見る</a>
