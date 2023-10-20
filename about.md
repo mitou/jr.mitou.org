@@ -76,7 +76,7 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 例えばハードウェア開発で機材・資材を使いたい場面や、ソフトウェア開発で有料のAPI・サーバーを使いたい場面などで、50 万円まで使える仕組みになっています。
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_development.jpg" alt="ハードウェア開発を支援している様子" class="top-img lazyload" loading="lazy">
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_development.webp" alt="ハードウェア開発を支援している様子" class="top-img lazyload" loading="lazy">
 
 <br>
 
@@ -90,7 +90,7 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 また[成果報告会](/final)などのイベントが現地開催となる場合、イベント参加のための交通費・宿泊費も支給されます。
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.png" alt="Maker Faire Tokyo 2023 にブース出展している様子" class="top-img lazyload" loading="lazy">
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp" alt="Maker Faire Tokyo 2023 にブース出展している様子" class="top-img lazyload" loading="lazy">
 
 <br>
 
@@ -102,7 +102,7 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。[慶應義塾大学SFC](https://www.sfc.keio.ac.jp/news/012903.html)や[東京都立大学](https://cs.sd.tmu.ac.jp/admission_office.html)、[近畿大学](https://newscast.jp/news/1055602)に推薦枠で出願できます。
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.jpg" alt="クリエータに修了証書を授与している様子" class="top-img lazyload" loading="lazy">
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.webp" alt="クリエータに修了証書を授与している様子" class="top-img lazyload" loading="lazy">
 
 <br>
 
