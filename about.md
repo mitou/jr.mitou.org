@@ -25,7 +25,7 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 <br>
 
 ## 未踏ジュニアとは？ {#mitoujr}
-独創的なアイデア、卓越した技術を持つ 17 歳以下の小中高生や[高専生](https://ja.wikipedia.org/wiki/高等専門学校)などを支援するプログラムです。
+独創的なアイデア、卓越した技術を持つ 17 歳以下の小中高生や[高専生](https://www.mext.go.jp/a_menu/koutou/kousen/index.htm)などを支援するプログラムです。
 
 [IPA 未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)という、経産省所管の独立行政法人情報処理推進機構（[IPA](https://www.ipa.go.jp/about/index.html)）が主催する、25 歳以下の若者を支援するプログラムがあります。この未踏事業の修了生を中心に設立・運営されているのが、**未踏ジュニア**です。
 
