@@ -46,12 +46,12 @@
 - id:    ipa-mitou
   url:   https://www.ipa.go.jp/jinzai/mitou/it/about.html
   title: 未踏IT人材発掘・育成事業
-  description: "独創的なアイディアと優れた技術を持つ、<strong>25歳未満</strong>のIT人材を発掘・育成する事業です。2000年度から始まり、現在までに約2,000人以上のクリエータを輩出しています。<a href='https://jr.mitou.org/mentors'>未踏ジュニアのメンター陣</a>も、本事業の修了生です。これまでの成果報告会の様子は <a href='https://www.youtube.com/@ipa5619/playlists?view=50&sort=dd&shelf_id=5'>YouTube から公開</a>されています。"
+  description: "独創的なアイディアと優れた技術を持つ、<strong>25歳未満</strong>のIT人材を発掘・育成する事業です。<a href='https://www.ipa.go.jp/jinzai/mitou/brochure2021/pickup.html'>2000年から20年以上続いている</a>事業で、現在までに約2,000人以上のクリエータを輩出しています。<a href='https://jr.mitou.org/mentors'>未踏ジュニアのメンター陣</a>も、本事業の修了生です。これまでの成果報告会の様子は <a href='https://www.youtube.com/@ipa5619/playlists?view=50&sort=dd&shelf_id=5'>YouTube から公開</a>されています。"
 
 - id:    ipa-mitou-target
   url:   https://www.ipa.go.jp/jinzai/mitou/target/about.html
   title: 未踏ターゲット事業
-  description: "基礎技術や領域横断的技術革新に取り組むIT人材を支援する事業です。<strong>ターゲットとなる分野</strong>（量子コンピューティング分野やリザバーコンピューティング分野など）が毎年事前に定められ、その分野に興味を持つ人材からの提案を募集しています。年齢制限はありません。（参考: <a href='https://twitter.com/search?q=未踏ターゲット'>Twitter Search - 未踏ターゲット</a>）"
+  description: "基礎技術や領域横断的技術革新に取り組むIT人材を支援する事業です。<strong>ターゲットとなる分野</strong>（<a href='https://www.ipa.go.jp/jinzai/mitou/target/2022/qv6pgp0000002p1r-att/000096156.pdf'>量子コンピューティング</a>分野や<a href='https://www.meti.go.jp/information/publicoffer/kobo/2023/k230703002.html'>リザバーコンピューティング</a>分野など）が毎年事前に定められ、その分野に興味を持つ人材からの提案を募集しています。年齢制限はありません。（参考: <a href='https://twitter.com/search?q=未踏ターゲット'>Twitter Search - 未踏ターゲット</a>）"
 
 - id:    ipa-mitou-advanced
   url:   https://www.ipa.go.jp/jinzai/mitou/advanced/about.html
