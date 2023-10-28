@@ -18,3 +18,8 @@ thumbnail: /assets/img/thumbnails/projects.webp
     <a href="/projects/{{ this_year }}" class="button">{{ this_year }}年度の一覧を見る</a>
   {% endfor %}
 </div>
+
+<br>
+<br>
+
+{% include back-to-top.html %}
