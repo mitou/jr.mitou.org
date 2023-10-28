@@ -78,3 +78,10 @@ description: 未踏ジュニアに採択されたクリエータの成果一覧�
 </div>
 
 {% include project-navigation.html this_year=page.this_year %}
+
+<div class='text-center'>
+  <a href="#top">
+    <i class="fa-solid fa-arrow-up"></i>
+    上に戻る
+  </a>
+</div>
