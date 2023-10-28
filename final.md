@@ -12,9 +12,11 @@ description: 未踏ジュニアに採択されたクリエータの成果一覧�
 
 <br>
 
+<!--
 <img src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}"
      alt="{{ page.this_year }}年度 未踏ジュニア成果報告会 サムネイル画像"
      class="project-thumbnail lazyload" width='100%' loading="lazy" />
+-->
 
 <!--
 2021年度の未踏ジュニア成果報告会を11月3日に実施しました。<a href="https://twitter.com/mitoujr/status/1455832719577944066" target="_blank">YouTubeの動画目次</a>を使うとお好きなシーンからご視聴いただけます。<br>
