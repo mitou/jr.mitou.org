@@ -27,10 +27,11 @@ task test: [:build] do
       /google(.*)\.html/,
     ],
     ignore_urls: [
-      'http://www.ecomaki.com/', # URL should be perfect-matching
-      %r{^http://iql-lab.de},    # Use REGEX to ignore URLs in a domain
-      %r{^http://nhiro.org},
-      %r{^https://twitter.com},  # Skip testing Twitter URLs
+      # Ignore domains that need to access by HTTP not HTTPS.
+      /ecomaki.com/,
+      /iql-lab.de/,
+      /nhiro.org/,
+      /twitter.com/,  # Skip testing Twitter URLs
     ],
     #ignore_status_codes: [0, 500, 999],
   }
