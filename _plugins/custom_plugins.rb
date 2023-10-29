@@ -20,6 +20,7 @@ module Jekyll
       Dir.glob('./**/*.json') do |filename|
         filename = filename[1..] # Correct path: "./abc.json" -> "/abc.json"
         next if filename.start_with? '/_'
+        next if filename.start_with? '/vendor/'
 
         @html += <<~JSON_API_URL
           <li>
