@@ -21,7 +21,7 @@ class JSONs < ::HTMLProofer::Check
       # e.g. => /projects.json
 
       next if valid_json?(base_url + json_path)
-      return add_failure("\tInvalid JSON format: #{json_path}")
+      return add_failure("Invalid JSON format: #{json_path}")
     end
   end
 end
