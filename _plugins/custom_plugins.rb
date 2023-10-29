@@ -11,32 +11,31 @@ module Jekyll
       # Add other environment variables to `site.config` here...
     end
   end
+end
 
-  # A plugin to use custom tag: {% list_json_apis %}
-  # https://jekyllrb.com/docs/plugins/tags/
-  class ListJsonAPIsTag < Liquid::Tag
-    def initialize(tag_name, text, tokens)
-      super
+# A plugin to set custom site.data like APIs: {% site.data.apis %}
+# https://jekyllrb.com/docs/plugins/generators/
+module Reading
+  class Generator < Jekyll::Generator
 
-      @html = '<ul>'
-      Dir.glob('./**/*.json') do |filename|
-        filename = filename[1..] # Correct path: "./abc.json" -> "/abc.json"
-        next if filename.start_with? '/_'
-        next if filename.start_with? '/vendor/'
+    # Tweak data that Jekyll can access like `{% site.data.foobars %}`
+    def generate(site)
+      apis = []
+      Dir.glob('./**/*.json') do |filepath|
+        filepath = filepath[1..]                # Correct path: ./api.json -> /api.json
+        next if filepath.start_with? '/_'       # Ignore internal parts like Partial
+        next if filepath.start_with? '/vendor/' # Ignore external parts like RubyGem
 
-        @html << "<li>"
-        @html << "  <a href='#{filename}'>#{filename}</a>"
-        @html << "  <small>(<a href='#{filename[..-6]}'>HTML で見る</a>)</small>"
-        @html << "</li>"
+        # NOTE: Can't get data if set like `key: value`
+        #       It seems needed to be like `'key' => 'value'`
+        apis << {
+          'to_json' => filepath,      # => /api.json
+          'to_html' => filepath[..-6] # => /api
+        }
       end
 
-      @html << '</ul>'
-    end
-
-    def render(context)
-      @html
+      # Now you can get data above by like `{{ site.data.apis | first }}`
+      site.data['apis'] = apis
     end
   end
 end
-
-Liquid::Template.register_tag('list_json_apis', Jekyll::ListJsonAPIsTag)

@@ -15,5 +15,12 @@ description: 未踏ジュニアWebサイトから利用できる API の一覧�
 </div>
 
 <div id='index'>
-  {% list_json_apis %}
+  <ul>
+    {% for api in site.data.apis %}
+    <li>
+      <a href='{{ api.to_json }}'>{{ api.to_json }}</a>
+      <small>(<a href='{{ api.to_html }}'>HTML で見る</a>)</small>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
