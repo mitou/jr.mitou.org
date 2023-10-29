@@ -30,7 +30,6 @@ jobs:
         bundle exec rake upsert_project_pages_by_data
         JEKYLL_ENV=test bundle exec jekyll build
         JEKYLL_ENV=test bundle exec jekyll doctor
-        SKIP_BUILD=true bundle exec rake check_json_format
         SKIP_BUILD=true bundle exec rake test
 
   # Deploy job is triggered only pushed to main branch && CI passed

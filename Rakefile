@@ -1,10 +1,5 @@
 task default: 'test'
 
-desc 'Check JSON format'
-task check_json_format: [:build] do
-  ruby "tests/check_json_format.rb"
-end
-
 # Upsert individual project page by data
 desc 'Upsert project page by project data'
 task :upsert_project_pages_by_data do
@@ -16,8 +11,9 @@ end
 
 require 'html-proofer'
 task test: [:build] do
+  require './tests/custom_checks'
   options = {
-    checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'Jsons'],
+    checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'JSONs'],
     allow_hash_href:  true,
     disable_external: ENV['TEST_EXTERNAL_LINKS'] != 'true',
     enforce_https:    true,
@@ -27,10 +23,11 @@ task test: [:build] do
       /google(.*)\.html/,
     ],
     ignore_urls: [
-      'http://www.ecomaki.com/', # URL should be perfect-matching
-      %r{^http://iql-lab.de},    # Use REGEX to ignore URLs in a domain
-      %r{^http://nhiro.org},
-      %r{^https://twitter.com},  # Skip testing Twitter URLs
+      # Ignore domains that need to access by HTTP not HTTPS.
+      /ecomaki.com/,
+      /iql-lab.de/,
+      /nhiro.org/,
+      /twitter.com/,  # Skip testing Twitter URLs
     ],
     #ignore_status_codes: [0, 500, 999],
   }
