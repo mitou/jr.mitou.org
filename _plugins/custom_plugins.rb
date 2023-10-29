@@ -1,8 +1,9 @@
-# Plugin to add environment variables to the `site` object in Liquid templates
-# https://gist.github.com/nicolashery/5756478
+# Custom Plugins developed for building Mitou Junior website.
+# https://jekyllrb.com/docs/plugins/
 
 module Jekyll
   # A plugin to load environment variables automatically.
+  # https://gist.github.com/nicolashery/5756478
   class EnvironmentVariables < Generator
     def generate(site)
       site.config['env'] = {}
@@ -12,6 +13,7 @@ module Jekyll
   end
 
   # A plugin to use custom tag: {% list_json_apis %}
+  # https://jekyllrb.com/docs/plugins/tags/
   class ListJsonAPIsTag < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
@@ -22,15 +24,13 @@ module Jekyll
         next if filename.start_with? '/_'
         next if filename.start_with? '/vendor/'
 
-        @html += <<~JSON_API_URL
-          <li>
-            <a href='#{filename}'>#{filename}</a>
-            <small>(<a href='#{filename[..-6]}'>HTML で見る</a>)</small>
-          </li>
-        JSON_API_URL
+        @html << "<li>"
+        @html << "  <a href='#{filename}'>#{filename}</a>"
+        @html << "  <small>(<a href='#{filename[..-6]}'>HTML で見る</a>)</small>"
+        @html << "</li>"
       end
 
-      @html += '</ul>'
+      @html << '</ul>'
     end
 
     def render(context)
