@@ -1,0 +1,9 @@
+---
+---
+
+[ {% for api in site.data.apis %}
+  {
+    "to_json_url" : "{{ site.url }}{{ api.to_json }}",
+    "to_html_url" : "{{ site.url }}{{ api.to_html }}"
+  }{% unless forloop.last %},{% endunless %}{% endfor %}
+]
