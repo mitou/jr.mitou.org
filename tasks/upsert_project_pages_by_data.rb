@@ -2,7 +2,6 @@
 
 require 'yaml'
 require 'truncato'
-t = Truncato
 
 # Remove existing files and re-generate them
 Dir.glob("./_posts/*.md").each { |filename| File.delete(filename) }
@@ -87,9 +86,9 @@ projects.each_with_index do |project, index|
 
     <nav>
       <p class='nav prev'><a href='#{prev_project[:id]}' title='#{prev_project[:title]}'>&larr; 前<br>
-        #{ t.truncate(prev_project[:title]) }</a></p>
+        #{ Truncato.truncate(prev_project[:title]) }</a></p>
       <p class='nav next'><a href='#{next_project[:id]}' title='#{next_project[:title]}'>次 &rarr;<br>
-        #{ t.truncate(next_project[:title]) }</a></p>
+        #{ Truncato.truncate(next_project[:title]) }</a></p>
     </nav>
 
     {% include project-navigation.html %}
