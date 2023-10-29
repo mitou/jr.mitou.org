@@ -1,10 +1,5 @@
 task default: 'test'
 
-desc 'Check JSON format'
-task check_json_format: [:build] do
-  ruby "tests/check_json_format.rb"
-end
-
 # Upsert individual project page by data
 desc 'Upsert project page by project data'
 task :upsert_project_pages_by_data do
