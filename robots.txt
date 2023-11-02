@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: /google02f5cc9ed3681f94.html
 Disallow: /google3a4de0d83c05ed13.html
+Disallow: /apis.html
 Allow: /
 
 Sitemap: https://jr.mitou.org/sitemap.xml
