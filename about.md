@@ -39,7 +39,10 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 2016年から未踏ジュニアが始まり、これまでに **{{ total_applications }} 件の応募、{{ total_creators }} 名のクリエータを支援・採択**してきました。
 
 <div class="cover-photo">
-  <img src="/assets/img/2022_cover.min.webp" data-src="/assets/img/2022_cover.webp" alt="2022年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
+  <img src="/assets/img/2022_cover.min.webp" data-src="/assets/img/2022_cover.webp"
+     title="2022年度の未踏ジュニア集合写真 @ 東京大学" class="top-img lazyload" loading="lazy"
+       alt="2022年度の未踏ジュニア集合写真 @ 東京大学">
+   
 </div>
 
 <div class='flex'>
@@ -76,7 +79,9 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 例えばハードウェア開発で機材・資材を使いたい場面や、ソフトウェア開発で有料のAPI・サーバーを使いたい場面などで、50 万円まで使える仕組みになっています。
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_development.webp" alt="ハードウェア開発を支援している様子" class="top-img lazyload" loading="lazy">
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_development.webp"
+   title="ハードウェア開発を支援している様子 @ CASE Shinjuku" class="top-img lazyload" loading="lazy"
+     alt="ハードウェア開発を支援している様子 @ CASE Shinjuku" >
 
 <br>
 
@@ -90,7 +95,10 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 また[成果報告会](/final)などのイベントが現地開催となる場合、イベント参加のための交通費・宿泊費も支給されます。
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp" alt="Maker Faire Tokyo 2023 にブース出展している様子" class="top-img lazyload" loading="lazy">
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp"
+   title="ブース出展している様子 @ Maker Faire Tokyo 2023" class="top-img lazyload" loading="lazy"
+     alt="ブース出展している様子 @ Maker Faire Tokyo 2023">
+ 
 
 <br>
 
@@ -102,7 +110,9 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 
 特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。[慶應義塾大学SFC](https://www.sfc.keio.ac.jp/news/012903.html)や[東京都立大学](https://cs.sd.tmu.ac.jp/admission_office.html)、[近畿大学](https://newscast.jp/news/1055602)に推薦枠で出願できます。
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.webp" alt="クリエータに修了証書を授与している様子" class="top-img lazyload" loading="lazy">
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.webp"
+   title="クリエータに修了証書を授与している様子 @ 東京大学" class="top-img lazyload" loading="lazy"
+     alt="クリエータに修了証書を授与している様子 @ 東京大学">
 
 <br>
 
@@ -110,7 +120,9 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 ## 応募〜採択の流れ {#guideline}
 未踏ジュニアでは応募から採択までの流れや、応募書類（提案書）を書くコツ、採択者の体験談なども公開しています。提案書を良くするコツなども公開しているので、ぜひチェックしてみてください！
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/chukan.svg" alt="応募について身近な人などに相談している様子のイラスト" width="50%" class="post-photo lazyload">
+<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/chukan.svg"
+   title="応募について身近な人などに相談している様子のイラスト" width="50%" class="post-photo lazyload"
+     alt="応募について身近な人などに相談している様子のイラスト">
 
 <div class='flex'>
   <a href="/guideline"       class="button">採択までの流れを見る</a>
@@ -122,8 +134,11 @@ description: 本ページでは初めての方を対象としたコンテンツ�
 未踏ジュニアは、[IPA 未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)の修了生などが集まる一般社団法人未踏（[未踏社団](https://www.mitou.org/)）によって運営されています。未踏ジュニアは、未踏社団の取り組んでいる事業の１つです。
 
 <div style='padding-top: 30px; max-width: 400px; margin: auto; display: block;'>
-  <a href="https://www.mitou.org/"><img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.png" alt="一般社団法人未踏" class="lazyload" loading="lazy" width='100%'></a>
-
+  <a href="https://www.mitou.org/">
+    <img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.png"
+       title="一般社団法人未踏のロゴ画像" class="lazyload" loading="lazy" width='100%'
+         alt="一般社団法人未踏のロゴ画像">
+  </a>
 </div>
 
 <div class='flex'>
