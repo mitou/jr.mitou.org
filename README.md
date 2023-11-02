@@ -6,7 +6,8 @@
 本リポジトリは未踏ジュニア[公式Webサイト](https://jr.mitou.org/)の公開リポジトリです。   
 本READMEでは、公式Webサイトの更新方法を目的別にまとめています。
 
-<br>
+<div id='how-to-update'><br></div>
+
 
 ## :white_check_mark: ブラウザで情報を更新できます（共通）
 
@@ -19,7 +20,8 @@
 
 以上で完了です。提案された更新内容は運営チームによって再確認され、問題なければ提案された内容が反映されます。もし更新内容に不具合があっても運営側で気付いて修正するので、まずはお気軽に提案してみてください :wink:
 
-<br>
+<div id='how-to-update-projects'><br></div>
+
 
 ## :rocket: プロジェクト情報を更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) にプロジェクトの情報があります。
@@ -42,7 +44,8 @@
   - 複数名いる場合は、複数記述します
 ```
 
-<br>
+<div id='how-to-update-creators'><br></div>
+
 
 ## :busts_in_silhouette: クリエータ情報を更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) にクリエーターの情報があります。  
@@ -57,7 +60,8 @@
   year: 何年度に採択されたプロジェクトか。例: 2018
 ```
 
-<br>
+<div id='how-to-update-mentors'><br></div>
+
 
 ## :bust_in_silhouette: メンター情報を更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`mentors.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/mentors.yml) にメンターの情報があります。 
@@ -78,7 +82,8 @@
   web: 上記以外のURL。例: https://yasslab.jp/
 ```
 
-<br>
+<div id='how-to-update-media'><br></div>
+
 
 ## :bookmark_tabs: メディア掲載を更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`media.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/media.yml) にメディア掲載記事の情報があります。  
@@ -91,7 +96,8 @@
   date: 公開日 (例：2019/11/20)
 ```
 
-<br>
+<div id='how-to-build'><br></div>
+
 
 ## :hammer_and_wrench: Webサイトの仕組みを改善したい
 
@@ -114,7 +120,8 @@ $ bundle exec jekyll server
 
 [![Mitou Junior on Jekyll](https://github.com/mitou/jr.mitou.org/blob/main/assets/img/mitoujr-on-jekyll.png?raw=true)](https://note.com/yasslab/n/nf5837dabdf8c)
 
-<br>
+<div id='how-to-build-generators'><br></div>
+
 
 ### :scroll: プロジェクト個別ページを生成したい
 
@@ -125,7 +132,8 @@ $ bundle exec jekyll server
 $ bundle exec rake upsert_project_pages_by_data
 ```
 
-<br>
+<div id='how-to-build-tests'><br></div>
+
 
 ### :robot: リンク切れはテストで検知できます
 
@@ -140,7 +148,8 @@ $ bundle exec rake test
 
 上記テストは [GitHub Actions](https://github.com/mitou/jr.mitou.org/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [.github/workflows](https://github.com/mitou/jr.mitou.org/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
 
-<br>
+<div id='how-to-build-projects'><br></div>
+
 
 ### :new: 新年度の採択プロジェクトを公開する
 
@@ -158,6 +167,7 @@ $ bundle exec rake test
 :octocat: 更新作業の例: [2023年度の採択プロジェクト公開時のPR (#144) - GitHub](https://github.com/mitou/jr.mitou.org/pull/144)
 
 <div id='license'><br></div>
+
 
 ## :two_hearts: 使用素材、著作物、ライセンスについて
 
@@ -186,7 +196,8 @@ $ bundle exec rake test
   ソフトウェアは「現状のまま」で、明示であるか暗黙であるかを問わず、何らの保証もなく提供されます。ここでいう保証とは、商品性、特定の目的への適合性、および権利非侵害についての保証も含みますが、それに限定されるものではありません。 作者または著作権者は、契約行為、不法行為、またはそれ以外であろうと、ソフトウェアに起因または関連し、あるいはソフトウェアの使用またはその他の扱いによって生じる一切の請求、損害、その他の義務について何らの責任も負わないものとします。
 </details>
 
-<br>
+<div id='credits'><br></div>
+
 
 ## :copyright: クレジット
 

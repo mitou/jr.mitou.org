@@ -7,7 +7,16 @@ sitemap: false
 
 <br>
 
-本ページでは、未踏ジュニアWebサイトから利用できる API（開発中）の一覧をまとめています。
+本ページでは、未踏ジュニアWebサイト内で使っている内部向け API（開発中）の一覧をまとめています。
+
+- 利用例:
+  - 検索ページ: [https://jr.mitou.org/search](/search)
+  - 検索データ: [https://jr.mitou.org/search.json](/search.json)
+
+<div class="note">
+  各データは以下の API は開発中のため、予告なく変更・削除される場合がある点にご注意ください。
+</div>
+
 
 ## API 一覧（開発中）
 
