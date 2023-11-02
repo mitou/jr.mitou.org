@@ -66,8 +66,8 @@ description: "「物流2024問題」のように、私たちの生活を支え�
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='motion_simulator' title='Motion Simulator - 動き、風が吹き、水が出て、 VRで360度見渡せる椅子に座って仮想現実やゲーム世界での体験をより臨場感のあるものにするデバイス'>&larr; 前<br>
-    Motion Simulator - 動き、風が吹き、水が出...</a></p>
+  <p class='nav prev'><a href='motion_simulator' title='ゼロから作るMotion Simulator'>&larr; 前<br>
+    ゼロから作るMotion Simulator</a></p>
   <p class='nav next'><a href='ai_4koma_maker' title='AI 4コマメーカー'>次 &rarr;<br>
     AI 4コマメーカー</a></p>
 </nav>

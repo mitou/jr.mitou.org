@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Motion Simulator - 動き、風が吹き、水が出て、 VRで360度見渡せる椅子に座って仮想現実やゲーム世界での体験をより臨場感のあるものにするデバイス"
+title: "ゼロから作るMotion Simulator"
 permalink: /projects/2023/motion_simulator
 thumbnail: /assets/img/thumbnails/2023/motion_simulator.webp
-description: "Motion SimulatorはユーザーがVRゴーグルをつけて6自由度の座面に座ると、座面がコンテンツに合わせて動き、風や水が噴射される家庭用デバイスです。映画やVRゲーム、シミュレーションゲームなどでの臨場感を高めることが出来ます。今までは映画館やテーマパークでしか体験できなかったことも家庭で簡単に体験出来るようになります。"
+description: "Motion Simulatorとは、映像などのコンテンツの動作をユーザが実際に体感することにより臨場感を高めることを目的としたシステムのことで、映画館での4DXのようなものです。私はMotion Simulatorを自分でも作りたいと思い、数年間ゼロから試行錯誤して取り組んできました。今回は「6自由度」で「機構が椅子の下に収まるほどコンパクト」である椅子型のMotion Simulartorを自作しました。この特徴を持つMotion Simulatorは自作だけでなく商用の製品の中にもありません。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'motion_simulator'" | first %}
