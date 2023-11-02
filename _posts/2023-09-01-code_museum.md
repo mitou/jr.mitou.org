@@ -3,7 +3,7 @@ layout: post
 title: "Code Museum - 読むことだけに特化したソースコードエディタ"
 permalink: /projects/2023/code_museum
 thumbnail: /assets/img/thumbnails/2023/code_museum.webp
-description: "Code Museumは、一般的なエディタからあえて「書く機能」をなくし、「読む機能」に特化したソースコードエディタです。範囲実行やGPTを活用した機能など、様々な「読む機能」があります。このエディタを使うことで、コードを読んでいる時間を短縮し、生産性を上げることができます。このソフトウェアは <a href='https://github.com/waryu-YND/code-museum-release/releases/tag/v1.0.0'>Code Museum release</a> からダウンロードできます。"
+description: "Code Museumは、一般的なエディタからあえて「書く機能」をなくし、「読む機能」に特化したソースコードエディタです。範囲実行やGPTを活用した機能など、様々な「読む機能」があります。このエディタを使うことで、コードを読んでいる時間を短縮し、生産性を上げることができます。<br /><br />このソフトウェアは <a href='https://github.com/waryu-YND/code-museum-release/releases/tag/v1.0.0'>Code Museum release</a> からダウンロードできます。"
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'code_museum'" | first %}
