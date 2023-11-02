@@ -143,7 +143,7 @@
   promotion: o5rWOis3sTI
   #final:       # 成果報告会後に追記する
   #final_start: # 成果報告会後に追記する
-  #link:        # 公式サイトがあれば追記する
+  link: https://www.yonkoma.app/
   year: 2023
   mentor_id: ukai_yuu
   creator_ids:
