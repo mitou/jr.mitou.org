@@ -157,7 +157,7 @@ $ bundle exec rake test
 
 :octocat: 更新作業の例: [2023年度の採択プロジェクト公開時のPR (#144) - GitHub](https://github.com/mitou/jr.mitou.org/pull/144)
 
-<br>
+<div id='license'><br></div>
 
 ## :two_hearts: 使用素材、著作物、ライセンスについて
 
