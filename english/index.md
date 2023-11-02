@@ -11,7 +11,7 @@ lang: en
   <p>Creators will be able to learn from mentors and other Mitou graduates who are at the forefront of technology.</p>
 
   <h3> <i class="fad fa-usd-circle green"></i> Financial Support</h3>
-  <p>Each group will be eligible to receive up to 500K yen  (almost equivalnt of $4600)  as funding for development.</p>
+  <p>Each group will be eligible to receive up to <a href='https://www.google.com/search?q=500,000+Yen+to+USD'>500K Yen</a> as funding for development.</p>
 
   <h3> <i class="fad fa-tools green"></i> Place to develop</h3>
   <p>If necessary, places to develop will be provided.</p>
