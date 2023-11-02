@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API 一覧（開発中）
-description: 未踏ジュニアWebサイトから利用できる API の一覧ページです。
+description: 未踏ジュニアWebサイトから利用できる内部向け API の一覧ページです。
 sitemap: false
 ---
 
@@ -9,20 +9,16 @@ sitemap: false
 
 本ページでは、未踏ジュニアWebサイト内で使っている内部向け API（開発中）の一覧をまとめています。
 
-- 利用例:
+- API の利用例:
   - 検索ページ: [https://jr.mitou.org/search](/search)
   - 検索データ: [https://jr.mitou.org/search.json](/search.json)
 
 <div class="note">
-  各データは以下の API は開発中のため、予告なく変更・削除される場合がある点にご注意ください。
+  未踏ジュニア関係者による内部での利用を目的とした API となります。
 </div>
 
 
-## API 一覧（開発中）
-
-<div class="note">
-  以下の API は開発中のため、予告なく変更・削除される場合がある点にご注意ください。
-</div>
+## 内部向け API 一覧（開発中）
 
 <div id='index'>
   <ul>
@@ -33,4 +29,8 @@ sitemap: false
     </li>
     {% endfor %}
   </ul>
+</div>
+
+<div class="note">
+  上記の API は開発中のため、予告なく変更・削除される場合がある点にご注意ください。
 </div>
