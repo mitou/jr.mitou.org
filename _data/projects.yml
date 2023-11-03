@@ -35,9 +35,9 @@
   title: Stask - 学生の課題進捗を助けるアプリ
   description: Staskは多くの宿題が科されながらも、それらの管理をうまくできていない学生を対象とした課題管理アプリです。宿題を管理できない人でもどの課題から始めれば良いかすぐわかる見た目になっているため課題を始めるハードルが低くなっている上、同じ課題を学校から課されている友達と課題の進捗を競争することで課題に早めのうちから取り組みやすくなっています。
   thumbnail: stask.webp
-  #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  #promotion:                # YouTube上にPVがあれば追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   link: https://stask.ampoi.net/
   year: 2023
   mentor_id: seki_yoshifumi
@@ -49,8 +49,8 @@
   description: lescuedはユーザーが「聴きたい曲」を言語化不要で生成する作曲AIです。これはAIがユーザーの好みを学習していき、その過程で生成した曲をユーザーに提供することによって実現させています。この仕組みをアプリとして提供することで、自分が必要としている曲に直接アクセスできるようになります。
   thumbnail: lescued.webp
   #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: shouya_ishimaru
@@ -62,8 +62,8 @@
   description: このプロジェクトの最終目標は、モーター選定に自作という選択肢を増やし、アイデアをより的確に実現できるようにすることです。そのための第一歩として、3Dプリント部品でブラシレスモーターを作り、制御回路を自作し、モーターを回すことに成功しました。今後は、高効率化や情報公開を進め、モーター自作文化を作ります。
   thumbnail: 3d_printed_brushless_motor.webp
   #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: komuro_maki
@@ -75,8 +75,8 @@
   description: Capitalensは、国会の一次情報をベースに、AIなどの新しい技術を駆使して今何が行われているのかを可視化するウェブアプリケーションです。会議の前後のコンテキストが切り取られてSNSで拡散される問題を解決したり、会議のAI要約やスピーカーの分類機能で、より議論を身近なものにします。
   thumbnail: capitalens.webp
   #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: takahiro_anno
@@ -88,8 +88,8 @@
   description: Be Freeは、声で会話ができない人のためのアプリケーションです。会話シーンを選んで、相手の声を音声認識。返事の組み立てをAIがサポートし、声で返答します。声のない生活を送る人にとって、役に立つサービスのヒントになったらいいと考えプロジェクトを進めています。
   thumbnail: be_free.webp
   #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: suzuki_ryou
@@ -101,8 +101,8 @@
   description: HATOは鉄道模型の世界に没入するためのNゲージ列車全自動運行システムです。メインプログラムは、センサ郡と制御電源を独自USB上プロトコルHLCPを介して制御し、車両の位置等を検知し、事故を回避します。運転指令所にあるような列車制御UIを実装することで、ユーザの鉄道模型世界への没入度を高めます。An <a href='https://hato.nyiyui.ca/README-en.html'>English website</a> is also available.
   thumbnail: hato.webp
   promotion: rcGFUpEQFpU # 日本語版
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   link: https://hato.nyiyui.ca
   tags: [鉄道, 鉄道模型, Nゲージ]
   year: 2023
@@ -115,8 +115,8 @@
   description: Motion Simulatorとは、映像などのコンテンツの動作をユーザが実際に体感することにより臨場感を高めることを目的としたシステムのことで、映画館での4DXのようなものです。私はMotion Simulatorを自分でも作りたいと思い、数年間ゼロから試行錯誤して取り組んできました。今回は「6自由度」で「機構が椅子の下に収まるほどコンパクト」である椅子型のMotion Simulartorを自作しました。この特徴を持つMotion Simulatorは自作だけでなく商用の製品の中にもありません。
   thumbnail: motion_simulator.webp
   promotion: 4aTrF-0YGyc
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: seki_yoshifumi
@@ -128,8 +128,8 @@
   description: 「物流2024問題」のように、私たちの生活を支えるロジスティクスが逼迫している中、このPJで開発しているような高速で小回りの効く独立ステアリング機構を搭載したAGVは、物流の効率化に寄与すると期待されます。設計にはトポロジー最適化やモジュラー設計を取り入れるなど工夫しています。
   thumbnail: bakusoku_agv.webp
   #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: teramoto_daiki
@@ -141,8 +141,8 @@
   description: 「AI 4コマメーカー」は AI があなたの描いた絵を活用し、4コマ漫画を作成するwebアプリケーションです。落書きのように絵を描き、その絵を認識しgpt-4によってストーリーを生成します。そのため、ストーリー構成など考える必要がなく手軽に4コマ漫画を作ることができます。あなたの絵であなただけの4コマ漫画を作りましょう！
   thumbnail: ai_4koma_maker.webp
   promotion: o5rWOis3sTI
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   link: https://www.yonkoma.app/
   year: 2023
   mentor_id: ukai_yuu
@@ -154,8 +154,8 @@
   description: 梅田三世とは、人の顔を見ると片メガネ型のディスプレイにその人の名前、攻撃力を表示してくれる装置です。これを身につけることによって、相手の名前を覚えていない時などのコミュニケーションを円滑にし、活性化する事が出来ます。表示される情報は、Webアプリによる閲覧/追加/更新/削除ができます。
   thumbnail: umeda_sansei_kai.webp
   #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: bitou_masato
@@ -167,8 +167,8 @@
   description: Voice Geniusは最近話題のChatGPTなどのAIを用い、完全自動でゆっくり解説を作成するソフトウェアです。タイトルや記事から動画を生成します。テキストではわかりにくいデータや記事を慣れ親しんだ動画に変換できます。生成した動画は<a href='https://www.youtube.com/@ai-yukkuri/featured'>YouTube</a>または<a href='https://www.tiktok.com/@ai.yukkuri'>TikTok</a>から閲覧できます。
   thumbnail: voice_genius.webp
   promotion: BlXywoHJYfg
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   link: https://www.youtube.com/@ai-yukkuri/featured
   year: 2023
   mentor_id: koutake_rina
@@ -180,8 +180,8 @@
   description: ブラウザで「ニワスクリプト」というプログラミング言語を実行するインタプリタエンジンです。時系列に沿った処理系を提供し、描画結果を返します。過去にこの言語で制作された作品を再度実行可能にすることを第一目標とし、最終的にはニワスクリプトコミュニティの活性化を目指して開発を行っています。
   thumbnail: niwangojs.webp
   promotion: jU5WgPZblxM
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   link: https://github.com/xpadev-net/niwango.js
   tags: [ニワン語]
   year: 2023
@@ -194,8 +194,8 @@
   description: Code Museumは、一般的なエディタからあえて「書く機能」をなくし、「読む機能」に特化したソースコードエディタです。範囲実行やGPTを活用した機能など、様々な「読む機能」があります。このエディタを使うことで、コードを読んでいる時間を短縮し、生産性を上げることができます。<br /><br />このソフトウェアは <a href='https://github.com/waryu-YND/code-museum-release/releases/tag/v1.0.0'>Code Museum release</a> からダウンロードできます。
   thumbnail: code_museum.webp
   #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: nishio_hirokazu
@@ -207,8 +207,8 @@
   description: A9NはHAL + マイクロカーネルによって構築されたカーネル + ソフトウェアです。これにより、高い移植容易性・安定性・拡張性を兼ね備えます。近年の複雑化し巨大化したOSとは異なり、十分に小さいA9Nは本質の理解を助け、OS学習をより容易なものとします。
   thumbnail: a9n.webp
   #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # 成果報告会後に追記する
-  #final_start: # 成果報告会後に追記する
+  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
+  final_start: 560
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: ishii_kakeru
