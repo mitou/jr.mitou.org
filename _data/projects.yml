@@ -89,7 +89,7 @@
   thumbnail: be_free.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 3370
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: suzuki_ryou
@@ -102,7 +102,7 @@
   thumbnail: hato.webp
   promotion: rcGFUpEQFpU # 日本語版
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 4945
   link: https://hato.nyiyui.ca
   tags: [鉄道, 鉄道模型, Nゲージ]
   year: 2023
@@ -116,7 +116,7 @@
   thumbnail: motion_simulator.webp
   promotion: 4aTrF-0YGyc
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 10174
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: seki_yoshifumi
@@ -142,7 +142,7 @@
   thumbnail: ai_4koma_maker.webp
   promotion: o5rWOis3sTI
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 2590
   link: https://www.yonkoma.app/
   year: 2023
   mentor_id: ukai_yuu
@@ -150,12 +150,12 @@
   - kai_tanaka
 
 - id: umeda_sansei_kai
-  title: 人名攻撃力表示装置(梅田三世(改))
+  title: 人名攻撃力表示装置 - 梅田三世 (改)
   description: 梅田三世とは、人の顔を見ると片メガネ型のディスプレイにその人の名前、攻撃力を表示してくれる装置です。これを身につけることによって、相手の名前を覚えていない時などのコミュニケーションを円滑にし、活性化する事が出来ます。表示される情報は、Webアプリによる閲覧/追加/更新/削除ができます。
   thumbnail: umeda_sansei_kai.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 4241
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: bitou_masato
@@ -168,7 +168,7 @@
   thumbnail: voice_genius.webp
   promotion: BlXywoHJYfg
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 1003
   link: https://www.youtube.com/@ai-yukkuri/featured
   year: 2023
   mentor_id: koutake_rina
@@ -208,7 +208,7 @@
   thumbnail: a9n.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 1888
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: ishii_kakeru
