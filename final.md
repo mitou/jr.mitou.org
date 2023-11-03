@@ -54,6 +54,30 @@ description: 未踏ジュニアに採択されたクリエータの成果一覧�
 
 <a href="https://www.youtube.com/watch?v=OTjx_q-iI6I" class="button" target="_blank" rel='noopener'>YouTube で見る</a>
 
+## タイムテーブル {#timetable}
+
+- 10:30 受付開始
+- 11:00 - 11:10 ご案内
+- 11:10 - 12:40 プレゼンテーション
+  - [Voice Genius - AI x ゆっくり解説 (山本PJ)](#voice_genius)
+  - [A9N: HALを用いて移植容易性を実現するマイクロカーネル (伊組PJ)](#a9n)
+  - [AI 4コマメーカー (田中PJ)](#ai_4koma_maker)
+  - [Be Free 話せない人が自由に会話できるアプリ(上田PJ)](#be_free)
+  - [人名攻撃力表示装置(梅田三世(改)) (佐古PJ)](#umeda_sansei_kai)
+  - [Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム (柴田PJ)](#hato)
+- 12:40 - 13:40 昼食休憩
+- 13:40 - 16:10 プレゼンテーション
+  - [ゼロから作るMotion Simulator (安枝PJ)](#motion_simulator)
+  - [新型独立ステアリング機構の開発およびそれを用いたAGVの開発 (原PJ)](#bakusoku_agv)
+  - [niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン (吉田PJ)](#niwangojs)
+  - [Stask - 学生の課題進捗を助けるアプリ (丹下PJ)](#stask)
+  - [Capitalens (小林PJ)](#capitalens)
+  - [3Dプリンタで作る自作モーター (斎藤PJ)](#3d_printed_brushless_motor)
+  - [Code Museum - 読むことだけに特化したソースコードエディタ (若狭PJ)](#code_museum)
+  - [lescued - AIで好みの曲を生成するシステム (鶴田PJ)](#lescued)
+- 16:10 -17:30 デモ・質疑応答
+- 17:30 - 18:00 修了式
+
 
 <!--
 <div class='flex'>
