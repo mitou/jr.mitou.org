@@ -37,7 +37,7 @@
   thumbnail: stask.webp
   #promotion:                # YouTube上にPVがあれば追記する
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 12393
   link: https://stask.ampoi.net/
   year: 2023
   mentor_id: seki_yoshifumi
@@ -50,7 +50,7 @@
   thumbnail: lescued.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 16278
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: shouya_ishimaru
@@ -63,7 +63,7 @@
   thumbnail: 3d_printed_brushless_motor.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 14766
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: komuro_maki
@@ -76,7 +76,7 @@
   thumbnail: capitalens.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 14086
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: takahiro_anno
@@ -129,7 +129,7 @@
   thumbnail: bakusoku_agv.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 10966
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: teramoto_daiki
@@ -181,7 +181,7 @@
   thumbnail: niwangojs.webp
   promotion: jU5WgPZblxM
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 11673
   link: https://github.com/xpadev-net/niwango.js
   tags: [ニワン語]
   year: 2023
@@ -195,7 +195,7 @@
   thumbnail: code_museum.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 560
+  final_start: 15490
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: nishio_hirokazu
