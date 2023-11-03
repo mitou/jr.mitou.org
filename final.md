@@ -44,16 +44,19 @@ description: 未踏ジュニアに採択されたクリエータの成果一覧�
   <iframe src="https://www.youtube.com/embed/OTjx_q-iI6I?rel=0&start=560" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<a href="https://www.youtube.com/watch?v=OTjx_q-iI6I" class="button" target="_blank" rel='noopener'>YouTube で見る</a>
+
+<hr>
+
 <div class='flex'>
   <a href="https://twitter.com/hashtag/未踏ジュニア?f=live" class="button" target="_blank" rel='noopener'>#未踏ジュニア の<br>ハッシュタグを見る</a>
 
   <a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final&lang=jp&related=mitoujr" class="button" target="_blank" rel='noopener'>#未踏ジュニア で<br>ツイートする</a>
 </div>
 
-<hr>
 
-<a href="https://www.youtube.com/watch?v=OTjx_q-iI6I" class="button" target="_blank" rel='noopener'>YouTube で見る</a>
 
+<!--
 ## タイムテーブル {#timetable}
 
 - 10:30 受付開始
@@ -77,7 +80,7 @@ description: 未踏ジュニアに採択されたクリエータの成果一覧�
   - [lescued - AIで好みの曲を生成するシステム (鶴田PJ)](/projects/2023/lescued)
 - 16:10 -17:30 デモ・質疑応答
 - 17:30 - 18:00 修了式
-
+-->
 
 <!--
 <div class='flex'>
