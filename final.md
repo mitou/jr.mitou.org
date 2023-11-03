@@ -2,7 +2,7 @@
 layout:    post
 title:     2023年 成果報告会
 this_year: 2023
-thumbnail: /assets/img/thumbnails/final_2023.jpg
+thumbnail: /assets/img/thumbnails/final_2023_v2.png
 description: 未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！
 
 # this_year を変更するとトップページの採択プロジェクトが切り替わります。
