@@ -36,12 +36,12 @@ description: 未踏ジュニアに採択されたクリエータの成果一覧�
 </div>
 -->
 
-2023年度の未踏ジュニア成果報告会を**11月3日 (金曜・祝日) の本日午前 11 時より、[YouTube ライブ](https://www.youtube.com/mitoujr)にて配信**します! 📺⚡️
+2023年度の未踏ジュニア成果報告会を **[YouTube ライブ](https://www.youtube.com/mitoujr)にて配信!** アーカイブ配信もご視聴いただけます 📺⚡️
 
 <br>
 
 <div class='youtube'>
-  <iframe src="https://www.youtube.com/embed/OTjx_q-iI6I?rel=0" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/OTjx_q-iI6I?rel=0&start=560" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class='flex'>
