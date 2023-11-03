@@ -66,8 +66,8 @@ description: "Voice Geniusは最近話題のChatGPTなどのAIを用い、完全
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='umeda_sansei_kai' title='人名攻撃力表示装置(梅田三世(改))'>&larr; 前<br>
-    人名攻撃力表示装置(梅田三世(改))</a></p>
+  <p class='nav prev'><a href='umeda_sansei_kai' title='人名攻撃力表示装置 - 梅田三世 (改)'>&larr; 前<br>
+    人名攻撃力表示装置 - 梅田三世 (改)</a></p>
   <p class='nav next'><a href='niwangojs' title='niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン'>次 &rarr;<br>
     niwango.js - 動画のコメントでプログラミング可能...</a></p>
 </nav>

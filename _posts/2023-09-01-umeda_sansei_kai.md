@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "人名攻撃力表示装置(梅田三世(改))"
+title: "人名攻撃力表示装置 - 梅田三世 (改)"
 permalink: /projects/2023/umeda_sansei_kai
 thumbnail: /assets/img/thumbnails/2023/umeda_sansei_kai.webp
 description: "梅田三世とは、人の顔を見ると片メガネ型のディスプレイにその人の名前、攻撃力を表示してくれる装置です。これを身につけることによって、相手の名前を覚えていない時などのコミュニケーションを円滑にし、活性化する事が出来ます。表示される情報は、Webアプリによる閲覧/追加/更新/削除ができます。"
