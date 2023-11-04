@@ -64,7 +64,7 @@
   #promotion:   # YouTube上にPVがあれば追記する
   final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
   final_start: 14766
-  #link:        # 公式サイトがあれば追記する
+  link: https://github.com/Jun-robot/3DPrintedMotor
   year: 2023
   mentor_id: komuro_maki
   creator_ids:
