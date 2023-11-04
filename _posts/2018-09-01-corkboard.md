@@ -19,7 +19,9 @@ description: "使用者の記録や感情を蓄え変化する「森」を基調
 
 <div class='flex'>
   {% if pj.link %}
-    {% if pj.link contains 'github.com' %}
+    {% if pj.link contains 'github.com' and pj.link contains 'releases' %}
+       <a href='{{ pj.link }}' target='_blank' class='button'>ダウンロードする</a>
+    {% elsif pj.link contains 'github.com' %}
        <a href='{{ pj.link }}' target='_blank' class='button'>ソースコードを見る</a>
     {% else %}
        <a href='{{ pj.link }}' target='_blank' class='button'>公式サイトを見る</a>
