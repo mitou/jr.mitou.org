@@ -38,7 +38,9 @@ projects.each_with_index do |project, index|
 
     <div class='flex'>
       {% if pj.link %}
-        {% if pj.link contains 'github.com' %}
+        {% if pj.link contains 'github.com' and pj.link contains 'releases' %}
+           <a href='{{ pj.link }}' target='_blank' class='button'>ダウンロードする</a>
+        {% elsif pj.link contains 'github.com' %}
            <a href='{{ pj.link }}' target='_blank' class='button'>ソースコードを見る</a>
         {% else %}
            <a href='{{ pj.link }}' target='_blank' class='button'>公式サイトを見る</a>
