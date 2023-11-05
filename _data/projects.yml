@@ -88,8 +88,8 @@
   description: Be Freeは、声で会話ができない人のためのアプリケーションです。会話シーンを選んで、相手の声を音声認識。返事の組み立てをAIがサポートし、声で返答します。声のない生活を送る人にとって、役に立つサービスのヒントになったらいいと考えプロジェクトを進めています。
   thumbnail: be_free.webp
   #promotion:   # YouTube上にPVがあれば追記する
-  final:       OTjx_q-iI6I   # TODO: 切り抜き動画が出たら更新する
-  final_start: 3404
+  final:       aMRM47ABLjI
+  final_start: 35
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: suzuki_ryou
