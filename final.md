@@ -12,20 +12,15 @@ description: 未踏ジュニアに採択されたクリエータの成果一覧�
 
 <br>
 
+<!-- 1. 最初に表示するサムネイル画像。日時と会場を画像に含める -->
 <!--
 <img src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}"
      alt="{{ page.this_year }}年度 未踏ジュニア成果報告会 サムネイル画像"
      class="project-thumbnail lazyload" width='100%' loading="lazy" />
 -->
 
-<!--
-2021年度の未踏ジュニア成果報告会を11月3日に実施しました。<a href="https://twitter.com/mitoujr/status/1455832719577944066" target="_blank">YouTubeの動画目次</a>を使うとお好きなシーンからご視聴いただけます。<br>
 
-<div class='youtube'>
-  <iframe frameborder="0" class="lazyload" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/fw1LFIZz-zo&rel=0"></iframe>
-</div>
--->
-
+<!-- 2. 現地参加の申し込みが始まったら用意する -->
 <!--
 2023年度の未踏ジュニア成果報告会を**11月3日 (金曜・祝日) に東京大学で開催**します。今年は現地でデモ展示の時間なども用意する予定ですので、ぜひ現地までお越しいただけると幸いです。
 
@@ -36,6 +31,9 @@ description: 未踏ジュニアに採択されたクリエータの成果一覧�
 </div>
 -->
 
+
+<!-- 3. ライブ配信 URL が決まったら、ページ冒頭に埋め込む -->
+
 2023年度の未踏ジュニア成果報告会を **[YouTube ライブ](https://www.youtube.com/mitoujr)にて配信!** アーカイブ配信もご視聴いただけます 📺⚡️
 
 <br>
@@ -44,18 +42,20 @@ description: 未踏ジュニアに採択されたクリエータの成果一覧�
   <iframe src="https://www.youtube.com/embed/OTjx_q-iI6I?rel=0&start=560" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<a href="https://www.youtube.com/watch?v=OTjx_q-iI6I" class="button" target="_blank" rel='noopener'>YouTube で見る</a>
+<div class='flex'>
+  <a href="https://youtu.be/scoDs7P3paI?list=PLNObH2jlC6lfjkMZAmRffPLGs_gFJOfGU" class="button" target="_blank" rel='noopener'>YouTube で見る</a>
+  <a href="https://togetter.com/li/2252240" class="button" target="_blank" rel='noopener'>当日の反響を見る</a>
+</div>
 
 <hr>
 
 <div class='flex'>
-  <a href="https://twitter.com/hashtag/未踏ジュニア?f=live" class="button" target="_blank" rel='noopener'>#未踏ジュニア の<br>ハッシュタグを見る</a>
+  <a href="https://twitter.com/hashtag/未踏ジュニア" class="button" target="_blank" rel='noopener'>#未踏ジュニア の<br>ハッシュタグを見る</a>
 
   <a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final&lang=jp&related=mitoujr" class="button" target="_blank" rel='noopener'>#未踏ジュニア で<br>ツイートする</a>
 </div>
 
-
-
+<!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
 <!--
 ## タイムテーブル {#timetable}
 
@@ -94,10 +94,6 @@ description: 未踏ジュニアに採択されたクリエータの成果一覧�
 </div>
 -->
 
-<!--
-## タイムテーブル {#timetable}
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrWiIURPeouCLjQJ?backgroundColor=gray&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
--->
 
 ## {{ page.this_year }}年度のプロジェクト {#projects}
 
