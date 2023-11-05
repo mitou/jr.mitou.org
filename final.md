@@ -7,7 +7,7 @@ description: 未踏ジュニアに採択されたクリエータの成果一覧�
 
 # this_year を変更するとトップページの採択プロジェクトが切り替わります。
 # 成果報告会の公開準備が整ったら this_year を今年度の数字に変更してください。
-# 詳細: https://github.com/mitou/jr.mitou.org#new-新年度の採択プロジェクトを公開する
+# 詳細: https://github.com/mitou/jr.mitou.org#user-content-how-to-build-projects
 ---
 
 <br>
