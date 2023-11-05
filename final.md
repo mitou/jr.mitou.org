@@ -39,7 +39,7 @@ description: 未踏ジュニアに採択されたクリエータの成果一覧�
 <br>
 
 <div class='youtube'>
-  <iframe src="https://www.youtube.com/embed/OTjx_q-iI6I?rel=0&start=560" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/scoDs7P3paI?list=PLNObH2jlC6lfjkMZAmRffPLGs_gFJOfGU&rel=0" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class='flex'>
