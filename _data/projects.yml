@@ -158,7 +158,7 @@
   final_start: 21
   #link:        # 公式サイトがあれば追記する
   year: 2023
-  mentor_id: bitou_masato
+  mentor_id: bto
   creator_ids:
   - mona_sako
 
@@ -318,7 +318,7 @@
   #final_start: 15567
   #link: 
   year: 2022
-  mentor_id: bitou_masato
+  mentor_id: bto
   creator_ids:
   - gotou_shuntarou
 
@@ -371,7 +371,7 @@
   final: FEhe77qhW9I
   #link:
   year: 2021
-  mentor_id: bitou_masato
+  mentor_id: bto
   creator_ids:
     - moriya_ryan 
 
@@ -554,7 +554,7 @@
   final: ArN9NrsmRs4
   #link: https://guinfra.app/
   year: 2020
-  mentor_id: bitou_masato
+  mentor_id: bto
   creator_ids:
     - kamatani_tenma
 
