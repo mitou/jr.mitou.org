@@ -4,6 +4,7 @@ title: "Cybotanic：サイボーグ化された植物。"
 permalink: /projects/2021/cybotanic
 thumbnail: /assets/img/thumbnails/2021/cybotanic.webp
 description: "「植物が生きている」ことを直感的に感じるために、テクノロジーの力で「植物の機能」を拡張するプロジェクトです。植物のイオンチャネルに流れる生体電位を電極で取得し、そこから採れたデータを基に植物を人工筋肉で動かしたり、シンセサイザーを人間と共演します。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'cybotanic'" | first %}

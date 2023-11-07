@@ -4,6 +4,7 @@ title: "Color Overlap - 光の三原色RGBを使ったパズルゲーム"
 permalink: /projects/2020/color_overlap
 thumbnail: /assets/img/thumbnails/2020/color_overlap.webp
 description: "魔法によって「色」を奪われ石にされてしまった人々を救うパズルゲームです。光の３原色RGBの様々な形のブロックをうまく重ねて、王国に色を取り戻そう。Unityで制作しています。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'color_overlap'" | first %}

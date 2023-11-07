@@ -4,6 +4,7 @@ title: "写して翻訳"
 permalink: /projects/2018/camera_translation
 thumbnail: /assets/img/thumbnails/2018/camera_translation.webp
 description: "写真を写すことで、そこに写った物体の名前を他の言語に翻訳するスマートフォンアプリの開発。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'camera_translation'" | first %}

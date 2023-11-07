@@ -4,6 +4,7 @@ title: "ForceBook - つよつよ自作ノートPC"
 permalink: /projects/2020/force_book
 thumbnail: /assets/img/thumbnails/2020/forcebook.webp
 description: "筐体から設計・自作し、開発者やゲーマーに使ってほしいノートPCを実現しました。カスタマイズ性を重視してデスクトップ用のパーツを使い、あえてバッテリーを搭載せず電源接続とすることでコンパクトにしました。さらにトラックパッドとしてタッチディスプレイによる新しいインターフェースを考案・実装し、使いやすさにこだわりました。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'force_book'" | first %}

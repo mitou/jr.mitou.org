@@ -4,6 +4,7 @@ title: "Researcheck-調べ学習サポートアプリ-"
 permalink: /projects/2021/researcheck
 thumbnail: /assets/img/thumbnails/2021/researcheck.webp
 description: "Researcheckは学生の知りたい気持ちを応援する調べ学習アプリです。インターネットには信憑性が低い情報や芸能ニュースによる検索結果の汚染、情報の偏りなどの問題がありますResearcheckは、調べ学習に不適切な情報を警告、除外し対義語を挿入して検索結果の中立性を保ちます。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'researcheck'" | first %}

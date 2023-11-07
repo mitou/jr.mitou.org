@@ -4,6 +4,7 @@ title: "VRSandbox：誰でも簡単3Dモデリングツール"
 permalink: /projects/2021/vr_sandbox
 thumbnail: /assets/img/thumbnails/2021/vr_sandbox.webp
 description: "VRコントローラーを筆とパレットのように使い、直感的に立体物が作れるアプリです。仮想空間や３Dモデルが身近になりましたが、現状で個人が作るのは簡単ではありません。難解なモデリングソフトを使用しなくても簡単に３Dモデリングできます。しゃがむアクションで縮尺が変わり、実物大の建造物に入れます。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'vr_sandbox'" | first %}

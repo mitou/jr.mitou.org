@@ -4,6 +4,7 @@ title: "scairecrow - カラスからゴミを守るシステム"
 permalink: /projects/2022/scairecrow
 thumbnail: /assets/img/thumbnails/2022/scairecrow.png
 description: "scairecrowはゴミ捨て場に近づくカラスを迎撃するハードウェアプロジェクトです。カラスによってゴミが荒らされることで町が汚くなっています。その問題を解決するために、リアルタイムでカラスを物体検出し、レーザーを照射することで効果的に迎撃できるシステムを開発しました。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'scairecrow'" | first %}

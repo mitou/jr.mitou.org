@@ -4,6 +4,7 @@ title: "Let'sえいごパズル! - 変化するキューブで楽しく学ぶ英
 permalink: /projects/2018/lets_eigo_puzzle
 thumbnail: /assets/img/thumbnails/2018/lets_eigo_puzzle.webp
 description: "小学生が遊びながら英単語を学べる、赤外線通信ブロックとゲームを開発。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'lets_eigo_puzzle'" | first %}

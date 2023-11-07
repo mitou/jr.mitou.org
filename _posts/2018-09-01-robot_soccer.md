@@ -4,6 +4,7 @@ title: "強化学習を用いたロボットサッカーシミュレーション
 permalink: /projects/2018/robot_soccer
 thumbnail: /assets/img/thumbnails/2018/robot_soccer.webp
 description: "強化学習を用いた、ロボットサッカーのプレイヤーの開発。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'robot_soccer'" | first %}

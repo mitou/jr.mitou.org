@@ -4,6 +4,7 @@ title: "Sound in the forest - 複数のスマートフォンによる「動く�
 permalink: /projects/2018/sound_in_the_forest
 thumbnail: /assets/img/thumbnails/2018/sound_in_the_forest.webp
 description: "複数のスマートフォン上のウェブブラウザをリアルタイム同期させ、立体音響を実現するシステムの開発。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'sound_in_the_forest'" | first %}

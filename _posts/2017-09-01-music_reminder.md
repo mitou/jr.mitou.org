@@ -4,6 +4,7 @@ title: "個人の経験に紐づいた楽曲を推薦するスマートフォン
 permalink: /projects/2017/music_reminder
 thumbnail: /assets/img/thumbnails/2017/music_reminder.webp
 description: "カラオケで歌った曲、見た映画等の経験に基づいて、AppleMusicから曲を推薦する新しい仕組みのiOSアプリを開発"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'music_reminder'" | first %}

@@ -4,6 +4,7 @@ title: "ゼロから作るMotion Simulator"
 permalink: /projects/2023/motion_simulator
 thumbnail: /assets/img/thumbnails/2023/motion_simulator.webp
 description: "Motion Simulatorとは、映像などのコンテンツの動作をユーザが実際に体感することにより臨場感を高めることを目的としたシステムのことで、映画館での4DXのようなものです。私はMotion Simulatorを自分でも作りたいと思い、数年間ゼロから試行錯誤して取り組んできました。今回は「6自由度」で「機構が椅子の下に収まるほどコンパクト」である椅子型のMotion Simulartorを自作しました。この特徴を持つMotion Simulatorは自作だけでなく商用の製品の中にもありません。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'motion_simulator'" | first %}

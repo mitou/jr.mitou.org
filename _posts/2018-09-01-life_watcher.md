@@ -4,6 +4,7 @@ title: "Life Watcher - 急変する持病を持つ人のための警報システ
 permalink: /projects/2018/life_watcher
 thumbnail: /assets/img/thumbnails/2018/life_watcher.webp
 description: "スマートウォッチ上で動作する、急変する持病を持つ人を助ける警報アプリの開発。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'life_watcher'" | first %}

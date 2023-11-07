@@ -4,6 +4,7 @@ title: "niwango.js - 動画のコメントでプログラミング可能なニ�
 permalink: /projects/2023/niwangojs
 thumbnail: /assets/img/thumbnails/2023/niwangojs.webp
 description: "ブラウザで「ニワスクリプト」というプログラミング言語を実行するインタプリタエンジンです。時系列に沿った処理系を提供し、描画結果を返します。過去にこの言語で制作された作品を再度実行可能にすることを第一目標とし、最終的にはニワスクリプトコミュニティの活性化を目指して開発を行っています。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'niwangojs'" | first %}

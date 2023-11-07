@@ -4,6 +4,7 @@ title: "'聞く'キーボード"
 permalink: /projects/2017/listenable_keyboard
 thumbnail: /assets/img/thumbnails/2017/listenable_keyboard.webp
 description: "日本語、英語、中国語の3言語で利用できる、音声認識機能を搭載したキーボード。"
+twitter_card: summary_large_image
 ---
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'listenable_keyboard'" | first %}
