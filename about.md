@@ -172,10 +172,10 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 <br>
 
 ### 他の支援プログラム紹介 {#opportunities}
-『未踏ジュニア』は 17 歳以下を対象として支援しておりますが、24 歳以下を対象とした『未踏事業』や、**年齢制限の無い**『未踏アドバンスト』『未踏ターゲット』など、あなたの作りたいもの（[提案書](/download)）を支援してくれるプログラムがあります。コチラもぜひ！
+『未踏ジュニア』は 17 歳以下を対象として支援しておりますが、24 歳以下を対象とした『[未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)』や、**年齢制限の無い**『[未踏アドバンスト](https://www.ipa.go.jp/jinzai/mitou/advanced/about.html)』『[未踏ターゲット](https://www.ipa.go.jp/jinzai/mitou/target/about.html)』など、あなたの作りたいもの（[提案書](/download)）を支援してくれるプログラムがあります。コチラもぜひ！
 
 <a href="/opportunities" class="button">他の支援プログラムを見る</a>
 
-<div class="tips">17 歳以下のクリエータが、24 歳以下を対象とした『未踏事業』に採択された例もあります。また未踏事業への応募資料（提案書）を、未踏ジュニアにそのまま再利用することも可能です。</div>
+<div class="tips">17 歳以下のクリエータが、24 歳以下を対象とした『<a href='https://www.ipa.go.jp/jinzai/mitou/about.html'>未踏事業</a>』に採択された例もあります。また『<a href='https://www.ipa.go.jp/jinzai/mitou/about.html'>未踏事業</a>』への応募資料（提案書）を、『未踏ジュニア』にそのまま再利用する併願も可能です。</div>
 
 <br>
