@@ -61,9 +61,9 @@
 
   <!-- Variable Contents -->
   {% if page.thumbnail %}
-  <meta name="twitter:card"  content="summary_large_image" />
-  <meta name="twitter:image" content="https://jr.mitou.org{{ page.thumbnail }}" />  
-  <meta property="og:image"  content="https://jr.mitou.org{{ page.thumbnail }}" />
+  <meta name="twitter:card"  content="{{ page.twitter_card | default: 'summary' }}" />
+  <meta name="twitter:image" content="https://jr.mitou.org{{ page.thumbnail }}"     />  
+  <meta property="og:image"  content="https://jr.mitou.org{{ page.thumbnail }}"     />
   {% else %}
   <meta name="twitter:card"  content="summary" />
   <meta name="twitter:image" content="https://jr.mitou.org/assets/img/twitter_card_square.png">  

@@ -23,6 +23,7 @@ projects.each_with_index do |project, index|
     permalink: /projects/#{project[:year]}/#{project[:id]}
     thumbnail: /assets/img/thumbnails/#{project[:year]}/#{project[:thumbnail]}
     description: "#{project[:description]}"
+    twitter_card: summary_large_image
     ---
 
     {% assign pj = site.data.projects | where_exp: "pj", "pj.id == '#{project[:id]}'" | first %}
