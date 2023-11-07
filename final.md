@@ -4,6 +4,7 @@ title:     2023年 成果報告会
 this_year: 2023
 thumbnail: /assets/img/thumbnails/final_2023_v2.png
 description: 未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！
+twitter_card: summary_large_image
 
 # this_year を変更するとトップページの採択プロジェクトが切り替わります。
 # 成果報告会の公開準備が整ったら this_year を今年度の数字に変更してください。
