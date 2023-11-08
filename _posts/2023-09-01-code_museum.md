@@ -69,10 +69,10 @@ twitter_card: summary_large_image
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='niwangojs' title='niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン'>&larr; 前<br>
-    niwango.js - 動画のコメントでプログラミング可能...</a></p>
-  <p class='nav next'><a href='a9n' title='A9N: HALを用いて移植容易性を実現するマイクロカーネル'>次 &rarr;<br>
-    A9N: HALを用いて移植容易性を実現するマイクロカーネル...</a></p>
+  <p class='nav prev'><a href='3d_printed_brushless_motor' title='3Dプリンタで作る自作モーター'>&larr; 前<br>
+    3Dプリンタで作る自作モーター</a></p>
+  <p class='nav next'><a href='lescued' title='lescued - AIで好みの曲を生成するシステム'>次 &rarr;<br>
+    lescued - AIで好みの曲を生成するシステム</a></p>
 </nav>
 
 {% include project-navigation.html %}

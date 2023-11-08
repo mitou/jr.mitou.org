@@ -69,10 +69,10 @@ twitter_card: summary_large_image
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='umeda_sansei_kai' title='人名攻撃力表示装置 - 梅田三世 (改)'>&larr; 前<br>
-    人名攻撃力表示装置 - 梅田三世 (改)</a></p>
-  <p class='nav next'><a href='niwangojs' title='niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン'>次 &rarr;<br>
-    niwango.js - 動画のコメントでプログラミング可能...</a></p>
+  <p class='nav prev'><a href='lescued' title='lescued - AIで好みの曲を生成するシステム'>&larr; 前<br>
+    lescued - AIで好みの曲を生成するシステム</a></p>
+  <p class='nav next'><a href='a9n' title='A9N: HALを用いて移植容易性を実現するマイクロカーネル'>次 &rarr;<br>
+    A9N: HALを用いて移植容易性を実現するマイクロカーネル...</a></p>
 </nav>
 
 {% include project-navigation.html %}

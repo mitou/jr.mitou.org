@@ -69,10 +69,10 @@ twitter_card: summary_large_image
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='bakusoku_agv' title='新型独立ステアリング機構の開発およびそれを用いたAGVモジュールの開発'>&larr; 前<br>
-    新型独立ステアリング機構の開発およびそれを用いたAGVモジュ...</a></p>
-  <p class='nav next'><a href='umeda_sansei_kai' title='人名攻撃力表示装置 - 梅田三世 (改)'>次 &rarr;<br>
-    人名攻撃力表示装置 - 梅田三世 (改)</a></p>
+  <p class='nav prev'><a href='a9n' title='A9N: HALを用いて移植容易性を実現するマイクロカーネル'>&larr; 前<br>
+    A9N: HALを用いて移植容易性を実現するマイクロカーネル...</a></p>
+  <p class='nav next'><a href='be_free' title='Be Free - 話せない人が自由に会話できるアプリ'>次 &rarr;<br>
+    Be Free - 話せない人が自由に会話できるアプリ</a></p>
 </nav>
 
 {% include project-navigation.html %}

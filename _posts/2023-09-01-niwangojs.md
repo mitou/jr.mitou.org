@@ -69,10 +69,10 @@ twitter_card: summary_large_image
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='voice_genius' title='Voice Genius - AI x ゆっくり解説'>&larr; 前<br>
-    Voice Genius - AI x ゆっくり解説</a></p>
-  <p class='nav next'><a href='code_museum' title='Code Museum - 読むことだけに特化したソースコードエディタ'>次 &rarr;<br>
-    Code Museum - 読むことだけに特化したソースコー...</a></p>
+  <p class='nav prev'><a href='bakusoku_agv' title='新型独立ステアリング機構の開発およびそれを用いたAGVモジュールの開発'>&larr; 前<br>
+    新型独立ステアリング機構の開発およびそれを用いたAGVモジュ...</a></p>
+  <p class='nav next'><a href='stask' title='Stask - 学生の課題進捗を助けるアプリ'>次 &rarr;<br>
+    Stask - 学生の課題進捗を助けるアプリ</a></p>
 </nav>
 
 {% include project-navigation.html %}

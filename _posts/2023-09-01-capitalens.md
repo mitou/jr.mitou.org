@@ -69,10 +69,10 @@ twitter_card: summary_large_image
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='3d_printed_brushless_motor' title='3Dプリンタで作る自作モーター'>&larr; 前<br>
+  <p class='nav prev'><a href='stask' title='Stask - 学生の課題進捗を助けるアプリ'>&larr; 前<br>
+    Stask - 学生の課題進捗を助けるアプリ</a></p>
+  <p class='nav next'><a href='3d_printed_brushless_motor' title='3Dプリンタで作る自作モーター'>次 &rarr;<br>
     3Dプリンタで作る自作モーター</a></p>
-  <p class='nav next'><a href='be_free' title='Be Free - 話せない人が自由に会話できるアプリ'>次 &rarr;<br>
-    Be Free - 話せない人が自由に会話できるアプリ</a></p>
 </nav>
 
 {% include project-navigation.html %}

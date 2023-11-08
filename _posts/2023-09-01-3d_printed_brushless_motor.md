@@ -69,10 +69,10 @@ twitter_card: summary_large_image
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='lescued' title='lescued - AIで好みの曲を生成するシステム'>&larr; 前<br>
-    lescued - AIで好みの曲を生成するシステム</a></p>
-  <p class='nav next'><a href='capitalens' title='Capitalens'>次 &rarr;<br>
+  <p class='nav prev'><a href='capitalens' title='Capitalens'>&larr; 前<br>
     Capitalens</a></p>
+  <p class='nav next'><a href='code_museum' title='Code Museum - 読むことだけに特化したソースコードエディタ'>次 &rarr;<br>
+    Code Museum - 読むことだけに特化したソースコー...</a></p>
 </nav>
 
 {% include project-navigation.html %}

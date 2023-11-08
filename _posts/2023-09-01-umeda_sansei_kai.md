@@ -69,10 +69,10 @@ twitter_card: summary_large_image
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='ai_4koma_maker' title='AI 4コマメーカー'>&larr; 前<br>
-    AI 4コマメーカー</a></p>
-  <p class='nav next'><a href='voice_genius' title='Voice Genius - AI x ゆっくり解説'>次 &rarr;<br>
-    Voice Genius - AI x ゆっくり解説</a></p>
+  <p class='nav prev'><a href='be_free' title='Be Free - 話せない人が自由に会話できるアプリ'>&larr; 前<br>
+    Be Free - 話せない人が自由に会話できるアプリ</a></p>
+  <p class='nav next'><a href='hato' title='Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム'>次 &rarr;<br>
+    Hopefully Automatic Train Oper...</a></p>
 </nav>
 
 {% include project-navigation.html %}

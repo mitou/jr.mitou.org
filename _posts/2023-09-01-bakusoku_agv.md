@@ -71,8 +71,8 @@ twitter_card: summary_large_image
 <nav>
   <p class='nav prev'><a href='motion_simulator' title='ゼロから作るMotion Simulator'>&larr; 前<br>
     ゼロから作るMotion Simulator</a></p>
-  <p class='nav next'><a href='ai_4koma_maker' title='AI 4コマメーカー'>次 &rarr;<br>
-    AI 4コマメーカー</a></p>
+  <p class='nav next'><a href='niwangojs' title='niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン'>次 &rarr;<br>
+    niwango.js - 動画のコメントでプログラミング可能...</a></p>
 </nav>
 
 {% include project-navigation.html %}
