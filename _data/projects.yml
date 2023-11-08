@@ -31,57 +31,44 @@
 #  - 
 
 # 2023年度
-- id: stask
-  title: Stask - 学生の課題進捗を助けるアプリ
-  description: Staskは多くの宿題が科されながらも、それらの管理をうまくできていない学生を対象とした課題管理アプリです。宿題を管理できない人でもどの課題から始めれば良いかすぐわかる見た目になっているため課題を始めるハードルが低くなっている上、同じ課題を学校から課されている友達と課題の進捗を競争することで課題に早めのうちから取り組みやすくなっています。
-  thumbnail: stask.webp
-  #promotion:                # YouTube上にPVがあれば追記する
-  final:       kWS7Ggzv7VU
+- id: voice_genius
+  title: Voice Genius - AI x ゆっくり解説
+  description: Voice Geniusは最近話題のChatGPTなどのAIを用い、完全自動でゆっくり解説を作成するソフトウェアです。タイトルや記事から動画を生成します。テキストではわかりにくいデータや記事を慣れ親しんだ動画に変換できます。生成した動画は<a href='https://www.youtube.com/@ai-yukkuri/featured'>YouTube</a>または<a href='https://www.tiktok.com/@ai.yukkuri'>TikTok</a>から閲覧できます。
+  thumbnail: voice_genius.webp
+  promotion: BlXywoHJYfg
+  final:       g0Ookp-8yUI
   final_start: 0
-  link: https://stask.ampoi.net/
+  link: https://www.youtube.com/@ai-yukkuri/featured
   year: 2023
-  mentor_id: seki_yoshifumi
+  mentor_id: koutake_rina
   creator_ids:
-  - toshihiro_tange
+  - noritada_yamamoto
 
-- id: lescued
-  title: lescued - AIで好みの曲を生成するシステム
-  description: lescuedはユーザーが「聴きたい曲」を言語化不要で生成する作曲AIです。これはAIがユーザーの好みを学習していき、その過程で生成した曲をユーザーに提供することによって実現させています。この仕組みをアプリとして提供することで、自分が必要としている曲に直接アクセスできるようになります。
-  thumbnail: lescued.webp
+- id: a9n
+  title: "A9N: HALを用いて移植容易性を実現するマイクロカーネル"
+  description: A9NはHAL + マイクロカーネルによって構築されたカーネル + ソフトウェアです。これにより、高い移植容易性・安定性・拡張性を兼ね備えます。近年の複雑化し巨大化したOSとは異なり、十分に小さいA9Nは本質の理解を助け、OS学習をより容易なものとします。
+  thumbnail: a9n.webp
   #promotion:   # YouTube上にPVがあれば追記する
-  final:       S_egAA5Lc_c
+  final:       VJOOFltOJJk
   final_start: 0
   #link:        # 公式サイトがあれば追記する
   year: 2023
-  mentor_id: shouya_ishimaru
+  mentor_id: ishii_kakeru
   creator_ids:
-  - itsuki_tsuruta
+  - rekka_igumi
 
-- id: 3d_printed_brushless_motor
-  title: 3Dプリンタで作る自作モーター
-  description: このプロジェクトの最終目標は、モーター選定に自作という選択肢を増やし、アイデアをより的確に実現できるようにすることです。そのための第一歩として、3Dプリント部品でブラシレスモーターを作り、制御回路を自作し、モーターを回すことに成功しました。今後は、高効率化や情報公開を進め、モーター自作文化を作ります。
-  thumbnail: 3d_printed_brushless_motor.webp
-  #promotion:   # YouTube上にPVがあれば追記する
-  final:       R07GRnyqML8
+- id: ai_4koma_maker
+  title: AI 4コマメーカー
+  description: 「AI 4コマメーカー」は AI があなたの描いた絵を活用し、4コマ漫画を作成するwebアプリケーションです。落書きのように絵を描き、その絵を認識しgpt-4によってストーリーを生成します。そのため、ストーリー構成など考える必要がなく手軽に4コマ漫画を作ることができます。あなたの絵であなただけの4コマ漫画を作りましょう！
+  thumbnail: ai_4koma_maker.webp
+  promotion: o5rWOis3sTI
+  final:       litvtD75mJA
   final_start: 0
-  link: https://github.com/Jun-robot/3DPrintedMotor
+  link: https://www.yonkoma.app/
   year: 2023
-  mentor_id: komuro_maki
+  mentor_id: ukai_yuu
   creator_ids:
-  - jumpei_saito
-
-- id: capitalens
-  title: Capitalens
-  description: Capitalensは、国会の一次情報をベースに、AIなどの新しい技術を駆使して今何が行われているのかを可視化するウェブアプリケーションです。会議の前後のコンテキストが切り取られてSNSで拡散される問題を解決したり、会議のAI要約やスピーカーの分類機能で、より議論を身近なものにします。
-  thumbnail: capitalens.webp
-  #promotion:   # YouTube上にPVがあれば追記する
-  final:       OSAfnRmUY_8
-  final_start: 0
-  #link:        # 公式サイトがあれば追記する
-  year: 2023
-  mentor_id: takahiro_anno
-  creator_ids:
-  - yuta_kobayashi
+  - kai_tanaka
 
 - id: be_free
   title: Be Free - 話せない人が自由に会話できるアプリ
@@ -95,6 +82,19 @@
   mentor_id: suzuki_ryou
   creator_ids:
   - sota_ueda
+
+- id: umeda_sansei_kai
+  title: 人名攻撃力表示装置 - 梅田三世 (改)
+  description: 梅田三世とは、人の顔を見ると片メガネ型のディスプレイにその人の名前、攻撃力を表示してくれる装置です。これを身につけることによって、相手の名前を覚えていない時などのコミュニケーションを円滑にし、活性化する事が出来ます。表示される情報は、Webアプリによる閲覧/追加/更新/削除ができます。
+  thumbnail: umeda_sansei_kai.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  final:       embuejQOugw
+  final_start: 21
+  #link:        # 公式サイトがあれば追記する
+  year: 2023
+  mentor_id: bto
+  creator_ids:
+  - mona_sako
 
 - id: hato
   title: "Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム"
@@ -136,45 +136,6 @@
   creator_ids:
   - mizuki_hara
 
-- id: ai_4koma_maker
-  title: AI 4コマメーカー
-  description: 「AI 4コマメーカー」は AI があなたの描いた絵を活用し、4コマ漫画を作成するwebアプリケーションです。落書きのように絵を描き、その絵を認識しgpt-4によってストーリーを生成します。そのため、ストーリー構成など考える必要がなく手軽に4コマ漫画を作ることができます。あなたの絵であなただけの4コマ漫画を作りましょう！
-  thumbnail: ai_4koma_maker.webp
-  promotion: o5rWOis3sTI
-  final:       litvtD75mJA
-  final_start: 0
-  link: https://www.yonkoma.app/
-  year: 2023
-  mentor_id: ukai_yuu
-  creator_ids:
-  - kai_tanaka
-
-- id: umeda_sansei_kai
-  title: 人名攻撃力表示装置 - 梅田三世 (改)
-  description: 梅田三世とは、人の顔を見ると片メガネ型のディスプレイにその人の名前、攻撃力を表示してくれる装置です。これを身につけることによって、相手の名前を覚えていない時などのコミュニケーションを円滑にし、活性化する事が出来ます。表示される情報は、Webアプリによる閲覧/追加/更新/削除ができます。
-  thumbnail: umeda_sansei_kai.webp
-  #promotion:   # YouTube上にPVがあれば追記する
-  final:       embuejQOugw
-  final_start: 21
-  #link:        # 公式サイトがあれば追記する
-  year: 2023
-  mentor_id: bto
-  creator_ids:
-  - mona_sako
-
-- id: voice_genius
-  title: Voice Genius - AI x ゆっくり解説
-  description: Voice Geniusは最近話題のChatGPTなどのAIを用い、完全自動でゆっくり解説を作成するソフトウェアです。タイトルや記事から動画を生成します。テキストではわかりにくいデータや記事を慣れ親しんだ動画に変換できます。生成した動画は<a href='https://www.youtube.com/@ai-yukkuri/featured'>YouTube</a>または<a href='https://www.tiktok.com/@ai.yukkuri'>TikTok</a>から閲覧できます。
-  thumbnail: voice_genius.webp
-  promotion: BlXywoHJYfg
-  final:       g0Ookp-8yUI
-  final_start: 0
-  link: https://www.youtube.com/@ai-yukkuri/featured
-  year: 2023
-  mentor_id: koutake_rina
-  creator_ids:
-  - noritada_yamamoto
-
 - id: niwangojs
   title: niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン
   description: ブラウザで「ニワスクリプト」というプログラミング言語を実行するインタプリタエンジンです。時系列に沿った処理系を提供し、描画結果を返します。過去にこの言語で制作された作品を再度実行可能にすることを第一目標とし、最終的にはニワスクリプトコミュニティの活性化を目指して開発を行っています。
@@ -189,6 +150,45 @@
   creator_ids:
   - hikari_yoshida
 
+- id: stask
+  title: Stask - 学生の課題進捗を助けるアプリ
+  description: Staskは多くの宿題が科されながらも、それらの管理をうまくできていない学生を対象とした課題管理アプリです。宿題を管理できない人でもどの課題から始めれば良いかすぐわかる見た目になっているため課題を始めるハードルが低くなっている上、同じ課題を学校から課されている友達と課題の進捗を競争することで課題に早めのうちから取り組みやすくなっています。
+  thumbnail: stask.webp
+  #promotion:                # YouTube上にPVがあれば追記する
+  final:       kWS7Ggzv7VU
+  final_start: 0
+  link: https://stask.ampoi.net/
+  year: 2023
+  mentor_id: seki_yoshifumi
+  creator_ids:
+  - toshihiro_tange
+
+- id: capitalens
+  title: Capitalens
+  description: Capitalensは、国会の一次情報をベースに、AIなどの新しい技術を駆使して今何が行われているのかを可視化するウェブアプリケーションです。会議の前後のコンテキストが切り取られてSNSで拡散される問題を解決したり、会議のAI要約やスピーカーの分類機能で、より議論を身近なものにします。
+  thumbnail: capitalens.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  final:       OSAfnRmUY_8
+  final_start: 0
+  #link:        # 公式サイトがあれば追記する
+  year: 2023
+  mentor_id: takahiro_anno
+  creator_ids:
+  - yuta_kobayashi
+
+- id: 3d_printed_brushless_motor
+  title: 3Dプリンタで作る自作モーター
+  description: このプロジェクトの最終目標は、モーター選定に自作という選択肢を増やし、アイデアをより的確に実現できるようにすることです。そのための第一歩として、3Dプリント部品でブラシレスモーターを作り、制御回路を自作し、モーターを回すことに成功しました。今後は、高効率化や情報公開を進め、モーター自作文化を作ります。
+  thumbnail: 3d_printed_brushless_motor.webp
+  #promotion:   # YouTube上にPVがあれば追記する
+  final:       R07GRnyqML8
+  final_start: 0
+  link: https://github.com/Jun-robot/3DPrintedMotor
+  year: 2023
+  mentor_id: komuro_maki
+  creator_ids:
+  - jumpei_saito
+
 - id: code_museum
   title: Code Museum - 読むことだけに特化したソースコードエディタ
   description: Code Museumは、一般的なエディタからあえて「書く機能」をなくし、「読む機能」に特化したソースコードエディタです。範囲実行やGPTを活用した機能など、様々な「読む機能」があります。このエディタを使うことで、コードを読んでいる時間を短縮し、生産性を上げることができます。
@@ -202,18 +202,18 @@
   creator_ids:
   - ryu_wakasa
 
-- id: a9n
-  title: "A9N: HALを用いて移植容易性を実現するマイクロカーネル"
-  description: A9NはHAL + マイクロカーネルによって構築されたカーネル + ソフトウェアです。これにより、高い移植容易性・安定性・拡張性を兼ね備えます。近年の複雑化し巨大化したOSとは異なり、十分に小さいA9Nは本質の理解を助け、OS学習をより容易なものとします。
-  thumbnail: a9n.webp
+- id: lescued
+  title: lescued - AIで好みの曲を生成するシステム
+  description: lescuedはユーザーが「聴きたい曲」を言語化不要で生成する作曲AIです。これはAIがユーザーの好みを学習していき、その過程で生成した曲をユーザーに提供することによって実現させています。この仕組みをアプリとして提供することで、自分が必要としている曲に直接アクセスできるようになります。
+  thumbnail: lescued.webp
   #promotion:   # YouTube上にPVがあれば追記する
-  final:       VJOOFltOJJk
+  final:       S_egAA5Lc_c
   final_start: 0
   #link:        # 公式サイトがあれば追記する
   year: 2023
-  mentor_id: ishii_kakeru
+  mentor_id: shouya_ishimaru
   creator_ids:
-  - rekka_igumi
+  - itsuki_tsuruta
 
 
 # 2022年度
