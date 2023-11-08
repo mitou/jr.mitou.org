@@ -140,8 +140,8 @@
   title: niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン
   description: ブラウザで「ニワスクリプト」というプログラミング言語を実行するインタプリタエンジンです。時系列に沿った処理系を提供し、描画結果を返します。過去にこの言語で制作された作品を再度実行可能にすることを第一目標とし、最終的にはニワスクリプトコミュニティの活性化を目指して開発を行っています。
   thumbnail: niwangojs.webp
-  promotion: jU5WgPZblxM
-  final:       jGUR88BMgns
+  promotion: ZJdlsgMzWrU
+  final:     jGUR88BMgns
   final_start: 39
   link: https://github.com/xpadev-net/niwango.js
   tags: [ニワン語]
