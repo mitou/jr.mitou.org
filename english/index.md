@@ -82,6 +82,10 @@ lang: en
     <a href='https://sites.google.com/view/toubans-en' class="project-showcase project-one" target="_blank" rel='noopener'>
       <img src="/assets/img/spinner.svg" data-src="/assets/img/english/toubans.webp" alt="Toubans! - The easy-to-use duty-management chatbot" class="project-img lazyload" loading="lazy" />
     </a>
+
+    <a href='https://hato.nyiyui.ca/README-en.html' class="project-showcase project-one" target="_blank" rel='noopener'>
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/english/hato.webp" alt="Hopefully Automatic Train Operation (HATO): Immersive Automatic Model Train Control System" class="project-img lazyload" loading="lazy" />
+    </a>
   </div>
 
   <a href="/projects" class="button">Check accepted projects (in Japanese)</a>
