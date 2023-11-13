@@ -48,10 +48,19 @@ lang: en
      title="Award ceremony for graduates of the MITOU Junior program at The University of Tokyo." class="top-img lazyload" loading="lazy"
        alt="Award ceremony for graduates of the MITOU Junior program at The University of Tokyo.">
 
-  <a href="/english/stats" class="button">Check acceptance rate</a>
-  
+  <br>
+
+  {% assign total_applications = 0 %}
+  {% assign total_projects = 0 %}
+  {% assign total_creators = 0 %}
+  {% for stat in site.data.stats %}
+    {% assign total_applications = total_applications | plus: stat.applications %}
+    {% assign total_projects     = total_projects     | plus: stat.projects %}
+    {% assign total_creators     = total_creators     | plus: stat.creators %}
+  {% endfor %}
+
   <h2 id='showcase'>Projects Showcase</h2>
-  <p>Over 100 projects (applications) are submitted to our Mitou Junior program every year, and approximately 10-13% of them are accepted.</p>
+  <p>Up to now <strong>{{ total_applications }} applications</strong> are submitted to our Mitou Junior program, and we support <strong>{{ total_projects }} projects</strong> and <strong>{{ total_creators }} creators</strong>. (<a href='/english/stats'>Acceptance rate: 10-13%</a>)</p>
   <p>Example projects, accepted and boosted by our program, are as follows.</p>
 
   <div class="project-showcase-list">
@@ -88,7 +97,10 @@ lang: en
     </a>
   </div>
 
-  <a href="/projects" class="button">Check accepted projects (in Japanese)</a>
+  <div class='flex'>
+    <a href="/english/stats" class="button">Check statistics</a>
+    <a href="/final" class="button">Check the latest projects (in Japanese)</a>
+  </div>
 
 
   <h2 id='supporters'>Sponsors & Supporters</h2>
