@@ -86,6 +86,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
   <li><a href='https://qiita.com/MasudaHinata/items/b686009b0e741d30cf01'>未踏ジュニア振り返り・提案書 <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2022/sanitas'>Sanitas 努力量を共有して美容と健康を支えるアプリ</a></small>）</li>
   <li><a href='https://note.com/ricksh/n/n5fa51f9142b2'>採択されるために私が意識したこと/アドバイス <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2021/cybotanic'>Cybotanic：サイボーグ化された植物</a></small>）</li>
   <li><a href='https://note.com/anharu/n/ne00c1e774a29'>スーパークリエータに認定されたりアプリ甲子園で準優勝したりするまで <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2020/skimer'>SKIMER - LINEで手軽にやること管理</a>）</small></li>
+  <li><a href='https://note.com/k1ut_/n/nbc541a9b6dc1'>未踏ジュニアの振り返り <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2023/ai_4koma_maker'>AI 4コマメーカー</a>）</small></li>
   <li><a href='https://note.com/redapple0414/n/nd20c49794b79'>未踏ジュニアの振り返り <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2021/mark_sdgs'>マークみっけ！for  SDGs</a>）</small></li>
   <li><a href='https://note.com/alicelavanderdev/n/nb528b1bdbb93'>未踏ジュニア振り返り・提案書
  <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2022/noxicel'>Noxicel - 英作文とAIを用いた英単語学習アプリ</a>）</small></li>
