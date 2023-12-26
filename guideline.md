@@ -43,7 +43,9 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 ### 3. 応募フォームから提案書をアップロードする（2023年4月8日 23:59まで） {#apply}
 申請者情報やインタビュー（オンライン面接）の希望日、その他必要な情報をフォームに入力し、準備した提案書をアップロードします。
 
-<a href="https://forms.gle/rSSSX6f9vj7egN4N9" class="button" target="_blank">応募フォームを見る</a>
+<!--<a href="https://forms.gle/rSSSX6f9vj7egN4N9" class="button" target="_blank">応募フォームを見る</a>-->
+
+<div class="note">応募フォームは毎年3月10日ごろに公開される予定です。</div><br>
 
 {% include arrow.html %}
 
