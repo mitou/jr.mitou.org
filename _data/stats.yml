@@ -8,8 +8,8 @@
   competition_rate: 7.85 # 7.8571 倍
   acceptance_rate:  12.7 # 12.727 %
   creators: 14
-  #spc:
-  #spc_rate:
+  spc: 12
+  spc_rate: 85.7 # 85.714 %
 
 - year: 2022
   applications: 107
