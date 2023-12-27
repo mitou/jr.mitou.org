@@ -174,7 +174,7 @@ $ bundle exec rake test
 ## :two_hearts: 使用素材、著作物、ライセンスについて
 
 - [Font Awesome](https://fontawesome.com/license/) - :copyright: Fonticons, Inc.
-- [Twemoji](https://twemoji.twitter.com/) - :copyright: Twitter, Inc and other contributors.
+- [Twemoji](https://twemoji.twitter.com/) - :copyright: 2020 Twitter, Inc and other contributors.
 
 [各プロジェクト](https://jr.mitou.org/projects/)のカバー画像やデモ動画、および説明文などは当該プロジェクトのクリエータの著作物となります。その他のロゴ画像やプロフィール画像、および説明文なども同様に、各著作者の著作物となります。
 
