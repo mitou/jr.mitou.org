@@ -17,7 +17,7 @@ description: 未踏ジュニアへの応募から採択までの流れをまと�
 
 ## 応募から採択までの流れ {#flow}
 
-<div class="note">以下は2023年度の流れです。2024年度の流れは3月ごろに公開予定です。</div>
+<div class="note">以下は2023年度の流れです。2024年度の流れは3月10日に公開予定です。</div>
 
 <br>
 
@@ -45,7 +45,7 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 
 <!--<a href="https://forms.gle/rSSSX6f9vj7egN4N9" class="button" target="_blank">応募フォームを見る</a>-->
 
-<div class="note">応募フォームは毎年3月10日ごろに公開される予定です。</div><br>
+<div class="note">応募フォームは毎年3月10日に公開される予定です。</div><br>
 
 {% include arrow.html %}
 
