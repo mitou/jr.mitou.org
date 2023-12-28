@@ -17,7 +17,6 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-include-cache'
   gem 'jekyll-minifier'
-  gem 'jekyll-liquify'  # This enables to show latest stats in OGP meta tags
   gem 'jekyll-sitemap'
 
   # No need this gem because we build by GitHub Actions and
