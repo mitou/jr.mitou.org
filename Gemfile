@@ -7,6 +7,12 @@ gem 'jekyll'
 gem 'rake'     # Enable Rakefile to run tasks
 gem 'truncato' # https://github.com/jorgemanrubia/truncato
 
+# Declare to install bundled gems to fix warnings:
+# https://www.ruby-lang.org/ja/news/2023/12/25/ruby-3-3-0-released/
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
+
 group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-include-cache'
