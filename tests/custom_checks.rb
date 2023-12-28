@@ -7,8 +7,8 @@ class CustomChecks < ::HTMLProofer::Check
   BASE_URL  = '_site/'
 
   def run
+    check_meta_tags
     check_json_apis if @runner.current_filename == '_site/api.html'
-    check_meta_tags if @runner.current_filename == '_site/stats.html'
   end
 end
 
