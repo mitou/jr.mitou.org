@@ -11,7 +11,22 @@ module Jekyll
       # Add other environment variables to `site.config` here...
     end
   end
+
+  # A plugin to enables to show latest Stats in OGP meta tags.
+  # Inspired by: https://github.com/gemfarmer/jekyll-liquify
+  module LiquifyFilter
+    def liquify(input)
+      if input.is_a? String
+        Liquid::Template.parse(input).render(@context)
+      else
+        input
+      end
+    end
+  end
 end
+
+# Register LiquifyFilter module to Jekyll template
+Liquid::Template.register_filter(Jekyll::LiquifyFilter)
 
 # A plugin to set custom site.data like APIs: {% site.data.apis %}
 # https://jekyllrb.com/docs/plugins/generators/

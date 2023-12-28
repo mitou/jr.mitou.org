@@ -7,12 +7,17 @@ gem 'jekyll'
 gem 'rake'     # Enable Rakefile to run tasks
 gem 'truncato' # https://github.com/jorgemanrubia/truncato
 
+# Declare to install bundled gems to fix warnings:
+# https://www.ruby-lang.org/ja/news/2023/12/25/ruby-3-3-0-released/
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
+
 group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-include-cache'
-  gem 'jekyll-sitemap'
   gem 'jekyll-minifier'
-  gem 'jekyll-liquify'
+  gem 'jekyll-sitemap'
 
   # No need this gem because we build by GitHub Actions and
   # serve the built results (static files) on GitHub Pages.
