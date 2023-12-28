@@ -181,8 +181,8 @@ $ bundle exec rake test
 1. 翌年度の開催が決定していれば、次回の募集要項（予定）を追加する 7979630
 1. 翌年度の開催が決定していれば、古くなった応募の手引きを更新する 2c3243b
 
-:octocat: 更新作業の例: [2023年度のスパクリ公開時のPR (#166) - GitHub](https://github.com/mitou/jr.mitou.org/pull/166)  
-:newspaper: プレスリリースの例: [2023年度のスパクリ公開プレス - PR TIMES](https://prtimes.jp/main/html/rd/p/000000014.000022934.html) ([SNS投稿](https://twitter.com/mitoujr/status/1739489291720651229))
+:octocat: プルリクエストの例: [2023年度のスパクリ公開時のプルリク (#166) - GitHub](https://github.com/mitou/jr.mitou.org/pull/166)  
+:newspaper: プレスリリースの例: [2023年度のスパクリ公開時のプレス - PR TIMES](https://prtimes.jp/main/html/rd/p/000000014.000022934.html) ([SNS投稿](https://twitter.com/mitoujr/status/1739489291720651229))
 
 
 
