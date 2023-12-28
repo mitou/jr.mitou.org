@@ -8,6 +8,18 @@ class CustomChecks < ::HTMLProofer::Check
 
   def run
     check_json_apis if @runner.current_filename == '_site/api.html'
+    check_meta_tags if @runner.current_filename == '_site/stats.html'
+  end
+end
+
+def check_meta_tags
+  # Check if meta tags render data correctly
+  @html.css('head > meta').each do |node|
+    if node.attribute('content') &&
+       node.attribute('content').value.include?('site.data')
+
+      add_failure("Failed to render Jekyll data: #{node.attribute('content')}")
+    end
   end
 end
 
