@@ -1,7 +1,6 @@
 # See the following 'Custom Tests' section to add tests ;)
 # https://github.com/gjtorikian/html-proofer#custom-tests
 
-# Check /**/*.json URLs return valid JSON data
 require 'json'
 class CustomChecks < ::HTMLProofer::Check
   BASE_URL  = '_site/'
@@ -12,8 +11,9 @@ class CustomChecks < ::HTMLProofer::Check
   end
 end
 
+# Check if meta tags render data correctly
+# Example: https://jr.mitou.org/stats
 def check_meta_tags
-  # Check if meta tags render data correctly
   @html.css('head > meta').each do |node|
     if node.attribute('content') &&
        node.attribute('content').value.include?('site.data')
@@ -23,8 +23,9 @@ def check_meta_tags
   end
 end
 
+# Get JSON API URLs from https://jr.mitou.org/apis
+# and check if they all return valid JSON data.
 def check_json_apis
-  # Get JSON API URLs and check if they return valid JSON data.
   @html.css('#index > ul > li').each do |node|
     json_path = node.at_css('a').attribute('href').value
     # e.g. => /projects.json
