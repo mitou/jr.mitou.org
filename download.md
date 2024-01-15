@@ -95,9 +95,21 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
   <li><a href='https://note.com/inoue2002/n/nfb57cd6825a4'>未踏ジュニア振り返りと、技術力に差があるチーム開発の僕なりの攻略方法 <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2020/critica'>critica - 手軽で直感的なリアクション回収ツール</a>）</small></li>
 </ul>
 
-上記の他にも、クリエータをインタビューした記事などがあります。詳しくは下記ページをご確認ください。
+<br>
 
-<a href="/media" class="button">メディア掲載を見る</a>
+上記の他にも、メディアに掲載されたクリエータのインタビュー記事もあります。
+
+<!-- 以下はメディア掲載されたインタビュー記事 -->
+<ul>
+  <!-- テンプレート（コピペ用）
+  <li><a href='#'>Title <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/20xx/'>PJ Title</a>）</small></li>
+  -->
+  <li><a href='https://edtechzine.jp/article/detail/780'>中学2年生にしてiPhoneアプリを5本リリース、毎日1アイデアを考える未踏ジュニアスーパークリエータ <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2017/draw_code'>DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜</a>）</small></li>
+  <li><a href='https://edtechzine.jp/article/detail/829'>高校生なのにエンジニアインターン!? ほぼ不登校から大学受験もプログラミングで突破した未踏ジュニアスーパークリエータ <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2017/vamboo'>FRPの概念に触れられるビジュアルプログラミング言語の開発</a>）</small></li>
+  <li><a href='https://edtechzine.jp/article/detail/1976'>「50センチ革命」の先にあるものとは。未踏ジュニアからLINE BOOT AWARDSグランプリ受賞、SXSW Eduでもピッチをした未踏ジュニアスーパークリエータ <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2018/toubans'>Toubans! -LINEで設定・通知できる当番お知らせサービス</a>）</small></li>
+</ul>
+
+<a href="/media" class="button">他のメディア掲載を見る</a>
 
 ## 準備できた? {#ready}
 
