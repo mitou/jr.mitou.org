@@ -84,15 +84,68 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 未踏ジュニア採択者（クリエータ）による体験談もあります。こちらも合わせてご参考になれば幸いです。カッコ内はプロジェクト名です。
 
 <ul>
-  <li><a href='https://zenn.dev/toshihiro_tange/articles/mitoujr-advent-calendar-2023'>未踏ジュニア振り返り <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2023/stask'>Stask - 学生の課題進捗を助けるアプリ</a></small>）</li>
-  <li><a href='https://qiita.com/MasudaHinata/items/b686009b0e741d30cf01'>未踏ジュニア振り返り・提案書 <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2022/sanitas'>Sanitas 努力量を共有して美容と健康を支えるアプリ</a></small>）</li>
-  <li><a href='https://note.com/ricksh/n/n5fa51f9142b2'>採択されるために私が意識したこと/アドバイス <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2021/cybotanic'>Cybotanic：サイボーグ化された植物</a></small>）</li>
-  <li><a href='https://note.com/anharu/n/ne00c1e774a29'>スーパークリエータに認定されたりアプリ甲子園で準優勝したりするまで <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2020/skimer'>SKIMER - LINEで手軽にやること管理</a>）</small></li>
-  <li><a href='https://note.com/k1ut_/n/nbc541a9b6dc1'>未踏ジュニアの振り返り <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2023/ai_4koma_maker'>AI 4コマメーカー</a>）</small></li>
-  <li><a href='https://note.com/redapple0414/n/nd20c49794b79'>未踏ジュニアの振り返り <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2021/mark_sdgs'>マークみっけ！for  SDGs</a>）</small></li>
-  <li><a href='https://note.com/alicelavanderdev/n/nb528b1bdbb93'>未踏ジュニア振り返り・提案書
- <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2022/noxicel'>Noxicel - 英作文とAIを用いた英単語学習アプリ</a>）</small></li>
-  <li><a href='https://note.com/inoue2002/n/nfb57cd6825a4'>未踏ジュニア振り返りと、技術力に差があるチーム開発の僕なりの攻略方法 <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2020/critica'>critica - 手軽で直感的なリアクション回収ツール</a>）</small></li>
+  <li>
+    <a href='https://zenn.dev/toshihiro_tange/articles/mitoujr-advent-calendar-2023'>
+      未踏ジュニア振り返り
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/projects/2023/stask'>Stask - 学生の課題進捗を助けるアプリ</a></small>）
+  </li>
+  <li>
+    <a href='https://qiita.com/MasudaHinata/items/b686009b0e741d30cf01'>
+      未踏ジュニア振り返り・提案書
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/projects/2022/sanitas'>Sanitas 努力量を共有して美容と健康を支えるアプリ</a></small>）
+  </li>
+  <li>
+    <a href='https://note.com/ricksh/n/n5fa51f9142b2'>
+      採択されるために私が意識したこと/アドバイス
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/projects/2021/cybotanic'>Cybotanic：サイボーグ化された植物</a></small>）
+  </li>
+  <li>
+    <a href='https://note.com/anharu/n/ne00c1e774a29'>
+      スーパークリエータに認定されたりアプリ甲子園で準優勝したりするまで
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/projects/2020/skimer'>SKIMER - LINEで手軽にやること管理</a>）</small>
+  </li>
+  <li>
+    <a href='https://note.com/k1ut_/n/nbc541a9b6dc1'>未踏ジュニアの振り返り
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/projects/2023/ai_4koma_maker'>AI 4コマメーカー</a>）</small>
+  </li>
+  <li>
+    <a href='https://note.com/redapple0414/n/nd20c49794b79'>
+      未踏ジュニアの振り返り
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/projects/2021/mark_sdgs'>マークみっけ！for  SDGs</a>）</small>
+  </li>
+  <li>
+    <a href='https://note.com/alicelavanderdev/n/nb528b1bdbb93'>
+      未踏ジュニア振り返り・提案書
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/projects/2022/noxicel'>Noxicel - 英作文とAIを用いた英単語学習アプリ</a>）</small>
+  </li>
+  <li>
+    <a href='https://zenn.dev/waryu/articles/mitoujr-2023-waryu'>
+      未踏ジュニアがついに終わったので苦悩と成功の半年間をまとめる
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/projects/2023/code_museum'>Code Museum - 読むことだけに特化したソースコードエディタ</a>）</small>
+  </li>
+  <li>
+    <a href='https://note.com/inoue2002/n/nfb57cd6825a4'>
+      未踏ジュニア振り返りと、技術力に差があるチーム開発の僕なりの攻略方法
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/projects/2020/critica'>critica - 手軽で直感的なリアクション回収ツール</a>）</small>
+  </li>
 </ul>
 
 <br>
@@ -104,9 +157,27 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
   <!-- テンプレート（コピペ用）
   <li><a href='#'>Title <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/20xx/'>PJ Title</a>）</small></li>
   -->
-  <li><a href='https://edtechzine.jp/article/detail/780'>中学2年生にしてiPhoneアプリを5本リリース、毎日1アイデアを考える未踏ジュニアスーパークリエータ <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2017/draw_code'>DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜</a>）</small></li>
-  <li><a href='https://edtechzine.jp/article/detail/829'>高校生なのにエンジニアインターン!? ほぼ不登校から大学受験もプログラミングで突破した未踏ジュニアスーパークリエータ <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2017/vamboo'>FRPの概念に触れられるビジュアルプログラミング言語の開発</a>）</small></li>
-  <li><a href='https://edtechzine.jp/article/detail/1976'>「50センチ革命」の先にあるものとは。未踏ジュニアからLINE BOOT AWARDSグランプリ受賞、SXSW Eduでもピッチをした未踏ジュニアスーパークリエータ <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/2018/toubans'>Toubans! -LINEで設定・通知できる当番お知らせサービス</a>）</small></li>
+  <li>
+    <a href='https://edtechzine.jp/article/detail/780'>
+      中学2年生にしてiPhoneアプリを5本リリース、毎日1アイデアを考える未踏ジュニアスーパークリエータ
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/projects/2017/draw_code'>DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜</a>）</small>
+  </li>
+  <li>
+    <a href='https://edtechzine.jp/article/detail/829'>
+      高校生なのにエンジニアインターン!? ほぼ不登校から大学受験もプログラミングで突破した未踏ジュニアスーパークリエータ
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/projects/2017/vamboo'>FRPの概念に触れられるビジュアルプログラミング言語の開発</a>）</small>
+  </li>
+  <li>
+    <a href='https://edtechzine.jp/article/detail/1976'>
+      「50センチ革命」の先にあるものとは。未踏ジュニアからLINE BOOT AWARDSグランプリ受賞、SXSW Eduでもピッチをした未踏ジュニアスーパークリエータ
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/projects/2018/toubans'>Toubans! -LINEで設定・通知できる当番お知らせサービス</a>）</small>
+  </li>
 </ul>
 
 <a href="/media" class="button">他のメディア掲載を見る</a>
