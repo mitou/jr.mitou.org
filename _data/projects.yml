@@ -431,7 +431,7 @@
   thumbnail: researcheck.webp
   #promotion:
   final: BDD-_NjnCqU
-  link: https://researcheck.com/
+  #link: https://researcheck.com/ # 404 Not Found
   year: 2021
   mentor_id: nishio_hirokazu
   creator_ids:
@@ -844,7 +844,7 @@
   thumbnail: mallet.webp
   #promotion:
   final: Tw28ieao9uo
-  link: https://github.com/katsd/mallet-ios
+  #link: https://github.com/katsd/mallet-ios # 404 Not Found
   year: 2019
 
 - id: tea
