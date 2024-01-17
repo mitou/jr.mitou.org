@@ -128,12 +128,24 @@ lang: en
     <a href='#media'><i class="fa-light fa-newspaper"></i></a>
     Media
   </h2>
-  <p>Some of our alumni are creating new values outside Japan as well. Here are a few examples.</p>
+  <p>Our alumni are creating new values after the program as well. Here are a few examples.</p>
   <ul class="list-none media-list">
     <li>
       <span class="media-pc-date pc-inline-b">CES 2023&nbsp;</span>
       <a href="https://www.ces.tech/innovation-awards/honorees/2023/honorees/c/contact-glove.aspx" target="_blank" rel="noopener">
 	INNOVATION AWARD PRODUCT - Contact Glove By Diver-X
+      </a>
+    </li>
+    <li>
+      <span class="media-pc-date pc-inline-b">TEDxAnjoWomen</span>
+      <a href="https://www.ted.com/tedx/events/54510" target="_blank" rel="noopener">
+	Speakers - Akari Kawaguchi
+      </a>
+    </li>
+    <li>
+      <span class="media-pc-date pc-inline-b">J-MEDIA ARTS</span>
+      <a href="https://j-mediaarts.jp/en/award/single/vr-sandbox/" target="_blank" rel="noopener">
+	25th Entertainment Division U-18 Award - VR Sandbox
       </a>
     </li>
     <li>
