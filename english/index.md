@@ -124,6 +124,25 @@ lang: en
     <a href="/final" class="button">Check the latest projects (in Japanese)</a>
   </div>
 
+  <h2 id='media'>
+    <a href='#media'><i class="fa-light fa-newspaper"></i></a>
+    Media
+  </h2>
+  <p>Some of our alumni are creating new values outside Japan as well. Here are a few examples.</p>
+  <ul class="list-none media-list">
+    <li>
+      <span class="media-pc-date pc-inline-b">CES 2023&nbsp;</span>
+      <a href="https://www.ces.tech/innovation-awards/honorees/2023/honorees/c/contact-glove.aspx" target="_blank" rel="noopener">
+	INNOVATION AWARD PRODUCT - Contact Glove By Diver-X
+      </a>
+    </li>
+    <li>
+      <span class="media-pc-date pc-inline-b">CBS News</span>
+      <a href="https://www.cbsnews.com/news/coronavirus-teens-tracking-app-different-approach-data-privacy-covid-tracing-japan-asiato/" target="_blank" rel="noopener">
+	Teen's tracking app takes a different approach to the coronavirus challenge
+      </a>
+    </li>
+  </ul>
 
   <h2 id='supporters'>
     <a href='#supporters'><i class="fa-light fa-hand-holding-heart"></i></a>
