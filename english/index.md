@@ -78,6 +78,44 @@ lang: en
     {% assign total_creators     = total_creators     | plus: stat.creators %}
   {% endfor %}
 
+  <h2 id='media'>
+    <a href='#media'><i class="fa-light fa-newspaper"></i></a>
+    Media & Awards
+  </h2>
+  <p>Our alumni are creating new values after the program as well. Here are a few examples.</p>
+  <ul class="list-none media-list">
+    <li>
+      <span class="media-pc-date pc-inline-b">CES 2023&nbsp;</span>
+      <a href="https://www.ces.tech/innovation-awards/honorees/2023/honorees/c/contact-glove.aspx" target="_blank" rel="noopener">
+	INNOVATION AWARD PRODUCT - Contact Glove By Diver-X
+      </a>
+    </li>
+    <li>
+      <span class="media-pc-date pc-inline-b">TEDxAnjo</span>
+      <a href="https://tedxanjo.com/akarikawaguchi/" target="_blank" rel="noopener">
+	Speakers - Akari Kawaguchi
+      </a>
+    </li>
+    <li>
+      <span class="media-pc-date pc-inline-b">J-MEDIA ARTS</span>
+      <a href="https://j-mediaarts.jp/en/award/single/vr-sandbox/" target="_blank" rel="noopener">
+	25th Entertainment Division U-18 Award - VR Sandbox
+      </a>
+    </li>
+    <li>
+      <span class="media-pc-date pc-inline-b">CBS News</span>
+      <a href="https://www.cbsnews.com/news/coronavirus-teens-tracking-app-different-approach-data-privacy-covid-tracing-japan-asiato/" target="_blank" rel="noopener">
+	Teen's tracking app takes a different approach to the coronavirus challenge
+      </a>
+    </li>
+    <li>
+      <span class="media-pc-date pc-inline-b">SXSW EDU</span>
+      <a href="https://www.youtube.com/watch?v=EZvmIcmtWoE" target="_blank" rel="noopener">
+	Toubans! pitch at SXSW 2019 (YouTube)
+      </a>
+    </li>
+  </ul>
+
   <h2 id='showcase'>
     <a href='#showcase'><i class="fa-light fa-books"></i></a>
     Projects Showcase
@@ -123,44 +161,6 @@ lang: en
     <a href="/english/stats" class="button">Check statistics</a>
     <a href="/final" class="button">Check the latest projects (in Japanese)</a>
   </div>
-
-  <h2 id='media'>
-    <a href='#media'><i class="fa-light fa-newspaper"></i></a>
-    Media & Awards
-  </h2>
-  <p>Our alumni are creating new values after the program as well. Here are a few examples.</p>
-  <ul class="list-none media-list">
-    <li>
-      <span class="media-pc-date pc-inline-b">CES 2023&nbsp;</span>
-      <a href="https://www.ces.tech/innovation-awards/honorees/2023/honorees/c/contact-glove.aspx" target="_blank" rel="noopener">
-	INNOVATION AWARD PRODUCT - Contact Glove By Diver-X
-      </a>
-    </li>
-    <li>
-      <span class="media-pc-date pc-inline-b">TEDxAnjo</span>
-      <a href="https://tedxanjo.com/akarikawaguchi/" target="_blank" rel="noopener">
-	Speakers - Akari Kawaguchi
-      </a>
-    </li>
-    <li>
-      <span class="media-pc-date pc-inline-b">J-MEDIA ARTS</span>
-      <a href="https://j-mediaarts.jp/en/award/single/vr-sandbox/" target="_blank" rel="noopener">
-	25th Entertainment Division U-18 Award - VR Sandbox
-      </a>
-    </li>
-    <li>
-      <span class="media-pc-date pc-inline-b">CBS News</span>
-      <a href="https://www.cbsnews.com/news/coronavirus-teens-tracking-app-different-approach-data-privacy-covid-tracing-japan-asiato/" target="_blank" rel="noopener">
-	Teen's tracking app takes a different approach to the coronavirus challenge
-      </a>
-    </li>
-    <li>
-      <span class="media-pc-date pc-inline-b">SXSW EDU</span>
-      <a href="https://www.youtube.com/watch?v=EZvmIcmtWoE" target="_blank" rel="noopener">
-	Toubans! pitch at SXSW 2019 (YouTube)
-      </a>
-    </li>
-  </ul>
 
   <h2 id='supporters'>
     <a href='#supporters'><i class="fa-light fa-hand-holding-heart"></i></a>
