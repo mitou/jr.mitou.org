@@ -15,6 +15,24 @@ lang: en
   </h3>
   <p>Creators will be able to learn from mentors and other <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>MITOU Program</a> graduates, like professors and tech founders, who are at the forefront of technology.</p>
 
+  <div class="youtube" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+    <meta itemprop="isFamilyFriendly"     content="True">
+    <meta itemprop="requiresSubscription" content="False">
+    <meta itemprop="width"                content="1280">
+    <meta itemprop="height"               content="720">
+    <meta itemprop="thumbnailUrl"         content="https://i.gyazo.com/c154c247c3056509f102d10b0daec7c8.jpg">
+    <meta itemprop="uploadDate"           content="2019-12-11">
+    <meta itemprop="contentUrl"           content="https://youtube.googleapis.com/v/qcMk-CLo21c">
+    <meta itemprop="embedUrl"             content="https://www.youtube.com/embed/qcMk-CLo21c?rel=0">
+    <meta itemprop="name"                 content="What is Mitou Junior program?">
+    <meta itemprop="description"          content="Mitou Junior is a half-year-long program to enhance young innovative creators in Japan. This program, initiated by the Mitou Foundation in 2016 and originating from the government-backed MITOU Program, has received support from various companies and organizations since its inception. With that support we offer the following benefits.">
+    <iframe width="100%" src="https://www.youtube.com/embed/qcMk-CLo21c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <a href="https://www.youtube.com/qcMk-CLo21c" class="button">Watch on YouTube</a>
+
+  <br>
+
   <h3 id='supports-development'>
     <a href='#supports-development'><i class="fas fa-badge-dollar green"></i></a>
     Financial Support
@@ -24,8 +42,7 @@ lang: en
   <img src="/assets/img/spinner.svg" data-src="/assets/img/about_development.webp"
    title="Support developing projects at CASE Shinjuku." class="top-img lazyload" loading="lazy"
      alt="Support developing projects at CASE Shinjuku." >
-
-  <br>
+  <br><br>
 
   <h3 id='supports-expenses'>
     <a href='#supports-expenses'><i class="fas fa-gear green"></i></a>
@@ -36,7 +53,7 @@ lang: en
   <img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp"
    title="Booth exhibition at Maker Faire Tokyo 2023." class="top-img lazyload" loading="lazy"
      alt="Booth exhibition at Maker Faire Tokyo 2023.">
-  <br>
+  <br><br>
 
   <h3 id='supports-awarding'>
     <a href='#supports-awarding'><i class="fas fa-link green"></i></a>
@@ -47,8 +64,7 @@ lang: en
   <img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.webp"
      title="Award ceremony for graduates of the MITOU Junior program at The University of Tokyo." class="top-img lazyload" loading="lazy"
        alt="Award ceremony for graduates of the MITOU Junior program at The University of Tokyo.">
-
-  <br>
+  <br><br>
 
   {% assign total_applications = 0 %}
   {% assign total_projects = 0 %}
