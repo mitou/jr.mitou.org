@@ -29,7 +29,7 @@ lang: en
     <iframe width="100%" src="https://www.youtube.com/embed/qcMk-CLo21c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
-  <a href="https://www.youtube.com/qcMk-CLo21c" class="button">Watch on YouTube</a>
+  <a href="https://www.youtube.com/watch?v=qcMk-CLo21c" class="button">Watch on YouTube</a>
 
   <br>
 
