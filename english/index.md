@@ -4,7 +4,10 @@ lang: en
 ---
 
 <div class="post">
-  <h2>What's Mitou Junior?</h2>
+  <h2 id='about'>
+    <a href='#about'><i class="fa-light fa-mountain"></i></a>
+    What's Mitou Junior?
+  </h2>
   <p>Mitou Junior is a half-year-long program to enhance young innovative creators in Japan. This program, initiated by the <a href="https://www.mitou.org/">Mitou Foundation</a> in 2016 and originating from the government-backed <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>MITOU Program</a>, has received support from various companies and organizations since its inception. With that support we offer the following benefits.</p>
 
   <br>
@@ -75,7 +78,10 @@ lang: en
     {% assign total_creators     = total_creators     | plus: stat.creators %}
   {% endfor %}
 
-  <h2 id='showcase'>Projects Showcase</h2>
+  <h2 id='showcase'>
+    <a href='#showcase'><i class="fa-light fa-books"></i></a>
+    Projects Showcase
+  </h2>
   <p>Up to now <strong>{{ total_applications }} applications</strong> are submitted to our Mitou Junior program, and we support <strong>{{ total_projects }} projects</strong> and <strong>{{ total_creators }} creators</strong>. (<a href='/english/stats'>Acceptance rate: 10-13%</a>)</p>
   <p>Example projects, accepted and boosted by our program, are as follows.</p>
 
@@ -119,8 +125,11 @@ lang: en
   </div>
 
 
-  <h2 id='supporters'>Sponsors & Supporters</h2>
-  <p>Mitou Junior program has 10+ financial and in-kind sponsors. Also we have 10+ supporters, including MEXT (Ministry of Education, Culture, Sports, Science and Technology) and METI (Ministry of Economy, Trade and Industry).</p>
+  <h2 id='supporters'>
+    <a href='#supporters'><i class="fa-light fa-hand-holding-heart"></i></a>
+    Sponsors & Supporters
+  </h2>
+  <p>Mitou Junior program has 10+ financial and in-kind sponsors. Also we have 10+ supporters, including MEXT (<a href='https://www.mext.go.jp/en/'>Ministry of Education, Culture, Sports, Science and Technology</a>) and METI (<a href='https://www.meti.go.jp/english/'>Ministry of Economy, Trade and Industry</a>).</p>
 </div>
 
 {% include sponsors.html %}
