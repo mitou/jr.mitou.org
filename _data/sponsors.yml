@@ -1,139 +1,165 @@
 # こんな感じで書きます ;)
-# - name: 会社名
+# - name: 法人名またはプロダクト名
 #   img:  /assets/img/sponsor 内の画像ファイルパス
-#   link: 会社のホームページ
-#   type: [platinum|gold|silver|bronze|inkind|media|supporter|collaborator]
+#   link:    法人またはプロダクトへのリンク
+#   link_en: 法人またはプロダクトへのリンク (英語版。無い場合は上記 link が適用されます)
 
 - name: 近畿大学情報学部
   img:  kindai.webp
-  link: https://www.kindai.ac.jp/informatics/
   type: platinum
+  link:    https://www.kindai.ac.jp/informatics/
+  link_en: https://www.kindai.ac.jp/english/
 
 - name: ハヤブサ財団
   img:  hayabusa.png
-  link: https://hayabusa.foundation/
   type: gold
+  link: https://hayabusa.foundation/
+  #link_en: 
 
 #- name: KDDI株式会社
 #  img:  kddi.webp
-#  link: https://www.kddi.com/
 #  type: gold
+#  link:    https://www.kddi.com/
+#  link_en: https://www.kddi.com/english/
 
 - name: 株式会社リクルート
   img:  recruit.webp
-  link: https://www.recruit.co.jp/
   type: silver
+  link: https://www.recruit.co.jp/
+  #link_en:
 
 - name: 株式会社ドワンゴ
   img:  dwango.webp
-  link: https://dwango.co.jp/
   type: silver
+  link:    https://dwango.co.jp/
+  link_en: https://en.dwango.co.jp/
 
 - name: 合同会社DMM.com
   img:  DMM.com_logo_RGB.webp
-  link: https://dmm-corp.com/
   type: silver
+  link: https://dmm-corp.com/
+  #link_en:
 
 - name: 株式会社プロコミット
   img:  pro-commit.webp
-  link: https://www.procommit.co.jp/
   type: bronze
+  link: https://www.procommit.co.jp/
+  #link_en:
 
 #- name: 株式会社アイデミー
 #  img:  aidemy.webp
-#  link: https://aidemy.net/
 #  type: inkind
+#  link: https://aidemy.net/
+#  link_en:
 
 - name: さくらインターネット株式会社
   img:  sakura.webp
-  link: https://www.sakura.ad.jp/
   type: inkind
+  link:    https://www.sakura.ad.jp/
+  link_en: https://www.sakura.ad.jp/corporate/en/
 
 - name: Progate
   img:  progate.webp
-  link: https://prog-8.com/
   type: inkind
+  link:    https://prog-8.com/
+  link_en: https://progate.com/
 
 - name: Ruby on Railsチュートリアル
   img:  railstutorial.webp
-  link: https://railstutorial.jp/
   type: inkind
+  link:    https://railstutorial.jp
+  link_en: https://yasslab.jp/en
 
 - name: Scrapbox
   img:  scrapbox.svg
-  link: https://scrapbox.io/
   type: inkind
+  link:    https://scrapbox.io/
+  link_en: https://scrapbox.io/?lang=en
 
 - name: Helpfeel
   img:  helpfeel.webp
-  link: https://helpfeel.com/
   type: inkind
+  link:    https://helpfeel.com/
+  link_en: https://helpfeel.com/en-us/
 
 - name: GitHub
   img:  github.webp
-  link: https://github.com/
   type: inkind
+  link:    https://github.co.jp/
+  link_en: https://github.com/
 
 - name: CASE Shinjuku
   img:  case-shinjuku.webp
-  link: https://case-shinjuku.com/
   type: inkind
+  link:    https://case-shinjuku.com/
+  link_en: https://case-shinjuku.com/english
 
 - name: エドテックジン
   img:  ed-tech-zine.webp
-  link: https://edtechzine.jp/
   type: media
+  link: https://edtechzine.jp/
+  #link_en:
 
 - name: こどもとIT
   img:  kodomo-to-it.webp
-  link: https://edu.watch.impress.co.jp/
   type: media
+  link: https://edu.watch.impress.co.jp/
+  #link_en:
 
 
 # 後援団体 - Supportors
 - name: 文部科学省
   img:  mext.webp
-  link: https://www.mext.go.jp/
   type: supporter
+  link:    https://www.mext.go.jp/
+  link_en: https://www.mext.go.jp/en/
 
 - name: 経済産業省
   img:  meti.webp
-  link: https://www.meti.go.jp/
   type: supporter
+  link:    https://www.meti.go.jp/
+  link_en: https://www.meti.go.jp/english/
 
 # 協力団体 - Collaborators
 - name: CoderDojo Japan
   img:  coderdojo-japan.webp
-  link: https://coderdojo.jp/
   type: collaborator
+  link: https://coderdojo.jp/
+  #link_en:
 
 - name: GPA ぐんまプログラミングアワード
   img:  gpa.webp
-  link: https://www.gp-award.jp/
   type: collaborator
+  link: https://www.gp-award.jp/
+  #link_en:
 
 - name: Tech Kids School
   img:  tech-kids-school.webp
-  link: https://techkidsschool.jp/
   type: collaborator
+  link: https://techkidsschool.jp/
+  #link_en:
 
 - name: U-22 プログラミングコンテスト
   img:  pg-contest.webp
-  link: https://u22procon.com/
   type: collaborator
+  link: https://u22procon.com/
+  #link_en:
 
 - name: 全国高専プログラミングコンテスト
   img:  kousen-pg-contest.webp
-  link: https://www.procon.gr.jp/
   type: collaborator
+  link: https://www.procon.gr.jp/
+  #link_en:
 
 - name: パソコン甲子園
   img:  pc-koshien.webp
-  link: https://pckoshien.u-aizu.ac.jp/
   type: collaborator
+  link: https://pckoshien.u-aizu.ac.jp/
+  #link_en:
 
 - name: 中高生国際Rubyプログラミングコンテスト
   img:  ruby-procon.webp
-  link: https://www.ruby-procon.net/
   type: collaborator
+  link: https://www.ruby-procon.net/
+  link_en: https://www.ruby-procon.net/english/
 
