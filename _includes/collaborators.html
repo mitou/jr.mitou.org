@@ -2,7 +2,10 @@
 {% assign collaborators = site.data.sponsors | where: "type", "collaborator" %}
 
 <section id="collaborators">
-  <h2>{{ site.data.translations.collaboratorHeading[lang] }}</h2>
+  <h2>
+    <a href='#collaborators'><i class="fa-light fa-handshake"></i></a>
+    {{ site.data.translations.collaboratorHeading[lang] }}
+  </h2>
   <div class="sponsors-list-clb">
     {% for c in collaborators %}
     <a href="{{c.url}}" class="sponsor-clb sponsor-one" target="_blank" rel='noopener'>

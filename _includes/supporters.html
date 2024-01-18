@@ -2,7 +2,10 @@
 {% assign supporters = site.data.sponsors | where: "type", "supporter" %}
 
 <section id="supporters">
-  <h2>{{ site.data.translations.supporterHeading[lang] }}</h2>
+  <h2>
+    <a href='#supporters'><i class="fa-light fa-badge-check"></i></a>
+    {{ site.data.translations.supporterHeading[lang] }}
+  </h2>
   <div class="sponsors-list-supporter">
     {% for s in supporters %}
     <a href="{{s.url}}" target="_blank" rel='noopener'>

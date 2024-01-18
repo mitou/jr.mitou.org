@@ -92,7 +92,10 @@ this_year: 2023
 -->
 
 <section id="media">
-  <h2 class="heading-line"><i class="far fa-newspaper green"></i> メディア掲載</h2>
+  <h2 class="heading-line">
+    <a href='#media'><i class="far fa-newspaper green"></i></a>
+    メディア掲載
+  </h2>
   {% include media-list.html limit=5 %}
 
   <a href="/media" class="button">すべて見る</a>
@@ -146,7 +149,10 @@ this_year: 2023
 
 
 <section id="faq">
-  <h2>よくある質問</h2>
+  <h2>
+    <a href='#faq'><i class="far fa-comments-question green"></i></a>
+    よくある質問と回答
+  </h2>
   <div class="qanda">
     {% for faq in site.data.faq %}
     <div class="qanda-one">
