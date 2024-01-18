@@ -16,7 +16,9 @@
   <h3 id='sponsor-platinum'>{{ site.data.translations.sponsorPlatinum[lang] }}</h3>
   <div class="sponsors-list-platinum">
   {% endif %}
-    <a href="{{ sponsor.link }}" target="_blank" rel='noopener'>
+    {% if lang == 'ja' or sponsor.link_en == nil %}
+    <a href="{{ sponsor.link    }}">{% else %}
+    <a href="{{ sponsor.link_en }}">{% endif %}
       <div class="sponsor-platinum sponsor-one">
         <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img lazyload">
       </div>
@@ -31,7 +33,9 @@
   <h3 id='sponsor-gold'>{{ site.data.translations.sponsorGold[lang] }}</h3>
   <div class="sponsors-list-gold">
   {% endif %}
-    <a href="{{ sponsor.link }}" target="_blank" rel='noopener'>
+    {% if lang == 'ja' or sponsor.link_en == nil %}
+    <a href="{{ sponsor.link    }}">{% else %}
+    <a href="{{ sponsor.link_en }}">{% endif %}
       <div class="sponsor-gold sponsor-one">
         <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img lazyload">
       </div>
@@ -46,7 +50,9 @@
   <h3 id='sponsor-silver'>{{ site.data.translations.sponsorSilver[lang] }}</h3>
   <div class="sponsors-list-silver">
   {% endif %}
-    <a href="{{ sponsor.link }}" target="_blank" rel='noopener'>
+    {% if lang == 'ja' or sponsor.link_en == nil %}
+    <a href="{{ sponsor.link    }}">{% else %}
+    <a href="{{ sponsor.link_en }}">{% endif %}
       <div class="sponsor-silver sponsor-one">
         <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img lazyload">
       </div>
@@ -61,7 +67,9 @@
   <h3 id='sponsor-bronze'>{{ site.data.translations.sponsorBronze[lang] }}</h3>
   <div class="sponsors-list-bronze">
   {% endif %}
-    <a href="{{ sponsor.link }}" target="_blank" rel='noopener'>
+    {% if lang == 'ja' or sponsor.link_en == nil %}
+    <a href="{{ sponsor.link    }}">{% else %}
+    <a href="{{ sponsor.link_en }}">{% endif %}
       <div class="sponsor-bronze sponsor-one">
         <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img lazyload">
       </div>
@@ -76,7 +84,9 @@
   <h3 id='sponsor-inkind'>{{ site.data.translations.sponsorInkind[lang] }}</h3>
   <div class="sponsors-list-inkind">
   {% endif %}
-    <a href="{{ sponsor.link }}" class="sponsor-inkind sponsor-one" target="_blank" rel='noopener'>
+    {% if lang == 'ja' or sponsor.link_en == nil %}
+    <a href="{{ sponsor.link    }}" class="sponsor-inkind sponsor-one">{% else %}
+    <a href="{{ sponsor.link_en }}" class="sponsor-inkind sponsor-one">{% endif %}
       <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img lazyload">
     </a>
   {% if forloop.last %}
@@ -89,7 +99,9 @@
   <h3 id='sponsor-media'>{{ site.data.translations.sponsorMedia[lang] }}</h3>
   <div class="sponsors-list-media">
   {% endif %}
-    <a href="{{ sponsor.link }}" class="sponsor-media sponsor-one" target="_blank" rel='noopener'>
+    {% if lang == 'ja' or sponsor.link_en == nil %}
+    <a href="{{ sponsor.link    }}" class="sponsor-media sponsor-one">{% else %}
+    <a href="{{ sponsor.link_en }}" class="sponsor-media sponsor-one">{% endif %}
       <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-img lazyload">
     </a>
   {% if forloop.last %}

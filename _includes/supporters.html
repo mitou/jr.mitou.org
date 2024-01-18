@@ -8,7 +8,9 @@
   </h2>
   <div class="sponsors-list-supporter">
     {% for supporter in supporters %}
-    <a href="{{ supporter.link }}" target="_blank" rel='noopener'>
+    {% if lang == 'ja' or supporter.link_en == nil %}
+    <a href="{{ supporter.link    }}">{% else %}
+    <a href="{{ supporter.link_en }}">{% endif %}
       <div class="sponsor-supporter sponsor-one">
 	<img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ supporter.img }}"
              alt="{{ supporter.name }}" class="sponsor-img lazyload">

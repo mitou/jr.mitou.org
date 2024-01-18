@@ -8,7 +8,9 @@
   </h2>
   <div class="sponsors-list-clb">
     {% for collaborator in collaborators %}
-    <a href="{{ collaborator.link }}" class="sponsor-clb sponsor-one" target="_blank" rel='noopener'>
+    {% if lang == 'ja' or collaborator.link_en == nil %}
+    <a href="{{ collaborator.link    }}" class="sponsor-clb sponsor-one">{% else %}
+    <a href="{{ collaborator.link_en }}" class="sponsor-clb sponsor-one">{% endif %}
       <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ collaborator.img }}"
            alt="{{ collaborator.name }}" class="sponsor-img lazyload">
     </a>
