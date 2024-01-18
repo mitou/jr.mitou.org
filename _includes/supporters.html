@@ -7,11 +7,11 @@
     {{ site.data.translations.supporterHeading[lang] }}
   </h2>
   <div class="sponsors-list-supporter">
-    {% for s in supporters %}
-    <a href="{{s.url}}" target="_blank" rel='noopener'>
+    {% for supporter in supporters %}
+    <a href="{{ supporter.link }}" target="_blank" rel='noopener'>
       <div class="sponsor-supporter sponsor-one">
-	<img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{s.img}}"
-             alt="{{s.name}}" class="sponsor-img lazyload">
+	<img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ supporter.img }}"
+             alt="{{ supporter.name }}" class="sponsor-img lazyload">
       </div>
     </a>
     {% endfor %}
