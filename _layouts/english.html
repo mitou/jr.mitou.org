@@ -8,7 +8,15 @@
       <img src="/assets/img/2022_cover.min.webp" data-src="/assets/img/2022_cover.webp" alt="Mitou Junior Photo in 2019" class="top-img lazyload" style="margin-bottom: -50px;">
     </div>
 
-    {{ content }}
+    <div class="post">
+      {{ content }}
+    </div>
+
+    {% include sponsors.html %}
+    {% include collaborators.html %}
+    {% include supporters.html %}
+
+    {% include contact.html %}
   </div>
 
   {% include footer.html %}
