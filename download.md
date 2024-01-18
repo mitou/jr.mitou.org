@@ -8,7 +8,8 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 
 本ページでは、応募に必要な書類（提案書）がダウンロードできます。また、提案書の書き方で悩んでいる人のために、過去の提案書のサンプルや、提案書を書くときのコツ、採択者の体験談などもまとめています。
 
-## 提案書テンプレート {#template}
+
+## [<i class="fa-light fa-file-import"></i>](#template)  提案書テンプレート {#template}
 
 提案書のテンプレートを以下からダウンロードして、PDFに変換後、[応募フォーム](/guideline#proposal)からアップロードしてください。
 
@@ -19,14 +20,15 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 
 なお上記と同じ形式に揃っていれば（つまりタイトルや提案者の氏名、および 1. から 8. までの項目が揃っていれば）、[Notion](https://www.notion.so/ja-jp/product) や [Scrapbox](https://scrapbox.io/product) など他ツールから PDF に変換して提出していただいても大丈夫です。
 
-## 提案書サンプル {#sample}
+
+## [<i class="fa-light fa-file-check"></i>](#sample) 提案書サンプル {#sample}
 
 過去の採択者による提案書を一部公開しています。今年の提案書とはフォーマットが少し異なりますが、採択された提案書の一例としてご参考になれば幸いです。
 
 <a href="https://jr.mitou.org/assets/other/2020_application_samples.zip" class="button">過去の提案書を見る</a>
 
 
-## 提案書のコツ {#tips}
+## [<i class="fa-light fa-lightbulb-on"></i>](#tips) 提案書のコツ {#tips}
 
 未踏ジュニアのメンターが応募者に向けて書いた記事です。提案書を良くするヒントになれば嬉しいです。カッコ内はメンター名です。
 
@@ -80,7 +82,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 <a href="/mentors" id="story" class="button" style='padding-left: 7px; padding-right: 7px;'>応募者向けメッセージを見る</a>
 
 
-## 採択者の体験談 {#voice}
+## [<i class="fa-light fa-users"></i>](#voice) 採択者の体験談 {#voice}
 未踏ジュニア採択者（クリエータ）による体験談もあります。こちらも合わせてご参考になれば幸いです。カッコ内はプロジェクト名です。
 
 <ul>
@@ -182,7 +184,8 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 
 <a href="/media" class="button">他のメディア掲載を見る</a>
 
-## 準備できた? {#ready}
+
+## [<i class="fa-light fa-list-check"></i>](#ready) 準備できた? {#ready}
 
 <p class="text-center">提案書の準備ができたら応募フォームへ! <i class="fad fa-mailbox green"></i></p>
 

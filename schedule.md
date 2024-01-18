@@ -9,29 +9,32 @@ thumbnail: /assets/img/thumbnails/schedule.webp
 
 未踏ジュニア採択後は、運営事務局や担当メンターからのサポートを得つつ、次の流れで進んでいきます。
 
-## 採択後のスケジュール
+
+## [<i class="fa-light fa-calendar-clock"></i>](#agenda) 採択後のスケジュール {#agenda}
 <img src="/assets/img/spinner.svg" data-src="/assets/img/schedule.png" alt="採択後のスケジュール" width="100%" class="post-photo lazyload">
 
-## メンターとのミーティング
+
+## [<i class="fa-light fa-comments"></i>](#meeting) メンターとのミーティング {#meeting}
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/mtg.svg" alt="ミーティング" width="50%" class="post-photo lazyload">
 基本的には、期間中週に一度程度、オンラインでメンターとのミーティングがあります。プログラミングの質問、方針の話でも、なんでも相談できる機会です！
 <a href="/mentors" class="button">メンター紹介を見る</a>
 
-## ブースト合宿（6月ごろ）
+
+## [<i class="fa-light fa-seedling"></i>](#boost) ブースト合宿（6月ごろ） {#boost}
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/boost.svg" alt="ブースト合宿" width="50%" class="post-photo lazyload">
 採択者全員が集まる『ブースト合宿』が、6月の週末に行われます。具体的な日程は採択時のメールでご案内し、全日程の参加が厳しい場合でも別途サポートいたしますので、ご安心ください。
 
 {% include arrow.html %}
 
 
-## 中間合宿（8月ごろ）
+## [<i class="fa-light fa-layer-plus"></i>](#mid) 中間合宿（8月ごろ） {#mid}
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/chukan.svg" alt="中間合宿でメンターなどに相談している様子のイラスト" width="50%" class="post-photo lazyload">
 採択者全員が集まる２回目の合宿です。ある程度プロジェクトが進んだ時点でフィードバックを得られる、貴重な機会です。
 
 {% include arrow.html %}
 
 
-## 成果報告会
+## [<i class="fa-light fa-graduation-cap"></i>](#final) 成果報告会 {#final}
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/final.svg" alt="発表のイメージ図" width="50%" class="post-photo lazyload">
 成果報告会の内容は<a href='https://www.youtube.com/mitoujr'>YouTubeチャンネル</a>から公開しています。ご参考になれば幸いです。
 
