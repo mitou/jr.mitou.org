@@ -74,7 +74,7 @@ Creators who have shown their outstanding performance during Mitou Junior progra
 {% endfor %}
 
 
-## [<i class="fa-light fa-newspaper"></i>](#mdia) Media & Awards {#media}
+## [<i class="fa-light fa-newspaper"></i>](#media) Media & Awards {#media}
 
 Our alumni are creating new values after the program as well. Here are a few examples.
 
