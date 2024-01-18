@@ -69,7 +69,12 @@ thumbnail: /assets/img/thumbnails/stats.webp
 
 <center><small>（ <i class="fas fa-mouse-pointer green"></i> カーソルまたはタップで数値が見れます）</small></center>
 
-<h2 style="margin-bottom: 60px;">応募数の推移</h2>
+
+<h2 id='apply' style="margin-bottom: 60px;">
+  <a href='#apply'><i class="fa-light fa-mailbox"></i></a>
+  応募数の推移
+</h2>
+
 <div id="applications"></div>
 <script type="text/javascript">
 Highcharts.chart('applications', {
@@ -122,7 +127,12 @@ Highcharts.chart('applications', {
 });
 </script>
 
-<h2 style="margin-bottom: 60px;">採択数の推移</h2>
+
+<h2 id='support' style="margin-bottom: 60px;">
+  <a href='#support'><i class="fa-light fa-hand-holding-heart"></i></a>
+  採択数の推移
+</h2>
+
 <div id="selections"></div>
 <script type="text/javascript">
 Highcharts.chart('selections', {
@@ -176,7 +186,11 @@ Highcharts.chart('selections', {
 </script>
 
 
-<h2 style="margin-bottom: 60px;">倍率の推移</h2>
+<h2 id='rate' style="margin-bottom: 60px;">
+  <a href='#rate'><i class="fa-light fa-badge-check"></i></a>
+  倍率の推移
+</h2>
+
 <div id="rates"></div>
 <script type="text/javascript">
 Highcharts.chart('rates', {
@@ -265,7 +279,7 @@ Highcharts.chart('rates', {
 {% endfor %}
 
 
-## 累計データ {#total}
+## [<i class="fa-light fa-chart-user"></i>](#total) 累計データ {#total}
 <p style='margin-top: 50px;'>
   2016年度から{{ current_stat.year }}年度までの累計データは以下のとおりです。
   {% assign total_applications = 0 %}
@@ -285,7 +299,7 @@ Highcharts.chart('rates', {
 </p>
 
 
-## お問い合わせ
+## [<i class="fa-light fa-envelope"></i>](#contact) お問い合わせ {#contact}
 
 <div style="margin-top: 50px;">
   <p>未踏ジュニアでは、活動をご支援して頂けるスポンサーを募集しております。まずはお気軽にご連絡ください。</p>
