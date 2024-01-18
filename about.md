@@ -24,7 +24,9 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 <br>
 
-## 未踏ジュニアとは？ {#mitoujr}
+
+## [<i class="fa-regular fa-mountain"></i>](#mitoujr) 未踏ジュニアとは？ {#mitoujr}
+
 独創的なアイデア、卓越した技術を持つ 17 歳以下の小中高生や[高専生](https://www.mext.go.jp/a_menu/koutou/kousen/index.htm)などを支援するプログラムです。
 
 [IPA 未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)という、経産省所管の独立行政法人情報処理推進機構（[IPA](https://www.ipa.go.jp/)）が実施する 24 歳以下の若者を対象とした人材育成プログラムがあります。この未踏事業の修了生を中心に設立・運営されているのが、**未踏ジュニア**です。
@@ -52,28 +54,25 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 <br>
 
-## 採択者への支援 {#supports}
+
+## [<i class="fa-light fa-hand-holding-heart"></i>](#supports) 採択者への支援 {#supports}
 
 未踏ジュニアに応募し、採択されると、採択者（クリエータ）は以下の支援が得られます。
 
+<br>
 
-<h3 id='supports-mentoring'>
-  <a href='#supports-mentoring'><i class="fas fa-graduation-cap green"></i></a>
-  メンタリングの提供
-</h3>
 
-担当の[メンター](/mentors)をはじめ、未踏事業の修了生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
+### [<i class="fas fa-graduation-cap green"></i>](#supports-mentoring) メンタリングの提供 {#supports-mentoring}
 
-<div class="tips">期間中は、毎週１時間ほど、オンラインでメンターと話せる機会があります。プログラミングの質問やプロジェクトの方針など、なんでも相談できます。</div>
+担当の[メンター](/mentors)をはじめ、[IPA 未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)の修了生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
+
+<div class="tips">期間中は、毎週１時間ほど、担当する<a href='/mentors'>メンター</a>とオンラインで話せる機会があります。プログラミングの質問やプロジェクトの方針など、なんでも相談できます。</div>
 <a href="/mentors" class="button">メンター紹介を見る</a>
 
 <br>
 
 
-<h3 id='supports-development'>
-  <a href='#supports-development'><i class="fas fa-badge-dollar green"></i></a>
-  開発資金の援助
-</h3>
+### [<i class="fas fa-badge-dollar green"></i>](#supports-development) 開発資金の援助 {#supports-development}
 
 採択された各グループへ、50 万円を上限として開発資金の援助を行います。
 
@@ -86,10 +85,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 <br>
 
 
-<h3 id='supports-expenses'>
-  <a href='#supports-expenses'><i class="fas fa-gear green"></i></a>
-  開発場所の援助
-</h3>
+### [<i class="fas fa-gear green"></i>](#supports-expenses) 開発場所の援助 {#supports-expenses}
 
 必要に応じて、開発場所や工作機材などの援助を行います。
 
@@ -99,14 +95,10 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
    title="ブース出展している様子 @ Maker Faire Tokyo 2023" class="top-img lazyload" loading="lazy"
      alt="ブース出展している様子 @ Maker Faire Tokyo 2023">
  
-
 <br>
 
 
-<h3 id='supports-awarding'>
-  <a href='#supports-awarding'><i class="fas fa-link green"></i></a>
-  未踏ジュニアスーパークリエータの認定
-</h3>
+### [<i class="fas fa-link green"></i>](#supports-awarding) 未踏ジュニアスーパークリエータの認定 {#supports-awarding}
 
 特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。[慶應義塾大学SFC](https://www.sfc.keio.ac.jp/news/012903.html)や[東京都立大学](https://cs.sd.tmu.ac.jp/admission_office.html)、[近畿大学](https://newscast.jp/news/1055602)に推薦枠で出願できます。
 
@@ -117,8 +109,9 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 <br>
 
 
-## 応募〜採択の流れ {#guideline}
-未踏ジュニアでは応募から採択までの流れや、応募書類（提案書）を書くコツ、採択者の体験談なども公開しています。提案書を良くするコツなども公開しているので、ぜひチェックしてみてください！
+## [<i class="fa-light fa-mailbox"></i>](#apply) 応募〜採択の流れ {#apply}
+
+未踏ジュニアでは応募から採択までの流れや、応募書類（提案書）を**書くコツ**、**採択者の体験談**なども公開しています。**提案書を良くするコツ**なども公開しているので、ぜひチェックしてみてください！
 
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/chukan.svg"
    title="応募について身近な人などに相談している様子のイラスト" width="50%" class="post-photo lazyload"
@@ -129,7 +122,8 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
   <a href="/download#voice"  class="button">採択者の体験談を見る</a>
 </div>
 
-## 運営団体について {#organizer}
+
+## [<i class="fa-light fa-handshake"></i>](#organizer) 運営団体について {#organizer}
 
 未踏ジュニアは、[IPA 未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)の修了生などが集まる一般社団法人未踏（[未踏社団](https://www.mitou.org/)）によって運営されています。未踏ジュニアは、未踏社団の取り組んでいる事業の１つです。
 
@@ -146,10 +140,8 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
   <a href="https://www.mitou.org/"  class="button">未踏社団を見る</a>
 </div>
 
-<h3 id='interviews'>
-  <a href='#interviews'><i class="fa-brands fa-youtube green"></i></a>
-  推薦のことば
-</h3>
+
+### [<i class="fa-brands fa-youtube green"></i>](#interviews) 推薦のことば {#interviews}
 
 未踏関係者に『**なんで未踏?**』という質問をしてみました。未踏ジュニアについて一歩深く知るキッカケになれば嬉しいです <i class="far fa-laugh-squint" aria-hidden="true" /> <i class="far fa-thumbs-up" aria-hidden="true" />
 
@@ -171,7 +163,9 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 <br>
 
-### 他の支援プログラム紹介 {#opportunities}
+
+### [<i class="fa-light fa-badge-check"></i>](#opportunities) 他の支援プログラム紹介 {#opportunities}
+
 『未踏ジュニア』は 17 歳以下を対象として支援しておりますが、24 歳以下を対象とした『[未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)』や、**年齢制限の無い**『[未踏アドバンスト](https://www.ipa.go.jp/jinzai/mitou/advanced/about.html)』『[未踏ターゲット](https://www.ipa.go.jp/jinzai/mitou/target/about.html)』など、あなたの作りたいもの（[提案書](/download)）を支援してくれるプログラムがあります。コチラもぜひ！
 
 <a href="/opportunities" class="button">他の支援プログラムを見る</a>
