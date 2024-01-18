@@ -158,6 +158,6 @@ Example projects, accepted and boosted by our program, are as follows.
 </div>
 
 
-## [<i class="fa-light fa-hand-holding-heart"></i>](#supporters) Sponsors & Supporters {#supporters}
+## [<i class="fa-light fa-hand-holding-heart"></i>](#sponsors) Sponsors & Supporters {#sponsors}
 
 Mitou Junior program has 10+ financial and in-kind sponsors. Also we have 10+ supporters, including MEXT ([Ministry of Education, Culture, Sports, Science and Technology](https://www.mext.go.jp/en/)) and METI ([Ministry of Economy, Trade and Industry](https://www.meti.go.jp/english/)).
