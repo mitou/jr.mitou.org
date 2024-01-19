@@ -81,32 +81,37 @@ Our alumni are creating new values after the program as well. Here are a few exa
 <ul class="list-none media-list">
   <li>
     <span class="media-pc-date pc-inline-b">CES 2023&nbsp;</span>
-    <a href="https://www.ces.tech/innovation-awards/honorees/2023/honorees/c/contact-glove.aspx" target="_blank" rel="noopener">
+    <a href="https://www.ces.tech/innovation-awards/honorees/2023/honorees/c/contact-glove.aspx">
       INNOVATION AWARD PRODUCT - Contact Glove By Diver-X
+      <span class="ph-inline-b">- CES 2023</span>
     </a>
   </li>
   <li>
     <span class="media-pc-date pc-inline-b">TEDxAnjo</span>
-    <a href="https://tedxanjo.com/akarikawaguchi/" target="_blank" rel="noopener">
+    <a href="https://tedxanjo.com/akarikawaguchi/">
       Speakers - Akari Kawaguchi
+      <span class="ph-inline-b">- TEDxAnjo</span>
     </a>
   </li>
   <li>
     <span class="media-pc-date pc-inline-b">J-MEDIA ARTS</span>
-    <a href="https://j-mediaarts.jp/en/award/single/vr-sandbox/" target="_blank" rel="noopener">
+    <a href="https://j-mediaarts.jp/en/award/single/vr-sandbox/">
       25th Entertainment Division U-18 Award - VR Sandbox
+      <span class="ph-inline-b">- J-MEDIA ARTS</span>
     </a>
   </li>
   <li>
     <span class="media-pc-date pc-inline-b">CBS News</span>
-    <a href="https://www.cbsnews.com/news/coronavirus-teens-tracking-app-different-approach-data-privacy-covid-tracing-japan-asiato/" target="_blank" rel="noopener">
+    <a href="https://www.cbsnews.com/news/coronavirus-teens-tracking-app-different-approach-data-privacy-covid-tracing-japan-asiato/">
       Teen's tracking app takes a different approach to the coronavirus challenge
+      <span class="ph-inline-b">- CBS News</span>
     </a>
   </li>
   <li>
     <span class="media-pc-date pc-inline-b">SXSW EDU</span>
-    <a href="https://www.youtube.com/watch?v=EZvmIcmtWoE" target="_blank" rel="noopener">
+    <a href="https://www.youtube.com/watch?v=EZvmIcmtWoE">
       Toubans! pitch at SXSW 2019 (YouTube)
+      <span class="ph-inline-b">- SXSW EDU</span>
     </a>
   </li>
 </ul>
