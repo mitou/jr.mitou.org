@@ -182,6 +182,29 @@ Example timeline. Details may vary from year to year.
 </div>
 
 
+## [<i class="fa-light fa-user-graduate"></i>](#supervisor) Supervisor {#supervisor}
+
+<div class="sv">
+  <div class="sv-left">
+    <img  src='/assets/img/spinner.svg'  class="sv-img lazyload" loading="lazy"
+     data-src="/assets/img/mentors/takeuchi.webp" alt="Photo of Ikuo Takeuchi">
+    <h3 class="mentor-name">Ikuo Takeuchi</h3>
+    <h5>Honorary Professor at the University of Tokyo, Director of Mitou Project, Director of Mitou Foundation</h5>
+  </div>
+
+  <div class="sv-right text-left">
+    <h5>Biography</h5>
+    <p>He was born in <a href='https://en.wikipedia.org/wiki/Toyama_Prefecture'>Toyama</a> in 1946. After he joined <a href='https://ntt-research.com/'>NTT Research</a> in 1971, he worked on <a href='https://en.wikipedia.org/wiki/Lisp_(programming_language)'>Lisp</a> and the development of its processing system. Inventor of the <a href='https://en.wikipedia.org/wiki/Tak_(function)'>Tak function</a>. After he left the company, he was a professor at <a href='https://www.uec.ac.jp/eng/'>The University of Electro-Communications</a>, <a href='https://www.u-tokyo.ac.jp/en/'>The University of Tokyo</a>, and <a href='https://www.waseda.jp/top/en/'>Waseda University</a>.</p>
+
+    <h5>Message</h5>
+    <p>
+      Since the launch of <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>The MITOU Programs</a> in 2000, we have increasingly focused on younger creators. <a href='https://en.wikipedia.org/wiki/Information_technology'>Information Technology</a> (IT) is not just for adults; I believe it's essential to discover and nurture an understanding of IT from a very young age. The Mitou Junior program is designed to facilitate it by providing an environment where young people can do more than just 'learn.' They can develop and enhance their skills, growing into talented IT professionals. This program is an opportunity for them to spread their wings and realize their full potential.</p>
+      
+    <a class="button" href="https://www.youtube.com/watch?v=SSsyV9O__GU&list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" target="_blank" rel="noopener">Watch on YouTube (in Japanese)</a>
+  </div>
+</div>
+
+
 ## [<i class="fa-light fa-hand-holding-heart"></i>](#sponsors) Sponsors & Supporters {#sponsors}
 
 Mitou Junior program has 10+ financial and in-kind sponsors. Also we have 10+ supporters, including MEXT ([Ministry of Education, Culture, Sports, Science and Technology](https://www.mext.go.jp/en/)) and METI ([Ministry of Economy, Trade and Industry](https://www.meti.go.jp/english/)).
