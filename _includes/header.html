@@ -1,7 +1,7 @@
 <header>
   {% if lang == "en" %}
-  <a href="/english" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="Logo of Mitou Junior" class="lazyload" loading="lazy"></a>
-  <a href="/english" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="Logo of Mitou Junior" class="lazyload" loading="lazy"></a>
+  <a href="/english/" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="Logo of Mitou Junior" class="lazyload" loading="lazy"></a>
+  <a href="/english/" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="Logo of Mitou Junior" class="lazyload" loading="lazy"></a>
   {% else %}
   <a href="/" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a>
   <a href="/" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a>
@@ -13,8 +13,12 @@
   <nav class="topnav pc">
     <div class="header-left">
       {% if lang == "en" %}
-        <a href="/english">Mitou Junior</a>
+        <a href="/english/#top">TOP</a>
+	<a href="/english/#media">Media & Awards</a>
+        <a href="/english/#showcase">Projects Showcase</a>
+        <a href="/english/#agenda">Program Agenda</a>
 	<a href="/english/stats">Stats</a>
+	<a href="/english/#contact">Contact</a>
       {% else %}
 	<a href="/about">未踏ジュニアとは</a>
 	<a href="/guideline">応募の手引き</a>
@@ -27,7 +31,9 @@
     </div>
     
     {% if lang == "en" %}
-      <a href="/" class="header-button">Switch to Japanese</a>
+    <a href="/" class="header-button">
+      <span style='color: white; font-size: 80%;'>Switch to Japanese</span>
+    </a>
     {% else %}
       <a href="/final" class="header-button" style='font-size: 90%;'>成果報告会を見る</a>
       <!--<a href="/guideline" class="header-button">応募する</a>-->
