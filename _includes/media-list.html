@@ -4,7 +4,7 @@
     {% for medium in site.data.media | limit: include.limit %}
       <li>
 	<span class="media-pc-date pc-inline-b">{{ medium.date }}</span>
-	<a href="{{ medium.link }}" target="_blank" rel="noopener">
+	<a href="{{ medium.link }}">
 	  {{ medium.title }}
 	  <span class="ph-inline-b">- {{ medium.date }}</span>
 	</a>
@@ -14,7 +14,7 @@
     {% for medium in site.data.media %}
       <li>
 	<span class="media-pc-date pc-inline-b">{{ medium.date }}</span>
-	<a href="{{ medium.link }}" target="_blank" rel="noopener">
+	<a href="{{ medium.link }}">
 	  {{ medium.title }}
 	  <span class="ph-inline-b">- {{ medium.date }}</span>
 	</a>
