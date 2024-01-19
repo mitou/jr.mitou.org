@@ -183,7 +183,7 @@ Example projects, accepted and boosted by our program, are as follows.
 
 - **Target:** Individuals and groups (upto 4 members) who are under 17 on April 1st.
 - **Due Date:** The application form typically opens on March 10th and closes in early April.
-- **Duration:** About 6 months support from June to November, including [Demo Day (Final)](/final) at the end.
+- **Duration:** About 6 months support from June to November, including [Demo Day](/final) at the end.
 - **Fee:** Free
   - Transportation and accomodation costs for events such as the kickoff camp and demo day will also be covered.
 
