@@ -187,16 +187,18 @@ Example projects, accepted and boosted by our program, are as follows.
 - **Fee:** Free
   - Transportation and accomodation costs for events such as the kickoff camp and demo day will also be covered.
 
+<div class='flex'>
+  <a href='/guideline' class='button'>Check detailed timeline (in Japanese)</a>
+</div>
+
+<!--
 ### Timeline: From application to selection, kickoff camp to demo day.
 
 Example timeline. Details may vary from year to year.
 
 <img  src='/assets/img/spinner.svg' class='top-img lazyload' loading='lazy'
  data-src='/assets/img/schedule_2019_en.png' alt='Example Schedule in 2019' />
-
-<div class='flex'>
-  <a href='/guideline' class='button'>Check detailed timeline (in Japanese)</a>
-</div>
+-->
 
 
 ## [<i class="fa-light fa-user-graduate"></i>](#supervisor) Supervisor {#supervisor}
