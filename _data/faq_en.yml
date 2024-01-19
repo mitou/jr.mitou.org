@@ -1,0 +1,109 @@
+#- q: 未踏ジュニアは誰が運営していますか？
+#  a: 未踏ジュニアは、未踏事業を運営する IPA と相互協力協定を締結した、<a href='https://prtimes.jp/main/html/rd/p/000000001.000013014.html'>一般社団法人未踏</a>によって運営されています。<a href='/mentors'>メンター</a>を含め、未踏修了生のボランティアと、企業・団体様からのご支援により運営されています。運営にかかる費用は<a href='#sponsors'>スポンサー各社</a>の支援によって賄われています。<a href='/about'>[詳細を見る]</a>
+- q: Who runs the Mitou Junir program?
+  a: <a href='https://www.mitou.org/'>Mitou Foundation</a> runs the project. Volunteer by project manager and Mitou graduates, and support by companies and organizations.
+
+
+#- q: 未踏ジュニアに採択されると、どのような支援を受けられますか？
+#  a: 担当のメンターが1週間あたり1時間程度、主に開発計画や技術的課題などの相談に乗るほか、1プロジェクトにつき50万円を上限として開発に関連する費用を全額支援します。また、期間中に採択者全員が集まるイベント（ブースト会議/中間合宿など）を開催し、メンターをはじめとする未踏関係者や、プロジェクトに関連する専門家からフィードバックを得る機会を提供します。<br><br>プロジェクト期間の最後には成果報告会が開催され、開発したものを多くの人の前で発表する経験もできます。<a href='/schedule'>[採択後の流れを見る]</a>
+- q: If accepted, what support can I get?
+  a: An assigned mentor will support development scheduling and development issues once a week for about one hour. Also, up to <a href='https://www.google.com/search?q=500,000+Yen+to+USD'>500K Yen</a> is given per project to cover all the development costs. In addition, there are events at which all participants come together (such as Kickoff Camp and Demo Day) and get feedback from project managers and other Mitou related personnel and experts related to projects.
+
+
+#- q: 地方在住なのですが、合宿や成果報告会に参加するための交通費は支給されますか？
+#  a: はい、プロジェクト期間中の公式イベントへの交通費と合宿の費用は、各プロジェクトの開発予算とは別に支給されます。
+- q: I live outside Tokyo in Japan. Will the transportation fee be covered to attend camps and the demo day?
+  a: Aside from the project development cost, transportation and camp costs for official events will be covered.
+
+#- q: 入院中・海外在住などの理由で合宿や報告会への参加が難しいのですが、応募はできますか？
+#  a: 問題ありません。インターネット電話サービスなどを使ってイベントでの発表や現地参加者との意見交換・交流ができるよう環境を整えます。海外から合宿や報告会に参加するための日本への往復旅費（経済的かつ合理的な範囲）は開発予算とは別に支給されます。
+- q: It is hard to attend presentations because of hospitalization or living abroad. Can I still apply?
+  a: No problem. An environment will be set up to present and talk with participants during events using internet calling services. The round trip cost from overseas (in economical and rational range) will be given in addition to the development fee.
+
+#- q: 学校でアルバイトが禁止されているのですが、応募はできますか？
+#  a: 未踏ジュニアの開発費支援は、あくまで開発に必要な機材・ソフトウェアを購入するための予算です。労働の対価として支払われる給料ではないため、アルバイトにはあたりません。
+- q: At my school, working is prohibited, but can I apply?
+  a: The Mitou Junior development fee is strictly for development tools and software. It is not salary paid for labor, so it does not count as working.
+
+#- q: IPAの未踏IT人材発掘・育成事業に既に応募しています。応募資料を使い回せますか？
+#  a: はい、同じ提案内容・資料を未踏ジュニアへの応募に使うことができます。
+- q: I already submitted proposal to The MITOU Program for under 25 run by IPA. Can I use the same application?
+  a: Yes. The same proposal and documents for <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>The MITOU Program</a> can be used to apply for the Mitou Junior program.
+
+#- q: IPAの未踏IT人材発掘・育成事業に既に応募しています。両方に採択されたらどうなりますか？
+#  a: 未踏ジュニアのプロジェクト開始日より前に、未踏IT人材発掘・育成事業の採択結果が通知される予定です。その結果を受けて、未踏ジュニアの方を辞退していただいても大丈夫です。
+
+
+#- q: 提案したプロジェクトは、期間内に完成させる必要がありますか？
+#  a: 特にそういった要件はありませんが、粗削りでも、聴衆にコンセプトを伝えられるプロトタイプを<a href='/final'>成果報告会</a>までに用意できることが望ましいです。
+- q: Should the project be finished during the project period?
+  a: It is not a requirement, but it is good if, even though it may be rough, you have a prototype to explain to the audience by <a href='/final'>the demo day</a>.
+
+#- q: プロジェクト期間中は、どの程度の時間を作業に割く必要がありますか？
+#  a: 作業のペースは基本的に採択者ごとに柔軟に対応します。未踏ジュニアは仕事ではないですし、学生の本分は学業と考えております。例えば、担当のメンターと事前に相談して試験前は学業に専念する（＝作業はしない）、と決めるプロジェクトもあります。詳細は関連動画「<a href='https://www.youtube.com/watch?v=UgrS5DQOs9Y'>困ったときのガイドライン - YouTube</a>」をご視聴ください。
+- q: During the project period, how much time should be put?
+  a: We will pace the development flexibly for each participant. Mitou Junior is not a job, and students' first and foremost duty is studying. We don't push participants to certain hours.
+
+#- q: 応募に際して必要な知識やスキルはありますか？
+#  a: 開発したいものについて、自分で調べて実装できる力を求めています。
+- q: Are there any necessary experience or skills?
+  a: We look for the skill to research and implement about what you want to develop.
+
+#- q: 過去の未踏ジュニアで採択または不採択となりましたが、再応募はできますか？
+#  a: はい、可能です。
+- q: In past Mitou Junior, I was accepted or not accepted. Can I apply again?
+  a: Yes, it is possible.
+
+#- q: 応募にあたって保護者の同意は必要ですか？
+#  a: 採択者はプロジェクトの開始前に親権者同意書の提出が必要ですが、応募の時点では特に必要ありません。
+- q: For application, do I need my parent's agreement?
+  a: Accepted participants need a person to sign the parental authority's agreement before the start of the project, but it is not needed at the time of application.
+
+#- q: もし応募して不採択だった場合はどうなりますか？
+#  a: 応募〆切後、2〜3週間程度（応募件数によって前後します）を目安に、メールにてご連絡させていただきます。採択されなかった方に関する情報が<a href='/mentors'>メンターや運営チーム</a>以外に公開されることはありません。
+- q: What happens if I apply and I am not accepted?
+  a: After about one week (depends on number of applications) from the deadline, we will email you. Information about the reason why you were not accepted will not be disclosed.
+
+#- q: 途中で辞退することはできますか？
+#  a: はい、できます。詳細は YouTube から公開している動画<a href="https://www.youtube.com/watch?v=UgrS5DQOs9Y">『困ったときのガイドライン』</a>をご参照ください。
+- q: Can I drop out during the project?
+  a: Yes. Check out "<a href='https://www.youtube.com/watch?v=UgrS5DQOs9Y'>Guidelines in Case (in Japanese)</a>" video in YouTube for details.
+
+#- q: 開発した成果物の権利は誰に帰属しますか？
+#  a: クリエータに帰属します。詳細は <a href='https://helpfeel.com/mitoujr/%E9%96%8B%E7%99%BA%E3%81%97%E3%81%9F%E6%88%90%E6%9E%9C%E7%89%A9%E3%81%AE%E6%A8%A9%E5%88%A9%E3%81%AF%E8%AA%B0%E3%81%AB%E5%B8%B0%E5%B1%9E%E3%81%97%E3%81%BE%E3%81%99%E3%81%8B%EF%BC%9F-608b8bfcf9926e001cce2477'>よくある質問と回答（Helpfeel）</a>をご参照ください。
+- q: To whom does the rights of the developed project belong to?
+  a: The person that created it.
+
+#- q: 未踏ジュニアスーパークリエータとはなんですか？
+#  a: 特に優れた成果を残したクリエータは「未踏ジュニアスーパークリエータ」として認定され、慶應義塾大学SFCなどの<a href='https://www.sfc.keio.ac.jp/news/012903.html'>推薦枠の対象</a>にもなっています。これまでの認定者数の推移は<a href='/stats'>統計情報</a>をご参照ください。
+
+
+#- q: どうなると採択されますか？担当メンターはどう決まりますか？
+#  a: たくさんのご応募の中から、<a href='#mentors'>メンター陣</a>の誰か1人でも「あなたの<a href='/download'>提案書</a>を最も応援したい」となったとき、採択されます。そのメンターが、あなたの担当メンターになります。詳細は<a href="https://helpfeel.com/mitoujr/%E6%8E%A1%E6%8A%9E%E3%81%AE%E5%9F%BA%E6%BA%96%E3%81%AF%E4%BD%95%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F-608b9004b063970020612eaf">よくある質問と回答（Helpfeel）</a>をご参照ください。
+
+
+#- q: 一度応募した内容を修正できますか？
+#  a: はい、応募〆切の期間内であれば、提案を修正して再送信することもできます。修正して再送信する場合は、応募フォーム内にある質問項目「これはすでに提出されたものを修正した再投稿ですか？」で、「はい」を選択してください。
+- q: Can I edit what I once applied?
+  a: To edit the application, you can send the same proposal multiple times. In that case, the old application becomes invalid.
+
+#- q: 審査結果はどのように通知されますか？
+#  a: <a href='/guideline#apply'>審査の各段階</a>において〆切後数日以内に、応募フォームで登録したメールアドレスへ審査結果を通知します。この際、審査通過者・採択者には確認の返信をお願いしています。この返信が届かない場合には電話にて連絡をします。迷惑メールフィルタを使用している場合、mitou.org ドメインからの迷惑メール解除設定をしておいてください。
+- q: How is the selection result notified?
+  a: Within several days from <a href='/guideline#apply'>each deadline (in Japanese)</a>, we send the result to the email submitted on the application form. We ask the selected and chosen ones to reply. If we do not recieve a reply, we will call you. If you are using a spam mail filter, please allow email from <code>mitou.org</code> domain.
+
+#- q: １人で複数のプロジェクトを提案できますか？
+#  a: はい、１人3つまでのプロジェクトを提案することが可能です。なお、採択されるのはそのうちの１プロジェクトのみとなるので、あらかじめご了承ください。
+- q: Can I apply with several projects?
+  a: Yes, but up to 3 projects. And if selected, only one project will be supported.
+
+#- q: ５人で１つのプロジェクトを提案できますか？
+#  a: 原則として『１プロジェクト４人まで』としています。５人以上で提案する場合は、応募書類にそれぞれの役割と５人以上で取り組みたい理由を記載してください。
+
+
+#- q: 高校3年生でも応募できますか？
+#  a: はい、過去にも複数名、高校3年生での採択者がいます。
+
+
+#- q: 18歳以上です。応募できますか？
+#  a: 未踏ジュニアは17歳以下が対象となっておりますが、24歳以下が対象の『未踏事業』や、年齢制限の無い『未踏アドバンスト』『未踏ターゲット』などもあります。詳細は『<a href='/opportunities'>他の支援プログラム</a>』からご確認いただけます。

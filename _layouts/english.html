@@ -16,6 +16,27 @@
     {% include collaborators.html %}
     {% include supporters.html %}
 
+    <section id="faq">
+      <h2>
+	<a href='#faq'><i class="far fa-comments-question green"></i></a>
+	FAQ
+      </h2>
+      <div class="qanda">
+	{% for faq in site.data.faq_en %}
+	<div class="qanda-one">
+	  <input type="checkbox" id="faq_{{faq.q}}">
+	  <label for="faq_{{ faq.q }}"><i class="fas fa-question-circle green"></i> {{ faq.q }}</label>
+	  <p class="qanda-a">{{ faq.a }}</p>
+	</div>
+	{% endfor %}
+      </div>
+      <!--
+      <a href="https://helpfeel.com/mitoujr/" class="button">他の質問と回答を見る</a>
+      <a href="/q-box" class="button">匿名質問箱で質問する</a>
+      -->
+      <br><br><br>
+    </section>
+
     {% include contact.html %}
   </div>
 
