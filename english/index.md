@@ -167,7 +167,8 @@ Example projects, accepted and boosted by our program, are as follows.
 
 - **Target:** Individuals and groups (upto 4 members) who are under 17 on April 1st.
 - **Duration:** About 6 months support from June to November, including [Demo Day (Final)](/final) at the end.
-- **Fee:** Free (Transportation and accomodation costs for events such as the boost camp and mid-camp will also be covered)
+- **Fee:** Free
+  - Transportation and accomodation costs for events such as the kickoff camp and demo day will also be covered.
 
 ### Timeline: From application to selection, kickoff camp to demo day.
 
@@ -177,11 +178,9 @@ Example timeline. Details may vary from year to year.
  data-src='/assets/img/schedule_2019_en.png' alt='Example Schedule in 2019' />
 
 <div class='flex'>
-  <a href='/guideline' class='button'>Check detailed schedule (in Japanese)</a>
+  <a href='/guideline' class='button'>Check detailed timeline (in Japanese)</a>
 </div>
 
-
-<br>
 
 ## [<i class="fa-light fa-hand-holding-heart"></i>](#sponsors) Sponsors & Supporters {#sponsors}
 
