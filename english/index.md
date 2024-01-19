@@ -194,7 +194,7 @@ Example timeline. Details may vary from year to year.
 
   <div class="sv-right text-left">
     <h5>Biography</h5>
-    <p>He was born in <a href='https://en.wikipedia.org/wiki/Toyama_Prefecture'>Toyama</a> in 1946. After he joined <a href='https://ntt-research.com/'>NTT Research</a> in 1971, he worked on <a href='https://en.wikipedia.org/wiki/Lisp_(programming_language)'>Lisp</a> and the development of its processing system. Inventor of the <a href='https://en.wikipedia.org/wiki/Tak_(function)'>Tak function</a>. After he left the company, he was a professor at <a href='https://www.uec.ac.jp/eng/'>The University of Electro-Communications</a>, <a href='https://www.u-tokyo.ac.jp/en/'>The University of Tokyo</a>, and <a href='https://www.waseda.jp/top/en/'>Waseda University</a>.</p>
+    <p>He was born in <a href='https://en.wikipedia.org/wiki/Toyama_Prefecture'>Toyama</a> in 1946. After he joined <a href='https://ntt-research.com/'>NTT Research</a> in 1971, he worked on <a href='https://en.wikipedia.org/wiki/Lisp_(programming_language)'>Lisp</a> and the development of its processing system. Inventor of the <a href='https://en.wikipedia.org/wiki/Tak_(function)'>TAK Function</a>. After he left the company, he was a professor at <a href='https://www.uec.ac.jp/eng/'>The University of Electro-Communications</a>, <a href='https://www.u-tokyo.ac.jp/en/'>The University of Tokyo</a>, and <a href='https://www.waseda.jp/top/en/'>Waseda University</a>.</p>
 
     <h5>Message</h5>
     <p>
