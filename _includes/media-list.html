@@ -4,16 +4,20 @@
     {% for medium in site.data.media | limit: include.limit %}
       <li>
 	<span class="media-pc-date pc-inline-b">{{ medium.date }}</span>
-	<a href="{{ medium.link }}" target="_blank" rel="noopener">{{ medium.title }}
-	  <span class="ph-inline-b">- {{ medium.date }}</span></a>
+	<a href="{{ medium.link }}" target="_blank" rel="noopener">
+	  {{ medium.title }}
+	  <span class="ph-inline-b">- {{ medium.date }}</span>
+	</a>
       </li>
    {% endfor %}
   {% else %}
     {% for medium in site.data.media %}
       <li>
 	<span class="media-pc-date pc-inline-b">{{ medium.date }}</span>
-	<a href="{{ medium.link }}" target="_blank" rel="noopener">{{ medium.title }}
-	  <span class="ph-inline-b">- {{ medium.date }}</span></a>
+	<a href="{{ medium.link }}" target="_blank" rel="noopener">
+	  {{ medium.title }}
+	  <span class="ph-inline-b">- {{ medium.date }}</span>
+	</a>
       </li>
    {% endfor %}
   {% endif %}
