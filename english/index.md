@@ -200,7 +200,7 @@ Example timeline. Details may vary from year to year.
     <p>
       Since the launch of <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>The MITOU Programs</a> in 2000, we have increasingly focused on younger creators. <a href='https://en.wikipedia.org/wiki/Information_technology'>Information Technology</a> (IT) is not just for adults; I believe it's essential to discover and nurture an understanding of IT from a very young age. The Mitou Junior program is designed to facilitate it by providing an environment where young people can do more than just 'learn.' They can develop and enhance their skills, growing into talented IT professionals. This program is an opportunity for them to spread their wings and realize their full potential.</p>
       
-    <a class="button" href="https://www.youtube.com/watch?v=SSsyV9O__GU&list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" target="_blank" rel="noopener">Watch on YouTube (in Japanese)</a>
+    <a class="button" href="https://www.youtube.com/watch?v=SSsyV9O__GU&list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" target="_blank" rel="noopener">Watch message on YouTube (in Japanese)</a>
   </div>
 </div>
 
