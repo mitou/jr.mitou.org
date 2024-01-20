@@ -22,11 +22,12 @@
 	FAQ
       </h2>
       <div class="qanda">
-	{% for faq in site.data.faq_en %}
+	{% for faq in site.data.faq %}
+	{% if faq.q_en == nil or faq.a_en == nil %}{% continue %}{% endif %}
 	<div class="qanda-one">
-	  <input type="checkbox" id="faq_{{faq.q}}">
-	  <label for="faq_{{ faq.q }}"><i class="fas fa-question-circle green"></i> {{ faq.q }}</label>
-	  <p class="qanda-a">{{ faq.a }}</p>
+	  <input type="checkbox" id="faq_{{ faq.q_en }}">
+	  <label for="faq_{{ faq.q_en }}"><i class="fas fa-question-circle green"></i> {{ faq.q_en }}</label>
+	  <p class="qanda-a">{{ faq.a_en }}</p>
 	</div>
 	{% endfor %}
       </div>
