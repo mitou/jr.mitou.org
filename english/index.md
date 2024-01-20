@@ -208,7 +208,7 @@ Example timeline. Details may vary from year to year.
     <img  src='/assets/img/spinner.svg'  class="sv-img lazyload" loading="lazy"
      data-src="/assets/img/mentors/takeuchi.webp" alt="Photo of Ikuo Takeuchi">
     <h3 class="mentor-name">Ikuo Takeuchi</h3>
-    <h5>Honorary Professor at the University of Tokyo, Director of Mitou Project, Director of Mitou Foundation</h5>
+    <h5>Professor Emeritus at <a href='https://www.u-tokyo.ac.jp/en/'>The University of Tokyo</a>, Director of <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>MITOU Programs</a>, and Director of <a href='https://www.mitou.org/'>Mitou Foundation</a></h5>
   </div>
 
   <div class="sv-right text-left">
