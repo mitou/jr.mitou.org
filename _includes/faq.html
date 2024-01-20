@@ -1,0 +1,33 @@
+{% assign lang = page.lang | default: "ja" %}
+
+<section id="faq">
+  <h2>
+    <a href='#faq'><i class="far fa-comments-question green"></i></a>
+    {{ site.data.translations.faq[lang] }}
+  </h2>
+  <div class="qanda">
+  {% for faq in site.data.faq %}
+    {% if lang == 'ja' %}
+    {% if faq.q == nil or faq.a == nil %}{% continue %}{% endif %}
+    <div class="qanda-one">
+      <input type="checkbox" id="faq_{{ faq.q }}">
+      <label for="faq_{{ faq.q }}"><i class="fas fa-question-circle green"></i> {{ faq.q }}</label>
+      <p class="qanda-a">{{ faq.a }}</p>
+    </div>
+    {% else %}
+    {% if faq.q_en == nil or faq.a_en == nil %}{% continue %}{% endif %}
+    <div class="qanda-one">
+      <input type="checkbox" id="faq_{{ faq.q_en }}">
+      <label for="faq_{{ faq.q_en }}"><i class="fas fa-question-circle green"></i> {{ faq.q_en }}</label>
+      <p class="qanda-a">{{ faq.a_en }}</p>
+    </div>
+    {% endif %}
+  {% endfor %}
+  </div>
+
+  {% if lang == 'ja' %}
+  <a href="https://helpfeel.com/mitoujr/" class="button">他の質問と回答を見る</a>
+  <a href="/q-box" class="button">匿名質問箱で質問する</a>
+  {% endif %}
+  <br><br><br>
+</section>

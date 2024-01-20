@@ -147,25 +147,7 @@ this_year: 2023
   <a href="/mentors" class="button">こんな人・こんな提案を<br>待っています</a>
 </section>
 
-
-<section id="faq">
-  <h2>
-    <a href='#faq'><i class="far fa-comments-question green"></i></a>
-    よくある質問と回答
-  </h2>
-  <div class="qanda">
-    {% for faq in site.data.faq %}
-    <div class="qanda-one">
-      <input type="checkbox" id="faq_{{ faq.q }}">
-      <label for="faq_{{ faq.q }}"><i class="fas fa-question-circle green"></i> {{ faq.q }}</label>
-      <p class="qanda-a">{{ faq.a }}</p>
-    </div>
-    {% endfor %}
-  </div>
-  <a href="https://helpfeel.com/mitoujr/" class="button">他の質問と回答を見る</a>
-  <a href="/q-box" class="button">匿名質問箱で質問する</a>
-</section>
-
+{% include faq.html %}
 
 <section id="for-creators" class="prospective-creators">
   <h2 class="heading-balloon">応募者向けお役立ち情報</h2>
