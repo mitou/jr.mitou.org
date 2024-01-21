@@ -108,6 +108,13 @@ Our alumni are creating new values after the program as well. Here are a few exa
     </a>
   </li>
   <li>
+    <span class="media-pc-date pc-inline-b">KitPloit</span>
+    <a href="https://www.kitploit.com/2019/09/detexploit-software-that-detect.html">
+      DetExploit - Software That Detect Vulnerable Applications
+      <span class="ph-inline-b">- KitPloit</span>
+    </a>
+  </li>
+  <li>
     <span class="media-pc-date pc-inline-b">SXSW EDU</span>
     <a href="https://www.youtube.com/watch?v=EZvmIcmtWoE">
       Toubans! pitch at SXSW 2019 (YouTube)
@@ -181,11 +188,11 @@ Example projects, accepted and boosted by our program, are as follows.
 
 ## [<i class="fa-light fa-calendar-clock"></i>](#agenda) Program Agenda {#agenda}
 
-- **Target:** Individuals and groups (upto 4 members) who are under 17 on April 1st.
+- **Target:** Individuals and groups (up to 4 members) who are under 17 on April 1st.
 - **Due Date:** The application form typically opens on March 10th and closes in early April.
 - **Duration:** About 6 months support from June to November, including [Demo Day](/final) at the end.
 - **Fee:** Free
-  - Transportation and accomodation costs for events such as the kickoff camp and demo day will also be covered.
+  - Transportation and accommodation costs for events such as the kickoff camp and demo day will also be covered.
 
 <div class='flex'>
   <a href='/guideline' class='button'>Check detailed timeline (in Japanese)</a>
