@@ -124,8 +124,8 @@
 - name: CoderDojo Japan
   img:  coderdojo-japan.webp
   type: collaborator
-  link: https://coderdojo.jp/
-  #link_en:
+  link:    https://coderdojo.jp/
+  link_en: https://coderdojo.jp/english
 
 - name: GPA ぐんまプログラミングアワード
   img:  gpa.webp
