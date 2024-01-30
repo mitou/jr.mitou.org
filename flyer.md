@@ -5,8 +5,8 @@ description: 未踏ジュニアのチラシ配布にご協力いただける教�
 ---
 
 <p style="padding: 50px 0px 60px;">
-  未踏ジュニアのチラシ配布にご協力いただける教育機関やスクール、CoderDojo などの方々を探しています。
-  <span class='ignore-sp'><br><br></span>
+  未踏ジュニアのチラシ配布にご協力いただける教育機関やスクール、CoderDojo などの方々を探しています。<br>
+  <br>
   ご協力いただける場合は<a href="/assets/download/flyer_2024.pdf">PDF から印刷</a>または<a href="#form">下記フォームよりご請求</a>いただけると幸いです。
 </p>
 
