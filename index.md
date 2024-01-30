@@ -11,6 +11,11 @@ this_year: 2023
   <img src="/assets/img/2022_cover.min.webp" data-src="/assets/img/2022_cover.webp" alt="2022年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
   <!--<img src="/assets/img/2019_all.min.webp" data-src="/assets/img/2019_all.webp" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">-->
 
+  <!--【チラシのアナウンス】-->
+  <a href="/flyer" class="dialog ignore-sp">
+    🆕 チラシ配布のお願い (〆 2月2日 23:59)
+  </a>
+
   <!--【募集中のアナウンス】-->
   <!--
   <a href="/guideline" class="dialog ignore-sp">
@@ -33,9 +38,11 @@ this_year: 2023
   -->
 
   <!--【成果報告後のアナウンス】-->
+  <!--
   <a href="/final" class="dialog ignore-sp">
     🆕 成果報告会のアーカイブ配信が公開されました！
   </a>
+  -->
 </div>
 
 <section id="about">
