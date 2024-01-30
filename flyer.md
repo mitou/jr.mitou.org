@@ -4,22 +4,28 @@ title: チラシ配布のお願い
 description: 未踏ジュニアのチラシを配って頂ける教育機関やプログラミングスクール、CoderDojo の皆様を探しています。ご協力頂ける場合は本ページの PDF から印刷、または本ページのフォームよりご請求いただけると幸いです。
 ---
 
-<p style="text-align:center; padding: 50px 0px 40px;">
-  未踏ジュニアのチラシ配布にご協力頂ける教育機関やスクール、CoderDojo などの皆様を探しています。<br>
-  <br>
-  ご協力頂ける場合は<a href="#form">下記フォーム</a>または<a href='https://forms.gle/ryGtit82S3MthrHv8'>コチラ</a>よりご請求いただけると幸いです。<br>
+<p style="padding: 50px 0px 40px;">
+  未踏ジュニアのチラシ配布にご協力いただける教育機関やスクール、CoderDojo などの皆様を探しています。
+  <span class='ignore-sp'><br><br></span>
+  ご協力いただける場合は<a href="/assets/download/flyer_2024.pdf">PDF から印刷</a>または<a href="#form">下記フォームよりご請求</a>いただけると幸いです。<br>
   <!--
-       ご協力頂ける場合は <a href="/assets/download/flyer_2020.pdf">PDF から印刷</a>または<a href="#form">下記フォームよりご請求</a>いただけると幸いです。<br>
+       ご協力頂ける場合は または<a href="#form">下記フォームよりご請求</a>いただけると幸いです。<br>
   -->
 </p>
 
-<div class='text-center'>
-  サンプル：2020年度のチラシ
-  <img src="/assets/img/spinner.svg" data-src="/assets/download/flyer_2020.png" alt="2020年度_未踏ジュニア_チラシ" class="flyer-sample lazyload" loading='lazy'/>
-  <!--<a href="/assets/download/flyer_2020.pdf"></a>-->
+<div id='sample' class='text-center'>
+  <a href='#sample'><i class="fas fa-scroll green"></i></a>
+  チラシのサンプル
+  <a href='/assets/download/flyer_2024.pdf' target='_blank'>
+    <img class='flyer-sample lazyload' loading='lazy'
+         src='/assets/img/spinner.svg' data-src='/assets/download/flyer_2024.png'
+         alt='未踏ジュニアのチラシ（サンプル）' />
+  </a>
+  <!--
   <small>※
     最新版のチラシは制作中となります。<br>
   </small>
+  -->
 </div>
 
 <h3 id='form' style='margin-top: 100px;'>
