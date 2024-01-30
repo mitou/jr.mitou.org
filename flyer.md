@@ -1,16 +1,13 @@
 ---
 layout: post
 title: チラシ配布のお願い
-description: 未踏ジュニアのチラシを配って頂ける教育機関やプログラミングスクール、CoderDojo の皆様を探しています。ご協力頂ける場合は本ページの PDF から印刷、または本ページのフォームよりご請求いただけると幸いです。
+description: 未踏ジュニアのチラシ配布にご協力いただける教育機関やプログラミングスクール、CoderDojo などの方々を探しています。ご協力いただける場合は本ページ内にあるフォームよりご請求いただけると幸いです。
 ---
 
-<p style="padding: 50px 0px 40px;">
-  未踏ジュニアのチラシ配布にご協力いただける教育機関やスクール、CoderDojo などの皆様を探しています。
+<p style="padding: 50px 0px 60px;">
+  未踏ジュニアのチラシ配布にご協力いただける教育機関やスクール、CoderDojo などの方々を探しています。
   <span class='ignore-sp'><br><br></span>
-  ご協力いただける場合は<a href="/assets/download/flyer_2024.pdf">PDF から印刷</a>または<a href="#form">下記フォームよりご請求</a>いただけると幸いです。<br>
-  <!--
-       ご協力頂ける場合は または<a href="#form">下記フォームよりご請求</a>いただけると幸いです。<br>
-  -->
+  ご協力いただける場合は<a href="/assets/download/flyer_2024.pdf">PDF から印刷</a>または<a href="#form">下記フォームよりご請求</a>いただけると幸いです。
 </p>
 
 <div id='sample' class='text-center'>
@@ -21,11 +18,12 @@ description: 未踏ジュニアのチラシを配って頂ける教育機関や�
          src='/assets/img/spinner.svg' data-src='/assets/download/flyer_2024.png'
          alt='未踏ジュニアのチラシ（サンプル）' />
   </a>
-  <!--
   <small>※
-    最新版のチラシは制作中となります。<br>
+    上記画像を
+    <span class='ignore-pc'>"タップ"</span>
+    <span class='ignore-sp'>"クリック"</span>
+    すると、PDF版をダウンロードできます。<br>
   </small>
-  -->
 </div>
 
 <h3 id='form' style='margin-top: 100px;'>
@@ -36,9 +34,13 @@ description: 未踏ジュニアのチラシを配って頂ける教育機関や�
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdo_vNzso6LMRySa_OGfSVJFQOvDpjxwnGlfYcPUy5evWVlgQ/viewform?embedded=true" width="100%" class="iframe-form" frameborder="0" marginheight="0" marginwidth="0">読み込み中...</iframe>
 </div>
 
+<div class="note">
+  「送信」ボタン押下後、画面が真っ白になったらページ上部にスクロールしてください。
+</div>
+
 <style>
   .flyer-sample{
-    width:  50%;
+    width:  70%;
     margin: 10px auto;
     text-align: center;
     display: block;
@@ -55,12 +57,11 @@ description: 未踏ジュニアのチラシを配って頂ける教育機関や�
   .iframe-form{
     margin: auto;
     display: block;
-    height: 1600px;
+    height: 2200px;
   }
- 
   @media screen and (max-width: 600px){
     .iframe-form{
-      height: 1700px;
+      height: 2200px;
       width:  113%;
       margin-left: -27px;
     }
