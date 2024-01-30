@@ -22,7 +22,7 @@ description: 未踏ジュニアのチラシ配布にご協力いただける教�
     上記画像を
     <span class='ignore-pc'>"タップ"</span>
     <span class='ignore-sp'>"クリック"</span>
-    すると、PDF版をダウンロードできます。<br>
+    すると、<br class='ignore-pc'>PDF 版をダウンロードできます。<br>
   </small>
 </div>
 
