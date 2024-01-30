@@ -25,7 +25,7 @@ description: 未踏ジュニアのクリエータ・メンターから回答が�
   <br>
   <small>ボランティアで対応しているため、回答できないこともあります。予めご了承ください。</small><br>
 
-  <a href="https://twitter.com/search?q=%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E8%B3%AA%E5%95%8F%E7%AE%B1%20OR%20%23%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E8%B3%AA%E5%95%8F%E7%AE%B1&src=typed_query&f=live" class="button" target="_blank">最近の質問と回答を見る<br>（Twitter）</a>
+  <a href="https://twitter.com/search?q=未踏ジュニア質問箱%20OR%20%23未踏ジュニア質問箱&src=typed_query&f=live" class="button" target="_blank">最近の質問と回答を見る<br>（Twitter）</a>
   <!--<a href="https://helpfeel.com/mitoujr/" class="button" target="_blank" rel='noopener'>よくある質問と回答を見る<br>（Helpfeel）</a>-->
 </p>
 
