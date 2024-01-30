@@ -13,7 +13,7 @@ description: 未踏ジュニアのチラシ配布にご協力いただける教�
 <div id='sample' class='text-center'>
   <a href='#sample'><i class="fas fa-scroll green"></i></a>
   チラシのサンプル
-  <a href='/assets/download/flyer_2024.pdf' target='_blank'>
+  <a href='/assets/download/flyer_2024.pdf'>
     <img class='flyer-sample lazyload' loading='lazy'
          src='/assets/img/spinner.svg' data-src='/assets/download/flyer_2024.png'
          alt='未踏ジュニアのチラシ（サンプル）' />
