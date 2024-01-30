@@ -34,6 +34,12 @@ description: 未踏ジュニアのチラシ配布にご協力いただける教�
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdo_vNzso6LMRySa_OGfSVJFQOvDpjxwnGlfYcPUy5evWVlgQ/viewform?embedded=true" width="100%" class="iframe-form" frameborder="0" marginheight="0" marginwidth="0">読み込み中...</iframe>
 </div>
 
+<div class='flex'>
+  <a href="https://twitter.com/hashtag/未踏ジュニア?f=live" class="button" target="_blank" rel='noopener'>ハッシュタグを見る</a>
+
+  <a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/flyer&lang=jp&related=mitoujr" class="button" target="_blank" rel='noopener'>ツイートする</a>
+</div>
+
 <div class="note">
   「送信」ボタン押下後、画面が真っ白になったらページ上部にスクロールしてください。
 </div>
