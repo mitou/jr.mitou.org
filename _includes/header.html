@@ -1,10 +1,10 @@
 <header>
   {% if lang == "en" %}
-  <a href="/english/" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="Logo of Mitou Junior" class="lazyload" loading="lazy"></a>
-  <a href="/english/" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="Logo of Mitou Junior" class="lazyload" loading="lazy"></a>
+  <a href="/english/" hreflang="en" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="Logo of Mitou Junior" class="lazyload" loading="lazy"></a>
+  <a href="/english/" hreflang="en" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="Logo of Mitou Junior" class="lazyload" loading="lazy"></a>
   {% else %}
-  <a href="/" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a>
-  <a href="/" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a>
+  <a href="/" hreflang="ja" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a>
+  <a href="/" hreflang="ja" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a>
   {% endif %}
 
   <label for="nav-check" class="ph nav-hamburger"><img src="/assets/img/bars.svg" alt="メニュー" style="width:24px;" class="lazyload" loading="lazy"></label>
@@ -13,29 +13,29 @@
   <nav class="topnav pc">
     <div class="header-left">
       {% if lang == "en" %}
-        <a href="/english/#top">TOP</a>
-	<a href="/english/#media">Media & Awards</a>
-        <a href="/english/#showcase">Projects Showcase</a>
-        <a href="/english/#agenda">Program Agenda</a>
-	<a href="/english/stats">Stats</a>
-	<a href="/english/#contact">Contact</a>
+        <a hreflang="en" href="/english/#top">TOP</a>
+	<a hreflang="en" href="/english/#media">Media & Awards</a>
+        <a hreflang="en" href="/english/#showcase">Projects Showcase</a>
+        <a hreflang="en" href="/english/#agenda">Program Agenda</a>
+	<a hreflang="en" href="/english/stats">Stats</a>
+	<a hreflang="en" href="/english/#contact">Contact</a>
       {% else %}
-	<a href="/about">未踏ジュニアとは</a>
-	<a href="/guideline">応募の手引き</a>
-	<a href="/projects">採択例</a>
-	<a href="/schedule">採択後の流れ</a>
-	<a href="/#faq">FAQ</a>
-	<a href="/stats">統計</a>
-	<a href="/#contact">お問い合わせ</a>
+	<a hreflang="ja" href="/about">未踏ジュニアとは</a>
+	<a hreflang="ja" href="/guideline">応募の手引き</a>
+	<a hreflang="ja" href="/projects">採択例</a>
+	<a hreflang="ja" href="/schedule">採択後の流れ</a>
+	<a hreflang="ja" href="/#faq">FAQ</a>
+	<a hreflang="ja" href="/stats">統計</a>
+	<a hreflang="ja" href="/#contact">お問い合わせ</a>
       {% endif %}
     </div>
     
     {% if lang == "en" %}
-    <a href="/" class="header-button">
+    <a hreflang="ja" href="/" class="header-button">
       <span style='color: white; font-size: 80%;'>Switch to Japanese</span>
     </a>
     {% else %}
-      <a href="/final" class="header-button" style='font-size: 90%;'>成果報告会を見る</a>
+      <a hreflang="ja" href="/final" class="header-button" style='font-size: 90%;'>成果報告会を見る</a>
       <!--<a href="/guideline" class="header-button">応募する</a>-->
     {% endif %}
   </nav>
