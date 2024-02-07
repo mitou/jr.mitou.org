@@ -12,8 +12,15 @@ this_year: 2023
   <!--<img src="/assets/img/2019_all.min.webp" data-src="/assets/img/2019_all.webp" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">-->
 
   <!--【チラシのアナウンス】-->
+  <!--
   <a href="/flyer" class="dialog ignore-sp">
     🆕 チラシ配布のお願い (〆 2月2日 23:59)
+  </a>
+  -->
+
+  <!--【募集予告のアナウンス】-->
+  <a href="/guideline" class="dialog ignore-sp">
+    ⏳ 2024年度の募集は3月10日に公開予定です
   </a>
 
   <!--【募集中のアナウンス】-->
