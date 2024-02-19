@@ -299,7 +299,7 @@ Highcharts.chart('rates', {
 </p>
 
 
-## [<i class="fa-light fa-envelope"></i>](#contact) お問い合わせ {#contact}
+## [<i class="fa-light fa-envelope"></i>](#contact) 問い合わせ {#contact}
 
 <div style="margin-top: 50px;">
   <p>未踏ジュニアでは、活動をご支援して頂けるスポンサーを募集しております。まずはお気軽にご連絡ください。</p>
