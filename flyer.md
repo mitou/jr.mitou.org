@@ -7,15 +7,15 @@ description: 未踏ジュニアのチラシ配布にご協力いただける学�
 <p style="padding: 50px 0px 60px;">
   未踏ジュニアのチラシ配布にご協力いただける学校やスクール、CoderDojo などの方々を探しています。<br>
   <br>
-  ご協力いただける場合は<a href="/assets/download/flyer_2024.pdf">PDF から印刷</a>または<a href="#form">下記フォームよりご請求</a>いただけると幸いです。
+  ご協力いただける場合は<a href="/assets/img/flyer_2024.pdf">PDF から印刷</a>または<a href="#form">下記フォームよりご請求</a>いただけると幸いです。
 </p>
 
 <div id='sample' class='text-center'>
   <a href='#sample'><i class="fas fa-scroll green"></i></a>
   チラシのサンプル
-  <a href='/assets/download/flyer_2024.pdf'>
+  <a href='/assets/img/flyer_2024.pdf'>
     <img class='flyer-sample lazyload' loading='lazy'
-         src='/assets/img/spinner.svg' data-src='/assets/download/flyer_2024.png'
+         src='/assets/img/spinner.svg' data-src='/assets/img/flyer_2024.png'
          alt='未踏ジュニアのチラシ（サンプル）' />
   </a>
   <small>※
