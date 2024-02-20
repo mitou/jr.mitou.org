@@ -23,9 +23,17 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 
 ## [<i class="fa-light fa-file-check"></i>](#sample) 提案書サンプル {#sample}
 
-過去の採択者による提案書を一部公開しています。今年の提案書とはフォーマットが少し異なりますが、採択された提案書の一例としてご参考になれば幸いです。
+過去の採択者による提案書を一部公開しています。今年の提案書とはフォーマットが少し異なりますが、採択された提案書のサンプルとしてご参考になれば幸いです。
 
-<a href="https://jr.mitou.org/assets/other/2020_application_samples.zip" class="button">過去の提案書を見る</a>
+<!--
+<ul>
+  <li>
+    <a href='/projects/2019/abecobe'>abecobe - シンプルかつ難しいパズルゲーム</a><small>（<a href='#'>提案書を見る <i class="fa-solid fa-up-right-from-square"></i></a>）</small>
+  </li>
+</ul>
+-->
+
+<a href="/applications/samples.zip" class="button">まとめてダウンロードする</a>
 
 
 ## [<i class="fa-light fa-lightbulb-on"></i>](#tips) 提案書のコツ {#tips}
