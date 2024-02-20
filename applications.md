@@ -82,7 +82,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 <a href="/mentors" id="story" class="button" style='padding-left: 7px; padding-right: 7px;'>応募者向けメッセージを見る</a>
 
 
-## [<i class="fa-light fa-users"></i>](#voice) 採択者の体験談 {#voice}
+## [<i class="fa-light fa-users"></i>](#story) 採択者の体験談 {#story}
 未踏ジュニア採択者（クリエータ）による体験談もあります。こちらも合わせてご参考になれば幸いです。カッコ内はプロジェクト名です。
 
 <ul>

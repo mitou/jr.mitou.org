@@ -119,7 +119,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 <div class='flex'>
   <a href="/guideline"          class="button">採択までの流れを見る</a>
-  <a href="/applications#voice" class="button">採択者の体験談を見る</a>
+  <a href="/applications#story" class="button">採択者の体験談を見る</a>
 </div>
 
 
