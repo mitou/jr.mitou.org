@@ -32,8 +32,9 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
   {% endfor %}
 </ul>
 
+<!--
 <a href="/applications/samples.zip" class="button">まとめてダウンロードする</a>
-
+-->
 
 ## [<i class="fa-light fa-lightbulb-on"></i>](#tips) 提案書のコツ {#tips}
 
