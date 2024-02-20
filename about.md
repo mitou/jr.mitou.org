@@ -118,8 +118,8 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
      alt="応募について身近な人などに相談している様子のイラスト">
 
 <div class='flex'>
-  <a href="/guideline"       class="button">採択までの流れを見る</a>
-  <a href="/download#voice"  class="button">採択者の体験談を見る</a>
+  <a href="/guideline"          class="button">採択までの流れを見る</a>
+  <a href="/applications#voice" class="button">採択者の体験談を見る</a>
 </div>
 
 
@@ -166,7 +166,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 ### [<i class="fa-light fa-badge-check"></i>](#opportunities) 他の支援プログラム紹介 {#opportunities}
 
-『未踏ジュニア』は 17 歳以下を対象として支援しておりますが、24 歳以下を対象とした『[未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)』や、**年齢制限の無い**『[未踏アドバンスト](https://www.ipa.go.jp/jinzai/mitou/advanced/about.html)』『[未踏ターゲット](https://www.ipa.go.jp/jinzai/mitou/target/about.html)』など、あなたの作りたいもの（[提案書](/download)）を支援してくれるプログラムがあります。コチラもぜひ！
+『未踏ジュニア』は 17 歳以下を対象として支援しておりますが、24 歳以下を対象とした『[未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)』や、**年齢制限の無い**『[未踏アドバンスト](https://www.ipa.go.jp/jinzai/mitou/advanced/about.html)』『[未踏ターゲット](https://www.ipa.go.jp/jinzai/mitou/target/about.html)』など、あなたの作りたいもの（[提案書](/applications)）を支援してくれるプログラムがあります。コチラもぜひ！
 
 <a href="/opportunities" class="button">他の支援プログラムを見る</a>
 

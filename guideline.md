@@ -36,14 +36,14 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 
 「動画ではなくテキストで読みたい！」という方向けの記事もあります。こちらもご参考になれば幸いです。
 
-<a href="/download#tips" class='button'>応募者向けの記事を見る</a>
+<a href="/applications#tips" class='button'>応募者向けの記事を見る</a>
 
 {% include arrow.html %}
 
 
 ### 2. 提案書を作成する [<i class="fa-light fa-pencil"></i>](#proposal) {#proposal}
 開発するプロジェクトと、自身の開発経験などを提案書に記入します。
-<a href="/download" class="button">提案書を準備する</a>
+<a href="/applications" class="button">提案書を準備する</a>
 {% include arrow.html %}
 
 

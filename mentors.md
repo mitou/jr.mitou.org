@@ -46,7 +46,7 @@ description: クリエータを支援する人達（メンター）の紹介ペ�
         <p>{{ mentor.bio }}</p>
 
 	{% if mentor.youtube %}<a class="button" href="https://www.youtube.com/watch?v={{ mentor.youtube }}&list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" target="_blank" rel="noopener">メッセージ動画を見る</a>{% endif %}
-	{% if mentor.article %}<a class="button" href="/download#tips">メッセージ記事を見る</a>{% endif %}
+	{% if mentor.article %}<a class="button" href="/applications#tips">メッセージ記事を見る</a>{% endif %}
 	
       </div>
     </div>
