@@ -13,7 +13,7 @@ this_year: 2023
 
   <!--【チラシのアナウンス】-->
   <!--
-  <a href="/flyer" class="dialog ignore-sp">
+  <a href="/flyers" class="dialog ignore-sp">
     🆕 チラシ配布のお願い (〆 2月2日 23:59)
   </a>
   -->
