@@ -26,26 +26,10 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 過去の採択者による提案書を一部公開しています。今年の提案書とはフォーマットが少し異なりますが、採択された提案書のサンプルとしてご参考になれば幸いです。
 
 <ul>
-  <li>
-    <a href='/projects/2019/abecobe'>abecobe - シンプルかつ難しいパズルゲーム</a><small>（<a href='/applications/abecobe.pdf' target='_blank'>提案書を見る <i class="fa-solid fa-up-right-from-square"></i></a>）</small>
-  </li>
-  <li>
-    <a href='/projects/2019/amoyo'>編模様 (あもーよ) イラスト手編み支援アプリ</a><small>（<a href='/applications/amoyo.pdf' target='_blank'>提案書を見る <i class="fa-solid fa-up-right-from-square"></i></a>）</small>
-  </li>
-  <li>
-    <a href='/projects/2019/det_exploit'>DetExploit - Windows用OSS脆弱性スキャナー</a><small>（<a href='/applications/det_exploit.pdf' target='_blank'>提案書を見る <i class="fa-solid fa-up-right-from-square"></i></a>）</small>
-  </li>
-  <li>
-    <a href='/projects/2020/visible'>Visible ─ Webアクセシビリティー診断 & 修正提案ツール
-</a><small>（<a href='/applications/visible.pdf' target='_blank'>提案書を見る <i class="fa-solid fa-up-right-from-square"></i></a>）</small>
-  </li>
-  <li>
-    <a href='/projects/2020/flight_fit_vr'>-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品
-</a><small>（<a href='/applications/flight_fit_vr.pdf' target='_blank'>提案書を見る <i class="fa-solid fa-up-right-from-square"></i></a>）</small>
-  </li>
-  <li>
-    <a href='/projects/2020/mer'>Mer - 多機能電子リコーダー</a><small>（<a href='/applications/mer.pdf' target='_blank'>提案書を見る <i class="fa-solid fa-up-right-from-square"></i></a>）</small>
-  </li>
+  {% for application in site.data.applications %}
+  {% assign project = site.data.projects | where: 'id', application.id | first %}
+  <li><a href='/projects/{{ project.year }}/{{ project.id }}'>{{ project.title }}</a><small>（<a href='/applications/{{ project.id }}.pdf' target='_blank'>提案書を見る <i class='fa-solid fa-up-right-from-square'></i></a>）</small></li>
+  {% endfor %}
 </ul>
 
 <a href="/applications/samples.zip" class="button">まとめてダウンロードする</a>
