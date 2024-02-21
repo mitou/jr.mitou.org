@@ -32,7 +32,8 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
   {% endfor %}
 </ul>
 
-<br>
+<a href="/projects" class="button">他の採択例を見る</a>
+
 
 <!--<div class="note">未踏ジュニアでは <a href='/opportunities#ipa-mitou'>IPA 未踏事業</a>との併願が可能なため、一部の提案書は<a href='https://www.ipa.go.jp/jinzai/mitou/it/about.html'>未踏事業</a>のフォーマットになっています。</div>-->
 
