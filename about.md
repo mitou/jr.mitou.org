@@ -141,9 +141,9 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 </div>
 
 
-### [<i class="fa-brands fa-youtube green"></i>](#interviews) 推薦のことば {#interviews}
+### [<i class="fa-regular fa-comment-heart green"></i>](#interviews) 小中高生への応援メッセージ {#interviews}
 
-未踏関係者に『**なんで未踏?**』という質問をしてみました。未踏ジュニアについて一歩深く知るキッカケになれば嬉しいです <i class="far fa-laugh-squint" aria-hidden="true" /> <i class="far fa-thumbs-up" aria-hidden="true" />
+未踏関係者から小中高生・高専生への『応援メッセージ』です。皆さんからの応募をお待ちしております! <i class="far fa-laugh-squint" aria-hidden="true" /> <i class="far fa-thumbs-up" aria-hidden="true" />
 
 <div class="youtube" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
   <meta itemprop="isFamilyFriendly"     content="True">
