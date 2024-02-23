@@ -1194,6 +1194,19 @@
   year: 2017
 
 # 2016年度
+- id: vr_picture_book_maker
+  title: VR絵本メーカー
+  creator_ids:
+    - kimura_hiroko
+  mentor_id: ukai_yuu
+  description: VR絵本メーカーは、 VRで体験できる世界やストーリーを制作するためのスマートフォンアプリケーションです。 物語の世界に入ることができる！大好きなあの人とデートができる！憧れのアーティストのライブにも行けちゃう！誰でも簡単にスマホで観れるVR絵本をつくれます。 ユーザーは背景となる360度画像を選択し、キャラクターや吹き出し、さらに効果音、遷移エフェクトを選択してVR絵本にします。
+  comment: ユーザーがVRコンテンツを作れるアプリを作る、という非常に挑戦的なテーマに挑み、実際に自分が体験したかった「銀河鉄道」の様なVRコンテンツが製作できるものに仕上げたのは大変素晴らしいです。 今後はアプリのリリースに向けて、細かいバグ修正やコンテンツの共有機能を実装し、さらにその世界を広げていくことを強く期待します。
+  thumbnail: vr_picture_book_maker.webp
+  #promotion:
+  final: V3SVBM47jOs
+  #link:
+  year: 2016
+
 - id: smart_pen
   title: スマートペン
   creator_ids:
@@ -1205,19 +1218,6 @@
   thumbnail: smart_pen.webp
   #promotion:
   final: sdrPyfNJx-4
-  #link:
-  year: 2016
-
-- id: vr_picture_book_maker
-  title: VR絵本メーカー
-  creator_ids:
-    - kimura_hiroko
-  mentor_id: ukai_yuu
-  description: VR絵本メーカーは、 VRで体験できる世界やストーリーを制作するためのスマートフォンアプリケーションです。 物語の世界に入ることができる！大好きなあの人とデートができる！憧れのアーティストのライブにも行けちゃう！誰でも簡単にスマホで観れるVR絵本をつくれます。 ユーザーは背景となる360度画像を選択し、キャラクターや吹き出し、さらに効果音、遷移エフェクトを選択してVR絵本にします。
-  comment: ユーザーがVRコンテンツを作れるアプリを作る、という非常に挑戦的なテーマに挑み、実際に自分が体験したかった「銀河鉄道」の様なVRコンテンツが製作できるものに仕上げたのは大変素晴らしいです。 今後はアプリのリリースに向けて、細かいバグ修正やコンテンツの共有機能を実装し、さらにその世界を広げていくことを強く期待します。
-  thumbnail: vr_picture_book_maker.webp
-  #promotion:
-  final: V3SVBM47jOs
   #link:
   year: 2016
 
