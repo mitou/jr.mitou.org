@@ -69,10 +69,10 @@ twitter_card: summary_large_image
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='vr_picture_book_maker' title='VR絵本メーカー'>&larr; 前<br>
-    VR絵本メーカー</a></p>
-  <p class='nav next'><a href='smart_pen' title='スマートペン'>次 &rarr;<br>
+  <p class='nav prev'><a href='smart_pen' title='スマートペン'>&larr; 前<br>
     スマートペン</a></p>
+  <p class='nav next'><a href='vr_picture_book_maker' title='VR絵本メーカー'>次 &rarr;<br>
+    VR絵本メーカー</a></p>
 </nav>
 
 {% include project-navigation.html %}

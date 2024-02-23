@@ -69,10 +69,10 @@ twitter_card: summary_large_image
 {% endif %}
 
 <nav>
-  <p class='nav prev'><a href='smart_pen' title='スマートペン'>&larr; 前<br>
-    スマートペン</a></p>
-  <p class='nav next'><a href='voice_commander' title='Voice Commander ～命令×ポーズ×チェス～'>次 &rarr;<br>
+  <p class='nav prev'><a href='voice_commander' title='Voice Commander ～命令×ポーズ×チェス～'>&larr; 前<br>
     Voice Commander ～命令×ポーズ×チェス～</a></p>
+  <p class='nav next'><a href='smart_pen' title='スマートペン'>次 &rarr;<br>
+    スマートペン</a></p>
 </nav>
 
 {% include project-navigation.html %}
