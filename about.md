@@ -159,7 +159,10 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
   <iframe width="100%" src="https://www.youtube.com/embed/1KNkEAh9AK4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-<a href="https://www.youtube.com/watch?v=1KNkEAh9AK4" class="button">YouTube で見る</a>
+<div class='flex'>
+  <a href="https://www.youtube.com/watch?v=1KNkEAh9AK4" class="button">YouTube で見る</a>
+  <a href="/guideline" class="button">応募の手引きを見る</a>
+</div>
 
 <br>
 
