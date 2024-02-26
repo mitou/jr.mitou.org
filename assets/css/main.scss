@@ -217,7 +217,7 @@ header{
   min-width: 240px;
   position: relative;
   box-shadow: 4px 4px 0 1px #000;
-  margin: 50px auto;
+  margin: 20px auto;
   /*
   margin: 24px auto;
   &:first-child{
@@ -1024,6 +1024,36 @@ footer{
   }
 }
 
+/* Adjustments for sponsor logos */
+.sponsor-logo-platinum, .sponsor-logo-gold {
+  display: block; // Ensure logos are block-level for margin auto to work
+  margin: auto; // Center horizontally
+  height: auto; // Maintain aspect ratio
+}
+
+/* Ensure the parent container of the logos centers them vertically and horizontally */
+#sponsor-logos .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; // Center children horizontally
+  align-items: center; // Center children vertically
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: $phone-width) {
+  #sponsor-logos .flex {
+    flex-direction: column; // Stack children vertically
+  }
+}
+
+.sponsor-logo-platinum {
+  width: 200px;
+}
+
+.sponsor-logo-gold {
+  width: 120px;
+}
+
 .sv{
   overflow: hidden;
   @media screen and (max-width: $phone-width) {
@@ -1084,10 +1114,7 @@ footer{
 }
 
 
-#about{
-  background-color: $lightgray;
-}
-#faq, #supporters, #collaborators,#results{
+#about, #media, #faq, #supporters, #collaborators,#results{
   background-color: $lightgray;
 }
 .lets-apply{
