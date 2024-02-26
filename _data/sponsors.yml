@@ -4,16 +4,34 @@
 #   link:    法人またはプロダクトへのリンク
 #   link_en: 法人またはプロダクトへのリンク (英語版。無い場合は上記 link が適用されます)
 
+- name: GMOインターネットグループ株式会社
+  img:  2024/mitoujr-sponsors_GMO.webp
+  type: platinum
+  link:    https://www.gmo.jp/
+  link_en: https://www.gmo.jp/en/
+
 - name: 近畿大学情報学部
-  img:  kindai.webp
+  img:  2024/mitoujr-sponsors_Kinki.webp
   type: platinum
   link:    https://www.kindai.ac.jp/informatics/
   link_en: https://www.kindai.ac.jp/english/
 
 - name: ハヤブサ財団
-  img:  hayabusa.png
+  img:  2024/mitoujr-sponsors_Hayabusa.webp
   type: gold
   link: https://hayabusa.foundation/
+  #link_en: 
+
+- name: mercari R4D
+  img:  2024/mitoujr-sponsors_mercari.webp
+  type: gold
+  link: https://r4d.mercari.com/
+  link_en: https://r4d.mercari.com/en/
+
+- name: ビジョナル株式会社
+  img:  2024/mitoujr-sponsors_Visional.webp
+  type: gold
+  link: https://www.visional.inc/ja/index.html
   #link_en: 
 
 #- name: KDDI株式会社
@@ -23,25 +41,43 @@
 #  link_en: https://www.kddi.com/english/
 
 - name: 株式会社リクルート
-  img:  recruit.webp
+  img:  2024/mitoujr-sponsors_Recruit.webp
   type: silver
   link: https://www.recruit.co.jp/
   #link_en:
 
 - name: 株式会社ドワンゴ
-  img:  dwango.webp
+  img:  2024/mitoujr-sponsors_Dwango.webp
   type: silver
   link:    https://dwango.co.jp/
   link_en: https://en.dwango.co.jp/
 
 - name: 合同会社DMM.com
-  img:  DMM.com_logo_RGB.webp
+  img:  2024/mitoujr-sponsors_DMM.webp
   type: silver
   link: https://dmm-corp.com/
   #link_en:
 
+- name: 株式会社TwoGate
+  img:  2024/mitoujr-sponsors_Twogate.webp
+  type: silver
+  link: https://twogate.com/
+  #link_en:
+
+- name: 株式会社 教育と探求社
+  img:  2024/mitoujr-sponsors_kt.webp
+  type: silver
+  link: https://eduq.jp/
+  #link_en:
+
+- name: 株式会社サイバーエージェント
+  img:  2024/mitoujr-sponsors_CA.webp
+  type: silver
+  link: https://www.cyberagent.co.jp/
+  #link_en:
+
 - name: 株式会社プロコミット
-  img:  pro-commit.webp
+  img:  2024/mitoujr-sponsors_procommit.webp
   type: bronze
   link: https://www.procommit.co.jp/
   #link_en:
@@ -93,18 +129,6 @@
   type: inkind
   link:    https://case-shinjuku.com/
   link_en: https://case-shinjuku.com/english
-
-- name: エドテックジン
-  img:  ed-tech-zine.webp
-  type: media
-  link: https://edtechzine.jp/
-  #link_en:
-
-- name: こどもとIT
-  img:  kodomo-to-it.webp
-  type: media
-  link: https://edu.watch.impress.co.jp/
-  #link_en:
 
 
 # 後援団体 - Supportors
