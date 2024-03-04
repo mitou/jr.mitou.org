@@ -86,7 +86,7 @@ this_year: 2023
     {% for sponsor in site.data.sponsors %}
     {% unless sponsor.type == 'platinum' or sponsor.type == 'gold' %}{% continue %}{% endunless %}
 
-    <a href="{{ sponsor.url }}" target="_blank">
+    <a href="{{ sponsor.link }}" target="_blank">
       {% if sponsor.type == 'platinum' %}
       <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="lazyload sponsor-logo-platinum">
       {% elsif sponsor.type == 'gold' %}
