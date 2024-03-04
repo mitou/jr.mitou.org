@@ -84,8 +84,6 @@ this_year: 2023
 <section id="sponsor-logos">
   <div class='flex'>
     {% for sponsor in site.data.sponsors %}
-    {% unless sponsor.type == 'platinum' or sponsor.type == 'gold' %}{% continue %}{% endunless %}
-
     <a href="{{ sponsor.link }}" target="_blank">
       {% if sponsor.type == 'platinum' %}
       <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="lazyload sponsor-logo-platinum">
