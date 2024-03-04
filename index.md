@@ -70,7 +70,7 @@ this_year: 2023
     <div class="service-one">
       <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/place.svg" alt="開発場所" class="service-img lazyload" loading="lazy">
       <h3>開発場所</h3>
-      <p>必要に応じて、開発場所および工作機材の支援が得られます</p>
+      <p>必要に応じて、開発場所や工作機材の支援が得られます</p>
     </div>
     <div class="service-one">
       <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/sp-creator.svg" alt="スーパークリエータ認定" class="service-img lazyload" loading="lazy">
@@ -96,7 +96,7 @@ this_year: 2023
     {% endfor %}
   </div>
 
-  <p>未踏ジュニアは、<a href='#sponsors'>全てのスポンサー</a>からの支援によって運営されています。</p>
+  <p>未踏ジュニアは<a href='#sponsors'>スポンサー</a>からの支援によって運営されています。</p>
 </section>
 
 {% comment %}
