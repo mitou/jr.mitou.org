@@ -85,9 +85,9 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 <br>
 
 
-### [<i class="fas fa-gear green"></i>](#supports-expenses) 開発場所の援助 {#supports-expenses}
+### [<i class="fas fa-gear green"></i>](#supports-expenses) 開発場所の提供 {#supports-expenses}
 
-必要に応じて、開発場所や工作機材などの援助を行います。
+必要に応じて、開発場所や工作機材などの提供を行います。
 
 また[成果報告会](/final)などのイベントが現地開催となる場合、イベント参加のための交通費・宿泊費も支給されます。
 
