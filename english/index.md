@@ -147,35 +147,35 @@ Up to now <strong>{{ total_applications }} applications</strong> are submitted t
 Example projects, accepted and boosted by our program, are as follows.
 
 <div class="project-showcase-list">
-  <a href='https://github.com/visible/visible' class="project-showcase project-one" target="_blank" rel='noopener'>
+  <a href='https://github.com/visible/visible' class="project-showcase project-one">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/english/visible.webp" alt="Visible - Web Accessibility Validate & Fix" class="project-img lazyload" loading="lazy" />
   </a>
-  <a href='https://www.youtube.com/watch?v=MePIVH21RZM' class="project-showcase project-one" target="_blank" rel='noopener'>
+  <a href='https://www.youtube.com/watch?v=MePIVH21RZM' class="project-showcase project-one">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/english/spaghetian.webp" alt="Spaghetian - 4-bit CPU of Electromagnet" class="project-img lazyload" loading="lazy" />
   </a>
 
-  <a href='https://detexploit.org/' class="project-showcase project-one" target="_blank" rel='noopener'>
+  <a href='https://detexploit.org/' class="project-showcase project-one">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/english/detexploit.webp" alt="abecobe - Puzzle game using two blocks" class="project-img lazyload" loading="lazy" />
   </a>
-  <a href='https://keidaroo.github.io/keidaroo_pages/links/abecobe/' class="project-showcase project-one" target="_blank" rel='noopener'>
+  <a href='https://keidaroo.github.io/keidaroo_pages/links/abecobe/' class="project-showcase project-one">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/english/abecobe.webp" alt="abecobe - Puzzle game using two blocks" class="project-img lazyload" loading="lazy" />
   </a>
 
-  <a href='https://anjuart.com/en/' class="project-showcase project-one" target="_blank" rel='noopener'>
+  <a href='https://anjuart.com/en/' class="project-showcase project-one">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/english/flight-fit-vr.webp" alt="Flight Fit -VR-" class="project-img lazyload" loading="lazy" />
   </a>
-  <a href='https://vamboo.net/' class="project-showcase project-one" target="_blank" rel='noopener'>
+  <a href='https://vamboo.net/' class="project-showcase project-one">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/english/vamboo.webp" alt="vamboo - A visual programming language to create GUI application in functional and reactive way." class="project-img lazyload" loading="lazy" />
   </a>
 
-  <a href='https://github.com/Vreath-core' class="project-showcase project-one" target="_blank" rel='noopener'>
+  <a href='https://github.com/Vreath-core' class="project-showcase project-one">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/english/vreath.webp" alt="Vreath - A New Consensus Algorithm Makes CryptoCurrency Easily Available" class="project-img lazyload" loading="lazy" />
   </a>
-  <a href='https://sites.google.com/view/toubans-en' class="project-showcase project-one" target="_blank" rel='noopener'>
+  <a href='https://sites.google.com/view/toubans-en' class="project-showcase project-one">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/english/toubans.webp" alt="Toubans! - The easy-to-use duty-management chatbot" class="project-img lazyload" loading="lazy" />
   </a>
 
-  <a href='https://hato.nyiyui.ca/README-en.html' class="project-showcase project-one" target="_blank" rel='noopener'>
+  <a href='https://hato.nyiyui.ca/README-en.html' class="project-showcase project-one">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/english/hato.webp" alt="Hopefully Automatic Train Operation (HATO): Immersive Automatic Model Train Control System" class="project-img lazyload" loading="lazy" />
   </a>
 </div>
