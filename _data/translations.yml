@@ -15,8 +15,10 @@ faq:
   en: 'FAQ'
 
 author:
-  ja: '未踏社団 未踏ジュニア実行委員会'
-  en: 'Mitou Foundation - Mitou Junior Team'
+  ja: |
+    <a href='/#organizer' style='padding: 0 0 0 0; color: #666; font-weight: lighter;'>未踏社団</a> 未踏ジュニア実行委員会
+  en: |
+    <a href='/english/#organizer' style='padding: 0 0 0 0; color: #666; font-weight: lighter;'>Mitou Foundation</a> - Mitou Junior Team
 
 sponsorHeading:
   ja: '2023年度スポンサー'
