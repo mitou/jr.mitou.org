@@ -29,7 +29,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 独創的なアイデア、卓越した技術を持つ 17 歳以下の小中高生や[高専生](https://www.mext.go.jp/a_menu/koutou/kousen/index.htm)などを支援するプログラムです。
 
-[IPA 未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)という、経産省所管の独立行政法人情報処理推進機構（[IPA](https://www.ipa.go.jp/)）が実施する 24 歳以下の若者を対象とした人材育成プログラムがあります。この未踏事業の修了生を中心に設立・運営されているのが、**未踏ジュニア**です。
+[IPA 未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)という、経産省所管の独立行政法人情報処理推進機構（[IPA](https://www.ipa.go.jp/)）が実施する 24 歳以下の若者を対象とした人材育成プログラムがあり、その未踏事業の修了生を中心に設立・運営されているのが**未踏ジュニア**です。
 
 {% assign total_applications = 0 %}
 {% assign total_creators     = 0 %}
