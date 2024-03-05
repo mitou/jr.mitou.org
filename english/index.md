@@ -226,8 +226,21 @@ Example timeline. Details may vary from year to year.
     <p>
       Since the launch of <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>The MITOU Programs</a> in 2000, we have increasingly focused on younger creators. <a href='https://en.wikipedia.org/wiki/Information_technology'>Information Technology</a> (IT) is not just for adults; I believe it's essential to discover and nurture an understanding of IT from a very young age. The Mitou Junior program is designed to facilitate it by providing an environment where young people can do more than just 'learn.' They can develop and enhance their skills, growing into talented IT professionals. This program is an opportunity for them to spread their wings and realize their full potential.</p>
       
-    <a class="button" href="https://www.youtube.com/watch?v=SSsyV9O__GU&list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" target="_blank" rel="noopener">Watch message on YouTube (in Japanese)</a>
+    <a class="button" href="https://www.youtube.com/watch?v=SSsyV9O__GU&list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg">Watch message on YouTube (in Japanese)</a>
   </div>
+</div>
+
+
+## [<i class="fa-light fa-badge-check"></i>](#organizer) Organizer {#organizer}
+
+<section>
+  <a href="https://www.mitou.org/"><img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.png" alt="Mitou Foundation's logo image" class="lazyload" loading="lazy" width='100%'></a>
+</section>
+
+[The Mitou Foundation](https://www.mitou.org/) focuses on fostering IT innovation by building a network of creative talents, particularly those who have completed the [MITOU Program](https://www.ipa.go.jp/en/it-talents/mitou.html). This organization was established in 2014 to address the growing need for innovative talents capable of transforming various industries and societal structures in the 21st century. It is a non-profit general incorporated association, a legal entity in Japanese law.
+
+<div class='flex'>
+  <a href='https://www.mitou.org/' class='button'>Check Mitou Foundation (in Japanese)</a>
 </div>
 
 
