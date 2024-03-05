@@ -178,7 +178,10 @@ this_year: 2023
 {% include lets-apply.html %}
 
 <section id="organizer">
-  <h2 class="heading-line">運営団体</h2>
+  <h2 class="heading-line">
+    <a href="#organizer"><i class="far fa-badge-check green"></i></a>
+    運営団体
+  </h2>
   <p>
     <a href="https://www.mitou.org/"><img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.png" alt="一般社団法人未踏" class="lazyload" loading="lazy"></a>
   </p>
