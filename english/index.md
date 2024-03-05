@@ -7,7 +7,7 @@ lang: en
 
 ## [<i class="fa-light fa-mountain"></i>](#about) What's Mitou Junior? {#about}
 
-Mitou Junior is a half-year-long program to enhance young innovative creators in Japan. This program, initiated by the [Mitou Foundation](https://www.mitou.org/) in 2016 and originating from the government-backed [MITOU Program](https://www.ipa.go.jp/en/about/it-talents/mitou.html), has received support from various companies and organizations since its inception. With that support we offer the following benefits.
+Mitou Junior is a half-year-long program to enhance young innovative creators in Japan. This program, initiated by the [Mitou Foundation](https://www.mitou.org/index_en.html) in 2016 and originating from the government-backed [MITOU Program](https://www.ipa.go.jp/en/about/it-talents/mitou.html), has received support from various companies and organizations since its inception. With that support we offer the following benefits.
 
 <br>
 
@@ -215,7 +215,7 @@ Example timeline. Details may vary from year to year.
     <img  src='/assets/img/spinner.svg'  class="sv-img lazyload" loading="lazy"
      data-src="/assets/img/mentors/takeuchi.webp" alt="Photo of Ikuo Takeuchi">
     <h3 class="mentor-name">Ikuo Takeuchi</h3>
-    <h5>Professor Emeritus at <a href='https://www.u-tokyo.ac.jp/en/'>The University of Tokyo</a>, Director of <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>MITOU Programs</a>, and Director of <a href='https://www.mitou.org/'>Mitou Foundation</a></h5>
+    <h5>Professor Emeritus at <a href='https://www.u-tokyo.ac.jp/en/'>The University of Tokyo</a>, Director of <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>MITOU Programs</a>, and Director of <a href='https://www.mitou.org/index_en.html'>Mitou Foundation</a></h5>
   </div>
 
   <div class="sv-right text-left">
@@ -234,13 +234,13 @@ Example timeline. Details may vary from year to year.
 ## [<i class="fa-light fa-badge-check"></i>](#organizer) Organizer {#organizer}
 
 <section>
-  <a href="https://www.mitou.org/"><img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.webp" alt="Mitou Foundation's logo image" class="lazyload" loading="lazy" width='100%'></a>
+  <a href='https://www.mitou.org/index_en.html'><img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.webp" alt="Mitou Foundation's logo image" class="lazyload" loading="lazy" width='100%'></a>
 </section>
 
-[The Mitou Foundation](https://www.mitou.org/) focuses on fostering IT innovation by building a network of creative talents, particularly those who have completed the [MITOU Program](https://www.ipa.go.jp/en/it-talents/mitou.html). This organization was established in 2014 to address the growing need for innovative talents capable of transforming various industries and societal structures in the 21st century. It is a non-profit general incorporated association, a legal entity in Japanese law.
+[The Mitou Foundation](https://www.mitou.org/index_en.html) focuses on fostering IT innovation by building a network of creative talents, particularly those who have completed the [MITOU Program](https://www.ipa.go.jp/en/it-talents/mitou.html). This organization was established in 2014 to address the growing need for innovative talents capable of transforming various industries and societal structures in the 21st century. It is a non-profit general incorporated association, a legal entity in Japanese law.
 
 <div class='flex'>
-  <a href='https://www.mitou.org/' class='button'>Check Mitou Foundation (in Japanese)</a>
+  <a href='https://www.mitou.org/index_en.html' class='button'>Check Mitou Foundation</a>
 </div>
 
 
