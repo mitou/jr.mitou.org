@@ -1,4 +1,4 @@
-<!-- 以下スポンサー一覧のHTMLです。スポンサー情報は/_data/sponsors.ymlを参照してください。 -->
+<!-- 以下スポンサー一覧のHTMLです。スポンサー情報は /_data/sponsors.yml を参照してください。 -->
 
 {% assign lang = page.lang | default: "ja" %}
 {% assign platinum_sponsors = site.data.sponsors | where: "type", "platinum" %}
@@ -13,7 +13,7 @@
 
   {% for sponsor in platinum_sponsors %}
   {% if forloop.first %}
-  <h3 id='sponsor-platinum'>{{ site.data.translations.sponsorPlatinum[lang] }}</h3>
+  <h3 id='sponsor-platinum' style='margin-top: 50px;'>{{ site.data.translations.sponsorPlatinum[lang] }}</h3>
   <div class="sponsors-list-platinum">
   {% endif %}
     {% if lang == 'ja' or sponsor.link_en == nil %}
@@ -30,7 +30,7 @@
 
   {% for sponsor in gold_sponsors %}
   {% if forloop.first %}
-  <h3 id='sponsor-gold'>{{ site.data.translations.sponsorGold[lang] }}</h3>
+  <h3 id='sponsor-gold' style='margin-top: 50px;'>{{ site.data.translations.sponsorGold[lang] }}</h3>
   <div class="sponsors-list-gold">
   {% endif %}
     {% if lang == 'ja' or sponsor.link_en == nil %}
@@ -47,7 +47,7 @@
 
   {% for sponsor in silver_sponsors %}
   {% if forloop.first %}
-  <h3 id='sponsor-silver'>{{ site.data.translations.sponsorSilver[lang] }}</h3>
+  <h3 id='sponsor-silver' style='margin-top: 50px;'>{{ site.data.translations.sponsorSilver[lang] }}</h3>
   <div class="sponsors-list-silver">
   {% endif %}
     {% if lang == 'ja' or sponsor.link_en == nil %}
@@ -64,7 +64,7 @@
 
   {% for sponsor in bronze_sponsors %}
   {% if forloop.first %}
-  <h3 id='sponsor-bronze'>{{ site.data.translations.sponsorBronze[lang] }}</h3>
+  <h3 id='sponsor-bronze' style='margin-top: 50px;'>{{ site.data.translations.sponsorBronze[lang] }}</h3>
   <div class="sponsors-list-bronze">
   {% endif %}
     {% if lang == 'ja' or sponsor.link_en == nil %}
@@ -81,7 +81,7 @@
 
   {% for sponsor in inkind_sponsors %}
   {% if forloop.first %}
-  <h3 id='sponsor-inkind'>{{ site.data.translations.sponsorInkind[lang] }}</h3>
+  <h3 id='sponsor-inkind' style='margin-top: 50px;'>{{ site.data.translations.sponsorInkind[lang] }}</h3>
   <div class="sponsors-list-inkind">
   {% endif %}
     {% if lang == 'ja' or sponsor.link_en == nil %}
@@ -96,7 +96,7 @@
 
   {% for sponsor in media_sponsors %}
   {% if forloop.first %}
-  <h3 id='sponsor-media'>{{ site.data.translations.sponsorMedia[lang] }}</h3>
+  <h3 id='sponsor-media' style='margin-top: 50px;'>{{ site.data.translations.sponsorMedia[lang] }}</h3>
   <div class="sponsors-list-media">
   {% endif %}
     {% if lang == 'ja' or sponsor.link_en == nil %}
