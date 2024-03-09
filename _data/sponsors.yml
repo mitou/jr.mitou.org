@@ -52,11 +52,11 @@
   link:    https://dwango.co.jp/
   link_en: https://en.dwango.co.jp/
 
-- name: 合同会社DMM.com
-  img:  2024/dmm.webp
-  type: silver
-  link: https://dmm-corp.com/
-  #link_en:
+#- name: 合同会社DMM.com
+#  img:  2024/dmm.webp
+#  type: silver
+#  link: https://dmm-corp.com/
+#  #link_en:
 
 - name: 株式会社TwoGate
   img:  2024/twogate.webp
