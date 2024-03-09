@@ -19,16 +19,16 @@ this_year: 2023
   -->
 
   <!--【募集予告のアナウンス】-->
+  <!--
   <a href="/guideline" class="dialog ignore-sp">
     ⏳ 2024年度の募集は3月10日に公開予定です
   </a>
+  -->
 
   <!--【募集中のアナウンス】-->
-  <!--
   <a href="/guideline" class="dialog ignore-sp">
-    🆕 2023年度の募集要項を見る (〆 4月8日 23:59)
+    🆕 2024年度の募集要項を見る (〆 4月6日 23:59)
   </a>
-  -->
 
   <!--【〆切後のアナウンス】-->
   <!--
@@ -70,7 +70,7 @@ this_year: 2023
     <div class="service-one">
       <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/place.svg" alt="開発場所" class="service-img lazyload" loading="lazy">
       <h3>開発場所</h3>
-      <p>必要に応じて、開発場所および工作機材の支援が得られます</p>
+      <p>必要に応じて、開発場所や工作機材の支援が得られます</p>
     </div>
     <div class="service-one">
       <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/sp-creator.svg" alt="スーパークリエータ認定" class="service-img lazyload" loading="lazy">
@@ -81,29 +81,27 @@ this_year: 2023
   </div>
 </section>
 
+<section id="sponsor-logos">
+  <div class='flex'>
+    {% for sponsor in site.data.sponsors %}
+    <a href="{{ sponsor.link }}" target="_blank">
+      {% if sponsor.type == 'platinum' %}
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="lazyload sponsor-logo-platinum">
+      {% elsif sponsor.type == 'gold' %}
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="lazyload sponsor-logo-gold">
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+
+  <p>未踏ジュニアは<a href='#sponsors'>スポンサー</a>からの支援によって運営されています。</p>
+</section>
+
 {% comment %}
 <!-- 募集開始〜〆切になったら以下のコードを comment の直前（）に移動し、〆切後はココに戻してください -->
 {% include lets-apply.html %}
 {% endcomment %}
 
-<!--
-<section id="sponsor-logos">
-  <h2 class="heading-line"><i class="far fa-handshake green"></i> スポンサー</h2>
-  <div class='flex'>
-    {% for sponsor in site.data.sponsors %}
-    {% unless sponsor.type == 'gold'   or
-              sponsor.type == 'silver' or
-              sponsor.type == 'bronze' %}{% continue %}{% endunless %}
-
-    <a href="{{ sponsor.url }}" target="_blank">
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="lazyload" width='100px'>
-    </a>
-    {% endfor %}
-  </div>
-
-  <p>上記企業の他、<a href='#sponsor-inkind'>機材・教材スポンサー</a>や<a href='#sponsor-media'>メディアスポンサー</a>もいます。</p>
-</section>
--->
 
 <section id="media">
   <h2 class="heading-line">
