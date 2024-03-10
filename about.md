@@ -129,7 +129,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 <div style='padding-top: 30px; max-width: 400px; margin: auto; display: block;'>
   <a href="https://www.mitou.org/">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.png"
+    <img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.webp"
        title="一般社団法人未踏のロゴ画像" class="lazyload" loading="lazy" width='100%'
          alt="一般社団法人未踏のロゴ画像">
   </a>
