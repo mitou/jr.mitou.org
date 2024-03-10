@@ -65,7 +65,7 @@ this_year: 2023
     <div class="service-one">
       <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/money.svg" alt="資金" class="service-img lazyload" loading="lazy">
       <h3>開発資金</h3>
-      <p>各グループ50万円を上限として、開発資金の援助があります</p>
+      <p>各グループ50万円を上限として開発資金の援助があります</p>
     </div>
     <div class="service-one">
       <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/place.svg" alt="開発場所" class="service-img lazyload" loading="lazy">
