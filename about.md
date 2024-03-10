@@ -22,6 +22,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTube で見る</a>
 
+<br>
 
 
 ## [<i class="fa-regular fa-mountain"></i>](#mitoujr) 未踏ジュニアとは？ {#mitoujr}
