@@ -31,7 +31,7 @@
   <meta property="og:description"  content="{{ translations.description[lang] }}" />
   {% endif %}
 
-  <meta name="author"              content="{{ translations.author[lang] }}">
+  <meta name="author"              content="{{ translations.author[lang] | strip_html | strip_newlines}}">
 
   <link rel="alternate"  hreflang="ja" href="https://jr.mitou.org/" />
   <link rel="alternate"  hreflang="en" href="https://jr.mitou.org/english/" />
