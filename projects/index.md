@@ -22,7 +22,7 @@ thumbnail: /assets/img/thumbnails/projects.webp
 <div class="projects">
   <h2>未踏ジュニア<br class="ph">採択プロジェクト</h2>
   <p>
-    これまでの採択プロジェクト一覧ページです。未踏ジュニアではこれまでに {{ total_projects }} 件のプロジェクトを採択し、{{ total_creators }} 名のクリエータを支援してきました。
+    これまでの採択プロジェクト一覧ページです。未踏ジュニアではこれまでに <strong>{{ total_projects }} 件</strong>のプロジェクトを採択し、<strong>{{ total_creators }} 名</strong>のクリエータを支援してきました。
   </p>
 
   <div class="tips">
