@@ -8,7 +8,7 @@ description: |
     {% assign total_projects = total_projects | plus: stat.projects %}
     {% assign total_creators = total_creators | plus: stat.creators %}
   {% endfor %}
-  採択されたプロジェクトを年度別にまとめたページです。未踏ジュニアではこれまでに {{ total_projects }} 件のプロジェクトを採択し、{{ total_creators }} 名のクリエータを支援してきました。{% assign total_projects = 0 %}
+  採択されたプロジェクトを年度別にまとめたページです。未踏ジュニアではこれまでに {{ total_projects }} 件のプロジェクトを採択し、{{ total_creators }} 名のクリエータを支援してきました。
 thumbnail: /assets/img/thumbnails/projects.webp
 ---
 
