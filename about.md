@@ -38,7 +38,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
   {% assign total_creators     = total_creators     | plus: stat.creators     %}
 {% endfor %}
 
-2016年から未踏ジュニアが始まり、これまでに **{{ total_applications }} 件の応募、{{ total_creators }} 名のクリエータを支援・採択**してきました。
+2016年から未踏ジュニアが始まり、これまでに **{{ total_applications }} 件の応募をいただき、{{ total_creators }} 名のクリエータを支援・採択**してきました。
 
 <div class="cover-photo">
   <img src="/assets/img/2022_cover.min.webp" data-src="/assets/img/2022_cover.webp"
