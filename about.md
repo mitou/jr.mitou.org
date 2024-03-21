@@ -62,7 +62,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 ### [<i class="fas fa-graduation-cap green"></i>](#supports-mentoring) メンタリングの提供 {#supports-mentoring}
 
-担当の[メンター](/mentors)をはじめ、[IPA 未踏事業](https://www.ipa.go.jp/jinzai/mitou/about.html)の修了生らを中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
+担当の[メンター](/mentors)をはじめ、[IPA 未踏事業の修了生](https://scrapbox.io/mitou-meikan/)を中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
 
 <div class="tips">期間中は、毎週１時間ほど、担当する<a href='/mentors'>メンター</a>とオンラインで話せる機会があります。プログラミングの質問やプロジェクトの方針など、なんでも相談できます。</div>
 
