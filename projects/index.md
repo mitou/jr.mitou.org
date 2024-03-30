@@ -35,7 +35,7 @@ thumbnail: /assets/img/thumbnails/projects.webp
   {% for this_year in (2016..2023) reversed %}
     <a href="#{{ this_year }}"><h3 id='{{ this_year }}'>{{ this_year }}年度</h3></a>
     {% include project-list.html year=this_year %}
-    <a href="/projects/{{ this_year }}" class="button">{{ this_year }}年度の一覧を見る</a>
+    <a href="/projects/{{ this_year }}" class="button">{{ this_year }}年度の詳細を見る</a>
   {% endfor %}
 </div>
 
