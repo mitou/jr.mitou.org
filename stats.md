@@ -245,10 +245,10 @@ Highcharts.chart('rates', {
 
 
 {% for stat in site.data.stats %}
-<h3>
+<h3 id='{{ stat.year }}' style='margin-top: 70px;'>
   <!-- NOTE: Latest projects page will be published after its final registration page. -->
   {% if stat.creators %}
-  <a href="/projects/{{ stat.year }}" style="font-weight: bold;">{{ stat.year }} 年度</a>
+  <a href="#{{ stat.year }}" style="font-weight: bold;">{{ stat.year }} 年度</a>
   {% else %}
   {{ stat.year }} 年度
   {% endif %}
@@ -276,6 +276,8 @@ Highcharts.chart('rates', {
 修了したクリエータ数およびスーパークリエータ認定数は後日発表されます。
 {% endif %}
 
+<a href="/projects/{{ stat.year }}" class="button">{{ stat.year}}年度の採択を見る</a>
+
 {% endfor %}
 
 
@@ -298,6 +300,7 @@ Highcharts.chart('rates', {
   </ul>
 </p>
 
+<a href="/projects/{{ stat.year }}" class="button">採択の一覧を見る</a>
 
 ## [<i class="fa-light fa-envelope"></i>](#contact) 問い合わせ {#contact}
 
