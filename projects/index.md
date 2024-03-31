@@ -20,7 +20,11 @@ thumbnail: /assets/img/thumbnails/projects.webp
 {% endfor %}
 
 <div class="projects">
-  <h2>未踏ジュニア<br class="ph">採択プロジェクト一覧</h2>
+  <h2 id='index'>
+    <a href='#index'><i class="fa-regular fa-list-check"></i></a>
+    未踏ジュニア<br>
+    採択プロジェクト一覧
+  </h2>
   <p>
     これまでに採択された全プロジェクトを<b>一覧から探せるページ</b>です。<br class="ph"><br class="ph">未踏ジュニアではこれまでに <strong>{{ total_projects }} 件</strong>のプロジェクトを採択し、<strong>{{ total_creators }} 名</strong>のクリエータを支援してきました。
   </p>
