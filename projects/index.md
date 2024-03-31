@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 採択プロジェクト
+title: 採択プロジェクト一覧
 description: |
   {% assign total_projects = 0 %}
   {% assign total_creators = 0 %}
@@ -20,21 +20,24 @@ thumbnail: /assets/img/thumbnails/projects.webp
 {% endfor %}
 
 <div class="projects">
-  <h2>未踏ジュニア<br class="ph">採択プロジェクト</h2>
+  <h2>未踏ジュニア<br class="ph">採択プロジェクト一覧</h2>
   <p>
-    これまでの採択プロジェクト一覧ページです。未踏ジュニアではこれまでに <strong>{{ total_projects }} 件</strong>のプロジェクトを採択し、<strong>{{ total_creators }} 名</strong>のクリエータを支援してきました。
+    これまでに採択された全プロジェクトを<b>一覧から探せるページ</b>です。<br class="ph"><br class="ph">未踏ジュニアではこれまでに <strong>{{ total_projects }} 件</strong>のプロジェクトを採択し、<strong>{{ total_creators }} 名</strong>のクリエータを支援してきました。
   </p>
 
-  <div class="tips">
-    ☆
-    は<a href='/about#supports-awarding'>スーパークリエータ</a>認定者となります。
+  <div class='flex'>
+    <a href='/projects/showcase' class='button'>図鑑から探す</a>
+    <a href='/projects/search'   class='button'>検索して探す</a>
   </div>
 
-  <a href="/search" class="button">検索して探す</a>
-  
+  <!-- TODO: '2023' を 20xx.md の存在チェックから動的にする -->
   {% for this_year in (2016..2023) reversed %}
     <a href="#{{ this_year }}"><h3 id='{{ this_year }}'>{{ this_year }}年度</h3></a>
     {% include project-list.html year=this_year %}
+    <p><small>（☆
+      は<a href="/about#supports-awarding">スーパークリエータ</a>認定者となります）
+    </small></p>
+
     <a href="/projects/{{ this_year }}" class="button">{{ this_year }}年度の詳細を見る</a>
   {% endfor %}
 </div>
