@@ -36,8 +36,10 @@ thumbnail: /assets/img/thumbnails/projects.webp
 
   <!-- TODO: '2023' を 20xx.md の存在チェックから動的にする -->
   {% for this_year in (2016..2023) reversed %}
-    <a href="#{{ this_year }}"><h3 id='{{ this_year }}'>{{ this_year }}年度</h3></a>
-    <a href="/projects/{{ this_year }}" class="button">{{ this_year }}年の成果報告会を見る</a>
+    <h3 id='{{ this_year }}'>
+      <a href='#{{ this_year }}' style='color: #333;'>{{ this_year }}年度</a>
+      <span style='font-size: small;'>（<a href='/projects/{{ this_year }}'>&raquo; 成果報告会を見る</a>）</span>
+    </h3>
 
     <div class="projects flex">
       {% assign projects = site.data.projects | where_exp: "pj", "pj.year == this_year" %}
