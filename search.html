@@ -23,12 +23,12 @@
   }
 
   if ("/projects/search" != ""){
-    location.replace("/projects/search" + window.location.hash );
+    window.location.replace("/projects/search" + window.location.hash + window.location.search);
   }
   else if (getBrowserLanguage().indexOf("ja") != -1) {
-      location.replace("/");
+    window.location.replace("/");
   }
   else {
-      location.replace("/english");
+    window.location.replace("/english");
   }
 </script>

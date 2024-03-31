@@ -23,12 +23,12 @@
   }
 
   if ("/opportunities" != ""){
-    location.replace("/opportunities" + window.location.hash );
+    window.location.replace("/opportunities" + window.location.hash + window.location.search);
   }
   else if (getBrowserLanguage().indexOf("ja") != -1) {
-      location.replace("/");
+    window.location.replace("/");
   }
   else {
-      location.replace("/english");
+    window.location.replace("/english");
   }
 </script>
