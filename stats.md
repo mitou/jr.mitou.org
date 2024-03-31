@@ -244,41 +244,48 @@ Highcharts.chart('rates', {
 </script>
 
 
+<!-- 年度別の採択プロジェクトの統計情報 -->
+<div class="projects">
+
 {% for stat in site.data.stats %}
-<h3 id='{{ stat.year }}' style='margin-top: 70px;'>
-  <!-- NOTE: Latest projects page will be published after its final registration page. -->
-  {% if stat.creators %}
-  <a href="#{{ stat.year }}" style="font-weight: bold;">{{ stat.year }} 年度</a>
+  <a href="#{{ stat.year }}">
+    <h3 id='{{ stat.year }}' style='margin-top: 70px;'>
+      {{ stat.year }} 年度
+    </h3>
+  </a>
+
+  <ul>
+    {% comment %}
+    <!-- NOTE: Check if manual stats data are exactly matched with calcularated ones by uncommentting. -->
+    <li>stat.projects : data.projects = {{ stat.projects }} : {{ site.data.projects | where_exp: 'pj', 'pj.year == stat.year' | size }}</li>
+    <li>stat.creators : data.creators = {{ stat.creators }} : {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year' | size }}</li>
+    <li>stat.spc : data.creators.is_spc = {{ stat.spc }} : {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year and cr.is_spc == true' | size }}</li>
+    {% endcomment %}
+
+    <li>応募件数: {{ stat.applications    }} 件</li>
+    <li>採択件数: {{ stat.projects        }} 件</li>
+    <li>採択倍率: {{ stat.competition_rate }} 倍</li>
+  </ul>
+
+  {% if stat.year == 2016 %}
+  修了したクリエータ数は {{ stat.creators }} 名です。なお、<a href='/about#supports-awarding'>スーパークリエータ認定</a>は2017年度から始まったため、{{ stat.year }}年度のデータはありません。
+  {% elsif stat.creators and stat.spc %}
+  修了したクリエータ数は {{ stat.creators }} 名、そのうち {{ stat.spc }} 名をスーパークリエータと認定しました。（認定率: {{ stat.spc_rate }}%）
+  {% elsif stat.creators %}
+  修了したクリエータ数は {{ stat.creators }} 名です。スーパークリエータの認定は後日発表されます。
   {% else %}
-  {{ stat.year }} 年度
+  修了したクリエータ数およびスーパークリエータ認定数は後日発表されます。
   {% endif %}
-</h3>
-<ul>
-  {% comment %}
-  <!-- NOTE: Check if manual stats data are exactly matched with calcularated ones by uncommentting. -->
-  <li>stat.projects : data.projects = {{ stat.projects }} : {{ site.data.projects | where_exp: 'pj', 'pj.year == stat.year' | size }}</li>
-  <li>stat.creators : data.creators = {{ stat.creators }} : {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year' | size }}</li>
-  <li>stat.spc : data.creators.is_spc = {{ stat.spc }} : {{ site.data.creators | where_exp: 'cr', 'cr.year == stat.year and cr.is_spc == true' | size }}</li>
-  {% endcomment %}
 
-  <li>応募件数: {{ stat.applications    }} 件</li>
-  <li>採択件数: {{ stat.projects        }} 件</li>
-  <li>採択倍率: {{ stat.competition_rate }} 倍</li>
-</ul>
-
-{% if stat.year == 2016 %}
-修了したクリエータ数は {{ stat.creators }} 名です。なお、<a href='/about#supports-awarding'>スーパークリエータ認定</a>は2017年度から始まったため、{{ stat.year }}年度のデータはありません。
-{% elsif stat.creators and stat.spc %}
-修了したクリエータ数は {{ stat.creators }} 名、そのうち {{ stat.spc }} 名をスーパークリエータと認定しました。（認定率: {{ stat.spc_rate }}%）
-{% elsif stat.creators %}
-修了したクリエータ数は {{ stat.creators }} 名です。スーパークリエータの認定は後日発表されます。
-{% else %}
-修了したクリエータ数およびスーパークリエータ認定数は後日発表されます。
-{% endif %}
-
-<a href="/projects/{{ stat.year }}" class="button">{{ stat.year}}年度の採択を見る</a>
-
+  <!-- NOTE: 最新年度の採択プロジェクト公開前は、統計情報のみ表示する -->
+  {% if stat.creators %}
+  <a href="/projects/{{ stat.year }}" class="button">{{ stat.year}}年度の採択を見る</a>
+  {% else %}
+  <div class="tips">{{ stat.year }} 年度の採択プロジェクトは10月ごろに公開される予定です。</div>
+  {% endif %}
 {% endfor %}
+
+</div>
 
 
 ## [<i class="fa-light fa-chart-user"></i>](#total) 累計データ {#total}
