@@ -10,8 +10,8 @@ sitemap: false
 本ページでは、未踏ジュニアWebサイト内で使っている内部向け API（開発中）の一覧をまとめています。
 
 - API の利用例:
-  - 検索ページ: [https://jr.mitou.org/search](/search)
-  - 検索データ: [https://jr.mitou.org/search.json](/search.json)
+  - 検索ページ: [https://jr.mitou.org/projects/search](/projects/search)
+  - 検索データ: [https://jr.mitou.org/projects/search.json](/projects/search.json)
 
 <div class="note">
   未踏ジュニア関係者による内部での利用を目的とした API となります。

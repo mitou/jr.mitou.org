@@ -1,6 +1,6 @@
 ---
 layout: post
-title: プロジェクト検索
+title: 採択プロジェクト検索
 description: 100件以上の採択プロジェクトを検索して探すためのページです。
 thumbnail: /assets/img/thumbnails/projects.webp
 ---
