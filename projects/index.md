@@ -34,9 +34,9 @@ thumbnail: /assets/img/thumbnails/projects.webp
     <a href='/projects/search'   class='button'>検索して探す</a>
   </div>
 
-  <!-- MEMO: Projects は最新順にソートされているため１つ目のデータから最新年度が分かる -->
-  {% assign newest_pj = site.data.projects | first %}
-  {% assign oldest_pj = site.data.projects | last  %}
+  <!-- MEMO: Projects を時系列順にソートし、初年度と最新年度を取得する -->
+  {% assign oldest_pj = site.data.projects | sort: 'year' | first %}
+  {% assign newest_pj = site.data.projects | sort: 'year' | last  %}
   {% for this_year in (oldest_pj.year..newest_pj.year) reversed %}
     <a href="#{{ this_year }}"><h3 id='{{ this_year }}'>{{ this_year }}年度</h3></a>
 
