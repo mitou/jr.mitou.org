@@ -38,7 +38,9 @@ thumbnail: /assets/img/thumbnails/projects.webp
   {% assign oldest_pj = site.data.projects | sort: 'year' | first %}
   {% assign newest_pj = site.data.projects | sort: 'year' | last  %}
   {% for this_year in (oldest_pj.year..newest_pj.year) reversed %}
-    <a href="#{{ this_year }}"><h3 id='{{ this_year }}'>{{ this_year }}年度</h3></a>
+    <h3 id='{{ this_year }}'>
+      <a href='#{{ this_year }}' style='color: #333; font-weight: bold;'>{{ this_year }}年度</a>
+    </h3>
 
     {% include project-list.html year=this_year %}
     <p><small>（☆

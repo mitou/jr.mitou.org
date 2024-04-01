@@ -40,7 +40,7 @@ thumbnail: /assets/img/thumbnails/projects.webp
   {% assign newest_pj = site.data.projects | sort: 'year' | last  %}
   {% for this_year in (oldest_pj.year..newest_pj.year) reversed %}
     <h3 id='{{ this_year }}'>
-      <a href='#{{ this_year }}' style='color: #333;'>{{ this_year }}年度</a>
+      <a href='#{{ this_year }}' style='color: #333; font-weight: bold;'>{{ this_year }}年度</a>
       <span style='font-size: small;'>（<a href='/projects/{{ this_year }}'>&raquo; 成果報告会を見る</a>）</span>
     </h3>
 
