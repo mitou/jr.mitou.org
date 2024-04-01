@@ -1,6 +1,3 @@
-{% assign latest_pj   = site.data.projects | first %}
-{% assign latest_year = latest_pj.year %}
-
 <ul style="list-style: none; text-align: center; padding: 30px 0px;">
   <li style="display: inline-block; margin: auto 10px;">
     <a href="/projects">一覧から探す</a>
@@ -13,14 +10,17 @@
   </li>
   <br>
   <br>
-  {% for year in (2016..latest_year) reversed %}
-    {% if year == include.this_year %}
+  {% assign oldest_pj = site.data.projects | sort: 'year' | first %}
+  {% assign newest_pj = site.data.projects | sort: 'year' | last  %}
+  {% for this_year in (oldest_pj.year..newest_pj.year) reversed %}
+    <!-- 引数で指定された year (現在見ている年度) はリンク無しにする-->
+    {% if this_year == include.this_year %}
     <li style="display: inline-block; margin: auto 10px;">
-      <b>» {{ year }}</b>
+      <b>» {{ this_year }}</b>
     </li>
     {% else %}
     <li style="display: inline-block; margin: auto 10px;">
-      <a href="/projects/{{ year }}">{{ year }}</a>
+      <a href="/projects/{{ this_year }}">{{ this_year }}</a>
     </li>
     {% endif %}
   {% endfor %}
