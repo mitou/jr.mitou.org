@@ -34,8 +34,10 @@ thumbnail: /assets/img/thumbnails/projects.webp
     <a href='/projects/search'   class='button'>検索して探す</a>
   </div>
 
-  <!-- TODO: '2023' を 20xx.md の存在チェックから動的にする -->
-  {% for this_year in (2016..2023) reversed %}
+  <!-- MEMO: Projects は最新順にソートされているため１つ目のデータから最新年度が分かる -->
+  {% assign newest_pj = site.data.projects | first %}
+  {% assign oldest_pj = site.data.projects | last  %}
+  {% for this_year in (oldest_pj.year..newest_pj.year) reversed %}
     <a href="#{{ this_year }}"><h3 id='{{ this_year }}'>{{ this_year }}年度</h3></a>
 
     {% include project-list.html year=this_year %}
