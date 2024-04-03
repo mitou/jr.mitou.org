@@ -57,10 +57,8 @@ thumbnail: /assets/img/thumbnails/stats.webp
 }
 </style>
 
-<script src="/assets/js/highcharts.js"></script>
-<!-- NOTE: Use this for expoting image files.
-<script src="/assets/js/exporting.js"></script>
--->
+<script src="https://code.highcharts.com/highcharts.js"></script>
+
 
 {% assign current_stat = site.data.stats[0] %}
 <p style='margin-top: 50px;'>
