@@ -11,7 +11,9 @@ description: 未踏ジュニア以外にも、あなたの「提案書」を評�
 </p>
 
 {% for opportunity in site.data.opportunities %}
-<h2 id='{{ opportunity.id }}'>{{ opportunity.title }}</h2>
+<h2 id='{{ opportunity.id }}'>
+  <a href='#{{ opportunity.id }}' style='color: #333; font-weight: bold;'>{{ opportunity.title }}</a>
+</h2>
 <p>{{ opportunity.description }}</p>
 
 <a href='{{ opportunity.link }}' class='button'>公式サイトを見る</a>
