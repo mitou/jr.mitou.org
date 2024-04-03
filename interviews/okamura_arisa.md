@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 未踏ジュニア <br class='ignore-pc'>修了生インタビュー<br> ─ 岡村 有紗さん<br class='ignore-pc'>（2022年度）
-thumbnail: /assets/img/thumbnails/okamura_arisa.webp
+thumbnail: /assets/img/thumbnails/interviews/okamura_arisa.webp
 description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。金尾真樹斗さんと2人でチームを組み「Noxicel - 英作文とAIを用いた英単語学習アプリ」というプロジェクトに取り組みました。本ページでは当時の様子について伺った話をまとめています。
 ---
 
