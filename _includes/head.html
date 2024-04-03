@@ -8,17 +8,17 @@
   <meta charset="utf-8">
 
   {% if page.title %}
-  <title>{{ page.title }} - {{ translations.title[lang] }}</title>
+  <title>{{ page.title | strip_html }} - {{ translations.title[lang] }}</title>
   {% else %}
-  <title>{{ translations.title[lang] }} - {{ translations.subtitle[lang] }}</title>
+  <title>{{ translations.title[lang] | strip_html }} - {{ translations.subtitle[lang] }}</title>
   {% endif %}
 
   {% if page.title %}
-  <meta property="og:title"  content="{{ page.title }} - {{ translations.title[lang] }}" />
-  <meta name="twitter:title" content="{{ page.title }} - {{ translations.title[lang] }}">
+  <meta property="og:title"  content="{{ page.title | strip_html }} - {{ translations.title[lang] }}" />
+  <meta name="twitter:title" content="{{ page.title | strip_html }} - {{ translations.title[lang] }}">
   {% else %}
-  <meta property="og:title"  content="{{ translations.title[lang] }} - {{ translations.subtitle[lang] }}" />
-  <meta name="twitter:title" content="{{ translations.title[lang] }} - {{ translations.subtitle[lang] }}">
+  <meta property="og:title"  content="{{ translations.title[lang] | strip_html }} - {{ translations.subtitle[lang] }}" />
+  <meta name="twitter:title" content="{{ translations.title[lang] | strip_html }} - {{ translations.subtitle[lang] }}">
   {% endif %}
 
   {% if page.description %}
