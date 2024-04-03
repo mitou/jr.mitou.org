@@ -56,10 +56,8 @@ lang:   en
 }
 </style>
 
-<script src="/assets/js/highcharts.js"></script>
-<!-- NOTE: Use this for expoting image files.
-<script src="/assets/js/exporting.js"></script>
--->
+<script src="https://code.highcharts.com/highcharts.js"></script>
+
 
 <p style='margin-top: 50px;'>This page shows the stats of Mitou Junior, which includes the number of applications, selected projects, and its acceptance rate. Feel free to use and share these information.</p>
 
