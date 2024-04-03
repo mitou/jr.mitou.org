@@ -100,7 +100,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 
 <ul>
   <li>
-    <a href='/interviews/okamura_arisa.html'>
+    <a href='/interviews/okamura_arisa'>
       【公式】未踏インタビュー - 岡村 有紗さん（2022年度）
     </a><br>
     <small>（<a href='/projects/2022/noxicel'>Noxicel - 英作文とAIを用いた英単語学習アプリ</a>）</small>
