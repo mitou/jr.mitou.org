@@ -675,7 +675,7 @@
   thumbnail: critica.webp
   #promotion:
   final: aYajCGOg-eY
-  link: https://critica.uno/
+  #link: https://critica.uno/ # NOTE: 404 Not Found as of 2024/04/04
   year: 2020
   mentor_id: seki_yoshifumi
   creator_ids:
