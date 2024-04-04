@@ -31,3 +31,4 @@ description: 本ページでは、未踏ジュニア修了生のインタビュ�
   {% endfor %}
 </ul>
 
+<a href="/applications/#story" class="button">採択者の他の体験談を見る</a>
