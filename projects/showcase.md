@@ -9,7 +9,7 @@ description: |
     {% assign total_creators = total_creators | plus: stat.creators %}
   {% endfor %}
   採択された全プロジェクトを図鑑としてまとめたページです。未踏ジュニアではこれまでに {{ total_projects }} 件のプロジェクトを採択し、{{ total_creators }} 名のクリエータを支援しています。
-thumbnail: /assets/img/thumbnails/projects.webp
+thumbnail: /assets/img/projects/index.webp
 ---
 
 {% assign total_projects = 0 %}
