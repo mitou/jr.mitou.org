@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 未踏ジュニア <br class='ignore-pc'>修了生インタビュー<br> ─ 岡村 有紗さん<br class='ignore-pc'>（2022年度）
-thumbnail: /assets/img/thumbnails/interviews/okamura_arisa.webp
+thumbnail: /assets/img/interviews/okamura_arisa_1.webp
 description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。金尾真樹斗さんと2人でチームを組み「Noxicel - 英作文とAIを用いた英単語学習アプリ」というプロジェクトに取り組みました。本ページでは当時の様子について伺った話をまとめています。
 ---
 
@@ -10,8 +10,8 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 <a href='/projects/2022/noxicel'>
   <img class="top-img lazyloaded" loading="lazy"
        style="border-radius: 6px; border-width: 5px; border-style: solid; border-color: #28a13a;"
-        src="/assets/img/thumbnails/interviews/okamura_arisa.webp"
-   data-src="/assets/img/thumbnails/interviews/okamura_arisa.webp"
+        src="/assets/img/interviews/okamura_arisa_1.webp"
+   data-src="/assets/img/interviews/okamura_arisa_1.webp"
         alt="岡村有紗さんの成果報告会の様子"
       title="岡村有紗さんの成果報告会の様子">
 </a>
@@ -33,6 +33,12 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 
 そういう感じで、何か作ってみたいものが、生活していて割と頻繁に、すごく湧き出てくるタイプだったので、未踏ジュニアに応募する前から、作りたいものを作るのが習慣になっていました。
 
+<img class="top-img lazyloaded" loading="lazy"
+      src="/assets/img/interviews/okamura_arisa_2.webp"
+ data-src="/assets/img/interviews/okamura_arisa_2.webp"
+      alt="立方体の切断という数学の問題を視覚的に理解するためのアプリ"
+    title="立方体の切断という数学の問題を視覚的に理解するためのアプリ">
+
 
 ## 勢いで提案書を書き、ノリで応募
 
@@ -48,9 +54,10 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 
 その詳細を考えているうちに、そういえば未踏ジュニアに合いそうやなと思って、次の日に勢いで提案書を書いたら大枠ができてしまったので、おお、じゃあやるかと思って。
 
-別に応募して通らなかったとしても応募しとけば得やろ、ぐらいのノリで申し込んだので。
+別に応募して通らなかったとしても応募しとけば得やろ、ぐらいのノリで申し込みました。
 
 <br>
+
 
 ### ──金尾さんと一緒にやることになった経緯は？
 
@@ -103,6 +110,12 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 
 （でも蓋を開けてみたら）逆に集まりすぎて、こちらでお願いする人を選ばないといけないみたいな感じになるぐらい、協力するよと言ってくださる方がいて、そのときは、すごく嬉しかったです。
 
+<img class="top-img lazyloaded" loading="lazy"
+      src="/assets/img/interviews/okamura_arisa_3.webp"
+ data-src="/assets/img/interviews/okamura_arisa_3.webp"
+      alt="生成AIを使った英単語学習アプリの様子"
+    title="生成AIを使った英単語学習アプリの様子">
+
 
 
 ## 将来への道が情報系に固まった
@@ -117,7 +130,7 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 
 楽しく他の人と技術の話ができるみたいな空間が生まれて、すごくびっくりしました。
 
-初めて、自分の好きな技術を実際に仕事にして生きてる人たちのお話を伺えたりして、将来への道が、情報系に固まっていったかな、みたいな。
+初めて、自分の好きな技術を実際に仕事にして生きてる人たちのお話を伺えたりして、将来への道が、情報系に固まっていった気がします。
 
 そして、コミュニティもそうなんですけど、自分の開発体制も結構変わったなと思っていて。
 
@@ -132,7 +145,7 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 
 `岡村さん：`
 
-プログラミングって、お友だちも増えるし良いよ、みたいな（笑）。
+プログラミングって、お友だちも増えるし良いよ、って感じですかね（笑）。
 
 プログラミングは団体戦じゃないので、周りに人がいなければ、めちゃくちゃ孤独になってしまうと思うんですよね。
 
@@ -141,6 +154,12 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 （未踏ジュニアなら）そういう人たちと近くなれるというのは、自分も、モノづくりとか開発とかがもっと好きになると思うし、それで、新しいことを知るとか、視野が広がるみたいなこともあったりとか。
 
 自分の触ってみたい分野が広がると、すごい楽しいので、友だち作りに、ぜひ（笑）。
+
+<img class="top-img lazyloaded" loading="lazy"
+      src="/assets/img/interviews/okamura_arisa_4.webp"
+ data-src="/assets/img/interviews/okamura_arisa_4.webp"
+      alt="2022年度の未踏ジュニア集合写真"
+    title="2022年度の未踏ジュニア集合写真">
 
 
 ### ──応募をためらう人には、何と声をかけますか？
