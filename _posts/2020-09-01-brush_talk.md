@@ -2,7 +2,7 @@
 layout: post
 title: "ぶらっしゅとーく〜小さな子どものための筆談アプリ〜"
 permalink: /projects/2020/brush_talk
-thumbnail: /assets/img/thumbnails/2020/brush_talk.webp
+thumbnail: /assets/img/projects/2020/brush_talk.webp
 description: "これは文字がまだうまく書けない小さな子と耳が聞こえづらいお年寄りがコミュニケーションを取るための筆談アプリです。スマホを使い慣れないお年寄りも簡単に使えるように、操作するためのボタンをなるべく少なくしました。また、イラストを使用することで小さな子が感覚的に使えるようにしました。"
 twitter_card: summary_large_image
 ---
@@ -11,8 +11,8 @@ twitter_card: summary_large_image
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
   <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
-  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% if pj.thumbnail %}    data-src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/projects/tbu.webp'
   {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
 </div>
 
@@ -49,7 +49,7 @@ twitter_card: summary_large_image
 {% if pj.promotion contains '.gif' %}
 ## デモ動画 {#demo}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='デモ動画 (Gif)'
-     data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
+     data-src='/assets/img/projects/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 ## デモ動画 {#demo}

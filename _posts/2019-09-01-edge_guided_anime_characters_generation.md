@@ -2,7 +2,7 @@
 layout: post
 title: "Edge-guided Anime Characters Generation"
 permalink: /projects/2019/edge_guided_anime_characters_generation
-thumbnail: /assets/img/thumbnails/2019/edge_guided_anime_characters_generation.webp
+thumbnail: /assets/img/projects/2019/edge_guided_anime_characters_generation.webp
 description: "描きかけの線画を自動で完成させることができる、GANをベースとしたシステムを開発した。これを用いることで初心者でも複雑なイラストを簡単に描くことができるようになる。特に本研究ではアニメの顔画像の生成に焦点をあてた。"
 twitter_card: summary_large_image
 ---
@@ -11,8 +11,8 @@ twitter_card: summary_large_image
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
   <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
-  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% if pj.thumbnail %}    data-src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/projects/tbu.webp'
   {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
 </div>
 
@@ -49,7 +49,7 @@ twitter_card: summary_large_image
 {% if pj.promotion contains '.gif' %}
 ## デモ動画 {#demo}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='デモ動画 (Gif)'
-     data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
+     data-src='/assets/img/projects/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 ## デモ動画 {#demo}

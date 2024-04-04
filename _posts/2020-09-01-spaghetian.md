@@ -2,7 +2,7 @@
 layout: post
 title: "Spaghetian - 電気と電磁石だけでCPUを自作する！"
 permalink: /projects/2020/spaghetian
-thumbnail: /assets/img/thumbnails/2020/spaghetian.webp
+thumbnail: /assets/img/projects/2020/spaghetian.webp
 description: "三機の電磁石式自作自作CPUを互いにつなげてネットワークにし、その上でオンラインピンポンゲームが動くロマン溢れるプロジェクトです！魔法と見分けがつかなくなった現代のコンピュータテクノロジーの基本を自作することにより、それらが誰でも理解できることを示します。"
 twitter_card: summary_large_image
 ---
@@ -11,8 +11,8 @@ twitter_card: summary_large_image
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
   <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
-  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% if pj.thumbnail %}    data-src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/projects/tbu.webp'
   {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
 </div>
 
@@ -49,7 +49,7 @@ twitter_card: summary_large_image
 {% if pj.promotion contains '.gif' %}
 ## デモ動画 {#demo}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='デモ動画 (Gif)'
-     data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
+     data-src='/assets/img/projects/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 ## デモ動画 {#demo}

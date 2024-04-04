@@ -2,7 +2,7 @@
 layout: post
 title: "スマイル会議室 - IoTで会議室の効率的な利用を"
 permalink: /projects/2018/smile_meeting_room
-thumbnail: /assets/img/thumbnails/2018/smile_meeting_room.webp
+thumbnail: /assets/img/projects/2018/smile_meeting_room.webp
 description: "IoTデバイスを用いて会議室予約や会議室内の備品の電源などを制御することで会議室の効率的利用を支援。"
 twitter_card: summary_large_image
 ---
@@ -11,8 +11,8 @@ twitter_card: summary_large_image
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
   <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
-  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% if pj.thumbnail %}    data-src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/projects/tbu.webp'
   {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
 </div>
 
@@ -49,7 +49,7 @@ twitter_card: summary_large_image
 {% if pj.promotion contains '.gif' %}
 ## デモ動画 {#demo}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='デモ動画 (Gif)'
-     data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
+     data-src='/assets/img/projects/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 ## デモ動画 {#demo}

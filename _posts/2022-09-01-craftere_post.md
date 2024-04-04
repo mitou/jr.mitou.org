@@ -2,7 +2,7 @@
 layout: post
 title: "CrafterePost - Minecraft建築物3D共有Webサービス"
 permalink: /projects/2022/craftere_post
-thumbnail: /assets/img/thumbnails/2022/craftere_post.webp
+thumbnail: /assets/img/projects/2022/craftere_post.webp
 description: "CrafterePostは、Minecraftの建築物を3D共有できるWebサービスです。視聴者はブラウザだけで、建築物を好きな角度から眺めることができます。投稿者が建築過程を3D動画にすれば、視聴者は任意の時点・視点から眺めることができ、ブロックが複雑に入り組んでる構造でもわかりやすいです。"
 twitter_card: summary_large_image
 ---
@@ -11,8 +11,8 @@ twitter_card: summary_large_image
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
   <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
-  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% if pj.thumbnail %}    data-src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/projects/tbu.webp'
   {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
 </div>
 
@@ -49,7 +49,7 @@ twitter_card: summary_large_image
 {% if pj.promotion contains '.gif' %}
 ## デモ動画 {#demo}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='デモ動画 (Gif)'
-     data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
+     data-src='/assets/img/projects/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 ## デモ動画 {#demo}

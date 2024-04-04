@@ -2,7 +2,7 @@
 layout: post
 title: "ゼロから作るMotion Simulator"
 permalink: /projects/2023/motion_simulator
-thumbnail: /assets/img/thumbnails/2023/motion_simulator.webp
+thumbnail: /assets/img/projects/2023/motion_simulator.webp
 description: "Motion Simulatorとは、映像などのコンテンツの動作をユーザが実際に体感することにより臨場感を高めることを目的としたシステムのことで、映画館での4DXのようなものです。私はMotion Simulatorを自分でも作りたいと思い、数年間ゼロから試行錯誤して取り組んできました。今回は「6自由度」で「機構が椅子の下に収まるほどコンパクト」である椅子型のMotion Simulartorを自作しました。この特徴を持つMotion Simulatorは自作だけでなく商用の製品の中にもありません。"
 twitter_card: summary_large_image
 ---
@@ -11,8 +11,8 @@ twitter_card: summary_large_image
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
   <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
-  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% if pj.thumbnail %}    data-src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/projects/tbu.webp'
   {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
 </div>
 
@@ -49,7 +49,7 @@ twitter_card: summary_large_image
 {% if pj.promotion contains '.gif' %}
 ## デモ動画 {#demo}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='デモ動画 (Gif)'
-     data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
+     data-src='/assets/img/projects/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 ## デモ動画 {#demo}

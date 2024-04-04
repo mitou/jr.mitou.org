@@ -2,7 +2,7 @@
 layout: post
 title: "新型独立ステアリング機構の開発およびそれを用いたAGVモジュールの開発"
 permalink: /projects/2023/bakusoku_agv
-thumbnail: /assets/img/thumbnails/2023/bakusoku_agv.webp
+thumbnail: /assets/img/projects/2023/bakusoku_agv.webp
 description: "「物流2024問題」のように、私たちの生活を支えるロジスティクスが逼迫している中、このPJで開発しているような高速で小回りの効く独立ステアリング機構を搭載したAGVは、物流の効率化に寄与すると期待されます。設計にはトポロジー最適化やモジュラー設計を取り入れるなど工夫しています。"
 twitter_card: summary_large_image
 ---
@@ -11,8 +11,8 @@ twitter_card: summary_large_image
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
   <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
-  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% if pj.thumbnail %}    data-src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/projects/tbu.webp'
   {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
 </div>
 
@@ -49,7 +49,7 @@ twitter_card: summary_large_image
 {% if pj.promotion contains '.gif' %}
 ## デモ動画 {#demo}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='デモ動画 (Gif)'
-     data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
+     data-src='/assets/img/projects/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 ## デモ動画 {#demo}

@@ -2,7 +2,7 @@
 layout: post
 title: "3Dプリンタで作る自作モーター"
 permalink: /projects/2023/3d_printed_brushless_motor
-thumbnail: /assets/img/thumbnails/2023/3d_printed_brushless_motor.webp
+thumbnail: /assets/img/projects/2023/3d_printed_brushless_motor.webp
 description: "このプロジェクトの最終目標は、モーター選定に自作という選択肢を増やし、アイデアをより的確に実現できるようにすることです。そのための第一歩として、3Dプリント部品でブラシレスモーターを作り、制御回路を自作し、モーターを回すことに成功しました。今後は、高効率化や情報公開を進め、モーター自作文化を作ります。"
 twitter_card: summary_large_image
 ---
@@ -11,8 +11,8 @@ twitter_card: summary_large_image
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
   <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
-  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% if pj.thumbnail %}    data-src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/projects/tbu.webp'
   {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
 </div>
 
@@ -49,7 +49,7 @@ twitter_card: summary_large_image
 {% if pj.promotion contains '.gif' %}
 ## デモ動画 {#demo}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='デモ動画 (Gif)'
-     data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
+     data-src='/assets/img/projects/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 ## デモ動画 {#demo}

@@ -2,7 +2,7 @@
 layout: post
 title: "Voice Genius - AI x ゆっくり解説"
 permalink: /projects/2023/voice_genius
-thumbnail: /assets/img/thumbnails/2023/voice_genius.webp
+thumbnail: /assets/img/projects/2023/voice_genius.webp
 description: "Voice Geniusは最近話題のChatGPTなどのAIを用い、完全自動でゆっくり解説を作成するソフトウェアです。タイトルや記事から動画を生成します。テキストではわかりにくいデータや記事を慣れ親しんだ動画に変換できます。生成した動画は<a href='https://www.youtube.com/@ai-yukkuri/featured'>YouTube</a>または<a href='https://www.tiktok.com/@ai.yukkuri'>TikTok</a>から閲覧できます。"
 twitter_card: summary_large_image
 ---
@@ -11,8 +11,8 @@ twitter_card: summary_large_image
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
   <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='サムネイル画像 - {{ pj.title }}'
-  {% if pj.thumbnail %}    data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.thumbnail }}'
-  {% else %}               data-src='/assets/img/thumbnails/tbu.webp'
+  {% if pj.thumbnail %}    data-src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               data-src='/assets/img/projects/tbu.webp'
   {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
 </div>
 
@@ -49,7 +49,7 @@ twitter_card: summary_large_image
 {% if pj.promotion contains '.gif' %}
 ## デモ動画 {#demo}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='デモ動画 (Gif)'
-     data-src='/assets/img/thumbnails/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
+     data-src='/assets/img/projects/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 ## デモ動画 {#demo}
