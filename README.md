@@ -191,7 +191,7 @@ $ bundle exec rake test
 
 [修了生インタビュー](https://jr.mitou.org/interviews)の記事が出来たら、以下の手順で公開できます。
 
-1. インタビューしたクリエータの ID を [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) から確認する
+1. [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) ファイルを開き、インタビューしたクリエータの ID を確認する
 1. [`interviews`](https://github.com/mitou/jr.mitou.org/tree/main/interviews) ディレクトリに行き、`{{ クリエータID }}.md` ファイルを作成し、インタビュー記事を転記する
 1. インタビュー記事の内容に問題がなければ、公開して SNS に投稿する ([投稿例](https://twitter.com/mitoujr/status/1775724225346912470))
 
