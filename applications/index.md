@@ -99,12 +99,18 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 未踏ジュニア採択者（クリエータ）による体験談もあります。こちらも合わせてご参考になれば幸いです。カッコ内はプロジェクト名です。
 
 <ul>
+  {% for interview in site.data.interviews %}
+  {% assign creator = site.data.creators | find: 'id', interview.creator  %}
+  {% assign project = site.data.projects | find: 'id', creator.project_id %}
   <li>
-    <a href='/interviews/okamura_arisa'>
-      【公式】未踏インタビュー - 岡村 有紗さん（2022年度）
+    <a href="/interviews/{{ creator.id }}">
+      【公式】修了生インタビュー
+      ─
+      {{ creator.name }}さん（{{ creator.year }}年度）
     </a><br>
-    <small>（<a href='/projects/2022/noxicel'>Noxicel - 英作文とAIを用いた英単語学習アプリ</a>）</small>
+    <small>（<a href='/projects/{{ project.year }}/{{ project.id }}'>{{ project.title }}</a>）</small>
   </li>
+  {% endfor %}
   <li>
     <a href='https://zenn.dev/toshihiro_tange/articles/mitoujr-advent-calendar-2023'>
       未踏ジュニア振り返り
