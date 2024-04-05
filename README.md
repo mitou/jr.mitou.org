@@ -185,6 +185,18 @@ $ bundle exec rake test
 :newspaper: プレスリリースの例: [2023年度のスパクリ公開時のプレス - PR TIMES](https://prtimes.jp/main/html/rd/p/000000014.000022934.html) ([SNS投稿](https://twitter.com/mitoujr/status/1739489291720651229))
 
 
+<div id='how-to-build-interview'><br></div>
+
+### ::microphone: インタビュー記事を公開する
+
+[修了生インタビュー](https://jr.mitou.org/interviews)の記事が出来たら、以下の手順で公開できます。
+
+1. インタビューしたクリエータの ID を [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) から確認する
+1. [`interviews`](https://github.com/mitou/jr.mitou.org/tree/main/interviews) ディレクトリに行き、`{{ クリエータID }}.md` ファイルを作成し、インタビュー記事を転記する
+1. インタビュー記事の内容に問題がなければ、公開して SNS に投稿する ([投稿例](https://twitter.com/mitoujr/status/1775724225346912470))
+
+:octocat: プルリクエストの例: [Add Mitou Junior Interview: `@alicelavander` (#175) - GitHub](https://github.com/mitou/jr.mitou.org/pull/175)  
+
 
 <div id='license'><br></div>
 
