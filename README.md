@@ -187,7 +187,7 @@ $ bundle exec rake test
 
 <div id='how-to-build-interview'><br></div>
 
-### ::microphone: インタビュー記事を公開する
+### :microphone: インタビュー記事を公開する
 
 [修了生インタビュー](https://jr.mitou.org/interviews)の記事が出来たら、以下の手順で公開できます。
 
