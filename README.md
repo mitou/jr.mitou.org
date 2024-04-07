@@ -151,6 +151,21 @@ $ bundle exec rake test
 上記テストは [GitHub Actions](https://github.com/mitou/jr.mitou.org/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [.github/workflows](https://github.com/mitou/jr.mitou.org/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
 
 
+<div id='how-to-build-announcements'><br></div>
+
+### :loudspeaker: 新年度の募集期間中 <-> 募集期間外のアナウンス切り替え
+
+新年度の未踏ジュニア募集期間中 <-> 募集期間外の切り替えタイミングで、アナウンス表示を切り替えます。
+
+1. `index.md`: からトップページのアナウンスを切り替え
+1. `_includes/header.html`: からトップページ右上のボタンを切り替える
+1. `_includes/agenda.html`: から募集要項の現在のステータスを切り替える
+
+詳細は以下の更新例のプルリクエストからご確認いただけます。
+
+:octocat: 更新作業の例: [2024年度のアナウンス変更時のPR (#177) - GitHub](https://github.com/mitou/jr.mitou.org/pull/177)
+
+
 <div id='how-to-build-projects'><br></div>
 
 ### :new: 新年度の採択プロジェクトを公開する
