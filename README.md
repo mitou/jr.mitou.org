@@ -120,7 +120,7 @@ $ bundle exec jekyll server
 具体的なデータの流れについては [note 記事](https://note.com/yasslab/n/nf5837dabdf8c)からご確認ください。
 
 [![Mitou Junior on Jekyll](https://github.com/mitou/jr.mitou.org/blob/main/assets/img/mitoujr-on-jekyll.png?raw=true)](https://note.com/yasslab/n/nf5837dabdf8c)
-【提供：[機材・教材提供スポンサー - Railsチュートリアル](https://jr.mitou.org/#sponsor-inkind)】
+【引用元：[機材・教材提供スポンサー - Railsチュートリアル](https://jr.mitou.org/#sponsor-inkind)】
 
 
 <div id='how-to-build-generators'><br></div>
