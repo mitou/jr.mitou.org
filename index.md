@@ -4,7 +4,7 @@ this_year: 2023
 
 # this_year を変更するとトップページの採択プロジェクトが切り替わります。
 # 成果報告会の公開準備が整ったら this_year を今年度の数字に変更してください。
-# 詳細: https://github.com/mitou/jr.mitou.org#new-新年度の採択プロジェクトを公開する
+# 詳細: https://github.com/mitou/jr.mitou.org#how-to-build-projects
 ---
 
 <div class="cover-photo">
@@ -97,11 +97,6 @@ this_year: 2023
   <p>未踏ジュニアは<a href='#sponsors'>スポンサー</a>からの支援によって運営されています。</p>
 </section>
 
-{% comment %}
-<!-- 募集開始〜〆切になったら以下のコードを comment の直前（）に移動し、〆切後はココに戻してください -->
-{% include lets-apply.html %}
-{% endcomment %}
-
 
 <section id="media">
   <h2 class="heading-line">
@@ -173,7 +168,14 @@ this_year: 2023
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTube で見る</a>  
 </section>
 
-{% include lets-apply.html %}
+<section class="lets-apply">
+  <h2>未踏ジュニアに<br class="ph">応募してみませんか？</h2>
+  <h3>2024年度の募集について</h3>
+
+  {% include agenda.html %}
+
+  <a href="/guideline" class="button">応募の手引きを見る</a>
+</section>
 
 <section id="organizer">
   <h2 class="heading-line">
