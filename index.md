@@ -168,7 +168,14 @@ this_year: 2023
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTube で見る</a>  
 </section>
 
-{% include lets-apply.html %}
+<section class="lets-apply">
+  <h2>未踏ジュニアに<br class="ph">応募してみませんか？</h2>
+  <h3>2024年度の募集について</h3>
+
+  {% include agenda.html %}
+
+  <a href="/guideline" class="button">応募の手引きを見る</a>
+</section>
 
 <section id="organizer">
   <h2 class="heading-line">
