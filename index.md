@@ -97,11 +97,6 @@ this_year: 2023
   <p>未踏ジュニアは<a href='#sponsors'>スポンサー</a>からの支援によって運営されています。</p>
 </section>
 
-{% comment %}
-<!-- 募集開始〜〆切になったら以下のコードを comment の直前（）に移動し、〆切後はココに戻してください -->
-{% include lets-apply.html %}
-{% endcomment %}
-
 
 <section id="media">
   <h2 class="heading-line">
