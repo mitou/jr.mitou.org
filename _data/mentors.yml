@@ -1,3 +1,12 @@
+- id: yuya_okada
+  name: 
+    last: 岡田
+    first: 侑弥
+  affiliation: 株式会社プラゴ
+  interested: あなたがいることで世界に新しい文化や習慣が生まれるような人をお待ちしています！
+  bio: "2014年度未踏スーパークリエータ。株式会社メルカリでアンチマネーロンダリングシステムの開発に従事。2021年より株式会社プラゴ執行役員VPoE、2022年より同社取締役CTOとしてEVインフラに関するソフトウェア・ハードウェア開発を管掌。"
+  img: yuya.png
+
 - id: yumi_nakamura
   name: 
     last: 中村
