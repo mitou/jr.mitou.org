@@ -13,78 +13,79 @@
     gtag('js', new Date());
     gtag('config', 'G-GWHM8P0RTE');
   </script> </head> <body> <header> <a href="/" hreflang="ja" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a> <a href="/" hreflang="ja" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a> <label for="nav-check" class="ph nav-hamburger"><img src="/assets/img/bars.svg" alt="メニュー" style="width:24px;" class="lazyload" loading="lazy"></label> <input type="checkbox" id="nav-check" style="display:none;"/> <nav class="topnav pc"> <div class="header-left"> <a hreflang="ja" href="/about">未踏ジュニアとは</a> <a hreflang="ja" href="/guideline">応募の手引き</a> <a hreflang="ja" href="/projects">採択一覧</a> <a hreflang="ja" href="/schedule">採択後の流れ</a> <a hreflang="ja" href="/#faq">FAQ</a> <a hreflang="ja" href="/stats">統計</a> <a hreflang="ja" href="/#contact">問い合わせ</a> </div> <a hreflang="ja" href="/final" class="header-button" style='font-size: 90%;'>成果報告会を見る</a> </nav> <label for="nav-check" class="header-back"></label> </header> <div class="main"> <div class="page-head"> <h1>採択プロジェクト検索</h1> </div> <div class="post"> <div class="projects"> <h2 id="search"> <a href="#search"><i class="fa-regular fa-magnifying-glass"></i></a> 未踏ジュニア<br/> 採択プロジェクト検索 </h2> <p> これまでに採択された全プロジェクトを<b>検索して探せる</b>ページです。<small>(<a href="/projects">&raquo; 一覧から探す</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/projects/showcase">&raquo; 図鑑から探す</a>)</small> </p> <a href="#" class="button" id="category-link">サンプル文で検索してみる</a> <div class="search-position"> <div class="search-block"> <div class="search-block-input"> <span class="search-icon"></span> </div> <input id="search-input" class="search-input" type="text" name="" value="" placeholder="キーワードで検索する"/> </div> <div class="search-block-result"> <ul id="search-results"></ul> </div> </div> <script src="/assets/js/simple-jekyll-search.js"></script> <script type="text/javascript">
- const categories = ['自作', 'LINE', '言語', 'ゲーム', '学習', 'VR', 'Web', 'アプリ', 'SNS', 'デザイン',
-		     '音', 'ツール', 'OS', '3D', '自動', '教育', 'IoT', '生体', '脆弱性', 'ブロック',
-                     '暗号', '学校', '学生', '美容', '動画', '環境', '電磁', 'デバイス', '単語', '危険',
-		     '2016', '2022', '生成', 'AI', 'ゆっくり', 'エンジン', 'モーター', '会議', '制御'];
- let placeholder_text = 'キーワードで検索する (例: ';
+   let placeholder_text = 'キーワードで検索する (例: ';
+   const categories = ['自作', 'LINE', '言語', 'ゲーム', '学習', 'VR', 'Web', 'アプリ', 'SNS', 'デザイン',
+		       '音', 'ツール', 'OS', '3D', '自動', '教育', 'IoT', '生体', '脆弱性', 'ブロック',
+                       '暗号', '学校', '学生', '美容', '動画', '環境', '電磁', 'デバイス', '単語', '危険',
+		       '2016', '2022', '生成', 'AI', 'ゆっくり', 'エンジン', 'モーター', '会議', '制御',
+                       '小説', '支援'];
 
- // Durstenfeld Shuffle Algorithm
- // https://ja.wikipedia.org/wiki/フィッシャー–イェーツのシャッフル
- for (i=categories.length; 1<i ; i--) {
-   j = Math.floor(Math.random() * i);
-   [categories[j], categories[i-1]] = [categories[i-1], categories[j]];
- }
- placeholder_text += categories[0] + ", " + categories[1] + ", " + categories[2] + ")";
- document.getElementById("search-input").placeholder = placeholder_text;
-
- const sjs = SimpleJekyllSearch({
-   searchInput:          document.getElementById('search-input'),
-   resultsContainer:     document.getElementById('search-results'),
-   json:                 '/projects/search.json',
-   limit:                20,
-   exclude:              ['assets', 'img', 'webp', 'projects'],
-   searchResultTemplate: '<li><img class="lazyload" data-src="{thumbnail}" loading="lazy"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor}PM</small><br><code>{description}</code></li>',
-   noResultsText:        '検索結果が見つかりませんでした。'
- });
-
- function getQueryParam(name) {
-   const  urlSearchParams = new URLSearchParams(window.location.search);
-   return urlSearchParams.get(name);
- }
-
- function setInputValue(id, value) {
-   const inputElement = document.getElementById(id);
-   if (inputElement) {
-     inputElement.value = value;
-     sjs.search(value);
+   // Durstenfeld Shuffle Algorithm
+   // https://ja.wikipedia.org/wiki/フィッシャー–イェーツのシャッフル
+   for (i=categories.length; 1<i ; i--) {
+     j = Math.floor(Math.random() * i);
+     [categories[j], categories[i-1]] = [categories[i-1], categories[j]];
    }
- }
+   placeholder_text += categories[0] + ", " + categories[1] + ", " + categories[2] + ")";
+   document.getElementById("search-input").placeholder = placeholder_text;
 
- function updateURL(paramName, paramValue) {
-   const url = new URL(window.location.href);
-   url.searchParams.set(paramName, paramValue);
-   history.replaceState(null, '', url.toString());
- }
+   const sjs = SimpleJekyllSearch({
+     searchInput:          document.getElementById('search-input'),
+     resultsContainer:     document.getElementById('search-results'),
+     json:                 '/projects/search.json',
+     limit:                20,
+     exclude:              ['assets', 'img', 'webp', 'projects'],
+     searchResultTemplate: '<li><img class="lazyload" data-src="{thumbnail}" loading="lazy"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor}PM</small><br><code>{description}</code></li>',
+     noResultsText:        '検索結果が見つかりませんでした。'
+   });
 
- function handleClick() {
-   const randomCategory = categories[Math.floor(Math.random() * categories.length)];
-   setInputValue('search-input', randomCategory);
-   updateURL('q', randomCategory);
- }
-
- window.addEventListener('load', () => {
-   const searchInput  = document.getElementById('search-input');
-   const categoryLink = document.getElementById('category-link');
-
-   if (searchInput) {
-     searchInput.addEventListener('input', (event) => {
-       const inputValue = event.target.value;
-       updateURL('q', inputValue);
-     });
+   function getQueryParam(name) {
+     const  urlSearchParams = new URLSearchParams(window.location.search);
+     return urlSearchParams.get(name);
    }
 
-   if (categoryLink) {
-     categoryLink.addEventListener('click', (event) => {
-       event.preventDefault();
-       handleClick();
-     });
+   function setInputValue(id, value) {
+     const inputElement = document.getElementById(id);
+     if (inputElement) {
+       inputElement.value = value;
+       sjs.search(value);
+     }
    }
 
-   const queryParamValue = getQueryParam('q');
-   if (queryParamValue) {
-     setInputValue('search-input', queryParamValue);
+   function updateURL(paramName, paramValue) {
+     const url = new URL(window.location.href);
+     url.searchParams.set(paramName, paramValue);
+     history.replaceState(null, '', url.toString());
    }
- });
 
-</script> </div> </div> </div> <footer> <a hreflang="ja" href="/">ホーム</a> <a hreflang="ja" href="/about">未踏ジュニアとは</a> <a hreflang="ja" href="/media">メディア掲載</a> <a hreflang="ja" href="/guideline">応募の手引き</a> <a hreflang="ja" href="/applications">提案書ダウンロード</a> <a hreflang="ja" href="/projects">採択プロジェクト一覧</a> <a hreflang="ja" href="/projects/showcase">採択プロジェクト図鑑</a> <a hreflang="ja" href="/projects/search">採択プロジェクト検索</a> <a hreflang="ja" href="/interviews">修了生インタビュー</a> <a hreflang="ja" href="/mentors">メンター紹介</a> <a hreflang="ja" href="/#faq">よくある質問</a> <a hreflang="ja" href="/q-box">匿名質問箱</a> <a hreflang="ja" href="/#contact">問い合わせ</a> <a hreflang="ja" href="/stats">統計情報</a> <a hreflang="ja" href="/opportunities">他の支援プログラム</a> <a hreflang="ja" href="/#sponsors">スポンサー</a> <a hreflang="ja" href="/flyers">チラシ</a> <a hreflang="ja" href="/privacy">プライバシーポリシー</a> <a hreflang="en" href="/english">English</a> <div class="sns"> <a href="https://twitter.com/mitoujr"><i class="fab fa-twitter"></i></a> <a href="https://facebook.com/mitoujr"><i class="fab fa-facebook"></i></a> <a href="https://github.com/mitou/jr.mitou.org"><i class="fab fa-github"></i></a> <a href="https://anchor.fm/mitoujr"><i class="fab fa-spotify"></i></a> <a href="https://youtube.com/mitoujr"><i class="fab fa-youtube"></i></a> </div> <span class="copyright">Copyright &copy; <a href='/#organizer' style='padding: 0 0 0 0; color: #666; font-weight: lighter;'>未踏社団</a> 未踏ジュニア実行委員会 </span> </footer> <script src="/assets/js/lazysizes.min.js" async=""></script> </body> </html>
+   function handleClick() {
+     const randomCategory = categories[Math.floor(Math.random() * categories.length)];
+     setInputValue('search-input', randomCategory);
+     updateURL('q', randomCategory);
+   }
+
+   window.addEventListener('load', () => {
+     const searchInput  = document.getElementById('search-input');
+     const categoryLink = document.getElementById('category-link');
+
+     if (searchInput) {
+       searchInput.addEventListener('input', (event) => {
+	 const inputValue = event.target.value;
+	 updateURL('q', inputValue);
+       });
+     }
+
+     if (categoryLink) {
+       categoryLink.addEventListener('click', (event) => {
+	 event.preventDefault();
+	 handleClick();
+       });
+     }
+
+     const queryParamValue = getQueryParam('q');
+     if (queryParamValue) {
+       setInputValue('search-input', queryParamValue);
+     }
+   });
+
+  </script> </div> </div> </div> <footer> <a hreflang="ja" href="/">ホーム</a> <a hreflang="ja" href="/about">未踏ジュニアとは</a> <a hreflang="ja" href="/media">メディア掲載</a> <a hreflang="ja" href="/guideline">応募の手引き</a> <a hreflang="ja" href="/applications">提案書ダウンロード</a> <a hreflang="ja" href="/projects">採択プロジェクト一覧</a> <a hreflang="ja" href="/projects/showcase">採択プロジェクト図鑑</a> <a hreflang="ja" href="/projects/search">採択プロジェクト検索</a> <a hreflang="ja" href="/interviews">修了生インタビュー</a> <a hreflang="ja" href="/mentors">メンター紹介</a> <a hreflang="ja" href="/#faq">よくある質問</a> <a hreflang="ja" href="/q-box">匿名質問箱</a> <a hreflang="ja" href="/#contact">問い合わせ</a> <a hreflang="ja" href="/stats">統計情報</a> <a hreflang="ja" href="/opportunities">他の支援プログラム</a> <a hreflang="ja" href="/#sponsors">スポンサー</a> <a hreflang="ja" href="/flyers">チラシ</a> <a hreflang="ja" href="/privacy">プライバシーポリシー</a> <a hreflang="en" href="/english">English</a> <div class="sns"> <a href="https://twitter.com/mitoujr"><i class="fab fa-twitter"></i></a> <a href="https://facebook.com/mitoujr"><i class="fab fa-facebook"></i></a> <a href="https://github.com/mitou/jr.mitou.org"><i class="fab fa-github"></i></a> <a href="https://anchor.fm/mitoujr"><i class="fab fa-spotify"></i></a> <a href="https://youtube.com/mitoujr"><i class="fab fa-youtube"></i></a> </div> <span class="copyright">Copyright &copy; <a href='/#organizer' style='padding: 0 0 0 0; color: #666; font-weight: lighter;'>未踏社団</a> 未踏ジュニア実行委員会 </span> </footer> <script src="/assets/js/lazysizes.min.js" async=""></script> </body> </html>
