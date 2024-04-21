@@ -7,7 +7,7 @@ layout: null
 [ {% for pj in projects %}
   {
     "title"       : "{{ pj.title | escape }}",
-    "description" : "{{ pj.description | escape }}",
+    "description" : "{{ pj.description | strip_html | escape }}",
     "thumbnail"   : "{{ site.url }}/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}",
     "permalink"   : "{{ site.url }}/projects/{{ pj.year }}/{{ pj.id }}",
     "year"        : "{{ pj.year }}",
