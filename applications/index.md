@@ -18,8 +18,9 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
   <a href="https://docs.google.com/document/d/1hjDYf2DbFBkXLyrAl9HKKc9sS40XbZ_iN2j-HKZXD9g/copy" class="button" target='_blank' rel='noopener'>Google Docs を使う</a>
 </div>
 
-なお上記と同じ形式に揃っていれば（つまりタイトルや提案者の氏名、および 1. から 8. までの項目が揃っていれば）、[Notion](https://www.notion.so/ja-jp/product) や [Scrapbox](https://scrapbox.io/product) など他ツールから PDF に変換して提出していただいても大丈夫です。
+<div class="note"><small>上記と同じ形式に揃っていれば（つまりタイトルや提案者の氏名、および 1. から 8. までの項目が揃っていれば）、<a href='https://www.notion.so/ja-jp/product'>Notion</a> や <a href='https://scrapbox.io/product'>Scrapbox</a>、<a href='https://www.apple.com/jp/pages/'>Pages</a> など他ツールから PDF に変換して提出していただいても大丈夫です。</small></div>
 
+<br>
 
 ## [<i class="fa-light fa-file-check"></i>](#sample) 提案書サンプル {#sample}
 
