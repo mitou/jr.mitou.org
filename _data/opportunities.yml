@@ -23,10 +23,10 @@
   title: 新潟版未踏的人材育成事業（ETSUZAN）
   description: "<strong>新潟</strong>の若者を対象に実施するIT人材発掘・育成プログラム「ETSUZAN（越山）」は、新潟の企業体による、新潟県内の学生や若手の育成を行うプロジェクトです。内に秘めた強い熱意とやり遂げる力がある人を求めています。"
 
-- id:    hokuriku
-  link:  https://hokuriku-choetsu.studio.site/
-  title: 「北陸超越」人材発掘プロジェクト
-  description: "<strong>石川・富山・福井のいずれかに在住</strong>している30歳以下の方々を対象とした支援プログラムです。具体的な開発・製作活動を通して具現化し、そして成長していくことを願い、そのような若い人たちからの意欲的な開発・製作テーマを募集しています。"
+#- id:    hokuriku
+#  link:  https://hokuriku-choetsu.studio.site/
+#  title: 「北陸超越」人材発掘プロジェクト
+#  description: "<strong>石川・富山・福井のいずれかに在住</strong>している30歳以下の方々を対象とした支援プログラムです。具体的な開発・製作活動を通して具現化し、そして成長していくことを願い、そのような若い人たちからの意欲的な開発・製作テーマを募集しています。"
 
 - id:    cybozu
   link:  https://labs.cybozu.co.jp/youth/requirements.html
