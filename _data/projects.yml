@@ -443,6 +443,7 @@
   thumbnail: augment.webp
   promotion: DwA0pzPJs14
   final: ljeLi3lyKAY
+  final_start: 59
   link: https://twitter.com/Augment_rhythm
   year: 2021
   mentor_id: yasulab
@@ -895,6 +896,7 @@
   thumbnail: utips.webp
   #promotion:
   final: t8kpeE_sNB0
+  final_start: 48
   #link:
   year: 2018
 
@@ -1178,6 +1180,7 @@
   thumbnail: vamboo.webp
   #promotion:
   final: fejZIj2K9A8
+  final_start: 104
   link: https://vamboo.net/
   year: 2017
 
