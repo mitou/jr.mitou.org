@@ -33,6 +33,11 @@
   title: サイボウズ・ラボユース
   description: "<a href='https://labs.cybozu.co.jp/youth/youth-leaflet-2023spring.pdf'>世界に通用する若手エンジニアの発掘と育成</a>をする学生支援制度です。ソフトウェア研究開発への熱意を支援し、開発成果はオープンソースライセンスに基づき広く世の中に公開されることが期待されています。開発成果物の権利も企業ではなく、個人本人に帰属します。"
 
+- id:    flyingtokyo
+  link:  https://flyingtokyo.com/
+  title: Flying Tokyo 2024
+  description: "経産省の支援を受け、<a href='https://twitter.com/rhizomatiks'>Rhizomatiks (ライゾマティクス)</a> が運営する、アート分野の36歳未満の若手クリエイターを支援・育成するプログラムです。500万円を上限として、制作支援や活動費の支援なども実施されます。（<a href='https://twitter.com/rhizomatiks/status/1785897177157607692'>〆 2024年5月24日）</a>"
+
 - id:    inno-vation
   link:  https://www.inno.go.jp/
   title: 異能（Inno）vation
