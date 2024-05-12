@@ -60,11 +60,13 @@ def check_deadlines
     # 例: "3. 応募フォームから提案書をアップロードする （2024年4月6日 23:59まで）"
     # 例: "6. 追加インタビュー期間 （2024年5月14日〜5月27日）"
     this_deadline = "#{this_year}-%02d-%02d" % month_and_day.scan(/\d+/)
-    add_failure(<<~ERROR_MESSAGE) if prev_deadline > this_deadline
-    This deadline would be inconsistent with previous one:
-      \s prev_deadline: #{prev_text}
-      \s this_deadline: #{node.text}
-    ERROR_MESSAGE
+    add_failure(
+      <<~ERROR_MESSAGE
+        This deadline would be inconsistent with previous one:
+          \s prev_deadline: #{prev_text}
+          \s this_deadline: #{node.text}
+      ERROR_MESSAGE
+    ) if prev_deadline > this_deadline
     prev_deadline = this_deadline
     prev_text     = node.text
   end
