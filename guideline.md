@@ -70,7 +70,7 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 {% include arrow.html %}
 
 
-### 6. 追加インタビュー期間 [<i class="fa-light fa-comments-question"></i>](#interview-more)（2024年5月14日〜5月27日） {#interview-more}
+### 6. 追加インタビュー期間 [<i class="fa-light fa-comments-question"></i>](#interview-more)（2024年5月14日〜5月20日） {#interview-more}
 メンターによっては、この期間に追加の質問や、追加のインタビューを希望する場合があります。
 {% include arrow.html %}
 
