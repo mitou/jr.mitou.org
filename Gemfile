@@ -11,7 +11,6 @@ gem 'truncato' # https://github.com/jorgemanrubia/truncato
 # https://www.ruby-lang.org/ja/news/2023/12/25/ruby-3-3-0-released/
 gem 'csv'
 gem 'base64'
-gem 'bigdecimal'
 
 group :jekyll_plugins do
   gem 'jekyll-feed'

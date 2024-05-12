@@ -166,7 +166,6 @@ PLATFORMS
 
 DEPENDENCIES
   base64
-  bigdecimal
   csv
   html-proofer
   jekyll
