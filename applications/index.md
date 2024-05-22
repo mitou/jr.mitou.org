@@ -78,7 +78,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
     <small>（<a href='/mentors#teramoto_daiki'>寺本</a>）</small>
   </li>
   <li>
-    <a href='https://scrapbox.io/nishio/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8F%90%E6%A1%88%E6%9B%B8%E3%81%A3%E3%81%A6%E3%81%A9%E3%81%86%E6%9B%B8%E3%81%8F%E3%81%AE%EF%BC%9F'>プロジェクト提案書ってどう書くの？
+    <a href='https://scrapbox.io/nishio/プロジェクト提案書ってどう書くの？'>プロジェクト提案書ってどう書くの？
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
     <small>（<a href='/mentors#nishio_hirokazu'>西尾</a>）</small>
