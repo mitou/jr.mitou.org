@@ -161,6 +161,13 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
     <small>（<a href='/projects/2022/noxicel'>Noxicel - 英作文とAIを用いた英単語学習アプリ</a>）</small>
   </li>
   <li>
+    <a href='https://horizon2k38.hatenablog.com/entry/2024/06/01/103142'>
+      未踏ジュニアに応募しよう
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/2023/a9n'>A9N: HALを用いて移植容易性を実現するマイクロカーネル</a>）</small>
+  </li>
+  <li>
     <a href='https://zenn.dev/waryu/articles/mitoujr-2023-waryu'>
       未踏ジュニアがついに終わったので苦悩と成功の半年間をまとめる
       <i class="fa-solid fa-up-right-from-square"></i>
