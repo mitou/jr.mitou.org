@@ -1,4 +1,5 @@
-{% assign projects = site.data.projects | where_exp: "pj", "pj.year == include.year" %}
+{% assign this_stat  = site.data.stats    | find: 'year',    include.year %}
+{% assign projects   = site.data.projects | where_exp: "pj", "pj.year == include.year" %}
 <ul class="project-list {% if include.center_mode %}responsive-list{% endif %}">
   {% for pj in projects %}
   <li>
@@ -12,3 +13,17 @@
   </li>
   {% endfor %}
 </ul>
+
+{% if this_stat.year == 2016 %}
+<p><small>（※
+  <a href='/about#supports-awarding'>スーパークリエータ</a>認定は2017年度から始まったため2016年度は採択者のみとなります）
+</small></p>
+{% elsif this_stat.spc %}
+<p><small>（☆
+  は<a href='/about#supports-awarding'>スーパークリエータ</a>認定者となります）
+</small></p>
+{% else %}
+<p><small>
+  （<a href='/about#supports-awarding'>スーパークリエータ</a>認定者は後日発表される予定です）
+</small></p>
+{% endif %}

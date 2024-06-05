@@ -20,20 +20,6 @@
 
 {% include project-list.html year=include.year %}
 
-{% if this_stat.year == 2016 %}
-<p><small>（※
-  <a href='/about#supports-awarding'>スーパークリエータ</a>認定は2017年度から始まったため2016年度は採択者のみとなります）
-</small></p>
-{% elsif this_stat.spc %}
-<p><small>（☆
-  は<a href='/about#supports-awarding'>スーパークリエータ</a>認定者となります）
-</small></p>
-{% else %}
-<p><small>
-  （<a href='/about#supports-awarding'>スーパークリエータ</a>認定者は後日発表される予定です）
-</small></p>
-{% endif %}
-
 <br>
 
 <div class="projects flex">

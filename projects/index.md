@@ -43,9 +43,6 @@ thumbnail: /assets/img/projects/index.webp
     </h3>
 
     {% include project-list.html year=this_year %}
-    <p><small>（☆
-      は<a href="/about#supports-awarding">スーパークリエータ</a>認定者となります）
-    </small></p>
 
     <a href="/projects/{{ this_year }}" class="button">{{ this_year }}年度の詳細を見る</a>
   {% endfor %}
