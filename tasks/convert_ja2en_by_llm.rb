@@ -16,7 +16,8 @@ params = {
   messages: [
     {
       role:    'system',
-      content: '小中高生クリエータ支援プログラム「未踏ジュニア」の採択プロジェクトの英語版を用意したいです。渡された日本語のタイトルまたは概要を、英語にしてください。タイトルの強調は不要です。',
+      #content: '小中高生クリエータ支援プログラム「未踏ジュニア」の採択プロジェクトの英語版を用意したいです。渡された日本語のタイトルまたは概要を、英語にしてください。タイトルの強調は不要です。',
+      content: "We would like to translate Mitou Junior projects' title/abstract from Japanese into English. Please make sure that the tone of the translations are appropriately formal for an official website and no emphasis.",
     },
     {
       role:    'user',
@@ -31,7 +32,7 @@ params = {
 BASE_URL = 'https://jr.mitou.org/projects'
 projects = YAML.load_file("_data/projects.yml", symbolize_names: true)
 projects.each_with_index do |project, index|
-  next unless project[:year] == 2018
+  next unless project[:year] == 2016
 
   params[:messages][-1][:content] = project[:title]
   en_title = client.chat(parameters: params).dig 'choices', 0, 'message', 'content'
