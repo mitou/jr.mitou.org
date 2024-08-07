@@ -4,8 +4,10 @@ source 'https://rubygems.org'
 git_source(:github) {|repo_name| 'https://github.com/' + repo_name }
 
 gem 'jekyll'
-gem 'rake'     # Enable Rakefile to run tasks
-gem 'truncato' # https://github.com/jorgemanrubia/truncato
+gem 'rake'        # Enable Rakefile to run tasks
+gem 'truncato'    # https://github.com/jorgemanrubia/truncato
+gem 'ruby-openai' # Translate project info from JA to EN
+
 
 # Declare to install bundled gems to fix warnings:
 # https://www.ruby-lang.org/ja/news/2023/12/25/ruby-3-3-0-released/
