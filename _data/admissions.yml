@@ -16,6 +16,12 @@
   quote: "<b>科学オリンピック入試</b><br><br>情報科学に関する優れた問題解決能力を持ち，世界にインパクトを与えるリードエンジニアを目指す人のための入試です．情報オリンピックで好成績を収めた人または「未踏IT人材発掘・育成事業」に採択された人，「未踏ジュニア」にスーパークリエータ認定された人を対象に，調査書及び志望理由書による第一次選抜と，面接による第二次選抜を実施します．"
   quote_src: https://cs.sd.tmu.ac.jp/admission_office.html
 
+- id:    kanagawa_u
+  link:  https://www.kanagawa-u.ac.jp/admissions/faculty/recommend/
+  title: 神奈川大学 経営学部
+  quote: "<b>出願資格</b><br>...<br><b>(2). X-Businessプログラム</b><br>エンジニアリング、デザイン、ビジネス分野のクリエイティブ活動に参加実績があり、試験当日のプレゼンテーションでそれらを紹介できる者。（例）MONO-COTO INNOVATION、未踏ジュニア、高校生ビジネスプラン・グランプリ、ファブ3Dコンテスト、U-22プログラミングコンテストなどこれらに類する活動。"
+  quote_src: https://www.kanagawa-u.ac.jp/admissions/faculty/recommend/business_administration/
+  
 - id:    kyoto_u
   link:  https://www.kyoto-u.ac.jp/ja/admissions/tokusyoku
   title: 京都大学 特色入試
