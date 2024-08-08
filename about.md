@@ -98,11 +98,13 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 ### [<i class="fas fa-link green"></i>](#supports-awarding) 未踏ジュニアスーパークリエータの認定 {#supports-awarding}
 
-特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。[慶應義塾大学SFC](https://www.sfc.keio.ac.jp/news/012903.html)や[東京都立大学](https://cs.sd.tmu.ac.jp/admission_office.html)、[近畿大学](https://newscast.jp/news/1055602)に推薦枠で出願できます。
+特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや東京都立大学、近畿大学に推薦枠で出願できます。
 
 <img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.webp"
    title="クリエータに修了証書を授与している様子 @ 東京大学" class="top-img lazyload" loading="lazy"
      alt="クリエータに修了証書を授与している様子 @ 東京大学">
+
+<a href="/admissions" class="button">詳細をを見る</a>
 
 <br>
 

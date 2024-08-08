@@ -75,7 +75,7 @@ this_year: 2023
     <div class="service-one">
       <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/sp-creator.svg" alt="スーパークリエータ認定" class="service-img lazyload" loading="lazy">
       <h3>スーパークリエータ認定</h3>
-      <p>特に顕著な成果を残した方を表彰します。<a href="https://www.sfc.keio.ac.jp/news/012903.html">慶應SFC</a>や<a href="https://cs.sd.tmu.ac.jp/admission_office.html">都立大学</a>、<a href='https://newscast.jp/news/1055602'>近畿大学</a>に推薦枠で出願できます</p>
+      <p>特に顕著な成果を残した方を表彰します。慶應SFCや都立大学、近畿大学に<a href='/admissions'>推薦枠で出願</a>できます</p>
     </div>
     <a href="/about" class="button">詳細を見る</a>
   </div>
