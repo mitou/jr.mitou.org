@@ -1,0 +1,12 @@
+---
+---
+
+[ {% for admission in site.data.admissions %}
+  {
+    "id"        : "{{ admission.id }}",
+    "url"       : "{{ admission.link }}",
+    "title"     : "{{ admission.title }}",
+    "quote"     : "{{ admission.quote }}",
+    "quote_src" : "{{ admission.quote_src }}"
+  }{% unless forloop.last %},{% endunless %}{% endfor %}
+]
