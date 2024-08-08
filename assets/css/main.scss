@@ -564,6 +564,27 @@ footer{
     margin-right: 12px;
   }
 }
+.quote{
+  border: ridge 1px $main-color;
+  border-radius: 8px;
+  padding: 16px;
+  padding-left: 4em;
+  text-indent: -3.1em;
+  text-align: left;
+  font-style: italic;
+  color: grey;
+  &::before{
+    border-right: solid 4px $main-color;
+    content: '\e329';
+    color: $main-color;
+    font-family: "Font Awesome 6 Pro";
+    font-size: 24px;
+    font-style: normal;
+    height: 100%;
+    padding-right: 16px;
+    margin-right: 12px;
+  }
+}
 
 .top-img{
   width: 100%;
