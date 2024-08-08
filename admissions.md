@@ -26,7 +26,7 @@ description: 大学の募集要項やプレスリリースなどで未踏ジュ�
 
 {% endfor %}
 
-<hr style='margin: 100px auto 100px auto;'>
+<div class='note' style='margin: 100px auto 100px auto;'>なお公式ページに明示的な記載がされていない大学においても、未踏ジュニア修了生が推薦枠で合格した事例は多数あります。<br><br>また未踏ジュニアでは海外大学に挑戦する修了生を応援するため、<a href='/english'>英語版の公式情報</a>や<a href='/english/stats'>統計情報</a>も公開しています。</div>
 
 <div class='flex'>
   <a href='https://twitter.com/hashtag/未踏ジュニア' class='button'>ハッシュタグを見る</a>
