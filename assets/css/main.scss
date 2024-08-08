@@ -574,7 +574,7 @@ footer{
   font-style: italic;
   color: grey;
   &::before{
-    border-right: solid 4px $main-color;
+    // border-right: solid 4px $main-color;
     content: '\e329';
     color: $main-color;
     font-family: "Font Awesome 6 Pro";
