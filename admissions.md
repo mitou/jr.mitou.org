@@ -16,7 +16,7 @@ description: 大学の募集要項やプレスリリースなどで未踏ジュ�
 <h2 id='{{ admission.id }}'>
   <a href='#{{ admissioin.id }}' style='color: #333; font-weight: bold;'>{{ admission.title }}</a>
 </h2>
-<div class="quote">{{ admission.quote }}</div>
+<div class='quote'>{{ admission.quote }}</div>
 
 
 <div class='flex'>

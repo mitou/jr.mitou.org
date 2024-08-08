@@ -573,6 +573,7 @@ footer{
   text-align: left;
   font-style: italic;
   color: grey;
+  b, strong, table, th, td { color: grey; }
   &::before{
     // border-right: solid 4px $main-color;
     content: '\e329';
