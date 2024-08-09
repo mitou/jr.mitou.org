@@ -8,7 +8,7 @@ description: 大学の募集要項やプレスリリースなどで未踏ジュ�
   大学の募集要項やプレスリリースなどで、<a href='/about'>未踏ジュニア</a>について言及されている箇所をまとめたページです。<br>
   <br>
   <small><i class="fa-light fa-solid fa-triangle-exclamation"></i>
-    以下は公表当時のデータとなり、現在は変更されている可能性もあります。<br class='ignore-sp'><b>必ず公式ページから最新情報をご確認ください。</b></small><br>
+    以下は公表当時のデータとなり、現在は変更されている可能性があります。<br class='ignore-sp'><b>必ず公式ページから最新情報をご確認ください。</b></small><br>
 </p>
 
 
