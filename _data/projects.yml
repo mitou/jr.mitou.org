@@ -33,6 +33,7 @@
 # 2023年度
 - id: voice_genius
   title: Voice Genius - AI x ゆっくり解説
+  title_en: # TBD
   description: Voice Geniusは最近話題のChatGPTなどのAIを用い、完全自動でゆっくり解説を作成するソフトウェアです。タイトルや記事から動画を生成します。テキストではわかりにくいデータや記事を慣れ親しんだ動画に変換できます。生成した動画は<a href='https://www.youtube.com/@ai-yukkuri/featured'>YouTube</a>または<a href='https://www.tiktok.com/@ai.yukkuri'>TikTok</a>から閲覧できます。
   thumbnail: voice_genius.webp
   promotion: BlXywoHJYfg
@@ -46,6 +47,7 @@
 
 - id: a9n
   title: "A9N: HALを用いて移植容易性を実現するマイクロカーネル"
+  title_en: # TBD
   description: A9NはHAL + マイクロカーネルによって構築されたカーネル + ソフトウェアです。これにより、高い移植容易性・安定性・拡張性を兼ね備えます。近年の複雑化し巨大化したOSとは異なり、十分に小さいA9Nは本質の理解を助け、OS学習をより容易なものとします。
   thumbnail: a9n.webp
   #promotion:   # YouTube上にPVがあれば追記する
@@ -59,6 +61,7 @@
 
 - id: ai_4koma_maker
   title: AI 4コマメーカー
+  title_en: # TBD
   description: 「AI 4コマメーカー」は AI があなたの描いた絵を活用し、4コマ漫画を作成するwebアプリケーションです。落書きのように絵を描き、その絵を認識しgpt-4によってストーリーを生成します。そのため、ストーリー構成など考える必要がなく手軽に4コマ漫画を作ることができます。あなたの絵であなただけの4コマ漫画を作りましょう！
   thumbnail: ai_4koma_maker.webp
   promotion: o5rWOis3sTI
@@ -72,6 +75,7 @@
 
 - id: be_free
   title: Be Free - 話せない人が自由に会話できるアプリ
+  title_en: # TBD
   description: Be Freeは、声で会話ができない人のためのアプリケーションです。会話シーンを選んで、相手の声を音声認識。返事の組み立てをAIがサポートし、声で返答します。声のない生活を送る人にとって、役に立つサービスのヒントになったらいいと考えプロジェクトを進めています。
   thumbnail: be_free.webp
   #promotion:   # YouTube上にPVがあれば追記する
@@ -85,6 +89,7 @@
 
 - id: umeda_sansei_kai
   title: 人名攻撃力表示装置 - 梅田三世 (改)
+  title_en: # TBD
   description: 梅田三世とは、人の顔を見ると片メガネ型のディスプレイにその人の名前、攻撃力を表示してくれる装置です。これを身につけることによって、相手の名前を覚えていない時などのコミュニケーションを円滑にし、活性化する事が出来ます。表示される情報は、Webアプリによる閲覧/追加/更新/削除ができます。
   thumbnail: umeda_sansei_kai.webp
   #promotion:   # YouTube上にPVがあれば追記する
@@ -98,6 +103,7 @@
 
 - id: hato
   title: "Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム"
+  title_en: # TBD
   description: HATOは鉄道模型の世界に没入するためのNゲージ列車全自動運行システムです。メインプログラムは、センサ郡と制御電源を独自USB上プロトコルHLCPを介して制御し、車両の位置等を検知し、事故を回避します。運転指令所にあるような列車制御UIを実装することで、ユーザの鉄道模型世界への没入度を高めます。An <a href='https://hato.nyiyui.ca/README-en.html'>English website</a> is also available.
   thumbnail: hato.webp
   promotion: rcGFUpEQFpU # 日本語版
@@ -112,6 +118,7 @@
 
 - id: motion_simulator
   title: ゼロから作るMotion Simulator
+  title_en: # TBD
   description: Motion Simulatorとは、映像などのコンテンツの動作をユーザが実際に体感することにより臨場感を高めることを目的としたシステムのことで、映画館での4DXのようなものです。私はMotion Simulatorを自分でも作りたいと思い、数年間ゼロから試行錯誤して取り組んできました。今回は「6自由度」で「機構が椅子の下に収まるほどコンパクト」である椅子型のMotion Simulartorを自作しました。この特徴を持つMotion Simulatorは自作だけでなく商用の製品の中にもありません。
   thumbnail: motion_simulator.webp
   promotion: 4aTrF-0YGyc
@@ -125,6 +132,7 @@
 
 - id: bakusoku_agv
   title: 新型独立ステアリング機構の開発およびそれを用いたAGVモジュールの開発
+  title_en: # TBD
   description: 「物流2024問題」のように、私たちの生活を支えるロジスティクスが逼迫している中、このPJで開発しているような高速で小回りの効く独立ステアリング機構を搭載したAGVは、物流の効率化に寄与すると期待されます。設計にはトポロジー最適化やモジュラー設計を取り入れるなど工夫しています。
   thumbnail: bakusoku_agv.webp
   #promotion:   # YouTube上にPVがあれば追記する
@@ -138,6 +146,7 @@
 
 - id: niwangojs
   title: niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン
+  title_en: # TBD
   description: ブラウザで「ニワスクリプト (ニワン語)」というプログラミング言語を実行するインタプリタエンジンです。時系列に沿った処理系を提供し、描画結果を返します。過去にこの言語で制作された作品を再度実行可能にすることを第一目標とし、最終的にはニワン語コミュニティの活性化を目指して開発を行っています。
   thumbnail: niwangojs.webp
   promotion: ZJdlsgMzWrU
@@ -152,6 +161,7 @@
 
 - id: stask
   title: Stask - 学生の課題進捗を助けるアプリ
+  title_en: # TBD
   description: Staskは多くの宿題が科されながらも、それらの管理をうまくできていない学生を対象とした課題管理アプリです。宿題を管理できない人でもどの課題から始めれば良いかすぐわかる見た目になっているため課題を始めるハードルが低くなっている上、同じ課題を学校から課されている友達と課題の進捗を競争することで課題に早めのうちから取り組みやすくなっています。
   thumbnail: stask.webp
   #promotion:                # YouTube上にPVがあれば追記する
@@ -165,6 +175,7 @@
 
 - id: capitalens
   title: Capitalens
+  title_en: # TBD
   description: Capitalensは、国会の一次情報をベースに、AIなどの新しい技術を駆使して今何が行われているのかを可視化するウェブアプリケーションです。会議の前後のコンテキストが切り取られてSNSで拡散される問題を解決したり、会議のAI要約やスピーカーの分類機能で、より議論を身近なものにします。
   thumbnail: capitalens.webp
   #promotion:   # YouTube上にPVがあれば追記する
@@ -178,6 +189,7 @@
 
 - id: 3d_printed_brushless_motor
   title: 3Dプリンタで作る自作モーター
+  title_en: # TBD
   description: このプロジェクトの最終目標は、モーター選定に自作という選択肢を増やし、アイデアをより的確に実現できるようにすることです。そのための第一歩として、3Dプリント部品でブラシレスモーターを作り、制御回路を自作し、モーターを回すことに成功しました。今後は、高効率化や情報公開を進め、モーター自作文化を作ります。
   thumbnail: 3d_printed_brushless_motor.webp
   #promotion:   # YouTube上にPVがあれば追記する
@@ -191,6 +203,7 @@
 
 - id: code_museum
   title: Code Museum - 読むことだけに特化したソースコードエディタ
+  title_en: # TBD
   description: Code Museumは、一般的なエディタからあえて「書く機能」をなくし、「読む機能」に特化したソースコードエディタです。範囲実行やGPTを活用した機能など、様々な「読む機能」があります。このエディタを使うことで、コードを読んでいる時間を短縮し、生産性を上げることができます。
   thumbnail: code_museum.webp
   #promotion:   # YouTube上にPVがあれば追記する
@@ -204,6 +217,7 @@
 
 - id: lescued
   title: lescued - AIで好みの曲を生成するシステム
+  title_en: # TBD
   description: lescuedはユーザーが「聴きたい曲」を言語化不要で生成する作曲AIです。これはAIがユーザーの好みを学習していき、その過程で生成した曲をユーザーに提供することによって実現させています。この仕組みをアプリとして提供することで、自分が必要としている曲に直接アクセスできるようになります。
   thumbnail: lescued.webp
   #promotion:   # YouTube上にPVがあれば追記する
@@ -219,6 +233,7 @@
 # 2022年度
 - id: fluxel
   title: Fluxel - 磁気浮上式リニア電磁加速投射機の開発と応用
+  title_en: # TBD
   description: 直線レール上に物体を磁気浮上させ電磁力によって加速し射出する装置です。固定翼型輸送ドローンの短距離離陸に電磁カタパルトを利用できると考え開発した物です。レール上のコイルに順々にパルス電流を与えて素早く加速させます。モーターやベルト等の機械的動作がありません。
   thumbnail: fluxel.webp
   promotion: Cu3VyQFlod8
@@ -232,6 +247,7 @@
 
 - id: r-order
   title: R-Order - 学校版UberEatsを実現するデリバリーサービス
+  title_en: # TBD
   description: R-Orderは、休み時間にコンビニの商品を注文すると自分の教室まで商品を届けてくれるデリバリーアプリです。実際に僕の学校で導入するために、授業中は注文できないようにするなど学校運営に寄り添ったサービスに改善していきました。また、学校以外でも、ホテルや病院などクローズドなコミュニティ内で使用することができます。
   thumbnail: r-order.webp
   #promotion: 
@@ -245,6 +261,7 @@
 
 - id: motion_rapid
   title: Motion Rapid - 動画編集ソフトのようなUIでCSSアニメーションを作成するツール
+  title_en: # TBD
   description: MotionRapidはCSSパララックスアニメーションを動画編集ソフトのようなUIから作成できるツールです。動画編集ソフトで広く採用されているタイムラインUIを使い、HTMLやCSS、JavaScriptを直接コーディングすることなくパララックスアニメーションを作成することができます。
   thumbnail: motion_rapid.webp
   #promotion: 
@@ -258,6 +275,7 @@
 
 - id: michishirube
   title: スマート盲導杖『みちしる兵衛』～AI搭載白杖による視覚障害者歩行支援～
+  title_en: # TBD
   description: 『みちしる兵衛』は、独自の機械学習モデルに基づくAIを搭載した白杖です。視覚障害者の方々の歩行中に、線路や横断歩道、クルマといった危険を検出・通知し、より安心して歩行ができるよう補助します。
   thumbnail: michishirube.webp
   #promotion: 
@@ -271,6 +289,7 @@
 
 - id: hak
   title: HAK － Hand Action Keyboard － 物理的なタッチを必要としない装着型入力デバイス
+  title_en: # TBD
   description: HAKは指と手首の動きをトラッキングし、文字やカーソルの入力に変換する、まるでSFの世界から来たかのような装着型の入力デバイスです。入力における手の動作はすべて空中で完結でき、従来の平面的な操作による入力デバイスとは違い、空間による制約が少なくできます。
   thumbnail: hak.webp
   #promotion: 
@@ -284,6 +303,7 @@
 
 - id: nu_desktop
   title: NuDesktop - 軽量かつ柔軟なデスクトップ環境
+  title_en: # TBD
   description: NuDesktopは、デバイスの状態や形態に合わせて変化するUIを提供するLinux向けのデスクトップ環境です。これにより、従来の環境ではUIが提供されなかったデバイスをより良いUIとともに使うことができます。
   thumbnail: nu_desktop.webp
   #promotion: 
@@ -297,6 +317,7 @@
 
 - id: noxicel
   title: Noxicel - 英作文とAIを用いた英単語学習アプリ
+  title_en: # TBD
   description: NoxicelはAIを用いた、英作文を通じて英単語を学習するアプリです。英作文によって、英単語を文脈や文法と共に覚えることができます。また、教師がいない場面でも気軽に英作文ができるように、OpenAIの技術を使用し文法や用法等の提案をします。
   thumbnail: noxicel.webp
   #promotion: 
@@ -311,6 +332,7 @@
 
 - id: scairecrow
   title: scairecrow - カラスからゴミを守るシステム
+  title_en: # TBD
   description: scairecrowはゴミ捨て場に近づくカラスを迎撃するハードウェアプロジェクトです。カラスによってゴミが荒らされることで町が汚くなっています。その問題を解決するために、リアルタイムでカラスを物体検出し、レーザーを照射することで効果的に迎撃できるシステムを開発しました。
   thumbnail: scairecrow.png
   #promotion: scairecrow.gif
@@ -324,6 +346,7 @@
 
 - id: sanitas
   title: Sanitas 努力量を共有して美容と健康を支えるアプリ
+  title_en: # TBD
   description: Sanitasは健康・ダイエットに対する意識や努力のポイントを、友達と共有してゲーム感覚で楽しく健康維持・ダイエットの継続をサポートするアプリです。運動や歩数・毎日の自己評価によるポイントを集めて友達と競いましょう。努力の可視化によって毎日のダイエットや健康維持のモチベーションを保ちます。
   thumbnail: sanitas.webp
   #promotion: 
@@ -337,6 +360,7 @@
 
 - id: study_rec
   title: StudyRec - タイムラプスやポモドーロ・タイマーを使って勉強時間を管理する学習アプリ
+  title_en: # TBD
   description: StudyRecは勉強時間の可視化によりモチベーションをアップさせる勉強アプリです。勉強している姿をタイムラプスで撮影することでスマホ使用を制限、友人との共有が可能になります。集中力を維持するポモドーロタイマーも使うことができます。
   thumbnail: study_rec.webp
   #promotion: 
@@ -351,6 +375,7 @@
 
 - id: craftere_post
   title: CrafterePost - Minecraft建築物3D共有Webサービス
+  title_en: # TBD
   description: CrafterePostは、Minecraftの建築物を3D共有できるWebサービスです。視聴者はブラウザだけで、建築物を好きな角度から眺めることができます。投稿者が建築過程を3D動画にすれば、視聴者は任意の時点・視点から眺めることができ、ブロックが複雑に入り組んでる構造でもわかりやすいです。
   thumbnail: craftere_post.webp
   promotion: S1XG9FEY9ko
@@ -365,6 +390,7 @@
 # 2021年度
 - id: vr_sandbox
   title: VRSandbox：誰でも簡単3Dモデリングツール
+  title_en: # TBD
   description: VRコントローラーを筆とパレットのように使い、直感的に立体物が作れるアプリです。仮想空間や３Dモデルが身近になりましたが、現状で個人が作るのは簡単ではありません。難解なモデリングソフトを使用しなくても簡単に３Dモデリングできます。しゃがむアクションで縮尺が変わり、実物大の建造物に入れます。
   thumbnail: vr_sandbox.webp
   promotion: IKbnWvbEKMo
@@ -377,6 +403,7 @@
 
 - id: mark_sdgs
   title: マークみっけ！for SDGs
+  title_en: # TBD
   description: SDGsの事を楽しく学べて身近に感じる小学生向けWebアプリです。AIカメラがSDGsと関わっている身の周りにあるマークを教えてくれます。2030年の泣いている子供たちの言葉をヒントにマークを集めると世界が救えます。GIGAスクールで配られたタブレットを持って、学校・家・街でマークを探しに行こう！
   thumbnail: sdgs.webp
   promotion: z_dMy_3UZM8
@@ -389,6 +416,7 @@
 
 - id: cybotanic
   title: Cybotanic：サイボーグ化された植物。
+  title_en: # TBD
   description: 「植物が生きている」ことを直感的に感じるために、テクノロジーの力で「植物の機能」を拡張するプロジェクトです。植物のイオンチャネルに流れる生体電位を電極で取得し、そこから採れたデータを基に植物を人工筋肉で動かしたり、シンセサイザーを人間と共演します。
   thumbnail: cybotanic.webp
   #promotion:
@@ -402,6 +430,7 @@
 
 - id: telport
   title: TELPort/テルポート：音波による高速通信プロトコル及び、スピーカーとマイクを介した送受信アプリ
+  title_en: # TBD
   description: あらゆるデータを複数の周波数と振幅の合成波に変換し、空間と時間を活用した通信を提供するプロトコルです。口頭での伝達が難しいファイルや情報を高速かつ正確に転送し、スマホアプリ化により様々な用途への導入も容易で、費用や特別な設備を必要としません。
   thumbnail: telport.webp
   #promotion:
@@ -414,6 +443,7 @@
 
 - id: curepathy
   title: Curepathy -子供の興味を深めるアプリ-
+  title_en: # TBD
   description: 小中学生を対象とした能動的な学習を支援するアプリです。ユーザーの評価・タグ・レコメンドエンジンによってユーザーの興味に合った学習コンテンツを提示するほか、着せ替えゲームの要素を取り入れることで楽しく学び続けられる仕組みを提供します。
   thumbnail: curepathy.webp
   #promotion:
@@ -427,6 +457,7 @@
 
 - id: researcheck
   title: Researcheck-調べ学習サポートアプリ-
+  title_en: # TBD
   description: Researcheckは学生の知りたい気持ちを応援する調べ学習アプリです。インターネットには信憑性が低い情報や芸能ニュースによる検索結果の汚染、情報の偏りなどの問題がありますResearcheckは、調べ学習に不適切な情報を警告、除外し対義語を挿入して検索結果の中立性を保ちます。
   thumbnail: researcheck.webp
   #promotion:
@@ -439,6 +470,7 @@
 
 - id: augment
   title: Augment － リアルタイム音階推定を用いた音楽ゲーム
+  title_en: # TBD
   description: ユーザーが弾いている楽器の音をリアルタイムで音階推定し、直感的に楽器を楽しめる音楽ゲームです。タブレットやスマホの楽器アプリでも遊ぶことができます。
   thumbnail: augment.webp
   promotion: DwA0pzPJs14
@@ -452,6 +484,7 @@
 
 - id: haniwa
   title: Haniwa - 家族間タスク共有&報酬提供アプリ
+  title_en: # TBD
   description: Haniwaは家事などの定期的で意外と重労働な家事に対して、モチベーションアップ+タスク管理を行うアプリケーションです。タスクをクリアするごとに「スター」というアプリ内ポイントを収集し、それによってお小遣いやちょっとした贅沢などを取引することができます。家事以外にも子供の勉強やおつかいなど汎用的なタスクに使用できます
   thumbnail: haniwa.webp
   promotion: FapDQ3aCPCI
@@ -464,6 +497,7 @@
 
 - id: puguette
   title: パゲット - 全て3Dプリントされた四足歩行ロボット
+  title_en: # TBD
   description: パゲットは、全て3Dプリントされた四足歩行ロボットです。モデルデータ、コードを共有する事により、比較的容易にロボット開発ができます。主な目的は、OpenTorqueからヒントを得て、低コストでアクチュエータを開発することでした。
   thumbnail: puguette.webp
   #promotion:
@@ -476,6 +510,7 @@
 
 - id: anyget
   title: ">>Anyget/掲示板形式小説執筆支援ツール"
+  title_en: # TBD
   description: SNSや匿名掲示板などを舞台にした、複数の投稿が織りなす物語の執筆を支援するツールです。開発者の執筆経験をもとに、投稿の並び替え、ランダムIDの生成、投稿のコピー&ペーストなど、書き手に嬉しい様々な機能を実装しました。
   thumbnail: anyget.webp
   #promotion:
@@ -488,6 +523,7 @@
 
 - id: killin_engine
   title: KillinEngine -マルチプレイ型ゲーム制作エンジン-
+  title_en: # TBD
   description: キリンエンジンは、仲間と遊びながらオンラインマルチプレイゲームが作れるゲーム制作ツールです。最新のネットワーク技術により、クリエイターたちは一つの仮想空間に召喚されゲームをリアルタイム共同編集することができます。
   thumbnail: killin_engine.webp
   promotion: 72UN95o6MJA
@@ -500,6 +536,7 @@
 
 - id: web_koten
   title: Web個展 - Webであることを活かしたオンライン展示形式の模索
+  title_en: # TBD
   description: 2019年終わりごろから流行し始めたCOVID-19によって、いくつもの現実の個展の開催が中止、延期され、開催する場合も大きな制限を受けることとなりました。それを受け、最近ではWebサイト上で閲覧できる展示も増えましたが、その多くは「現実の個展を再現する」ことに主眼をおいたものであり、あくまでCOVID-19の流行による現実の個展の代替的なものという意味合いが大きいものでした。Web個展ではWebという媒体の特性をより引き出すことに焦点を当て、観覧者がワクワクできるような個展を目指します。
   thumbnail: web-koten.webp
   #promotion:
@@ -512,6 +549,7 @@
 
 - id: birds_eye
   title: Birds eye ぴーちゃん　自転車危険予測アプリ
+  title_en: # TBD
   description: 自転車で行動範囲が広がり始めた小学校高学年のこどもを対象にした自転車危険予測アプリ。登録した危険な交差点に近づくと注意喚起を促します。親子で交通ルールや正しい自転車の乗り方について話せる仕掛けがあり、繰り返し経験することで自分自身と他者の安全を守れる自転車運転を身につけることを目的としています。
   thumbnail: birds_eye.webp
   promotion: TaQ4zNBiwag
@@ -524,6 +562,7 @@
 
 - id: mock_up
   title: "mock up: 動画編集ソフトウェアフレームワーク"
+  title_en: # TBD
   description: mock upは動画編集ソフトウェアフレームワークです。動画のレンダリングエンジンと、カスタムフィルター・アニメーションを提供します。mock upを利用すれば、mumlという中間言語を通して動画編集処理を記述することで、簡単なフロントエンドからの呼び出しだけで、動画編集機能を実装することができます。
   thumbnail: mock_up.webp
   #promotion:
@@ -537,6 +576,7 @@
 # 2020年度
 - id: flight_fit_vr
   title: -Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品
+  title_en: # TBD
   description: OculusのVRゴーグルで、美しい景色と音楽の中でリラックスしながら身体を鍛えることができる作品です。３つのミニゲームから構成されており、体幹、腹筋、前腿の筋肉などの筋力向上を期待できます。
   thumbnail: flight_fit_vr.webp
   promotion: 0RfrKiAq-W0
@@ -549,6 +589,7 @@
 
 - id: guinfra
   title: GUInfra〜GUIで建てるインフラストラクチャー〜
+  title_en: # TBD
   description: GUInfraは、クラウドインフラの構成図を自作のグラフ作成ツールを使用して作成でき、トークンを入力することで実際に構築、破棄ができるサービスです。これを使うことにより、クラウドインフラを効率よく学習することができます。
   thumbnail: guinfra.webp
   #promotion:
@@ -561,6 +602,7 @@
 
 - id: brush_talk
   title: ぶらっしゅとーく〜小さな子どものための筆談アプリ〜
+  title_en: # TBD
   description: これは文字がまだうまく書けない小さな子と耳が聞こえづらいお年寄りがコミュニケーションを取るための筆談アプリです。スマホを使い慣れないお年寄りも簡単に使えるように、操作するためのボタンをなるべく少なくしました。また、イラストを使用することで小さな子が感覚的に使えるようにしました。
   thumbnail: brush_talk.webp
   promotion: 5TuMO6SArG8
@@ -573,6 +615,7 @@
 
 - id: spaghetian
   title: Spaghetian - 電気と電磁石だけでCPUを自作する！
+  title_en: # TBD
   description: 三機の電磁石式自作自作CPUを互いにつなげてネットワークにし、その上でオンラインピンポンゲームが動くロマン溢れるプロジェクトです！魔法と見分けがつかなくなった現代のコンピュータテクノロジーの基本を自作することにより、それらが誰でも理解できることを示します。
   thumbnail: spaghetian.webp
   promotion: MePIVH21RZM
@@ -585,6 +628,7 @@
 
 - id: color_overlap
   title: Color Overlap - 光の三原色RGBを使ったパズルゲーム
+  title_en: # TBD
   description: 魔法によって「色」を奪われ石にされてしまった人々を救うパズルゲームです。光の３原色RGBの様々な形のブロックをうまく重ねて、王国に色を取り戻そう。Unityで制作しています。
   thumbnail: color_overlap.webp
   promotion: TbMfAhm4wJk
@@ -597,6 +641,7 @@
 
 - id: poet
   title: Poet ~詩人のための創作ツール~
+  title_en: # TBD
   description: Poet は詩を書く人のための創作ツールで、いつでもどこでも手軽にアイデアを書き留めることができます。日常の言葉を簡単に書き留めることができる環境を通して、ユーザー各々にとっての言葉の宝箱を提供します。
   thumbnail: poet.webp
   #promotion:
@@ -609,6 +654,7 @@
 
 - id: visible
   title: Visible ─ Webアクセシビリティー診断 & 修正提案ツール
+  title_en: # TBD
   description: VisibleはWebサイトのアクセシビリティーを診断するサービスです。URLを入力することで問題点を検出しリファレンス付きで提示する他、その修正方法を自動的に提案します。
   thumbnail: visible.webp
   #promotion:
@@ -621,7 +667,8 @@
     - igarashi_ryo
 
 - id: mer
-  title: Mer - 多機能電子リコーダー 
+  title: Mer - 多機能電子リコーダー
+  title_en: # TBD
   description: MERはリコーダーを元に、様々な機能を搭載した電子楽器です。発音が簡単なので、初心者でも完成度の高い演奏を体験できます。さらに、気圧センサ、ロータリーエンコーダ 、3D触覚センサを用いた高度な楽器制御が可能です。内蔵FM音源の他に、MIDI出力に対応しているので、ユーザーの好きな音源で演奏ができます。
   thumbnail: mer.webp
   #promotion:
@@ -634,6 +681,7 @@
 
 - id: skimer
   title: SKIMER - LINEで手軽にやること管理
+  title_en: # TBD
   description: 「SKIMER(スキマー)」は中高生の宿題を管理するためにデザインされたタスク管理アプリです。LINEで友だち追加して簡単に始められます。「クラスのライングループ」から着想を得て、宿題の共有をしたり、宿題の遂行状況を可視化してランキングを作ることで、モチベーションを保てる工夫をしました。そのため、社会性・競争性を取り入れてゲーム感覚で宿題ができます。
   thumbnail: skimer.webp
   promotion: d5rDv1q9X20
@@ -647,6 +695,7 @@
 
 - id: glider_gun
   title: GliderGun - ブラウザOSを簡単に作成できるツール郡
+  title_en: # TBD
   description: このプロジェクトはLinuxのディストリビューションを簡単に作成できるツール郡を提供します。また、作成するディストリビューションはブラウザを使うことを主な目的としており、このように機能を制限することで様々な恩恵を得ることができます。
   thumbnail: glider_gun.webp
   promotion: ReqtWF40Ukk
@@ -659,6 +708,7 @@
 
 - id: align
   title: Align - バッテリー残量からはじまるエモチャット
+  title_en: # TBD
   description: Alignは手軽にエモいを味わうことができるランダムマッチングチャットアプリです。バッテリー残量が近い人とマッチングし、バッテリー残量が離れると強制的に切断されてしまいます。別れを前提にした新しいチャットアプリで平穏な日常にAlignでちょっと刺激的な体験をお楽しみください。
   thumbnail: align.webp
   #promotion:
@@ -672,6 +722,7 @@
 
 - id: critica
   title: critica  - 手軽で直感的なリアクション回収ツール
+  title_en: # TBD
   description: 「この質問本当にいるの?」「アカウントが必須?」ーー　既存のフォームアプリは、冗長なフォームが作れてしまう、フォームの作成に手間がかかるという課題がありました。criticaはシンプルなリアクションを回収することに特化した、作成者・回答者双方にとって「簡単」なリアクション回収ツールです。数多くのユーザテストをもとに、作成者・回答者双方にとって「簡単」な新しいフォームの形を追求しました。
   thumbnail: critica.webp
   #promotion:
@@ -685,6 +736,7 @@
 
 - id: force_book
   title: ForceBook - つよつよ自作ノートPC
+  title_en: # TBD
   description: 筐体から設計・自作し、開発者やゲーマーに使ってほしいノートPCを実現しました。カスタマイズ性を重視してデスクトップ用のパーツを使い、あえてバッテリーを搭載せず電源接続とすることでコンパクトにしました。さらにトラックパッドとしてタッチディスプレイによる新しいインターフェースを考案・実装し、使いやすさにこだわりました。
   thumbnail: forcebook.webp
   #promotion:
@@ -697,6 +749,7 @@
 
 - id: levo
   title: Levo - 全く新しい近未来的デザインのエアソフトガン
+  title_en: # TBD
   description: Levoは3DCADと3Dプリンターを最大限活用して開発された近未来的デザインのエアソフトガンです。前例のないデザインでありながら、内部機構の電子制御や極限までコンパクトに設計されたフレームによって機動性を高め、スポーツとしてのサバイバルゲームに特化したエアソフトガンとなっています。
   thumbnail: levo.webp
   #promotion:
@@ -710,6 +763,7 @@
 - id: rocat
   #link: https://rocat.jp/
   title: Rocat ～モデルロケットを使ったSTEM教育～
+  title_en: # TBD
   description: Rocatは様々なセンサを搭載したプログラミング可能なモデルロケットSTEM教材です。ロケットを組み立てて飛ばして得たデータを考察し合い、楽しく科学や技術への理解を深めていける教材の開発を行っています。
   thumbnail: rocat.webp
   #promotion:
@@ -727,6 +781,7 @@
 # 2019年度
 - id: amoyo
   title: 編模様 (あもーよ) イラスト手編み支援アプリ
+  title_en: # TBD
   creator_ids:
     - takeda_kazuki
   mentor_id: teramoto_daiki
@@ -739,6 +794,7 @@
 
 - id: det_exploit
   title: DetExploit - Windows用OSS脆弱性スキャナー
+  title_en: # TBD
   creator_ids:
     - takayama_naoki
   mentor_id: yasulab
@@ -752,6 +808,7 @@
 
 - id: pirka
   title: pirka - 会話を通して成長する人工知能技術
+  title_en: # TBD
   creator_ids:
     - itoi_mamoru
   mentor_id: nishio_hirokazu
@@ -764,6 +821,7 @@
 
 - id: neulot
   title: neulot - 生体信号を用いたインターフェイスの開発
+  title_en: # TBD
   creator_ids:
     - sakoda_yamato
   mentor_id: seki_yoshifumi
@@ -776,6 +834,7 @@
 
 - id: abecobe
   title: abecobe - シンプルかつ難しいパズルゲーム
+  title_en: # TBD
   creator_ids:
     - asano_kei
   mentor_id: suzuki_ryou
@@ -788,6 +847,7 @@
 
 - id: manage_stock
   title: ManageStock - 家庭向け在庫管理アプリ
+  title_en: # TBD
   creator_ids:
     - onomura_takuya
     - jounen_takumi
@@ -802,6 +862,7 @@
 
 - id: relay_master
   title: リレーマスター
+  title_en: # TBD
   creator_ids:
     - watanabe_akihisa
   mentor_id: komuro_maki
@@ -814,6 +875,7 @@
 
 - id: virtual_presents
   title: VirtualPresents - 仮想世界で用いるWebサービス
+  title_en: # TBD
   creator_ids:
     - kunitake_yuuto
     - mori_yuuki
@@ -827,6 +889,7 @@
 
 - id: edge_guided_anime_characters_generation
   title: Edge-guided Anime Characters Generation
+  title_en: # TBD
   creator_ids:
     - namekata_kouichi
   mentor_id: ukai_yuu
@@ -839,6 +902,7 @@
 
 - id: mallet
   title: Mallet - モバイル端末用簡易アプリ開発環境
+  title_en: # TBD
   creator_ids:
     - matsuda_katsu
   mentor_id: sasada_kouichi
@@ -851,6 +915,7 @@
 
 - id: tea
   title: Tea - 仮想経済シミュレーションプラットフォームとゲーム
+  title_en: # TBD
   creator_ids:
     - izumita_sumito
   mentor_id: yonetsuji_taizan
@@ -863,6 +928,7 @@
 
 - id: fresh_capsule
   title: fresh capsule - 食材管理アプリ
+  title_en: # TBD
   creator_ids:
     - kishimoto_junka
   mentor_id: teramoto_daiki
@@ -875,6 +941,7 @@
 
 - id: smart_vj
   title: SmartVJ - 参加型の新しいメディアアート
+  title_en: # TBD
   creator_ids:
     - hirakawa_haruto
   mentor_id: koutake_rina
@@ -888,6 +955,7 @@
 # 2018年度
 - id: utips
   title: UTIPS - 家事の情報共有サービス
+  title_en: # TBD
   creator_ids:
     - mihashi_yuuki
   mentor_id: yasulab
@@ -902,6 +970,7 @@
 
 - id: lets_eigo_puzzle
   title: "Let'sえいごパズル! - 変化するキューブで楽しく学ぶ英単語"
+  title_en: # TBD
   creator_ids:
     - hirano_shoutarou
   mentor_id: nishio_hirokazu
@@ -915,6 +984,7 @@
 
 - id: smile_meeting_room
   title: スマイル会議室 - IoTで会議室の効率的な利用を
+  title_en: # TBD
   creator_ids:
     - satou_rei
   mentor_id: nishio_hirokazu
@@ -928,6 +998,7 @@
 
 - id: vreath
   title: Vreath - 暗号通貨の入手障壁を下げるための、独自合意アルゴリズムの開発
+  title_en: # TBD
   creator_ids:
     - suegami_sora
   mentor_id: ukai_yuu
@@ -941,6 +1012,7 @@
 
 - id: corkboard
   title: Corkboard - 位置的に管理するメモサービス
+  title_en: # TBD
   creator_ids:
     - shibahara_yoshinori
   mentor_id: suzuki_ryou
@@ -954,6 +1026,7 @@
 
 - id: touch_buy
   title: TouchBuy - VRにおけるECの在り方の模索
+  title_en: # TBD
   creator_ids:
     - sueda_takahito
     - takami_suguru
@@ -969,6 +1042,7 @@
 
 - id: robot_soccer
   title: 強化学習を用いたロボットサッカーシミュレーション
+  title_en: # TBD
   creator_ids:
     - saitou_takeru
   mentor_id: yonetsuji_taizan
@@ -982,6 +1056,7 @@
 
 - id: memory_capsule
   title: メモリーカプセル - カプセルを通して繋がるSNS
+  title_en: # TBD
   creator_ids:
     - fujimoto_yui
   mentor_id: ishii_kakeru
@@ -995,6 +1070,7 @@
 
 - id: sound_in_the_forest
   title: Sound in the forest - 複数のスマートフォンによる「動く音」の表現
+  title_en: # TBD
   creator_ids:
     - namikawa_kousaku
   mentor_id: sasada_kouichi
@@ -1008,6 +1084,7 @@
 
 - id: toubans
   title: Toubans! -LINEで設定・通知できる当番お知らせサービス
+  title_en: # TBD
   creator_ids:
     - nishimura_yui
   mentor_id: teramoto_daiki
@@ -1021,6 +1098,7 @@
 
 - id: camera_translation
   title: 写して翻訳
+  title_en: # TBD
   creator_ids:
     - kawahara_keitarou
   mentor_id: wada_natsumi
@@ -1034,6 +1112,7 @@
 
 - id: life_watcher
   title: Life Watcher - 急変する持病を持つ人のための警報システム
+  title_en: # TBD
   creator_ids:
     - mutou_hikaru
   mentor_id: yonetsuji_taizan
@@ -1048,6 +1127,7 @@
 # 2017年度
 - id: music_reminder
   title: 個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案
+  title_en: # TBD
   creator_ids:
     - sasaki_masato
     - sutou_koutarou
@@ -1062,6 +1142,7 @@
 
 - id: papa
   title: 学校現場における情報共有やスケジューリングを支援するウェブアプリの提案
+  title_en: # TBD
   creator_ids:
     - tanaka_yuutarou
     - nakahara_you
@@ -1077,6 +1158,7 @@
 
 - id: anki_cookie
   title: 暗記クッキー
+  title_en: # TBD
   creator_ids:
     - nakasuji_ayaka
   mentor_id: ukai_yuu
@@ -1090,6 +1172,7 @@
 
 - id: narratica
   title: narratica〜ストーリーコンサルタント〜
+  title_en: # TBD
   creator_ids:
     - sugano_kaede
   mentor_id: yonetsuji_taizan
@@ -1103,6 +1186,7 @@
 
 - id: savacs
   title: 見守りフォトスタンド
+  title_en: # TBD
   creator_ids:
     - yano_rei
   mentor_id: yonetsuji_taizan
@@ -1116,6 +1200,7 @@
 
 - id: fall_in_friends
   title: Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～
+  title_en: # TBD
   creator_ids:
     - shimoda_tetsunosuke
   mentor_id: teramoto_daiki
@@ -1129,6 +1214,7 @@
 
 - id: draw_code
   title: DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜
+  title_en: # TBD
   creator_ids:
     - katou_syu
   mentor_id: teramoto_daiki
@@ -1142,6 +1228,7 @@
 
 - id: listenable_keyboard
   title: "'聞く'キーボード"
+  title_en: # TBD
   creator_ids:
     - nemoto_hibiki
   mentor_id: sasada_kouichi
@@ -1155,6 +1242,7 @@
 
 - id: smile_iot
   title: SmileI/OT
+  title_en: # TBD
   creator_ids:
     - yamada_haruta
     - adachi_motone
@@ -1171,6 +1259,7 @@
 
 - id: vamboo
   title: FRPの概念に触れられるビジュアルプログラミング言語の開発
+  title_en: # TBD
   creator_ids:
     - ohno_tomoki
     - suzuki_sousuke
@@ -1186,6 +1275,7 @@
 
 - id: rakuraku_yomiyomi
   title: らくらく読み読み
+  title_en: # TBD
   creator_ids:
     - ootsuka_rei
   mentor_id: suzuki_ryou
@@ -1200,6 +1290,7 @@
 # 2016年度
 - id: vr_picture_book_maker
   title: VR絵本メーカー
+  title_en: # TBD
   creator_ids:
     - kimura_hiroko
   mentor_id: ukai_yuu
@@ -1213,6 +1304,7 @@
 
 - id: smart_pen
   title: スマートペン
+  title_en: # TBD
   creator_ids:
     - fukuda_kyouko
     - kudou_reo
@@ -1227,6 +1319,7 @@
 
 - id: voice_commander
   title: Voice Commander ～命令×ポーズ×チェス～
+  title_en: # TBD
   creator_ids:
     - fukuzumi_jinshirou
   mentor_id: suzuki_ryou
