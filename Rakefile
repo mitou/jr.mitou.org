@@ -6,6 +6,12 @@ task :upsert_project_pages_by_data do
   ruby "tasks/upsert_project_pages_by_data.rb"
 end
 
+# Upsert individual project page by data in English
+desc 'Upsert project page by project data in English'
+task :upsert_project_pages_by_data_en do
+  ruby "tasks/upsert_project_pages_by_data_en.rb"
+end
+
 # cf. GitHub - gjtorikian/html-proofer
 # https://github.com/gjtorikian/html-proofer
 
