@@ -32,7 +32,7 @@ params = {
 BASE_URL = 'https://jr.mitou.org/projects'
 projects = YAML.load_file("_data/projects.yml", symbolize_names: true)
 projects.each_with_index do |project, index|
-  next unless project[:year] == 2016
+  next unless project[:year] == 2023
 
   params[:messages][-1][:content] = project[:title]
   en_title = client.chat(parameters: params).dig 'choices', 0, 'message', 'content'
