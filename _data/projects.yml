@@ -33,7 +33,7 @@
 # 2023年度
 - id: voice_genius
   title: Voice Genius - AI x ゆっくり解説
-  title_en: # TBD
+  title_en: Voice Genius - AI x Yukkuri Commentary
   description: Voice Geniusは最近話題のChatGPTなどのAIを用い、完全自動でゆっくり解説を作成するソフトウェアです。タイトルや記事から動画を生成します。テキストではわかりにくいデータや記事を慣れ親しんだ動画に変換できます。生成した動画は<a href='https://www.youtube.com/@ai-yukkuri/featured'>YouTube</a>または<a href='https://www.tiktok.com/@ai.yukkuri'>TikTok</a>から閲覧できます。
   description_en: # TBD
   thumbnail: voice_genius.webp
@@ -48,7 +48,7 @@
 
 - id: a9n
   title: "A9N: HALを用いて移植容易性を実現するマイクロカーネル"
-  title_en: # TBD
+  title_en: "A9N: A Microkernel Achieving Portability Using HAL"
   description: A9NはHAL + マイクロカーネルによって構築されたカーネル + ソフトウェアです。これにより、高い移植容易性・安定性・拡張性を兼ね備えます。近年の複雑化し巨大化したOSとは異なり、十分に小さいA9Nは本質の理解を助け、OS学習をより容易なものとします。
   description_en: # TBD
   thumbnail: a9n.webp
@@ -63,7 +63,7 @@
 
 - id: ai_4koma_maker
   title: AI 4コマメーカー
-  title_en: # TBD
+  title_en: AI 4-Panel Manga Maker
   description: 「AI 4コマメーカー」は AI があなたの描いた絵を活用し、4コマ漫画を作成するwebアプリケーションです。落書きのように絵を描き、その絵を認識しgpt-4によってストーリーを生成します。そのため、ストーリー構成など考える必要がなく手軽に4コマ漫画を作ることができます。あなたの絵であなただけの4コマ漫画を作りましょう！
   description_en: # TBD
   thumbnail: ai_4koma_maker.webp
@@ -78,7 +78,7 @@
 
 - id: be_free
   title: Be Free - 話せない人が自由に会話できるアプリ
-  title_en: # TBD
+  title_en: Be Free - An App That Allows Non-Speakers to Communicate Freely
   description: Be Freeは、声で会話ができない人のためのアプリケーションです。会話シーンを選んで、相手の声を音声認識。返事の組み立てをAIがサポートし、声で返答します。声のない生活を送る人にとって、役に立つサービスのヒントになったらいいと考えプロジェクトを進めています。
   description_en: # TBD
   thumbnail: be_free.webp
@@ -93,7 +93,7 @@
 
 - id: umeda_sansei_kai
   title: 人名攻撃力表示装置 - 梅田三世 (改)
-  title_en: # TBD
+  title_en: Name Attack Power Display Device - Umeda III (Revised)
   description: 梅田三世とは、人の顔を見ると片メガネ型のディスプレイにその人の名前、攻撃力を表示してくれる装置です。これを身につけることによって、相手の名前を覚えていない時などのコミュニケーションを円滑にし、活性化する事が出来ます。表示される情報は、Webアプリによる閲覧/追加/更新/削除ができます。
   description_en: # TBD
   thumbnail: umeda_sansei_kai.webp
@@ -108,7 +108,7 @@
 
 - id: hato
   title: "Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム"
-  title_en: # TBD
+  title_en: "Hopefully Automatic Train Operation (HATO): Immersive Automatic Model Train Control System"
   description: HATOは鉄道模型の世界に没入するためのNゲージ列車全自動運行システムです。メインプログラムは、センサ郡と制御電源を独自USB上プロトコルHLCPを介して制御し、車両の位置等を検知し、事故を回避します。運転指令所にあるような列車制御UIを実装することで、ユーザの鉄道模型世界への没入度を高めます。An <a href='https://hato.nyiyui.ca/README-en.html'>English website</a> is also available.
   description_en: # TBD
   thumbnail: hato.webp
@@ -124,7 +124,7 @@
 
 - id: motion_simulator
   title: ゼロから作るMotion Simulator
-  title_en: # TBD
+  title_en: Creating a Motion Simulator from Scratch
   description: Motion Simulatorとは、映像などのコンテンツの動作をユーザが実際に体感することにより臨場感を高めることを目的としたシステムのことで、映画館での4DXのようなものです。私はMotion Simulatorを自分でも作りたいと思い、数年間ゼロから試行錯誤して取り組んできました。今回は「6自由度」で「機構が椅子の下に収まるほどコンパクト」である椅子型のMotion Simulartorを自作しました。この特徴を持つMotion Simulatorは自作だけでなく商用の製品の中にもありません。
   description_en: # TBD
   thumbnail: motion_simulator.webp
@@ -139,7 +139,7 @@
 
 - id: bakusoku_agv
   title: 新型独立ステアリング機構の開発およびそれを用いたAGVモジュールの開発
-  title_en: # TBD
+  title_en: Development of a New Independent Steering Mechanism and AGV Module Using It
   description: 「物流2024問題」のように、私たちの生活を支えるロジスティクスが逼迫している中、このPJで開発しているような高速で小回りの効く独立ステアリング機構を搭載したAGVは、物流の効率化に寄与すると期待されます。設計にはトポロジー最適化やモジュラー設計を取り入れるなど工夫しています。
   description_en: # TBD
   thumbnail: bakusoku_agv.webp
@@ -154,7 +154,7 @@
 
 - id: niwangojs
   title: niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン
-  title_en: # TBD
+  title_en: niwango.js - An Execution Engine for Niwango, Programmable via Video Comments
   description: ブラウザで「ニワスクリプト (ニワン語)」というプログラミング言語を実行するインタプリタエンジンです。時系列に沿った処理系を提供し、描画結果を返します。過去にこの言語で制作された作品を再度実行可能にすることを第一目標とし、最終的にはニワン語コミュニティの活性化を目指して開発を行っています。
   description_en: # TBD
   thumbnail: niwangojs.webp
@@ -170,7 +170,7 @@
 
 - id: stask
   title: Stask - 学生の課題進捗を助けるアプリ
-  title_en: # TBD
+  title_en: Stask - An App to Assist Students with Task Progress
   description: Staskは多くの宿題が科されながらも、それらの管理をうまくできていない学生を対象とした課題管理アプリです。宿題を管理できない人でもどの課題から始めれば良いかすぐわかる見た目になっているため課題を始めるハードルが低くなっている上、同じ課題を学校から課されている友達と課題の進捗を競争することで課題に早めのうちから取り組みやすくなっています。
   description_en: # TBD
   thumbnail: stask.webp
@@ -185,7 +185,7 @@
 
 - id: capitalens
   title: Capitalens
-  title_en: # TBD
+  title_en: Capitalens
   description: Capitalensは、国会の一次情報をベースに、AIなどの新しい技術を駆使して今何が行われているのかを可視化するウェブアプリケーションです。会議の前後のコンテキストが切り取られてSNSで拡散される問題を解決したり、会議のAI要約やスピーカーの分類機能で、より議論を身近なものにします。
   description_en: # TBD
   thumbnail: capitalens.webp
@@ -200,7 +200,7 @@
 
 - id: 3d_printed_brushless_motor
   title: 3Dプリンタで作る自作モーター
-  title_en: # TBD
+  title_en: Creating a DIY Motor with a 3D Printer
   description: このプロジェクトの最終目標は、モーター選定に自作という選択肢を増やし、アイデアをより的確に実現できるようにすることです。そのための第一歩として、3Dプリント部品でブラシレスモーターを作り、制御回路を自作し、モーターを回すことに成功しました。今後は、高効率化や情報公開を進め、モーター自作文化を作ります。
   description_en: # TBD
   thumbnail: 3d_printed_brushless_motor.webp
@@ -215,7 +215,7 @@
 
 - id: code_museum
   title: Code Museum - 読むことだけに特化したソースコードエディタ
-  title_en: # TBD
+  title_en: Code Museum - A Source Code Editor Specializing Only in Reading
   description: Code Museumは、一般的なエディタからあえて「書く機能」をなくし、「読む機能」に特化したソースコードエディタです。範囲実行やGPTを活用した機能など、様々な「読む機能」があります。このエディタを使うことで、コードを読んでいる時間を短縮し、生産性を上げることができます。
   description_en: # TBD
   thumbnail: code_museum.webp
@@ -230,7 +230,7 @@
 
 - id: lescued
   title: lescued - AIで好みの曲を生成するシステム
-  title_en: # TBD
+  title_en: lescued - A System for Generating Preferred Music Using AI
   description: lescuedはユーザーが「聴きたい曲」を言語化不要で生成する作曲AIです。これはAIがユーザーの好みを学習していき、その過程で生成した曲をユーザーに提供することによって実現させています。この仕組みをアプリとして提供することで、自分が必要としている曲に直接アクセスできるようになります。
   description_en: # TBD
   thumbnail: lescued.webp
@@ -247,7 +247,7 @@
 # 2022年度
 - id: fluxel
   title: Fluxel - 磁気浮上式リニア電磁加速投射機の開発と応用
-  title_en: # TBD
+  title_en: Fluxel - Development and Application of a Magnetic Levitation Linear Electromagnetic Acceleration Launcher
   description: 直線レール上に物体を磁気浮上させ電磁力によって加速し射出する装置です。固定翼型輸送ドローンの短距離離陸に電磁カタパルトを利用できると考え開発した物です。レール上のコイルに順々にパルス電流を与えて素早く加速させます。モーターやベルト等の機械的動作がありません。
   description_en: # TBD
   thumbnail: fluxel.webp
@@ -262,7 +262,7 @@
 
 - id: r-order
   title: R-Order - 学校版UberEatsを実現するデリバリーサービス
-  title_en: # TBD
+  title_en: R-Order - A Delivery Service Realizing the School Version of UberEats
   description: R-Orderは、休み時間にコンビニの商品を注文すると自分の教室まで商品を届けてくれるデリバリーアプリです。実際に僕の学校で導入するために、授業中は注文できないようにするなど学校運営に寄り添ったサービスに改善していきました。また、学校以外でも、ホテルや病院などクローズドなコミュニティ内で使用することができます。
   description_en: # TBD
   thumbnail: r-order.webp
@@ -277,7 +277,7 @@
 
 - id: motion_rapid
   title: Motion Rapid - 動画編集ソフトのようなUIでCSSアニメーションを作成するツール
-  title_en: # TBD
+  title_en: Motion Rapid - A Tool for Creating CSS Animations with a Video Editing Software-like UI
   description: MotionRapidはCSSパララックスアニメーションを動画編集ソフトのようなUIから作成できるツールです。動画編集ソフトで広く採用されているタイムラインUIを使い、HTMLやCSS、JavaScriptを直接コーディングすることなくパララックスアニメーションを作成することができます。
   description_en: # TBD
   thumbnail: motion_rapid.webp
@@ -292,7 +292,7 @@
 
 - id: michishirube
   title: スマート盲導杖『みちしる兵衛』～AI搭載白杖による視覚障害者歩行支援～
-  title_en: # TBD
+  title_en: "Smart Guide Cane 'Michishirube' ~ AI-Powered White Cane for Assisting the Visually Impaired ~"
   description: 『みちしる兵衛』は、独自の機械学習モデルに基づくAIを搭載した白杖です。視覚障害者の方々の歩行中に、線路や横断歩道、クルマといった危険を検出・通知し、より安心して歩行ができるよう補助します。
   description_en: # TBD
   thumbnail: michishirube.webp
@@ -307,7 +307,7 @@
 
 - id: hak
   title: HAK － Hand Action Keyboard － 物理的なタッチを必要としない装着型入力デバイス
-  title_en: # TBD
+  title_en: HAK - Hand Action Keyboard - A Wearable Input Device That Does Not Require Physical Touch
   description: HAKは指と手首の動きをトラッキングし、文字やカーソルの入力に変換する、まるでSFの世界から来たかのような装着型の入力デバイスです。入力における手の動作はすべて空中で完結でき、従来の平面的な操作による入力デバイスとは違い、空間による制約が少なくできます。
   description_en: # TBD
   thumbnail: hak.webp
@@ -322,7 +322,7 @@
 
 - id: nu_desktop
   title: NuDesktop - 軽量かつ柔軟なデスクトップ環境
-  title_en: # TBD
+  title_en: NuDesktop - A Lightweight and Flexible Desktop Environment
   description: NuDesktopは、デバイスの状態や形態に合わせて変化するUIを提供するLinux向けのデスクトップ環境です。これにより、従来の環境ではUIが提供されなかったデバイスをより良いUIとともに使うことができます。
   description_en: # TBD
   thumbnail: nu_desktop.webp
@@ -337,7 +337,7 @@
 
 - id: noxicel
   title: Noxicel - 英作文とAIを用いた英単語学習アプリ
-  title_en: # TBD
+  title_en: Noxicel - An English Vocabulary Learning App Using English Composition and AI
   description: NoxicelはAIを用いた、英作文を通じて英単語を学習するアプリです。英作文によって、英単語を文脈や文法と共に覚えることができます。また、教師がいない場面でも気軽に英作文ができるように、OpenAIの技術を使用し文法や用法等の提案をします。
   description_en: # TBD
   thumbnail: noxicel.webp
@@ -353,7 +353,7 @@
 
 - id: scairecrow
   title: scairecrow - カラスからゴミを守るシステム
-  title_en: # TBD
+  title_en: scairecrow - A System to Protect Garbage from Crows
   description: scairecrowはゴミ捨て場に近づくカラスを迎撃するハードウェアプロジェクトです。カラスによってゴミが荒らされることで町が汚くなっています。その問題を解決するために、リアルタイムでカラスを物体検出し、レーザーを照射することで効果的に迎撃できるシステムを開発しました。
   description_en: # TBD
   thumbnail: scairecrow.png
@@ -368,7 +368,7 @@
 
 - id: sanitas
   title: Sanitas 努力量を共有して美容と健康を支えるアプリ
-  title_en: # TBD
+  title_en: "Sanitas: An App Supporting Beauty and Health by Sharing Effort Data"
   description: Sanitasは健康・ダイエットに対する意識や努力のポイントを、友達と共有してゲーム感覚で楽しく健康維持・ダイエットの継続をサポートするアプリです。運動や歩数・毎日の自己評価によるポイントを集めて友達と競いましょう。努力の可視化によって毎日のダイエットや健康維持のモチベーションを保ちます。
   description_en: # TBD
   thumbnail: sanitas.webp
@@ -383,7 +383,7 @@
 
 - id: study_rec
   title: StudyRec - タイムラプスやポモドーロ・タイマーを使って勉強時間を管理する学習アプリ
-  title_en: # TBD
+  title_en: StudyRec - A Learning App to Manage Study Time Using Time-Lapse and Pomodoro Timer
   description: StudyRecは勉強時間の可視化によりモチベーションをアップさせる勉強アプリです。勉強している姿をタイムラプスで撮影することでスマホ使用を制限、友人との共有が可能になります。集中力を維持するポモドーロタイマーも使うことができます。
   description_en: # TBD
   thumbnail: study_rec.webp
@@ -399,7 +399,7 @@
 
 - id: craftere_post
   title: CrafterePost - Minecraft建築物3D共有Webサービス
-  title_en: # TBD
+  title_en: CrafterePost - A Web Service for Sharing 3D Minecraft Structures
   description: CrafterePostは、Minecraftの建築物を3D共有できるWebサービスです。視聴者はブラウザだけで、建築物を好きな角度から眺めることができます。投稿者が建築過程を3D動画にすれば、視聴者は任意の時点・視点から眺めることができ、ブロックが複雑に入り組んでる構造でもわかりやすいです。
   description_en: # TBD
   thumbnail: craftere_post.webp
@@ -415,7 +415,7 @@
 # 2021年度
 - id: vr_sandbox
   title: VRSandbox：誰でも簡単3Dモデリングツール
-  title_en: # TBD
+  title_en: "VRSandbox: An Easy 3D Modeling Tool for Everyone"
   description: VRコントローラーを筆とパレットのように使い、直感的に立体物が作れるアプリです。仮想空間や３Dモデルが身近になりましたが、現状で個人が作るのは簡単ではありません。難解なモデリングソフトを使用しなくても簡単に３Dモデリングできます。しゃがむアクションで縮尺が変わり、実物大の建造物に入れます。
   description_en: # TBD
   thumbnail: vr_sandbox.webp
@@ -429,7 +429,7 @@
 
 - id: mark_sdgs
   title: マークみっけ！for SDGs
-  title_en: # TBD
+  title_en: "Mark Finder! for SDGs"
   description: SDGsの事を楽しく学べて身近に感じる小学生向けWebアプリです。AIカメラがSDGsと関わっている身の周りにあるマークを教えてくれます。2030年の泣いている子供たちの言葉をヒントにマークを集めると世界が救えます。GIGAスクールで配られたタブレットを持って、学校・家・街でマークを探しに行こう！
   description_en: # TBD
   thumbnail: sdgs.webp
@@ -443,7 +443,7 @@
 
 - id: cybotanic
   title: Cybotanic：サイボーグ化された植物。
-  title_en: # TBD
+  title_en: "Cybotanic: Cyborg-Enhanced Plants."
   description: 「植物が生きている」ことを直感的に感じるために、テクノロジーの力で「植物の機能」を拡張するプロジェクトです。植物のイオンチャネルに流れる生体電位を電極で取得し、そこから採れたデータを基に植物を人工筋肉で動かしたり、シンセサイザーを人間と共演します。
   description_en: # TBD
   thumbnail: cybotanic.webp
@@ -458,7 +458,7 @@
 
 - id: telport
   title: TELPort/テルポート：音波による高速通信プロトコル及び、スピーカーとマイクを介した送受信アプリ
-  title_en: # TBD
+  title_en: "TELPort: High-Speed Communication Protocol Using Sound Waves and Transmission/Reception Application via Speaker and Microphone"
   description: あらゆるデータを複数の周波数と振幅の合成波に変換し、空間と時間を活用した通信を提供するプロトコルです。口頭での伝達が難しいファイルや情報を高速かつ正確に転送し、スマホアプリ化により様々な用途への導入も容易で、費用や特別な設備を必要としません。
   description_en: # TBD
   thumbnail: telport.webp
@@ -472,7 +472,7 @@
 
 - id: curepathy
   title: Curepathy -子供の興味を深めるアプリ-
-  title_en: # TBD
+  title_en: "Curepathy - An App to Deepen Children's Interests"
   description: 小中学生を対象とした能動的な学習を支援するアプリです。ユーザーの評価・タグ・レコメンドエンジンによってユーザーの興味に合った学習コンテンツを提示するほか、着せ替えゲームの要素を取り入れることで楽しく学び続けられる仕組みを提供します。
   description_en: # TBD
   thumbnail: curepathy.webp
@@ -487,7 +487,7 @@
 
 - id: researcheck
   title: Researcheck-調べ学習サポートアプリ-
-  title_en: # TBD
+  title_en: Researcheck - Research Study Support Application
   description: Researcheckは学生の知りたい気持ちを応援する調べ学習アプリです。インターネットには信憑性が低い情報や芸能ニュースによる検索結果の汚染、情報の偏りなどの問題がありますResearcheckは、調べ学習に不適切な情報を警告、除外し対義語を挿入して検索結果の中立性を保ちます。
   description_en: # TBD
   thumbnail: researcheck.webp
@@ -501,7 +501,7 @@
 
 - id: augment
   title: Augment － リアルタイム音階推定を用いた音楽ゲーム
-  title_en: # TBD
+  title_en: Augment - A Music Game Utilizing Real-Time Scale Estimation
   description: ユーザーが弾いている楽器の音をリアルタイムで音階推定し、直感的に楽器を楽しめる音楽ゲームです。タブレットやスマホの楽器アプリでも遊ぶことができます。
   description_en: # TBD
   thumbnail: augment.webp
@@ -516,7 +516,7 @@
 
 - id: haniwa
   title: Haniwa - 家族間タスク共有&報酬提供アプリ
-  title_en: # TBD
+  title_en: Haniwa - Task Sharing and Reward Provision App for Families
   description: Haniwaは家事などの定期的で意外と重労働な家事に対して、モチベーションアップ+タスク管理を行うアプリケーションです。タスクをクリアするごとに「スター」というアプリ内ポイントを収集し、それによってお小遣いやちょっとした贅沢などを取引することができます。家事以外にも子供の勉強やおつかいなど汎用的なタスクに使用できます
   description_en: # TBD
   thumbnail: haniwa.webp
@@ -530,7 +530,7 @@
 
 - id: puguette
   title: パゲット - 全て3Dプリントされた四足歩行ロボット
-  title_en: # TBD
+  title_en: Puguette - A Fully 3D-Printed Quadruped Robot
   description: パゲットは、全て3Dプリントされた四足歩行ロボットです。モデルデータ、コードを共有する事により、比較的容易にロボット開発ができます。主な目的は、OpenTorqueからヒントを得て、低コストでアクチュエータを開発することでした。
   description_en: # TBD
   thumbnail: puguette.webp
@@ -544,7 +544,7 @@
 
 - id: anyget
   title: ">>Anyget/掲示板形式小説執筆支援ツール"
-  title_en: # TBD
+  title_en: ">>Anyget/ Bulletin Board Style Novel Writing Support Tool"
   description: SNSや匿名掲示板などを舞台にした、複数の投稿が織りなす物語の執筆を支援するツールです。開発者の執筆経験をもとに、投稿の並び替え、ランダムIDの生成、投稿のコピー&ペーストなど、書き手に嬉しい様々な機能を実装しました。
   description_en: # TBD
   thumbnail: anyget.webp
@@ -558,7 +558,7 @@
 
 - id: killin_engine
   title: KillinEngine -マルチプレイ型ゲーム制作エンジン-
-  title_en: # TBD
+  title_en: KillinEngine - A Multiplayer Game Development Engine
   description: キリンエンジンは、仲間と遊びながらオンラインマルチプレイゲームが作れるゲーム制作ツールです。最新のネットワーク技術により、クリエイターたちは一つの仮想空間に召喚されゲームをリアルタイム共同編集することができます。
   description_en: # TBD
   thumbnail: killin_engine.webp
@@ -572,7 +572,7 @@
 
 - id: web_koten
   title: Web個展 - Webであることを活かしたオンライン展示形式の模索
-  title_en: # TBD
+  title_en: Web Solo Exhibition - Exploring Online Exhibition Formats Leveraging the Web
   description: 2019年終わりごろから流行し始めたCOVID-19によって、いくつもの現実の個展の開催が中止、延期され、開催する場合も大きな制限を受けることとなりました。それを受け、最近ではWebサイト上で閲覧できる展示も増えましたが、その多くは「現実の個展を再現する」ことに主眼をおいたものであり、あくまでCOVID-19の流行による現実の個展の代替的なものという意味合いが大きいものでした。Web個展ではWebという媒体の特性をより引き出すことに焦点を当て、観覧者がワクワクできるような個展を目指します。
   description_en: # TBD
   thumbnail: web-koten.webp
@@ -586,7 +586,7 @@
 
 - id: birds_eye
   title: Birds eye ぴーちゃん　自転車危険予測アプリ
-  title_en: # TBD
+  title_en: "Birds eye Pi-chan: Bicycle Hazard Prediction App"
   description: 自転車で行動範囲が広がり始めた小学校高学年のこどもを対象にした自転車危険予測アプリ。登録した危険な交差点に近づくと注意喚起を促します。親子で交通ルールや正しい自転車の乗り方について話せる仕掛けがあり、繰り返し経験することで自分自身と他者の安全を守れる自転車運転を身につけることを目的としています。
   description_en: # TBD
   thumbnail: birds_eye.webp
@@ -600,7 +600,7 @@
 
 - id: mock_up
   title: "mock up: 動画編集ソフトウェアフレームワーク"
-  title_en: # TBD
+  title_en: "mock up: Video Editing Software Framework"
   description: mock upは動画編集ソフトウェアフレームワークです。動画のレンダリングエンジンと、カスタムフィルター・アニメーションを提供します。mock upを利用すれば、mumlという中間言語を通して動画編集処理を記述することで、簡単なフロントエンドからの呼び出しだけで、動画編集機能を実装することができます。
   description_en: # TBD
   thumbnail: mock_up.webp
@@ -615,7 +615,7 @@
 # 2020年度
 - id: flight_fit_vr
   title: -Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品
-  title_en: # TBD
+  title_en: '-Flight Fit VR- A VR Project for Physical Training in a Virtual Space with the Theme of "Flight"'
   description: OculusのVRゴーグルで、美しい景色と音楽の中でリラックスしながら身体を鍛えることができる作品です。３つのミニゲームから構成されており、体幹、腹筋、前腿の筋肉などの筋力向上を期待できます。
   description_en: # TBD
   thumbnail: flight_fit_vr.webp
@@ -629,7 +629,7 @@
 
 - id: guinfra
   title: GUInfra〜GUIで建てるインフラストラクチャー〜
-  title_en: # TBD
+  title_en: "GUInfra: Building Infrastructure with a GUI"
   description: GUInfraは、クラウドインフラの構成図を自作のグラフ作成ツールを使用して作成でき、トークンを入力することで実際に構築、破棄ができるサービスです。これを使うことにより、クラウドインフラを効率よく学習することができます。
   description_en: # TBD
   thumbnail: guinfra.webp
@@ -643,7 +643,7 @@
 
 - id: brush_talk
   title: ぶらっしゅとーく〜小さな子どものための筆談アプリ〜
-  title_en: # TBD
+  title_en: "Brush Talk: A Communication App for Young Children"
   description: これは文字がまだうまく書けない小さな子と耳が聞こえづらいお年寄りがコミュニケーションを取るための筆談アプリです。スマホを使い慣れないお年寄りも簡単に使えるように、操作するためのボタンをなるべく少なくしました。また、イラストを使用することで小さな子が感覚的に使えるようにしました。
   description_en: # TBD
   thumbnail: brush_talk.webp
@@ -657,7 +657,7 @@
 
 - id: spaghetian
   title: Spaghetian - 電気と電磁石だけでCPUを自作する！
-  title_en: # TBD
+  title_en: Spaghetian - Building a CPU Using Only Electricity and Electromagnets
   description: 三機の電磁石式自作自作CPUを互いにつなげてネットワークにし、その上でオンラインピンポンゲームが動くロマン溢れるプロジェクトです！魔法と見分けがつかなくなった現代のコンピュータテクノロジーの基本を自作することにより、それらが誰でも理解できることを示します。
   description_en: # TBD
   thumbnail: spaghetian.webp
@@ -671,7 +671,7 @@
 
 - id: color_overlap
   title: Color Overlap - 光の三原色RGBを使ったパズルゲーム
-  title_en: # TBD
+  title_en: Color Overlap - A Puzzle Game Using the Three Primary Colors of Light (RGB)
   description: 魔法によって「色」を奪われ石にされてしまった人々を救うパズルゲームです。光の３原色RGBの様々な形のブロックをうまく重ねて、王国に色を取り戻そう。Unityで制作しています。
   description_en: # TBD
   thumbnail: color_overlap.webp
@@ -685,7 +685,7 @@
 
 - id: poet
   title: Poet ~詩人のための創作ツール~
-  title_en: # TBD
+  title_en: Poet ~A Creative Tool for Poets~
   description: Poet は詩を書く人のための創作ツールで、いつでもどこでも手軽にアイデアを書き留めることができます。日常の言葉を簡単に書き留めることができる環境を通して、ユーザー各々にとっての言葉の宝箱を提供します。
   description_en: # TBD
   thumbnail: poet.webp
@@ -699,7 +699,7 @@
 
 - id: visible
   title: Visible ─ Webアクセシビリティー診断 & 修正提案ツール
-  title_en: # TBD
+  title_en: Visible ─ Web Accessibility Diagnosis & Correction Proposal Tool
   description: VisibleはWebサイトのアクセシビリティーを診断するサービスです。URLを入力することで問題点を検出しリファレンス付きで提示する他、その修正方法を自動的に提案します。
   description_en: # TBD
   thumbnail: visible.webp
@@ -714,7 +714,7 @@
 
 - id: mer
   title: Mer - 多機能電子リコーダー
-  title_en: # TBD
+  title_en: Mer - Multifunctional Electronic Recorder
   description: MERはリコーダーを元に、様々な機能を搭載した電子楽器です。発音が簡単なので、初心者でも完成度の高い演奏を体験できます。さらに、気圧センサ、ロータリーエンコーダ 、3D触覚センサを用いた高度な楽器制御が可能です。内蔵FM音源の他に、MIDI出力に対応しているので、ユーザーの好きな音源で演奏ができます。
   description_en: # TBD
   thumbnail: mer.webp
@@ -728,7 +728,7 @@
 
 - id: skimer
   title: SKIMER - LINEで手軽にやること管理
-  title_en: # TBD
+  title_en: SKIMER - Easy Task Management with LINE
   description: 「SKIMER(スキマー)」は中高生の宿題を管理するためにデザインされたタスク管理アプリです。LINEで友だち追加して簡単に始められます。「クラスのライングループ」から着想を得て、宿題の共有をしたり、宿題の遂行状況を可視化してランキングを作ることで、モチベーションを保てる工夫をしました。そのため、社会性・競争性を取り入れてゲーム感覚で宿題ができます。
   description_en: # TBD
   thumbnail: skimer.webp
@@ -743,7 +743,7 @@
 
 - id: glider_gun
   title: GliderGun - ブラウザOSを簡単に作成できるツール郡
-  title_en: # TBD
+  title_en: GliderGun - A Suite of Tools for Easily Creating Browser-Based Operating Systems
   description: このプロジェクトはLinuxのディストリビューションを簡単に作成できるツール郡を提供します。また、作成するディストリビューションはブラウザを使うことを主な目的としており、このように機能を制限することで様々な恩恵を得ることができます。
   description_en: # TBD
   thumbnail: glider_gun.webp
@@ -757,7 +757,7 @@
 
 - id: align
   title: Align - バッテリー残量からはじまるエモチャット
-  title_en: # TBD
+  title_en: Align - Emotion Chat Starting from Battery Level
   description: Alignは手軽にエモいを味わうことができるランダムマッチングチャットアプリです。バッテリー残量が近い人とマッチングし、バッテリー残量が離れると強制的に切断されてしまいます。別れを前提にした新しいチャットアプリで平穏な日常にAlignでちょっと刺激的な体験をお楽しみください。
   description_en: # TBD
   thumbnail: align.webp
@@ -772,7 +772,7 @@
 
 - id: critica
   title: critica  - 手軽で直感的なリアクション回収ツール
-  title_en: # TBD
+  title_en: critica - A Simple and Intuitive Feedback Collection Tool
   description: 「この質問本当にいるの?」「アカウントが必須?」ーー　既存のフォームアプリは、冗長なフォームが作れてしまう、フォームの作成に手間がかかるという課題がありました。criticaはシンプルなリアクションを回収することに特化した、作成者・回答者双方にとって「簡単」なリアクション回収ツールです。数多くのユーザテストをもとに、作成者・回答者双方にとって「簡単」な新しいフォームの形を追求しました。
   description_en: # TBD
   thumbnail: critica.webp
@@ -787,7 +787,7 @@
 
 - id: force_book
   title: ForceBook - つよつよ自作ノートPC
-  title_en: # TBD
+  title_en: ForceBook - A Powerful Custom-Built Laptop
   description: 筐体から設計・自作し、開発者やゲーマーに使ってほしいノートPCを実現しました。カスタマイズ性を重視してデスクトップ用のパーツを使い、あえてバッテリーを搭載せず電源接続とすることでコンパクトにしました。さらにトラックパッドとしてタッチディスプレイによる新しいインターフェースを考案・実装し、使いやすさにこだわりました。
   description_en: # TBD
   thumbnail: forcebook.webp
@@ -801,7 +801,7 @@
 
 - id: levo
   title: Levo - 全く新しい近未来的デザインのエアソフトガン
-  title_en: # TBD
+  title_en: Levo - A Completely New Futuristic Design for Airsoft Guns
   description: Levoは3DCADと3Dプリンターを最大限活用して開発された近未来的デザインのエアソフトガンです。前例のないデザインでありながら、内部機構の電子制御や極限までコンパクトに設計されたフレームによって機動性を高め、スポーツとしてのサバイバルゲームに特化したエアソフトガンとなっています。
   description_en: # TBD
   thumbnail: levo.webp
@@ -814,15 +814,14 @@
     - yamaguchi_yuya
 
 - id: rocat
-  #link: https://rocat.jp/
   title: Rocat ～モデルロケットを使ったSTEM教育～
-  title_en: # TBD
+  title_en: "Rocat: STEM Education Using Model Rockets"
   description: Rocatは様々なセンサを搭載したプログラミング可能なモデルロケットSTEM教材です。ロケットを組み立てて飛ばして得たデータを考察し合い、楽しく科学や技術への理解を深めていける教材の開発を行っています。
   description_en: # TBD
   thumbnail: rocat.webp
   #promotion:
   final: NXi1hunbMg0
-  #link:
+  #link: https://rocat.jp/
   year: 2020
   mentor_id: shouya_ishimaru
   creator_ids:
@@ -835,7 +834,7 @@
 # 2019年度
 - id: amoyo
   title: 編模様 (あもーよ) イラスト手編み支援アプリ
-  title_en: # TBD
+  title_en: "Pattern Weaving: Illustration Hand-Knitting Support Application"
   description: 編模様(あもーよ)はイラスト手編みを支援するアプリです。オリジナルの編み図を作り、色が変わるまでの数が表示されることで編み間違いを減らすことができます。自分だけの作品を、時間を忘れて編み続けてしまうほど楽しく簡単に作れるようになります。
   description_en: # TBD
   creator_ids:
@@ -849,7 +848,7 @@
 
 - id: det_exploit
   title: DetExploit - Windows用OSS脆弱性スキャナー
-  title_en: # TBD
+  title_en: "DetExploit - Open Source Vulnerability Scanner for Windows"
   description: DetExploitはWindowsにインストールされている脆弱なソフトウェアを検知し、ユーザーに通知するオープンソースの脆弱性スキャナーです。WMIやレジストリなどのWindows独自機能を使い、高精度なスキャンを実現しています。
   description_en: # TBD
   creator_ids:
@@ -859,12 +858,12 @@
   #promotion:
   final: 0XUID-IQzEk
   final_start: 105
-  link: https://detexploit.org/
+  link: https://github.com/detexploit/DetExploit
   year: 2019
 
 - id: pirka
   title: pirka - 会話を通して成長する人工知能技術
-  title_en: # TBD
+  title_en: pirka - Artificial Intelligence Technology that Grows Through Conversations
   description: pirkaは、チャットで会話するにつれてあなたの言葉遣いや知識を学習し、個性が出る人工知能です。いわば、「世界に一つの、あなただけのAI」。感情や好みまで自分そっくりのその姿に、きっと親近感が湧きます。
   description_en: # TBD
   creator_ids:
@@ -878,7 +877,7 @@
 
 - id: neulot
   title: neulot - 生体信号を用いたインターフェイスの開発
-  title_en: # TBD
+  title_en: neulot - Development of an Interface Using Biological Signals
   description: 生体信号を用いて人間の運動推定をすることを目的に、頭皮脳波・表面筋電位を計測するデバイスの設計・開発と、デバイスを用いた動作推定のアルゴリズム開発を行いました。 頭皮脳波の計測では右上肢の運動推定を行うことに成功し、表面筋電位センサについては実際に筋電義手メーカに採用していただくことができました。
   description_en: # TBD
   creator_ids:
@@ -892,7 +891,7 @@
 
 - id: abecobe
   title: abecobe - シンプルかつ難しいパズルゲーム
-  title_en: # TBD
+  title_en: abecobe - A Simple Yet Challenging Puzzle Game
   description: 正反対な主人公と相棒をゴールにぴったり導くパズルゲーム、abecobeが登場しました。操作は上下左右方向のフリックのみ。２つのキャラクターをぴったりゴールに持っていくだけです。制限時間内にどれだけクリアできるでしょうか？
   description_en: # TBD
   creator_ids:
@@ -906,7 +905,7 @@
 
 - id: manage_stock
   title: ManageStock - 家庭向け在庫管理アプリ
-  title_en: # TBD
+  title_en: ManageStock - Inventory Management App for Households
   description: ティッシュペーパーのような日用品を買い忘れてしまい、困った経験はありませんか？ ManageStock はそのような問題を解決するために、在庫を IoT などを活用して管理するアプリケーションです。
   description_en: # TBD
   creator_ids:
@@ -922,7 +921,7 @@
 
 - id: relay_master
   title: リレーマスター
-  title_en: # TBD
+  title_en: Relay Master
   description: センサが埋め込まれた特殊なバトンを持って走るだけで，あらゆる運動を解析するシステムを開発しました。データは専用のwebにアップロードして，あなたの運動をAIで分析・最適化します。“リレーマスター” を利用して，プロに匹敵するパフォーマンスを実現してみませんか？
   description_en: # TBD
   creator_ids:
@@ -936,7 +935,7 @@
 
 - id: virtual_presents
   title: VirtualPresents - 仮想世界で用いるWebサービス
-  title_en: # TBD
+  title_en: VirtualPresents - A Web Service for Use in Virtual Worlds
   description: 仮想世界を彩るためのWebサービスのあり方を模索するプロジェクトです。仮想世界にWeb上から画像を出稿したり、Twitterのようないいね機能を提供することができます。仮想世界とWebという大きく異なる2つの間の架け橋となる概念を提案しました。
   description_en: # TBD
   creator_ids:
@@ -951,7 +950,7 @@
 
 - id: edge_guided_anime_characters_generation
   title: Edge-guided Anime Characters Generation
-  title_en: # TBD
+  title_en: Edge-guided Anime Characters Generation
   description: 描きかけの線画を自動で完成させることができる、GANをベースとしたシステムを開発した。これを用いることで初心者でも複雑なイラストを簡単に描くことができるようになる。特に本研究ではアニメの顔画像の生成に焦点をあてた。
   description_en: # TBD
   creator_ids:
@@ -965,7 +964,7 @@
 
 - id: mallet
   title: Mallet - モバイル端末用簡易アプリ開発環境
-  title_en: # TBD
+  title_en: Mallet - A Simple Application Development Environment for Mobile Devices
   description: Malletはスマホやタブレットだけで簡単なアプリを作れる開発環境です。プログラミングに不慣れな方でもブロックを組み合わせてコードを書くことができ、作ったアプリを友達や家族と共有することもできます。
   description_en: # TBD
   creator_ids:
@@ -979,7 +978,7 @@
 
 - id: tea
   title: Tea - 仮想経済シミュレーションプラットフォームとゲーム
-  title_en: # TBD
+  title_en: Tea - Virtual Economy Simulation Platform and Game
   description: Teaは、仮想経済シミュレーションプラットフォームとそれを使用したゲームです。実際の経済のようなシステムを用意し、ユーザーに自由に貨幣やアイテムの交換をしてもらい、貨幣経済をシミュレーションします。様々な社会システムをシミュレートできます。
   description_en: # TBD
   creator_ids:
@@ -993,7 +992,7 @@
 
 - id: fresh_capsule
   title: fresh capsule - 食材管理アプリ
-  title_en: # TBD
+  title_en: fresh capsule - Food Management App
   description: fresh capsuleは、購入した食材の賞味期限を管理する携帯アプリです。 賞味期限が印字されている部分をスマートフォンで撮影すると、賞味期限がアプリ内のリストに落とし込まれます。
   description_en: # TBD
   creator_ids:
@@ -1007,7 +1006,7 @@
 
 - id: smart_vj
   title: SmartVJ - 参加型の新しいメディアアート
-  title_en: # TBD
+  title_en: SmartVJ - A New Form of Participatory Media Art
   description: スマートフォン1台で誰でも簡単に参加できる体験型のメディアアートです。映像を映し出すPCとスマートフォンがあればスグに遊ぶことが出来ます。直感的な操作で音楽と映像を彩る新しい体験ができ、皆で作品を作り上げる楽しさを味わえます。
   description_en: # TBD
   creator_ids:
@@ -1022,7 +1021,7 @@
 # 2018年度
 - id: utips
   title: UTIPS - 家事の情報共有サービス
-  title_en: # TBD
+  title_en: UTIPS - Household Information Sharing Service
   description: 家事のやり方を共有するWEBサービスを開発。ほかの家のやり方を知ることで、よりよい家事をできるように支援。
   description_en: # TBD
   creator_ids:
@@ -1038,7 +1037,7 @@
 
 - id: lets_eigo_puzzle
   title: "Let'sえいごパズル! - 変化するキューブで楽しく学ぶ英単語"
-  title_en: # TBD
+  title_en: "Let's English Puzzle! - Learn English Vocabulary Enjoyably with Transforming Cubes"
   description: 小学生が遊びながら英単語を学べる、赤外線通信ブロックとゲームを開発。
   description_en: # TBD
   creator_ids:
@@ -1053,7 +1052,7 @@
 
 - id: smile_meeting_room
   title: スマイル会議室 - IoTで会議室の効率的な利用を
-  title_en: # TBD
+  title_en: Smile Conference Room - Efficient Use of Conference Rooms with IoT
   description: IoTデバイスを用いて会議室予約や会議室内の備品の電源などを制御することで会議室の効率的利用を支援。
   description_en: # TBD
   creator_ids:
@@ -1068,7 +1067,7 @@
 
 - id: vreath
   title: Vreath - 暗号通貨の入手障壁を下げるための、独自合意アルゴリズムの開発
-  title_en: # TBD
+  title_en: Vreath - Development of a Unique Consensus Algorithm to Lower Barriers to Acquiring Cryptocurrency
   description: 誰もが簡単に仮想通貨を入手できる、新しいブロックチェーンを実現するための合意アルゴリズムを開発。
   description_en: # TBD
   creator_ids:
@@ -1083,7 +1082,7 @@
 
 - id: corkboard
   title: Corkboard - 位置的に管理するメモサービス
-  title_en: # TBD
+  title_en: Corkboard - A Location-Based Memo Management Service
   description: 使用者の記録や感情を蓄え変化する「森」を基調としたメモ帳アプリのデザインコンセプトを提案
   description_en: # TBD
   creator_ids:
@@ -1098,7 +1097,7 @@
 
 - id: touch_buy
   title: TouchBuy - VRにおけるECの在り方の模索
-  title_en: # TBD
+  title_en: TouchBuy - Exploring the Future of E-Commerce in VR
   description: VR空間上でECサイトを提供する方法について、様々なプロトタイプを作りながら模索した。
   description_en: # TBD
   creator_ids:
@@ -1115,7 +1114,7 @@
 
 - id: robot_soccer
   title: 強化学習を用いたロボットサッカーシミュレーション
-  title_en: # TBD
+  title_en: Robot Soccer Simulation Using Reinforcement Learning
   description: 強化学習を用いた、ロボットサッカーのプレイヤーの開発。
   description_en: # TBD
   creator_ids:
@@ -1130,7 +1129,7 @@
 
 - id: memory_capsule
   title: メモリーカプセル - カプセルを通して繋がるSNS
-  title_en: # TBD
+  title_en: Memory Capsule - A Social Networking Service Connecting Through Capsules
   description: 場所に紐付いて、仮想カプセルを埋め、それを掘り出すことのできるSNSを開発。
   description_en: # TBD
   creator_ids:
@@ -1145,7 +1144,7 @@
 
 - id: sound_in_the_forest
   title: Sound in the forest - 複数のスマートフォンによる「動く音」の表現
-  title_en: # TBD
+  title_en: 'Sound in the forest - Representation of "Moving Sound" Using Multiple Smartphones'
   description: 複数のスマートフォン上のウェブブラウザをリアルタイム同期させ、立体音響を実現するシステムの開発。
   description_en: # TBD
   creator_ids:
@@ -1160,7 +1159,7 @@
 
 - id: toubans
   title: Toubans! -LINEで設定・通知できる当番お知らせサービス
-  title_en: # TBD
+  title_en: "Toubans! - A Duty Notification Service Configurable and Notifiable via LINE"
   description: 掃除当番に代表される、学校での「当番」の任命や通知をLINE上でできるようにするサービスの開発。
   description_en: # TBD
   creator_ids:
@@ -1175,7 +1174,7 @@
 
 - id: camera_translation
   title: 写して翻訳
-  title_en: # TBD
+  title_en: Camera Translation
   description: 写真を写すことで、そこに写った物体の名前を他の言語に翻訳するスマートフォンアプリの開発。
   description_en: # TBD
   creator_ids:
@@ -1190,7 +1189,7 @@
 
 - id: life_watcher
   title: Life Watcher - 急変する持病を持つ人のための警報システム
-  title_en: # TBD
+  title_en: Life Watcher - An Alert System for Individuals with Sudden Changes in Chronic Conditions
   description: スマートウォッチ上で動作する、急変する持病を持つ人を助ける警報アプリの開発。
   description_en: # TBD
   creator_ids:
@@ -1206,7 +1205,7 @@
 # 2017年度
 - id: music_reminder
   title: 個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案
-  title_en: # TBD
+  title_en: Proposal for a Smartphone Application that Recommends Music Based on Personal Experiences
   description: カラオケで歌った曲、見た映画等の経験に基づいて、AppleMusicから曲を推薦する新しい仕組みのiOSアプリを開発
   description_en: # TBD
   creator_ids:
@@ -1222,7 +1221,7 @@
 
 - id: papa
   title: 学校現場における情報共有やスケジューリングを支援するウェブアプリの提案
-  title_en: # TBD
+  title_en: Proposal for a Web Application to Support Information Sharing and Scheduling in School Settings
   description: PaPaという、学校での円滑な情報伝達を支援し、日本のIT教育に寄与することを目指したWEBアプリケーションを開発。
   description_en: # TBD
   creator_ids:
@@ -1239,7 +1238,7 @@
 
 - id: anki_cookie
   title: 暗記クッキー
-  title_en: # TBD
+  title_en: Memory Cookies
   description: WEBクイズで頑張って覚えた漢字や単語がクッキーに焼かれ、暗記学習のモチベーションアップを支援するシステムを開発。
   description_en: # TBD
   creator_ids:
@@ -1254,7 +1253,7 @@
 
 - id: narratica
   title: narratica〜ストーリーコンサルタント〜
-  title_en: # TBD
+  title_en: "narratica: Story Consultant"
   description: 自然言語処理によって、映画脚本のテキスト分析を行い、登場人物の感情変化をもとにストーリーを評価。自分で書いた文章もリアルタイムに感情分析。
   description_en: # TBD
   creator_ids:
@@ -1269,7 +1268,7 @@
 
 - id: savacs
   title: 見守りフォトスタンド
-  title_en: # TBD
+  title_en: Monitoring Photo Stand
   description: 老人宅の玄関に、見守り装置を設置し、介護者から見守れるようにするシステム。見守り装置は、カメラ及び各種センサを装備し、サーバーを介してWeb経由で介護者が随時様子を知ることができる。
   description_en: # TBD
   creator_ids:
@@ -1284,7 +1283,7 @@
 
 - id: fall_in_friends
   title: Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～
-  title_en: # TBD
+  title_en: "Fall in Friends: An App to Transform Japan's Inbound Tourism for the Tokyo Olympics"
   description: 困っている訪日外国人が、旅行者を助けたい日本人に質問できるアプリケーションを開発。
   description_en: # TBD
   creator_ids:
@@ -1299,7 +1298,7 @@
 
 - id: draw_code
   title: DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜
-  title_en: # TBD
+  title_en: "DrawCode: Create HTML Freely by Connecting Blocks"
   description: コードが書かれたブロックをつなげていくだけでサイトが作れ、さらにコードも書けるようになる初学者向けのサービスを開発。
   description_en: # TBD
   creator_ids:
@@ -1314,7 +1313,7 @@
 
 - id: listenable_keyboard
   title: "'聞く'キーボード"
-  title_en: # TBD
+  title_en: Listening Keyboard
   description: 日本語、英語、中国語の3言語で利用できる、音声認識機能を搭載したキーボード。
   description_en: # TBD
   creator_ids:
@@ -1329,7 +1328,7 @@
 
 - id: smile_iot
   title: SmileI/OT
-  title_en: # TBD
+  title_en: SmileI/OT
   description: プログラミング不要でIoTデバイスをカスタマイズできるシステムを開発。
   description_en: # TBD
   creator_ids:
@@ -1347,7 +1346,7 @@
 
 - id: vamboo
   title: FRPの概念に触れられるビジュアルプログラミング言語の開発
-  title_en: # TBD
+  title_en: Development of a Visual Programming Language that Introduces the Concept of FRP
   description: 配置したGUI要素を線で繋いでいくことでアプリケーションを作っていけるビジュアルプログラミング言語を開発。
   description_en: # TBD
   creator_ids:
@@ -1364,7 +1363,7 @@
 
 - id: rakuraku_yomiyomi
   title: らくらく読み読み
-  title_en: # TBD
+  title_en: Easy Reading
   description: 視力が低下したお年寄りから子どもまでが楽にニュース記事を読めるアプリ。文字の表示の工夫、読み進めた部分のマーキング、視線追跡などの機能を搭載。
   description_en: # TBD
   creator_ids:
@@ -1380,7 +1379,7 @@
 # 2016年度
 - id: vr_picture_book_maker
   title: VR絵本メーカー
-  title_en: # TBD
+  title_en: VR Picture Book Maker
   description: VR絵本メーカーは、 VRで体験できる世界やストーリーを制作するためのスマートフォンアプリケーションです。 物語の世界に入ることができる！大好きなあの人とデートができる！憧れのアーティストのライブにも行けちゃう！誰でも簡単にスマホで観れるVR絵本をつくれます。 ユーザーは背景となる360度画像を選択し、キャラクターや吹き出し、さらに効果音、遷移エフェクトを選択してVR絵本にします。
   description_en: # TBD
   creator_ids:
@@ -1395,7 +1394,7 @@
 
 - id: smart_pen
   title: スマートペン
-  title_en: # TBD
+  title_en: Smart Pen
   description: スマートペンは、「勉強する時間を計測してさぼり癖をなくしたい」という思いから開発された、スマートデバイスです。 ペンのグリップ部分に取り付けられた静電容量式タッチセンサを利用することでペンを握っているかを検知し、自動で勉強時間を計測、記録します。 記録した勉強時間のログは、スマートフォンに対応アプリケーションをインストールすることで簡単に見ることができます。
   description_en: # TBD
   creator_ids:
@@ -1411,7 +1410,7 @@
 
 - id: voice_commander
   title: Voice Commander ～命令×ポーズ×チェス～
-  title_en: # TBD
+  title_en: "Voice Commander: Commands × Poses × Che"
   description: Voice Commanderは、声とジェスチャーで操作する新感覚チェスゲームです。 グラフィックにこだわるだけでなく、音声認識によるコマの操作、スマホに表示したマーカーを利用したジェスチャー操作等を組み合わせることで、「かっこよさ」を追求しています。 アニメ「ノーゲーム・ノーライフ」に出てきたチェスから着想を得て開発をすすめました。 それぞれのマスにはプレーヤーが音声認識の際に叫ぶための名前がついていて、テキストファイルを変更することで簡単に名前をカスタマイズすることもできます。
   description_en: # TBD
   creator_ids:
