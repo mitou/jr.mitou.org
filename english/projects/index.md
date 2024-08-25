@@ -73,7 +73,8 @@ thumbnail: /assets/img/projects/index.webp
 	    {% assign creator = site.data.creators | where: "id", creator_id | first %}
 	    {% if forloop.index > 1 %}<span>/</span>{% endif %}
 
-	    {{ creator.name }}
+	    {{ creator.id | split: '_' | first | capitalize }}
+	    {{ creator.id | split: '_' | last  | capitalize }}
 	  {% endfor %}
 
 	  <small>

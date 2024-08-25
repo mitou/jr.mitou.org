@@ -60,8 +60,13 @@ projects.each_with_index do |project, index|
     ### Creator {#creator}
     <p>
       {% for creator_id in pj.creator_ids %}
-        {% include creator.html is_simple=true %}
+        {% assign creator = site.data.creators | where: "id", creator_id | first %}
+        {% if forloop.index > 1 %}<span>/</span>{% endif %}
+
+        {{ creator.id | split: '_' | first | capitalize }}
+        {{ creator.id | split: '_' | last  | capitalize }}
       {% endfor %}
+
       <small>(Year: <a href='/projects/{{ pj.year }}'>{{ pj.year }}</a> / Mentor: {% include link-to-mentor.html id=pj.mentor_id %})</small>
     </p>
 
