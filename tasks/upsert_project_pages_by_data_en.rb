@@ -115,7 +115,11 @@ projects.each_with_index do |project, index|
         #{ Truncato.truncate(next_project[:title_en]) }</a></p>
     </nav>
 
-    {% include project-navigation.html %}
+    <ul style="list-style: none; text-align: center; padding: 30px 0px;">
+      <li style="display: inline-block; margin: auto 10px;">
+        <a href="/english/projects">&raquo; Back to Project Showcase</a>
+      </li>
+    </ul>
   PROJECT_PAGE
 
   IO.write(path, page)
