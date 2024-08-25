@@ -70,10 +70,16 @@ thumbnail: /assets/img/projects/index.webp
 	<!-- Show no credits, including mentor, unless create_ids assigned. -->
 	<p class="project-name">
 	  {% for creator_id in pj.creator_ids %}
-	  {% include creator.html is_simple=true %}
+	    {% assign creator = site.data.creators | where: "id", creator_id | first %}
+	    {% if forloop.index > 1 %}<span>/</span>{% endif %}
+
+	    {{ creator.name }}
 	  {% endfor %}
 
-	  <small>{% include link-to-mentor.html id=pj.mentor_id mode="verbose" %}</small>
+	  <small>
+	    {% assign mentor = site.data.mentors | where: "id", pj.mentor_id | first %}
+	    (Mentor: <a href="/mentors#{{ mentor.id }}" >{{ mentor.name.english }}</a>)
+	  </small>
 	</p>
 	{% endif %}
 
