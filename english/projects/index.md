@@ -27,7 +27,7 @@ thumbnail: /assets/img/projects/index.webp
     U-17 Projects
   </h2>
   <p>
-    This pages showcases U-17 projects accepted and boosted by <a href='/english'>Mitou Junior</a> program for U-17.<br class="ph"><br class="ph">Mitou Junior has accepted and boosted <strong>{{ total_projects }} projects</strong> and <strong>{{ total_creators }} creators</strong>.
+    This pages showcases projects accepted and boosted by <a href='/english'>Mitou Junior</a> program for U-17. (<strong>{{ total_projects }} projects</strong> / <strong>{{ total_creators }} creators</strong>)
   </p>
 
   <ul style="list-style: none; text-align: center; padding: 30px 0px;">
