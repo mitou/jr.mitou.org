@@ -92,13 +92,13 @@ thumbnail: /assets/img/projects/index.webp
 
 	{% if pj.thumbnail %}
 	<!-- Show thumbnail image if already set. -->
-	<a href="/projects/{{ pj.year }}/{{ pj.id }}">
+	<a href="/english/projects/{{ pj.year }}/{{ pj.id }}">
 	  <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}"
            alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
 	</a>
 	{% else %}
 	<!-- Show TBD thumbnail image if not ready yet. -->
-	<a href="/projects/{{ pj.year }}/{{ pj.id }}">
+	<a href="/english/projects/{{ pj.year }}/{{ pj.id }}">
 	  <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/tbu.png"
            alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
 	</a>
