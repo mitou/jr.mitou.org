@@ -79,7 +79,12 @@ thumbnail: /assets/img/projects/index.webp
 
 	  <small>
 	    {% assign mentor = site.data.mentors | where: "id", pj.mentor_id | first %}
-	    (Mentor: <a href="/mentors#{{ mentor.id }}">{{ mentor.name.english }}</a>)
+
+	    {% if mentor.is_alumni %}
+            Mentor: <a href='/alumni#{{ mentor.id }}'>{{ mentor.name.english }}</a>)
+            {% else %}
+            Mentor: <a href='/mentors#{{ mentor.id }}'>{{ mentor.name.english }}</a>)
+            {% endif %}
 	  </small>
 	</p>
 	{% endif %}
