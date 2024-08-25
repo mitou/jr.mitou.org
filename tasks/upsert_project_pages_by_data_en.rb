@@ -67,7 +67,11 @@ projects.each_with_index do |project, index|
         {{ creator.id | split: '_' | last  | capitalize }}
       {% endfor %}
 
-      <small>(Year: <a href='/projects/{{ pj.year }}'>{{ pj.year }}</a> / Mentor: {% include link-to-mentor.html id=pj.mentor_id %})</small>
+      <small>
+        {% assign mentor = site.data.mentors | where: "id", pj.mentor_id | first %}
+        (Year: <a href='/projects/{{ pj.year }}'>{{ pj.year }}</a> /
+         Mentor: <a href='/mentors\#{{ mentor.id }}'>{{ mentor.name.english }}</a>)
+      </small>
     </p>
 
     {% comment %}
