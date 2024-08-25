@@ -181,8 +181,7 @@ Example projects, accepted and boosted by our program, are as follows.
 </div>
 
 <div class='flex'>
-  <a href="/english/stats" class="button">Check statistics</a>
-  <a href="/final" class="button">Check the latest projects (in Japanese)</a>
+  <a href="/english/projects" class="button">View all projects</a>
 </div>
 
 
@@ -195,8 +194,10 @@ Example projects, accepted and boosted by our program, are as follows.
   - Transportation and accommodation costs for events such as the kickoff camp and demo day will also be covered.
 
 <div class='flex'>
+  <a href="/english/stats" class="button">Check statistics</a>
   <a href='/guideline' class='button'>Check detailed timeline (in Japanese)</a>
 </div>
+
 
 <!--
 ### Timeline: From application to selection, kickoff camp to demo day.

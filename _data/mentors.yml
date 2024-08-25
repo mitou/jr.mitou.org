@@ -2,6 +2,7 @@
   name: 
     last: 岡田
     first: 侑弥
+    english: Yuya Okada
   affiliation: 株式会社プラゴ
   interested: あなたがいることで世界に新しい文化や習慣が生まれるような人をお待ちしています！
   bio: "2014年度未踏スーパークリエータ。株式会社メルカリでアンチマネーロンダリングシステムの開発に従事。2021年より株式会社プラゴ執行役員VPoE、2022年より同社取締役CTOとしてEVインフラに関するソフトウェア・ハードウェア開発を管掌。"
@@ -14,6 +15,7 @@
   name: 
     last: 中村
     first: 裕美
+    english: Yumi Nakamura
   affiliation: 東京大学大学院情報学環
   interested: 自分が「好き」な気持ちや「こうしたい」気持ちにまっすぐ向き合える人。気になったら調べる、思いついたら手を動かしてみるができる人。
   bio: "2010年度ユーススーパークリエータ。東京大学大学院情報学環特任准教授。日本大学芸術学部で学士。明治大学理工学研究科で修士・博士を取得。学術振興会特別研究員、産総研特別研究員、東京大学大学院情報学環特任助教を経て現職。未踏で取り組んだ「電気味覚を活用した新たな食物コンテンツの提案」に関する研究を現在まで続けており、メディア芸術祭エンタテインメント部門優秀賞、イグノーベル賞などを受賞。その他にも、人間拡張、食メディア、創作支援に関する研究にも取り組む。"
@@ -26,6 +28,7 @@
   name: 
     last: 安野
     first: 貴博
+    english: Takahiro Anno
   affiliation: 日本SF作家クラブ
   interested: とにかく何かを作ることが好きな人や、創作や実装の先に世界観がある提案を待っています
   bio: 東京大学工学部松尾研究室卒。AIテクノスリラー小説「サーキット・スイッチャー」が第9回ハヤカワSFコンテストで優秀賞を受賞しデビュー。第六回星新一賞優秀賞受賞。2015年度未踏スーパークリエイターに認定され、2016年よりチャットボットソリューションの株式会社BEDORE（現PKSHA Communication）の代表取締役を務めたのち、2018年にリーガルテックのMNTSQを共同創業。M-1グランプリ2回戦敗退。
@@ -38,6 +41,7 @@
   name:
     last: 坂元
     first: 律矛
+    english: Rizumu Sakamoto
   affiliation: ''
   interested: いままで体験したことのない感覚を味わえるプロダクト
   bio: アーティスト。2017年度未踏事業にて「プロトタイピングを通じて論理的思考を学ぶ迷路作成キット」として採択され、「A mazeing!! maker」を作成。同採択にてスーパークリエータに認定。過去、ミラノサローネサテリテやSXSW見本市に出展。汗かくメディアやGUGENにおいても数々の賞を受賞している。迷路が大好き。
@@ -47,6 +51,7 @@
   name:
     last: 石丸
     first: 翔也
+    english: Shoya Ishimaru
   affiliation: 大阪公立大学
   interested: 自身の興味や経験を活かしたプロジェクト
   bio: 大阪公立大学特任教授。2016年に大阪府立大学にて修士 (工学) を取得し、渡欧。カイザースラウテルン工科大学にて最優秀博士 (工学) を取得。同大学Junior Professor (PI)、ドイツ人工知能研究センター (DFKI) Senior Researcher、Alphaben Co-Founder CROなどを務め、2023年より帰国して現職。AI技術によって人の知性を拡張する研究に取り組んでいる。「心温計：心の状態を可視化するシステムの開発」でIPA未踏スーパークリエータに認定された。
@@ -59,6 +64,7 @@
   name:
     last: 尾藤
     first: 正人
+    english: Masato Bito
   affiliation: 株式会社オープンロジ
   interested: 今までにない面白いものを実装するプロジェクト<br>常に前向きで失敗を恐れずにどんどんチャレンジしてくれるような人
   bio: OSS コミッタ (Vine SPARC 開発)<br> 未踏ユース採択者 (2003年度)<br>元 ウノウ CTO<br>元 UUUM CTO<br>元 ニート<br>元 Repro CTO<br>現 オープンロジ CTO
@@ -70,6 +76,7 @@
   name:
     last: 神武
     first: 里奈
+    english: Rina Kotake
   affiliation: 株式会社マンガボックス
   interested: 自分が感じた楽しいを楽しく届けたい人
   bio: 未踏「スーパークリエータ」。多くのハッカソンやコンテストに参加し、30以上の賞を獲得。「JPHacks」「SPAJAM」などのハッカソンの審査員も務める。株式会社ディー・エヌ・エーに入社後、現在は株式会社マンガボックスにてエンジニアとして勤務。
@@ -83,6 +90,7 @@
   name:
     last: 小室
     first: 真紀
+    english: Maki Komuro
   affiliation: 株式会社スイッチエデュケーション
   interested: あなたが楽しんでおもしろがって取り組んでいるプロジェクト
   bio: スイッチエデュケーション代表取締役社長。お茶の水女子大学人間文化創成科学研究科博士課程修了。博士（理学）。2009年度未踏OG。2012年より株式会社スイッチサイエンスにて、専門家ではない普通の人に最先端の科学技術を使ったものづくりを普及させる活動に従事。2017年より現職。教育向けマイコンボードmicro:bitを中心に、プログラミングして動く物を作ることを通した学びを推進する活動を行っている。
@@ -95,6 +103,7 @@
   name:
     last: 石井
     first: 翔
+    english: Kakeru Ishii
   affiliation: ''
   interested: 今この瞬間必要ではないかもしれないが、あなたが考える未来で必要とされるようなアプリケーション/ライブラリ
   bio: 2016年度未踏スーパークリエータ。2018年度未踏アドバンストイノベータ。未踏事業では「Web開発に親和するWeb3Dライブラリ」として採択され、このプロジェクトで開発したOSSのWebGLフレームワーク<a href="https://github.com/GrimoireGL">Grimoire.js</a>の開発者。 未踏アドバンスト事業では「Web技術を活用したARクラウド」で採択された。 8歳からプログラミングを始め、主にリアルタイムCG技術やWeb技術を中心に活動している。チームプロジェクトが好き。
@@ -108,6 +117,7 @@
   name:
     last: 寺本
     first: 大輝
+    english: Daiki Teramoto
   affiliation: ハックフォープレイ株式会社
   interested: あなたが人より「面白がれる」こと。他人が何と言おうと、あなたにとっては超面白くて、四六時中そのことを考えていて、誰かに語りたいと思える提案
   bio: プログラミングの楽しさを広めるため<a href="https://hackforplay.xyz/">HackforPlay</a>を開発。CVCK Awardで受賞したことをキッカケに石川県金沢市で起業。2015年度スーパークリエータ。様々なプログラミング教材を開発するほか、<a href="https://www.facebook.com/coderdojo.kanazawa/">CoderDojo Kanazawa</a>を立ち上げ、小・中学生向けの教室を開いている。
@@ -122,6 +132,7 @@
   name:
     last: 関
     first: 喜史
+    english: Yoshifumi Seki
   affiliation: Fairy Devices Inc.
   interested: サービスの作り方を学んで、自分の周りの人、さらには世界中の人に届けられるようなサービスを生み出したい人の提案を待っています
   bio: 東京大学工学部卒業、同大学院工学系研究科博士課程修了。博士(工学)。2011年度未踏OB。大学院在籍中にGunosy（グノシー）を共同開発し、2012年当社創業。 創業期からニュース配信ロジックの開発を担当し、推薦システムを中心としたウェブマイニング、機械学習応用、自然言語処理応用を専門とする。2021年夏に退職後、現在 Fairy Devices Inc. に所属。
@@ -135,6 +146,7 @@
   name:
     last: 西尾
     first: 泰和
+    english: Hirokazu Nishio
   affiliation: サイボウズ・ラボ
   interested: どんどん新しいことにチャレンジする人。
   bio: 2002年度スーパークリエータ。2006年、24歳で博士(理学)取得。2007年よりサイボウズ・ラボにて、チームワークや知的生産性を高めるソフトウェアの研究に従事。著書に<a href="http://nhiro.org/langbook/">「コーディングを支える技術」</a><a href="https://www.oreilly.co.jp/books/9784873116839/">「word2vecによる自然言語処理」</a>など。2014年技術経営修士取得。2015年より一般社団法人未踏の理事を兼任。2級知的財産管理技能士。
@@ -149,6 +161,7 @@
   name:
     last: 鈴木
     first: 遼
+    english: Ryo Suzuki
   affiliation: 早稲田大学
   interested: 「コンピューターって面白い！」もしくは「コンピューターを使って何かを作りたい！」と思う人が増えるようなプロジェクト
   bio: 2013 年度未踏スーパークリエータ。ゲームやメディアアートを簡単に作れる C++ フレームワーク <a href="https://siv3d.github.io/ja-jp/" target="_blank">Siv3D</a>, 子ども向けのプログラミング体験ツール <a href="https://siv3d-for-kids.github.io/" target="_blank">Siv3D for Kids</a> の開発者。早稲田大学メディアデザイン研究室在籍、早稲田情報科学ジュニア・アカデミーをはじめ各所でプログラミング講師。著書に「冒険で学ぶ はじめてのプログラミング」。
@@ -162,6 +175,7 @@
   name:
     last: 安川
     first: 要平
+    english: Yohei Yasukawa
   affiliation: (一社) CoderDojo Japan / YassLab (株)
   interested: あなたが情熱を持って取り組めるプロジェクト
   bio: '<a href="https://yasslab.jp/ja/">YassLab</a> 代表取締役。<a href="https://coderdojo.jp/">CoderDojo Japan</a> 代表理事。早稲田大学情報理工学科卒 (修士)。米国留学中に開発した<a href="https://youtu.be/Fr2NGuc7R94?t=1069">震災対策アプリのヒット</a>を契機に、<a href="https://speakerdeck.com/yasslab/remote-first-company">完全リモートワーク制の会社</a>を起業。<a href="https://railstutorial.jp/">Railsチュートリアル</a>や<a href="https://railsguides.jp/">Railsガイド</a>を開発し、AIITや工学院大学、GMOペパボなどで<a href="https://yasslab.jp/ja/#for-team">採用</a>される。2012年度<a href="https://www.ipa.go.jp/jinzai/mitou/it/supercreator-list.html">未踏スーパークリエータ</a>、TEDxRyukyuスピーカー。'
@@ -176,6 +190,7 @@
   name:
     last: 鵜飼
     first: 佑
+    english: Yu Ukai
   affiliation: 未踏ジュニア代表
   interested: あなたがやらなければ多分誰もやらないプロジェクト（生成AIをうまく使っていたらなお素晴らしい！）
   bio: MicrosoftのOfficeやMinecraft開発チームにてProgram Managerを務める。英国に留学後、文部科学省にてプログラミング教育プロジェクトオフィサーとして主に小学校におけるプログラミング教育を推進。現在は大手外資IT企業にて Product Managerとして研究開発に従事。
@@ -193,6 +208,7 @@
   name:
     last: 和田
     first: 夏実
+    english: Natsumi Wada
   affiliation: インタープリター
   interested: 知りたくてたまらないことを探ったり、どうしてもやってみたいと思うことがある人。作ることを通して世界をみてみたい人
   bio: 1993年生まれ。手話を第一言語として育ち、大学進学時にあらためて手で表現する可能性に惹かれる。慶應義塾大学大学院修了。視覚身体言語の研究を行ないつつ、さまざまな身体性をもつ方々と協働し、感覚を共に模索するプロジェクトを進める。2016年度未踏IT人材発掘・育成事業「スーパークリエータ」認定。2017年ICCにて「結んでひらいて / tacit creole」展示。手話通訳士。
@@ -207,6 +223,7 @@
   name:
     last: 佐藤
     first: 彩夏
+    english: Ayaka Sato
   affiliation: クックパッド株式会社
   interested: 自分自身あるいは具体的な誰かの課題にチャレンジし、その人を幸せにする熱意を持っている人
   bio: 東京大学大学院学際情報学府博士課程修了。博士（学際情報）。2009年度未踏ユースクリエータ。大学では、ヒューマンコンピュータインタラクション（HCI）の分野において、調理支援、運動支援などの日常生活の行動支援研究に従事。現在、クックパッドのスマートキッチン事業部にて、ハードウェアを含むコンセプト開発およびUXデザインに従事。趣味は家具作り、3Dプリンティング、アクセサリー作りなどのDIY全般。
@@ -221,6 +238,7 @@
   name:
     last: 笹田
     first: 耕一
+    english: Koichi Sasada
   affiliation: クックパッド株式会社
   interested: アプリケーションを支える基盤技術の開発に熱意を持って取り組める方。
   bio: 大学在学時からRuby向け仮想マシンYARVを開発し、2007年に「Ruby 1.9」に採用される。以降、Rubyコミッターとして、言語処理系の高速化に従事し、仮想マシンやガーベージコレクションの性能改善などを行なう。東京大学大学院情報理工学系研究科助手、助教、講師、株式会社セールスフォース・ドットコム、Heroku, Inc.を経て、クックパッドにてRubyインタプリタ開発に従事。博士（情報理工学）。未踏ユーススーパークリエータ（2004）。
@@ -234,6 +252,7 @@
   name:
     last: 米辻
     first: 泰山
+    english: Taizan Yonetsuji
   affiliation: Preferred Networks
   interested: できるかも、できたら絶対楽しい、という思いのこもった提案
   bio: Preferred NetworkにてAmazon Picking ChallengeやCeaTec展示会等でのロボット開発を行った後、Chainerを用いた自動着色サービス<a href="https://paintschainer.preferred.tech/">PaintsChainer</a>を開発。 大学時代は東京大学ロボコンサークルRoboTechに所属しメカニックを担当。 未踏人材育成発掘事業ではwebマンガをテーマに<a href="http://www.ecomaki.com/">"ecomaki"</a>を開発リリース。
