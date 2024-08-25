@@ -69,6 +69,7 @@ thumbnail: /assets/img/projects/index.webp
 	{% if pj.creator_ids %}
 	<!-- Show no credits, including mentor, unless create_ids assigned. -->
 	<p class="project-name">
+	  <small>by</small>
 	  {% for creator_id in pj.creator_ids %}
 	    {% assign creator = site.data.creators | where: "id", creator_id | first %}
 	    {% if forloop.index > 1 %}<span>/</span>{% endif %}
@@ -77,7 +78,7 @@ thumbnail: /assets/img/projects/index.webp
 	    {{ creator.id | split: '_' | last  | capitalize }}
 	  {% endfor %}
 
-	  <small>
+	  <small><small>
 	    {% assign mentor = site.data.mentors | where: "id", pj.mentor_id | first %}
 
 	    {% if mentor.is_alumni %}
@@ -85,7 +86,7 @@ thumbnail: /assets/img/projects/index.webp
             {% else %}
             (Mentor: <a href='/mentors#{{ mentor.id }}'>{{ mentor.name.english }}</a>)
             {% endif %}
-	  </small>
+	  </small></small>
 	</p>
 	{% endif %}
 
