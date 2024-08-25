@@ -94,4 +94,8 @@ twitter_card: summary_large_image
     Noxicel - An English Vocabular...</a></p>
 </nav>
 
-{% include project-navigation.html %}
+<ul style="list-style: none; text-align: center; padding: 30px 0px;">
+  <li style="display: inline-block; margin: auto 10px;">
+    <a href="/english/projects">&raquo; Back to Project Showcase</a>
+  </li>
+</ul>
