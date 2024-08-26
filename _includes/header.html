@@ -31,7 +31,7 @@
     </div>
     
     {% if lang == "en" %}
-    <a hreflang="ja" href="/" class="header-button">
+    <a hreflang="ja" href="{{ page.url | remove_first: '/english' | remove: '.html' }}" class="header-button">
       <span style='color: white; font-size: 80%;'>Switch to Japanese</span>
     </a>
     {% else %}
