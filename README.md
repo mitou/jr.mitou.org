@@ -45,6 +45,7 @@
   - 複数名いる場合は、複数記述します
 ```
 
+[&raquo; `projects.yml` を更新する](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml)
 
 <div id='how-to-update-creators'><br></div>
 
