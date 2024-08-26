@@ -69,7 +69,7 @@ projects.each_with_index do |project, index|
 
       <small>
         {% assign mentor = site.data.mentors | where: "id", pj.mentor_id | first %}
-        (Year: <a href='/projects/{{ pj.year }}'>{{ pj.year }}</a> /
+        (Year: <a href='/english/projects/\#{{ pj.year }}'>{{ pj.year }}</a> /
          {% if mentor.is_alumni %}
          Mentor: <a href='/alumni\#{{ mentor.id }}'>{{ mentor.name.english }}</a>)
          {% else %}
