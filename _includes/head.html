@@ -33,6 +33,10 @@
 
   <meta name="author"              content="{{ translations.author[lang] | strip_html | strip_newlines }}">
 
+  {% if page.nosnippet == true %}
+  <meta name="robots" content="nosnippet">
+  {% endif %}
+
   <link rel="alternate"  hreflang="ja" href="https://jr.mitou.org/" />
   <link rel="alternate"  hreflang="en" href="https://jr.mitou.org/english/" />
   <link rel="stylesheet" href="/assets/css/main.css" />
