@@ -1,5 +1,6 @@
 ---
 layout: english
+nosnippet: true
 lang: en
 ---
 
