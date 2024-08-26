@@ -62,6 +62,8 @@
   year: 何年度に採択されたプロジェクトか。例: 2018
 ```
 
+[&raquo; `creators.yml` を更新する](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml)
+
 
 <div id='how-to-update-mentors'><br></div>
 
@@ -84,6 +86,8 @@
   web: 上記以外のURL。例: https://yasslab.jp/
 ```
 
+[&raquo; `mentors.yml` を更新する](https://github.com/mitou/jr.mitou.org/blob/main/_data/mentors.yml)
+
 
 <div id='how-to-update-media'><br></div>
 
@@ -97,6 +101,8 @@
   url: 記事ページのURL (例：https://www.watch.impress.co.jp/kodomo_it/news/1219499.html)
   date: 公開日 (例：2019/11/20)
 ```
+
+[&raquo; `media.yml` を更新する](https://github.com/mitou/jr.mitou.org/blob/main/_data/media.yml)
 
 
 <div id='how-to-build'><br></div>
