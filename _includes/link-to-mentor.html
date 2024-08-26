@@ -1,11 +1,9 @@
-{% assign mentor = site.data.mentors | where: "id", pj.mentor_id | first %}
+{% assign mentor = site.data.mentors | where: "id", include.id | first %}
 
-{% if include.mode == "verbose" %}(PM: {% endif %}
-{% if include.mode == "english" %}
+{%- if include.mode == "english" -%}
 <a href="/mentors#{{ mentor.id }}">{{ mentor.name.english }}</a>
-{% elsif mentor.is_alumni %}
-<a href="/alumni#{{ mentor.id }}" >{{ mentor.name.last }} {{ mentor.name.first }}</a>{% if include.mode == "verbose" %}){% endif %}
-{% else %}
-<a href="/mentors#{{ mentor.id }}">{{ mentor.name.last }} {{ mentor.name.first }}</a>{% if include.mode == "verbose" %}){% endif %}
-{% endif %}
-
+{%- elsif mentor.is_alumni -%}
+<a href="/alumni#{{ mentor.id }}" >{{ mentor.name.last }} {{ mentor.name.first }}</a>
+{%- else -%}
+<a href="/mentors#{{ mentor.id }}">{{ mentor.name.last }} {{ mentor.name.first }}</a>
+{%- endif -%}

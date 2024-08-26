@@ -8,7 +8,9 @@
       {% include creator.html is_simple=true %}
     {% endfor %}
 
-    <small>{% include link-to-mentor.html id=pj.mentor_id mode="verbose" %}</small>
+    <small>
+      (PM: {% include link-to-mentor.html id=pj.mentor_id %})
+    </small>
   </p>
   {% endif %}
 
