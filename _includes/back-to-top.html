@@ -1,6 +1,10 @@
 <div class='text-center'>
   <a href="#top">
-    <i class="fa-solid fa-arrow-up"></i>
-    上に戻る
+    <i class="fa-solid fa-arrow-circle-up"></i>
+    {% if page.lang == 'en' %}
+      Back to top
+    {% else %}
+      上に戻る
+    {% endif %}
   </a>
 </div>
