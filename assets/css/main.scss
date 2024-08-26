@@ -102,14 +102,14 @@ header{
   background-color: #fff;
   //border-bottom: solid 4px $main-color;
   box-shadow: 0 0 16px 1px $shadow-color;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
   height: 80px;
   @media screen and (max-width:$header-phone) {
     height: 60px;
   }
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10;
   a{
     color: $text-green;
     text-decoration: none;
@@ -341,10 +341,10 @@ footer{
 }
 .main{
   margin-top: 80px;
+  text-align: center;
   @media screen and (max-width:$header-phone) {
     margin-top: 60px;
   }
-  text-align: center;
   section{
     width: 100%;
     padding: 24px 12vw;
@@ -374,16 +374,14 @@ footer{
   padding: 12px;
   margin-top: 18px;
   width: 50%;
-  p{
-    font-size: 14px;
-  }
 
   // scroll-margin-top equals to header height
+  scroll-snap-align: center;
   scroll-margin-top: 100px;
   @media screen and (max-width: $header-phone) {
     scroll-margin-top: 80px;
   }
-  scroll-snap-align: center;
+  p{ font-size: 14px; }
 }
 .mentor-sns{
   font-size: 36px;
@@ -497,10 +495,6 @@ footer{
   }
 
   nav {
-    .prev { display: table-cell; color: white; text-align: left;   }
-    .toc  { display: table-cell; color: white; text-align: center; }
-    .next { display: table-cell; color: white; text-align: right;  }
-    a:link, .nav a:visited { color: white; }
     display: table;
     border-collapse: separate;
     border-spacing: 15px 0;
@@ -509,6 +503,10 @@ footer{
     padding: 10px 10px;
     margin-top: 100px;
     background-color: $main-color;
+    .prev { display: table-cell; color: white; text-align: left;   }
+    .toc  { display: table-cell; color: white; text-align: center; }
+    .next { display: table-cell; color: white; text-align: right;  }
+    a:link, .nav a:visited { color: white; }
   }
 }
 
@@ -599,10 +597,10 @@ footer{
 }
 
 .projects {
+  scroll-snap-type: y proximity;
   h3 {
     margin-top: 80px;
   }
-  scroll-snap-type: y proximity;
 }
 .project{
   //border-bottom: solid 1px $lightgray;
@@ -618,11 +616,11 @@ footer{
   flex-direction: column;
 
   // scroll-margin-top equals to header height
+  scroll-snap-align: center;
   scroll-margin-top: 80px;
   @media screen and (max-width: $header-phone) {
     scroll-margin-top: 60px;
   }
-  scroll-snap-align: center;
 
   h4{
     font-size: .8em;
@@ -1099,11 +1097,11 @@ footer{
 .sv-right{
   float: left;
   padding: 12px;
-  h5 { margin-top: 0px; }
   width: 50%;
   @media screen and (max-width: $phone-width) {
     width: 100%;
   }
+  h5 { margin-top: 0px; }
 }
 .subtitle{
   font-size: 16px;
