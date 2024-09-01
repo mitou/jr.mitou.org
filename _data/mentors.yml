@@ -60,7 +60,7 @@
   web: https://shoya.io
   img: ishimaru.webp
 
-- id: bto
+- id: masato_bito
   name:
     last: 尾藤
     first: 正人
@@ -70,7 +70,7 @@
   bio: OSS コミッタ (Vine SPARC 開発)<br> 未踏ユース採択者 (2003年度)<br>元 ウノウ CTO<br>元 UUUM CTO<br>元 ニート<br>元 Repro CTO<br>現 オープンロジ CTO
   facebook: btomasato
   twitter: bto
-  img: bto.webp
+  img: masato_bito.webp
 
 - id: koutake_rina
   name:
