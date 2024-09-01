@@ -1,9 +1,9 @@
 {% assign mentor = site.data.mentors | where: "id", include.id | first %}
 
-{%- if include.mode == "english" -%}
-<a href="/mentors#{{ mentor.id }}">{{ mentor.name.english }}</a>
-{%- elsif mentor.is_alumni -%}
-<a href="/mentors/alumni#{{ mentor.id }}" >{{ mentor.name.last }} {{ mentor.name.first }}</a>
+{%- if page.lang "en" -%}
+<a href="/mentors{% if mentor.is_alumni %}/alumni{% endif %}#{{ mentor.id }}" >{{ mentor.name..english }}</a>
 {%- else -%}
-<a href="/mentors#{{ mentor.id }}">{{ mentor.name.last }} {{ mentor.name.first }}</a>
+<a href="/mentors{% if mentor.is_alumni %}/alumni{% endif %}#{{ mentor.id }}" >{{ mentor.name.last }} {{ mentor.name.first }}</a>
 {%- endif -%}
+
+
