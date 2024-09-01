@@ -255,7 +255,7 @@
   final_start: 0
   #link:        # 公式サイトがあれば追記する
   year: 2023
-  mentor_id: shouya_ishimaru
+  mentor_id: shoya_ishimaru
   creator_ids:
   - itsuki_tsuruta
 
@@ -402,7 +402,7 @@
   #final_start: 17195
   #link: https://sanitas.cc/
   year: 2022
-  mentor_id: shouya_ishimaru
+  mentor_id: shoya_ishimaru
   creator_ids:
   - masuda_hinata
 
@@ -497,7 +497,7 @@
   final: LohTYVmais0
   link: https://telport.mugisus.com/app/
   year: 2021
-  mentor_id: shouya_ishimaru
+  mentor_id: shoya_ishimaru
   creator_ids:
     - mugisus
 
@@ -879,7 +879,7 @@
   final: NXi1hunbMg0
   #link: https://rocat.jp/
   year: 2020
-  mentor_id: shouya_ishimaru
+  mentor_id: shoya_ishimaru
   creator_ids:
     - aiba_hiduki
     - yuge_hayata
