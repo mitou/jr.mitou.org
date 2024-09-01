@@ -223,7 +223,7 @@
   final_start: 0
   link: https://github.com/Jun-robot/3DPrintedMotor
   year: 2023
-  mentor_id: komuro_maki
+  mentor_id: maki_komuro
   creator_ids:
   - jumpei_saito
 
@@ -337,7 +337,7 @@
   #final_start: 9912
   #link: 
   year: 2022
-  mentor_id: komuro_maki
+  mentor_id: maki_komuro
   creator_ids:
   - muramatsu_takuto
 
@@ -482,7 +482,7 @@
   final_start: 205
   #link: 
   year: 2021
-  mentor_id: komuro_maki
+  mentor_id: maki_komuro
   creator_ids:
     - shinmi_rick
 
@@ -771,7 +771,7 @@
   final: rQmgwLH8xI0
   #link:
   year: 2020
-  mentor_id: komuro_maki
+  mentor_id: maki_komuro
   creator_ids:
     - kurokawa_riku
 
@@ -989,7 +989,7 @@
     We have developed a system that analyzes various physical activities simply by running with a special baton embedded with sensors. The data is uploaded to a dedicated website, where your activities are analyzed and optimized by AI. Why not achieve professional-level performance using "Relay Master"?
   creator_ids:
     - watanabe_akihisa
-  mentor_id: komuro_maki
+  mentor_id: maki_komuro
   thumbnail: relay_master.webp
   #promotion:
   final: 1ylC6bqWiPg
