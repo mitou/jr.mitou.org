@@ -61,7 +61,7 @@
   final_start: 0
   #link:        # 公式サイトがあれば追記する
   year: 2023
-  mentor_id: ishii_kakeru
+  mentor_id: kakeru_ishii
   creator_ids:
   - rekka_igumi
 
@@ -369,7 +369,7 @@
   #final_start: 13385
   link: https://noxicel.app/
   year: 2022
-  mentor_id: ishii_kakeru
+  mentor_id: kakeru_ishii
   creator_ids:
   - okamura_arisa
   - kanao_makito
@@ -649,7 +649,7 @@
   final: RDACr0znk2Q
   link: https://github.com/mock-up/mock-up
   year: 2021
-  mentor_id: ishii_kakeru
+  mentor_id: kakeru_ishii
   creator_ids:
     - asada_mutsuha
 
@@ -786,7 +786,7 @@
   final: XWLnNYIoe-k
   link: https://twitter.com/_anharu/status/1344402886264934400
   year: 2020
-  mentor_id: ishii_kakeru
+  mentor_id: kakeru_ishii
   creator_ids:
     - ando_haruka
     - oki_kohei
@@ -802,7 +802,7 @@
   final: N23eiKk_808
   #link:
   year: 2020
-  mentor_id: ishii_kakeru
+  mentor_id: kakeru_ishii
   creator_ids:
     - takaki_kosuke
 
@@ -1005,7 +1005,7 @@
   creator_ids:
     - kunitake_yuuto
     - mori_yuuki
-  mentor_id: ishii_kakeru
+  mentor_id: kakeru_ishii
   thumbnail: virtual_presents.webp
   #promotion:
   final: p7KZzZLMLoM
@@ -1211,7 +1211,7 @@
     Developed a social networking service (SNS) that allows users to bury and unearth virtual capsules linked to specific locations.
   creator_ids:
     - fujimoto_yui
-  mentor_id: ishii_kakeru
+  mentor_id: kakeru_ishii
   comment: 現代人は様々な事をSNSから学び発信し行動へと繋げている。SNSを通じ遠く珍しい体験と触れる我々は、身近にある発見、感動、体験を忘れていないだろうか。そんな問題にも関わらず、それさえもSNSで解決しようというこのプロジェクトは夢に溢れ、ワクワクとさせる。毎週自ら宣言した目標を着実にこなし開発の早かった藤本さんは実際に多くのユーザーテスト、改善を着実に繰り返した。自ら様々な方と交渉し、広げるための手段を着実にこなす行動力もプロジェクトを大きく進められた理由の一つだろう。この経験を通じて多くの人をワクワクさせるプロダクトを広げる未来を強く期待する。
   thumbnail: memory_capsule.webp
   #promotion:
