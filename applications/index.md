@@ -75,7 +75,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
     <a href='https://note.com/teramotodaiki/n/n148d35899016'>提案書のよくある「もったいない」点の紹介
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
-    <small>（<a href='/mentors#teramoto_daiki'>寺本</a>）</small>
+    <small>（<a href='/mentors#daiki_teramoto'>寺本</a>）</small>
   </li>
   <li>
     <a href='https://scrapbox.io/nishio/プロジェクト提案書ってどう書くの？'>プロジェクト提案書ってどう書くの？

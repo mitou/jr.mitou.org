@@ -158,7 +158,7 @@
   final_start: 0
   #link:        # 公式サイトがあれば追記する
   year: 2023
-  mentor_id: teramoto_daiki
+  mentor_id: daiki_teramoto
   creator_ids:
   - mizuki_hara
 
@@ -289,7 +289,7 @@
   #final_start: 49
   #link: 
   year: 2022
-  mentor_id: teramoto_daiki
+  mentor_id: daiki_teramoto
   creator_ids:
   - nabeta_kai
 
@@ -604,7 +604,7 @@
   final: jOcD5FKatNI
   link: https://killinengine.com/
   year: 2021
-  mentor_id: teramoto_daiki
+  mentor_id: daiki_teramoto
   creator_ids:
     - umemura
 
@@ -710,7 +710,7 @@
   final: Ue7Sf3bQlps
   link: https://twitter.com/38912Pataro/status/1337322097454981120
   year: 2020
-  mentor_id: teramoto_daiki
+  mentor_id: daiki_teramoto
   creator_ids:
     - miyake_satoshi
 
@@ -896,7 +896,7 @@
     Amo-yo is an application that supports hand-knitting illustrations. It allows users to create original knitting patterns and displays the number of stitches until the color changes, thereby reducing knitting mistakes. This makes it enjoyable and easy to create unique works, so much so that users may lose track of time while knitting.
   creator_ids:
     - takeda_kazuki
-  mentor_id: teramoto_daiki
+  mentor_id: daiki_teramoto
   thumbnail: amoyo.webp
   #promotion:
   final: irYt3B7l8yg
@@ -1065,7 +1065,7 @@
     "fresh capsule" is a mobile application designed to manage the expiration dates of purchased food items. By photographing the section where the expiration date is printed with a smartphone, the expiration date is automatically added to a list within the app.
   creator_ids:
     - kishimoto_junka
-  mentor_id: teramoto_daiki
+  mentor_id: daiki_teramoto
   thumbnail: fresh_capsule.webp
   #promotion:
   final: vioFrqxlRXQ
@@ -1243,7 +1243,7 @@
     Development of a Service to Assign and Notify School Duties, Such as Cleaning Duties, via LINE
   creator_ids:
     - nishimura_yui
-  mentor_id: teramoto_daiki
+  mentor_id: daiki_teramoto
   comment: ソフトウェアを開発するだけでなく、ユーザーのフィードバックをもとに改善のサイクルを回していった点が素晴らしい。　LINE ボットの仕組みは採択時点で既に動作していたため、未踏ジュニアではユーザーがボットを作成できるシステムの開発に挑戦した。実際に使ってもらうには UI を極力シンプルにする必要があったが、身近な課題から出発したアイデアだったため、地に足のついた開発が出来ていた。今後も興味の幅を広げて様々なことにチャレンジして行って欲しい。
   thumbnail: toubans.webp
   #promotion:
@@ -1375,7 +1375,7 @@
     Developed an application that allows foreign visitors in need to ask questions to Japanese people who want to help travelers.
   creator_ids:
     - shimoda_tetsunosuke
-  mentor_id: teramoto_daiki
+  mentor_id: daiki_teramoto
   comment: 訪日外国人ともっと上手くコミュニケーションをとることで、外国人が抱えるなんらかの問題を解決しようという試みである。プロジェクト開始前から空港でアンケートをとるなど意気込みは十分であった。アプリの方は、初めて触る言語での開発だったが、期間中にコツコツ学び続けてプロトタイプを完成させた。そういう意味では、今回はプロジェクトは彼の自信にも繋がったと思われる。これからも持ち前の行動力を活かしていって欲しい。
   thumbnail: fall_in_friends.webp
   #promotion:
@@ -1391,7 +1391,7 @@
     Developed a beginner-friendly service that allows users to create websites by connecting code blocks, while also learning to write code.
   creator_ids:
     - katou_syu
-  mentor_id: teramoto_daiki
+  mentor_id: daiki_teramoto
   comment: プログラミング教材は今まさに群雄割拠である。彼は自身の原体験をもとに、テキストプログラミングに移行しやすいブロックプログラミングの形を模索した。今回のプロジェクトで、プログラムの表現方法を考えるだけでなく、実装して実際にユーザに使ってもらったことは高く評価できる。また、彼自身がさらにプログラミングを学ぶことによって、編み出せるアイデアは大いに広がるだろう。今後も時間の許す限り色々な物を作って欲しい。
   thumbnail: draw_code.webp
   #promotion:
