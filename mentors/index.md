@@ -112,5 +112,5 @@ description: クリエータを支援する人達（メンター）の紹介ペ�
     </div>
   </div>
 
-  <a class="button" href='/alumni'>過去のメンターを見る</a>
+  <a class="button" href='/mentors/alumni'>過去のメンターを見る</a>
 </div>

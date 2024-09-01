@@ -3,7 +3,7 @@
 {%- if include.mode == "english" -%}
 <a href="/mentors#{{ mentor.id }}">{{ mentor.name.english }}</a>
 {%- elsif mentor.is_alumni -%}
-<a href="/alumni#{{ mentor.id }}" >{{ mentor.name.last }} {{ mentor.name.first }}</a>
+<a href="/mentors/alumni#{{ mentor.id }}" >{{ mentor.name.last }} {{ mentor.name.first }}</a>
 {%- else -%}
 <a href="/mentors#{{ mentor.id }}">{{ mentor.name.last }} {{ mentor.name.first }}</a>
 {%- endif -%}
