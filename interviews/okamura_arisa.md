@@ -192,7 +192,7 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 <div align='right' style='font-size: smaller;'>
   公開日：2024年4月3日<br>
   文責：風穴 江（<a href='https://twitter.com/windhole'>@windhole</a>）<br>
-  インタビュー協力：<a href='/mentors#yasulab'>安川 要平</a>、<a href='/mentors#ukai_yuu'>鵜飼 佑</a>
+  インタビュー協力：<a href='/mentors#yohei_yasukawa'>安川 要平</a>、<a href='/mentors#ukai_yuu'>鵜飼 佑</a>
 </div>
 
 <br>

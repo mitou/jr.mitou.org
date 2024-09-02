@@ -2,7 +2,7 @@
 #
 #- id: クリエータのID。例: mihashi
 #  project_id: 開発したプロジェクトのID。例: utips（記録用。システム的には使われていない）
-#  mentor_id: 担当メンターのID。例: yasulab
+#  mentor_id: 担当メンターのID。例: yohei_yasukawa
 #  name: クリエータの名前。例: 三橋 優希
 #  is_spc: スーパークリエータ認定について。例：true
 #  year: 何年度に採択されたプロジェクトか。例: 2018

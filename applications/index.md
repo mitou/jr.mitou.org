@@ -57,7 +57,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
     <a href='https://speakerdeck.com/yasulab/believe-in-your-passion'>多様なメンター、多様な基準
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
-    <small>（<a href='/mentors#yasulab'>安川</a>）</small>
+    <small>（<a href='/mentors#yohei_yasukawa'>安川</a>）</small>
   </li>
   <li>
     <a href='https://note.com/yoshifumiseki/n/n1e928281d7dc'>未踏ジュニアにおけるよい提案資料の書き方、もしくはアイデアの伝え方と評価について

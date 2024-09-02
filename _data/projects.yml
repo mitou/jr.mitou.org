@@ -12,7 +12,7 @@
 #  link: 公式サイトへのリンク（任意）。例: https://github.com/visible/visible
 #  tags: SNS用のハッシュタグ。例: [a11y, Web, アクセスビリティー]
 #  year: 採択プロジェクトの年度。例: 2020
-#  mentor_id: 「mentors.yml」にあるメンターIDを入力。例: yasulab
+#  mentor_id: 「mentors.yml」にあるメンターIDを入力。例: yohei_yasukawa
 #  creator_ids:
 #  - 「cretors.yml」にあるクリエータID。例：igarashi_ryo
 #  - 複数名いる場合は、複数記述します
@@ -175,7 +175,7 @@
   link: https://github.com/xpadev-net/niwango.js
   tags: [ニワン語]
   year: 2023
-  mentor_id: yasulab
+  mentor_id: yohei_yasukawa
   creator_ids:
   - hikari_yoshida
 
@@ -273,7 +273,7 @@
   final_start: 196
   #link: 
   year: 2022
-  mentor_id: yasulab
+  mentor_id: yohei_yasukawa
   creator_ids:
   - akito_hoshi
 
@@ -544,7 +544,7 @@
   final_start: 59
   link: https://twitter.com/Augment_rhythm
   year: 2021
-  mentor_id: yasulab
+  mentor_id: yohei_yasukawa
   creator_ids:
     - nakahashi_haruto
 
@@ -756,7 +756,7 @@
   final_start: 88
   link: https://github.com/visible/visible
   year: 2020
-  mentor_id: yasulab
+  mentor_id: yohei_yasukawa
   creator_ids:
     - igarashi_ryo
 
@@ -911,7 +911,7 @@
     DetExploit is an open-source vulnerability scanner that detects vulnerable software installed on Windows and notifies the user. Utilizing Windows-specific features such as WMI and the registry, it achieves highly accurate scans.
   creator_ids:
     - takayama_naoki
-  mentor_id: yasulab
+  mentor_id: yohei_yasukawa
   thumbnail: det_exploit.webp
   #promotion:
   final: 0XUID-IQzEk
@@ -1096,7 +1096,7 @@
     Developed a web service for sharing household chore methods. By learning how other households perform tasks, it supports users in improving their own household chores.
   creator_ids:
     - mihashi_yuuki
-  mentor_id: yasulab
+  mentor_id: yohei_yasukawa
   comment: Webサービスの開発が初めてでありながら、サービスのコンセプトやデザイン設計、実装や運用、ヒアリング用のテスト環境の構築などがすべて短期間で終えられた点を評価したい。 また、国内や海外のイベントへの積極的展示、言語別にデータを切り変えたヒアリング、ユーザーと対話・協力しながら進めていくスタイルなど、１歩ずつではあるが確実にWebサービスを改善し続けていた点も評価したい。 自分は何をしたいのか」を大切にして今後も１歩ずつ進んでいって欲しい。
   thumbnail: utips.webp
   #promotion:
@@ -1443,7 +1443,7 @@
   creator_ids:
     - ohno_tomoki
     - suzuki_sousuke
-  mentor_id: yasulab
+  mentor_id: yohei_yasukawa
   comment: 大野さんと鈴木さんは二人とも十分な開発経験を既に持っており、期間中はプロダクト開発手法を作りながら学ぶことに終始フォーカスできた。今回開発した「vamboo」をリリースさせ、ユーザーテストも行い、OSS として英語で公開した成果には「未来の当たり前」を感じさせられた。未踏コミュニティをうまく活用して、今後は僕らの理解できない未踏の領域を切り開いて欲しい。
   thumbnail: vamboo.webp
   #promotion:
