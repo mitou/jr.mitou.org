@@ -142,7 +142,7 @@
   final_start: 0
   #link:        # 公式サイトがあれば追記する
   year: 2023
-  mentor_id: seki_yoshifumi
+  mentor_id: yoshifumi_seki
   creator_ids:
   - taiki_aki
 
@@ -191,7 +191,7 @@
   final_start: 0
   link: https://stask.ampoi.net/
   year: 2023
-  mentor_id: seki_yoshifumi
+  mentor_id: yoshifumi_seki
   creator_ids:
   - toshihiro_tange
 
@@ -321,7 +321,7 @@
   #final_start: 8420
   #link: 
   year: 2022
-  mentor_id: seki_yoshifumi
+  mentor_id: yoshifumi_seki
   creator_ids:
   - takada_haruki
 
@@ -353,7 +353,7 @@
   final_start: 349
   link: https://github.com/CentRa-Linux/NuDesktop_Shell
   year: 2022
-  mentor_id: seki_yoshifumi
+  mentor_id: yoshifumi_seki
   creator_ids:
   - nakamura_souma
 
@@ -619,7 +619,7 @@
   final: GT4WIiHOyeg
   link: https://koten.app
   year: 2021
-  mentor_id: seki_yoshifumi
+  mentor_id: yoshifumi_seki
   creator_ids:
     - s7tya
 
@@ -634,7 +634,7 @@
   final: wQgjy5Htlk0
   #link: 
   year: 2021
-  mentor_id: seki_yoshifumi
+  mentor_id: yoshifumi_seki
   creator_ids:
     - mizutani_shunsuke
 
@@ -817,7 +817,7 @@
   final: r8WlvrgwB4k
   link: https://twitter.com/align_one
   year: 2020
-  mentor_id: seki_yoshifumi
+  mentor_id: yoshifumi_seki
   creator_ids:
     - hagiwara_sota
     - ogaki_ren
@@ -833,7 +833,7 @@
   final: aYajCGOg-eY
   #link: https://critica.uno/ # NOTE: 404 Not Found as of 2024/04/04
   year: 2020
-  mentor_id: seki_yoshifumi
+  mentor_id: yoshifumi_seki
   creator_ids:
     - ito_yusei
     - inoue_yosuke
@@ -942,7 +942,7 @@
     With the aim of estimating human movement using biological signals, we designed and developed a device to measure scalp electroencephalograms (EEG) and surface electromyograms (EMG), and developed algorithms for motion estimation using the device. We successfully estimated the movement of the right upper limb using scalp EEG measurements, and our surface EMG sensor was adopted by a manufacturer of myoelectric prosthetic hands.
   creator_ids:
     - sakoda_yamato
-  mentor_id: seki_yoshifumi
+  mentor_id: yoshifumi_seki
   thumbnail: neulot.webp
   #promotion:
   final: p_GIhnvDfFI
@@ -1179,7 +1179,7 @@
     - sueda_takahito
     - takami_suguru
     - satou_misaki
-  mentor_id: seki_yoshifumi
+  mentor_id: yoshifumi_seki
   comment: VR空間では実際の店舗にいかなくても便利に買い物ができるのではないか？」というアイデアは多くの人が考えたことがあるだろう。しかしそのアイデアを実際に行動に移した人は多くない。彼らはVR空間上でのECについて仮説に基づいてプロトタイプを作りながら、その仮説を検証し、新たな仮説によって別のプロトタイプを作ることを3度繰り返した。一つ一つの品質は高くないがVR空間におけるECの可能性と課題を示した点は高く評価できる。今後は開発力を高め世の中に魅力的なプロダクトをどんどん出していってほしい。
   thumbnail: touch_buy.webp
   #promotion:
@@ -1293,7 +1293,7 @@
   creator_ids:
     - sasaki_masato
     - sutou_koutarou
-  mentor_id: seki_yoshifumi
+  mentor_id: yoshifumi_seki
   comment: 昔聴いていた曲をあまり聴かなくなったのでは、という問題意識から思い出から音楽を聴くサービスを作ろうというプロジェクト。理想をどのようにプロダクトに落とし込んでいくか、そしてどのように作るかということを実地で学んでいた。リリースをまで到達できなかったので、そこは今後の課題としてもらいたい。今回の体験を活かして世の中を変えていくようなサービスを作ることを作り出していくことを期待する。
   thumbnail: music_reminder.webp
   #promotion:
@@ -1311,7 +1311,7 @@
     - tanaka_yuutarou
     - nakahara_you
     - nakagawa_manami
-  mentor_id: seki_yoshifumi
+  mentor_id: yoshifumi_seki
   comment: 自分たちが通う学校のITシステムの現状に課題を感じ、その課題を解決するサービスを作りたいというプロジェクト。ほぼプログラミング未経験の状態から技術力を高め、実際にクラスの人々に使ってもらい、フィードバックを得て改善するプロセスを進めることができていた。今後はより技術力を高めながら、今回の体験を活かして世の中を変えていくようなサービスを作ることを作り出していくことを期待する。
   thumbnail: papa.webp
   #promotion:

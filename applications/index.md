@@ -63,7 +63,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
     <a href='https://note.com/yoshifumiseki/n/n1e928281d7dc'>未踏ジュニアにおけるよい提案資料の書き方、もしくはアイデアの伝え方と評価について
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
-    <small>（<a href='/mentors#seki_yoshifumi'>関</a>）</small>
+    <small>（<a href='/mentors#yoshifumi_seki'>関</a>）</small>
   </li>
   <li>
     <a href='https://zenn.dev/reputeless/articles/idea-mitoujr'>未踏ジュニア、伝わる提案書を作る 5 つのコツ
