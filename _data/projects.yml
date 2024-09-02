@@ -1019,7 +1019,7 @@
   description_en: |
     We have developed a GAN-based system capable of automatically completing unfinished line drawings. This system enables even beginners to easily create complex illustrations. This research particularly focuses on the generation of anime face images.
   creator_ids:
-    - namekata_kouichi
+    - namekata_koichi
   mentor_id: yu_ukai
   thumbnail: edge_guided_anime_characters_generation.webp
   #promotion:
@@ -1035,7 +1035,7 @@
     Mallet is a development environment that allows users to create simple applications using only smartphones or tablets. Even those who are unfamiliar with programming can write code by combining blocks, and they can also share the applications they create with friends and family.
   creator_ids:
     - matsuda_katsu
-  mentor_id: sasada_kouichi
+  mentor_id: koichi_sasada
   thumbnail: mallet.webp
   #promotion:
   final: Tw28ieao9uo
@@ -1227,7 +1227,7 @@
     Development of a System to Achieve Spatial Audio by Real-Time Synchronization of Web Browsers on Multiple Smartphones
   creator_ids:
     - namikawa_kousaku
-  mentor_id: sasada_kouichi
+  mentor_id: koichi_sasada
   comment: 浪川さんは、複数のスマートフォン（スマホ）を音源とする、新しい立体音響の表現に挑戦した。ウェブ技術のみを用いたヘテロジニアス分散リアルタイム同期という難しい課題に最後まで苦戦していたが、成果報告会では、持ち込んだ16台のスマホでの演奏、そして来場者のスマホを用いた100台弱での「風の音」のデモを成功させ、会場を沸かせた。目標はさらに大規模な実演ということで、まだ課題は多いが、ぜひ実現して欲しい。
   thumbnail: sound_in_the_forest.webp
   promotion: 8lZAGL0DftM
@@ -1407,7 +1407,7 @@
     A keyboard equipped with voice recognition functionality, available in Japanese, English, and Chinese.
   creator_ids:
     - nemoto_hibiki
-  mentor_id: sasada_kouichi
+  mentor_id: koichi_sasada
   comment: 根本さんは、音声認識機能を持つ「聞くキーボード」を、ラズパイを用いて開発した。日本語だけでなく、英語と中国語のデモを行ったのはファインプレイだった。多くの箇所で既存のソフトウェアやサービスを使っているため、本質的に困難な箇所はないが、うまく組み合わせ、使える状態にして公開できたのは大きく評価できる。欲を言えば、キーボードをより活用する提案ができると良かった。改善すべき点も多いが、それも含め、未踏ジュニア期間に体験したことを糧に今後も活躍して欲しい。
   thumbnail: listenable_keyboard.webp
   #promotion:
