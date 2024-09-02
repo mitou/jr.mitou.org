@@ -124,6 +124,7 @@ Our alumni are creating new values after the program as well. Here are a few exa
   </li>
 </ul>
 
+<!--
 <div class="youtube" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
   <meta itemprop="isFamilyFriendly"     content="True">
   <meta itemprop="requiresSubscription" content="False">
@@ -139,14 +140,78 @@ Our alumni are creating new values after the program as well. Here are a few exa
 </div>
 
 <a href="https://www.youtube.com/watch?v=EZvmIcmtWoE" class="button">Watch on YouTube</a>
+-->
 
+<br>
 
 ## [<i class="fa-light fa-books"></i>](#showcase) Projects Showcase {#showcase}
 
 Up to now <strong>{{ total_applications }} applications</strong> are submitted to our Mitou Junior program, and we support <strong>{{ total_projects }} projects</strong> and <strong>{{ total_creators }} creators</strong>. ([Acceptance rate: 10-13%](/english/stats))
 
+<!-- Projects を時系列順にソートし、初年度と最新年度を取得する -->
+{% assign oldest_pj = site.data.projects | sort: 'year' | first %}
+{% assign newest_pj = site.data.projects | sort: 'year' | last  %}
+{% assign this_year = newest_pj.year %}
+
 Example projects, accepted and boosted by our program, are as follows.
 
+<h3 id='{{ this_year }}'>
+  <a href='#{{ this_year }}' style='color: #333; font-weight: bold;'>{{ this_year }}'s projects</a>
+  <!--<span style='font-size: small;'>（<a href='#top'>Back to top &uarr;</a>）</span>-->
+</h3>
+
+<div class="projects flex">
+  {% assign projects = site.data.projects | where_exp: "pj", "pj.year == this_year" %}
+  {% for pj in projects %}
+    {% comment %}{% include project-details.html %}{% endcomment%}
+
+  <div class="project" id="{{ pj.id }}">
+    <h3 class="project-title no-link-decoration"><a href='#{{ pj.id }}'>{{ pj.title_en }}</a></h3>
+
+    {% if pj.creator_ids %}
+    <!-- Show no credits, including mentor, unless create_ids assigned. -->
+    <p class="project-name">
+      <small>by</small>
+      {% for creator_id in pj.creator_ids %}
+        {% assign creator = site.data.creators | where: "id", creator_id | first %}
+        {% if forloop.index > 1 %}<span>/</span>{% endif %}
+
+        {{ creator.id | split: '_' | first | capitalize }}
+        {{ creator.id | split: '_' | last  | capitalize }}
+      {% endfor %}
+
+      <small><small>(Mentor: {% include link-to-mentor.html id=pj.mentor_id %})</small></small>
+    </p>
+    {% endif %}
+
+    {% if pj.thumbnail %}
+    <!-- Show thumbnail image if already set. -->
+    <a href="/english/projects/{{ pj.year }}/{{ pj.id }}">
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}"
+           alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
+    </a>
+    {% else %}
+    <!-- Show TBD thumbnail image if not ready yet. -->
+    <a href="/english/projects/{{ pj.year }}/{{ pj.id }}">
+       <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/tbu.png"
+            alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
+    </a>
+    {% endif %}
+
+    <h4>Abstract</h4>
+    <p class="project-description">{{ pj.description_en }}</p>
+    <a href="/english/projects/{{ pj.year }}/{{ pj.id }}" class="button">View details</a>
+  </div>
+
+  {% endfor %}
+</div>
+
+<div class='flex'>
+  <a href="/english/projects" class="button">View all projects</a>
+</div>
+
+
+<!--
 <div class="project-showcase-list">
   <a href='https://github.com/visible/visible' class="project-showcase project-one">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/english/visible.webp" alt="Visible - Web Accessibility Validate & Fix" class="project-img lazyload" loading="lazy" />
@@ -180,10 +245,7 @@ Example projects, accepted and boosted by our program, are as follows.
     <img src="/assets/img/spinner.svg" data-src="/assets/img/english/hato.webp" alt="Hopefully Automatic Train Operation (HATO): Immersive Automatic Model Train Control System" class="project-img lazyload" loading="lazy" />
   </a>
 </div>
-
-<div class='flex'>
-  <a href="/english/projects" class="button">View all projects</a>
-</div>
+-->
 
 
 ## [<i class="fa-light fa-calendar-clock"></i>](#agenda) Program Agenda {#agenda}
