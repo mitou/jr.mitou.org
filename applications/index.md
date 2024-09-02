@@ -69,7 +69,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
     <a href='https://zenn.dev/reputeless/articles/idea-mitoujr'>未踏ジュニア、伝わる提案書を作る 5 つのコツ
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
-    <small>（<a href='/mentors#suzuki_ryou'>鈴木</a>）</small>
+    <small>（<a href='/mentors#ryo_suzuki'>鈴木</a>）</small>
   </li>
   <li>
     <a href='https://note.com/teramotodaiki/n/n148d35899016'>提案書のよくある「もったいない」点の紹介

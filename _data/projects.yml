@@ -93,7 +93,7 @@
   final_start: 35
   #link:        # 公式サイトがあれば追記する
   year: 2023
-  mentor_id: suzuki_ryou
+  mentor_id: ryo_suzuki
   creator_ids:
   - sota_ueda
 
@@ -589,7 +589,7 @@
   final: ZjB5-88mEf0
   link: https://anyget.github.io/
   year: 2021
-  mentor_id: suzuki_ryou
+  mentor_id: ryo_suzuki
   creator_ids:
     - fujiwara_kazuma
 
@@ -725,7 +725,7 @@
   final: _S-EyVp4y1Q
   #link:
   year: 2020
-  mentor_id: suzuki_ryou
+  mentor_id: ryo_suzuki
   creator_ids:
     - ueda_reo
 
@@ -957,7 +957,7 @@
     "abecobe" is a puzzle game where you guide two contrasting protagonists and their partners to the goal. The controls are simple, requiring only flicks in the up, down, left, and right directions. Your objective is to bring both characters precisely to the goal. How many levels can you clear within the time limit?
   creator_ids:
     - asano_kei
-  mentor_id: suzuki_ryou
+  mentor_id: ryo_suzuki
   thumbnail: abecobe.webp
   #promotion:
   final: B70zjf0Xs6g
@@ -1161,7 +1161,7 @@
     Proposal for a Design Concept of a Notepad Application Based on a "Forest" Theme that Adapts to User Records and Emotions
   creator_ids:
     - shibahara_yoshinori
-  mentor_id: suzuki_ryou
+  mentor_id: ryo_suzuki
   comment: 箱庭を作るようにメモを画面の中の森に配置するという、既製のメモ帳アプリとは趣を異にするコンセプトを打ち出した。コーディングの学習や制作に十分な時間を割かなかったため実装には至らず、デザイン案の披露だけで終わってしまった。クリエータ個人のプレゼンテーションや図画の作成能力には目を見張るものがあるので、今後実際に動くものを作る能力を習得していければ鬼に金棒である。
   thumbnail: corkboard.webp
   #promotion:
@@ -1460,7 +1460,7 @@
     An application that allows elderly individuals with declining vision and children to easily read news articles. It features text display enhancements, marking of read sections, and eye-tracking capabilities.
   creator_ids:
     - ootsuka_rei
-  mentor_id: suzuki_ryou
+  mentor_id: ryo_suzuki
   comment: 視力の低下で新聞が読みにくくなった人を助けるアプリを開発しました。開発にあたって、新しいプログラミング言語や視線追跡デバイスの使い方、スライドのデザインなどの技術を楽しみながら学び、自分のものにしていきました。プロジェクトの中盤にはユーザテストを行い、実際の使用者と対話をしながらインタフェースを改良しました。このような進め方は人の役に立つアプリを作るうえで大切です。今回技術的に難しく実現できなかった一部の機能は、今後開発の経験を深めていく中で解決方法を見つけられるでしょう。
   thumbnail: rakuraku_yomiyomi.webp
   #promotion:
@@ -1510,7 +1510,7 @@
     Voice Commander is an innovative chess game operated through voice commands and gestures. Beyond focusing on graphics, it integrates voice recognition for piece movement and gesture control using markers displayed on smartphones, aiming to achieve a sense of "coolness." Inspired by the chess game featured in the anime "No Game No Life," each square on the board is assigned a name for players to call out during voice recognition, which can be easily customized by modifying a text file.
   creator_ids:
     - fukuzumi_jinshirou
-  mentor_id: suzuki_ryou
+  mentor_id: ryo_suzuki
   comment: 声による命令とジェスチャーで、プレイヤーを本物の司令官にしてしまう新感覚のコンピュータチェスを実現しました。 　福住さんはプロジェクト当初から「かっこいいチェスを作る」という目標に一貫してこだわり、画像処理や音声認識、3D グラフィックスなど、目標達成に必要な技術を一つ一つ学習し、自分のものにしていきました。 　チェスという伝統的な遊びを踏襲しながらも、まったく新しいプレイ体験を構築したのは、未踏的な発想力と実装力もさることながら、プロジェクト期間中に PM 陣や協力者から受けた様々な意見や提案にただ流されるのでなく、自分なりに吟味・取捨選択し、適切に開発方針を見定めていった成果だと思います。
   thumbnail: voice_commander.webp
   #promotion:
