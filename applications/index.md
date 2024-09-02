@@ -81,13 +81,13 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
     <a href='https://scrapbox.io/nishio/プロジェクト提案書ってどう書くの？'>プロジェクト提案書ってどう書くの？
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
-    <small>（<a href='/mentors#nishio_hirokazu'>西尾</a>）</small>
+    <small>（<a href='/mentors#hirokazu_nishio'>西尾</a>）</small>
   </li>
   <li>
     <a href='https://twitter.com/nishio/status/1640626474108727299'>中高生のための ChatGPT (GPT-4)
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
-    <small>（<a href='/mentors#nishio_hirokazu'>西尾</a>）</small>
+    <small>（<a href='/mentors#hirokazu_nishio'>西尾</a>）</small>
   </li>
 </ul>
 

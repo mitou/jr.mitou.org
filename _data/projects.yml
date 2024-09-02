@@ -239,7 +239,7 @@
   final_start: 0
   link: https://github.com/waryu-YND/code-museum-release/releases/tag/v1.0.0
   year: 2023
-  mentor_id: nishio_hirokazu
+  mentor_id: hirokazu_nishio
   creator_ids:
   - ryu_wakasa
 
@@ -418,7 +418,7 @@
   #final_start: 18484
   link: https://mofu-tom.github.io/StudyRec/
   year: 2022
-  mentor_id: nishio_hirokazu 
+  mentor_id: hirokazu_nishio
   creator_ids:
   - soda_kan
   - kroumov_tom
@@ -435,7 +435,7 @@
   #final_start: 19991
   link: https://crafterepost.netlify.app/
   year: 2022
-  mentor_id: nishio_hirokazu
+  mentor_id: hirokazu_nishio
   creator_ids:
   - matsui_yuuto
 
@@ -513,7 +513,7 @@
   final_start: 18922
   #link: 
   year: 2021
-  mentor_id: nishio_hirokazu
+  mentor_id: hirokazu_nishio
   creator_ids:
     - inoue_eisuke
 
@@ -528,7 +528,7 @@
   final: BDD-_NjnCqU
   #link: https://researcheck.com/ # 404 Not Found
   year: 2021
-  mentor_id: nishio_hirokazu
+  mentor_id: hirokazu_nishio
   creator_ids:
     - akiyama_tatsuhiko
 
@@ -695,7 +695,7 @@
   final: BeSeF5Exw1s
   link: https://brushtalk-5c0f3.web.app/
   year: 2020
-  mentor_id: nishio_hirokazu
+  mentor_id: hirokazu_nishio
   creator_ids:
     - hirakawa_haruna
 
@@ -927,7 +927,7 @@
     "pirka" is an artificial intelligence that learns your language and knowledge through chat conversations, developing a unique personality. In other words, it is "a one-of-a-kind AI just for you." Its resemblance to your emotions and preferences will surely evoke a sense of familiarity.
   creator_ids:
     - itoi_mamoru
-  mentor_id: nishio_hirokazu
+  mentor_id: hirokazu_nishio
   thumbnail: pirka.webp
   #promotion:
   final: tZHVhEjqX1g
@@ -1113,7 +1113,7 @@
     Development of Infrared Communication Blocks and Games for Elementary School Students to Learn English Vocabulary While Playing.
   creator_ids:
     - hirano_shoutarou
-  mentor_id: nishio_hirokazu
+  mentor_id: hirokazu_nishio
   comment: 彼は応募以前から各種展示会で小学生向けデバイスの展示をしており、その経験から思いついたアイデアである。ブースト会議でのジュニアOBとの議論を通じて、当初の計画のLEDマトリクスよりも技術的難易度の高い液晶ディスプレイにチャレンジする決断をした。 解像度が高くなったことによるメモリ消費の増加や、赤外線通信の精度に悩まされながらも、小学生が実際に使えるものを作りあげた。実際のユーザの振る舞いを観察して知見を得るところまで限られた時間でやり遂げたことが素晴らしい。 これからも、どんどん作りたいものを作り、どんどん難しいことにチャレンジして欲しい。
   thumbnail: lets_eigo_puzzle.webp
   #promotion:
@@ -1129,7 +1129,7 @@
     Supporting the efficient use of meeting rooms by controlling reservations and the power supply of equipment within the rooms using IoT devices.
   creator_ids:
     - satou_rei
-  mentor_id: nishio_hirokazu
+  mentor_id: hirokazu_nishio
   comment: 会議室に設置したセンサーとクラウド上のスケジュール管理サービスを連携させるプロジェクトである。ブースト会議の段階で立てた計画を、期間中に淡々と実行していった。IoTプロジェクトにつきもののトラブルに見舞われつつも、成果報告会までに無事完成させ、実際の会議室に設置する実験を行なった。 安定感のあるプロジェクト進行と成果報告で、会場からは「ぜひインターンに来て欲しい」という声が上がるほどであった。ただ、PMとしては、もっと不確実性にチャレンジするように干渉するべきだったかもしれないなと思っている。 今後もぜひ色々なことにチャレンジしていって欲しい。
   thumbnail: smile_meeting_room.webp
   #promotion:
@@ -1426,7 +1426,7 @@
     - adachi_motone
     - tajima_yuuki
     - degawa_hirokazu
-  mentor_id: nishio_hirokazu
+  mentor_id: hirokazu_nishio
   comment: 書類上は山田さんがチームリーダーだが、実質的には足立さんがメインのプロジェクト。足立さんはIoTデバイスをプログラミングなしで使えるようにすることで、よりIoTの普及した世界が訪れることを目的とし、ソフトウェア開発に挑戦した。残念ながら成果報告会でデモを見ることはできなかったが、Raspberry Piの上でWebサービスを動かし、ユーザはプログラムレスで、人感センサの入力をTweetするなどの設定をブラウザ上で行うことができる。何でも自分でやりたいのか、あまりPMに対して報告・連絡・相談をしてくれなかったのが残念である。
   thumbnail: smile_iot.webp
   #promotion:
@@ -1494,7 +1494,7 @@
   creator_ids:
     - fukuda_kyouko
     - kudou_reo
-  mentor_id: nishio_hirokazu
+  mentor_id: hirokazu_nishio
   comment: 「明示的な記録開始動作なしに勉強時間を計測したい」という目的のために、ペンにセンサを内蔵しBLEで通信することを提案したプロジェクトでした。共有の作業場なしで物理的なデバイスを製作する困難の中、短い開発期間でペンとして実用可能なサイズのプロトタイプを完成させました。素晴らしい成果だと思います。今後は商品化という更に高い目標を目指すそうで、きっと多くの学びと成長があることだろうと期待しています。
   thumbnail: smart_pen.webp
   #promotion:
