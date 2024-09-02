@@ -1259,7 +1259,7 @@
     Development of a Smartphone Application that Translates the Names of Objects Captured in Photos into Other Languages.
   creator_ids:
     - kawahara_keitarou
-  mentor_id: wada_natsumi
+  mentor_id: natsumi_wada
   comment: 河原くんは写して翻訳という写真を写してそのもの名前を表示する、新しい翻訳の形を提示した。最初の提案時よりすでにデモを作ってきており、本人のデザインセンスと毎週の進捗、つくるということに対する好奇心と素早さには毎回驚かされた。画像から言葉という発想も素晴らしく、アンケートを60件取るといった行動力も評価したい。定めた方向性でどう実現するか、そのゴールを描けた時、さらに飛躍的にそして多くの人が惹かれるプロダクトになるだろう。そのセンスと好奇心でどこまでも突き進んでいってほしい。
   thumbnail: camera_translation.webp
   #promotion:
