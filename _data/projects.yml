@@ -559,7 +559,7 @@
   final: Qolb3pirfSQ
   #link: https://youtu.be/vKnFXhpF3YU
   year: 2021
-  mentor_id: yonetsuji_taizan
+  mentor_id: taizan_yonetsuji
   creator_ids:
     - chou_masaki
 
@@ -574,7 +574,7 @@
   final: FokTPg63v5w
   #link: 
   year: 2021
-  mentor_id: yonetsuji_taizan
+  mentor_id: taizan_yonetsuji
   creator_ids:
     - iguchi_haruto
 
@@ -849,7 +849,7 @@
   final: MiBiBzl0ZwU
   #link:
   year: 2020
-  mentor_id: yonetsuji_taizan
+  mentor_id: taizan_yonetsuji
   creator_ids:
     - ando_yosuke
 
@@ -864,7 +864,7 @@
   final: MUvjwmUwdsc
   #link:
   year: 2020
-  mentor_id: yonetsuji_taizan
+  mentor_id: taizan_yonetsuji
   creator_ids:
     - yamaguchi_yuya
 
@@ -1050,7 +1050,7 @@
     Tea is a virtual economic simulation platform and a game that utilizes it. By providing a system similar to an actual economy, users can freely exchange currency and items, thereby simulating a monetary economy. Various social systems can be simulated.
   creator_ids:
     - izumita_sumito
-  mentor_id: yonetsuji_taizan
+  mentor_id: taizan_yonetsuji
   thumbnail: tea.webp
   #promotion:
   final: rW57i1ZSksA
@@ -1195,7 +1195,7 @@
     Development of a Robot Soccer Player Using Reinforcement Learning
   creator_ids:
     - saitou_takeru
-  mentor_id: yonetsuji_taizan
+  mentor_id: taizan_yonetsuji
   comment: 強化学習を用いたシミュレーションを使ってサッカー、しかも二足歩行ロボットでやる、という非常に大きく難しいテーマを選択し、強化学習のフレームを使って、ボールをゴールに運ぶエージェントや二足歩行で目的位置に向かうエージェントのトレーニングに取り組んだ。研究分野として新しい分野であり、色々な知識や実装能力が求められる課題に対して、チャレンジできた事、学習がうまくいかない場合に色々な仮説を立て、それを検証して改善した所については高く評価できる。これらはまだプロジェクト全体の一部でしかないが、ぜひこれからも拡張発展を期待したい。
   thumbnail: robot_soccer.webp
   #promotion:
@@ -1275,7 +1275,7 @@
     Development of an Alert Application for Smartwatches to Assist Individuals with Sudden Changes in Chronic Conditions.
   creator_ids:
     - mutou_hikaru
-  mentor_id: yonetsuji_taizan
+  mentor_id: taizan_yonetsuji
   comment: 武藤君は自身の持つアレルギーにおける緊急時の対応の難しさと重要性について問題意識をもって、スマートウオッチを用いた異常状態の監視システムの可能性を検討したり、緊急事態におけるアラートを飛ばす仕組みについて検討を行い、いくつかのアプリを試作し、実験を行った。アプリ実装の経験はなかったが、新しい技術に対して勉強を行って、実装を進めるという所が出来ていた事、難しい領域に対して確固とした問題意識をもって取り組めた事は評価に値する。ぜひこれからも色々な視点を持って様々な課題に取り組んでみてほしい。
   thumbnail: life_watcher.webp
   #promotion:
@@ -1343,7 +1343,7 @@
     Using natural language processing to analyze movie scripts and evaluate the story based on the emotional changes of the characters. Real-time emotion analysis of user-written text.
   creator_ids:
     - sugano_kaede
-  mentor_id: yonetsuji_taizan
+  mentor_id: taizan_yonetsuji
   comment: スマホアプリ等の開発経験を持っていた事、ストーリーの解析という難しいテーマに対し形態素解析という技術的なアプローチを提案出来ていた事から採択。期間中にサーバサイドでのシナリオ形態の素解析プログラム、クライアントサイドでの感情グラフ化等を実現し、実際に幾つかのシナリオについて分析する事ができた事を高く評価したい。将来性の高いテーマなので、これからの発展に期待したい。
   thumbnail: narratica.webp
   #promotion:
@@ -1359,7 +1359,7 @@
     A system for monitoring elderly individuals by installing a surveillance device at the entrance of their homes, allowing caregivers to keep watch. The surveillance device is equipped with a camera and various sensors, enabling caregivers to check on the elderly in real-time via the web through a server.
   creator_ids:
     - yano_rei
-  mentor_id: yonetsuji_taizan
+  mentor_id: taizan_yonetsuji
   comment: 祖父を見守りたいというモチベーションで、マイコンを用いてセンサやカメラデータを取得し、サーバサイドでデータベース化およびグラフ化、さらに機械学習を用いた取得画像の分類を行った。 電子工作、サーバ、クライアントと非常に広範な開発をこなす高い技術力を評価して採択。期待以上のエンジニアリング能力を発揮してくれた。これからもその開発力を色々な所で活かして貰いたい。
   thumbnail: savacs.webp
   #promotion:
