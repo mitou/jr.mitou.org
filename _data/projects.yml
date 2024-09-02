@@ -77,7 +77,7 @@
   final_start: 0
   link: https://www.yonkoma.app/
   year: 2023
-  mentor_id: ukai_yuu
+  mentor_id: yu_ukai
   creator_ids:
   - kai_tanaka
 
@@ -740,7 +740,7 @@
   final: PQMZAD6NwYU
   #link:
   year: 2020
-  mentor_id: ukai_yuu
+  mentor_id: yu_ukai
   creator_ids:
     - ito_hiroko
 
@@ -1020,7 +1020,7 @@
     We have developed a GAN-based system capable of automatically completing unfinished line drawings. This system enables even beginners to easily create complex illustrations. This research particularly focuses on the generation of anime face images.
   creator_ids:
     - namekata_kouichi
-  mentor_id: ukai_yuu
+  mentor_id: yu_ukai
   thumbnail: edge_guided_anime_characters_generation.webp
   #promotion:
   final: OVD5nw1DA5s
@@ -1145,7 +1145,7 @@
     Developing a Consensus Algorithm to Enable Easy Acquisition of Cryptocurrency for Everyone through a New Blockchain.
   creator_ids:
     - suegami_sora
-  mentor_id: ukai_yuu
+  mentor_id: yu_ukai
   comment: 新しいブロックチェーンのコンセンサスアルゴリズムを実際に開発し、デモとして体験できるところまで持ってきたことだけで、十分に大きな評価に値する。今後は、Vreath上で動くDAppsを実現するために開発者を巻き込んでいく必要があるが、末神さんが持つ行動力と、ブロックチェーンに関する深い造詣、なによりも圧倒的な情熱があれば、世界をあっと驚かすようなプロジェクトに成長できる可能性を秘めているので、大人の声に惑わされずどんどん開発を進めていってほしい。
   thumbnail: vreath.webp
   #promotion:
@@ -1327,7 +1327,7 @@
     Developed a system that supports motivation for memorization learning by baking kanji and words, which were diligently learned through web quizzes, onto cookies.
   creator_ids:
     - nakasuji_ayaka
-  mentor_id: ukai_yuu
+  mentor_id: yu_ukai
   comment: 自分自身の、「海外にいると漢字を学ぶモチベーションを保ちにくい」という経験に基づいて、オンラインの漢字テストでがんばって覚えた漢字をレーザーカッターを利用してクッキーに焼くことで、楽しく漢字を学べるシステム「暗記クッキー」を開発した。時間が限られている中で、最低限、動く形まで持ってきたことは評価できるので、今後もこの非常に良いアイデアの可能性を広げることにチャレンジしてほしい。
   thumbnail: anki_cookie.webp
   #promotion:
@@ -1477,7 +1477,7 @@
     VR Picture Book Maker is a smartphone application designed to create worlds and stories that can be experienced in virtual reality. Enter the world of a story! Go on a date with someone special! Attend a live performance by your favorite artist! This app allows anyone to easily create VR picture books viewable on a smartphone. Users can select 360-degree background images, characters, speech bubbles, sound effects, and transition effects to craft their VR picture books.
   creator_ids:
     - kimura_hiroko
-  mentor_id: ukai_yuu
+  mentor_id: yu_ukai
   comment: ユーザーがVRコンテンツを作れるアプリを作る、という非常に挑戦的なテーマに挑み、実際に自分が体験したかった「銀河鉄道」の様なVRコンテンツが製作できるものに仕上げたのは大変素晴らしいです。 今後はアプリのリリースに向けて、細かいバグ修正やコンテンツの共有機能を実装し、さらにその世界を広げていくことを強く期待します。
   thumbnail: vr_picture_book_maker.webp
   #promotion:

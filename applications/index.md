@@ -51,7 +51,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
     <a href='https://medium.com/@ukkaripon/なぜ-未踏-は多くの若い世代に知られるべきなのか-1fb31ac9fda3'>なぜ「未踏」は多くの若い世代に知られるべきなのか
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
-    <small>（<a href='/mentors#ukai_yuu'>鵜飼</a>）</small>
+    <small>（<a href='/mentors#yu_ukai'>鵜飼</a>）</small>
   </li>
   <li>
     <a href='https://speakerdeck.com/yasulab/believe-in-your-passion'>多様なメンター、多様な基準
