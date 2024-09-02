@@ -78,15 +78,7 @@ thumbnail: /assets/img/projects/index.webp
 	    {{ creator.id | split: '_' | last  | capitalize }}
 	  {% endfor %}
 
-	  <small><small>
-	    {% assign mentor = site.data.mentors | where: "id", pj.mentor_id | first %}
-
-	    {% if mentor.is_alumni %}
-            (Mentor: <a href='/mentors/alumni#{{ mentor.id }}'>{{ mentor.name.english }}</a>)
-            {% else %}
-            (Mentor: <a href='/mentors#{{ mentor.id }}'>{{ mentor.name.english }}</a>)
-            {% endif %}
-	  </small></small>
+	  <small><small>(Mentor: {% include link-to-mentor.html id=pj.mentor_id %})</small></small>
 	</p>
 	{% endif %}
 
