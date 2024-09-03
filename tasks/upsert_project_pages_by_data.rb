@@ -86,7 +86,6 @@ projects.each_with_index do |project, index|
 
    ### {{ translations.creator[lang] }} {#creator}
    <p>
-     {% if page.lang == 'en' %}{{ pj.description_en }}{% else %}{{ pj.description }}{% endif %}
      {% for creator_id in pj.creator_ids %}
        {% include creator.html is_simple=true %}
      {% endfor %}
