@@ -49,7 +49,7 @@ twitter_card: summary_large_image
 ### {{ translations.creator[lang] }} {#creator}
 <p>
   {% for creator_id in pj.creator_ids %}
-    {% include creator.html is_simple=true %}
+    {% include creator.html no_spc_star=true %}
   {% endfor %}
 
   <small>
