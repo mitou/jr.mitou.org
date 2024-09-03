@@ -41,7 +41,7 @@ projects.each_with_index do |project, index|
       {% endif %}                 title='{{ pj.title }}' style='border-radius: 6px;' loading='lazy' />
     </div>
 
-    {{ pj.description_en }}
+    {% if page.lang == 'en' %}{{ pj.description_en }}{% else %}{{ pj.description }}{% endif %}
 
     <div class='flex'>
       {% if pj.link %}
@@ -123,11 +123,6 @@ projects.each_with_index do |project, index|
         #{ Truncato.truncate(next_project[:title_en]) }</a></p>
     </nav>
 
-    <ul style="list-style: none; text-align: center; padding: 30px 0px;">
-      <li style="display: inline-block; margin: auto 10px;">
-        <a href="/english/projects">&raquo; Back to Project Showcase</a>
-      </li>
-    </ul>
   PROJECT_PAGE
 
   IO.write(path, page)
