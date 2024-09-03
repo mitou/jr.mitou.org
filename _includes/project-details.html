@@ -5,7 +5,7 @@
   <!-- Show no credits, including mentor, unless create_ids assigned. -->
   <p class="project-name">
     {% for creator_id in pj.creator_ids %}
-      {% include creator.html is_simple=true %}
+      {% include creator.html no_spc_star=true %}
     {% endfor %}
 
     <small>

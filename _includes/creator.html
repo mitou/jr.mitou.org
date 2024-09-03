@@ -5,7 +5,7 @@
 
   {{ creator.id | split: '_' | first | capitalize }}
   {{ creator.id | split: '_' | last  | capitalize }}
-{% elsif include.is_simple %}
+{% elsif include.no_spc_star %}
   {% if forloop.index > 1 %}
   <span>/</span>
   {% endif %}
