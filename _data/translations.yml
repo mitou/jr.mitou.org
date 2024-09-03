@@ -90,7 +90,7 @@ postToX:
   ja: ツイートする
   en: Post to X
 postLangX:
-  ja: jp
+  ja: ja
   en: en
 
 creator:
