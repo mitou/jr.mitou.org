@@ -89,7 +89,15 @@ projects.each_with_index do |project, index|
      {% for creator_id in pj.creator_ids %}
        {% include creator.html is_simple=true %}
      {% endfor %}
-     <small>(<a href='/projects/{{ pj.year }}'>{{ pj.year }}年度</a> 採択 / {% include link-to-mentor.html id=pj.mentor_id %} PM)</small>
+
+     <small>
+       {% if page.lang == 'en' %}
+       (Year: <a href='/english/projects/\#{{ pj.year }}'>{{ pj.year }}</a> /
+        Mentor: {% include link-to-mentor.html id=pj.mentor_id %})
+       {% else %}
+       (<a href='/projects/{{ pj.year }}'>{{ pj.year }}年度</a> 採択 / {% include link-to-mentor.html id=pj.mentor_id %} PM)
+       {% endif %}
+     </small>
    </p>
 
    {% if page.lang == 'ja' and pj.comment %}

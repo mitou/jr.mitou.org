@@ -1,6 +1,11 @@
 {% assign creator = site.data.creators | where: "id", creator_id | first %}
 
-{% if include.is_simple %}
+{% if page.lang == 'en' %}
+  {% if forloop.index > 1 %}<span>/</span>{% endif %}
+
+  {{ creator.id | split: '_' | first | capitalize }}
+  {{ creator.id | split: '_' | last  | capitalize }}
+{% elsif include.is_simple %}
   {% if forloop.index > 1 %}
   <span>/</span>
   {% endif %}
