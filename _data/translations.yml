@@ -89,6 +89,9 @@ viewOfficialWebsite:
 postToX:
   ja: ツイートする
   en: Post to X
+postLangX:
+  ja: jp
+  en: en
 
 creator:
   ja: クリエータ
