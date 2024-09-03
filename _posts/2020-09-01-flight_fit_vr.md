@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品"
+title: |
+  -Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品
 permalink: /projects/2020/flight_fit_vr
 thumbnail: /assets/img/projects/2020/flight_fit_vr.webp
 description: "OculusのVRゴーグルで、美しい景色と音楽の中でリラックスしながら身体を鍛えることができる作品です。３つのミニゲームから構成されており、体幹、腹筋、前腿の筋肉などの筋力向上を期待できます。"

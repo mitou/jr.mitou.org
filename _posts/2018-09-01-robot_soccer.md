@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "強化学習を用いたロボットサッカーシミュレーション"
+title: |
+  強化学習を用いたロボットサッカーシミュレーション
 permalink: /projects/2018/robot_soccer
 thumbnail: /assets/img/projects/2018/robot_soccer.webp
 description: "強化学習を用いた、ロボットサッカーのプレイヤーの開発。"

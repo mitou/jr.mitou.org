@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "スマイル会議室 - IoTで会議室の効率的な利用を"
+title: |
+  スマイル会議室 - IoTで会議室の効率的な利用を
 permalink: /projects/2018/smile_meeting_room
 thumbnail: /assets/img/projects/2018/smile_meeting_room.webp
 description: "IoTデバイスを用いて会議室予約や会議室内の備品の電源などを制御することで会議室の効率的利用を支援。"

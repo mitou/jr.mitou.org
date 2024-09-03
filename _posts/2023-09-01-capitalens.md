@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Capitalens"
+title: |
+  Capitalens
 permalink: /projects/2023/capitalens
 thumbnail: /assets/img/projects/2023/capitalens.webp
 description: "Capitalensは、国会の一次情報をベースに、AIなどの新しい技術を駆使して今何が行われているのかを可視化するウェブアプリケーションです。会議の前後のコンテキストが切り取られてSNSで拡散される問題を解決したり、会議のAI要約やスピーカーの分類機能で、より議論を身近なものにします。"

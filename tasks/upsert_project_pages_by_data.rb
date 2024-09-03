@@ -19,10 +19,12 @@ projects.each_with_index do |project, index|
   page = <<~PROJECT_PAGE
     ---
     layout: post
-    title: "#{project[:title]}"
+    title: |
+      #{project[:title]}
+    description: |
+      #{project[:description]}
     permalink: /projects/#{project[:year]}/#{project[:id]}
     thumbnail: /assets/img/projects/#{project[:year]}/#{project[:thumbnail]}
-    description: "#{project[:description]}"
     twitter_card: summary_large_image
     ---
 

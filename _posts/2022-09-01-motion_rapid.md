@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Motion Rapid - 動画編集ソフトのようなUIでCSSアニメーションを作成するツール"
+title: |
+  Motion Rapid - 動画編集ソフトのようなUIでCSSアニメーションを作成するツール
 permalink: /projects/2022/motion_rapid
 thumbnail: /assets/img/projects/2022/motion_rapid.webp
 description: "MotionRapidはCSSパララックスアニメーションを動画編集ソフトのようなUIから作成できるツールです。動画編集ソフトで広く採用されているタイムラインUIを使い、HTMLやCSS、JavaScriptを直接コーディングすることなくパララックスアニメーションを作成することができます。"

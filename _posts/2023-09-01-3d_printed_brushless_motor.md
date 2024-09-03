@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "3Dプリンタで作る自作モーター"
+title: |
+  3Dプリンタで作る自作モーター
 permalink: /projects/2023/3d_printed_brushless_motor
 thumbnail: /assets/img/projects/2023/3d_printed_brushless_motor.webp
 description: "このプロジェクトの最終目標は、モーター選定に自作という選択肢を増やし、アイデアをより的確に実現できるようにすることです。そのための第一歩として、3Dプリント部品でブラシレスモーターを作り、制御回路を自作し、モーターを回すことに成功しました。今後は、高効率化や情報公開を進め、モーター自作文化を作ります。"

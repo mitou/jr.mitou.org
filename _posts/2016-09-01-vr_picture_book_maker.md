@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "VR絵本メーカー"
+title: |
+  VR絵本メーカー
 permalink: /projects/2016/vr_picture_book_maker
 thumbnail: /assets/img/projects/2016/vr_picture_book_maker.webp
 description: "VR絵本メーカーは、 VRで体験できる世界やストーリーを制作するためのスマートフォンアプリケーションです。 物語の世界に入ることができる！大好きなあの人とデートができる！憧れのアーティストのライブにも行けちゃう！誰でも簡単にスマホで観れるVR絵本をつくれます。 ユーザーは背景となる360度画像を選択し、キャラクターや吹き出し、さらに効果音、遷移エフェクトを選択してVR絵本にします。"

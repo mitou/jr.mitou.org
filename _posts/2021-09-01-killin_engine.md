@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "KillinEngine -マルチプレイ型ゲーム制作エンジン-"
+title: |
+  KillinEngine -マルチプレイ型ゲーム制作エンジン-
 permalink: /projects/2021/killin_engine
 thumbnail: /assets/img/projects/2021/killin_engine.webp
 description: "キリンエンジンは、仲間と遊びながらオンラインマルチプレイゲームが作れるゲーム制作ツールです。最新のネットワーク技術により、クリエイターたちは一つの仮想空間に召喚されゲームをリアルタイム共同編集することができます。"

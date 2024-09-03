@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "VirtualPresents - 仮想世界で用いるWebサービス"
+title: |
+  VirtualPresents - 仮想世界で用いるWebサービス
 permalink: /projects/2019/virtual_presents
 thumbnail: /assets/img/projects/2019/virtual_presents.webp
 description: "仮想世界を彩るためのWebサービスのあり方を模索するプロジェクトです。仮想世界にWeb上から画像を出稿したり、Twitterのようないいね機能を提供することができます。仮想世界とWebという大きく異なる2つの間の架け橋となる概念を提案しました。"

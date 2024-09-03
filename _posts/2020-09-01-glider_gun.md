@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "GliderGun - ブラウザOSを簡単に作成できるツール郡"
+title: |
+  GliderGun - ブラウザOSを簡単に作成できるツール郡
 permalink: /projects/2020/glider_gun
 thumbnail: /assets/img/projects/2020/glider_gun.webp
 description: "このプロジェクトはLinuxのディストリビューションを簡単に作成できるツール郡を提供します。また、作成するディストリビューションはブラウザを使うことを主な目的としており、このように機能を制限することで様々な恩恵を得ることができます。"

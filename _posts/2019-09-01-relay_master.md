@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "リレーマスター"
+title: |
+  リレーマスター
 permalink: /projects/2019/relay_master
 thumbnail: /assets/img/projects/2019/relay_master.webp
 description: "センサが埋め込まれた特殊なバトンを持って走るだけで，あらゆる運動を解析するシステムを開発しました。データは専用のwebにアップロードして，あなたの運動をAIで分析・最適化します。“リレーマスター” を利用して，プロに匹敵するパフォーマンスを実現してみませんか？"

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "スマート盲導杖『みちしる兵衛』～AI搭載白杖による視覚障害者歩行支援～"
+title: |
+  スマート盲導杖『みちしる兵衛』～AI搭載白杖による視覚障害者歩行支援～
 permalink: /projects/2022/michishirube
 thumbnail: /assets/img/projects/2022/michishirube.webp
 description: "『みちしる兵衛』は、独自の機械学習モデルに基づくAIを搭載した白杖です。視覚障害者の方々の歩行中に、線路や横断歩道、クルマといった危険を検出・通知し、より安心して歩行ができるよう補助します。"

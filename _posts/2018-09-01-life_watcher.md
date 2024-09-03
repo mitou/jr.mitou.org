@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Life Watcher - 急変する持病を持つ人のための警報システム"
+title: |
+  Life Watcher - 急変する持病を持つ人のための警報システム
 permalink: /projects/2018/life_watcher
 thumbnail: /assets/img/projects/2018/life_watcher.webp
 description: "スマートウォッチ上で動作する、急変する持病を持つ人を助ける警報アプリの開発。"

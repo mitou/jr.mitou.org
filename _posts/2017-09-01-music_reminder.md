@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案"
+title: |
+  個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーションの提案
 permalink: /projects/2017/music_reminder
 thumbnail: /assets/img/projects/2017/music_reminder.webp
 description: "カラオケで歌った曲、見た映画等の経験に基づいて、AppleMusicから曲を推薦する新しい仕組みのiOSアプリを開発"
