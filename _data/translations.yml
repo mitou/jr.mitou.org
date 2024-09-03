@@ -69,3 +69,46 @@ contactText:
   en: '<p>Let us know if you have any questions or interests!</p>'
 
 # <!--<br>チラシ配布にご協力頂ける方は<a href="/flyers">コチラ</a>からご請求をお願い致します。
+
+altThumbnail:
+  ja: サムネイル画像
+  en: Thumbnail
+
+downloadOnGitHub:
+  ja: ダウンロードする
+  en: Donwload codes on GitHub
+
+viewOnGitHub:
+  ja: ソースコードを見る
+  en: View project on GitHub
+
+viewOfficialWebsite:
+  ja: 公式サイトを見る
+  en: View official website
+
+postToX:
+  ja: ツイートする
+  en: Post to X
+
+creator:
+  ja: クリエータ
+  en: Creator
+
+demoMovie:
+  ja: デモ動画
+  en: Demo Movie
+
+watchOnYouTube:
+  ja: YouTube で見る
+  en: Watch on YouTube
+
+pitch:
+  ja: 発表動画
+  en: Pitch
+
+navPrev:
+  ja: 前
+  en: Prev
+navNext:
+  ja: 次
+  en: Next
