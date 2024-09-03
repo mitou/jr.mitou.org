@@ -2,9 +2,10 @@
 layout: post
 title: |
   ManageStock - 家庭向け在庫管理アプリ
+description: |
+  ティッシュペーパーのような日用品を買い忘れてしまい、困った経験はありませんか？ ManageStock はそのような問題を解決するために、在庫を IoT などを活用して管理するアプリケーションです。
 permalink: /projects/2019/manage_stock
 thumbnail: /assets/img/projects/2019/manage_stock.webp
-description: "ティッシュペーパーのような日用品を買い忘れてしまい、困った経験はありませんか？ ManageStock はそのような問題を解決するために、在庫を IoT などを活用して管理するアプリケーションです。"
 twitter_card: summary_large_image
 ---
 

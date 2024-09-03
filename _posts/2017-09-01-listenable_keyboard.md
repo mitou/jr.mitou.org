@@ -2,9 +2,10 @@
 layout: post
 title: |
   '聞く'キーボード
+description: |
+  日本語、英語、中国語の3言語で利用できる、音声認識機能を搭載したキーボード。
 permalink: /projects/2017/listenable_keyboard
 thumbnail: /assets/img/projects/2017/listenable_keyboard.webp
-description: "日本語、英語、中国語の3言語で利用できる、音声認識機能を搭載したキーボード。"
 twitter_card: summary_large_image
 ---
 

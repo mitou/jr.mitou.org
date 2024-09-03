@@ -2,9 +2,10 @@
 layout: post
 title: |
   Fall in Friends ～東京オリンピックに向けて、日本のインバウンドを変えるアプリを作る ～
+description: |
+  困っている訪日外国人が、旅行者を助けたい日本人に質問できるアプリケーションを開発。
 permalink: /projects/2017/fall_in_friends
 thumbnail: /assets/img/projects/2017/fall_in_friends.webp
-description: "困っている訪日外国人が、旅行者を助けたい日本人に質問できるアプリケーションを開発。"
 twitter_card: summary_large_image
 ---
 

@@ -2,9 +2,10 @@
 layout: post
 title: |
   narratica〜ストーリーコンサルタント〜
+description: |
+  自然言語処理によって、映画脚本のテキスト分析を行い、登場人物の感情変化をもとにストーリーを評価。自分で書いた文章もリアルタイムに感情分析。
 permalink: /projects/2017/narratica
 thumbnail: /assets/img/projects/2017/narratica.webp
-description: "自然言語処理によって、映画脚本のテキスト分析を行い、登場人物の感情変化をもとにストーリーを評価。自分で書いた文章もリアルタイムに感情分析。"
 twitter_card: summary_large_image
 ---
 

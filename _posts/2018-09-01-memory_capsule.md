@@ -2,9 +2,10 @@
 layout: post
 title: |
   メモリーカプセル - カプセルを通して繋がるSNS
+description: |
+  場所に紐付いて、仮想カプセルを埋め、それを掘り出すことのできるSNSを開発。
 permalink: /projects/2018/memory_capsule
 thumbnail: /assets/img/projects/2018/memory_capsule.webp
-description: "場所に紐付いて、仮想カプセルを埋め、それを掘り出すことのできるSNSを開発。"
 twitter_card: summary_large_image
 ---
 

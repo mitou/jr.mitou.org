@@ -2,9 +2,10 @@
 layout: post
 title: |
   写して翻訳
+description: |
+  写真を写すことで、そこに写った物体の名前を他の言語に翻訳するスマートフォンアプリの開発。
 permalink: /projects/2018/camera_translation
 thumbnail: /assets/img/projects/2018/camera_translation.webp
-description: "写真を写すことで、そこに写った物体の名前を他の言語に翻訳するスマートフォンアプリの開発。"
 twitter_card: summary_large_image
 ---
 

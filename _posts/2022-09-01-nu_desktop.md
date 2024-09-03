@@ -2,9 +2,10 @@
 layout: post
 title: |
   NuDesktop - 軽量かつ柔軟なデスクトップ環境
+description: |
+  NuDesktopは、デバイスの状態や形態に合わせて変化するUIを提供するLinux向けのデスクトップ環境です。これにより、従来の環境ではUIが提供されなかったデバイスをより良いUIとともに使うことができます。
 permalink: /projects/2022/nu_desktop
 thumbnail: /assets/img/projects/2022/nu_desktop.webp
-description: "NuDesktopは、デバイスの状態や形態に合わせて変化するUIを提供するLinux向けのデスクトップ環境です。これにより、従来の環境ではUIが提供されなかったデバイスをより良いUIとともに使うことができます。"
 twitter_card: summary_large_image
 ---
 

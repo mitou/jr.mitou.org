@@ -2,9 +2,10 @@
 layout: post
 title: |
   Spaghetian - 電気と電磁石だけでCPUを自作する！
+description: |
+  三機の電磁石式自作自作CPUを互いにつなげてネットワークにし、その上でオンラインピンポンゲームが動くロマン溢れるプロジェクトです！魔法と見分けがつかなくなった現代のコンピュータテクノロジーの基本を自作することにより、それらが誰でも理解できることを示します。
 permalink: /projects/2020/spaghetian
 thumbnail: /assets/img/projects/2020/spaghetian.webp
-description: "三機の電磁石式自作自作CPUを互いにつなげてネットワークにし、その上でオンラインピンポンゲームが動くロマン溢れるプロジェクトです！魔法と見分けがつかなくなった現代のコンピュータテクノロジーの基本を自作することにより、それらが誰でも理解できることを示します。"
 twitter_card: summary_large_image
 ---
 

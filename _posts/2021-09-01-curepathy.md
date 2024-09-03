@@ -2,9 +2,10 @@
 layout: post
 title: |
   Curepathy -子供の興味を深めるアプリ-
+description: |
+  小中学生を対象とした能動的な学習を支援するアプリです。ユーザーの評価・タグ・レコメンドエンジンによってユーザーの興味に合った学習コンテンツを提示するほか、着せ替えゲームの要素を取り入れることで楽しく学び続けられる仕組みを提供します。
 permalink: /projects/2021/curepathy
 thumbnail: /assets/img/projects/2021/curepathy.webp
-description: "小中学生を対象とした能動的な学習を支援するアプリです。ユーザーの評価・タグ・レコメンドエンジンによってユーザーの興味に合った学習コンテンツを提示するほか、着せ替えゲームの要素を取り入れることで楽しく学び続けられる仕組みを提供します。"
 twitter_card: summary_large_image
 ---
 

@@ -2,9 +2,10 @@
 layout: post
 title: |
   Code Museum - 読むことだけに特化したソースコードエディタ
+description: |
+  Code Museumは、一般的なエディタからあえて「書く機能」をなくし、「読む機能」に特化したソースコードエディタです。範囲実行やGPTを活用した機能など、様々な「読む機能」があります。このエディタを使うことで、コードを読んでいる時間を短縮し、生産性を上げることができます。
 permalink: /projects/2023/code_museum
 thumbnail: /assets/img/projects/2023/code_museum.webp
-description: "Code Museumは、一般的なエディタからあえて「書く機能」をなくし、「読む機能」に特化したソースコードエディタです。範囲実行やGPTを活用した機能など、様々な「読む機能」があります。このエディタを使うことで、コードを読んでいる時間を短縮し、生産性を上げることができます。"
 twitter_card: summary_large_image
 ---
 

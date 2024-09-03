@@ -2,9 +2,10 @@
 layout: post
 title: |
   Sound in the forest - 複数のスマートフォンによる「動く音」の表現
+description: |
+  複数のスマートフォン上のウェブブラウザをリアルタイム同期させ、立体音響を実現するシステムの開発。
 permalink: /projects/2018/sound_in_the_forest
 thumbnail: /assets/img/projects/2018/sound_in_the_forest.webp
-description: "複数のスマートフォン上のウェブブラウザをリアルタイム同期させ、立体音響を実現するシステムの開発。"
 twitter_card: summary_large_image
 ---
 

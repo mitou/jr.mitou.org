@@ -2,9 +2,10 @@
 layout: post
 title: |
   AI 4コマメーカー
+description: |
+  「AI 4コマメーカー」は AI があなたの描いた絵を活用し、4コマ漫画を作成するwebアプリケーションです。落書きのように絵を描き、その絵を認識しgpt-4によってストーリーを生成します。そのため、ストーリー構成など考える必要がなく手軽に4コマ漫画を作ることができます。あなたの絵であなただけの4コマ漫画を作りましょう！
 permalink: /projects/2023/ai_4koma_maker
 thumbnail: /assets/img/projects/2023/ai_4koma_maker.webp
-description: "「AI 4コマメーカー」は AI があなたの描いた絵を活用し、4コマ漫画を作成するwebアプリケーションです。落書きのように絵を描き、その絵を認識しgpt-4によってストーリーを生成します。そのため、ストーリー構成など考える必要がなく手軽に4コマ漫画を作ることができます。あなたの絵であなただけの4コマ漫画を作りましょう！"
 twitter_card: summary_large_image
 ---
 

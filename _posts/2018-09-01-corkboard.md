@@ -2,9 +2,10 @@
 layout: post
 title: |
   Corkboard - 位置的に管理するメモサービス
+description: |
+  使用者の記録や感情を蓄え変化する「森」を基調としたメモ帳アプリのデザインコンセプトを提案
 permalink: /projects/2018/corkboard
 thumbnail: /assets/img/projects/2018/corkboard.webp
-description: "使用者の記録や感情を蓄え変化する「森」を基調としたメモ帳アプリのデザインコンセプトを提案"
 twitter_card: summary_large_image
 ---
 

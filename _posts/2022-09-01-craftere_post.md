@@ -2,9 +2,10 @@
 layout: post
 title: |
   CrafterePost - Minecraft建築物3D共有Webサービス
+description: |
+  CrafterePostは、Minecraftの建築物を3D共有できるWebサービスです。視聴者はブラウザだけで、建築物を好きな角度から眺めることができます。投稿者が建築過程を3D動画にすれば、視聴者は任意の時点・視点から眺めることができ、ブロックが複雑に入り組んでる構造でもわかりやすいです。
 permalink: /projects/2022/craftere_post
 thumbnail: /assets/img/projects/2022/craftere_post.webp
-description: "CrafterePostは、Minecraftの建築物を3D共有できるWebサービスです。視聴者はブラウザだけで、建築物を好きな角度から眺めることができます。投稿者が建築過程を3D動画にすれば、視聴者は任意の時点・視点から眺めることができ、ブロックが複雑に入り組んでる構造でもわかりやすいです。"
 twitter_card: summary_large_image
 ---
 
