@@ -308,6 +308,15 @@ Highcharts.chart('rates', {
 <a href="/projects/showcase" class="button">採択プロジェクトを見る</a>
 
 
+## [<i class="fa-light fa-book"></i>](#total) 他の統計情報 {#references}
+
+IPA が運営する[25歳未満を対象とした未踏事業](/opportunities#ipa-mitou)や、[年齢制限の無い未踏アドバンスト事業](/opportunities#ipa-mitou-advanced)の統計情報については以下のページからご確認いただけます。
+
+<a href="https://scrapbox.io/mitou-meikan/統計情報" class="button">
+  IPA 未踏の統計情報を見る
+  <!--<small><i class="fa-solid fa-up-right-from-square"></i></small>-->
+</a>
+
 
 ## [<i class="fa-light fa-envelope"></i>](#contact) 問い合わせ {#contact}
 
