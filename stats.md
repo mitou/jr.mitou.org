@@ -305,7 +305,9 @@ Highcharts.chart('rates', {
   </ul>
 </p>
 
-<a href="/projects/{{ stat.year }}" class="button">採択の一覧を見る</a>
+<a href="/projects/showcase" class="button">採択プロジェクトを見る</a>
+
+
 
 ## [<i class="fa-light fa-envelope"></i>](#contact) 問い合わせ {#contact}
 
