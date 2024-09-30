@@ -2,6 +2,15 @@
 # acceptance_rate  = projects / applications * 100 [%]
 # spc_rate         = spc / creators * 100 [%]
 
+- year: 2024
+  applications: 117
+  projects: 17
+  competition_rate: 6.88 # 6.8825 倍
+  acceptance_rate:  14.5 # 14.530 %
+  creators: 20
+  #spc:
+  #spc_rate:
+
 - year: 2023
   applications: 110
   projects: 14
