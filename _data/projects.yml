@@ -14,7 +14,7 @@
 #  year: 採択プロジェクトの年度。例: 2020
 #  mentor_id: 「mentors.yml」にあるメンターIDを入力。例: yohei_yasukawa
 #  creator_ids:
-#  - 「cretors.yml」にあるクリエータID。例：igarashi_ryo
+#  - 「cretors.yml」にあるクリエータID。例：ryo_igarashi
 #  - 複数名いる場合は、複数記述します
 
 # 以下、コピペ用
