@@ -188,6 +188,7 @@ $ bundle exec rake test
 1. トップページ ([`index.md`](https://github.com/mitou/jr.mitou.org/blob/main/index.md?plain=1)) と成果報告会ページ ([`final.md`](https://github.com/mitou/jr.mitou.org/blob/main/final.md?plain=1)) で表示するプロジェクトを新年度に更新する
 1. [`/projects`](https://github.com/mitou/jr.mitou.org/blob/main/projects) ディレクトリに `20xx.md` ファイルと `20xx.json` ファイルを追加する
 1. コメントアウトされているトップページ ([`index.md`](https://github.com/mitou/jr.mitou.org/blob/main/index.md?plain=1)) のアナウンス情報を更新する
+1. 成果報告会ページ ([`final.md`]((https://github.com/mitou/jr.mitou.org/blob/main/final.md?plain=1))) のコメント情報にしたがってサムネイル情報などを更新する
 
 ローカル環境で生成結果を確認したい場合は、上記セクション「[Webサイトの仕組みを改善したい](https://github.com/mitou/jr.mitou.org#hammer_and_wrench-web%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF%E3%82%92%E6%94%B9%E5%96%84%E3%81%97%E3%81%9F%E3%81%84)」の手順に沿って進めてください。
 
