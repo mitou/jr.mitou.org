@@ -103,7 +103,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='jellyfish_alert' title='クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム -'>
+    <a href='jellyfish_alert' title='クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -115,13 +115,13 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='inton' title='INTON - 放送部員のためのイントネーション練習アプリ -'>
+    <a href='inton' title='INTON - 放送部員のためのイントネーション練習アプリ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        INTON - 放送部員のためのイントネーション練習アプリ ...
+        INTON - 放送部員のためのイントネーション練習アプリ
       {% endif %}
     </a>
   </p>

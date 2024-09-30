@@ -1,7 +1,7 @@
 ---
 layout: post
 title: |
-  FairyGuide - しゃべるぬいぐるみとめぐる思い出に残る旅 -
+  FairyGuide - しゃべるぬいぐるみとめぐる思い出に残る旅
 description: |
   「FairyGuide」とは、観光地を案内してくれるしゃべるぬいぐるみです。本PJでは、GPS情報やLLM、音声認識/発話技術を搭載したデバイスを開発しました。このデバイスをぬいぐるみに装着することで、地域にまつわるあらゆる情報を、ぬいぐるみが教えてくれます。あなたも「FairyGuide」とともに、思い出に残る旅をしませんか？
 
@@ -103,13 +103,13 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='inton' title='INTON - 放送部員のためのイントネーション練習アプリ -'>
+    <a href='inton' title='INTON - 放送部員のためのイントネーション練習アプリ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        INTON - 放送部員のためのイントネーション練習アプリ ...
+        INTON - 放送部員のためのイントネーション練習アプリ
       {% endif %}
     </a>
   </p>

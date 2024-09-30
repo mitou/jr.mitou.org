@@ -103,7 +103,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='qwet' title='QWET -  感動を撒き散らす世界初3Dライブエンジン -'>
+    <a href='qwet' title='QWET -  感動を撒き散らす世界初3Dライブエンジン'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}

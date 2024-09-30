@@ -103,7 +103,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='fairy_guide' title='FairyGuide - しゃべるぬいぐるみとめぐる思い出に残る旅 -'>
+    <a href='fairy_guide' title='FairyGuide - しゃべるぬいぐるみとめぐる思い出に残る旅'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
