@@ -20,15 +20,13 @@ twitter_card: summary_large_image
 
 
 <!-- 2. 現地参加の申し込みが始まったら用意する -->
-<!--
-2023年度の未踏ジュニア成果報告会を**11月3日 (金曜・祝日) に東京大学で開催**します。今年は現地でデモ展示の時間なども用意する予定ですので、ぜひ現地までお越しいただけると幸いです。
+2024年度の未踏ジュニア成果報告会を**11月4日 (月曜・振替休日) に東京大学で開催**します。今年は現地でデモ展示の時間なども用意する予定ですので、ぜひ現地までお越しいただけると幸いです。
 
 <div class='flex'>
-  <img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp" alt="2023年度のクリエータの一部が Maker Faire Tokyo 2023 に出展している様子" class="top-img lazyload" loading="lazy">
+  <!--<img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp" alt="2023年度のクリエータの一部が Maker Faire Tokyo 2023 に出展している様子" class="top-img lazyload" loading="lazy">-->
 
-  <a href="https://peatix.com/event/3690894/view" class="button">現地参加を申し込む</a>
+  <a href="https://mitoujr2024.peatix.com/view" class="button">現地参加を申し込む</a>
 </div>
--->
 
 
 <!-- 3. ライブ配信 URL が決まったら、ページ冒頭に埋め込む -->
