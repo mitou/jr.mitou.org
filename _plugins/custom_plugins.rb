@@ -1,4 +1,4 @@
-# Custom Plugins developed for building Mitou Junior website.
+# Custom Plugins developed for building MITOU Junior website.
 # https://jekyllrb.com/docs/plugins/
 
 module Jekyll

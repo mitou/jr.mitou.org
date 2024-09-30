@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Stats of Mitou Junior
+title:  Stats of MITOU Junior
 lang:   en
 ---
 
@@ -59,7 +59,7 @@ lang:   en
 <script src="https://code.highcharts.com/highcharts.js"></script>
 
 
-<p style='margin-top: 50px;'>This page shows the stats of Mitou Junior, which includes the number of applications, selected projects, and its acceptance rate. Feel free to use and share these information.</p>
+<p style='margin-top: 50px;'>This page shows the stats of MITOU Junior, which includes the number of applications, selected projects, and its acceptance rate. Feel free to use and share these information.</p>
 
 <center><small>( <i class="fas fa-mouse-pointer green"></i> Place the cursor or tap to check the number.)</small></center>
 
@@ -241,11 +241,11 @@ Highcharts.chart('rates', {
 </ul>
 
 {% if stat.year == 2016 %}
-<b>{{ stat.creators }} creators</b> joined in the Mitou Junior program in {{ stat.year }}. Outstanding performace award started since 2017, so N/A this year.
+<b>{{ stat.creators }} creators</b> joined in the MITOU Junior program in {{ stat.year }}. Outstanding performace award started since 2017, so N/A this year.
 {% elsif stat.creators and stat.spc %}
-<b>{{ stat.creators }} creators</b> joined in the Mitou Junior program in {{ stat.year }}. <b>{{ stat.spc }} in {{ stat.creators }} creators ({{ stat.spc_rate }} %)</b> received an outstanding performance award this year.
+<b>{{ stat.creators }} creators</b> joined in the MITOU Junior program in {{ stat.year }}. <b>{{ stat.spc }} in {{ stat.creators }} creators ({{ stat.spc_rate }} %)</b> received an outstanding performance award this year.
 {% else %}
-Mitou Junior program in {{ stat.year }} is now in progress. Number of creators and who received outstanding performance award will be published by late this year or early next year.
+MITOU Junior program in {{ stat.year }} is now in progress. Number of creators and who received outstanding performance award will be published by late this year or early next year.
 {% endif %}
 
 {% endfor %}
@@ -253,7 +253,7 @@ Mitou Junior program in {{ stat.year }} is now in progress. Number of creators a
 ## Contact
 
 <div style="margin-top: 50px;">
-  <p>Let us know if you have any questions or interests to the Mitou Junior program.</p>
+  <p>Let us know if you have any questions or interests to the MITOU Junior program.</p>
 
   <div class='text-center' style='margin-top: 30px;'>
     <i class="fas fa-envelope green" style="font-size:36px;"></i><br>

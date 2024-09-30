@@ -17,7 +17,7 @@ params = {
     {
       role:    'system',
       #content: '小中高生クリエータ支援プログラム「未踏ジュニア」の採択プロジェクトの英語版を用意したいです。渡された日本語のタイトルまたは概要を、英語にしてください。タイトルの強調は不要です。',
-      content: "We would like to translate Mitou Junior projects' title/abstract from Japanese into English. Please make sure that the tone of the translations are appropriately formal for an official website and no emphasis.",
+      content: "We would like to translate MITOU Junior projects' title/abstract from Japanese into English. Please make sure that the tone of the translations are appropriately formal for an official website and no emphasis.",
     },
     {
       role:    'user',

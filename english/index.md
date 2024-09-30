@@ -6,9 +6,9 @@ lang: en
 
 <br>
 
-## [<i class="fa-light fa-mountain"></i>](#about) What's Mitou Junior? {#about}
+## [<i class="fa-light fa-mountain"></i>](#about) What's MITOU Junior? {#about}
 
-Mitou Junior is a half-year-long program to enhance young innovative creators in Japan. This program, initiated by the [Mitou Foundation](https://www.mitou.org/index_en.html) in 2016 and originating from the government-backed [MITOU Program](https://www.ipa.go.jp/en/about/it-talents/mitou.html), has received support from various companies and organizations since its inception. With that support we offer the following benefits.
+MITOU Junior is a half-year-long program to enhance young innovative creators in Japan. This program, initiated by the [MITOU Foundation](https://www.mitou.org/index_en.html) in 2016 and originating from the government-backed [MITOU Program](https://www.ipa.go.jp/en/about/it-talents/mitou.html), has received support from various companies and organizations since its inception. With that support we offer the following benefits.
 
 <br>
 
@@ -26,8 +26,8 @@ Creators will be able to learn from mentors and other [MITOU Program](https://ww
   <meta itemprop="uploadDate"           content="2019-12-11">
   <meta itemprop="contentUrl"           content="https://youtube.googleapis.com/v/qcMk-CLo21c">
   <meta itemprop="embedUrl"             content="https://www.youtube.com/embed/qcMk-CLo21c?rel=0">
-  <meta itemprop="name"                 content="What is Mitou Junior program?">
-  <meta itemprop="description"          content="Mitou Junior is a half-year-long program to enhance young innovative creators in Japan. This program, initiated by the Mitou Foundation in 2016 and originating from the government-backed MITOU Program, has received support from various companies and organizations since its inception. With that support we offer the following benefits.">
+  <meta itemprop="name"                 content="What is MITOU Junior program?">
+  <meta itemprop="description"          content="MITOU Junior is a half-year-long program to enhance young innovative creators in Japan. This program, initiated by the MITOU Foundation in 2016 and originating from the government-backed MITOU Program, has received support from various companies and organizations since its inception. With that support we offer the following benefits.">
   <iframe width="100%" src="https://www.youtube.com/embed/qcMk-CLo21c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
@@ -58,7 +58,7 @@ If necessary, places to develop will be provided. And transportation and accommo
 
 ### [<i class="fas fa-link green"></i>](#supports-awarding) Award outstanding performance {#supports-awarding}
 
-Creators who have shown their outstanding performance during Mitou Junior program get an outstanding performance award. The award is highly recognized for Admissions Office of several universities, including [Keio University SFC](https://www.sfc.keio.ac.jp/en/), [Kindai University](https://www.kindai.ac.jp/english/) and [Tokyo Metropolitan University](https://www.tmu.ac.jp/english/index.html).
+Creators who have shown their outstanding performance during MITOU Junior program get an outstanding performance award. The award is highly recognized for Admissions Office of several universities, including [Keio University SFC](https://www.sfc.keio.ac.jp/en/), [Kindai University](https://www.kindai.ac.jp/english/) and [Tokyo Metropolitan University](https://www.tmu.ac.jp/english/index.html).
 
 <img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.webp"
  title="Award ceremony for graduates of the MITOU Junior program at The University of Tokyo." class="top-img lazyload" loading="lazy"
@@ -146,7 +146,7 @@ Our alumni are creating new values after the program as well. Here are a few exa
 
 ## [<i class="fa-light fa-books"></i>](#showcase) Projects Showcase {#showcase}
 
-Up to now <strong>{{ total_applications }} applications</strong> are submitted to our Mitou Junior program, and we support <strong>{{ total_projects }} projects</strong> and <strong>{{ total_creators }} creators</strong>. ([Acceptance rate: 10-13%](/english/stats))
+Up to now <strong>{{ total_applications }} applications</strong> are submitted to our MITOU Junior program, and we support <strong>{{ total_projects }} projects</strong> and <strong>{{ total_creators }} creators</strong>. ([Acceptance rate: 10-13%](/english/stats))
 
 <!-- Projects を時系列順にソートし、初年度と最新年度を取得する -->
 {% assign oldest_pj = site.data.projects | sort: 'year' | first %}
@@ -279,7 +279,7 @@ Example timeline. Details may vary from year to year.
     <img  src='/assets/img/spinner.svg'  class="sv-img lazyload" loading="lazy"
      data-src="/assets/img/mentors/takeuchi.webp" alt="Photo of Ikuo Takeuchi">
     <h3 class="mentor-name">Ikuo Takeuchi</h3>
-    <h5>Professor Emeritus at <a href='https://www.u-tokyo.ac.jp/en/'>The University of Tokyo</a>, Director of <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>MITOU Programs</a>, and Director of <a href='https://www.mitou.org/index_en.html'>Mitou Foundation</a></h5>
+    <h5>Professor Emeritus at <a href='https://www.u-tokyo.ac.jp/en/'>The University of Tokyo</a>, Director of <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>MITOU Programs</a>, and Director of <a href='https://www.mitou.org/index_en.html'>MITOU Foundation</a></h5>
   </div>
 
   <div class="sv-right text-left">
@@ -288,7 +288,7 @@ Example timeline. Details may vary from year to year.
 
     <h5>Message</h5>
     <p>
-      Since the launch of <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>The MITOU Programs</a> in 2000, we have increasingly focused on younger creators. <a href='https://en.wikipedia.org/wiki/Information_technology'>Information Technology</a> (IT) is not just for adults; I believe it's essential to discover and nurture an understanding of IT from a very young age. The Mitou Junior program is designed to facilitate it by providing an environment where young people can do more than just 'learn.' They can develop and enhance their skills, growing into talented IT professionals. This program is an opportunity for them to spread their wings and realize their full potential.</p>
+      Since the launch of the <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>MITOU Programs</a> in 2000, we have increasingly focused on younger creators. <a href='https://en.wikipedia.org/wiki/Information_technology'>Information Technology</a> (IT) is not just for adults; I believe it's essential to discover and nurture an understanding of IT from a very young age. The MITOU Junior program is designed to facilitate it by providing an environment where young people can do more than just 'learn.' They can develop and enhance their skills, growing into talented IT professionals. This program is an opportunity for them to spread their wings and realize their full potential.</p>
       
     <a class="button" href="https://www.youtube.com/watch?v=SSsyV9O__GU&list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg">Watch message on YouTube (in Japanese)</a>
   </div>
@@ -298,16 +298,16 @@ Example timeline. Details may vary from year to year.
 ## [<i class="fa-light fa-badge-check"></i>](#organizer) Organizer {#organizer}
 
 <section>
-  <a href='https://www.mitou.org/index_en.html'><img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.webp" alt="Mitou Foundation's logo image" class="lazyload" loading="lazy" width='100%'></a>
+  <a href='https://www.mitou.org/index_en.html'><img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.webp" alt="MITOU Foundation's logo image" class="lazyload" loading="lazy" width='100%'></a>
 </section>
 
-[The Mitou Foundation](https://www.mitou.org/index_en.html) focuses on fostering IT innovation by building a network of creative talents, particularly those who have completed the [MITOU Program](https://www.ipa.go.jp/en/it-talents/mitou.html). This organization was established in 2014 to address the growing need for innovative talents capable of transforming various industries and societal structures in the 21st century. It is a non-profit general incorporated association, a legal entity in Japanese law.
+[The MITOU Foundation](https://www.mitou.org/index_en.html) focuses on fostering IT innovation by building a network of creative talents, particularly those who have completed the [MITOU Program](https://www.ipa.go.jp/en/it-talents/mitou.html). This organization was established in 2014 to address the growing need for innovative talents capable of transforming various industries and societal structures in the 21st century. It is a non-profit general incorporated association, a legal entity in Japanese law.
 
 <div class='flex'>
-  <a href='https://www.mitou.org/index_en.html' class='button'>Check Mitou Foundation</a>
+  <a href='https://www.mitou.org/index_en.html' class='button'>Check MITOU Foundation</a>
 </div>
 
 
 ## [<i class="fa-light fa-hand-holding-heart"></i>](#sponsors) Sponsors & Supporters {#sponsors}
 
-Mitou Junior program has 10+ financial and in-kind sponsors. Also we have 10+ supporters, including MEXT ([Ministry of Education, Culture, Sports, Science and Technology](https://www.mext.go.jp/en/)) and METI ([Ministry of Economy, Trade and Industry](https://www.meti.go.jp/english/)).
+MITOU Junior program has 10+ financial and in-kind sponsors. Also we have 10+ supporters, including MEXT ([Ministry of Education, Culture, Sports, Science and Technology](https://www.mext.go.jp/en/)) and METI ([Ministry of Economy, Trade and Industry](https://www.meti.go.jp/english/)).

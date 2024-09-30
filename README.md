@@ -1,7 +1,7 @@
 [![Test & Deploy](https://github.com/mitou/jr.mitou.org/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/mitou/jr.mitou.org/actions?query=workflow%3A%22Test+%26+Deploy%22)
 
 # 未踏ジュニア公式Webサイト
-[![Cover Photo of Mitou Junior](https://raw.githubusercontent.com/mitou/jr.mitou.org/main/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
+[![Cover Photo of MITOU Junior](https://raw.githubusercontent.com/mitou/jr.mitou.org/main/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
 
 本リポジトリは未踏ジュニア[公式Webサイト](https://jr.mitou.org/)の公開リポジトリです。   
 本READMEでは、公式Webサイトの更新方法を目的別にまとめています。
@@ -128,7 +128,7 @@ $ bundle exec jekyll server
 
 具体的なデータの流れについては [note 記事](https://note.com/yasslab/n/nf5837dabdf8c)からご確認ください。
 
-[![Mitou Junior on Jekyll](https://github.com/mitou/jr.mitou.org/blob/main/assets/img/mitoujr-on-jekyll.png?raw=true)](https://note.com/yasslab/n/nf5837dabdf8c)
+[![MITOU Junior on Jekyll](https://github.com/mitou/jr.mitou.org/blob/main/assets/img/mitoujr-on-jekyll.png?raw=true)](https://note.com/yasslab/n/nf5837dabdf8c)
 【引用元：[機材・教材提供スポンサー - Railsチュートリアル](https://jr.mitou.org/#sponsor-inkind)】
 
 
@@ -219,7 +219,7 @@ $ bundle exec rake test
 1. [`interviews`](https://github.com/mitou/jr.mitou.org/tree/main/interviews) ディレクトリに行き、`{{ クリエータID }}.md` ファイルを作成し、インタビュー記事を転記する
 1. インタビュー記事の内容に問題がなければ、公開して SNS に投稿する ([投稿例](https://twitter.com/mitoujr/status/1775724225346912470))
 
-:octocat: プルリクエストの例: [Add Mitou Junior Interview: `@alicelavander` (#175) - GitHub](https://github.com/mitou/jr.mitou.org/pull/175)  
+:octocat: プルリクエストの例: [Add MITOU Junior Interview: `@alicelavander` (#175) - GitHub](https://github.com/mitou/jr.mitou.org/pull/175)  
 
 
 <div id='license'><br></div>

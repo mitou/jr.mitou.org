@@ -17,13 +17,13 @@
 
 - q: 未踏ジュニアは誰が運営していますか？
   a: 未踏ジュニアは、未踏事業を運営する IPA と相互協力協定を締結した、<a href='https://prtimes.jp/main/html/rd/p/000000001.000013014.html'>一般社団法人未踏</a>によって運営されています。<a href='/mentors'>メンター</a>を含め、未踏修了生のボランティアと、企業・団体様からのご支援により運営されています。運営にかかる費用は<a href='#sponsors'>スポンサー各社</a>の支援によって賄われています。<a href='/about'>[詳細を見る]</a>
-  q_en: Who runs the Mitou Junir program?
-  a_en: <a href='https://www.mitou.org/'>Mitou Foundation</a> runs the project. Volunteer by project manager and Mitou graduates, and support by companies and organizations.
+  q_en: Who runs the MITOU Junir program?
+  a_en: <a href='https://www.mitou.org/'>MITOU Foundation</a> runs the project. Volunteer by project manager and MITOU graduates, and support by companies and organizations.
 
 - q: 未踏ジュニアに採択されると、どのような支援を受けられますか？
   a: 担当のメンターが1週間あたり1時間程度、主に開発計画や技術的課題などの相談に乗るほか、1プロジェクトにつき50万円を上限として開発に関連する費用を全額支援します。また、期間中に採択者全員が集まるイベント（ブースト会議/中間合宿など）を開催し、メンターをはじめとする未踏関係者や、プロジェクトに関連する専門家からフィードバックを得る機会を提供します。<br><br>プロジェクト期間の最後には成果報告会が開催され、開発したものを多くの人の前で発表する経験もできます。<a href='/schedule'>[採択後の流れを見る]</a>
   q_en: If accepted, what support can I get?
-  a_en: An assigned mentor will support development scheduling and development issues once a week for about one hour. Also, up to <a href='https://www.google.com/search?q=500,000+Yen+to+USD'>500K Yen</a> is given per project to cover all the development costs. In addition, there are events at which all participants come together (such as Kickoff Camp and Demo Day) and get feedback from project managers and other Mitou related personnel and experts related to projects.
+  a_en: An assigned mentor will support development scheduling and development issues once a week for about one hour. Also, up to <a href='https://www.google.com/search?q=500,000+Yen+to+USD'>500K Yen</a> is given per project to cover all the development costs. In addition, there are events at which all participants come together (such as Kickoff Camp and Demo Day) and get feedback from project managers and other MITOU-related personnel and experts related to projects.
 
 - q: 地方在住なのですが、合宿や成果報告会に参加するための交通費は支給されますか？
   a: はい、プロジェクト期間中の公式イベントへの交通費と合宿の費用は、各プロジェクトの開発予算とは別に支給されます。
@@ -38,12 +38,12 @@
 - q: 学校でアルバイトが禁止されているのですが、応募はできますか？
   a: 未踏ジュニアの開発費支援は、あくまで開発に必要な機材・ソフトウェアを購入するための予算です。労働の対価として支払われる給料ではないため、アルバイトにはあたりません。
   q_en: At my school, working is prohibited, but can I apply?
-  a_en: The Mitou Junior development fee is strictly for development tools and software. It is not salary paid for labor, so it does not count as working.
+  a_en: The MITOU Junior development fee is strictly for development tools and software. It is not salary paid for labor, so it does not count as working.
 
 - q: IPAの未踏IT人材発掘・育成事業に既に応募しています。応募資料を使い回せますか？
   a: はい、同じ提案内容・資料を未踏ジュニアへの応募に使うことができます。
   q_en: I already submitted proposal to The MITOU Program for under 25 run by IPA. Can I use the same application?
-  a_en: Yes. The same proposal and documents for <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>The MITOU Program</a> can be used to apply for the Mitou Junior program.
+  a_en: Yes. The same proposal and documents for <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>The MITOU Program</a> can be used to apply for the MITOU Junior program.
 
 - q: IPAの未踏IT人材発掘・育成事業に既に応募しています。両方に採択されたらどうなりますか？
   a: 未踏ジュニアのプロジェクト開始日より前に、未踏IT人材発掘・育成事業の採択結果が通知される予定です。その結果を受けて、未踏ジュニアの方を辞退していただいても大丈夫です。
@@ -58,7 +58,7 @@
 - q: プロジェクト期間中は、どの程度の時間を作業に割く必要がありますか？
   a: 作業のペースは基本的に採択者ごとに柔軟に対応します。未踏ジュニアは仕事ではないですし、学生の本分は学業と考えております。例えば、担当のメンターと事前に相談して試験前は学業に専念する（＝作業はしない）、と決めるプロジェクトもあります。詳細は関連動画「<a href='https://www.youtube.com/watch?v=UgrS5DQOs9Y'>困ったときのガイドライン - YouTube</a>」をご視聴ください。
   q_en: During the project period, how much time should be put?
-  a_en: We will pace the development flexibly for each participant. Mitou Junior is not a job, and students' first and foremost duty is studying. We don't push participants to certain hours.
+  a_en: We will pace the development flexibly for each participant. MITOU Junior is not a job, and students' first and foremost duty is studying. We don't push participants to certain hours.
 
 - q: 応募に際して必要な知識やスキルはありますか？
   a: 開発したいものについて、自分で調べて実装できる力を求めています。
@@ -67,7 +67,7 @@
 
 - q: 過去の未踏ジュニアで採択または不採択となりましたが、再応募はできますか？
   a: はい、可能です。
-  q_en: In past Mitou Junior, I was accepted or not accepted. Can I apply again?
+  q_en: In past MITOU Junior, I was accepted or not accepted. Can I apply again?
   a_en: Yes, it is possible.
 
 - q: 応募にあたって保護者の同意は必要ですか？
