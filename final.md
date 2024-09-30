@@ -2,7 +2,7 @@
 layout:    post
 title:     2024年 成果報告会
 this_year: 2024
-thumbnail: /assets/img/final_2023_v2.png
+thumbnail: /assets/img/final_2024.webp
 description: 未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！
 twitter_card: summary_large_image
 
@@ -14,11 +14,9 @@ twitter_card: summary_large_image
 <br>
 
 <!-- 1. 最初に表示するサムネイル画像。日時と会場を画像に含める -->
-<!--
 <img src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}"
      alt="{{ page.this_year }}年度 未踏ジュニア成果報告会 サムネイル画像"
      class="project-thumbnail lazyload" width='100%' loading="lazy" />
--->
 
 
 <!-- 2. 現地参加の申し込みが始まったら用意する -->
@@ -34,7 +32,7 @@ twitter_card: summary_large_image
 
 
 <!-- 3. ライブ配信 URL が決まったら、ページ冒頭に埋め込む -->
-
+<!--
 2023年度の未踏ジュニア成果報告会を **[YouTube ライブ](https://www.youtube.com/mitoujr)にて配信!** アーカイブ配信もご視聴いただけます 📺⚡️
 
 <br>
@@ -49,6 +47,7 @@ twitter_card: summary_large_image
 </div>
 
 <hr>
+-->
 
 <div class='flex'>
   <a href="https://twitter.com/hashtag/未踏ジュニア" class="button">#未踏ジュニア の<br>ハッシュタグを見る</a>
