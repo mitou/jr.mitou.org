@@ -21,9 +21,9 @@
          alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
   </a>
   {% else %}
-  <!-- Show TBD thumbnail image if not ready yet. -->
+  <!-- Show WebP thumbnail image in the default path. -->
   <a href="/projects/{{ pj.year }}/{{ pj.id }}">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/tbu.webp"
+    <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/{{ pj.year }}/{{ pj.id }}.webp"
          alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
   </a>
   {% endif %}

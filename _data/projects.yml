@@ -5,7 +5,7 @@
 #  title_en: 上記タイトルの英語版。例：Visible ─ Web Accessibility Diagnosis & Correction Proposal Tool
 #  description: プロジェクト概要。例：VisibleはWebサイトのアクセシビリティーを診断するサービスです。...
 #  description_en: 上記概要の英語版。例：Visible is a service that diagnoses the accessibility of websites. ...
-#  thumbnail: サムネイル画像。まだ無い場合はコメントアウトしてください。
+#  thumbnail: サムネイル画像。デフォルトでは `/assets/img/projects/{#year}/#{id}.webp` にある画像を参照
 #  promotion: プロジェクトの PV やデモ動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。(Gif にも対応)
 #  final: 未踏ジュニア成果報告会の発表動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
 #  final_start: （任意）final の動画再生の開始時刻を指定できます。成果報告会の直後で使います。(例: 123)
