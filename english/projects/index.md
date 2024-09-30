@@ -56,7 +56,6 @@ latest_en_year: 2023
   <!-- Projects を時系列順にソートし、初年度と最新年度を取得する -->
   {% assign latest_en_year = page.latest_en_year  %}
   {% assign oldest_pj      = site.data.projects | sort: 'year' | first  %}
-  {{ oldest_pj.year }} / {{ latest_en_year }}
   {% for this_year in (oldest_pj.year..latest_en_year) reversed %}
     <h3 id='{{ this_year }}'>
       <a href='#{{ this_year }}' style='color: #333; font-weight: bold;'>{{ this_year }}'s projects</a>
