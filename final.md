@@ -50,7 +50,7 @@ twitter_card: summary_large_image
 <div class='flex'>
   <a href="https://twitter.com/hashtag/未踏ジュニア" class="button">#未踏ジュニア の<br>ハッシュタグを見る</a>
 
-  <a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final?2024&lang=jp&related=mitoujr" class="button">#未踏ジュニア で<br>ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final?{{ page.this_year }}&lang=jp&related=mitoujr" class="button">#未踏ジュニア で<br>ツイートする</a>
 </div>
 
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
