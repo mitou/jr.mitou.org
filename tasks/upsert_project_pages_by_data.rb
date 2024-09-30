@@ -7,8 +7,13 @@ require 'truncato'
 Dir.glob("./_posts/*.md"        ).each { |filename| File.delete(filename) }
 Dir.glob("./_posts/english/*.md").each { |filename| File.delete(filename) }
 
+class Hash
+  def has_english?; self.has_key? :title_en; end
+end
+
 projects = YAML.load_file("_data/projects.yml", symbolize_names: true)
 projects.each_with_index do |project, index|
+  #binding.irb; exit
   # To inspect & debug specific projects
   #next unless project[:year] == 2017
 
@@ -146,7 +151,7 @@ projects.each_with_index do |project, index|
          &larr; {{ translations.navPrev[lang] }}
          <br>
          {% if page.lang == 'en' %}
-           #{ Truncato.truncate(prev_project[:title_en]) }
+           #{ Truncato.truncate(prev_project[:title_en]) if project.has_english? }
          {% else %}
            #{ Truncato.truncate(prev_project[:title]) }
          {% endif %}
@@ -158,7 +163,7 @@ projects.each_with_index do |project, index|
          {{ translations.navNext[lang] }} &rarr;
          <br>
          {% if page.lang == 'en' %}
-           #{ Truncato.truncate(next_project[:title_en]) }
+           #{ Truncato.truncate(next_project[:title_en]) if project.has_english? }
          {% else %}
            #{ Truncato.truncate(next_project[:title]) }
          {% endif %}
@@ -170,10 +175,12 @@ projects.each_with_index do |project, index|
   SHARED_PROJECT_CONTENTS
 
   #binding.irb; exit
-  IO.write(path_ja, page_ja + "\n" + page_shared_contents )
-  IO.write(path_en, page_en + "\n" + page_shared_contents)
-  puts "Upsert: #{path_ja}"
-  puts "Upsert: #{path_en}"
+  IO.write(path_ja, page_ja + "\n" + page_shared_contents)
+  IO.write(path_en, page_en + "\n" + page_shared_contents) if project.has_english?
+
+  project.has_english? ?
+    puts("Upsert (JA/EN): #{path_ja}") :
+    puts("Upsert (JA):    #{path_ja}")
 end
 
 
