@@ -224,7 +224,7 @@
   #promotion:   # YouTube上にPVがあれば追記する
   #final:       # TODO: 成果報告会後に追記する
   #final_start: # TODO: 成果報告会後に追記する
-  link: "https://mimic-1801b.web.app/#/list"
+  #link: "https://mimic-1801b.web.app/#/list"
   #tags:        # ハッシュタグがあれば追記する
   year: 2024
   mentor_id: daiki_teramoto
