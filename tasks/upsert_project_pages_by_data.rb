@@ -24,6 +24,7 @@ projects.each_with_index do |project, index|
   next_project  = this_year_projects.rotate(project_index + 1).first
 
   # Generate JA/EN project pages from projects.yml
+  project[:thumbnail] ||= "#{project[:id]}.webp"
   path_ja = "./_posts/#{project[:year]}-09-01-#{project[:id]}.md"
   page_ja = <<~JA_PROJECT_FRONTMATTER
     ---

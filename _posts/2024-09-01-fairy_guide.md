@@ -6,7 +6,7 @@ description: |
   「FairyGuide」とは、観光地を案内してくれるしゃべるぬいぐるみです。本PJでは、GPS情報やLLM、音声認識/発話技術を搭載したデバイスを開発しました。このデバイスをぬいぐるみに装着することで、地域にまつわるあらゆる情報を、ぬいぐるみが教えてくれます。あなたも「FairyGuide」とともに、思い出に残る旅をしませんか？
 
 permalink: /projects/2024/fairy_guide
-thumbnail: /assets/img/projects/2024/
+thumbnail: /assets/img/projects/2024/fairy_guide.webp
 twitter_card: summary_large_image
 ---
 

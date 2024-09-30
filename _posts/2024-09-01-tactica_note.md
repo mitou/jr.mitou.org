@@ -6,7 +6,7 @@ description: |
   TacticaNoteは、選手の思考の言語化をサポートする共有型のサッカーノートです。LLMによって選手個人やチームの課題を深堀り、具体化された意見を共有することで、選手主体での課題解決を後押しします。選手達は自分のプレーを客観的に振り返り、ピッチ上で起こっている現象とその原因を考察して解決策を共有し、練習への反映をスムーズに行うことができます。
 
 permalink: /projects/2024/tactica_note
-thumbnail: /assets/img/projects/2024/
+thumbnail: /assets/img/projects/2024/tactica_note.webp
 twitter_card: summary_large_image
 ---
 

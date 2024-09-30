@@ -6,7 +6,7 @@ description: |
   お弁当がいつも茶色っぽくなってしまう、中身がマンネリ化してしまう、そんな悩みを解決するのがBentoColorです。好きなテンプレートを選ぶだけで冷蔵庫の中身を考慮しつつ、各色に対応したおかずを提案。お弁当完成後は独自の採点機能で彩りを評価し、点数グラフやAIによるフィードバックで自分の成長を実感できます。忙しい朝でも、テンプレートに従うだけで簡単に彩り豊かなお弁当が作れます。
 
 permalink: /projects/2024/bento_color
-thumbnail: /assets/img/projects/2024/
+thumbnail: /assets/img/projects/2024/bento_color.webp
 twitter_card: summary_large_image
 ---
 

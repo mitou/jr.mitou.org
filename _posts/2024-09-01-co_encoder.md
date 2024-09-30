@@ -6,7 +6,7 @@ description: |
   近年、生成AIの技術は飛躍的に進展し、ChatGPTなどのLLMは自然な文章を生成できるようになりました。しかし、これらのモデルには「推論コストが高い」という課題があります。特に長文を入力する場合、膨大なメモリと高性能なGPUが必要になり、一般的なGPUでは推論が困難です。こうした課題を解決するために、行列に変換した入力を圧縮し、それを直接LLMに渡すことで低コストで長文の推論を可能にするCo-Encoderを提案します。
 
 permalink: /projects/2024/co_encoder
-thumbnail: /assets/img/projects/2024/
+thumbnail: /assets/img/projects/2024/co_encoder.webp
 twitter_card: summary_large_image
 ---
 

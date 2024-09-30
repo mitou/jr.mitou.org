@@ -6,7 +6,7 @@ description: |
   みまもりコンパスは、認知症高齢者の徘徊や行方不明から早期発見につなげるシステムです。事前にQRコードを発行し、発見者が読み取ることで家族に連絡が送られます。早期の発見により、事故やトラブルからも認知症高齢者の人を守ることができます。 また、認知症高齢者の家族が捜索依頼を出すと、SNSを通じて情報を発信し、捜索活動の協力を呼びかけることもできます。みまもりコンパスを使うことで、高齢者を置き去りにするのではなく、地域社会全体で支える仕組みが生まれます。
 
 permalink: /projects/2024/mimamori_compass
-thumbnail: /assets/img/projects/2024/
+thumbnail: /assets/img/projects/2024/mimamori_compass.webp
 twitter_card: summary_large_image
 ---
 
