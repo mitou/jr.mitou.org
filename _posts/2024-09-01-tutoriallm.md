@@ -115,7 +115,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='ai_study' title='AI study - LLMによる穴埋め問題を活用した英単語学習アプリ -'>
+    <a href='ai_study' title='AI study - LLMによる穴埋め問題を活用した英単語学習アプリ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
