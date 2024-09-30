@@ -34,7 +34,7 @@
   title_en: 上記タイトルの英語版。例：Visible ─ Web Accessibility Diagnosis & Correction Proposal Tool
   description: プロジェクト概要。例：VisibleはWebサイトのアクセシビリティーを診断するサービスです。...
   description_en: 上記概要の英語版。例：Visible is a service that diagnoses the accessibility of websites. ...
-  thumbnail: サムネイル画像。まだ無い場合はコメントアウトしてください。
+  thumbnail: サムネイル画像。デフォルトでは `/assets/img/projects/{#year}/#{id}.webp` にある画像を参照
   promotion: プロジェクトの PV やデモ動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。(Gif にも対応)
   final: 未踏ジュニア成果報告会の発表動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
   final_start: （任意）final の動画再生の開始時刻を指定できます。成果報告会の直後で使います。(例: 123)
@@ -182,7 +182,8 @@ $ bundle exec rake test
 [成果報告会](https://jr.mitou.org/final)が近づいたら、以下の手順で新年度の採択プロジェクトを公開します。
 
 1. [README 冒頭にある手順](https://github.com/mitou/jr.mitou.org#readme)に沿って [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) を追加する
-1. [README 冒頭にある手順](https://github.com/mitou/jr.mitou.org#readme)に沿って [`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) を追加する
+1. [README 冒頭にある手順](https://github.com/mitou/jr.mitou.org#readme)に沿って [`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) を追加する (サムネ画像以外)
+1. 所定のフォルダにあるサムネイル画像を `/assets/img/projects/20xx` に配置し、[`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) に追加する (デフォルトでは `#{project.id}.webp` を参照)
 1. 上記の情報をベースに、新年度の統計情報を [`_data/stats.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/stats.yml) に追加する
 1. トップページ ([`index.md`](https://github.com/mitou/jr.mitou.org/blob/main/index.md?plain=1)) と成果報告会ページ ([`final.md`](https://github.com/mitou/jr.mitou.org/blob/main/final.md?plain=1)) で表示するプロジェクトを新年度に更新する
 1. [`/projects`](https://github.com/mitou/jr.mitou.org/blob/main/projects) ディレクトリに `20xx.md` ファイルと `20xx.json` ファイルを追加する

@@ -1,7 +1,7 @@
 ---
 layout:    post
-title:     2023年 成果報告会
-this_year: 2023
+title:     2024年 成果報告会
+this_year: 2024
 thumbnail: /assets/img/final_2023_v2.png
 description: 未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！
 twitter_card: summary_large_image

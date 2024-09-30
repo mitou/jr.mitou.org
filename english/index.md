@@ -2,6 +2,10 @@
 layout: english
 nosnippet: true
 lang: en
+latest_en_year: 2023
+
+# latest_en_year を変更すると本ページの採択プロジェクトが切り替わります。
+# 英語版の公開準備が整ったら latest_en_year の数値に変更してください。
 ---
 
 <br>
@@ -151,17 +155,17 @@ Up to now <strong>{{ total_applications }} applications</strong> are submitted t
 <!-- Projects を時系列順にソートし、初年度と最新年度を取得する -->
 {% assign oldest_pj = site.data.projects | sort: 'year' | first %}
 {% assign newest_pj = site.data.projects | sort: 'year' | last  %}
-{% assign this_year = newest_pj.year %}
+{% assign latest_en_year = page.latest_en_year %}
 
 Example projects, accepted and boosted by our program, are as follows.
 
-<h3 id='{{ this_year }}'>
-  <a href='#{{ this_year }}' style='color: #333; font-weight: bold;'>{{ this_year }}'s projects</a>
+<h3 id='{{ latest_en_year }}'>
+  <a href='#{{ latest_en_year }}' style='color: #333; font-weight: bold;'>{{ latest_en_year }}'s projects</a>
   <!--<span style='font-size: small;'>（<a href='#top'>Back to top &uarr;</a>）</span>-->
 </h3>
 
 <div class="projects flex">
-  {% assign projects = site.data.projects | where_exp: "pj", "pj.year == this_year" %}
+  {% assign projects = site.data.projects | where_exp: "pj", "pj.year == latest_en_year" %}
   {% for pj in projects %}
     {% comment %}{% include project-details.html %}{% endcomment%}
 

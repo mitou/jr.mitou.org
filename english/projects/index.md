@@ -11,6 +11,10 @@ description: |
   {% endfor %}
   This pages showcases {{ total_projects }} projects accepted and boosted by MITOU Junior program for U-17.
 thumbnail: /assets/img/projects/index.webp
+latest_en_year: 2023
+
+# latest_pj_year を変更すると本ページの採択プロジェクトが切り替わります。
+# 英語版の公開準備が整ったら latest_pj_year の数値に変更してください。
 ---
 
 {% assign total_projects = 0 %}
@@ -50,9 +54,10 @@ thumbnail: /assets/img/projects/index.webp
   -->
 
   <!-- Projects を時系列順にソートし、初年度と最新年度を取得する -->
-  {% assign oldest_pj = site.data.projects | sort: 'year' | first %}
-  {% assign newest_pj = site.data.projects | sort: 'year' | last  %}
-  {% for this_year in (oldest_pj.year..newest_pj.year) reversed %}
+  {% assign latest_en_year = page.latest_en_year  %}
+  {% assign oldest_pj      = site.data.projects | sort: 'year' | first  %}
+  {{ oldest_pj.year }} / {{ latest_en_year }}
+  {% for this_year in (oldest_pj.year..latest_en_year) reversed %}
     <h3 id='{{ this_year }}'>
       <a href='#{{ this_year }}' style='color: #333; font-weight: bold;'>{{ this_year }}'s projects</a>
       <span style='font-size: small;'>（<a href='#top'>Back to top &uarr;</a>）</span>

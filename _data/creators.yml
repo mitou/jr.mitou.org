@@ -8,19 +8,137 @@
 #  year: 何年度に採択されたプロジェクトか。例: 2018
 
 ## テンプレート（コピペ用）
+#
+## 202x年度
 #- id: 
 #  project_id: 
 #  name: 
-#  year: 
+#  year: 202x
 #  #is_spc: true # 認定されたらコメントアウトする
 
-# 2023年度
-- id: toshihiro_tange
-  project_id: stask
-  name: 丹下 稔大
-  year: 2023
-  is_spc: true
+# 2024年度
+- id: rio_sakazono
+  project_id: 
+  name: 迫園 梨央
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
 
+- id: ryoma_yoshitaka
+  project_id: 
+  name: 吉髙 僚眞
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: taiyo_mizuno
+  project_id: 
+  name: 水野 太陽
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: so_tokumaru
+  project_id: 
+  name: 得丸 創生
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: taku_mabuchi
+  project_id: 
+  name: 間渕 拓
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: shinri_ishibashi
+  project_id: 
+  name: 石橋 慎理
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: kento_hayashi
+  project_id: 
+  name: 林健人
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: katsunori_kuroda
+  project_id: 
+  name: 黒田 克徳
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: hiroyoshi_muranaka
+  project_id: 
+  name: 邑中 寛和
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: ayaka_kotajima
+  project_id: 
+  name: 答島 綾香
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: yuri_yoshida
+  project_id: 
+  name: 吉田 祐梨
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: rakuto_suda
+  project_id: 
+  name: 須田 楽大
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: hayato_okada
+  project_id: 
+  name: 岡田 颯斗
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: komako_takahashi
+  project_id: 
+  name: 高橋 駒子
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: junnosuke_katsui
+  project_id: 
+  name: 葛井 惇之祐
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: masahiro_hazutani
+  project_id: 
+  name: 筈谷 将大
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: mao_hasegawa
+  project_id: 
+  name: 長谷川 真緒
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: minori_sugimura
+  project_id: 
+  name: 杉村 実紀
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: shuji_obata
+  project_id: 
+  name: 小畑 洲士
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+- id: hikari_sugano
+  project_id: 
+  name: 菅野 晄
+  year: 2024
+  #is_spc: true # 認定されたらコメントアウトする
+
+
+# 2023年度
 - id: itsuki_tsuruta
   project_id: lescued
   name: 鶴田 慈貴
