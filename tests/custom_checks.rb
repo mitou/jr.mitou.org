@@ -9,7 +9,7 @@ class CustomChecks < ::HTMLProofer::Check
     puts "\tchecking ... " + current_filename[5..].split('.').first
 
     check_meta_tags
-    check_json_apis if valid_and_equal_to? '_site/apiss.html'
+    check_json_apis if valid_and_equal_to? '_site/apis.html'
     check_deadlines if valid_and_equal_to? '_site/guideline.html'
   end
 end
@@ -41,8 +41,7 @@ def check_json_apis
     json_path = node.at_css('a').attribute('href').value
     # e.g. => /projects.json
 
-    next if valid_json?('_site' + json_path)
-    add_failure("Invalid JSON format: #{json_path}")
+    add_failure("Invalid JSON format: #{json_path}") if not valid_json?('_site' + json_path)
   end
 end
 
