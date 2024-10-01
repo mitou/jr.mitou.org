@@ -3,12 +3,12 @@
 
 require 'json'
 class CustomChecks < ::HTMLProofer::Check
-  BASE_URL  = '_site/'
-
   def run
+    target_filename = @runner.current_filename
+
     check_meta_tags
-    check_json_apis if @runner.current_filename == '_site/api.html'
-    check_deadlines if @runner.current_filename == '_site/guideline.html'
+    check_json_apis if target_filename.eql?('_site/apis.html')
+    check_deadlines if target_filename.eql?('_site/guideline.html')
   end
 end
 
@@ -31,7 +31,7 @@ def check_json_apis
     json_path = node.at_css('a').attribute('href').value
     # e.g. => /projects.json
 
-    next if valid_json?(BASE_URL + json_path)
+    next if valid_json?('_site' + json_path)
     add_failure("Invalid JSON format: #{json_path}")
   end
 end
