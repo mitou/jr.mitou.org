@@ -9,17 +9,7 @@
 {% else %}
 
 <ul style="list-style: none; text-align: center; padding: 30px 0px;">
-  <li style="margin: 20px 10px;">
-    <a href="/projects">&raquo; 一覧から探す</a>
-  </li>
-  <li style="margin: 20px 10px;">
-    <a href="/projects/showcase">&raquo; 図鑑から探す</a>
-  </li>
-  <li style="margin: 20px 10px;">
-    <a href="/projects/search">&raquo; 検索して探す</a>
-  </li>
-  <br>
-  <p>&#9662; 年度から探す</p>
+  <p>&#9662; 他の年度を見る</p>
   {% assign oldest_pj = site.data.projects | sort: 'year' | first %}
   {% assign newest_pj = site.data.projects | sort: 'year' | last  %}
   {% for this_year in (oldest_pj.year..newest_pj.year) reversed %}
@@ -34,6 +24,12 @@
     </li>
     {% endif %}
   {% endfor %}
+  <br>
+  <span style='font-size: 80%;'>
+    <li style="display: inline-block; margin: 20px 5px;"><a href="/projects"         >&raquo; 一覧から探す</a></li>
+    <li style="display: inline-block; margin: 20px 5px;"><a href="/projects/showcase">&raquo; 図鑑から探す</a></li>
+    <li style="display: inline-block; margin: 20px 5px;"><a href="/projects/search"  >&raquo; 検索して探す</a></li>
+  </span>
 </ul>
 
 {% endif %}
