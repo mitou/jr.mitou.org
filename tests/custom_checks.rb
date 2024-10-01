@@ -2,13 +2,16 @@
 # https://github.com/gjtorikian/html-proofer#custom-tests
 
 require 'json'
+
 class CustomChecks < ::HTMLProofer::Check
+  target_filename = '_site/example.html'
+
   def run
-    target_filename = @runner.current_filename
+    puts "\tchecking ... " + @runner.current_filename[5..].split('.').first
 
     check_meta_tags
-    check_json_apis if target_filename.eql?('_site/apis.html')
-    check_deadlines if target_filename.eql?('_site/guideline.html')
+    check_json_apis
+    check_deadlines
   end
 end
 
@@ -27,12 +30,24 @@ end
 # Get JSON API URLs from https://jr.mitou.org/apis
 # and check if they all return valid JSON data.
 def check_json_apis
+  target_filename = '_site/apis.html'
+
+  # TODO: This should call add_failure() once at maximum but better than ignoring invalid filename.
+  valid_file? target_filename
+  return unless @runner.current_filename.eql? target_filename
+
   @html.css('#index > ul > li').each do |node|
     json_path = node.at_css('a').attribute('href').value
     # e.g. => /projects.json
 
     next if valid_json?('_site' + json_path)
     add_failure("Invalid JSON format: #{json_path}")
+  end
+end
+
+def valid_file?(filename)
+  if not File.exist? filename
+    add_failure("No such file found: #{filename}")
   end
 end
 
@@ -46,6 +61,12 @@ end
 # Check proceeding schedule is correct in time order:
 # e.g. https://github.com/mitou/jr.mitou.org/pull/180
 def check_deadlines
+  target_filename = '_site/guideline.html'
+
+  # TODO: This should call add_failure() once at maximum but better than ignoring invalid filename.
+  valid_file? target_filename
+  return unless @runner.current_filename.eql? target_filename
+
   this_year     = Date.today.year
   prev_text     = ''
   prev_deadline = "#{this_year}-01-23"
