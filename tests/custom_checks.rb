@@ -9,14 +9,14 @@ class CustomChecks < ::HTMLProofer::Check
     puts "\tchecking ... " + current_filename[5..].split('.').first
 
     check_meta_tags
-    check_json_apis if valid_and_equal_to? '_site/apis.html'
+    check_json_apis if valid_and_equal_to? '_site/apiss.html'
     check_deadlines if valid_and_equal_to? '_site/guideline.html'
   end
 end
 
 def valid_and_equal_to?(filename)
   # TODO: This should call add_failure() once at maximum but better than ignoring invalid filename.
-  self.add_failure("No such file found: #{filename}") unless File.exist?(filename)
+  self.add_failure("No such file found: #{filename}") if not File.exist?(filename)
   self.add_failure("No redirect file: #{filename} is redirect file") if File.read(filename).include? 'redirect_to'
 
   @runner.current_filename == filename ? true : false
