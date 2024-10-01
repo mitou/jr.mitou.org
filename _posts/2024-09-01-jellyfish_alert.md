@@ -4,7 +4,6 @@ title: |
   クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム
 description: |
   「クラゲアラート」は、猛毒クラゲであるカツオノエボシの漂着を事前にお知らせするためのAIシステムです。夏に多くの海水浴客が訪れる神奈川県湘南地域の海岸において、カツオノエボシの被害を大幅に減らすことを目指しています。本プロジェクトでは、漂着観測を行うエッジAIシステムの開発を行いました。これにより、当日の漂着も確報としてアラート可能となり、より高い精度でお知らせできます。
-
 permalink: /projects/2024/jellyfish_alert
 thumbnail: /assets/img/projects/2024/jellyfish_alert.webp
 twitter_card: summary_large_image

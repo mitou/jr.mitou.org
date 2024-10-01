@@ -4,7 +4,6 @@ title: |
   磁気浮上型球体駆動モビリティーの開発
 description: |
   電磁石による垂直方向の浮上と、球体駆動を組み合わせた新しいモビリティーです。機体と車輪が浮上によって離れている、今までにない形の車を実現します。このプロジェクトの最終目標は、完全磁気浮上による車を既存のモビリティーの選択肢の一つとして新しく加えることです。
-
 permalink: /projects/2024/maglev_sphere_mobility
 thumbnail: /assets/img/projects/2024/maglev_sphere_mobility.webp
 twitter_card: summary_large_image

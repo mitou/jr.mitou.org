@@ -4,7 +4,6 @@ title: |
   作文おたすけアプリ - 作文が苦手をお手伝いするアプリ
 description: |
   あなたは作文を書くのが得意ですか？このアプリはどちらかというと「作文が苦手な人」向けです。同じく、作文が苦手な私が、「どうやったらスラスラ書けるのか？」「どうして苦手なのか」を考えに考えて開発しました。苦手な理由をいくつか解決できると、いやな気持ちが少し軽くなって、「作文かくのも悪くないな」と前向きになれるのではないでしょうか！『作文おたすけアプリ』はそんな世界を明るくするツールです。
-
 permalink: /projects/2024/sakubun_otasuke
 thumbnail: /assets/img/projects/2024/sakubun_otasuke.webp
 twitter_card: summary_large_image

@@ -4,7 +4,6 @@ title: |
   TutoiaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア
 description: |
   TutoriaLLMは、AIが提供する対話形式のチュートリアルを通じて、プログラミングを教える人と学ぶ人をつなぐソフトウェアです。プログラミングを学ぶ人は、ブラウザ上で、AIと話しながらブロックエディターを使ってプログラムを作成し、Minecraftなどのゲームと接続して試すことができます。先生は、チュートリアルを作成するだけで、場所や時間に制約されずAIが学習者に合わせたスタイルで多くの人に届けることができるようになります。
-
 permalink: /projects/2024/tutoriallm
 thumbnail: /assets/img/projects/2024/tutoriallm.webp
 twitter_card: summary_large_image

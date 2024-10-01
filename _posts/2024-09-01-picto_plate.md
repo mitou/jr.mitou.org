@@ -4,7 +4,6 @@ title: |
   PictoPlate - レストランでのメニュー問題解決アプリ
 description: |
   海外のレストランなどによくある、写真の付いていない文字だけのメニューを見てもどんな料理が来るのかわからない。スマホ用アプリ「PictoPlate」はメニューの写真を撮るだけで、その料理の見た目、食材、調理方法、味、自身の食べられない食材が含まれるかどうか…といった情報をユーザーに提供する。また、オーダー時の店員との円滑なコミューニケーションをサポートする。
-
 permalink: /projects/2024/picto_plate
 thumbnail: /assets/img/projects/2024/picto_plate.webp
 twitter_card: summary_large_image
