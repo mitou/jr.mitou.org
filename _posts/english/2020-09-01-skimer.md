@@ -100,6 +100,11 @@ twitter_card: summary_large_image
 {% endif %}
 
 <a href="https://youtu.be/{{ pj.final }}{% if pj.final_start %}?t={{ pj.final_start }}{% endif %}" target="_blank" rel="noopener" class="button">{{ translations.watchOnYouTube[lang] }}</a>
+{% else %}
+## {{ translations.pitch[lang] }}  {#final}
+成果報告会での発表をお楽しみください。
+
+<a href="/final" class="button">成果報告会の情報を見る</a>
 {% endif %}
 
 <nav>
