@@ -21,6 +21,7 @@
     }
   }
 
+  // Redirect to the given redirect_to URL. If failed, redirect to the landing page upon browser language.
   if ("{{ page.redirect_to }}" != ""){
     window.location.replace("{{ page.redirect_to }}" + window.location.hash + window.location.search);
   }

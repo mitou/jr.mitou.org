@@ -17,6 +17,7 @@ end
 def valid_and_equal_to?(filename)
   # TODO: This should call add_failure() once at maximum but better than ignoring invalid filename.
   self.add_failure("No such file found: #{filename}") unless File.exist?(filename)
+  self.add_failure("No redirect file: #{filename} is redirect file") if File.read(filename).include? 'redirect_to'
 
   @runner.current_filename == filename ? true : false
 end
