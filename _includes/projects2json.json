@@ -3,7 +3,7 @@
     "id"          : "{{ pj.id }}",
     "title"       : "{{ pj.title }}",
     "description" : "{{ pj.description | escape }}",
-    "thumbnail"   : "{{ site.url }}/{{ pj.thumbnail }}",
+    "thumbnail"   : "{{ site.url }}/assets/img/projects/{{ pj.year }}/{% if pj.thumbnail %}{{ pj.thumbnail }}{% else %}{{ pj.id}}.webp{% endif %}",
     "url"         : "{{ site.url }}/projects/{{ pj.year }}/{{ pj.id }}",
     "year"        : "{{ pj.year }}",
     "creators"    : [
