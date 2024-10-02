@@ -22,9 +22,9 @@ twitter_card: summary_large_image
 <!-- 2. 現地参加の申し込みが始まったら用意する -->
 2024年度の未踏ジュニア成果報告会を**11月4日 (月曜・振替休日) に東京大学で開催**します。今年は現地でデモ展示の時間なども用意する予定ですので、ぜひ現地までお越しいただけると幸いです。
 
-<div class='flex'>
-  <!--<img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp" alt="2023年度のクリエータの一部が Maker Faire Tokyo 2023 に出展している様子" class="top-img lazyload" loading="lazy">-->
+<!--<img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp" alt="2023年度のクリエータの一部が Maker Faire Tokyo 2023 に出展している様子" class="top-img lazyload" loading="lazy">-->
 
+<div class='flex'>
   <a href="https://mitoujr2024.peatix.com/view" class="button">現地参加を申し込む</a>
 </div>
 
@@ -56,9 +56,31 @@ twitter_card: summary_large_image
 -->
 
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
-<!--
+
 ## タイムテーブル {#timetable}
 
+- 10:30 受付開始
+- 11:00 〜 11:10 ご案内
+- 11:10 〜 12:20 プレゼンテーション
+- 12:20 〜 13:20 昼食休憩
+- 13:20 〜 15:50 プレゼンテーション
+
+`------- オンライン配信はここまで --------`
+
+- 15:50 〜 17:40 デモ・質疑応答
+- 17:40 〜 18:00 スポンサー賞発表、修了式
+
+<br>
+
+メディア関係者やスポンサー関係者向けの参加チケットもご用意しております。
+
+<div class='flex'>
+  <a href="https://mitoujr2024.peatix.com/view" class="button">現地参加を申し込む</a>
+</div>
+
+
+
+<!--
 - 10:30 受付開始
 - 11:00 - 11:10 ご案内
 - 11:10 - 12:40 プレゼンテーション
