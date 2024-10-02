@@ -32,10 +32,12 @@ twitter_card: summary_large_image
 
 <div class='flex'>
   {% if pj.link %}
-    {% if pj.link contains 'github.com' and pj.link contains 'releases' %}
+    {% if pj.link contains 'https://github.com' and pj.link contains 'releases' %}
        <a href='{{ pj.link }}' target='_blank' class='button'>{{ translations.downloadOnGitHub[lang] }}</a>
-    {% elsif pj.link contains 'github.com' %}
+    {% elsif pj.link contains 'https://github.com' %}
        <a href='{{ pj.link }}' target='_blank' class='button'>{{ translations.viewOnGitHub[lang] }}</a>
+    {% elsif pj.link contains 'https://x.com' %}
+       <a href='{{ pj.link }}' target='_blank' class='button'>{{ translations.viewOnTwitter[lang] }}</a>
     {% else %}
        <a href='{{ pj.link }}' target='_blank' class='button'>{{ translations.viewOfficialWebsite[lang] }}</a>
     {% endif %}
