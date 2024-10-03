@@ -25,7 +25,8 @@ twitter_card: summary_large_image
 <!--<img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp" alt="2023年度のクリエータの一部が Maker Faire Tokyo 2023 に出展している様子" class="top-img lazyload" loading="lazy">-->
 
 <div class='flex'>
-  <a href="https://mitoujr2024.peatix.com/view" class="button">現地参加を申し込む</a>
+  <a class="button" href="https://mitoujr2024.peatix.com/view" >現地参加を申し込む</a>
+  <a class="button" href="https://www.youtube.com/watch?v=NVg4W_I8Qp0">YouTube で見る</a>
 </div>
 
 <!--
