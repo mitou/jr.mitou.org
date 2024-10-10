@@ -14,6 +14,10 @@
   <a href="https://youtube.com/playlist?list={{ this_final.playlist }}" class="button">YouTube で見る</a>
   {% if this_final.reaction %}<a href="{{ this_final.reaction }}" class="button">当日の反響を見る</a>{% endif %}
 </div>
+{% else %}
+<div class='flex'>
+  <a href='/final' class='button'>成果報告会を見る</a>
+</div>
 {% endif %}
 
 <br>
