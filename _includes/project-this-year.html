@@ -5,7 +5,7 @@
 <h2 style="margin-top: 0px;">{{ include.year }}年度の採択者と成果</h2>
 <p>{{ page.description }}(採択倍率: <a href='/stats'>{{ this_stat.competition_rate }}倍</a>)</p>
 
-{% if this_final %}
+{% if this_final.playlist %}
 <div class='youtube' style='margin-top: 30px;'>
   <iframe src="https://www.youtube.com/embed/videoseries?list={{ this_final.playlist }}&rel=0" title="{{ include.year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -14,10 +14,17 @@
   <a href="https://youtube.com/playlist?list={{ this_final.playlist }}" class="button">YouTube で見る</a>
   {% if this_final.reaction %}<a href="{{ this_final.reaction }}" class="button">当日の反響を見る</a>{% endif %}
 </div>
-{% else %}
+
+{% elsif this_final.live %}
+
+<div class='youtube' style='margin-top: 30px;'>
+  <iframe src="https://www.youtube.com/embed/{{ this_final.live }}?rel=0" title="{{ include.year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 <div class='flex'>
   <a href='/final' class='button'>成果報告会を見る</a>
 </div>
+
 {% endif %}
 
 <br>
