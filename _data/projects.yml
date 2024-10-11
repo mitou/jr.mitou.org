@@ -183,7 +183,7 @@
   #promotion:   # YouTube上にPVがあれば追記する
   #final:       # TODO: 成果報告会後に追記する
   #final_start: # TODO: 成果報告会後に追記する
-  #link: https://sakubun-otasuke.com/
+  link: https://sakubun-otasuke.com/
   #tags:        # ハッシュタグがあれば追記する
   year: 2024
   mentor_id: maki_komuro
