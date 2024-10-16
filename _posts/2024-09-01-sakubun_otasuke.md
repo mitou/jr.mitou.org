@@ -109,25 +109,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='swaq' title='Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
+    <a href='digikan' title='デジカン'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Swaq - 特定の問題にちょっと強くなった量子アニーリング...
+        デジカン
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='digikan' title='デジカン'>
+    <a href='bento_color' title='BentoColor - テンプレートを使って簡単に彩り豊かなお弁当を作るアプリ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        デジカン
+        BentoColor - テンプレートを使って簡単に彩り豊か...
       {% endif %}
     </a>
   </p>

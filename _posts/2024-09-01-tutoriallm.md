@@ -109,25 +109,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='mimamori_compass' title='みまもりコンパス - 認知症高齢者のための発見共有システム'>
+    <a href='co_encoder' title='Co-Encoder - LLMのためのコンテキスト圧縮エンコーダ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        みまもりコンパス - 認知症高齢者のための発見共有システム
+        Co-Encoder - LLMのためのコンテキスト圧縮エン...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='ai_study' title='AI study - LLMによる穴埋め問題を活用した英単語学習アプリ'>
+    <a href='qwet' title='QWET -  感動を撒き散らす世界初3Dライブエンジン'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        AI study - LLMによる穴埋め問題を活用した英単語...
+        QWET -  感動を撒き散らす世界初3Dライブエンジン...
       {% endif %}
     </a>
   </p>

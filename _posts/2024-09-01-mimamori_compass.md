@@ -109,25 +109,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='fairy_guide' title='FairyGuide - しゃべるぬいぐるみとめぐる思い出に残る旅'>
+    <a href='bento_color' title='BentoColor - テンプレートを使って簡単に彩り豊かなお弁当を作るアプリ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        FairyGuide - しゃべるぬいぐるみとめぐる思い出に...
+        BentoColor - テンプレートを使って簡単に彩り豊か...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='tutoriallm' title='TutoiaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア'>
+    <a href='co_encoder' title='Co-Encoder - LLMのためのコンテキスト圧縮エンコーダ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        TutoiaLLM - AIチュートリアルを使ったプログラミ...
+        Co-Encoder - LLMのためのコンテキスト圧縮エン...
       {% endif %}
     </a>
   </p>

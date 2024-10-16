@@ -109,25 +109,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='bento_color' title='BentoColor - テンプレートを使って簡単に彩り豊かなお弁当を作るアプリ'>
+    <a href='mimamori_compass' title='みまもりコンパス - 認知症高齢者のための発見共有システム'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        BentoColor - テンプレートを使って簡単に彩り豊か...
+        みまもりコンパス - 認知症高齢者のための発見共有システム
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='swaq' title='Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
+    <a href='tutoriallm' title='TutoiaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Swaq - 特定の問題にちょっと強くなった量子アニーリング...
+        TutoiaLLM - AIチュートリアルを使ったプログラミ...
       {% endif %}
     </a>
   </p>

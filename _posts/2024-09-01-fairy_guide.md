@@ -109,25 +109,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='inton' title='INTON - 放送部員のためのイントネーション練習アプリ'>
+    <a href='tactica_note' title='TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        INTON - 放送部員のためのイントネーション練習アプリ
+        TacticaNote - 育成年代の選手の言語化をサポート...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='mimamori_compass' title='みまもりコンパス - 認知症高齢者のための発見共有システム'>
+    <a href='inton' title='INTON - 放送部員のためのイントネーション練習アプリ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        みまもりコンパス - 認知症高齢者のための発見共有システム
+        INTON - 放送部員のためのイントネーション練習アプリ
       {% endif %}
     </a>
   </p>

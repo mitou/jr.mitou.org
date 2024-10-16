@@ -109,25 +109,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='qwet' title='QWET -  感動を撒き散らす世界初3Dライブエンジン'>
+    <a href='swaq' title='Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        QWET -  感動を撒き散らす世界初3Dライブエンジン...
+        Swaq - 特定の問題にちょっと強くなった量子アニーリング...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='bento_color' title='BentoColor - テンプレートを使って簡単に彩り豊かなお弁当を作るアプリ'>
+    <a href='maglev_sphere_mobility' title='磁気浮上型球体駆動モビリティーの開発'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        BentoColor - テンプレートを使って簡単に彩り豊か...
+        磁気浮上型球体駆動モビリティーの開発
       {% endif %}
     </a>
   </p>

@@ -109,25 +109,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='reproduce' title='reprODucE - 生物学に特化したシミュレーションソフト'>
+    <a href='sakubun_otasuke' title='作文おたすけアプリ - 作文が苦手をお手伝いするアプリ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        reprODucE - 生物学に特化したシミュレーションソフ...
+        作文おたすけアプリ - 作文が苦手をお手伝いするアプリ
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='co_encoder' title='Co-Encoder - LLMのためのコンテキスト圧縮エンコーダ'>
+    <a href='mimamori_compass' title='みまもりコンパス - 認知症高齢者のための発見共有システム'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Co-Encoder - LLMのためのコンテキスト圧縮エン...
+        みまもりコンパス - 認知症高齢者のための発見共有システム
       {% endif %}
     </a>
   </p>

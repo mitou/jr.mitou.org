@@ -121,13 +121,13 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='jellyfish_alert' title='クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム'>
+    <a href='fairy_guide' title='FairyGuide - しゃべるぬいぐるみとめぐる思い出に残る旅'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステ...
+        FairyGuide - しゃべるぬいぐるみとめぐる思い出に...
       {% endif %}
     </a>
   </p>

@@ -109,13 +109,13 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='tactica_note' title='TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート'>
+    <a href='qwet' title='QWET -  感動を撒き散らす世界初3Dライブエンジン'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        TacticaNote - 育成年代の選手の言語化をサポート...
+        QWET -  感動を撒き散らす世界初3Dライブエンジン...
       {% endif %}
     </a>
   </p>

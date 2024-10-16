@@ -109,13 +109,13 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='mimic' title='Mimic - 音声を使った英語学習をサポートするアプリ'>
+    <a href='reproduce' title='reprODucE - 生物学に特化したシミュレーションソフト'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Mimic - 音声を使った英語学習をサポートするアプリ
+        reprODucE - 生物学に特化したシミュレーションソフ...
       {% endif %}
     </a>
   </p>
