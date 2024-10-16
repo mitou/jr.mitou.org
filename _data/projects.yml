@@ -33,9 +33,37 @@
 #  - 
 
 # 2024年度
-- id: inton
-  title: INTON - 放送部員のためのイントネーション練習アプリ
-  description: 「INTON」は、地方の放送部員のためのアナウンス用イントネーション練習アプリです。ユーザーは練習する文章の正しいイントネーションを聞いて学ぶことができます。さらに、実際に声に出して発声できているかをチェックし、イントネーションの可視化、採点を行います。また、改善点を提案することで、より綺麗なアナウンスができるようになります。
+- id: qwet
+  title: QWET -  感動を撒き散らす世界初3Dライブエンジン
+  description: QWETはブラウザ上から3Dライブに参加し感動共有ができる、世界初の3Dライブプラットフォームです。<br><br>3D空間上で起こるすべての行動はリアルタイムで同期され、世界中の人々と一緒にライブを楽しむことができます。また、リアルタイム視聴が終わった後もアーカイブに対して行動を追加することができ、ライブをさらに進化させることができます。<br><br>従来の3D音楽ライブとは違う、全く新しいライブ体験をお楽しみください。
+  #thumbnail:   # デフォルトでは #{id}.webp を参照
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # TODO: 成果報告会後に追記する
+  #final_start: # TODO: 成果報告会後に追記する
+  link: https://qwet.monodev.cloud/
+  #tags:        # ハッシュタグがあれば追記する
+  year: 2024
+  mentor_id: rina_kotake
+  creator_ids:
+  - hiroyoshi_muranaka
+
+- id: jellyfish_alert
+  title: クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム
+  description: 猛毒クラゲ「カツオノエボシ」を知っていますか？「クラゲアラート」は、カツオノエボシの漂着を事前にお知らせして被害を防止するためのAIシステムです。夏に多くの海水浴客が訪れる神奈川県湘南地域の海岸での被害を減らすことを目指しています。本プロジェクトでは、海上で漂着直前に検知できるエッジAIシステムを開発しました。昨年から運用中の予測システムと合わせて、前日～当日に高い精度で漂着をお知らせすることを実現しています。
+  #thumbnail:   # デフォルトでは #{id}.webp を参照
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # TODO: 成果報告会後に追記する
+  #final_start: # TODO: 成果報告会後に追記する
+  link: https://x.com/jf_alert
+  #tags:        # ハッシュタグがあれば追記する
+  year: 2024
+  mentor_id: yohei_yasukawa
+  creator_ids:
+  - shuji_obata
+
+- id: picto_plate
+  title: PictoPlate - レストランでのメニュー問題解決アプリ
+  description: 海外のレストランなどによくある、写真の付いていない文字だけのメニューを見てもどんな料理が来るのかわからない。スマホ用アプリ「PictoPlate」はメニューの写真を撮るだけで、その料理の見た目、食材、調理方法、味、自身の食べられない食材が含まれるかどうか…といった情報をユーザーに提供する。また、オーダー時の店員との円滑なコミューニケーションをサポートする。
   #thumbnail:   # デフォルトでは #{id}.webp を参照
   #promotion:   # YouTube上にPVがあれば追記する
   #final:       # TODO: 成果報告会後に追記する
@@ -43,51 +71,9 @@
   #link:        # 公式サイトがあれば追記する
   #tags:        # ハッシュタグがあれば追記する
   year: 2024
-  mentor_id: takahiro_anno
+  mentor_id: yoshifumi_seki
   creator_ids:
-  - rio_sakazono
-
-- id: fairy_guide
-  title: FairyGuide - しゃべるぬいぐるみとめぐる思い出に残る旅
-  description: 「FairyGuide」とは、観光地を案内してくれるしゃべるぬいぐるみです。本PJでは、GPS情報やLLM、音声認識/発話技術を搭載したデバイスを開発しました。このデバイスをぬいぐるみに装着することで、地域にまつわるあらゆる情報を、ぬいぐるみが教えてくれます。あなたも「FairyGuide」とともに、思い出に残る旅をしませんか？
-  #thumbnail:   # デフォルトでは #{id}.webp を参照
-  #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # TODO: 成果報告会後に追記する
-  #final_start: # TODO: 成果報告会後に追記する
-  #link:        # 公式サイトがあれば追記する
-  #tags:        # ハッシュタグがあれば追記する
-  year: 2024
-  mentor_id: rhythm_sakamoto
-  creator_ids:
-  - ryoma_yoshitaka
-
-- id: mimamori_compass
-  title: みまもりコンパス - 認知症高齢者のための発見共有システム
-  description: みまもりコンパスは、認知症高齢者の徘徊や行方不明から早期発見につなげるシステムです。事前にQRコードを発行し、発見者が読み取ることで家族に連絡が送られます。早期の発見により、事故やトラブルからも認知症高齢者の人を守ることができます。 また、認知症高齢者の家族が捜索依頼を出すと、SNSを通じて情報を発信し、捜索活動の協力を呼びかけることもできます。みまもりコンパスを使うことで、高齢者を置き去りにするのではなく、地域社会全体で支える仕組みが生まれます。
-  #thumbnail:   # デフォルトでは #{id}.webp を参照
-  #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # TODO: 成果報告会後に追記する
-  #final_start: # TODO: 成果報告会後に追記する
-  #link: https://www.mimamori-compass.org/
-  #tags:        # ハッシュタグがあれば追記する
-  year: 2024
-  mentor_id: masato_bito
-  creator_ids:
-  - taiyo_mizuno
-
-- id: tutoriallm
-  title: TutoiaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア
-  description: TutoriaLLMは、AIが提供する対話形式のチュートリアルを通じて、プログラミングを教える人と学ぶ人をつなぐソフトウェアです。プログラミングを学ぶ人は、ブラウザ上で、AIと話しながらブロックエディターを使ってプログラムを作成し、Minecraftなどのゲームと接続して試すことができます。先生は、チュートリアルを作成するだけで、場所や時間に制約されずAIが学習者に合わせたスタイルで多くの人に届けることができるようになります。
-  #thumbnail:   # デフォルトでは #{id}.webp を参照
-  promotion: PugcUQOfzpw
-  #final:       # TODO: 成果報告会後に追記する
-  #final_start: # TODO: 成果報告会後に追記する
-  link: https://tutoriallm.com/
-  #tags:        # ハッシュタグがあれば追記する
-  year: 2024
-  mentor_id: hirokazu_nishio
-  creator_ids:
-  - so_tokumaru
+  - hikari_sugano
 
 - id: ai_study
   title: AI study - LLMによる穴埋め問題を活用した英単語学習アプリ
@@ -106,62 +92,6 @@
   - kento_hayashi
   - katsunori_kuroda
 
-- id: qwet
-  title: QWET -  感動を撒き散らす世界初3Dライブエンジン
-  description: QWETはブラウザ上から3Dライブに参加し感動共有ができる、世界初の3Dライブプラットフォームです。<br><br>3D空間上で起こるすべての行動はリアルタイムで同期され、世界中の人々と一緒にライブを楽しむことができます。また、リアルタイム視聴が終わった後もアーカイブに対して行動を追加することができ、ライブをさらに進化させることができます。<br><br>従来の3D音楽ライブとは違う、全く新しいライブ体験をお楽しみください。
-  #thumbnail:   # デフォルトでは #{id}.webp を参照
-  #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # TODO: 成果報告会後に追記する
-  #final_start: # TODO: 成果報告会後に追記する
-  link: https://qwet.monodev.cloud/
-  #tags:        # ハッシュタグがあれば追記する
-  year: 2024
-  mentor_id: rina_kotake
-  creator_ids:
-  - hiroyoshi_muranaka
-
-- id: reproduce
-  title: reprODucE - 生物学に特化したシミュレーションソフト
-  description: 生物の複雑な現象を理解する上で、理論的アプローチは必要不可欠です。生物学に特化したシミュレーションソフト「reprODucE」は、直感的なインターフェイスで生命現象のグラフを作成するだけで、複雑な立式やプログラミングなしに数理モデルの構築とシミュレーションを行うことができます。reprODucEを通して多くの人に生物の理論に触れてもらえたら嬉しいです。
-  #thumbnail:   # デフォルトでは #{id}.webp を参照
-  #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # TODO: 成果報告会後に追記する
-  #final_start: # TODO: 成果報告会後に追記する
-  #link:        # 公式サイトがあれば追記する
-  #tags:        # ハッシュタグがあれば追記する
-  year: 2024
-  mentor_id: kakeru_ishii
-  creator_ids:
-  - ayaka_kotajima
-
-- id: bento_color
-  title: BentoColor - テンプレートを使って簡単に彩り豊かなお弁当を作るアプリ
-  description: お弁当がいつも茶色っぽくなってしまう、中身がマンネリ化してしまう、そんな悩みを解決するのがBentoColorです。好きなテンプレートを選ぶだけで冷蔵庫の中身を考慮しつつ、各色に対応したおかずを提案。お弁当完成後は独自の採点機能で彩りを評価し、点数グラフやAIによるフィードバックで自分の成長を実感できます。忙しい朝でも、テンプレートに従うだけで簡単に彩り豊かなお弁当が作れます。
-  #thumbnail:   # デフォルトでは #{id}.webp を参照
-  #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # TODO: 成果報告会後に追記する
-  #final_start: # TODO: 成果報告会後に追記する
-  #link:        # 公式サイトがあれば追記する
-  #tags:        # ハッシュタグがあれば追記する
-  year: 2024
-  mentor_id: shoya_ishimaru
-  creator_ids:
-  - yuri_yoshida
-
-- id: co_encoder
-  title: Co-Encoder - LLMのためのコンテキスト圧縮エンコーダ
-  description: 近年、生成AIの技術は飛躍的に進展し、ChatGPTなどのLLMは自然な文章を生成できるようになりました。しかし、これらのモデルには「推論コストが高い」という課題があります。特に長文を入力する場合、膨大なメモリと高性能なGPUが必要になり、一般的なGPUでは推論が困難です。こうした課題を解決するために、行列に変換した入力を圧縮し、それを直接LLMに渡すことで低コストで長文の推論を可能にするCo-Encoderを提案します。
-  #thumbnail:   # デフォルトでは #{id}.webp を参照
-  #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # TODO: 成果報告会後に追記する
-  #final_start: # TODO: 成果報告会後に追記する
-  #link:        # 公式サイトがあれば追記する
-  #tags:        # ハッシュタグがあれば追記する
-  year: 2024
-  mentor_id: hirokazu_nishio
-  creator_ids:
-  - rakuto_suda
-
 - id: swaq
   title: Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター
   description: 量子アニーリングは組合せ最適化問題を高速に解ける可能性があると話題を呼んでいます。しかし、多くの組合せ最適化問題ではn個の中からm個選ぶという制約が加わり、これが解探索の精度と速度の両立を困難にしています。本プロジェクトでは、この制約を常に満たしたまま解を探索する量子アニーリングシミュレータを自作し、実問題への適用及び評価をしました。
@@ -176,47 +106,19 @@
   creator_ids:
   - hayato_okada
 
-- id: sakubun_otasuke
-  title: 作文おたすけアプリ - 作文が苦手をお手伝いするアプリ
-  description: あなたは作文を書くのが得意ですか？このアプリはどちらかというと「作文が苦手な人」向けです。同じく、作文が苦手な私が、「どうやったらスラスラ書けるのか？」「どうして苦手なのか」を考えに考えて開発しました。苦手な理由をいくつか解決できると、いやな気持ちが少し軽くなって、「作文かくのも悪くないな」と前向きになれるのではないでしょうか！『作文おたすけアプリ』はそんな世界を明るくするツールです。
+- id: reproduce
+  title: reprODucE - 生物学に特化したシミュレーションソフト
+  description: 生物の複雑な現象を理解する上で、理論的アプローチは必要不可欠です。生物学に特化したシミュレーションソフト「reprODucE」は、直感的なインターフェイスで生命現象のグラフを作成するだけで、複雑な立式やプログラミングなしに数理モデルの構築とシミュレーションを行うことができます。reprODucEを通して多くの人に生物の理論に触れてもらえたら嬉しいです。
   #thumbnail:   # デフォルトでは #{id}.webp を参照
   #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # TODO: 成果報告会後に追記する
-  #final_start: # TODO: 成果報告会後に追記する
-  link: https://sakubun-otasuke.com/
-  #tags:        # ハッシュタグがあれば追記する
-  year: 2024
-  mentor_id: maki_komuro
-  creator_ids:
-  - komako_takahashi
-
-- id: digikan
-  title: デジカン
-  description: 「デジカン」は、漢字に興味がない、苦手な子供たちにプレイしてもらうことで、漢字に対する興味を持ってもらうことを目的とするゲームです。熟語を使って遊ぶ「熟語パズル」、素早く読みを当てる「読みパズル」、漢字の書きの情報を覚えることで有利になる「漢字シューター」があります。
-  #thumbnail:   # デフォルトでは #{id}.webp を参照
-  promotion: 23g0RRPzR9o
   #final:       # TODO: 成果報告会後に追記する
   #final_start: # TODO: 成果報告会後に追記する
   #link:        # 公式サイトがあれば追記する
   #tags:        # ハッシュタグがあれば追記する
   year: 2024
-  mentor_id: ryo_suzuki
+  mentor_id: kakeru_ishii
   creator_ids:
-  - junnosuke_katsui
-
-- id: mimic
-  title: Mimic - 音声を使った英語学習をサポートするアプリ
-  description: 「Mimic」は、音声を使った英語学習をサポートするWebサービスです。ユーザーがアップロードした音声を自動でテキスト化し、単語をクリック・選択できるインタラクティブな機能を提供。これにより、音声を活用した効率的な英語学習が可能になります。さらに、音声を真似して録音する機能で、発音の向上はもちろん、リスニングスキルの強化にも大きな効果を発揮します。
-  #thumbnail:   # デフォルトでは #{id}.webp を参照
-  #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # TODO: 成果報告会後に追記する
-  #final_start: # TODO: 成果報告会後に追記する
-  #link: "https://mimic-1801b.web.app/#/list"
-  #tags:        # ハッシュタグがあれば追記する
-  year: 2024
-  mentor_id: daiki_teramoto
-  creator_ids:
-  - masahiro_hazutani
+  - ayaka_kotajima
 
 - id: maglev_sphere_mobility
   title: 磁気浮上型球体駆動モビリティーの開発
@@ -246,23 +148,9 @@
   creator_ids:
   - minori_sugimura
 
-- id: jellyfish_alert
-  title: クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム
-  description: 猛毒クラゲ「カツオノエボシ」を知っていますか？「クラゲアラート」は、カツオノエボシの漂着を事前にお知らせして被害を防止するためのAIシステムです。夏に多くの海水浴客が訪れる神奈川県湘南地域の海岸での被害を減らすことを目指しています。本プロジェクトでは、海上で漂着直前に検知できるエッジAIシステムを開発しました。昨年から運用中の予測システムと合わせて、前日～当日に高い精度で漂着をお知らせすることを実現しています。
-  #thumbnail:   # デフォルトでは #{id}.webp を参照
-  #promotion:   # YouTube上にPVがあれば追記する
-  #final:       # TODO: 成果報告会後に追記する
-  #final_start: # TODO: 成果報告会後に追記する
-  link: https://x.com/jf_alert
-  #tags:        # ハッシュタグがあれば追記する
-  year: 2024
-  mentor_id: yohei_yasukawa
-  creator_ids:
-  - shuji_obata
-
-- id: picto_plate
-  title: PictoPlate - レストランでのメニュー問題解決アプリ
-  description: 海外のレストランなどによくある、写真の付いていない文字だけのメニューを見てもどんな料理が来るのかわからない。スマホ用アプリ「PictoPlate」はメニューの写真を撮るだけで、その料理の見た目、食材、調理方法、味、自身の食べられない食材が含まれるかどうか…といった情報をユーザーに提供する。また、オーダー時の店員との円滑なコミューニケーションをサポートする。
+- id: fairy_guide
+  title: FairyGuide - しゃべるぬいぐるみとめぐる思い出に残る旅
+  description: 「FairyGuide」とは、観光地を案内してくれるしゃべるぬいぐるみです。本PJでは、GPS情報やLLM、音声認識/発話技術を搭載したデバイスを開発しました。このデバイスをぬいぐるみに装着することで、地域にまつわるあらゆる情報を、ぬいぐるみが教えてくれます。あなたも「FairyGuide」とともに、思い出に残る旅をしませんか？
   #thumbnail:   # デフォルトでは #{id}.webp を参照
   #promotion:   # YouTube上にPVがあれば追記する
   #final:       # TODO: 成果報告会後に追記する
@@ -270,9 +158,121 @@
   #link:        # 公式サイトがあれば追記する
   #tags:        # ハッシュタグがあれば追記する
   year: 2024
-  mentor_id: yoshifumi_seki
+  mentor_id: rhythm_sakamoto
   creator_ids:
-  - hikari_sugano
+  - ryoma_yoshitaka
+
+- id: inton
+  title: INTON - 放送部員のためのイントネーション練習アプリ
+  description: 「INTON」は、地方の放送部員のためのアナウンス用イントネーション練習アプリです。ユーザーは練習する文章の正しいイントネーションを聞いて学ぶことができます。さらに、実際に声に出して発声できているかをチェックし、イントネーションの可視化、採点を行います。また、改善点を提案することで、より綺麗なアナウンスができるようになります。
+  #thumbnail:   # デフォルトでは #{id}.webp を参照
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # TODO: 成果報告会後に追記する
+  #final_start: # TODO: 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  #tags:        # ハッシュタグがあれば追記する
+  year: 2024
+  mentor_id: takahiro_anno
+  creator_ids:
+  - rio_sakazono
+
+- id: mimic
+  title: Mimic - 音声を使った英語学習をサポートするアプリ
+  description: 「Mimic」は、音声を使った英語学習をサポートするWebサービスです。ユーザーがアップロードした音声を自動でテキスト化し、単語をクリック・選択できるインタラクティブな機能を提供。これにより、音声を活用した効率的な英語学習が可能になります。さらに、音声を真似して録音する機能で、発音の向上はもちろん、リスニングスキルの強化にも大きな効果を発揮します。
+  #thumbnail:   # デフォルトでは #{id}.webp を参照
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # TODO: 成果報告会後に追記する
+  #final_start: # TODO: 成果報告会後に追記する
+  #link: "https://mimic-1801b.web.app/#/list"
+  #tags:        # ハッシュタグがあれば追記する
+  year: 2024
+  mentor_id: daiki_teramoto
+  creator_ids:
+  - masahiro_hazutani
+
+- id: digikan
+  title: デジカン
+  description: 「デジカン」は、漢字に興味がない、苦手な子供たちにプレイしてもらうことで、漢字に対する興味を持ってもらうことを目的とするゲームです。熟語を使って遊ぶ「熟語パズル」、素早く読みを当てる「読みパズル」、漢字の書きの情報を覚えることで有利になる「漢字シューター」があります。
+  #thumbnail:   # デフォルトでは #{id}.webp を参照
+  promotion: 23g0RRPzR9o
+  #final:       # TODO: 成果報告会後に追記する
+  #final_start: # TODO: 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  #tags:        # ハッシュタグがあれば追記する
+  year: 2024
+  mentor_id: ryo_suzuki
+  creator_ids:
+  - junnosuke_katsui
+
+- id: sakubun_otasuke
+  title: 作文おたすけアプリ - 作文が苦手をお手伝いするアプリ
+  description: あなたは作文を書くのが得意ですか？このアプリはどちらかというと「作文が苦手な人」向けです。同じく、作文が苦手な私が、「どうやったらスラスラ書けるのか？」「どうして苦手なのか」を考えに考えて開発しました。苦手な理由をいくつか解決できると、いやな気持ちが少し軽くなって、「作文かくのも悪くないな」と前向きになれるのではないでしょうか！『作文おたすけアプリ』はそんな世界を明るくするツールです。
+  #thumbnail:   # デフォルトでは #{id}.webp を参照
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # TODO: 成果報告会後に追記する
+  #final_start: # TODO: 成果報告会後に追記する
+  link: https://sakubun-otasuke.com/
+  #tags:        # ハッシュタグがあれば追記する
+  year: 2024
+  mentor_id: maki_komuro
+  creator_ids:
+  - komako_takahashi
+
+- id: bento_color
+  title: BentoColor - テンプレートを使って簡単に彩り豊かなお弁当を作るアプリ
+  description: お弁当がいつも茶色っぽくなってしまう、中身がマンネリ化してしまう、そんな悩みを解決するのがBentoColorです。好きなテンプレートを選ぶだけで冷蔵庫の中身を考慮しつつ、各色に対応したおかずを提案。お弁当完成後は独自の採点機能で彩りを評価し、点数グラフやAIによるフィードバックで自分の成長を実感できます。忙しい朝でも、テンプレートに従うだけで簡単に彩り豊かなお弁当が作れます。
+  #thumbnail:   # デフォルトでは #{id}.webp を参照
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # TODO: 成果報告会後に追記する
+  #final_start: # TODO: 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  #tags:        # ハッシュタグがあれば追記する
+  year: 2024
+  mentor_id: shoya_ishimaru
+  creator_ids:
+  - yuri_yoshida
+
+- id: mimamori_compass
+  title: みまもりコンパス - 認知症高齢者のための発見共有システム
+  description: みまもりコンパスは、認知症高齢者の徘徊や行方不明から早期発見につなげるシステムです。事前にQRコードを発行し、発見者が読み取ることで家族に連絡が送られます。早期の発見により、事故やトラブルからも認知症高齢者の人を守ることができます。 また、認知症高齢者の家族が捜索依頼を出すと、SNSを通じて情報を発信し、捜索活動の協力を呼びかけることもできます。みまもりコンパスを使うことで、高齢者を置き去りにするのではなく、地域社会全体で支える仕組みが生まれます。
+  #thumbnail:   # デフォルトでは #{id}.webp を参照
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # TODO: 成果報告会後に追記する
+  #final_start: # TODO: 成果報告会後に追記する
+  #link: https://www.mimamori-compass.org/
+  #tags:        # ハッシュタグがあれば追記する
+  year: 2024
+  mentor_id: masato_bito
+  creator_ids:
+  - taiyo_mizuno
+
+- id: co_encoder
+  title: Co-Encoder - LLMのためのコンテキスト圧縮エンコーダ
+  description: 近年、生成AIの技術は飛躍的に進展し、ChatGPTなどのLLMは自然な文章を生成できるようになりました。しかし、これらのモデルには「推論コストが高い」という課題があります。特に長文を入力する場合、膨大なメモリと高性能なGPUが必要になり、一般的なGPUでは推論が困難です。こうした課題を解決するために、行列に変換した入力を圧縮し、それを直接LLMに渡すことで低コストで長文の推論を可能にするCo-Encoderを提案します。
+  #thumbnail:   # デフォルトでは #{id}.webp を参照
+  #promotion:   # YouTube上にPVがあれば追記する
+  #final:       # TODO: 成果報告会後に追記する
+  #final_start: # TODO: 成果報告会後に追記する
+  #link:        # 公式サイトがあれば追記する
+  #tags:        # ハッシュタグがあれば追記する
+  year: 2024
+  mentor_id: hirokazu_nishio
+  creator_ids:
+  - rakuto_suda
+
+- id: tutoriallm
+  title: TutoiaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア
+  description: TutoriaLLMは、AIが提供する対話形式のチュートリアルを通じて、プログラミングを教える人と学ぶ人をつなぐソフトウェアです。プログラミングを学ぶ人は、ブラウザ上で、AIと話しながらブロックエディターを使ってプログラムを作成し、Minecraftなどのゲームと接続して試すことができます。先生は、チュートリアルを作成するだけで、場所や時間に制約されずAIが学習者に合わせたスタイルで多くの人に届けることができるようになります。
+  #thumbnail:   # デフォルトでは #{id}.webp を参照
+  promotion: PugcUQOfzpw
+  #final:       # TODO: 成果報告会後に追記する
+  #final_start: # TODO: 成果報告会後に追記する
+  link: https://tutoriallm.com/
+  #tags:        # ハッシュタグがあれば追記する
+  year: 2024
+  mentor_id: hirokazu_nishio
+  creator_ids:
+  - so_tokumaru
 
 
 # 2023年度
