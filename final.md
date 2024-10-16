@@ -41,16 +41,22 @@ twitter_card: summary_large_image
 
 ## タイムテーブル {#timetable}
 
-- 10:30 受付開始
-- 11:00 〜 11:10 ご案内
-- 11:10 〜 12:20 プレゼンテーション
-- 12:20 〜 13:20 昼食休憩
-- 13:20 〜 15:50 プレゼンテーション
+<ul>
+  <li>10:30 受付開始</li>
+  <li>11:00 〜 11:10 ご案内</li>
+  <li>11:10 〜 12:20 プレゼンテーション</li>
+    {% include final-timetable.html this_year=page.this_year range_begin=0 range_end=6 %}
+  <li>12:20 〜 13:20 昼食休憩</li>
+  <li>13:20 〜 15:50 プレゼンテーション</li>
+    {% include final-timetable.html this_year=page.this_year range_begin=7 range_end=16 %}
+</ul>
 
 `------- オンライン配信はここまで --------`
 
-- 15:50 〜 17:40 作品展示 (デモ)・質疑応答
-- 17:40 〜 18:00 スポンサー賞発表、修了式
+<ul>
+  <li>15:50 〜 17:40 作品展示 (デモ)・質疑応答</li>
+  <li>17:40 〜 18:00 スポンサー賞発表、修了式</li>
+</ul>
 
 <br>
 

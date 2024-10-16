@@ -1,0 +1,17 @@
+{% assign projects = site.data.projects | where_exp: "pj", "pj.year == include.this_year" %}
+{{ include.range }}
+<ul>
+{% for order in (include.range_begin..include.range_end) %}
+  {% assign pj = projects[order] %}
+  <small><li class='final-timetable' style='list-style-type: "{{ order | plus: 1 }}. "'><a href='#{{ pj.id }}'>{{ pj.title }}</a></li></small>
+{% endfor %}
+</ul>
+
+<style>
+  li.final-timetable{
+    margin-left: auto;
+    @media screen and (max-width: 760px) {
+      margin-left: 24px;
+    }
+  }
+</style>
