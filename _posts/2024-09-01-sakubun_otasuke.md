@@ -109,13 +109,13 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='digikan' title='デジカン'>
+    <a href='digikan' title='Digikan - 漢字に興味を持ってもらうためのゲーム'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        デジカン
+        Digikan - 漢字に興味を持ってもらうためのゲーム
       {% endif %}
     </a>
   </p>
