@@ -56,7 +56,14 @@ twitter_card: summary_large_image
 `------- オンライン配信はここまで --------`
 
 <ul>
-  <li>15:50 〜 17:30 作品展示 (デモ)・質疑応答</li>
+  <li>
+    15:50 〜 17:30 作品展示 (デモ)・質疑応答<br>
+    18分 x 3回転  13分 x 3回転。<br>
+    1プロジェクトあたり2回ブース発表。<br>
+    <img width='100%' src="/assets/img/spinner.svg"
+     data-src="https://i.gyazo.com/6c408451cc04683653eca4878c22167c.png"
+     class="lazyload" loading="lazy" />
+  </li>
   <li>17:30 〜 18:00 スポンサー賞発表、修了式</li>
 </ul>
 
