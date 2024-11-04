@@ -29,6 +29,10 @@ twitter_card: summary_large_image
   <a class="button" href="https://www.youtube.com/watch?v=NVg4W_I8Qp0">YouTube で見る</a>
 </div>
 
+<div class='youtube'>
+  <iframe src="https://www.youtube.com/embed/NVg4W_I8Qp0" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 <!--
 <div class='flex'>
   <a href="https://twitter.com/hashtag/未踏ジュニア" class="button">#未踏ジュニア の<br>ハッシュタグを見る</a>
@@ -88,7 +92,6 @@ twitter_card: summary_large_image
   <a href="https://mitoujr2024.peatix.com/view" class="button">現地参加を申し込む</a>
 </div>
 -->
-
 
 <!--
 <div class='flex'>
