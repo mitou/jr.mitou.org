@@ -65,7 +65,7 @@ twitter_card: summary_large_image
     18分 x 3回転  13分 x 3回転。<br>
     1プロジェクトあたり2回ブース発表。<br>
     <img width='100%' src="/assets/img/spinner.svg" alt="デモ展示タイムターブル"
-     data-src="https://i.gyazo.com/6c408451cc04683653eca4878c22167c.png"
+     data-src="https://i.gyazo.com/8ae7cf2fd9158336373c2f4fd95746d5.png"
      class="lazyload" loading="lazy" />
   </li>
   <li>17:30 〜 18:00 スポンサー賞発表、修了式</li>
