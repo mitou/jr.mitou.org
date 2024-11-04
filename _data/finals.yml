@@ -1,8 +1,15 @@
 # YouTube 成果報告会のプレイリストまとめ
 # https://www.youtube.com/@MitouJr/playlists
 
+# ライブ配信時の設定例（成果報告会の直前〜切り抜き完成まで）
+#- year: 2024
+#  live: NVg4W_I8Qp0
+#  live_start: 173
+#  reaction: https://togetter.com/li/2460295
+
 - year: 2024
   live: NVg4W_I8Qp0
+  live_start: 173
   reaction: https://togetter.com/li/2460295
 - year: 2023
   playlist: PLNObH2jlC6lfjkMZAmRffPLGs_gFJOfGU
