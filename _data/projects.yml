@@ -239,7 +239,7 @@
   #promotion:   # YouTube上にPVがあれば追記する
   #final:       # TODO: 成果報告会後に追記する
   #final_start: # TODO: 成果報告会後に追記する
-  #link: https://www.mimamori-compass.org/
+  link: https://www.mimamori-compass.org/
   #tags:        # ハッシュタグがあれば追記する
   year: 2024
   mentor_id: masato_bito
