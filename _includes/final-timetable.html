@@ -3,7 +3,7 @@
 <ul>
 {% for order in (include.range_begin..include.range_end) %}
   {% assign pj = projects[order] %}
-  <small><li class='final-timetable' style='list-style-type: "{{ order | plus: 1 }}. "'><a href='#{{ pj.id }}'>{{ pj.title }}</a></li></small>
+  <small><li class='final-timetable' style='list-style-type: "{{ order | plus: 1 }}. "'><a href='/projects/{{ pj.year }}/{{ pj.id }}'>{{ pj.title }}</a></li></small>
 {% endfor %}
 </ul>
 
