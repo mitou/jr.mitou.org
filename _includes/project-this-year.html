@@ -23,6 +23,7 @@
 
 <div class='flex'>
   <a href='/final' class='button'>成果報告会を見る</a>
+  {% if this_final.reaction %}<a href="{{ this_final.reaction }}" class="button">当日の反響を見る</a>{% endif %}
 </div>
 
 {% endif %}
