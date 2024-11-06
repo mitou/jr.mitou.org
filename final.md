@@ -20,27 +20,28 @@ twitter_card: summary_large_image
 
 
 <!-- 2. 現地参加の申し込みが始まったら用意する -->
-2024年度の未踏ジュニア成果報告会を**11月4日 (月曜・振替休日) に東京大学で開催**します。<br class='ignore-pc'><br class='ignore-pc'>今年は現地で作品展示 (デモ・実演など) の時間も用意する予定ですので、ぜひ現地までお越しいただけると幸いです。
+2024年度の未踏ジュニア成果報告会は**11月4日 (月曜・振替休日) に東京大学で開催**されました！<br class='ignore-pc'><br class='ignore-pc'>**YouTube からアーカイブ視聴ができる**ので、見逃した方や見返したい方もぜひ！📺✨
 
+<br>
+
+<!--今年は現地で作品展示 (デモ・実演など) の時間も用意する予定ですので、ぜひ現地までお越しいただけると幸いです。-->
 <!--<img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp" alt="2023年度のクリエータの一部が Maker Faire Tokyo 2023 に出展している様子" class="top-img lazyload" loading="lazy">-->
+
+<div class='youtube'>
+  <iframe src="https://www.youtube.com/embed/c8NdJn3XxIA?list=PLNObH2jlC6ldl5Nh5KNfXkBitzcI4M6Gm" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <div class='flex'>
   <!--<a class="button" href="https://mitoujr2024.peatix.com/view" >現地参加を申し込む</a>-->
-  <a class="button" href="https://www.youtube.com/watch?v=NVg4W_I8Qp0&t=173s">YouTube で見る</a>
+  <a class="button" href="https://www.youtube.com/playlist?list=PLNObH2jlC6ldl5Nh5KNfXkBitzcI4M6Gm">YouTube で見る</a>
   <a class="button" href="https://togetter.com/li/2460295">当日の反響を見る</a>
 </div>
 
-<div class='youtube'>
-  <iframe src="https://www.youtube.com/embed/NVg4W_I8Qp0?start=173" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<!--
 <div class='flex'>
   <a href="https://twitter.com/hashtag/未踏ジュニア" class="button">#未踏ジュニア の<br>ハッシュタグを見る</a>
 
   <a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final?{{ page.this_year }}&lang=jp&related=mitoujr" class="button">#未踏ジュニア で<br>ツイートする</a>
 </div>
--->
 
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
 
