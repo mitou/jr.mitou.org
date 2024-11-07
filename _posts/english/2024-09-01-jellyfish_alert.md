@@ -4,7 +4,7 @@ layout: post
 title: |
   Jellyfish Alert - Edge AI System for Monitoring the Arrival of Poisonous Jellyfish
 description: |
-  Are you familiar with the highly venomous jellyfish known as the "Portuguese Man o' War"? "Jellyfish Alert" is an AI system designed to provide advance warnings of Portuguese Man o' War landings to prevent harm. It aims to reduce incidents on the beaches of the Shonan area in Kanagawa Prefecture, which attracts many beachgoers during the summer. In this project, we developed an edge AI system capable of detecting these jellyfish just before they reach the shore. Combined with the prediction system that has been in operation since last year, we have achieved high-accuracy notifications of landings from the day before to the day of the event.
+  Are you familiar with the highly venomous jellyfish known as the Portuguese Man o' War? Jellyfish Alert is an AI system designed to provide advance warnings of Portuguese Man o' War landings to prevent harm. It aims to reduce incidents on the beaches of the Shonan area in Kanagawa Prefecture, which attracts many beachgoers during the summer. In this project, we developed an edge AI system capable of detecting these jellyfish just before they reach the shore. Combined with the prediction system that has been in operation since last year, we have achieved high-accuracy notifications of landings from the day before to the day of the event.
 
 permalink: /english/projects/2024/jellyfish_alert
 thumbnail: /assets/img/projects/2024/jellyfish_alert.webp

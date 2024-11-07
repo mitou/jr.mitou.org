@@ -4,7 +4,7 @@ layout: post
 title: |
   Essay Assistance App - An App to Help Those Who Struggle with Writing Essays
 description: |
-  Are you skilled at writing essays? This application is designed for those who find essay writing challenging. As someone who also struggles with writing, I developed this app by thoroughly considering questions like "How can I write more smoothly?" and "Why do I find it difficult?" By addressing some of the reasons behind these challenges, the app aims to alleviate the discomfort associated with writing, potentially leading to a more positive outlook, such as "Writing essays isn't so bad after all!" The "Essay Assistance App" is a tool designed to brighten such experiences.
+  Are you skilled at writing essays? This application is designed for those who find essay writing challenging. As someone who also struggles with writing, I developed this app by thoroughly considering questions like "How can I write more smoothly?" and "Why do I find it difficult?" By addressing some of the reasons behind these challenges, the app aims to alleviate the discomfort associated with writing, potentially leading to a more positive outlook, such as "Writing essays isn't so bad after all!" The Essay Assistance App is a tool designed to brighten such experiences.
 
 permalink: /english/projects/2024/sakubun_otasuke
 thumbnail: /assets/img/projects/2024/sakubun_otasuke.webp
