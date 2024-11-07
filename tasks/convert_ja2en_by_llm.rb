@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
 require 'yaml'
-require 'ruby/openai' # Translate project info from JA to EN
+require 'ruby/openai' # Translate project with OpenAI from JA to EN
+TARGET_YEAR=2024      # Translate given-year projects from JA to EN
 
 OpenAI.configure do |config|
   config.access_token    = ENV.fetch('OPENAI_ACCESS_TOKEN')
@@ -32,7 +33,7 @@ params = {
 BASE_URL = 'https://jr.mitou.org/projects'
 projects = YAML.load_file("_data/projects.yml", symbolize_names: true)
 projects.each_with_index do |project, index|
-  next unless project[:year] == 2023
+  next unless project[:year] == TARGET_YEAR
 
   params[:messages][-1][:content] = project[:title]
   en_title = client.chat(parameters: params).dig 'choices', 0, 'message', 'content'
