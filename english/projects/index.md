@@ -36,14 +36,11 @@ latest_en_year: 2024
 
   <ul style="list-style: none; text-align: center; padding: 30px 0px;">
     Jump to &raquo;
-    <li style="display: inline-block; margin: auto 10px;"><a href='#2023'>2023</a></li>
-    <li style="display: inline-block; margin: auto 10px;"><a href='#2022'>2022</a></li>
-    <li style="display: inline-block; margin: auto 10px;"><a href='#2021'>2021</a></li>
-    <li style="display: inline-block; margin: auto 10px;"><a href='#2020'>2020</a></li>
-    <li style="display: inline-block; margin: auto 10px;"><a href='#2019'>2019</a></li>
-    <li style="display: inline-block; margin: auto 10px;"><a href='#2018'>2018</a></li>
-    <li style="display: inline-block; margin: auto 10px;"><a href='#2017'>2017</a></li>
-    <li style="display: inline-block; margin: auto 10px;"><a href='#2016'>2016</a></li>
+    {% assign latest_en_year = page.latest_en_year  %}
+    {% assign oldest_pj      = site.data.projects | sort: 'year' | first  %}
+    {% for this_year in (oldest_pj.year..latest_en_year) reversed %}
+    <li style="display: inline-block; margin: auto 10px;"><a href='#{{ this_year }}'>{{ this_year }}</a></li>
+    {% endfor %}
   </ul>
 
   <!--
@@ -54,8 +51,6 @@ latest_en_year: 2024
   -->
 
   <!-- Projects を時系列順にソートし、初年度と最新年度を取得する -->
-  {% assign latest_en_year = page.latest_en_year  %}
-  {% assign oldest_pj      = site.data.projects | sort: 'year' | first  %}
   {% for this_year in (oldest_pj.year..latest_en_year) reversed %}
     <h3 id='{{ this_year }}'>
       <a href='#{{ this_year }}' style='color: #333; font-weight: bold;'>{{ this_year }}'s projects</a>
