@@ -93,10 +93,10 @@ latest_en_year: 2024
            alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
 	</a>
 	{% else %}
-	<!-- Show TBD thumbnail image if not ready yet. -->
+	<!-- Show WebP thumbnail image in the default path. -->
 	<a href="/english/projects/{{ pj.year }}/{{ pj.id }}">
-	  <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/tbu.png"
-           alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
+	  <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/{{ pj.year }}/{{ pj.id }}.webp"
+               alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
 	</a>
 	{% endif %}
 
