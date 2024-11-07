@@ -14,11 +14,11 @@ twitter_card: summary_large_image
 {% assign lang         = page.lang | default: 'ja' %}
 
 {% if page.lang == 'en' %}
-  {% assign pj_title       = pj.title_en %}
-  {% assign pj_description = pj.description_en %}
+  {% assign pj_title       = pj.title_en       | escape %}
+  {% assign pj_description = pj.description_en | escape %}
 {% else %}
-  {% assign pj_title       = pj.title %}
-  {% assign pj_description = pj.description %}
+  {% assign pj_title       = pj.title          | escape %}
+  {% assign pj_description = pj.description    | escape %}
 {% endif %}
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
