@@ -59,7 +59,7 @@
   title_en: Jellyfish Alert - Edge AI System for Monitoring the Arrival of Poisonous Jellyfish
   description: 猛毒クラゲ「カツオノエボシ」を知っていますか？「クラゲアラート」は、カツオノエボシの漂着を事前にお知らせして被害を防止するためのAIシステムです。夏に多くの海水浴客が訪れる神奈川県湘南地域の海岸での被害を減らすことを目指しています。本プロジェクトでは、海上で漂着直前に検知できるエッジAIシステムを開発しました。昨年から運用中の予測システムと合わせて、前日～当日に高い精度で漂着をお知らせすることを実現しています。
   description_en: |
-    Are you familiar with the highly venomous jellyfish known as the "Portuguese Man o' War"? "Jellyfish Alert" is an AI system designed to provide advance warnings of Portuguese Man o' War landings to prevent harm. It aims to reduce incidents on the beaches of the Shonan area in Kanagawa Prefecture, which attracts many beachgoers during the summer. In this project, we developed an edge AI system capable of detecting these jellyfish just before they reach the shore. Combined with the prediction system that has been in operation since last year, we have achieved high-accuracy notifications of landings from the day before to the day of the event.
+    Are you familiar with the highly venomous jellyfish known as the Portuguese Man o' War? Jellyfish Alert is an AI system designed to provide advance warnings of Portuguese Man o' War landings to prevent harm. It aims to reduce incidents on the beaches of the Shonan area in Kanagawa Prefecture, which attracts many beachgoers during the summer. In this project, we developed an edge AI system capable of detecting these jellyfish just before they reach the shore. Combined with the prediction system that has been in operation since last year, we have achieved high-accuracy notifications of landings from the day before to the day of the event.
   #thumbnail:   # デフォルトでは #{id}.webp を参照
   #promotion:   # YouTube上にPVがあれば追記する
   #final: NVg4W_I8Qp0
@@ -78,7 +78,7 @@
   title_en: PictoPlate - An App to Solve Menu Issues in Restaurants
   description: 海外のレストランなどによくある、写真の付いていない文字だけのメニューを見てもどんな料理が来るのかわからない。スマホ用アプリ「PictoPlate」はメニューの写真を撮るだけで、その料理の見た目、食材、調理方法、味、自身の食べられない食材が含まれるかどうか…といった情報をユーザーに提供する。また、オーダー時の店員との円滑なコミューニケーションをサポートする。
   description_en: |
-    When faced with text-only menus commonly found in overseas restaurants, it can be difficult to visualize the dishes. The smartphone app "PictoPlate" addresses this by allowing users to simply take a photo of the menu. The app then provides information about the appearance, ingredients, cooking methods, taste, and whether the dish contains any ingredients the user cannot consume. Additionally, it supports smooth communication with restaurant staff when placing orders.
+    When faced with text-only menus commonly found in overseas restaurants, it can be difficult to visualize the dishes. The smartphone app, PictoPlate, addresses this by allowing users to simply take a photo of the menu. The app then provides information about the appearance, ingredients, cooking methods, taste, and whether the dish contains any ingredients the user cannot consume. Additionally, it supports smooth communication with restaurant staff when placing orders.
   #thumbnail:   # デフォルトでは #{id}.webp を参照
   #promotion:   # YouTube上にPVがあれば追記する
   #final: NVg4W_I8Qp0
@@ -271,7 +271,7 @@
   title_en: Essay Assistance App - An App to Help Those Who Struggle with Writing Essays
   description: あなたは作文を書くのが得意ですか？このアプリはどちらかというと「作文が苦手な人」向けです。同じく、作文が苦手な私が、「どうやったらスラスラ書けるのか？」「どうして苦手なのか」を考えに考えて開発しました。苦手な理由をいくつか解決できると、いやな気持ちが少し軽くなって、「作文かくのも悪くないな」と前向きになれるのではないでしょうか！『作文おたすけアプリ』はそんな世界を明るくするツールです。
   description_en: |
-    Are you skilled at writing essays? This application is designed for those who find essay writing challenging. As someone who also struggles with writing, I developed this app by thoroughly considering questions like "How can I write more smoothly?" and "Why do I find it difficult?" By addressing some of the reasons behind these challenges, the app aims to alleviate the discomfort associated with writing, potentially leading to a more positive outlook, such as "Writing essays isn't so bad after all!" The "Essay Assistance App" is a tool designed to brighten such experiences.
+    Are you skilled at writing essays? This application is designed for those who find essay writing challenging. As someone who also struggles with writing, I developed this app by thoroughly considering questions like "How can I write more smoothly?" and "Why do I find it difficult?" By addressing some of the reasons behind these challenges, the app aims to alleviate the discomfort associated with writing, potentially leading to a more positive outlook, such as "Writing essays isn't so bad after all!" The Essay Assistance App is a tool designed to brighten such experiences.
   #thumbnail:   # デフォルトでは #{id}.webp を参照
   #promotion:   # YouTube上にPVがあれば追記する
   #final: NVg4W_I8Qp0
