@@ -2,7 +2,7 @@
 layout: english
 nosnippet: true
 lang: en
-latest_en_year: 2023
+latest_en_year: 2024
 
 # latest_en_year を変更すると本ページの採択プロジェクトが切り替わります。
 # 英語版の公開準備が整ったら latest_en_year の数値に変更してください。
