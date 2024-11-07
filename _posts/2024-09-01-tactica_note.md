@@ -113,7 +113,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        Development of a Magnetic Levi...
       {% else %}
         磁気浮上型球体駆動モビリティーの開発
       {% endif %}
@@ -125,7 +125,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        FairyGuide - A Memorable Journ...
       {% else %}
         FairyGuide - しゃべるぬいぐるみとめぐる思い出に...
       {% endif %}

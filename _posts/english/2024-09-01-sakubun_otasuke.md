@@ -1,15 +1,17 @@
 ---
+lang: en
 layout: post
 title: |
-  reprODucE - 生物学に特化したシミュレーションソフト
+  Essay Assistance App - An App to Help Those Who Struggle with Writing Essays
 description: |
-  生物の複雑な現象を理解する上で、理論的アプローチは必要不可欠です。生物学に特化したシミュレーションソフト「reprODucE」は、直感的なインターフェイスで生命現象のグラフを作成するだけで、複雑な立式やプログラミングなしに数理モデルの構築とシミュレーションを行うことができます。reprODucEを通して多くの人に生物の理論に触れてもらえたら嬉しいです。
-permalink: /projects/2024/reproduce
-thumbnail: /assets/img/projects/2024/reproduce.webp
+  Are you skilled at writing essays? This application is designed for those who find essay writing challenging. As someone who also struggles with writing, I developed this app by thoroughly considering questions like "How can I write more smoothly?" and "Why do I find it difficult?" By addressing some of the reasons behind these challenges, the app aims to alleviate the discomfort associated with writing, potentially leading to a more positive outlook, such as "Writing essays isn't so bad after all!" The "Essay Assistance App" is a tool designed to brighten such experiences.
+
+permalink: /english/projects/2024/sakubun_otasuke
+thumbnail: /assets/img/projects/2024/sakubun_otasuke.webp
 twitter_card: summary_large_image
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'reproduce'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'sakubun_otasuke'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -109,25 +111,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='swaq' title='Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
+    <a href='digikan' title='Digikan - 漢字に興味を持ってもらうためのゲーム'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Swaq - A Quantum Annealing Sim...
+        Digikan - A Game to Foster Int...
       {% else %}
-        Swaq - 特定の問題にちょっと強くなった量子アニーリング...
+        Digikan - 漢字に興味を持ってもらうためのゲーム
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='maglev_sphere_mobility' title='磁気浮上型球体駆動モビリティーの開発'>
+    <a href='bento_color' title='BentoColor - テンプレートを使って簡単に彩り豊かなお弁当を作るアプリ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        Development of a Magnetic Levi...
+        BentoColor - An App for Easily...
       {% else %}
-        磁気浮上型球体駆動モビリティーの開発
+        BentoColor - テンプレートを使って簡単に彩り豊か...
       {% endif %}
     </a>
   </p>

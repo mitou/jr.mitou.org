@@ -1,15 +1,17 @@
 ---
+lang: en
 layout: post
 title: |
-  reprODucE - 生物学に特化したシミュレーションソフト
+  Monitoring Compass - A Discovery Sharing System for Elderly People with Dementia
 description: |
-  生物の複雑な現象を理解する上で、理論的アプローチは必要不可欠です。生物学に特化したシミュレーションソフト「reprODucE」は、直感的なインターフェイスで生命現象のグラフを作成するだけで、複雑な立式やプログラミングなしに数理モデルの構築とシミュレーションを行うことができます。reprODucEを通して多くの人に生物の理論に触れてもらえたら嬉しいです。
-permalink: /projects/2024/reproduce
-thumbnail: /assets/img/projects/2024/reproduce.webp
+  The Mimamori Compass is a system designed to facilitate the early detection of wandering or missing elderly individuals with dementia. By issuing a QR code in advance, discoverers can scan it to notify the family. Early detection helps protect elderly individuals with dementia from accidents and troubles. Additionally, if a family requests a search, information can be disseminated through social media to solicit cooperation in search efforts. By using the Mimamori Compass, a community-wide support system is established, ensuring that elderly individuals are not left behind.
+
+permalink: /english/projects/2024/mimamori_compass
+thumbnail: /assets/img/projects/2024/mimamori_compass.webp
 twitter_card: summary_large_image
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'reproduce'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'mimamori_compass'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -109,25 +111,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='swaq' title='Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
+    <a href='bento_color' title='BentoColor - テンプレートを使って簡単に彩り豊かなお弁当を作るアプリ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Swaq - A Quantum Annealing Sim...
+        BentoColor - An App for Easily...
       {% else %}
-        Swaq - 特定の問題にちょっと強くなった量子アニーリング...
+        BentoColor - テンプレートを使って簡単に彩り豊か...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='maglev_sphere_mobility' title='磁気浮上型球体駆動モビリティーの開発'>
+    <a href='co_encoder' title='Co-Encoder - LLMのためのコンテキスト圧縮エンコーダ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        Development of a Magnetic Levi...
+        Co-Encoder - Context Compressi...
       {% else %}
-        磁気浮上型球体駆動モビリティーの開発
+        Co-Encoder - LLMのためのコンテキスト圧縮エン...
       {% endif %}
     </a>
   </p>

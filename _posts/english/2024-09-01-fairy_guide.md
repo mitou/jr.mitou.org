@@ -1,15 +1,17 @@
 ---
+lang: en
 layout: post
 title: |
-  reprODucE - 生物学に特化したシミュレーションソフト
+  FairyGuide - A Memorable Journey with a Talking Plush Toy
 description: |
-  生物の複雑な現象を理解する上で、理論的アプローチは必要不可欠です。生物学に特化したシミュレーションソフト「reprODucE」は、直感的なインターフェイスで生命現象のグラフを作成するだけで、複雑な立式やプログラミングなしに数理モデルの構築とシミュレーションを行うことができます。reprODucEを通して多くの人に生物の理論に触れてもらえたら嬉しいです。
-permalink: /projects/2024/reproduce
-thumbnail: /assets/img/projects/2024/reproduce.webp
+  FairyGuide is a talking plush toy that provides guidance at tourist destinations. In this project, we developed a device equipped with GPS information, large language models (LLM), and voice recognition/speech technology. By attaching this device to the plush toy, it can convey a wide range of information related to the area. Would you like to embark on a memorable journey with FairyGuide?
+
+permalink: /english/projects/2024/fairy_guide
+thumbnail: /assets/img/projects/2024/fairy_guide.webp
 twitter_card: summary_large_image
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'reproduce'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'fairy_guide'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -109,25 +111,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='swaq' title='Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
+    <a href='tactica_note' title='TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Swaq - A Quantum Annealing Sim...
+        TacticaNote - A Soccer Noteboo...
       {% else %}
-        Swaq - 特定の問題にちょっと強くなった量子アニーリング...
+        TacticaNote - 育成年代の選手の言語化をサポート...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='maglev_sphere_mobility' title='磁気浮上型球体駆動モビリティーの開発'>
+    <a href='inton' title='INTON - 放送部員のためのイントネーション練習アプリ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        Development of a Magnetic Levi...
+        INTON - Intonation Practice Ap...
       {% else %}
-        磁気浮上型球体駆動モビリティーの開発
+        INTON - 放送部員のためのイントネーション練習アプリ
       {% endif %}
     </a>
   </p>

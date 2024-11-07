@@ -1,15 +1,17 @@
 ---
+lang: en
 layout: post
 title: |
-  reprODucE - 生物学に特化したシミュレーションソフト
+  Co-Encoder - Context Compression Encoder for LLMs
 description: |
-  生物の複雑な現象を理解する上で、理論的アプローチは必要不可欠です。生物学に特化したシミュレーションソフト「reprODucE」は、直感的なインターフェイスで生命現象のグラフを作成するだけで、複雑な立式やプログラミングなしに数理モデルの構築とシミュレーションを行うことができます。reprODucEを通して多くの人に生物の理論に触れてもらえたら嬉しいです。
-permalink: /projects/2024/reproduce
-thumbnail: /assets/img/projects/2024/reproduce.webp
+  In recent years, the technology of generative AI has advanced significantly, enabling large language models (LLMs) like ChatGPT to generate natural text. However, these models face the challenge of high inference costs. Particularly when processing long texts, they require substantial memory and high-performance GPUs, making inference difficult with standard GPUs. To address this issue, we propose a Co-Encoder that compresses input converted into matrices and directly feeds it to the LLM, enabling low-cost inference of long texts.
+
+permalink: /english/projects/2024/co_encoder
+thumbnail: /assets/img/projects/2024/co_encoder.webp
 twitter_card: summary_large_image
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'reproduce'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'co_encoder'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -109,25 +111,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='swaq' title='Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
+    <a href='mimamori_compass' title='みまもりコンパス - 認知症高齢者のための発見共有システム'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Swaq - A Quantum Annealing Sim...
+        Monitoring Compass - A Discove...
       {% else %}
-        Swaq - 特定の問題にちょっと強くなった量子アニーリング...
+        みまもりコンパス - 認知症高齢者のための発見共有システム
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='maglev_sphere_mobility' title='磁気浮上型球体駆動モビリティーの開発'>
+    <a href='tutoriallm' title='TutoiaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        Development of a Magnetic Levi...
+        TutoriaLLM - Programming learn...
       {% else %}
-        磁気浮上型球体駆動モビリティーの開発
+        TutoiaLLM - AIチュートリアルを使ったプログラミ...
       {% endif %}
     </a>
   </p>

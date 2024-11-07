@@ -113,7 +113,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        BentoColor - An App for Easily...
       {% else %}
         BentoColor - テンプレートを使って簡単に彩り豊か...
       {% endif %}
@@ -125,7 +125,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        Co-Encoder - Context Compressi...
       {% else %}
         Co-Encoder - LLMのためのコンテキスト圧縮エン...
       {% endif %}

@@ -1,15 +1,17 @@
 ---
+lang: en
 layout: post
 title: |
-  reprODucE - 生物学に特化したシミュレーションソフト
+  Development of a Magnetic Levitation Spherical Drive Mobility System
 description: |
-  生物の複雑な現象を理解する上で、理論的アプローチは必要不可欠です。生物学に特化したシミュレーションソフト「reprODucE」は、直感的なインターフェイスで生命現象のグラフを作成するだけで、複雑な立式やプログラミングなしに数理モデルの構築とシミュレーションを行うことができます。reprODucEを通して多くの人に生物の理論に触れてもらえたら嬉しいです。
-permalink: /projects/2024/reproduce
-thumbnail: /assets/img/projects/2024/reproduce.webp
+  This project introduces a novel mobility system that combines vertical levitation using electromagnets with spherical drive mechanisms. It aims to create an unprecedented vehicle design where the body and wheels are separated through levitation. The ultimate goal of this project is to establish a fully magnetically levitated vehicle as a new option among existing mobility solutions.
+
+permalink: /english/projects/2024/maglev_sphere_mobility
+thumbnail: /assets/img/projects/2024/maglev_sphere_mobility.webp
 twitter_card: summary_large_image
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'reproduce'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'maglev_sphere_mobility'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -109,25 +111,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='swaq' title='Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
+    <a href='reproduce' title='reprODucE - 生物学に特化したシミュレーションソフト'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Swaq - A Quantum Annealing Sim...
+        reprODucE - Simulation Softwar...
       {% else %}
-        Swaq - 特定の問題にちょっと強くなった量子アニーリング...
+        reprODucE - 生物学に特化したシミュレーションソフ...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='maglev_sphere_mobility' title='磁気浮上型球体駆動モビリティーの開発'>
+    <a href='tactica_note' title='TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        Development of a Magnetic Levi...
+        TacticaNote - A Soccer Noteboo...
       {% else %}
-        磁気浮上型球体駆動モビリティーの開発
+        TacticaNote - 育成年代の選手の言語化をサポート...
       {% endif %}
     </a>
   </p>

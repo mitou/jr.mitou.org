@@ -1,10 +1,12 @@
 ---
+lang: en
 layout: post
 title: |
-  reprODucE - 生物学に特化したシミュレーションソフト
+  reprODucE - Simulation Software Specializing in Biology
 description: |
-  生物の複雑な現象を理解する上で、理論的アプローチは必要不可欠です。生物学に特化したシミュレーションソフト「reprODucE」は、直感的なインターフェイスで生命現象のグラフを作成するだけで、複雑な立式やプログラミングなしに数理モデルの構築とシミュレーションを行うことができます。reprODucEを通して多くの人に生物の理論に触れてもらえたら嬉しいです。
-permalink: /projects/2024/reproduce
+  A theoretical approach is essential for understanding the complex phenomena of biology. The simulation software reprODucE, specialized for biology, allows users to construct and simulate mathematical models simply by creating graphs of biological phenomena through an intuitive interface, without the need for complex equations or programming. We hope that many people will engage with biological theories through reprODucE.
+
+permalink: /english/projects/2024/reproduce
 thumbnail: /assets/img/projects/2024/reproduce.webp
 twitter_card: summary_large_image
 ---

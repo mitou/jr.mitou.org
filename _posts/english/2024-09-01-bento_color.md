@@ -1,15 +1,17 @@
 ---
+lang: en
 layout: post
 title: |
-  reprODucE - 生物学に特化したシミュレーションソフト
+  BentoColor - An App for Easily Creating Colorful Bento Boxes Using Templates
 description: |
-  生物の複雑な現象を理解する上で、理論的アプローチは必要不可欠です。生物学に特化したシミュレーションソフト「reprODucE」は、直感的なインターフェイスで生命現象のグラフを作成するだけで、複雑な立式やプログラミングなしに数理モデルの構築とシミュレーションを行うことができます。reprODucEを通して多くの人に生物の理論に触れてもらえたら嬉しいです。
-permalink: /projects/2024/reproduce
-thumbnail: /assets/img/projects/2024/reproduce.webp
+  BentoColor is here to solve the common issues of bento lunches appearing dull and repetitive. By simply selecting your preferred template, the app suggests side dishes that correspond to each color, taking into account the contents of your refrigerator. Once your bento is complete, our unique scoring feature evaluates its colorfulness, allowing you to track your progress through score graphs and AI feedback. Even on busy mornings, you can effortlessly create a vibrant bento by following the template.
+
+permalink: /english/projects/2024/bento_color
+thumbnail: /assets/img/projects/2024/bento_color.webp
 twitter_card: summary_large_image
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'reproduce'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'bento_color'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -109,25 +111,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='swaq' title='Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
+    <a href='sakubun_otasuke' title='作文おたすけアプリ - 作文が苦手をお手伝いするアプリ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Swaq - A Quantum Annealing Sim...
+        Essay Assistance App - An App ...
       {% else %}
-        Swaq - 特定の問題にちょっと強くなった量子アニーリング...
+        作文おたすけアプリ - 作文が苦手をお手伝いするアプリ
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='maglev_sphere_mobility' title='磁気浮上型球体駆動モビリティーの開発'>
+    <a href='mimamori_compass' title='みまもりコンパス - 認知症高齢者のための発見共有システム'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        Development of a Magnetic Levi...
+        Monitoring Compass - A Discove...
       {% else %}
-        磁気浮上型球体駆動モビリティーの開発
+        みまもりコンパス - 認知症高齢者のための発見共有システム
       {% endif %}
     </a>
   </p>

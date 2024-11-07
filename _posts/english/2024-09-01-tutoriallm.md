@@ -1,15 +1,16 @@
 ---
+lang: en
 layout: post
 title: |
-  reprODucE - 生物学に特化したシミュレーションソフト
+  TutoriaLLM - Programming learning software with AI Tutorials
 description: |
-  生物の複雑な現象を理解する上で、理論的アプローチは必要不可欠です。生物学に特化したシミュレーションソフト「reprODucE」は、直感的なインターフェイスで生命現象のグラフを作成するだけで、複雑な立式やプログラミングなしに数理モデルの構築とシミュレーションを行うことができます。reprODucEを通して多くの人に生物の理論に触れてもらえたら嬉しいです。
-permalink: /projects/2024/reproduce
-thumbnail: /assets/img/projects/2024/reproduce.webp
+  TutoriaLLM is software that connects educators and learners of programming, through interactive tutorials provided by an AI. Programming learners can create programmes using a block editor while talking to the AI in the browser, and connect to games such as Minecraft to try them out. The teacher simply creates a tutorial and the AI can deliver it to a large audience in a style tailored to the learner, without being restricted by location or time.
+permalink: /english/projects/2024/tutoriallm
+thumbnail: /assets/img/projects/2024/tutoriallm.webp
 twitter_card: summary_large_image
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'reproduce'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'tutoriallm'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -109,25 +110,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='swaq' title='Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
+    <a href='co_encoder' title='Co-Encoder - LLMのためのコンテキスト圧縮エンコーダ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Swaq - A Quantum Annealing Sim...
+        Co-Encoder - Context Compressi...
       {% else %}
-        Swaq - 特定の問題にちょっと強くなった量子アニーリング...
+        Co-Encoder - LLMのためのコンテキスト圧縮エン...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='maglev_sphere_mobility' title='磁気浮上型球体駆動モビリティーの開発'>
+    <a href='qwet' title='QWET -  感動を撒き散らす世界初3Dライブエンジン'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        Development of a Magnetic Levi...
+        QWET - The World&apos;s First 3D Li...
       {% else %}
-        磁気浮上型球体駆動モビリティーの開発
+        QWET -  感動を撒き散らす世界初3Dライブエンジン...
       {% endif %}
     </a>
   </p>

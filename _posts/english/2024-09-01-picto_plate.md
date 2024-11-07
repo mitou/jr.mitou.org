@@ -1,15 +1,17 @@
 ---
+lang: en
 layout: post
 title: |
-  reprODucE - 生物学に特化したシミュレーションソフト
+  PictoPlate - An App to Solve Menu Issues in Restaurants
 description: |
-  生物の複雑な現象を理解する上で、理論的アプローチは必要不可欠です。生物学に特化したシミュレーションソフト「reprODucE」は、直感的なインターフェイスで生命現象のグラフを作成するだけで、複雑な立式やプログラミングなしに数理モデルの構築とシミュレーションを行うことができます。reprODucEを通して多くの人に生物の理論に触れてもらえたら嬉しいです。
-permalink: /projects/2024/reproduce
-thumbnail: /assets/img/projects/2024/reproduce.webp
+  When faced with text-only menus commonly found in overseas restaurants, it can be difficult to visualize the dishes. The smartphone app "PictoPlate" addresses this by allowing users to simply take a photo of the menu. The app then provides information about the appearance, ingredients, cooking methods, taste, and whether the dish contains any ingredients the user cannot consume. Additionally, it supports smooth communication with restaurant staff when placing orders.
+
+permalink: /english/projects/2024/picto_plate
+thumbnail: /assets/img/projects/2024/picto_plate.webp
 twitter_card: summary_large_image
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'reproduce'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'picto_plate'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -109,25 +111,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='swaq' title='Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
+    <a href='jellyfish_alert' title='クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Swaq - A Quantum Annealing Sim...
+        Jellyfish Alert - Edge AI Syst...
       {% else %}
-        Swaq - 特定の問題にちょっと強くなった量子アニーリング...
+        クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステ...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='maglev_sphere_mobility' title='磁気浮上型球体駆動モビリティーの開発'>
+    <a href='ai_study' title='AI study - LLMによる穴埋め問題を活用した英単語学習アプリ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        Development of a Magnetic Levi...
+        AI study - English Vocabulary ...
       {% else %}
-        磁気浮上型球体駆動モビリティーの開発
+        AI study - LLMによる穴埋め問題を活用した英単語...
       {% endif %}
     </a>
   </p>
