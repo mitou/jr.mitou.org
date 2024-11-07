@@ -16,9 +16,11 @@ twitter_card: summary_large_image
 {% if page.lang == 'en' %}
   {% assign pj_title       = pj.title_en       | escape %}
   {% assign pj_description = pj.description_en | escape %}
+  {% assign pj_promotion   = pj.promotion_en   | default: pj.promotion %}
 {% else %}
   {% assign pj_title       = pj.title          | escape %}
   {% assign pj_description = pj.description    | escape %}
+  {% assign pj_promotion   = pj.promotion %}
 {% endif %}
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
@@ -67,17 +69,17 @@ twitter_card: summary_large_image
 <p class="project-comment">{{ pj.comment }}</p>
 {% endif %}
 
-{% if pj.promotion %}
+{% if pj_promotion %}
 ## {{ translations.demoMovie[lang] }} {#demo}
-{% if pj.promotion contains '.gif' %}
+{% if pj_promotion contains '.gif' %}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='{{ translations.demoMovie[lang] }} (Gif)'
-     data-src='/assets/img/projects/{{ pj.year }}/{{ pj.promotion }}' loading='lazy'
+     data-src='/assets/img/projects/{{ pj.year }}/{{ pj_promotion }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 <div class="youtube">
-  <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.promotion }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
+  <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj_promotion }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
 </div>
-<a href="https://youtu.be/{{ pj.promotion }}" target="_blank" class="button">{{ translations.watchOnYouTube[lang] }}</a>
+<a href="https://youtu.be/{{ pj_promotion }}" target="_blank" class="button">{{ translations.watchOnYouTube[lang] }}</a>
 {% endif %}
 {% endif %}
 
