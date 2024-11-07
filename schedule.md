@@ -16,7 +16,7 @@ thumbnail: /assets/img/schedule.webp
 
 ## [<i class="fa-light fa-comments"></i>](#meeting) メンター・ミーティング {#meeting}
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/mtg.svg" alt="ミーティング" width="50%" class="post-photo lazyload">
-基本的には、期間中週に一度程度、オンラインでメンターとのミーティングがあります。プログラミングの質問、方針の話でも、なんでも相談できる機会です！
+期間中は担当メンターと定期的にオンラインで話せる機会があります。プログラミングの質問やプロジェクトの方針など、なんでも相談できます！
 <a href="/mentors" class="button">メンター紹介を見る</a>
 
 
