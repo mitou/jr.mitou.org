@@ -12,6 +12,12 @@ task :upsert_project_pages_by_data_en do
   ruby "tasks/upsert_project_pages_by_data_en.rb"
 end
 
+# Translate given-year projects with LLM like OpenAI
+desc 'Translate given-year projects with LLM'
+task :convert_ja2en_by_llm do
+  ruby "tasks/convert_ja2en_by_llm.rb"
+end
+
 # cf. GitHub - gjtorikian/html-proofer
 # https://github.com/gjtorikian/html-proofer
 
