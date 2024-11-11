@@ -401,7 +401,7 @@
   title_en: AI 4-Panel Manga Maker
   description: 「AI 4コマメーカー」は AI があなたの描いた絵を活用し、4コマ漫画を作成するwebアプリケーションです。落書きのように絵を描き、その絵を認識しgpt-4によってストーリーを生成します。そのため、ストーリー構成など考える必要がなく手軽に4コマ漫画を作ることができます。あなたの絵であなただけの4コマ漫画を作りましょう！
   description_en: |
-    "AI 4-Panel Manga Maker" is a web application that utilizes AI to create 4-panel comics from your drawings. By sketching as if doodling, the application recognizes your drawings and generates a story using GPT-4. This allows you to easily create 4-panel comics without the need to consider story structure. Create your own unique 4-panel comic with your drawings!
+    AI 4-Panel Manga Maker is a web application that utilizes AI to create 4-panel comics from your drawings. By sketching as if doodling, the application recognizes your drawings and generates a story using GPT-4. This allows you to easily create 4-panel comics without the need to consider story structure. Create your own unique 4-panel comic with your drawings!
   thumbnail: ai_4koma_maker.webp
   promotion: o5rWOis3sTI
   final:       litvtD75mJA
@@ -482,7 +482,7 @@
   title_en: Development of a New Independent Steering Mechanism and AGV Module Using It
   description: 「物流2024問題」のように、私たちの生活を支えるロジスティクスが逼迫している中、このPJで開発しているような高速で小回りの効く独立ステアリング機構を搭載したAGVは、物流の効率化に寄与すると期待されます。設計にはトポロジー最適化やモジュラー設計を取り入れるなど工夫しています。
   description_en: |
-    As logistics, which supports our daily lives, faces increasing pressure as seen in the "Logistics 2024 Problem," the AGV equipped with a high-speed, highly maneuverable independent steering mechanism being developed in this project is expected to contribute to the efficiency of logistics. The design incorporates innovations such as topology optimization and modular design.
+    As logistics, which supports our daily lives, faces increasing pressure as seen in the Logistics 2024 Problem, the AGV equipped with a high-speed, highly maneuverable independent steering mechanism being developed in this project is expected to contribute to the efficiency of logistics. The design incorporates innovations such as topology optimization and modular design.
   thumbnail: bakusoku_agv.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       ryOfmsTVb4U
@@ -498,7 +498,7 @@
   title_en: niwango.js - An Execution Engine for Niwango, Programmable via Video Comments
   description: ブラウザで「ニワスクリプト (ニワン語)」というプログラミング言語を実行するインタプリタエンジンです。時系列に沿った処理系を提供し、描画結果を返します。過去にこの言語で制作された作品を再度実行可能にすることを第一目標とし、最終的にはニワン語コミュニティの活性化を目指して開発を行っています。
   description_en: |
-    This is an interpreter engine that executes the programming language "Niwango (Niwango Script)" in a web browser. It provides a time-sequenced processing system and returns the rendering results. The primary goal is to enable the re-execution of works previously created with this language, with the ultimate aim of revitalizing the Niwango community.
+    This is an interpreter engine that executes the programming language Niwango (Niwango Script) in a web browser. It provides a time-sequenced processing system and returns the rendering results. The primary goal is to enable the re-execution of works previously created with this language, with the ultimate aim of revitalizing the Niwango community.
   thumbnail: niwangojs.webp
   promotion: ZJdlsgMzWrU
   final:     jGUR88BMgns
@@ -645,7 +645,7 @@
   title_en: "Smart Guide Cane 'Michishirube' ~ AI-Powered White Cane for Assisting the Visually Impaired ~"
   description: 『みちしる兵衛』は、独自の機械学習モデルに基づくAIを搭載した白杖です。視覚障害者の方々の歩行中に、線路や横断歩道、クルマといった危険を検出・通知し、より安心して歩行ができるよう補助します。
   description_en: |
-    "Michishirube" is a white cane equipped with AI based on a proprietary machine learning model. It assists visually impaired individuals by detecting and notifying them of dangers such as train tracks, crosswalks, and vehicles during their walks, thereby enabling safer navigation.
+    Michishirube is a white cane equipped with AI based on a proprietary machine learning model. It assists visually impaired individuals by detecting and notifying them of dangers such as train tracks, crosswalks, and vehicles during their walks, thereby enabling safer navigation.
   thumbnail: michishirube.webp
   #promotion: 
   final: PpQ97fcAjLA
@@ -806,7 +806,7 @@
   title_en: "Cybotanic: Cyborg-Enhanced Plants."
   description: 「植物が生きている」ことを直感的に感じるために、テクノロジーの力で「植物の機能」を拡張するプロジェクトです。植物のイオンチャネルに流れる生体電位を電極で取得し、そこから採れたデータを基に植物を人工筋肉で動かしたり、シンセサイザーを人間と共演します。
   description_en: |
-    This project aims to intuitively convey the concept of "living plants" by leveraging technology to enhance the "functions of plants." By capturing the bioelectric potentials flowing through the ion channels of plants using electrodes, the collected data is used to animate plants with artificial muscles and to create a performance with a synthesizer alongside humans.
+    This project aims to intuitively convey the concept of living plants by leveraging technology to enhance the functions of plants. By capturing the bioelectric potentials flowing through the ion channels of plants using electrodes, the collected data is used to animate plants with artificial muscles and to create a performance with a synthesizer alongside humans.
   thumbnail: cybotanic.webp
   #promotion:
   final: nTVvbfMccPI
@@ -884,7 +884,7 @@
   title_en: Haniwa - Task Sharing and Reward Provision App for Families
   description: Haniwaは家事などの定期的で意外と重労働な家事に対して、モチベーションアップ+タスク管理を行うアプリケーションです。タスクをクリアするごとに「スター」というアプリ内ポイントを収集し、それによってお小遣いやちょっとした贅沢などを取引することができます。家事以外にも子供の勉強やおつかいなど汎用的なタスクに使用できます
   description_en: |
-    Haniwa is an application designed to enhance motivation and manage tasks for regular and surprisingly labor-intensive household chores. Users can collect in-app points called "Stars" by completing tasks, which can then be exchanged for allowances or small luxuries. In addition to household chores, the application can be used for general tasks such as children's studies and errands.
+    Haniwa is an application designed to enhance motivation and manage tasks for regular and surprisingly labor-intensive household chores. Users can collect in-app points called Stars by completing tasks, which can then be exchanged for allowances or small luxuries. In addition to household chores, the application can be used for general tasks such as children's studies and errands.
   thumbnail: haniwa.webp
   promotion: FapDQ3aCPCI
   final: Qolb3pirfSQ
@@ -944,7 +944,7 @@
   title_en: Web Solo Exhibition - Exploring Online Exhibition Formats Leveraging the Web
   description: 2019年終わりごろから流行し始めたCOVID-19によって、いくつもの現実の個展の開催が中止、延期され、開催する場合も大きな制限を受けることとなりました。それを受け、最近ではWebサイト上で閲覧できる展示も増えましたが、その多くは「現実の個展を再現する」ことに主眼をおいたものであり、あくまでCOVID-19の流行による現実の個展の代替的なものという意味合いが大きいものでした。Web個展ではWebという媒体の特性をより引き出すことに焦点を当て、観覧者がワクワクできるような個展を目指します。
   description_en: |
-    Due to the outbreak of COVID-19 around the end of 2019, numerous physical exhibitions were canceled or postponed, and those that were held faced significant restrictions. In response, there has been an increase in exhibitions available for viewing on websites. However, many of these online exhibitions primarily aim to "replicate physical exhibitions," serving largely as substitutes for the real-life events disrupted by the pandemic. This project focuses on leveraging the unique characteristics of the web as a medium to create online exhibitions that aim to excite and engage viewers.
+    Due to the outbreak of COVID-19 around the end of 2019, numerous physical exhibitions were canceled or postponed, and those that were held faced significant restrictions. In response, there has been an increase in exhibitions available for viewing on websites. However, many of these online exhibitions primarily aim to replicate physical exhibitions, serving largely as substitutes for the real-life events disrupted by the pandemic. This project focuses on leveraging the unique characteristics of the web as a medium to create online exhibitions that aim to excite and engage viewers.
   thumbnail: web-koten.webp
   #promotion:
   final: GT4WIiHOyeg
@@ -1111,7 +1111,7 @@
   title_en: SKIMER - Easy Task Management with LINE
   description: 「SKIMER(スキマー)」は中高生の宿題を管理するためにデザインされたタスク管理アプリです。LINEで友だち追加して簡単に始められます。「クラスのライングループ」から着想を得て、宿題の共有をしたり、宿題の遂行状況を可視化してランキングを作ることで、モチベーションを保てる工夫をしました。そのため、社会性・競争性を取り入れてゲーム感覚で宿題ができます。
   description_en: |
-    SKIMER is a task management application designed to help middle and high school students manage their homework. It can be easily started by adding a friend on LINE. Inspired by "class LINE groups," the app allows users to share homework and visualize the progress of their tasks, creating rankings to maintain motivation. By incorporating social and competitive elements, the app enables students to approach their homework with a game-like experience.
+    SKIMER is a task management application designed to help middle and high school students manage their homework. It can be easily started by adding a friend on LINE. Inspired by Class LINE groups, the app allows users to share homework and visualize the progress of their tasks, creating rankings to maintain motivation. By incorporating social and competitive elements, the app enables students to approach their homework with a game-like experience.
   thumbnail: skimer.webp
   promotion: d5rDv1q9X20
   final: XWLnNYIoe-k
