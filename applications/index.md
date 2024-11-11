@@ -113,6 +113,13 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
   </li>
   {% endfor %}
   <li>
+    <a href='https://note.com/sh_o4964/n/n07afe27ab5bc'>
+      未踏ジュニア2024を終えて
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='/projects/2024/jellyfish_alert'>クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム</a></small>）
+  </li>
+  <li>
     <a href='https://zenn.dev/toshihiro_tange/articles/mitoujr-advent-calendar-2023'>
       未踏ジュニア振り返り
       <i class="fa-solid fa-up-right-from-square"></i>
