@@ -16,11 +16,11 @@ twitter_card: summary_large_image
 
 {% if page.lang == 'en' %}
   {% assign pj_title       = pj.title_en       | escape %}
-  {% assign pj_description = pj.description_en | escape %}
+  {% assign pj_description = pj.description_en %}
   {% assign pj_promotion   = pj.promotion_en   | default: pj.promotion %}
 {% else %}
   {% assign pj_title       = pj.title          | escape %}
-  {% assign pj_description = pj.description    | escape %}
+  {% assign pj_description = pj.description    %}
   {% assign pj_promotion   = pj.promotion %}
 {% endif %}
 
