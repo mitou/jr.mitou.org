@@ -59,6 +59,7 @@ projects.each_with_index do |project, index|
    {% assign translations = site.data.translations %}
    {% assign lang         = page.lang | default: 'ja' %}
 
+   {% comment %} pj.description needs NOT to be escapd to render <br> tags. {% endcomment %}
    {% if page.lang == 'en' %}
      {% assign pj_title       = pj.title_en       | escape %}
      {% assign pj_description = pj.description_en %}
