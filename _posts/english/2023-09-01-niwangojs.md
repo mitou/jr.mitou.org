@@ -4,7 +4,7 @@ layout: post
 title: |
   niwango.js - An Execution Engine for Niwango, Programmable via Video Comments
 description: |
-  This is an interpreter engine that executes the programming language "Niwango (Niwango Script)" in a web browser. It provides a time-sequenced processing system and returns the rendering results. The primary goal is to enable the re-execution of works previously created with this language, with the ultimate aim of revitalizing the Niwango community.
+  This is an interpreter engine that executes the programming language Niwango (Niwango Script) in a web browser. It provides a time-sequenced processing system and returns the rendering results. The primary goal is to enable the re-execution of works previously created with this language, with the ultimate aim of revitalizing the Niwango community.
 
 permalink: /english/projects/2023/niwangojs
 thumbnail: /assets/img/projects/2023/niwangojs.webp

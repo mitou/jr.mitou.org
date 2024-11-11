@@ -4,7 +4,7 @@ layout: post
 title: |
   Development of a New Independent Steering Mechanism and AGV Module Using It
 description: |
-  As logistics, which supports our daily lives, faces increasing pressure as seen in the "Logistics 2024 Problem," the AGV equipped with a high-speed, highly maneuverable independent steering mechanism being developed in this project is expected to contribute to the efficiency of logistics. The design incorporates innovations such as topology optimization and modular design.
+  As logistics, which supports our daily lives, faces increasing pressure as seen in the Logistics 2024 Problem, the AGV equipped with a high-speed, highly maneuverable independent steering mechanism being developed in this project is expected to contribute to the efficiency of logistics. The design incorporates innovations such as topology optimization and modular design.
 
 permalink: /english/projects/2023/bakusoku_agv
 thumbnail: /assets/img/projects/2023/bakusoku_agv.webp
