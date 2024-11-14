@@ -9,8 +9,9 @@ this_year: 2024
 ---
 
 <div class="cover-photo">
-  <img src="/assets/img/2022_cover.min.webp" data-src="/assets/img/2022_cover.webp" alt="2022年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
-  <!--<img src="/assets/img/2019_all.min.webp" data-src="/assets/img/2019_all.webp" alt="2019年度未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">-->
+  <img src="/assets/img/2024_cover.min.webp" data-src="/assets/img/2024_cover.webp" alt="2024年度 未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
+  <!--<img src="/assets/img/2022_cover.min.webp" data-src="/assets/img/2022_cover.webp" alt="2022年度 未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">-->
+  <!--<img src="/assets/img/2019_all.min.webp" data-src="/assets/img/2019_all.webp" alt="2019年度 未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">-->
 
   <!--【チラシのアナウンス】-->
   <!--
