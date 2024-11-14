@@ -2,6 +2,7 @@
 
 require 'yaml'
 require 'truncato'
+require 'cgi'
 
 # Remove existing JA/EN pages and re-generate them
 Dir.glob("./_posts/*.md"        ).each { |filename| File.delete(filename) }
@@ -158,7 +159,7 @@ projects.each_with_index do |project, index|
 
    <nav>
      <p class='nav prev'>
-       <a href='#{prev_project[:id]}' title='#{prev_project[:title]}'>
+       <a href='#{prev_project[:id]}' title='#{CGI.escapeHTML prev_project[:title]}'>
          &larr; {{ translations.navPrev[lang] }}
          <br>
          {% if page.lang == 'en' %}
@@ -170,7 +171,7 @@ projects.each_with_index do |project, index|
      </p>
 
      <p class='nav next'>
-       <a href='#{next_project[:id]}' title='#{next_project[:title]}'>
+       <a href='#{next_project[:id]}' title='#{CGI.escapeHTML next_project[:title]}'>
          {{ translations.navNext[lang] }} &rarr;
          <br>
          {% if page.lang == 'en' %}
