@@ -112,7 +112,7 @@ projects.each_with_index do |project, index|
      </small>
    </p>
 
-   {% if page.lang == 'ja' and pj.comment %}
+   {% if pj.comment and page.lang != 'en' %}
    ### PM コメント {#comment}
    <p class="project-comment">{{ pj.comment }}</p>
    {% endif %}
