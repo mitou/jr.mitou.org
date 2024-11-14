@@ -344,7 +344,7 @@
   - rakuto_suda
 
 - id: tutoriallm
-  title: TutoiaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア
+  title: TutoriaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア
   title_en: TutoriaLLM - Programming learning software with AI Tutorials
   description: TutoriaLLMは、AIが提供する対話形式のチュートリアルを通じて、プログラミングを教える人と学ぶ人をつなぐソフトウェアです。プログラミングを学ぶ人は、ブラウザ上で、AIと話しながらブロックエディターを使ってプログラムを作成し、Minecraftなどのゲームと接続して試すことができます。先生は、チュートリアルを作成するだけで、場所や時間に制約されずAIが学習者に合わせたスタイルで多くの人に届けることができるようになります。
   description_en: TutoriaLLM is software that connects educators and learners of programming, through interactive tutorials provided by an AI. Programming learners can create programmes using a block editor while talking to the AI in the browser, and connect to games such as Minecraft to try them out. The teacher simply creates a tutorial and the AI can deliver it to a large audience in a style tailored to the learner, without being restricted by location or time.
