@@ -67,7 +67,7 @@ twitter_card: summary_large_image
   </small>
 </p>
 
-{% if page.lang == 'ja' and pj.comment %}
+{% if pj.comment and page.lang != 'en' %}
 ### PM コメント {#comment}
 <p class="project-comment">{{ pj.comment }}</p>
 {% endif %}
@@ -114,7 +114,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='lets_eigo_puzzle' title='Let'sえいごパズル! - 変化するキューブで楽しく学ぶ英単語'>
+    <a href='lets_eigo_puzzle' title='Let&#39;sえいごパズル! - 変化するキューブで楽しく学ぶ英単語'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
