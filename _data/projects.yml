@@ -389,7 +389,7 @@
   thumbnail: a9n.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       VJOOFltOJJk
-  final_start: 0
+  final_start: 56
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: kakeru_ishii
@@ -405,7 +405,7 @@
   thumbnail: ai_4koma_maker.webp
   promotion: o5rWOis3sTI
   final:       litvtD75mJA
-  final_start: 0
+  final_start: 64
   link: https://www.yonkoma.app/
   year: 2023
   mentor_id: yu_ukai
@@ -437,7 +437,7 @@
   thumbnail: umeda_sansei_kai.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       embuejQOugw
-  final_start: 21
+  final_start: 41
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: masato_bito
@@ -453,7 +453,7 @@
   thumbnail: hato.webp
   promotion: rcGFUpEQFpU # 日本語版
   final:       iksrkcghhdc
-  final_start: 0
+  final_start: 30
   link: https://hato.nyiyui.ca
   tags: [鉄道, 鉄道模型, Nゲージ]
   year: 2023
@@ -470,7 +470,7 @@
   thumbnail: motion_simulator.webp
   promotion: 4aTrF-0YGyc
   final:       pKVYAO7TE3g
-  final_start: 0
+  final_start: 22
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: yoshifumi_seki
@@ -486,7 +486,7 @@
   thumbnail: bakusoku_agv.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       ryOfmsTVb4U
-  final_start: 0
+  final_start: 42
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: daiki_teramoto
@@ -519,7 +519,7 @@
   thumbnail: stask.webp
   #promotion:                # YouTube上にPVがあれば追記する
   final:       kWS7Ggzv7VU
-  final_start: 0
+  final_start: 55
   link: https://stask.ampoi.net/
   year: 2023
   mentor_id: yoshifumi_seki
@@ -551,7 +551,7 @@
   thumbnail: 3d_printed_brushless_motor.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       R07GRnyqML8
-  final_start: 0
+  final_start: 46
   link: https://github.com/Jun-robot/3DPrintedMotor
   year: 2023
   mentor_id: maki_komuro
@@ -567,7 +567,7 @@
   thumbnail: code_museum.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       73enEJXQKiw
-  final_start: 0
+  final_start: 24
   link: https://github.com/waryu-YND/code-museum-release/releases/tag/v1.0.0
   year: 2023
   mentor_id: hirokazu_nishio
@@ -583,7 +583,7 @@
   thumbnail: lescued.webp
   #promotion:   # YouTube上にPVがあれば追記する
   final:       S_egAA5Lc_c
-  final_start: 0
+  final_start: 90
   #link:        # 公式サイトがあれば追記する
   year: 2023
   mentor_id: shoya_ishimaru
@@ -617,7 +617,7 @@
   thumbnail: r-order.webp
   #promotion: 
   final: ZAx4682otHM
-  #final_start: 49
+  final_start: 49
   #link: 
   year: 2022
   mentor_id: daiki_teramoto
@@ -633,7 +633,7 @@
   thumbnail: motion_rapid.webp
   #promotion: 
   final: XeGCnR6O8I8
-  #final_start: 4126
+  final_start: 54
   #link: 
   year: 2022
   mentor_id: rina_kotake
@@ -649,7 +649,7 @@
   thumbnail: michishirube.webp
   #promotion: 
   final: PpQ97fcAjLA
-  #final_start: 8420
+  final_start: 69
   #link: 
   year: 2022
   mentor_id: yoshifumi_seki
@@ -665,7 +665,7 @@
   thumbnail: hak.webp
   #promotion: 
   final: S-mvizBJd2o
-  #final_start: 9912
+  final_start: 42
   #link: 
   year: 2022
   mentor_id: maki_komuro
@@ -697,7 +697,7 @@
   thumbnail: noxicel.webp
   #promotion: 
   final: 3com6y8EWlM
-  #final_start: 13385
+  final_start: 79
   link: https://noxicel.app/
   year: 2022
   mentor_id: kakeru_ishii
@@ -714,7 +714,7 @@
   thumbnail: scairecrow.png
   #promotion: scairecrow.gif
   final: ZwLbVkF79eE
-  #final_start: 15567
+  final_start: 15
   #link: 
   year: 2022
   mentor_id: masato_bito
@@ -730,7 +730,7 @@
   thumbnail: sanitas.webp
   #promotion: 
   final: KMGerRGhih8
-  #final_start: 17195
+  final_start: 65
   #link: https://sanitas.cc/
   year: 2022
   mentor_id: shoya_ishimaru
@@ -746,7 +746,7 @@
   thumbnail: study_rec.webp
   #promotion: 
   final: sZMZJaxGQa0
-  #final_start: 18484
+  final_start: 92
   link: https://mofu-tom.github.io/StudyRec/
   year: 2022
   mentor_id: hirokazu_nishio
@@ -763,7 +763,7 @@
   thumbnail: craftere_post.webp
   promotion: S1XG9FEY9ko
   final: lad_C_JzR0E
-  #final_start: 19991
+  final_start: 63
   link: https://crafterepost.netlify.app/
   year: 2022
   mentor_id: hirokazu_nishio
@@ -780,6 +780,7 @@
   thumbnail: vr_sandbox.webp
   promotion: IKbnWvbEKMo
   final: FEhe77qhW9I
+  final_start: 40
   #link:
   year: 2021
   mentor_id: masato_bito
@@ -795,6 +796,7 @@
   thumbnail: sdgs.webp
   promotion: z_dMy_3UZM8
   final: FSzbb8Kvkyw
+  final_start: 74
   #link: https://www.marksdgs.net/
   year: 2021
   mentor_id: rina_kotake
@@ -826,6 +828,7 @@
   thumbnail: telport.webp
   #promotion:
   final: LohTYVmais0
+  final_start: 39
   link: https://telport.mugisus.com/app/
   year: 2021
   mentor_id: shoya_ishimaru
@@ -841,7 +844,7 @@
   thumbnail: curepathy.webp
   #promotion:
   final: qqrSS8K6ZI8
-  final_start: 18922
+  final_start: 39
   #link: 
   year: 2021
   mentor_id: hirokazu_nishio
@@ -857,6 +860,7 @@
   thumbnail: researcheck.webp
   #promotion:
   final: BDD-_NjnCqU
+  final_start: 40
   #link: https://researcheck.com/ # 404 Not Found
   year: 2021
   mentor_id: hirokazu_nishio
@@ -888,6 +892,7 @@
   thumbnail: haniwa.webp
   promotion: FapDQ3aCPCI
   final: Qolb3pirfSQ
+  final_start: 59
   #link: https://youtu.be/vKnFXhpF3YU
   year: 2021
   mentor_id: taizan_yonetsuji
@@ -903,6 +908,7 @@
   thumbnail: puguette.webp
   #promotion:
   final: FokTPg63v5w
+  final_start: 16
   #link: 
   year: 2021
   mentor_id: taizan_yonetsuji
@@ -918,6 +924,7 @@
   thumbnail: anyget.webp
   #promotion:
   final: ZjB5-88mEf0
+  final_start: 60
   link: https://anyget.github.io/
   year: 2021
   mentor_id: ryo_suzuki
@@ -933,6 +940,7 @@
   thumbnail: killin_engine.webp
   promotion: 72UN95o6MJA
   final: jOcD5FKatNI
+  final_start: 102
   link: https://killinengine.com/
   year: 2021
   mentor_id: daiki_teramoto
@@ -948,6 +956,7 @@
   thumbnail: web-koten.webp
   #promotion:
   final: GT4WIiHOyeg
+  final_start: 79
   link: https://koten.app
   year: 2021
   mentor_id: yoshifumi_seki
@@ -963,6 +972,7 @@
   thumbnail: birds_eye.webp
   promotion: TaQ4zNBiwag
   final: wQgjy5Htlk0
+  final_start: 39
   #link: 
   year: 2021
   mentor_id: yoshifumi_seki
@@ -978,6 +988,7 @@
   thumbnail: mock_up.webp
   #promotion:
   final: RDACr0znk2Q
+  final_start: 46
   link: https://github.com/mock-up/mock-up
   year: 2021
   mentor_id: kakeru_ishii
@@ -994,6 +1005,7 @@
   thumbnail: flight_fit_vr.webp
   promotion: 0RfrKiAq-W0
   final: rIRHwI6EV8E
+  final_start: 55
   link: https://www.oculus.com/experiences/rift/3341393319286540/
   year: 2020
   mentor_id: rina_kotake
@@ -1009,6 +1021,7 @@
   thumbnail: guinfra.webp
   #promotion:
   final: ArN9NrsmRs4
+  final_start: 34
   #link: https://guinfra.app/
   year: 2020
   mentor_id: masato_bito
@@ -1024,6 +1037,7 @@
   thumbnail: brush_talk.webp
   promotion: 5TuMO6SArG8
   final: BeSeF5Exw1s
+  final_start: 54
   link: https://brushtalk-5c0f3.web.app/
   year: 2020
   mentor_id: hirokazu_nishio
@@ -1039,6 +1053,7 @@
   thumbnail: spaghetian.webp
   promotion: MePIVH21RZM
   final: Ue7Sf3bQlps
+  final_start: 124
   link: https://twitter.com/38912Pataro/status/1337322097454981120
   year: 2020
   mentor_id: daiki_teramoto
@@ -1054,6 +1069,7 @@
   thumbnail: color_overlap.webp
   promotion: TbMfAhm4wJk
   final: _S-EyVp4y1Q
+  final_start: 102
   #link:
   year: 2020
   mentor_id: ryo_suzuki
@@ -1069,6 +1085,7 @@
   thumbnail: poet.webp
   #promotion:
   final: PQMZAD6NwYU
+  final_start: 56
   #link:
   year: 2020
   mentor_id: yu_ukai
@@ -1100,6 +1117,7 @@
   thumbnail: mer.webp
   #promotion:
   final: rQmgwLH8xI0
+  final_start: 33
   #link:
   year: 2020
   mentor_id: maki_komuro
@@ -1115,6 +1133,7 @@
   thumbnail: skimer.webp
   promotion: d5rDv1q9X20
   final: XWLnNYIoe-k
+  final_start: 46
   link: https://twitter.com/_anharu/status/1344402886264934400
   year: 2020
   mentor_id: kakeru_ishii
@@ -1131,6 +1150,7 @@
   thumbnail: glider_gun.webp
   promotion: ReqtWF40Ukk
   final: N23eiKk_808
+  final_start: 54
   #link:
   year: 2020
   mentor_id: kakeru_ishii
@@ -1146,6 +1166,7 @@
   thumbnail: align.webp
   #promotion:
   final: r8WlvrgwB4k
+  final_start: 82
   link: https://twitter.com/align_one
   year: 2020
   mentor_id: yoshifumi_seki
@@ -1162,6 +1183,7 @@
   thumbnail: critica.webp
   #promotion:
   final: aYajCGOg-eY
+  final_start: 77
   #link: https://critica.uno/ # NOTE: 404 Not Found as of 2024/04/04
   year: 2020
   mentor_id: yoshifumi_seki
@@ -1178,6 +1200,7 @@
   thumbnail: forcebook.webp
   #promotion:
   final: MiBiBzl0ZwU
+  final_start: 41
   #link:
   year: 2020
   mentor_id: taizan_yonetsuji
@@ -1193,6 +1216,7 @@
   thumbnail: levo.webp
   #promotion:
   final: MUvjwmUwdsc
+  final_start: 77
   #link:
   year: 2020
   mentor_id: taizan_yonetsuji
@@ -1208,6 +1232,7 @@
   thumbnail: rocat.webp
   #promotion:
   final: NXi1hunbMg0
+  final_start: 90
   #link: https://rocat.jp/
   year: 2020
   mentor_id: shoya_ishimaru
@@ -1231,6 +1256,7 @@
   thumbnail: amoyo.webp
   #promotion:
   final: irYt3B7l8yg
+  final_start: 62
   link: https://amo-yotakenoko.github.io/amo-yo.html
   year: 2019
 
@@ -1262,6 +1288,7 @@
   thumbnail: pirka.webp
   #promotion:
   final: tZHVhEjqX1g
+  final_start: 36
   link: https://pirka-ai.github.io/
   year: 2019
 
@@ -1277,6 +1304,7 @@
   thumbnail: neulot.webp
   #promotion:
   final: p_GIhnvDfFI
+  final_start: 23
   #link:
   year: 2019
 
@@ -1292,6 +1320,7 @@
   thumbnail: abecobe.webp
   #promotion:
   final: B70zjf0Xs6g
+  final_start: 27
   link: https://keidaroo.github.io/keidaroo_pages/links/abecobe/
   year: 2019
 
@@ -1309,6 +1338,7 @@
   thumbnail: manage_stock.webp
   #promotion:
   final: N1QfbFyjNXg
+  final_start: 16
   #link:
   year: 2019
 
@@ -1324,6 +1354,7 @@
   thumbnail: relay_master.webp
   #promotion:
   final: 1ylC6bqWiPg
+  final_start: 74
   #link:
   year: 2019
 
@@ -1340,6 +1371,7 @@
   thumbnail: virtual_presents.webp
   #promotion:
   final: p7KZzZLMLoM
+  final_start: 125
   #link:
   year: 2019
 
@@ -1355,6 +1387,7 @@
   thumbnail: edge_guided_anime_characters_generation.webp
   #promotion:
   final: OVD5nw1DA5s
+  final_start: 10
   #link:
   year: 2019
 
@@ -1370,6 +1403,7 @@
   thumbnail: mallet.webp
   #promotion:
   final: Tw28ieao9uo
+  final_start: 125
   #link: https://github.com/katsd/mallet-ios # 404 Not Found
   year: 2019
 
@@ -1385,6 +1419,7 @@
   thumbnail: tea.webp
   #promotion:
   final: rW57i1ZSksA
+  final_start: 35
   #link:
   year: 2019
 
@@ -1400,6 +1435,7 @@
   thumbnail: fresh_capsule.webp
   #promotion:
   final: vioFrqxlRXQ
+  final_start: 69
   #link:
   year: 2019
 
@@ -1415,6 +1451,7 @@
   thumbnail: smart_vj.webp
   #promotion:
   final: oGDGH2dmYKA
+  final_start: 82
   #link:
   year: 2019
 
@@ -1449,6 +1486,7 @@
   thumbnail: lets_eigo_puzzle.webp
   #promotion:
   final: gqkjUVzhSBU
+  final_start: 40
   #link:
   year: 2018
 
@@ -1465,6 +1503,7 @@
   thumbnail: smile_meeting_room.webp
   #promotion:
   final: Z6_Iw8Hvclk
+  final_start: 103
   #link:
   year: 2018
 
@@ -1481,6 +1520,7 @@
   thumbnail: vreath.webp
   #promotion:
   final: Kq7IuLLNC4Y
+  final_start: 44
   link: https://github.com/Vreath-core
   year: 2018
 
@@ -1497,6 +1537,7 @@
   thumbnail: corkboard.webp
   #promotion:
   final: rDyqAzppN6M
+  final_start: 60
   #link:
   year: 2018
 
@@ -1515,6 +1556,7 @@
   thumbnail: touch_buy.webp
   #promotion:
   final: luBbuzIb1y0
+  final_start: 49
   #link:
   year: 2018
 
@@ -1531,6 +1573,7 @@
   thumbnail: robot_soccer.webp
   #promotion:
   final: 7WnoGTOFRuE
+  final_start: 86
   #link:
   year: 2018
 
@@ -1547,6 +1590,7 @@
   thumbnail: memory_capsule.webp
   #promotion:
   final: KgnWDTXwHTY
+  final_start: 47
   #link:
   year: 2018
 
@@ -1563,6 +1607,7 @@
   thumbnail: sound_in_the_forest.webp
   promotion: 8lZAGL0DftM
   final: H7SCFi0fp7g
+  final_start: 85
   link: https://twitter.com/73_ch/status/1059065457628434432
   year: 2018
 
@@ -1579,6 +1624,7 @@
   thumbnail: toubans.webp
   #promotion:
   final: c1R1h4ihcgw
+  final_start: 145
   #link: https://www.toubans.com/
   year: 2018
 
@@ -1595,6 +1641,7 @@
   thumbnail: camera_translation.webp
   #promotion:
   final: xTZ4oi6sttA
+  final_start: 62
   #link:
   year: 2018
 
@@ -1611,6 +1658,7 @@
   thumbnail: life_watcher.webp
   #promotion:
   final: srA90rwohUA
+  final_start: 104
   #link:
   year: 2018
 
@@ -1629,6 +1677,7 @@
   thumbnail: music_reminder.webp
   #promotion:
   final: gfrleUVHGZs
+  final_start: 77
   #link:
   year: 2017
 
@@ -1647,6 +1696,7 @@
   thumbnail: papa.webp
   #promotion:
   final: FSfQnk2evnY
+  final_start: 59
   #link:
   year: 2017
 
@@ -1663,6 +1713,7 @@
   thumbnail: anki_cookie.webp
   #promotion:
   final: CRvzQtz90RM
+  final_start: 116
   #link:
   year: 2017
 
@@ -1679,6 +1730,7 @@
   thumbnail: narratica.webp
   #promotion:
   final: 7o0_Q_nBGi4
+  final_start: 48
   #link:
   year: 2017
 
@@ -1695,6 +1747,7 @@
   thumbnail: savacs.webp
   #promotion:
   final: lOrb8nH85qo
+  final_start: 44
   link: https://github.com/yanorei32/savacs
   year: 2017
 
@@ -1711,6 +1764,7 @@
   thumbnail: fall_in_friends.webp
   #promotion:
   final: Xr2Jeb5cf7o
+  final_start: 33
   #link:
   year: 2017
 
@@ -1727,6 +1781,7 @@
   thumbnail: draw_code.webp
   #promotion:
   final: t0Ho0S08hJI
+  final_start: 78
   #link: https://drawcode.net/
   year: 2017
 
@@ -1743,6 +1798,7 @@
   thumbnail: listenable_keyboard.webp
   #promotion:
   final: foJCvFcYhv0
+  final_start: 36
   #link:
   year: 2017
 
@@ -1762,6 +1818,7 @@
   thumbnail: smile_iot.webp
   #promotion:
   final: uNES_ZXf8eg
+  final_start: 90
   #link:
   year: 2017
 
@@ -1796,6 +1853,7 @@
   thumbnail: rakuraku_yomiyomi.webp
   #promotion:
   final: jQA4kApjr8s
+  final_start: 0
   #link:
   year: 2017
 
@@ -1813,6 +1871,7 @@
   thumbnail: vr_picture_book_maker.webp
   #promotion:
   final: V3SVBM47jOs
+  final_start: 20
   #link:
   year: 2016
 
@@ -1830,6 +1889,7 @@
   thumbnail: smart_pen.webp
   #promotion:
   final: sdrPyfNJx-4
+  final_start: 46
   #link:
   year: 2016
 
@@ -1846,5 +1906,6 @@
   thumbnail: voice_commander.webp
   #promotion:
   final: APUTGg6g0hA
+  final_start: 0
   #link:
   year: 2016
