@@ -124,13 +124,13 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='tutoriallm' title='TutoiaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア'>
+    <a href='tutoriallm' title='TutoriaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         TutoriaLLM - Programming learn...
       {% else %}
-        TutoiaLLM - AIチュートリアルを使ったプログラミ...
+        TutoriaLLM - AIチュートリアルを使ったプログラ...
       {% endif %}
     </a>
   </p>
