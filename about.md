@@ -42,8 +42,8 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 <div class="cover-photo">
   <img src="/assets/img/2024_cover.min.webp" data-src="/assets/img/2024_cover.webp"
-     title="2022年度の未踏ジュニア集合写真 @ 東京大学" class="top-img lazyload" loading="lazy"
-       alt="2022年度の未踏ジュニア集合写真 @ 東京大学">
+     title="2024年度の未踏ジュニア集合写真 @ 東京大学" class="top-img lazyload" loading="lazy"
+       alt="2024年度の未踏ジュニア集合写真 @ 東京大学">
    
 </div>
 
