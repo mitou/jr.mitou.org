@@ -129,6 +129,12 @@
 
 
 # 2023年度
+- id: toshihiro_tange
+  project_id: stask
+  name: 丹下 稔大
+  year: 2023
+  is_spc: true
+
 - id: itsuki_tsuruta
   project_id: lescued
   name: 鶴田 慈貴
@@ -202,12 +208,6 @@
 - id: rekka_igumi
   project_id: a9n
   name: 伊組 烈火
-  year: 2023
-  is_spc: true
-
-- id: toshihiro_tange
-  project_id: stask
-  name: 丹下 稔大
   year: 2023
   is_spc: true
 
