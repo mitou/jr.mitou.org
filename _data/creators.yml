@@ -14,128 +14,118 @@
 #  project_id: 
 #  name: 
 #  year: 202x
-#  #is_spc: true # 認定されたらコメントアウトする
+#  #is_spc: true
 
 # 2024年度
 - id: rio_sakazono
   project_id: inton
   name: 迫園 梨央
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
 
 - id: ryoma_yoshitaka
   project_id: fairy_guide
   name: 吉髙 僚眞
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
+  is_spc: true
 
 - id: taiyo_mizuno
   project_id: mimamori_compass
   name: 水野 太陽
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
+  is_spc: true
 
 - id: so_tokumaru
   project_id: tutoriallm
   name: 得丸 創生
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
+  is_spc: true
 
 - id: taku_mabuchi
   project_id: ai_study
   name: 間渕 拓
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
+  is_spc: true
 
 - id: shinri_ishibashi
   project_id: ai_study
   name: 石橋 慎理
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
+  is_spc: true
 
 - id: kento_hayashi
   project_id: ai_study
   name: 林 健人
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
 
 - id: katsunori_kuroda
   project_id: ai_study
   name: 黒田 克徳
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
+  is_spc: true
 
 - id: hiroyoshi_muranaka
   project_id: qwet
   name: 邑中 寛和
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
 
 - id: ayaka_kotajima
   project_id: reproduce
   name: 答島 綾香
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
 
 - id: yuri_yoshida
   project_id: bento_color
   name: 吉田 祐梨
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
 
 - id: rakuto_suda
   project_id: co_encoder
   name: 須田 楽大
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
 
 - id: hayato_okada
   project_id: swaq
   name: 岡田 颯斗
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
+  is_spc: true
 
 - id: komako_takahashi
   project_id: sakubun_otasuke
   name: 高橋 駒子
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
+  is_spc: true
 
 - id: junnosuke_katsui
   project_id: digikan
   name: 葛井 惇之祐
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
 
 - id: masahiro_hazutani
   project_id: mimic
   name: 筈谷 将大
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
+  is_spc: true
 
 - id: mao_hasegawa
   project_id: maglev_sphere_mobility
   name: 長谷川 真緒
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
 
 - id: minori_sugimura
   project_id: tactica_note
   name: 杉村 実紀
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
 
 - id: shuji_obata
   project_id: jellyfish_alert
   name: 小畑 洲士
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
+  is_spc: true
 
 - id: hikari_sugano
   project_id: picto_plate
   name: 菅野 晄
   year: 2024
-  #is_spc: true # 認定されたらコメントアウトする
 
 
 # 2023年度
