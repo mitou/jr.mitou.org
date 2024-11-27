@@ -211,8 +211,8 @@ $ bundle exec rake test
 1. 翌年度の開催が決定していれば、次回の募集要項（予定）を追加する ([追加例](https://github.com/mitou/jr.mitou.org/commit/7979630))
 1. 翌年度の開催が決定していれば、古くなった応募の手引きを更新する ([更新例](https://github.com/mitou/jr.mitou.org/commit/2c3243be))
 
-:octocat: プルリクエストの例: [2023年度のスパクリ公開時のプルリク (#166) - GitHub](https://github.com/mitou/jr.mitou.org/pull/166)  
-:newspaper: プレスリリースの例: [2023年度のスパクリ公開時のプレス - PR TIMES](https://prtimes.jp/main/html/rd/p/000000014.000022934.html) ([SNS投稿](https://twitter.com/mitoujr/status/1739489291720651229))
+- :medal_sports: 2024年度の対応例: [#204](https://github.com/mitou/jr.mitou.org/pull/204) / [プレス](https://prtimes.jp/main/html/rd/p/000000016.000022934.html) / [SNS](https://x.com/mitoujr/status/1861727657001673194)
+- :medal_sports: 2023年度の対応例: [#166](https://github.com/mitou/jr.mitou.org/pull/166) / [プレス](https://prtimes.jp/main/html/rd/p/000000014.000022934.html) / [SNS](https://x.com/mitoujr/status/1739489291720651229)
 
 
 <div id='how-to-build-interview'><br></div>
