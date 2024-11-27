@@ -205,6 +205,12 @@
   year: 2023
   is_spc: true
 
+- id: toshihiro_tange
+  project_id: stask
+  name: 丹下 稔大
+  year: 2023
+  is_spc: true
+
 
 # 2022年度
 - id: akito_hoshi
