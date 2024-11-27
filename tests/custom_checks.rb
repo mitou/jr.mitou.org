@@ -2,6 +2,7 @@
 # https://github.com/gjtorikian/html-proofer#custom-tests
 
 require 'json'
+require 'yaml'
 
 class CustomChecks < ::HTMLProofer::Check
   BASE_PATH = '_site'
@@ -13,6 +14,7 @@ class CustomChecks < ::HTMLProofer::Check
     check_meta_tags
     check_json_apis if valid_and_equal_to?(BASE_PATH + '/apis.html')
     check_deadlines if valid_and_equal_to?(BASE_PATH + '/guideline.html')
+    check_yaml_data if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
   end
 
   def valid_and_equal_to?(filename)
@@ -91,6 +93,23 @@ class CustomChecks < ::HTMLProofer::Check
       ) if prev_deadline > this_deadline
       prev_deadline = this_deadline
       prev_text     = node.text
+    end
+  end
+
+  # Check Creators/Projects YAML data and make CI failed if broken
+  # e.g.: https://github.com/mitou/jr.mitou.org/pull/206
+  def check_yaml_data
+    projects    = YAML.load_file("_data/projects.yml", symbolize_names: true)
+    creator_ids = YAML.load_file("_data/creators.yml", symbolize_names: true).map{ |creator| creator[:id] }
+
+    projects.each do |project|
+      add_failure(
+        <<~ERROR_MESSAGE
+          The following creator ID is NOT found in _data/creators.yml
+            \s Project ID: #{project[:id]}
+            \s Creator ID: #{project[:creator_ids]}
+        ERROR_MESSAGE
+      ) if (project[:creator_ids] & creator_ids).empty?
     end
   end
 end
