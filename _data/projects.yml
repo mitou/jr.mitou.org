@@ -116,8 +116,8 @@
   - katsunori_kuroda
 
 - id: swaq
-  title: Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター
-  title_en: Swaq - A Quantum Annealing Simulator with Enhanced Capabilities for Specific Problems
+  title: SWAQ - 特定の問題にちょっと強くなった量子アニーリングシミュレーター
+  title_en: SWAQ - A Quantum Annealing Simulator with Enhanced Capabilities for Specific Problems
   description: 量子アニーリングは組合せ最適化問題を高速に解ける可能性があると話題を呼んでいます。しかし、多くの組合せ最適化問題ではn個の中からm個選ぶという制約が加わり、これが解探索の精度と速度の両立を困難にしています。本プロジェクトでは、この制約を常に満たしたまま解を探索する量子アニーリングシミュレータを自作し、実問題への適用及び評価をしました。
   description_en: |
     Quantum annealing has garnered attention for its potential to solve combinatorial optimization problems quickly. However, many combinatorial optimization problems include constraints such as selecting m items from n, which complicates balancing solution accuracy and speed. In this project, we developed a custom quantum annealing simulator that searches for solutions while consistently satisfying these constraints, and we applied and evaluated it on real-world problems.
