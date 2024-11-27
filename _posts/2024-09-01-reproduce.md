@@ -112,13 +112,13 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='swaq' title='Swaq - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
+    <a href='swaq' title='SWAQ - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Swaq - A Quantum Annealing Sim...
+        SWAQ - A Quantum Annealing Sim...
       {% else %}
-        Swaq - 特定の問題にちょっと強くなった量子アニーリング...
+        SWAQ - 特定の問題にちょっと強くなった量子アニーリング...
       {% endif %}
     </a>
   </p>
