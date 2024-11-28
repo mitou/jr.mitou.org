@@ -8,8 +8,6 @@ latest_en_year: 2024
 # 英語版の公開準備が整ったら latest_en_year の数値に変更してください。
 ---
 
-<br>
-
 ## [<i class="fa-light fa-mountain"></i>](#about) What's MITOU Junior? {#about}
 
 MITOU Junior is a half-year-long program to enhance young innovative creators in Japan. This program, initiated by the [MITOU Foundation](https://www.mitou.org/index_en.html) in 2016 and originating from the government-backed [MITOU Program](https://www.ipa.go.jp/en/about/it-talents/mitou.html), has received support from various companies and organizations since its inception. With that support we offer the following benefits.
