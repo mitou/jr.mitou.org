@@ -188,7 +188,7 @@ this_year: 2024
     <a href="https://www.mitou.org/"><img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.webp" alt="一般社団法人未踏" class="lazyload" loading="lazy"></a>
   </p>
 
-  <p style='text-align: left;'><a href="https://www.mitou.org/">一般社団法人未踏</a> (Mitou Foundation、代表理事：<a href='/mentors#supervisor'>竹内 郁雄</a>) は、<a href='https://www.meti.go.jp/'>経済産業省</a>所管の独立行政法人情報処理推進機構 (<a href='https://www.ipa.go.jp/'>IPA</a>) が実施する<a href="https://www.ipa.go.jp/jinzai/mitou/about.html">未踏事業</a>修了生を中心に、創造的人材を多角的に支援し、業界横断的なネットワークをつくることで、ITを中心としたイノベーションを加速することを目的に設立された社団法人です。</p>
+  <p style='text-align: left;'><a href="https://www.mitou.org/">一般社団法人未踏</a> (Mitou Foundation、代表理事：<a href='/mentors#supervisor'>竹内 郁雄</a>) は、<a href='https://www.meti.go.jp/'>経済産業省</a>所管の独立行政法人情報処理推進機構 (<a href='https://www.ipa.go.jp/'>IPA</a>) が実施する<a href='https://www.ipa.go.jp/jinzai/mitou/koubo/'>未踏事業</a>修了生を中心に、創造的人材を多角的に支援し、業界横断的なネットワークをつくることで、ITを中心としたイノベーションを加速することを目的に設立された社団法人です。</p>
 </section>
 
 {% include sponsors.html %}
