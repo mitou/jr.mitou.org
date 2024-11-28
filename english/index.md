@@ -306,7 +306,8 @@ Example timeline. Details may vary from year to year.
 [The MITOU Foundation](https://www.mitou.org/index_en.html) focuses on fostering IT innovation by building a network of creative talents, particularly those who have completed the [MITOU Program](https://www.ipa.go.jp/en/it-talents/mitou.html). This organization was established in 2014 to address the growing need for innovative talents capable of transforming various industries and societal structures in the 21st century. It is a non-profit general incorporated association, a legal entity in Japanese law.
 
 <div class='flex'>
-  <a href='https://www.mitou.org/index_en.html' class='button'>Check MITOU Foundation</a>
+  <a class='button' href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>Check MITOU Program</a>
+  <a class='button' href='https://www.mitou.org/index_en.html'>Check MITOU Foundation</a>
 </div>
 
 
