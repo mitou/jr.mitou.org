@@ -252,6 +252,8 @@ Example projects, accepted and boosted by our program, are as follows.
 
 ## [<i class="fa-light fa-calendar-clock"></i>](#agenda) Program Agenda {#agenda}
 
+<img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_english.webp" alt="Schedule of MITOU Junior Program" class="lazyload" loading="lazy" width='100%'>
+
 - **Target:** Individuals and groups (up to 4 members) who are 17 years old or younger as of April 1st.
 - **Due Date:** The application form typically opens on March 10th and closes in early April.
 - **Duration:** About 6 months support from June to November, including [Demo Day](/final) at the end.
