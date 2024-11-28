@@ -264,4 +264,4 @@ $ bundle exec rake test
 
 Copyright &copy; [未踏社団](https://jr.mitou.org/#organizer) [未踏ジュニア](https://jr.mitou.org/)実行委員会
 
-[![未踏社団のロゴ画像(https://raw.githubusercontent.com/mitou/jr.mitou.org/refs/heads/main/assets/img/mitou-foundation.webp)](https://jr.mitou.org/#organizer)
+[![未踏社団のロゴ画像](https://raw.githubusercontent.com/mitou/jr.mitou.org/refs/heads/main/assets/img/mitou-foundation.webp)](https://jr.mitou.org/#organizer)
