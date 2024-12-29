@@ -1,4 +1,4 @@
-[![Test & Deploy](https://github.com/mitou/jr.mitou.org/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/mitou/jr.mitou.org/actions?query=workflow%3A%22Test+%26+Deploy%22)
+[![Test & Deploy](https://github.com/mitou/jr.mitou.org/actions/workflows/test.yml/badge.svg)](https://github.com/mitou/jr.mitou.org/actions/workflows/test.yml) [![pages-build-deployment](https://github.com/mitou/jr.mitou.org/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/mitou/jr.mitou.org/actions/workflows/pages/pages-build-deployment) [![CodeQL](https://github.com/mitou/jr.mitou.org/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/mitou/jr.mitou.org/actions/workflows/codeql-analysis.yml)
 
 # 未踏ジュニア公式Webサイト
 [![Cover Photo of MITOU Junior](https://raw.githubusercontent.com/mitou/jr.mitou.org/main/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
