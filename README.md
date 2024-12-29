@@ -126,10 +126,10 @@ $ bundle exec jekyll server
 
 無事にローカルサーバーが立ち上がったら [http://localhost:4000/](http://localhost:4000/) でアクセスできます。
 
-具体的なデータの流れについては [note 記事](https://note.com/yasslab/n/nf5837dabdf8c)からご確認ください。
+具体的なデータの流れについては[スライド資料](https://speakerdeck.com/yasulab/how-ruby-boosts-young-innovative-creators-in-the-mitou-junior-program)からご確認ください。
 
-[![MITOU Junior on Jekyll](https://github.com/mitou/jr.mitou.org/blob/main/assets/img/mitoujr-on-jekyll.png?raw=true)](https://note.com/yasslab/n/nf5837dabdf8c)
-【引用元：[機材・教材提供スポンサー - Railsチュートリアル](https://jr.mitou.org/#sponsor-inkind)】
+[![How Ruby Boosts Young Innovative Creators In The MITOU Junior Program.](https://github.com/mitou/jr.mitou.org/blob/main/assets/img/mitoujr-on-jekyll.png?raw=true)](https://note.com/yasslab/n/nf5837dabdf8c)
+【引用元：[テストも、国際化も！ 小中高生クリエータ支援プログラム『未踏ジュニア』を支える技術](https://speakerdeck.com/yasulab/how-ruby-boosts-young-innovative-creators-in-the-mitou-junior-program)】
 
 
 <div id='how-to-build-generators'><br></div>
