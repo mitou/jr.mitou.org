@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         SKIMER - Easy Task Management ...
       {% else %}
-        SKIMER - LINEで手軽にやること管理
+        SKIMER - LINEã§æè»½ã«ãã...
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Align - Emotion Chat Starting ...
       {% else %}
-        Align - バッテリー残量からはじまるエモチャット
+        Align - ããããªã¼æ®éã...
       {% endif %}
     </a>
   </p>

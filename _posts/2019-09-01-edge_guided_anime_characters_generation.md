@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         VirtualPresents - A Web Servic...
       {% else %}
-        VirtualPresents - 仮想世界で用いるWebサ...
+        VirtualPresents - ä»®æ³ä¸ç...
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Mallet - A Simple Application ...
       {% else %}
-        Mallet - モバイル端末用簡易アプリ開発環境
+        Mallet - ã¢ãã¤ã«ç«¯æ«ç¨...
       {% endif %}
     </a>
   </p>

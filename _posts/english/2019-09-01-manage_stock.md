@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         abecobe - A Simple Yet Challen...
       {% else %}
-        abecobe - シンプルかつ難しいパズルゲーム
+        abecobe - ã·ã³ãã«ãã¤é...
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Relay Master
       {% else %}
-        リレーマスター
+        ãªã¬ã¼ãã¹ã¿ã¼
       {% endif %}
     </a>
   </p>

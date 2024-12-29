@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Stask - An App to Assist Stude...
       {% else %}
-        Stask - 学生の課題進捗を助けるアプリ
+        Stask - å­¦çã®èª²é¡é²æã...
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Creating a DIY Motor with a 3D...
       {% else %}
-        3Dプリンタで作る自作モーター
+        3Dããªã³ã¿ã§ä½ãèªä½ã...
       {% endif %}
     </a>
   </p>

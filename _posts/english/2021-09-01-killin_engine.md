@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         &gt;&gt;Anyget/ Bulletin Board Style...
       {% else %}
-        &gt;&gt;Anyget/掲示板形式小説執筆支援ツール
+        &gt;&gt;Anyget/æ²ç¤ºæ¿å½¢å¼å°èª¬...
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Web Solo Exhibition - Explorin...
       {% else %}
-        Web個展 - Webであることを活かしたオンライン展示形式...
+        Webåå± - Webã§ãããã¨...
       {% endif %}
     </a>
   </p>

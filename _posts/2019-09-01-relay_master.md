@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         ManageStock - Inventory Manage...
       {% else %}
-        ManageStock - 家庭向け在庫管理アプリ
+        ManageStock - å®¶åº­åãå¨å...
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         VirtualPresents - A Web Servic...
       {% else %}
-        VirtualPresents - 仮想世界で用いるWebサ...
+        VirtualPresents - ä»®æ³ä¸ç...
       {% endif %}
     </a>
   </p>

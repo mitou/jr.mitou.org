@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         TELPort: High-Speed Communicat...
       {% else %}
-        TELPort/テルポート：音波による高速通信プロトコル及び...
+        TELPort/ãã«ãã¼ãï¼é³æ...
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Researcheck - Research Study S...
       {% else %}
-        Researcheck-調べ学習サポートアプリ-
+        Researcheck-èª¿ã¹å­¦ç¿ãµã...
       {% endif %}
     </a>
   </p>

@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         A9N: A Microkernel Achieving P...
       {% else %}
-        A9N: HALを用いて移植容易性を実現するマイクロカーネル...
+        A9N: HALãç¨ãã¦ç§»æ¤å®¹æ...
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Be Free - An App That Allows N...
       {% else %}
-        Be Free - 話せない人が自由に会話できるアプリ
+        Be Free - è©±ããªãäººãè...
       {% endif %}
     </a>
   </p>

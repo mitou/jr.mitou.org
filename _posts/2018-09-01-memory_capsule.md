@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Robot Soccer Simulation Using ...
       {% else %}
-        強化学習を用いたロボットサッカーシミュレーション
+        å¼·åå­¦ç¿ãç¨ããã­ã...
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Sound in the forest - Represen...
       {% else %}
-        Sound in the forest - 複数のスマートフ...
+        Sound in the forest - è¤æ°ã...
       {% endif %}
     </a>
   </p>

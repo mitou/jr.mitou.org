@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Relay Master
       {% else %}
-        リレーマスター
+        ãªã¬ã¼ãã¹ã¿ã¼
       {% endif %}
     </a>
   </p>

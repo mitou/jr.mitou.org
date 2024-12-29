@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         lescued - A System for Generat...
       {% else %}
-        lescued - AIで好みの曲を生成するシステム
+        lescued - AIã¦ãå¥½ã¿ã®æ²...
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         A9N: A Microkernel Achieving P...
       {% else %}
-        A9N: HALを用いて移植容易性を実現するマイクロカーネル...
+        A9N: HALãç¨ãã¦ç§»æ¤å®¹æ...
       {% endif %}
     </a>
   </p>

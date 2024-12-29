@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Memory Cookies
       {% else %}
-        暗記クッキー
+        æè¨ã¯ãã­ã¼
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Monitoring Photo Stand
       {% else %}
-        見守りフォトスタンド
+        è¦å®ããã©ãã¹ã¿ã³ã...
       {% endif %}
     </a>
   </p>

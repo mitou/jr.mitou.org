@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         critica - A Simple and Intuiti...
       {% else %}
-        critica  - 手軽で直感的なリアクション回収ツール
+        critica  - æè»½ã§ç´æçã...
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Levo - A Completely New Futuri...
       {% else %}
-        Levo - 全く新しい近未来的デザインのエアソフトガン
+        Levo - å¨ãæ°ããè¿æªæ...
       {% endif %}
     </a>
   </p>

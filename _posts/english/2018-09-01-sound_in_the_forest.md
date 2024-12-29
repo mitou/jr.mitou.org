@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Memory Capsule - A Social Netw...
       {% else %}
-        メモリーカプセル - カプセルを通して繋がるSNS
+        ã¡ã¢ãªã¼ã«ãã»ã« - ã«...
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Toubans! - A Duty Notification...
       {% else %}
-        Toubans! -LINEで設定・通知できる当番お知らせサ...
+        Toubans! -LINEã§è¨­å®ã»éç...
       {% endif %}
     </a>
   </p>

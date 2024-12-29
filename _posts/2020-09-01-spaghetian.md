@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Brush Talk: A Communication Ap...
       {% else %}
-        ぶらっしゅとーく〜小さな子どものための筆談アプリ〜
+        ã¶ãã£ããã¨ã¼ããå°...
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Color Overlap - A Puzzle Game ...
       {% else %}
-        Color Overlap - 光の三原色RGBを使ったパズ...
+        Color Overlap - åã®ä¸åè...
       {% endif %}
     </a>
   </p>

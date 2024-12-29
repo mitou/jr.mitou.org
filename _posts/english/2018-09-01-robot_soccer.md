@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         TouchBuy - Exploring the Futur...
       {% else %}
-        TouchBuy - VRにおけるECの在り方の模索
+        TouchBuy - VRã«ãããECã®...
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Memory Capsule - A Social Netw...
       {% else %}
-        メモリーカプセル - カプセルを通して繋がるSNS
+        ã¡ã¢ãªã¼ã«ãã»ã« - ã«...
       {% endif %}
     </a>
   </p>

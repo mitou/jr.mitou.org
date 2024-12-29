@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         SWAQ - A Quantum Annealing Sim...
       {% else %}
-        SWAQ - 特定の問題にちょっと強くなった量子アニーリング...
+        SWAQ - ç¹å®ã®åé¡ã«ã¡ã...
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Development of a Magnetic Levi...
       {% else %}
-        磁気浮上型球体駆動モビリティーの開発
+        ç£æ°æµ®ä¸åçä½é§åã¢...
       {% endif %}
     </a>
   </p>

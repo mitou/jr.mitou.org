@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Monitoring Photo Stand
       {% else %}
-        見守りフォトスタンド
+        è¦å®ããã©ãã¹ã¿ã³ã...
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         DrawCode: Create HTML Freely b...
       {% else %}
-        DrawCode　〜ブロックをつなげて自由にHTMLを描こう...
+        DrawCodeãããã­ãã¯ãã...
       {% endif %}
     </a>
   </p>

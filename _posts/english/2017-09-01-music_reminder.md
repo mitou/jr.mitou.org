@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Easy Reading
       {% else %}
-        らくらく読み読み
+        ããããèª­ã¿èª­ã¿
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Proposal for a Web Application...
       {% else %}
-        学校現場における情報共有やスケジューリングを支援するウェブア...
+        å­¦æ ¡ç¾å ´ã«ãããæå ±...
       {% endif %}
     </a>
   </p>

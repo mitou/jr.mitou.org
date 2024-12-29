@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Be Free - An App That Allows N...
       {% else %}
-        Be Free - 話せない人が自由に会話できるアプリ
+        Be Free - è©±ããªãäººãè...
       {% endif %}
     </a>
   </p>
