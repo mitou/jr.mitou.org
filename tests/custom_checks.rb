@@ -15,6 +15,7 @@ class CustomChecks < ::HTMLProofer::Check
     check_json_apis if valid_and_equal_to?(BASE_PATH + '/apis.html')
     check_deadlines if valid_and_equal_to?(BASE_PATH + '/guideline.html')
     check_yaml_data if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
+    check_navi_text if valid_and_equal_to?(BASE_PATH + '/projects/2024/qwet.html')
   end
 
   def valid_and_equal_to?(filename)
@@ -111,5 +112,18 @@ class CustomChecks < ::HTMLProofer::Check
         ERROR_MESSAGE
       ) if (project[:creator_ids] & creator_ids).empty?
     end
+  end
+
+  # Check if navigation text in each PJ page fails to be encoded. (文字化け)
+  # Fetched sample PJ page: https://jr.mitou.org/projects/2024/qwet
+  def check_navi_text
+    projects   = YAML.load_file("_data/projects.yml", symbolize_names: true).select{ it[:year] == 2024 }
+    prev_text  = @html.css('nav > p.prev').text.strip.lines.last.strip[0..-4]
+    next_text  = @html.css('nav > p.next').text.strip.lines.last.strip[0..-4]
+    prev_title = projects[-1][:title]
+    next_title = projects[ 1][:title]
+
+    add_failure("Unmatched nav text and title:\n\t#{prev_text}\n\t#{prev_title}") unless prev_title.start_with? prev_text
+    add_failure("Unmatched nav text and title:\n\t#{next_text}\n\t#{next_title}") unless next_title.start_with? next_text
   end
 end
