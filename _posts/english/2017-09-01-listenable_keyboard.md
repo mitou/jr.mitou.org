@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         DrawCode: Create HTML Freely b...
       {% else %}
-        DrawCodeãããã­ãã¯ãã...
+        DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜
       {% endif %}
     </a>
   </p>

@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Jellyfish Alert - Edge AI Syst...
       {% else %}
-        ã¯ã©ã²ã¢ã©ã¼ã - æ¯ã¯...
+        クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         AI study - English Vocabulary ...
       {% else %}
-        AI study - LLMã«ããç©´åã...
+        AI study - LLMによる穴埋め問題を活用した英単語...
       {% endif %}
     </a>
   </p>

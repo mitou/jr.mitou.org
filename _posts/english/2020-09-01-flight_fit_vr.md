@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Rocat: STEM Education Using Mo...
       {% else %}
-        Rocat ï½ã¢ãã«ã­ã±ãã...
+        Rocat ～モデルロケットを使ったSTEM教育～
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         GUInfra: Building Infrastructu...
       {% else %}
-        GUInfraãGUIã§å»ºã¦ãã¤ã...
+        GUInfra〜GUIで建てるインフラストラクチャー〜
       {% endif %}
     </a>
   </p>

@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         TacticaNote - A Soccer Noteboo...
       {% else %}
-        TacticaNote - è²æå¹´ä»£ã®é...
+        TacticaNote - 育成年代の選手の言語化をサポート...
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         INTON - Intonation Practice Ap...
       {% else %}
-        INTON - æ¾éé¨å¡ã®ããã...
+        INTON - 放送部員のためのイントネーション練習アプリ
       {% endif %}
     </a>
   </p>

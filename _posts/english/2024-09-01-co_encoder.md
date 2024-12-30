@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Monitoring Compass - A Discove...
       {% else %}
-        ã¿ã¾ããã³ã³ãã¹ - èª...
+        みまもりコンパス - 認知症高齢者のための発見共有システム
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         TutoriaLLM - Programming learn...
       {% else %}
-        TutoriaLLM - AIãã¥ã¼ããª...
+        TutoriaLLM - AIチュートリアルを使ったプログラ...
       {% endif %}
     </a>
   </p>

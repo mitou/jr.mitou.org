@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Creating a DIY Motor with a 3D...
       {% else %}
-        3Dããªã³ã¿ã§ä½ãèªä½ã...
+        3Dプリンタで作る自作モーター
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         lescued - A System for Generat...
       {% else %}
-        lescued - AIã¦ãå¥½ã¿ã®æ²...
+        lescued - AIで好みの曲を生成するシステム
       {% endif %}
     </a>
   </p>

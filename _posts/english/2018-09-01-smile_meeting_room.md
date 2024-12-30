@@ -118,9 +118,9 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Let&apos;s English Puzzle! - Learn ...
+        Let's English Puzzle! - Learn ...
       {% else %}
-        Let&apos;sãããããºã«! - å¤...
+        Let'sえいごパズル! - 変化するキューブで楽しく学ぶ英単語
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Vreath - Development of a Uniq...
       {% else %}
-        Vreath - æå·éè²¨ã®å¥æ...
+        Vreath - 暗号通貨の入手障壁を下げるための、独自合意...
       {% endif %}
     </a>
   </p>

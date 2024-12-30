@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Digikan - A Game to Foster Int...
       {% else %}
-        Digikan - æ¼¢å­ã«èå³ãæ...
+        Digikan - 漢字に興味を持ってもらうためのゲーム
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         BentoColor - An App for Easily...
       {% else %}
-        BentoColor - ãã³ãã¬ã¼ã...
+        BentoColor - テンプレートを使って簡単に彩り豊か...
       {% endif %}
     </a>
   </p>

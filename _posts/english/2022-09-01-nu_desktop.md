@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         HAK - Hand Action Keyboard - A...
       {% else %}
-        HAK ï¼ Hand Action Keyboard ï...
+        HAK － Hand Action Keyboard － 物...
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Noxicel - An English Vocabular...
       {% else %}
-        Noxicel - è±ä½æã¨AIãç¨...
+        Noxicel - 英作文とAIを用いた英単語学習アプリ
       {% endif %}
     </a>
   </p>

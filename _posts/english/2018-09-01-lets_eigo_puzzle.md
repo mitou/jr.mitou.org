@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         UTIPS - Household Information ...
       {% else %}
-        UTIPS - å®¶äºã®æå ±å±æã...
+        UTIPS - 家事の情報共有サービス
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Smile Conference Room - Effici...
       {% else %}
-        ã¹ãã¤ã«ä¼è­°å®¤ - IoTã§...
+        スマイル会議室 - IoTで会議室の効率的な利用を
       {% endif %}
     </a>
   </p>

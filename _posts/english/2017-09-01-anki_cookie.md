@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Proposal for a Web Application...
       {% else %}
-        å­¦æ ¡ç¾å ´ã«ãããæå ±...
+        学校現場における情報共有やスケジューリングを支援するウェブア...
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         narratica: Story Consultant
       {% else %}
-        narraticaãã¹ãã¼ãªã¼ã³...
+        narratica〜ストーリーコンサルタント〜
       {% endif %}
     </a>
   </p>

@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Development of a New Independe...
       {% else %}
-        æ°åç¬ç«ã¹ãã¢ãªã³ã°...
+        新型独立ステアリング機構の開発およびそれを用いたAGVモジュ...
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Stask - An App to Assist Stude...
       {% else %}
-        Stask - å­¦çã®èª²é¡é²æã...
+        Stask - 学生の課題進捗を助けるアプリ
       {% endif %}
     </a>
   </p>

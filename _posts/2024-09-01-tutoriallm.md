@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Co-Encoder - Context Compressi...
       {% else %}
-        Co-Encoder - LLMã®ããã®ã...
+        Co-Encoder - LLMのためのコンテキスト圧縮エンコーダ
       {% endif %}
     </a>
   </p>
@@ -128,9 +128,9 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        QWET - The World&apos;s First 3D Li...
+        QWET - The World's First 3D Li...
       {% else %}
-        QWET -  æåãæãæ£ãã...
+        QWET -  感動を撒き散らす世界初3Dライブエンジン
       {% endif %}
     </a>
   </p>

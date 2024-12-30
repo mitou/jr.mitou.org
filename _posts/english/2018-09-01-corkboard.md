@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Vreath - Development of a Uniq...
       {% else %}
-        Vreath - æå·éè²¨ã®å¥æ...
+        Vreath - 暗号通貨の入手障壁を下げるための、独自合意...
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         TouchBuy - Exploring the Futur...
       {% else %}
-        TouchBuy - VRã«ãããECã®...
+        TouchBuy - VRにおけるECの在り方の模索
       {% endif %}
     </a>
   </p>

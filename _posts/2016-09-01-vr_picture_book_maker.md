@@ -116,9 +116,9 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Voice Commander: Commands Ã P...
+        Voice Commander: Commands × Po...
       {% else %}
-        Voice Commander ï½å½ä»¤Ãã...
+        Voice Commander ～命令×ポーズ×チェス～
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Smart Pen
       {% else %}
-        ã¹ãã¼ããã³
+        スマートペン
       {% endif %}
     </a>
   </p>

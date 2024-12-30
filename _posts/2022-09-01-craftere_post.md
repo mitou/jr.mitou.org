@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         StudyRec - A Learning App to M...
       {% else %}
-        StudyRec - ã¿ã¤ã ã©ãã¹ã...
+        StudyRec - タイムラプスやポモドーロ・タイマーを使...
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Fluxel - Development and Appli...
       {% else %}
-        Fluxel - ç£æ°æµ®ä¸å¼ãªã...
+        Fluxel - 磁気浮上式リニア電磁加速投射機の開発と応用
       {% endif %}
     </a>
   </p>

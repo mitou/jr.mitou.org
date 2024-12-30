@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Tea - Virtual Economy Simulati...
       {% else %}
-        Tea - ä»®æ³çµæ¸ã·ãã¥ã¬...
+        Tea - 仮想経済シミュレーションプラットフォームとゲーム
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         SmartVJ - A New Form of Partic...
       {% else %}
-        SmartVJ - åå åã®æ°ãã...
+        SmartVJ - 参加型の新しいメディアアート
       {% endif %}
     </a>
   </p>

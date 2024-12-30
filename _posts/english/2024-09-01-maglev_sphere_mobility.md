@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         reprODucE - Simulation Softwar...
       {% else %}
-        reprODucE - çç©å­¦ã«ç¹å...
+        reprODucE - 生物学に特化したシミュレーションソフト
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         TacticaNote - A Soccer Noteboo...
       {% else %}
-        TacticaNote - è²æå¹´ä»£ã®é...
+        TacticaNote - 育成年代の選手の言語化をサポート...
       {% endif %}
     </a>
   </p>

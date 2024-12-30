@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         GUInfra: Building Infrastructu...
       {% else %}
-        GUInfraãGUIã§å»ºã¦ãã¤ã...
+        GUInfra〜GUIで建てるインフラストラクチャー〜
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Spaghetian - Building a CPU Us...
       {% else %}
-        Spaghetian - é»æ°ã¨é»ç£ç...
+        Spaghetian - 電気と電磁石だけでCPUを自作する！
       {% endif %}
     </a>
   </p>

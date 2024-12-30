@@ -118,9 +118,9 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        QWET - The World&apos;s First 3D Li...
+        QWET - The World's First 3D Li...
       {% else %}
-        QWET -  æåãæãæ£ãã...
+        QWET -  感動を撒き散らす世界初3Dライブエンジン
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         PictoPlate - An App to Solve M...
       {% else %}
-        PictoPlate - ã¬ã¹ãã©ã³ã...
+        PictoPlate - レストランでのメニュー問題解決アプリ
       {% endif %}
     </a>
   </p>

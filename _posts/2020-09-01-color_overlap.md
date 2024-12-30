@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Spaghetian - Building a CPU Us...
       {% else %}
-        Spaghetian - é»æ°ã¨é»ç£ç...
+        Spaghetian - 電気と電磁石だけでCPUを自作する！
       {% endif %}
     </a>
   </p>
@@ -128,9 +128,9 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        Poet ~A Creative Tool for Poet...
+        Poet ~A Creative Tool for Poets~
       {% else %}
-        Poet ~è©©äººã®ããã®åµä½...
+        Poet ~詩人のための創作ツール~
       {% endif %}
     </a>
   </p>

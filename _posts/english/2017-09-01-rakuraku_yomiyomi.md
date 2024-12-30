@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Development of a Visual Progra...
       {% else %}
-        FRPã®æ¦å¿µã«è§¦ãããã...
+        FRPの概念に触れられるビジュアルプログラミング言語の開発
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Proposal for a Smartphone Appl...
       {% else %}
-        åäººã®çµé¨ã«ç´ã¥ãã...
+        個人の経験に紐づいた楽曲を推薦するスマートフォンアプリケーシ...
       {% endif %}
     </a>
   </p>

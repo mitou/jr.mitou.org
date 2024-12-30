@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Essay Assistance App - An App ...
       {% else %}
-        ä½æããããã¢ããª - ...
+        作文おたすけアプリ - 作文が苦手をお手伝いするアプリ
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Monitoring Compass - A Discove...
       {% else %}
-        ã¿ã¾ããã³ã³ãã¹ - èª...
+        みまもりコンパス - 認知症高齢者のための発見共有システム
       {% endif %}
     </a>
   </p>

@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Toubans! - A Duty Notification...
       {% else %}
-        Toubans! -LINEã§è¨­å®ã»éç...
+        Toubans! -LINEで設定・通知できる当番お知らせサービス
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Life Watcher - An Alert System...
       {% else %}
-        Life Watcher - æ¥å¤ããæ...
+        Life Watcher - 急変する持病を持つ人のための警...
       {% endif %}
     </a>
   </p>

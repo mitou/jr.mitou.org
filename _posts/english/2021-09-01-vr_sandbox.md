@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         mock up: Video Editing Softwar...
       {% else %}
-        mock up: åç»ç·¨éã½ãã...
+        mock up: 動画編集ソフトウェアフレームワーク
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Mark Finder! for SDGs
       {% else %}
-        ãã¼ã¯ã¿ã£ãï¼for SDGs
+        マークみっけ！for SDGs
       {% endif %}
     </a>
   </p>

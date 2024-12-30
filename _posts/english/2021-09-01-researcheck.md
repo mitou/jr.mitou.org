@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Curepathy - An App to Deepen C...
       {% else %}
-        Curepathy -å­ä¾ã®èå³ãæ...
+        Curepathy -子供の興味を深めるアプリ-
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Augment - A Music Game Utilizi...
       {% else %}
-        Augment ï¼ ãªã¢ã«ã¿ã¤ã ...
+        Augment － リアルタイム音階推定を用いた音楽ゲーム
       {% endif %}
     </a>
   </p>

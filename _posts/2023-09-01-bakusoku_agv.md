@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Creating a Motion Simulator fr...
       {% else %}
-        ã¼ã­ããä½ãMotion Simul...
+        ゼロから作るMotion Simulator
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         niwango.js - An Execution Engi...
       {% else %}
-        niwango.js - åç»ã®ã³ã¡ã...
+        niwango.js - 動画のコメントでプログラミング可能...
       {% endif %}
     </a>
   </p>

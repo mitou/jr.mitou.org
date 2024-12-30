@@ -120,7 +120,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Camera Translation
       {% else %}
-        åãã¦ç¿»è¨³
+        写して翻訳
       {% endif %}
     </a>
   </p>
@@ -132,7 +132,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         UTIPS - Household Information ...
       {% else %}
-        UTIPS - å®¶äºã®æå ±å±æã...
+        UTIPS - 家事の情報共有サービス
       {% endif %}
     </a>
   </p>

@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Noxicel - An English Vocabular...
       {% else %}
-        Noxicel - è±ä½æã¨AIãç¨...
+        Noxicel - 英作文とAIを用いた英単語学習アプリ
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Sanitas: An App Supporting Bea...
       {% else %}
-        Sanitas åªåéãå±æãã...
+        Sanitas 努力量を共有して美容と健康を支えるアプリ
       {% endif %}
     </a>
   </p>

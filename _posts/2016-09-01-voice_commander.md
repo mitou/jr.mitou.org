@@ -118,7 +118,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         Smart Pen
       {% else %}
-        ã¹ãã¼ããã³
+        スマートペン
       {% endif %}
     </a>
   </p>
@@ -130,7 +130,7 @@ twitter_card: summary_large_image
       {% if page.lang == 'en' %}
         VR Picture Book Maker
       {% else %}
-        VRçµµæ¬ã¡ã¼ã«ã¼
+        VR絵本メーカー
       {% endif %}
     </a>
   </p>
