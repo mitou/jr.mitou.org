@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
 require 'yaml'
-require 'truncato'
+#require 'active_support/all'
+require 'active_support/core_ext/string/filters'
 require 'cgi'
 
 # Remove existing JA/EN pages and re-generate them
@@ -163,9 +164,9 @@ projects.each_with_index do |project, index|
          &larr; {{ translations.navPrev[lang] }}
          <br>
          {% if page.lang == 'en' %}
-           #{ Truncato.truncate(prev_project[:title_en]) if project.has_english? }
+           #{ prev_project[:title_en].truncate(33) if project.has_english? }
          {% else %}
-           #{ Truncato.truncate(prev_project[:title]) }
+           #{ prev_project[:title].truncate(33) }
          {% endif %}
        </a>
      </p>
@@ -175,9 +176,9 @@ projects.each_with_index do |project, index|
          {{ translations.navNext[lang] }} &rarr;
          <br>
          {% if page.lang == 'en' %}
-           #{ Truncato.truncate(next_project[:title_en]) if project.has_english? }
+           #{ next_project[:title_en].truncate(33) if project.has_english? }
          {% else %}
-           #{ Truncato.truncate(next_project[:title]) }
+           #{ next_project[:title].truncate(33) }
          {% endif %}
        </a>
      </p>

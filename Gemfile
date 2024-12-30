@@ -4,9 +4,9 @@ source 'https://rubygems.org'
 git_source(:github) {|repo_name| 'https://github.com/' + repo_name }
 
 gem 'jekyll'
-gem 'rake'        # Enable Rakefile to run tasks
-gem 'truncato'    # https://github.com/jorgemanrubia/truncato
-gem 'ruby-openai' # Translate project info from JA to EN
+gem 'rake'          # Enable Rakefile to run tasks
+gem 'ruby-openai'   # Translate project info from JA to EN
+gem 'activesupport' # To truncate titles. https://railsguides.jp/active_support_core_extensions.html#truncate
 
 
 # Declare to install bundled gems to fix warnings:
