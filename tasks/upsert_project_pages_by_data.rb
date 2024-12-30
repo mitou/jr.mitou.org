@@ -1,9 +1,10 @@
 #!/usr/bin/env ruby
 
 require 'yaml'
+require 'cgi'
 #require 'active_support/all'
 require 'active_support/core_ext/string/filters'
-require 'cgi'
+TRUNCATE_LENGTH = 33
 
 # Remove existing JA/EN pages and re-generate them
 Dir.glob("./_posts/*.md"        ).each { |filename| File.delete(filename) }
@@ -164,9 +165,9 @@ projects.each_with_index do |project, index|
          &larr; {{ translations.navPrev[lang] }}
          <br>
          {% if page.lang == 'en' %}
-           #{ prev_project[:title_en].truncate(33) if project.has_english? }
+           #{ prev_project[:title_en].truncate(TRUNCATE_LENGTH) if project.has_english? }
          {% else %}
-           #{ prev_project[:title].truncate(33) }
+           #{ prev_project[:title].truncate(TRUNCATE_LENGTH) }
          {% endif %}
        </a>
      </p>
@@ -176,9 +177,9 @@ projects.each_with_index do |project, index|
          {{ translations.navNext[lang] }} &rarr;
          <br>
          {% if page.lang == 'en' %}
-           #{ next_project[:title_en].truncate(33) if project.has_english? }
+           #{ next_project[:title_en].truncate(TRUNCATE_LENGTH) if project.has_english? }
          {% else %}
-           #{ next_project[:title].truncate(33) }
+           #{ next_project[:title].truncate(TRUNCATE_LENGTH) }
          {% endif %}
        </a>
      </p>
