@@ -117,11 +117,13 @@ class CustomChecks < ::HTMLProofer::Check
   # Check if navigation text in each PJ page fails to be encoded. (文字化け)
   # Fetched sample PJ page: https://jr.mitou.org/projects/2024/qwet
   def check_navi_text
-    projects  = YAML.load_file("_data/projects.yml", symbolize_names: true).select{ it[:year] == 2024 }
-    prev_text = @html.css('nav > p.prev').text
-    next_text = @html.css('nav > p.next').text
+    projects   = YAML.load_file("_data/projects.yml", symbolize_names: true).select{ it[:year] == 2024 }
+    prev_text  = @html.css('nav > p.prev').text.strip.lines.last.strip[0..-4]
+    next_text  = @html.css('nav > p.next').text.strip.lines.last.strip[0..-4]
+    prev_title = projects[-1][:title]
+    next_title = projects[ 1][:title]
 
-    add_failure("Failed to render navigation text: #{prev_text}") unless prev_text.include? projects[1][:title]
-    add_failure("Failed to render navigation text: #{next_text}") unless next_text.include? projects[1][:title]
+    add_failure("Unmatched nav text and title:\n\t#{prev_text}\n\t#{prev_title}") unless prev_title.start_with? prev_text
+    add_failure("Unmatched nav text and title:\n\t#{next_text}\n\t#{next_title}") unless next_title.start_with? next_text
   end
 end
