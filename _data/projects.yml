@@ -367,14 +367,14 @@
 - id: voice_genius
   title: Voice Genius - AI x ゆっくり解説
   title_en: Voice Genius - AI x Yukkuri Commentary
-  description: Voice Geniusは最近話題のChatGPTなどのAIを用い、完全自動でゆっくり解説を作成するソフトウェアです。タイトルや記事から動画を生成します。テキストではわかりにくいデータや記事を慣れ親しんだ動画に変換できます。生成した動画は<a href='https://www.youtube.com/@ai-yukkuri/featured'>YouTube</a>または<a href='https://www.tiktok.com/@ai.yukkuri'>TikTok</a>から閲覧できます。
+  description: Voice Geniusは最近話題のChatGPTなどのAIを用い、完全自動でゆっくり解説を作成するソフトウェアです。タイトルや記事から動画を生成します。テキストではわかりにくいデータや記事を慣れ親しんだ動画に変換できます。生成した動画は<a href='https://www.youtube.com/channel/UCWtA77cOFQE-_n81o8jeq6A/shorts'>YouTube</a>または<a href='https://www.tiktok.com/@ai.yukkuri'>TikTok</a>から閲覧できます。
   description_en: |
-    Voice Genius is software that utilizes AI, such as the recently popular ChatGPT, to create fully automated, slow-paced explanatory videos. It generates videos from titles and articles, transforming data and articles that may be difficult to understand in text form into familiar video formats. The generated videos can be viewed on <a href='https://www.youtube.com/@ai-yukkuri/featured'>YouTube</a> or <a href='https://www.tiktok.com/@ai.yukkuri'>TikTok</a>.
+    Voice Genius is software that utilizes AI, such as the recently popular ChatGPT, to create fully automated, slow-paced explanatory videos. It generates videos from titles and articles, transforming data and articles that may be difficult to understand in text form into familiar video formats. The generated videos can be viewed on <a href='https://www.youtube.com/channel/UCWtA77cOFQE-_n81o8jeq6A/shorts'>YouTube</a> or <a href='https://www.tiktok.com/@ai.yukkuri'>TikTok</a>.
   thumbnail: voice_genius.webp
   promotion: BlXywoHJYfg
   final:       g0Ookp-8yUI
   final_start: 0
-  link: https://www.youtube.com/@ai-yukkuri/featured
+  link: https://www.youtube.com/channel/UCWtA77cOFQE-_n81o8jeq6A/shorts
   year: 2023
   mentor_id: rina_kotake
   creator_ids:
@@ -520,7 +520,7 @@
   #promotion:                # YouTube上にPVがあれば追記する
   final:       kWS7Ggzv7VU
   final_start: 55
-  link: https://stask.ampoi.net/
+  link: https://github.com/Ampoi/stask
   year: 2023
   mentor_id: yoshifumi_seki
   creator_ids:
@@ -941,7 +941,7 @@
   promotion: 72UN95o6MJA
   final: jOcD5FKatNI
   final_start: 102
-  link: https://killinengine.com/
+  #link: https://killinengine.com/
   year: 2021
   mentor_id: daiki_teramoto
   creator_ids:

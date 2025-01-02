@@ -9,7 +9,7 @@
   description: "<strong>関西の大学・大学院・<a href='https://www.mext.go.jp/a_menu/koutou/kousen/index.htm'>高等専門学校</a>に在籍中</strong>の若手テック人材を発掘・育成するプログラムです。本プログラムをきっかけに、若手テック人材の育成コミュニティを形成し、他の大学や企業と産学官連携を強化することで、人材育成のエコシステム構築もめざしています。"
 
 - id:    ippo
-  link:  https://mitou-kumamoto.com/
+  link:  https://mitouteki-kumamoto.com/
   title: 熊本版未踏的プロジェクト「IPPO （一歩）」
   description: "<strong>熊本県内の15～39歳</strong>で、IT・デジタル系、テック系、アプリ開発など、試作開発を伴い社会課題解決に向けたアイデアをお持ちの若手クリエータの皆さんのチャレンジを支援します。独創的なアイデアと情熱を持った方の応募をお待ちしています。"
 
@@ -31,7 +31,7 @@
 - id:    cybozu
   link:  https://labs.cybozu.co.jp/youth/requirements.html
   title: サイボウズ・ラボユース
-  description: "<a href='https://labs.cybozu.co.jp/youth/youth-leaflet-2023spring.pdf'>世界に通用する若手エンジニアの発掘と育成</a>をする学生支援制度です。ソフトウェア研究開発への熱意を支援し、開発成果はオープンソースライセンスに基づき広く世の中に公開されることが期待されています。開発成果物の権利も企業ではなく、個人本人に帰属します。"
+  description: "<a href='https://labs.cybozu.co.jp/youth.html'>世界に通用する若手エンジニアの発掘と育成</a>をする学生支援制度です。ソフトウェア研究開発への熱意を支援し、開発成果はオープンソースライセンスに基づき広く世の中に公開されることが期待されています。開発成果物の権利も企業ではなく、個人本人に帰属します。"
 
 - id:    flyingtokyo
   link:  https://flyingtokyo.com/

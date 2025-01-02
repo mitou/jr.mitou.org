@@ -35,10 +35,12 @@ task test: [:build] do
       /google(.*)\.html/,
     ],
     ignore_urls: [
-      # Ignore domains that need to access by HTTP not HTTPS.
+      # Ignore not-supporting-HTTPS domains and URL params for specific browsers (Chrome).
       /ecomaki.com/,
       /iql-lab.de/,
       /nhiro.org/,
+      /meti.go.jp/,
+      /#:~:text=/,
       /twitter.com/,  # Skip testing Twitter URLs
     ],
     #ignore_status_codes: [0, 500, 999],

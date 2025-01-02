@@ -84,7 +84,7 @@ Our alumni are creating new values after the program as well. Here are a few exa
 <ul class="list-none media-list">
   <li>
     <span class="media-pc-date pc-inline-b">CES 2023&nbsp;</span>
-    <a href="https://www.ces.tech/innovation-awards/honorees/2023/honorees/c/contact-glove.aspx">
+    <a href="https://www.ces.tech/ces-innovation-awards/2023/contact-glove/">
       INNOVATION AWARD PRODUCT - Contact Glove By Diver-X
       <span class="ph-inline-b">- CES 2023</span>
     </a>
