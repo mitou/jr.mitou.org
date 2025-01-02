@@ -30,7 +30,20 @@
   span {
     font-size: 70%;
   }
-</style> <div class="container"> <h1>404</h1> <p><strong class="heading-balloon" style="z-index: -1;"> ページが見つかりませんでした >< </strong></p> <div><img src="/assets/img/spinner.svg" data-src="/assets/img/404.webp" alt="404 Page Not Found" width="200px" style="margin-top: -50px;" class="lazyload"/></div> <span>リンク切れの場合は <a href="https://twitter.com/MitouJr">@MitouJr</a> までご連絡して頂けると嬉しいです。</span> <p><a href="javascript:history.back()">« 戻る</a></p> <div style='margin-top: 100px;'> <a class="twitter-timeline" data-lang="ja" data-height="700" href="https://twitter.com/MitouJr">最近のツイート</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </div> </div> <script type="text/javascript">
+</style> <div class="container"> <h1>404</h1> <p><strong class="heading-balloon" style="z-index: -1;"> ページが見つかりませんでした >< </strong></p> <div><img src="/assets/img/spinner.svg" data-src="/assets/img/404.webp" alt="404 Page Not Found" width="200px" style="margin-top: -50px;" class="lazyload"/></div> <span>リンク切れの場合は <a href="https://twitter.com/MitouJr">@MitouJr</a> までご連絡して頂けると嬉しいです。</span> <script type="text/javascript">
+   function historyBackOrDefault() {
+     console.log(history.length);
+      if (history.back() === undefined ) {
+	if (window.location.href.indexOf("/english") != -1) {
+	  window.location.replace("/english");
+        } else {
+ 	  window.location.replace("/");
+	}
+      } else {
+	history.back();
+      }
+    }
+  </script> <p><a href="javascript:historyBackOrDefault()">« 戻る</a></p> <div style='margin-top: 100px;'> <a class="twitter-timeline" data-lang="ja" data-height="700" href="https://twitter.com/MitouJr">最近のツイート</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </div> </div> <script type="text/javascript">
   // Redirect to English 404 page if failed in /english* URLs.
   if (window.location.href.indexOf("/english") != -1) {
     window.location.replace("/english/404");
