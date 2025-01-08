@@ -33,7 +33,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
   {% endfor %}
 </ul>
 
-<div class='note' style='margin: 30px auto 50px;'><small>提案書の状態から約６ヶ月間の支援を得た結果が<a href='/final'>成果報告会</a>での発表となるため、最初から完成している必要はありません。有志のクリエータが応募者のために公開しているサンプルが、提案書を準備するお役に立てば嬉しいです。</small></div>
+<div class='note' style='margin: 30px auto 50px;'><small>提案書の状態から約６ヶ月間の支援を得た結果が<a href='/final'>成果報告会</a>での発表となります。最初から完成している必要はありません。有志のクリエータが応募者のために公開しているサンプルが、提案書の準備に役立てば嬉しいです。</small></div>
 
 <a href='/projects' class='button'>他の採択例を見る</a>
 
