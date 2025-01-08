@@ -29,7 +29,7 @@ description: 応募書類（提案書）のテンプレートとサンプルを�
 <ul>
   {% for application_sample in site.data.application_samples %}
   {% assign project = site.data.projects | where: 'id', application_sample.id | first %}
-  <li><a href='/projects/{{ project.year }}/{{ project.id }}' title='{{ project.description }}'>{{ project.title }}</a><small>（<a href='/applications/samples/{{ project.id }}.pdf'>提案書を見る <i class='fa-solid fa-up-right-from-square'></i></a>）</small></li>
+  <li><a href='/projects/{{ project.year }}/{{ project.id }}' title='{{ project.description }}'>{{ project.title }}</a><small>（<a href='/applications/samples/{{ project.id }}.pdf'>&raquo; 提案書を見る</a>）</small></li>
   {% endfor %}
 </ul>
 
