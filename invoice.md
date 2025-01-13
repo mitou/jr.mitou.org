@@ -17,7 +17,7 @@ description: 見積書・請求書・納品書などの送付先情報につい�
   <li>一般社団法人未踏　代表理事 竹内 郁雄</li>
   <li>未踏ジュニア実行委員会</li>
   <li>e-mail: jr@mitou.org</li>
-  <!--<li>インボイス番号: 01234...</li>-->
+  <li>法人番号: <a href='https://www.houjin-bangou.nta.go.jp/henkorireki-johoto.html?selHouzinNo=7011005006074'>7011005006074</a></li>
 </ul>
 
 <div class="note">
