@@ -39,7 +39,7 @@ description: クリエータを支援する人達（メンター）の紹介ペ�
 	  {% for pj in projects %}
 	    <li><a href="/projects/{{ pj.year }}/{{ pj.id }}">{{ pj.title }}</a></li>
 	  {% else %}
-	    <li>🆕 今年度より採択開始!</li>
+	    <li><a href='/guideline'>次回募集</a>から採択開始!</li>
 	  {% endfor %}
 	</ul>
 
