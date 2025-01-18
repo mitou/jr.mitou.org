@@ -607,6 +607,7 @@
   mentor_id: yohei_yasukawa
   creator_ids:
   - akito_hoshi
+  redirect_from: magnelek
 
 - id: r-order
   title: R-Order - 学校版UberEatsを実現するデリバリーサービス

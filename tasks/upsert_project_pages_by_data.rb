@@ -26,6 +26,11 @@ projects.each_with_index do |project, index|
   prev_project  = this_year_projects.rotate(project_index - 1).first
   next_project  = this_year_projects.rotate(project_index + 1).first
 
+  # Redirect if existing PJ name changed after published
+  redirect_base    = "/projects/#{project[:year]}"
+  redirect_from_ja = project[:redirect_from] ? "redirect_from:         #{redirect_base}/#{project[:redirect_from]}" : ""
+  redirect_from_en = project[:redirect_from] ? "redirect_from: /english#{redirect_base}/#{project[:redirect_from]}" : ""
+
   # Generate JA/EN project pages from projects.yml
   project[:thumbnail] ||= "#{project[:id]}.webp"
   path_ja = "./_posts/#{project[:year]}-09-01-#{project[:id]}.md"
@@ -39,6 +44,7 @@ projects.each_with_index do |project, index|
     permalink: /projects/#{project[:year]}/#{project[:id]}
     thumbnail: /assets/img/projects/#{project[:year]}/#{project[:thumbnail]}
     twitter_card: summary_large_image
+    #{redirect_from_ja}
     ---
   JA_PROJECT_FRONTMATTER
 
@@ -54,6 +60,7 @@ projects.each_with_index do |project, index|
     permalink: /english/projects/#{project[:year]}/#{project[:id]}
     thumbnail: /assets/img/projects/#{project[:year]}/#{project[:thumbnail]}
     twitter_card: summary_large_image
+    #{redirect_from_en}
     ---
   EN_PROJECT_FRONTMATTER
 
