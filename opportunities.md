@@ -2,6 +2,9 @@
 layout: post
 title: 他の支援プログラム
 description: 未踏ジュニア以外にも、あなたの「提案書」を評価してくれる支援プログラムがあります。より多くの応募者がチャンスを掴めるよう、本ページでは他の支援プログラムを紹介しています。
+redirect_from:
+  - /chance
+  - /chances
 ---
 
 <p style="text-align:center; padding: 50px 0px 40px; font-size: 99%;">
