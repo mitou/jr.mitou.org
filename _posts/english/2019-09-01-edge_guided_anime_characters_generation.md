@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2019/edge_guided_anime_characters_generation
 thumbnail: /assets/img/projects/2019/edge_guided_anime_characters_generation.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'edge_guided_anime_characters_generation'" | first %}

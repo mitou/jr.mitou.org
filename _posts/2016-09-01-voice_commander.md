@@ -7,6 +7,7 @@ description: |
 permalink: /projects/2016/voice_commander
 thumbnail: /assets/img/projects/2016/voice_commander.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'voice_commander'" | first %}

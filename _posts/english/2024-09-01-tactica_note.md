@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2024/tactica_note
 thumbnail: /assets/img/projects/2024/tactica_note.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'tactica_note'" | first %}

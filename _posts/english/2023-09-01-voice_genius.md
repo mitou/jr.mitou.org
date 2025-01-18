@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2023/voice_genius
 thumbnail: /assets/img/projects/2023/voice_genius.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'voice_genius'" | first %}

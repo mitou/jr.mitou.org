@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2022/nu_desktop
 thumbnail: /assets/img/projects/2022/nu_desktop.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'nu_desktop'" | first %}

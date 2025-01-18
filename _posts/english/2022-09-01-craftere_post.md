@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2022/craftere_post
 thumbnail: /assets/img/projects/2022/craftere_post.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'craftere_post'" | first %}

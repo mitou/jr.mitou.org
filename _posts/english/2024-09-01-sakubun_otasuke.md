@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2024/sakubun_otasuke
 thumbnail: /assets/img/projects/2024/sakubun_otasuke.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'sakubun_otasuke'" | first %}

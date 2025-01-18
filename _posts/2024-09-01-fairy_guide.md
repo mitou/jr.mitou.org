@@ -7,6 +7,7 @@ description: |
 permalink: /projects/2024/fairy_guide
 thumbnail: /assets/img/projects/2024/fairy_guide.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'fairy_guide'" | first %}

@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2020/brush_talk
 thumbnail: /assets/img/projects/2020/brush_talk.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'brush_talk'" | first %}

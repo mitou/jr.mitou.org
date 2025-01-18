@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2019/manage_stock
 thumbnail: /assets/img/projects/2019/manage_stock.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'manage_stock'" | first %}

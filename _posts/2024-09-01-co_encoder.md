@@ -7,6 +7,7 @@ description: |
 permalink: /projects/2024/co_encoder
 thumbnail: /assets/img/projects/2024/co_encoder.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'co_encoder'" | first %}

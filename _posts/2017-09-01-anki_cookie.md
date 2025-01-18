@@ -7,6 +7,7 @@ description: |
 permalink: /projects/2017/anki_cookie
 thumbnail: /assets/img/projects/2017/anki_cookie.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'anki_cookie'" | first %}

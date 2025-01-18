@@ -7,6 +7,7 @@ description: |
 permalink: /projects/2018/sound_in_the_forest
 thumbnail: /assets/img/projects/2018/sound_in_the_forest.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'sound_in_the_forest'" | first %}

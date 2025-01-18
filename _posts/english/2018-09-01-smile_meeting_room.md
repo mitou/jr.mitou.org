@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2018/smile_meeting_room
 thumbnail: /assets/img/projects/2018/smile_meeting_room.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'smile_meeting_room'" | first %}

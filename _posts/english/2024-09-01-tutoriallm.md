@@ -8,6 +8,7 @@ description: |
 permalink: /english/projects/2024/tutoriallm
 thumbnail: /assets/img/projects/2024/tutoriallm.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'tutoriallm'" | first %}

@@ -7,6 +7,7 @@ description: |
 permalink: /projects/2023/ai_4koma_maker
 thumbnail: /assets/img/projects/2023/ai_4koma_maker.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'ai_4koma_maker'" | first %}

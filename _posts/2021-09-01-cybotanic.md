@@ -7,6 +7,7 @@ description: |
 permalink: /projects/2021/cybotanic
 thumbnail: /assets/img/projects/2021/cybotanic.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'cybotanic'" | first %}

@@ -7,6 +7,7 @@ description: |
 permalink: /projects/2017/fall_in_friends
 thumbnail: /assets/img/projects/2017/fall_in_friends.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'fall_in_friends'" | first %}

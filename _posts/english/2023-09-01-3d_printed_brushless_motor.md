@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2023/3d_printed_brushless_motor
 thumbnail: /assets/img/projects/2023/3d_printed_brushless_motor.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == '3d_printed_brushless_motor'" | first %}

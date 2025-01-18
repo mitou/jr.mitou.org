@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2024/bento_color
 thumbnail: /assets/img/projects/2024/bento_color.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'bento_color'" | first %}

@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2018/camera_translation
 thumbnail: /assets/img/projects/2018/camera_translation.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'camera_translation'" | first %}

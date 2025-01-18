@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2024/picto_plate
 thumbnail: /assets/img/projects/2024/picto_plate.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'picto_plate'" | first %}

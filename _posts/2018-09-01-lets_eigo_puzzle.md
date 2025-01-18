@@ -7,6 +7,7 @@ description: |
 permalink: /projects/2018/lets_eigo_puzzle
 thumbnail: /assets/img/projects/2018/lets_eigo_puzzle.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'lets_eigo_puzzle'" | first %}

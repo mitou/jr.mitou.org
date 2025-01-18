@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2020/flight_fit_vr
 thumbnail: /assets/img/projects/2020/flight_fit_vr.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'flight_fit_vr'" | first %}

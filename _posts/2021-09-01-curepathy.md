@@ -7,6 +7,7 @@ description: |
 permalink: /projects/2021/curepathy
 thumbnail: /assets/img/projects/2021/curepathy.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'curepathy'" | first %}

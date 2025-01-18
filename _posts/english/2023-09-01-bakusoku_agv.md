@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2023/bakusoku_agv
 thumbnail: /assets/img/projects/2023/bakusoku_agv.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'bakusoku_agv'" | first %}

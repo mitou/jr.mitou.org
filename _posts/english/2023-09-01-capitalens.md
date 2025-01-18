@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2023/capitalens
 thumbnail: /assets/img/projects/2023/capitalens.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'capitalens'" | first %}

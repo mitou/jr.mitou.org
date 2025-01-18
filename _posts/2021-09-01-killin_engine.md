@@ -7,6 +7,7 @@ description: |
 permalink: /projects/2021/killin_engine
 thumbnail: /assets/img/projects/2021/killin_engine.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'killin_engine'" | first %}

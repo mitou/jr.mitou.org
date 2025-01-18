@@ -7,6 +7,7 @@ description: |
 permalink: /projects/2022/motion_rapid
 thumbnail: /assets/img/projects/2022/motion_rapid.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'motion_rapid'" | first %}

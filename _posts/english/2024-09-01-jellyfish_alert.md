@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2024/jellyfish_alert
 thumbnail: /assets/img/projects/2024/jellyfish_alert.webp
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'jellyfish_alert'" | first %}

@@ -9,6 +9,7 @@ description: |
 permalink: /english/projects/2022/scairecrow
 thumbnail: /assets/img/projects/2022/scairecrow.png
 twitter_card: summary_large_image
+
 ---
 
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'scairecrow'" | first %}
