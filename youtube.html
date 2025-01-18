@@ -22,7 +22,8 @@
     }
   }
 
-  // Redirect to the given redirect_to URL. If failed, redirect to the landing page upon browser language.
+  // Redirect to the given redirect.to URL. If failed, redirect to the landing page upon browser language.
+  // https://github.com/jekyll/jekyll-redirect-from#customizing-the-redirect-template
   if ("https://www.youtube.com/@MitouJr/streams" != ""){
     window.location.replace("https://www.youtube.com/@MitouJr/streams" + window.location.hash + window.location.search);
   }

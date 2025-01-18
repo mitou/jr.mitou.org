@@ -22,9 +22,10 @@
     }
   }
 
-  // Redirect to the given redirect_to URL. If failed, redirect to the landing page upon browser language.
-  if ("/projects/2022/fluxel" != ""){
-    window.location.replace("/projects/2022/fluxel" + window.location.hash + window.location.search);
+  // Redirect to the given redirect.to URL. If failed, redirect to the landing page upon browser language.
+  // https://github.com/jekyll/jekyll-redirect-from#customizing-the-redirect-template
+  if ("https://jr.mitou.org/projects/2022/fluxel" != ""){
+    window.location.replace("https://jr.mitou.org/projects/2022/fluxel" + window.location.hash + window.location.search);
   }
   else if (getBrowserLanguage().indexOf("ja") != -1) {
     window.location.replace("/");
