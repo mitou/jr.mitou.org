@@ -2,6 +2,8 @@
 layout: post
 title: チラシ配布のお願い
 description: 未踏ジュニアのチラシ配布にご協力いただける学校やスクール、CoderDojo などの方々を探しています。ご協力いただける場合は本ページ内にあるフォームよりご請求いただけると幸いです。
+redirect_from:
+  - /flyer
 ---
 
 <p style="padding: 50px 0px 60px;">
