@@ -2,6 +2,8 @@
 layout: post
 title: プライバシーポリシー
 description: 未踏ジュニアでは、利用者が安心してご応募および問い合わせ等をしていただくために、プライバシーポリシーに則って個人情報を適切に取り扱っています。
+redirect_from:
+  - /privacy-policy
 ---
 
 <br>

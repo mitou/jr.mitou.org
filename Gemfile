@@ -16,6 +16,7 @@ gem 'base64'
 
 group :jekyll_plugins do
   gem 'jekyll-feed'
+  gem 'jekyll-redirect-from'
   gem 'jekyll-include-cache'
   gem 'jekyll-minifier'
   gem 'jekyll-sitemap'

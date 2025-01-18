@@ -21,9 +21,10 @@
     }
   }
 
-  // Redirect to the given redirect_to URL. If failed, redirect to the landing page upon browser language.
-  if ("{{ page.redirect_to }}" != ""){
-    window.location.replace("{{ page.redirect_to }}" + window.location.hash + window.location.search);
+  // Redirect to the given redirect.to URL. If failed, redirect to the landing page upon browser language.
+  // https://github.com/jekyll/jekyll-redirect-from#customizing-the-redirect-template
+  if ("{{ page.redirect.to }}" != ""){
+    window.location.replace("{{ page.redirect.to | remove: '.html' }}" + window.location.hash + window.location.search);
   }
   else if (getBrowserLanguage().indexOf("ja") != -1) {
     window.location.replace("/");

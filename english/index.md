@@ -1,6 +1,8 @@
 ---
 layout: english
 nosnippet: true
+redirect_from:
+  - /index_en
 lang: en
 latest_en_year: 2024
 
