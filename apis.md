@@ -3,6 +3,8 @@ layout: post
 title: API 一覧（開発中）
 description: 未踏ジュニアWebサイトから利用できる内部向け API の一覧ページです。
 sitemap: false
+redirect_from:
+  - /api
 ---
 
 <br>
