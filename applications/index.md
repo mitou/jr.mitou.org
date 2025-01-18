@@ -2,6 +2,8 @@
 layout: post
 title: 提案書を準備しよう
 description: 応募書類（提案書）のテンプレートとサンプルを公開しています。応募するとき、または応募を検討する際にご活用ください。
+redirect_from:
+  - /download
 ---
 
 <br>
