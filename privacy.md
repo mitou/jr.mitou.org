@@ -73,9 +73,9 @@ redirect_from:
 当社では、個人情報の取得に関する変更、利用目的の変更、またはその他プライバシーポリシーを変更した際には、当社Webサイト（[jr.mitou.org](/)）への掲載または電子メールなどにより利用者に通知するものといたします。
 
 - これまでの変更履歴
-  - 改定: 2022年4月01日<small><small>（[&#8811; 変更箇所の概要を見る](https://github.com/mitou/jr.mitou.org/commit/3a4a2ea)）</small></small>
-  - 改定: 2020年6年28日<small><small>（[&#8811; 変更箇所の概要を見る](https://github.com/mitou/jr.mitou.org/commit/d33df69)）</small></small>
-  - 改定: 2018年4年15日<small><small>（[&#8811; 変更箇所の概要を見る](https://github.com/mitou/mitoujr/commit/2f06018#diff-af686d8c85fc49fb2492b96062876a1cad70cbb2dae234301d7daa435320aea4R111)）</small></small>
+  - 改定: 2022年4月01日<small><small>（[&raquo; 変更箇所の概要を見る](https://github.com/mitou/jr.mitou.org/commit/3a4a2ea)）</small></small>
+  - 改定: 2020年6年28日<small><small>（[&raquo; 変更箇所の概要を見る](https://github.com/mitou/jr.mitou.org/commit/d33df69)）</small></small>
+  - 改定: 2018年4年15日<small><small>（[&raquo; 変更箇所の概要を見る](https://github.com/mitou/mitoujr/commit/2f06018#diff-af686d8c85fc49fb2492b96062876a1cad70cbb2dae234301d7daa435320aea4R111)）</small></small>
   - 制定: 2016年3年10日
 
 
