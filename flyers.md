@@ -6,11 +6,12 @@ redirect_from:
   - /flyer
 ---
 
-<p style="padding: 50px 0px 60px;">
+<p style="padding: 50px 0px 40px;">
   未踏ジュニアのチラシ配布にご協力いただける学校やスクール、CoderDojo などの方々を探しています。<br>
   <br>
   <!--ご協力いただける場合は<a href="/assets/img/flyer_2024.pdf">PDF から印刷</a>または<a href="#form">下記フォームよりご請求</a>いただけると幸いです。-->
   ご協力いただける場合は、<a href="#apply">下記フォームよりチラシ送付先をご入力</a>いただけると幸いです。
+  <!--<a href="#apply" class='button'>チラシ配布に協力する</a>-->
 </p>
 
 
