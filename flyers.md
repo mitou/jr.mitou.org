@@ -9,12 +9,18 @@ redirect_from:
 <p style="padding: 50px 0px 60px;">
   未踏ジュニアのチラシ配布にご協力いただける学校やスクール、CoderDojo などの方々を探しています。<br>
   <br>
-  ご協力いただける場合は<a href="/assets/img/flyer_2024.pdf">PDF から印刷</a>または<a href="#form">下記フォームよりご請求</a>いただけると幸いです。
+  <!--ご協力いただける場合は<a href="/assets/img/flyer_2024.pdf">PDF から印刷</a>または<a href="#form">下記フォームよりご請求</a>いただけると幸いです。-->
+  ご協力いただける場合は、<a href="#apply">下記フォームよりチラシ送付先をご入力</a>いただけると幸いです。
 </p>
 
-<div id='sample' class='text-center'>
-  <a href='#sample'><i class="fas fa-scroll green"></i></a>
-  チラシのサンプル
+
+## [<i class="fas fa-scroll green"></i>](#sample) チラシのサンプル {#sample}
+
+<div class="note">以下は2024年度のチラシです。2025年度のチラシとは内容が異なる点にご注意ください。</div>
+
+<!--以下は2024年度のサンプルです。実際のチラシは年度ごとに異なります。-->
+
+<div id='sample' class='text-center' style='margin-top: 30px;'>
   <a href='/assets/img/flyer_2024.pdf'>
     <img class='flyer-sample lazyload' loading='lazy'
          src='/assets/img/spinner.svg' data-src='/assets/img/flyer_2024.png'
@@ -28,12 +34,12 @@ redirect_from:
   </small>
 </div>
 
-<h3 id='form' style='margin-top: 100px;'>
-  <a href='#form'><i class="fas fa-mailbox green"></i></a>
-  チラシ配布に協力する
-</h3>
+
+
+## [<i class="fas fa-mailbox green"></i>](#apply) チラシ配布に協力する {#apply}
+
 <div class='iframe-form'>
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdo_vNzso6LMRySa_OGfSVJFQOvDpjxwnGlfYcPUy5evWVlgQ/viewform?embedded=true" width="100%" class="iframe-form" frameborder="0" marginheight="0" marginwidth="0">読み込み中...</iframe>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfj_bnVsTv72SXGFejCs8ejbzdNQ9aMviBjjJHbpAfJfJQr8g/viewform?embedded=true" width="100%" class="iframe-form" frameborder="0" marginheight="0" marginwidth="0">読み込み中...</iframe>
 </div>
 
 <div class='flex'>
