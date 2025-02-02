@@ -1,0 +1,12 @@
+---
+---
+
+{% assign flyers = site.data.flyers | sort_by: year %}
+
+[ {% for flyer in flyers %}
+  {
+    "year"     : "{{ flyer.year }}",
+    "form_id"  : "{{ flyer.form_id }}",
+    "form_url" : "https://docs.google.com/forms/d/e/{{ flyer['form_id'] }}/viewform"
+  }{% unless forloop.last %},{% endunless %}{% endfor %}
+]
