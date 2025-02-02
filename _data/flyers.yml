@@ -1,0 +1,12 @@
+# チラシ配布のお知らせ
+# https://jr.mitou.org/flyers
+#
+#- year: 2025 # Available latest year
+#  form_id:   # Google Form ID
+#
+# チラシ画像は /assets/img/flyers/#{year}.webp
+# PDF 版画像は /assets/img/flyers/#{year}.pdf
+# を参照するので、それぞれ配置してください。
+
+- year: 2025
+  form_id: 1FAIpQLSfj_bnVsTv72SXGFejCs8ejbzdNQ9aMviBjjJHbpAfJfJQr8g
