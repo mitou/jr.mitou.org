@@ -44,15 +44,13 @@ redirect_from:
   <iframe src='https://docs.google.com/forms/d/e/{{ flyer["form_id"] }}/viewform?embedded=true' width='100%' class='iframe-form' frameborder='0' marginheight='0' marginwidth='0'>読み込み中...</iframe>
 </div>
 
+<div class="note"><small>「送信」ボタン押下後、画面が真っ白になったらページ上部にスクロールしてください。</small></div>
+
 <div class='flex'>
   <a class='button' target='_blank' rel='noopener'
       href='https://twitter.com/hashtag/未踏ジュニア?f=live'>ハッシュタグを見る</a>
   <a class='button' target='_blank' rel='noopener'
       href='https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/flyers&lang=jp&related=mitoujr'>ツイートする</a>
-</div>
-
-<div class="note">
-  「送信」ボタン押下後、画面が真っ白になったらページ上部にスクロールしてください。
 </div>
 
 <style>
@@ -79,7 +77,7 @@ redirect_from:
   @media screen and (max-width: 600px){
     .iframe-form{
       margin-left: -23px;
-      height: 2300px;
+      height: 2400px;
       width:  113%;
     }
   }
