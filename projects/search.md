@@ -59,7 +59,8 @@ redirect_from:
      success:              true,
      exclude:              ['assets', 'img', 'webp', 'projects'],
      searchResultTemplate: '<li><img class="lazyload" data-src="{thumbnail}" loading="lazy"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor}PM</small><br><code>{description}</code></li>',
-     noResultsText:        '検索結果が見つかりませんでした。'
+     noResultsText:        '検索結果が見つかりませんでした。',
+     debounceTime:         20
    });
 
    function getQueryParam(name) {
