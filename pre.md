@@ -25,7 +25,7 @@ description: 本ページから事前登録していただけると、未踏ジ�
 
 これにより「`気づいたら募集が終わってた... 😭💦`」といった事態を未然に防げます。
 
-<a href='https://prtimes.jp/main/html/searchrlp/company_id/22934' class='button'>過去の募集開始のお知らせを見る</a>
+<a href='/guideline' class='button'>募集開始後の流れを見る</a>
 
 <br>
 
