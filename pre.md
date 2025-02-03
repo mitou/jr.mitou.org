@@ -46,7 +46,7 @@ description: 本ページから事前登録していただけると、未踏ジ�
 
 <div class='note' style='margin: 30px auto 60px;'><small>貸与された API Key は<a href='/guideline#apply'>採択結果の通知日</a>までご使用いただけます。なお上記事項への違反などあれば予告なく API Key が無効化される場合もあります。あらかじめご了承いただけると幸いです。</small></div>
 
-<a href='https://jr.mitou.org/projects/search?q=AI#search' class='button'>過去の AI 活用例を見る</a>
+<a href='https://jr.mitou.org/projects/search?q=AI' class='button'>過去の AI 活用例を見る</a>
 
 <br>
 
