@@ -34,7 +34,7 @@ description: 本ページから事前登録していただけると、未踏ジ�
 
 2025年度では実験的に、希望する事前登録者への特典として、プロトタイプ開発などでご活用いただける [Azure OpenAI](https://azure.microsoft.com/ja-jp/products/ai-services/openai-service) の [API Key](https://www.google.com/search?q=Azure+OpenAI+API+Key) の貸与を実施する予定です。
 
-<div class='note'><small>1 Key あたり 10 ドルまで。API Key の発行まで2〜3日ほどお時間をいただく場合があります。</small></div>
+<div class='note' style='margin-top: 20px;'><small>1 Key あたり 10 ドルまで。API Key の発行まで2〜3日ほどお時間をいただく場合があります。</small></div>
 
 <br>
 
@@ -42,7 +42,9 @@ description: 本ページから事前登録していただけると、未踏ジ�
 
 1. [Azure AI サービスにおける AI の責任ある使用](https://learn.microsoft.com/ja-jp/azure/ai-services/responsible-use-of-ai-overview)に従うこと
 2. **事前に保護者から同意を得ること** <small>(参考: [文部科学省 - 生成AIの利活用に関するガイドライン](https://www.mext.go.jp/a_menu/other/mext_02412.html))</small>
-3. 未踏ジュニアへの応募以外の用途で使った場合、貸与された API Key が予告なく無効化されること
+3. 未踏ジュニアへの応募以外の用途では使わないこと
+
+<div class='note' style='margin: 30px auto 60px;'><small>貸与された API Key は<a href='/guideline#apply'>採択結果の通知日</a>までご使用いただけます。なお上記事項への違反などあれば予告なく API Key が無効化される場合もあります。あらかじめご了承いただけると幸いです。</small></div>
 
 <a href='https://jr.mitou.org/projects/search?q=AI#search' class='button'>過去の AI 活用例を見る</a>
 
