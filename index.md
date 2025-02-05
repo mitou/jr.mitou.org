@@ -101,14 +101,15 @@ this_year: 2024
 </section>
 
 
-<section id="media">
+<div id='media'><!-- ID for outdated links from outeside: media -> news --></div>
+<section id="news">
   <h2 class="heading-line">
-    <a href='#media'><i class="far fa-newspaper green"></i></a>
+    <a href='#news'><i class="far fa-newspaper green"></i></a>
     お知らせ
   </h2>
-  {% include media-list.html limit=5 %}
+  {% include news-list.html limit=5 %}
 
-  <a href="/media" class="button">すべて見る</a>
+  <a href="/news" class="button">すべて見る</a>
 </section>
 
 <section id="projects">

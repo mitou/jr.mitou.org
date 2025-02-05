@@ -2,6 +2,8 @@
 layout: post
 title: メディア掲載
 description: 本ページでは、未踏ジュニアに関するメディア掲載の事例をまとめています。
+redirect_from:
+  - /media
 ---
 
 
@@ -11,4 +13,4 @@ description: 本ページでは、未踏ジュニアに関するメディア掲�
 
 <br>
 
-{% include media-list.html %}
+{% include news-list.html %}

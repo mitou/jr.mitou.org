@@ -83,7 +83,7 @@ Creators who have shown their outstanding performance during MITOU Junior progra
 
 Our alumni are creating new values after the program as well. Here are a few examples.
 
-<ul class="list-none media-list">
+<ul class="list-none news-list">
   <li>
     <span class="media-pc-date pc-inline-b">CES 2023&nbsp;</span>
     <a href="https://www.ces.tech/ces-innovation-awards/2023/contact-glove/">
