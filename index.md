@@ -104,7 +104,7 @@ this_year: 2024
 <section id="media">
   <h2 class="heading-line">
     <a href='#media'><i class="far fa-newspaper green"></i></a>
-    メディア掲載
+    お知らせ
   </h2>
   {% include media-list.html limit=5 %}
 
