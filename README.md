@@ -25,9 +25,9 @@
 <div id='how-to-update-projects'><br></div>
 
 ## :rocket: プロジェクト情報を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) にプロジェクトの情報があります。
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) でプロジェクト情報を更新できます。
 
-それぞれの項目は以下のような内容です。
+更新できる情報は以下のとおりです。
 ```yml
 - id: 他のIDと重複しないID。例: visible
   title: プロジェクトのタイトル。例：Visible ─ Webアクセシビリティー診断 & 修正提案ツール
@@ -52,9 +52,9 @@
 <div id='how-to-update-creators'><br></div>
 
 ## :busts_in_silhouette: クリエータ情報を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) にクリエーターの情報があります。  
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) でクリエータ情報を更新できます。  
 
-それぞれの項目は以下のような内容です。
+更新できる情報は以下のとおりです。
 ```yml
 - id: クリエータのID。例: mihashi
   project_id: 開発したプロジェクトのID。例: utips
@@ -70,9 +70,9 @@
 <div id='how-to-update-mentors'><br></div>
 
 ## :bust_in_silhouette: メンター情報を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`mentors.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/mentors.yml) にメンターの情報があります。 
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`mentors.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/mentors.yml) でメンター情報を更新できます。
 
-それぞれの項目は以下のような内容です。
+更新できる情報は以下のとおりです。
 ```yml
 - id: メンターの ID (例: yohei_yasukawa)
   name:
@@ -91,20 +91,19 @@
 [&raquo; `mentors.yml` を更新する](https://github.com/mitou/jr.mitou.org/blob/main/_data/mentors.yml)
 
 
-<div id='how-to-update-media'><br></div>
+<div id='how-to-update-news'><br></div>
 
-## :bookmark_tabs: メディア掲載を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`media.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/media.yml) にメディア掲載記事の情報があります。  
-上が新しい情報になるように記述するとよいでしょう。
+## :bookmark_tabs: お知らせを更新したい
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`news.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/news.yml) でお知らせ記事を更新できます。
 
-それぞれの項目は以下のような内容です。
+更新できる情報は以下のとおりです。
 ```yml
 - title: 記事タイトル (例：「テクノロジー×好きなこと」で“未踏”の領域に挑む10代のトップクリエーターたち (こどもとIT))
   url: 記事ページのURL (例：https://www.watch.impress.co.jp/kodomo_it/news/1219499.html)
   date: 公開日 (例：2019/11/20)
 ```
 
-[&raquo; `media.yml` を更新する](https://github.com/mitou/jr.mitou.org/blob/main/_data/media.yml)
+[&raquo; `news.yml` を更新する](https://github.com/mitou/jr.mitou.org/blob/main/_data/news.yml)
 
 
 <div id='how-to-build'><br></div>
@@ -207,7 +206,7 @@ $ bundle exec rake test
 
 1. [README 冒頭にある手順](https://github.com/mitou/jr.mitou.org#readme)に沿って [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) の `is_spc: true` を追加する
 1. 上記の結果をベースに、スパクリの統計情報を [`_data/stats.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/stats.yml) に追加する
-1. プレスがあれば、プレス情報を [`_data/media.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/media.yml) に追加する
+1. プレスがあれば、プレス情報を[お知らせ](#how-to-update-news) ([`_data/news.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/news.yml) )に追加する
 1. 翌年度の開催が決定していれば、次回の募集要項（予定）を追加する ([追加例](https://github.com/mitou/jr.mitou.org/commit/7979630))
 1. 翌年度の開催が決定していれば、古くなった応募の手引きを更新する ([更新例](https://github.com/mitou/jr.mitou.org/commit/2c3243be))
 
