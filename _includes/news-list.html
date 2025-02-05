@@ -1,22 +1,22 @@
 
 <ul class="list-none news-list">
   {% if include.limit %}
-    {% for medium in site.data.news | limit: include.limit %}
+    {% for news in site.data.news | limit: include.limit %}
       <li>
-	<span class="news-pc-date pc-inline-b">{{ medium.date }}</span>
-	<a href="{{ medium.link }}">
-	  {{ medium.title }}
-	  <span class="ph-inline-b">- {{ medium.date }}</span>
+	<span class="news-pc-date pc-inline-b">{{ news.date }}</span>
+	<a href="{{ news.link }}">
+	  {{ news.title }}
+	  <span class="ph-inline-b">- {{ news.date }}</span>
 	</a>
       </li>
    {% endfor %}
   {% else %}
-    {% for medium in site.data.news %}
+    {% for news in site.data.news %}
       <li>
-	<span class="news-pc-date pc-inline-b">{{ medium.date }}</span>
-	<a href="{{ medium.link }}">
-	  {{ medium.title }}
-	  <span class="ph-inline-b">- {{ medium.date }}</span>
+	<span class="news-pc-date pc-inline-b">{{ news.date }}</span>
+	<a href="{{ news.link }}">
+	  {{ news.title }}
+	  <span class="ph-inline-b">- {{ news.date }}</span>
 	</a>
       </li>
    {% endfor %}
