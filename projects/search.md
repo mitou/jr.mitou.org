@@ -33,6 +33,7 @@ redirect_from:
     </div>
   </div>
 
+  <!-- Project Search -->
   <script src="/assets/js/simple-jekyll-search.js"></script>
   <script type="text/javascript">
    let placeholder_text = 'キーワードで検索する (例: ';
@@ -56,11 +57,21 @@ redirect_from:
      resultsContainer:     document.getElementById('search-results'),
      json:                 '/projects/search.json',
      limit:                20,
-     success:              true,
+
+     // JSONの読み込み完了後に success コールバック内で検索処理を実行する
+     success: function() {
+       const queryParamValue = getQueryParam('q');
+       if (queryParamValue) {
+         //setInputValue('search-input', queryParamValue);
+	 document.getElementById('search-input').value = queryParamValue;
+	 this.search(queryParamValue);
+       }
+     },
+
      exclude:              ['assets', 'img', 'webp', 'projects'],
      searchResultTemplate: '<li><img class="lazyload" data-src="{thumbnail}" loading="lazy"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor}PM</small><br><code>{description}</code></li>',
-     noResultsText:        '検索結果が見つかりませんでした。',
-     debounceTime:         20
+     // debounceTime:         400,
+     noResultsText:        '検索結果が見つかりませんでした。'
    });
 
    function getQueryParam(name) {
@@ -105,13 +116,7 @@ redirect_from:
 	 handleClick();
        });
      }
-
-     const queryParamValue = getQueryParam('q');
-     if (queryParamValue) {
-       setInputValue('search-input', queryParamValue);
-     }
    });
 
   </script>
-  <!-- Project Search -->
 </div>

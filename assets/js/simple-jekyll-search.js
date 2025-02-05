@@ -374,11 +374,22 @@ var _$src_8 = {};
   }
 
   function initWithURL (url) {
+    //_$JSONLoader_2.load(url, function (err, json) {
+    //  if (err) {
+    //    throwError('failed to get JSON (' + url + ')')
+    //  }
+    //  initWithJSON(json)
+    //})
     _$JSONLoader_2.load(url, function (err, json) {
       if (err) {
         throwError('failed to get JSON (' + url + ')')
       }
       initWithJSON(json)
+
+      // JSONの読み込み完了後に success コールバックを呼び出す
+      if (typeof options.success === 'function') {
+        options.success.call({ search: search });
+      }
     })
   }
 
