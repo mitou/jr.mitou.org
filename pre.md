@@ -19,18 +19,7 @@ description: 本ページから事前登録していただけると、未踏ジ�
 <br>
 
 
-### 募集開始時に、メールにてお知らせ
-
-本年度の未踏ジュニア募集が開始されたら、ご登録いただいたメールアドレスにメールでお知らせいたします。
-
-これにより「`気づいたら募集が終わってた... 😭💦`」といった事態を未然に防げます。
-
-<a href='/guideline' class='button'>募集開始後の流れを見る</a>
-
-<br>
-
-
-### プロトタイプ開発の支援
+### [<i class='fas fa-laptop-code green'></i>](#openai) プロトタイプ開発の支援 {#openai}
 
 2025年度では実験的に、希望する事前登録者への特典として、プロトタイプ開発などでご活用いただける [Azure OpenAI](https://azure.microsoft.com/ja-jp/products/ai-services/openai-service) の [API Key](https://www.google.com/search?q=Azure+OpenAI+API+Key) の貸与を実施する予定です。
 
@@ -47,6 +36,17 @@ description: 本ページから事前登録していただけると、未踏ジ�
 <div class='note' style='margin: 30px auto 60px;'><small>貸与された API Key は<a href='/guideline#apply'>採択結果の通知日</a>までご使用いただけます。なお上記事項への違反などあれば予告なく API Key が無効化される場合もあります。あらかじめご了承いただけると幸いです。</small></div>
 
 <a href='/projects/search?q=AI' class='button'>過去の AI 活用例を見る</a>
+
+<br>
+
+
+### [<i class='fas fa-envelope-circle-check green'></i>](#openai) 募集開始時に、メールにてお知らせ {#openai}
+
+本年度の未踏ジュニア募集が開始されたら、ご登録いただいたメールアドレスにメールでお知らせいたします。
+
+これにより「`気づいたら募集が終わってた... 😭💦`」といった事態を未然に防げます。
+
+<a href='/guideline' class='button'>募集開始後の流れを見る</a>
 
 <br>
 
