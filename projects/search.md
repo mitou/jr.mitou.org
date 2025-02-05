@@ -20,7 +20,7 @@ redirect_from:
   <a href="#" class="button" id="category-link">サンプル文で検索してみる</a>
 
   <!-- Project Search -->
-  <div class="search-position">
+  <div class="search-position" style='margin-bottom: 500px;'>
     <div class="search-block">
       <div class="search-block-input">
 	<span class="search-icon"></span>
