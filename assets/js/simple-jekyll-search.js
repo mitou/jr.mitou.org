@@ -316,7 +316,8 @@ var _$src_8 = {};
     loadingDelay: 300
   }
 
-  let debounceTimerHandle
+  let debounceTimerHandle;
+  let searchTimeoutHandle;  
   const debounce = function (func, delayMillis) {
     if (delayMillis) {
       clearTimeout(debounceTimerHandle)
@@ -419,6 +420,12 @@ var _$src_8 = {};
   //  }
   //}
   function search(query) {
+    // 前回の pending な検索タイマーがあればキャンセル
+    if (typeof searchTimeoutHandle !== 'undefined' && searchTimeoutHandle) {
+      clearTimeout(searchTimeoutHandle);
+      searchTimeoutHandle = null;
+    }
+      
     if (isValidQuery(query)) {
       // 結果エリアをクリアして、loadingText（例："検索中..."）を表示
       emptyResultsContainer();
@@ -427,7 +434,7 @@ var _$src_8 = {};
       }
 
       // 指定した遅延時間（loadingDelay）後に実際の検索を実行
-      setTimeout(function() {
+      searchTimeoutHandle = setTimeout(function() {
         emptyResultsContainer();  // loadingText をクリア
         var results = _$Repository_4.search(query);
         if (results.length === 0) {
@@ -436,6 +443,9 @@ var _$src_8 = {};
           render(results, query);
         }
       }, options.loadingDelay || 300);
+    } else {
+      // 入力が空の場合は、結果エリアをクリア
+      emptyResultsContainer();
     }
   }
 
