@@ -13,12 +13,12 @@ description: 本ページでは、未踏ジュニア修了生のインタビュ�
 
 <br>
 
-<ul class="list-none media-list">
+<ul class="list-none news-list">
   {% for interview in site.data.interviews %}
   {% assign creator = site.data.creators | find: 'id', interview.creator  %}
   {% assign project = site.data.projects | find: 'id', creator.project_id %}
   <li>
-    <span class="media-pc-date pc-inline-b">{{ interview.date }}</span>
+    <span class="news-pc-date pc-inline-b">{{ interview.date }}</span>
     <a href="/interviews/{{ creator.id }}">
       未踏ジュニア 修了生インタビュー
       ─

@@ -353,7 +353,7 @@ footer{
     }
   }
 }
-.media-pc-date{
+.news-pc-date{
   background-color: $main-color;
   color: #fff;
   padding: 4px 8px;
@@ -361,7 +361,7 @@ footer{
   font-weight: bold;
   margin-right: 12px;
 }
-.media-list{
+.news-list{
   li{
     padding: 4px 0;
   }
@@ -1134,7 +1134,7 @@ footer{
 }
 
 
-#about, #media, #faq, #supporters, #collaborators,#results{
+#about, #news, #faq, #supporters, #collaborators,#results{
   background-color: $lightgray;
 }
 .lets-apply{
