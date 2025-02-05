@@ -311,7 +311,9 @@ var _$src_8 = {};
     limit: 10,
     fuzzy: false,
     debounceTime: null,
-    exclude: []
+    exclude: [],
+    loadingText: '検索中...',
+    loadingDelay: 300
   }
 
   let debounceTimerHandle
@@ -410,10 +412,30 @@ var _$src_8 = {};
     })
   }
 
-  function search (query) {
+  //function search (query) {
+  //  if (isValidQuery(query)) {
+  //    emptyResultsContainer()
+  //    render(_$Repository_4.search(query), query)
+  //  }
+  //}
+  function search(query) {
     if (isValidQuery(query)) {
-      emptyResultsContainer()
-      render(_$Repository_4.search(query), query)
+      // 結果エリアをクリアして、loadingText（例："検索中..."）を表示
+      emptyResultsContainer();
+      if (options.loadingText) {
+        appendToResultsContainer(options.loadingText);
+      }
+
+      // 指定した遅延時間（loadingDelay）後に実際の検索を実行
+      setTimeout(function() {
+        emptyResultsContainer();  // loadingText をクリア
+        var results = _$Repository_4.search(query);
+        if (results.length === 0) {
+          appendToResultsContainer(options.noResultsText);
+        } else {
+          render(results, query);
+        }
+      }, options.loadingDelay || 300);
     }
   }
 

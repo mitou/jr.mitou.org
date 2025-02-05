@@ -71,7 +71,9 @@ redirect_from:
      exclude:              ['assets', 'img', 'webp', 'projects'],
      searchResultTemplate: '<li><img class="lazyload" data-src="{thumbnail}" loading="lazy"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor}PM</small><br><code>{description}</code></li>',
      // debounceTime:         400,
-     noResultsText:        '検索結果が見つかりませんでした。'
+     noResultsText:        '検索結果が見つかりませんでした。',
+     loadingText:          '検索中...',
+     loadingDelay:         1000
    });
 
    function getQueryParam(name) {
