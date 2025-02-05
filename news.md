@@ -1,15 +1,15 @@
 ---
 layout: post
-title: メディア掲載
-description: 本ページでは、未踏ジュニアに関するメディア掲載の事例をまとめています。
+title: お知らせ一覧
+description: 本ページでは、未踏ジュニアに関するお知らせ一覧（メディア掲載含む）の情報をまとめています。
 redirect_from:
   - /media
 ---
 
 
-## [<i class="fa-light fa-newspaper"></i>](#index)  メディア掲載一覧 {#index}
+## [<i class="fa-light fa-newspaper"></i>](#index)  お知らせ一覧 {#index}
 
-本ページでは、未踏ジュニアに関するメディア掲載の事例などをまとめています。
+本ページでは、未踏ジュニアに関するお知らせ一覧（メディア掲載含む）の情報をまとめています。
 
 <br>
 

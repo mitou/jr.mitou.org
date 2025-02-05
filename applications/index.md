@@ -198,7 +198,7 @@ redirect_from:
 
 上記の他にも、メディアに掲載されたクリエータのインタビュー記事もあります。
 
-<!-- 以下はメディア掲載されたインタビュー記事 -->
+<!-- 以下はお知らせ (/news) に掲載されたインタビュー記事 -->
 <ul>
   <!-- テンプレート（コピペ用）
   <li><a href='#'>Title <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/20xx/'>PJ Title</a>）</small></li>
@@ -226,7 +226,7 @@ redirect_from:
   </li>
 </ul>
 
-<a href="/media" class="button">他のメディア掲載を見る</a>
+<a href="/news" class="button">他のメディア掲載を見る</a>
 
 
 ## [<i class="fa-light fa-list-check"></i>](#ready) 準備できた? {#ready}
