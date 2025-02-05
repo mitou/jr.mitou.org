@@ -1,5 +1,6 @@
+{% assign news_by_date = site.data.news | sort: 'date' | reverse %}
 <ul class="list-none news-list">
-  {% for news in site.data.news %}
+  {% for news in news_by_date %}
   <li>
     <span class="news-pc-date pc-inline-b">{{ news.date }}</span>
     <a href="{{ news.link }}">
