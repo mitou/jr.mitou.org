@@ -1,24 +1,12 @@
-
 <ul class="list-none news-list">
-  {% if include.limit %}
-    {% for news in site.data.news | limit: include.limit %}
-      <li>
-	<span class="news-pc-date pc-inline-b">{{ news.date }}</span>
-	<a href="{{ news.link }}">
-	  {{ news.title }}
-	  <span class="ph-inline-b">- {{ news.date }}</span>
-	</a>
-      </li>
-   {% endfor %}
-  {% else %}
-    {% for news in site.data.news %}
-      <li>
-	<span class="news-pc-date pc-inline-b">{{ news.date }}</span>
-	<a href="{{ news.link }}">
-	  {{ news.title }}
-	  <span class="ph-inline-b">- {{ news.date }}</span>
-	</a>
-      </li>
-   {% endfor %}
-  {% endif %}
+  {% for news in site.data.news %}
+  <li>
+    <span class="news-pc-date pc-inline-b">{{ news.date }}</span>
+    <a href="{{ news.link }}">
+      {{ news.title }}
+      <span class="ph-inline-b">- {{ news.date }}</span>
+    </a>
+  </li>
+  {% if include.limit and include.limit == forloop.index %}{% break %}{% endif %}
+  {% endfor %}
 </ul>
