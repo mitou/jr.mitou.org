@@ -3,7 +3,7 @@
   <li>
     <span class="news-pc-date pc-inline-b">{{ news.date }}</span>
     <a href="{{ news.link }}">
-      {{ news.title }}
+      {{ news.title }}{% unless news.link contains 'http' %} (公式){% endunless%}
       <span class="ph-inline-b">- {{ news.date }}</span>
     </a>
   </li>
