@@ -101,7 +101,7 @@ redirect_from:
 
 
 ## [<i class="fa-light fa-users"></i>](#story) 採択者の体験談 {#story}
-未踏ジュニア採択者（クリエータ）による体験談もあります。こちらも合わせてご参考になれば幸いです。カッコ内はプロジェクト名です。
+採択者（クリエータ）による体験談もあります。こちらも合わせてご参考になれば幸いです。カッコ内はプロジェクト名です。
 
 <ul>
   {% for interview in site.data.interviews %}
