@@ -192,6 +192,17 @@ redirect_from:
     </a><br>
     <small>（<a href='/projects/2020/critica'>critica - 手軽で直感的なリアクション回収ツール</a>）</small>
   </li>
+  <li>
+    【要約版】
+    <a href='https://x.com/blu3mo/status/1886417320912035964'>
+      ChatGPTのDeep Researchによる「採択されるTips」まとめ
+      <i class="fa-solid fa-up-right-from-square"></i>
+    </a><br>
+    <small>（<a href='https://www.ipa.go.jp/archive/jinzai/mitou/it/2020/qv6pgp0000002ce7-att/000090477.pdf'><i class="fa-solid fa-up-right-from-square"></i>
+      Kineto - 時間を操作する映像型ノート</a>）※
+      <a href='/opportunities#ipa-mitou'>IPA 未踏</a>採択者
+    </small>
+  </li>
 </ul>
 
 <br>
