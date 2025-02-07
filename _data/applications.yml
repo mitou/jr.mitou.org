@@ -103,3 +103,17 @@
 #  link: 
 #  type: story
 
+# 採択者のメディア掲載
+# https://jr.mitou.org/applications/#news
+- project_id: draw_code
+  title: 中学2年生にしてiPhoneアプリを5本リリース、毎日1アイデアを考える未踏ジュニアスーパークリエータ
+  link: https://edtechzine.jp/article/detail/780
+  type: news
+- project_id: vamboo
+  title: '高校生なのにエンジニアインターン!? ほぼ不登校から大学受験もプログラミングで突破した未踏ジュニアスーパークリエータ'
+  link: https://edtechzine.jp/article/detail/829
+  type: news
+- project_id: toubans
+  title: 「50センチ革命」の先にあるものとは。未踏ジュニアからLINE BOOT AWARDSグランプリ受賞、SXSW Eduでもピッチをした未踏ジュニアスーパークリエータ
+  link: https://edtechzine.jp/article/detail/1976
+  type: news

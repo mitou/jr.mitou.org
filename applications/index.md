@@ -117,34 +117,23 @@ redirect_from:
 
 <br>
 
+<div id='news'></div>
+
 上記の他にも、メディアに掲載されたクリエータのインタビュー記事もあります。
 
 <!-- 以下はお知らせ (/news) に掲載されたインタビュー記事 -->
 <ul>
-  <!-- テンプレート（コピペ用）
-  <li><a href='#'>Title <i class="fa-solid fa-up-right-from-square"></i></a> <small>（<a href='/projects/20xx/'>PJ Title</a>）</small></li>
-  -->
+  {% assign application_news_list = site.data.applications | where: 'type', 'news' %}
+  {% for application_news in application_news_list %}
+  {% assign project = site.data.projects | find: 'id', application_news.project_id %}
   <li>
-    <a href='https://edtechzine.jp/article/detail/780'>
-      中学2年生にしてiPhoneアプリを5本リリース、毎日1アイデアを考える未踏ジュニアスーパークリエータ
+    <a href='{{ application_news.link }}' title='{{ application_news.title }}'>
+      {{ application_news.title }}
       <i class="fa-solid fa-up-right-from-square"></i>
     </a><br>
-    <small>（<a href='/projects/2017/draw_code'>DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜</a>）</small>
+    <small>（<a href='/projects/{{ project.year }}/{{ project.id }}'>{{ project.title }}</a>）</small>
   </li>
-  <li>
-    <a href='https://edtechzine.jp/article/detail/829'>
-      高校生なのにエンジニアインターン!? ほぼ不登校から大学受験もプログラミングで突破した未踏ジュニアスーパークリエータ
-      <i class="fa-solid fa-up-right-from-square"></i>
-    </a><br>
-    <small>（<a href='/projects/2017/vamboo'>FRPの概念に触れられるビジュアルプログラミング言語の開発</a>）</small>
-  </li>
-  <li>
-    <a href='https://edtechzine.jp/article/detail/1976'>
-      「50センチ革命」の先にあるものとは。未踏ジュニアからLINE BOOT AWARDSグランプリ受賞、SXSW Eduでもピッチをした未踏ジュニアスーパークリエータ
-      <i class="fa-solid fa-up-right-from-square"></i>
-    </a><br>
-    <small>（<a href='/projects/2018/toubans'>Toubans! -LINEで設定・通知できる当番お知らせサービス</a>）</small>
-  </li>
+  {% endfor %}
 </ul>
 
 <a href="/news" class="button">他のメディア掲載を見る</a>
