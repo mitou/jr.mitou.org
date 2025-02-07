@@ -50,3 +50,56 @@
   title: プロジェクト提案書ってどう書くの？
   link: https://scrapbox.io/nishio/プロジェクト提案書ってどう書くの？
   type: tips
+
+# 採択者の体験談
+# （公式インタビュー記事は自動追加のため不要）
+# https://jr.mitou.org/applications/#story
+- project_id: jellyfish_alert
+  title: 未踏ジュニア2024を終えて
+  link: https://note.com/sh_o4964/n/n07afe27ab5bc
+  type: story
+- project_id: stask
+  title: 未踏ジュニア振り返り
+  link: https://zenn.dev/toshihiro_tange/articles/mitoujr-advent-calendar-2023
+  type: story
+- project_id: sanitas
+  title: 未踏ジュニア振り返り・提案書
+  link: https://qiita.com/MasudaHinata/items/b686009b0e741d30cf01
+  type: story
+- project_id: cybotanic
+  title: 採択されるために私が意識したこと/アドバイス
+  link: https://note.com/ricksh/n/n5fa51f9142b2
+  type: story
+- project_id: skimer
+  title: スーパークリエータに認定されたりアプリ甲子園で準優勝したりするまで
+  link: https://note.com/anharu/n/ne00c1e774a29
+  type: story
+- project_id: ai_4koma_maker
+  title: 未踏ジュニアの振り返り
+  link: https://note.com/k1ut_/n/nbc541a9b6dc1
+  type: story
+- project_id: mark_sdgs
+  title: 未踏ジュニアの振り返り
+  link: https://note.com/redapple0414/n/nd20c49794b79
+  type: story
+- project_id: noxicel
+  title: 未踏ジュニア振り返り・提案書
+  link: https://note.com/alicelavanderdev/n/nb528b1bdbb93
+  type: story
+- project_id: a9n
+  title: 未踏ジュニアに応募しよう
+  link: https://horizon2k38.hatenablog.com/entry/2024/06/01/103142
+  type: story
+- project_id: code_museum
+  title: 未踏ジュニアがついに終わったので苦悩と成功の半年間をまとめる
+  link: https://zenn.dev/waryu/articles/mitoujr-2023-waryu
+  type: story
+- project_id: critica
+  title: 未踏ジュニア振り返りと、技術力に差があるチーム開発の僕なりの攻略方法
+  link: https://note.com/inoue2002/n/nfb57cd6825a4
+  type: story
+#- project_id: 
+#  title: 
+#  link: 
+#  type: story
+
