@@ -93,7 +93,7 @@
 
 <div id='how-to-update-news'><br></div>
 
-## :bookmark_tabs: お知らせを更新したい
+## :newspaper: お知らせを更新したい
 [`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`news.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/news.yml) でお知らせ記事を更新できます。
 
 更新できる情報は以下のとおりです。
@@ -104,6 +104,22 @@
 ```
 
 [&raquo; `news.yml` を更新する](https://github.com/mitou/jr.mitou.org/blob/main/_data/news.yml)
+
+
+<div id='how-to-update-applications'><br></div>
+
+## :bookmark_tabs: 提案書ページを更新したい
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`applications.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/applications.yml) で[提案書ページ](https://jr.mitou.org/applications/)を更新できます。
+
+更新できる情報は
+
+- 提案書のサンプル https://jr.mitou.org/applications/#sample
+- 提案書のコツ     https://jr.mitou.org/applications/#tips
+- 採択者の体験談   https://jr.mitou.org/applications/#story
+
+など多岐にわたります。
+
+[&raquo; `applications.yml` を更新する](https://github.com/mitou/jr.mitou.org/blob/main/_data/applications.yml)
 
 
 <div id='how-to-build'><br></div>
