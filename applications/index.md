@@ -52,48 +52,17 @@ redirect_from:
 [未踏ジュニアのメンター](/mentors)が応募者に向けて書いた記事です。提案書を良くするヒントになれば嬉しいです。カッコ内はメンター名です。
 
 <ul>
+  {% assign application_tips = site.data.applications | where: 'type', 'tips' %}
+  {% for application_tip in application_tips %}
+  {% assign mentor = site.data.mentors | find: 'id', application_tip.mentor_id %}
   <li>
-    <a href='https://medium.com/@ukkaripon/なぜ-未踏-は多くの若い世代に知られるべきなのか-1fb31ac9fda3'>なぜ「未踏」は多くの若い世代に知られるべきなのか
+    <a href='{{ application_tip.link }}' title='{{ application_tip.title }}'>
+      {{ application_tip.title }}
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
-    <small>（<a href='/mentors#yu_ukai'>鵜飼</a>）</small>
+    <small>（<a href='/mentors#{{ mentor.id }}'>{{ mentor.name.last }}</a>）</small>
   </li>
-  <li>
-    <a href='https://speakerdeck.com/yasulab/believe-in-your-passion'>多様なメンター、多様な基準
-      <i class="fa-solid fa-up-right-from-square"></i>
-    </a>
-    <small>（<a href='/mentors#yohei_yasukawa'>安川</a>）</small>
-  </li>
-  <li>
-    <a href='https://note.com/yoshifumiseki/n/n1e928281d7dc'>未踏ジュニアにおけるよい提案資料の書き方、もしくはアイデアの伝え方と評価について
-      <i class="fa-solid fa-up-right-from-square"></i>
-    </a>
-    <small>（<a href='/mentors#yoshifumi_seki'>関</a>）</small>
-  </li>
-  <li>
-    <a href='https://zenn.dev/reputeless/articles/idea-mitoujr'>未踏ジュニア、伝わる提案書を作る 5 つのコツ
-      <i class="fa-solid fa-up-right-from-square"></i>
-    </a>
-    <small>（<a href='/mentors#ryo_suzuki'>鈴木</a>）</small>
-  </li>
-  <li>
-    <a href='https://note.com/teramotodaiki/n/n148d35899016'>提案書のよくある「もったいない」点の紹介
-      <i class="fa-solid fa-up-right-from-square"></i>
-    </a>
-    <small>（<a href='/mentors#daiki_teramoto'>寺本</a>）</small>
-  </li>
-  <li>
-    <a href='https://scrapbox.io/nishio/プロジェクト提案書ってどう書くの？'>プロジェクト提案書ってどう書くの？
-      <i class="fa-solid fa-up-right-from-square"></i>
-    </a>
-    <small>（<a href='/mentors#hirokazu_nishio'>西尾</a>）</small>
-  </li>
-  <li>
-    <a href='https://twitter.com/nishio/status/1640626474108727299'>中高生のための ChatGPT (GPT-4)
-      <i class="fa-solid fa-up-right-from-square"></i>
-    </a>
-    <small>（<a href='/mentors#hirokazu_nishio'>西尾</a>）</small>
-  </li>
+  {% endfor %}
 </ul>
 
 上記の他にも、メンターから応募者に向けたメッセージがあります。詳しくは下記ページをご確認ください。

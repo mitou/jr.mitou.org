@@ -24,3 +24,29 @@
 - project_id: abecobe
   type: sample
 
+# メンターによる提案書のコツ
+# https://jr.mitou.org/applications/#tips
+- mentor_id: yu_ukai
+  title: なぜ「未踏」は多くの若い世代に知られるべきなのか
+  link: https://medium.com/@ukkaripon/なぜ-未踏-は多くの若い世代に知られるべきなのか-1fb31ac9fda3
+  type: tips
+- mentor_id: yohei_yasukawa
+  title: 多様なメンター、多様な基準
+  link: https://speakerdeck.com/yasulab/believe-in-your-passion
+  type: tips
+- mentor_id: yoshifumi_seki
+  title: 未踏ジュニアにおけるよい提案資料の書き方、もしくはアイデアの伝え方と評価について
+  link: https://note.com/yoshifumiseki/n/n1e928281d7dc
+  type: tips
+- mentor_id: ryo_suzuki
+  title: 未踏ジュニア、伝わる提案書を作る 5 つのコツ
+  link: https://zenn.dev/reputeless/articles/idea-mitoujr
+  type: tips
+- mentor_id: daiki_teramoto
+  title: 提案書のよくある「もったいない」点の紹介
+  link: https://note.com/teramotodaiki/n/n148d35899016
+  type: tips
+- mentor_id: hirokazu_nishio
+  title: プロジェクト提案書ってどう書くの？
+  link: https://scrapbox.io/nishio/プロジェクト提案書ってどう書くの？
+  type: tips
