@@ -29,7 +29,8 @@ redirect_from:
 過去の採択された提案書を一部公開しています。毎年フォーマットが異なりますが、採択された提案書のサンプルとしてご参考になれば幸いです。<small>(最新順)</small>
 
 <ul>
-  {% for application_sample in site.data.application_samples %}
+  {% assign application_samples = site.data.applications | where: 'type', 'sample' %}
+  {% for application_sample in application_samples %}
   {% assign project = site.data.projects | where: 'id', application_sample.id | first %}
   <li><a href='/projects/{{ project.year }}/{{ project.id }}' title='{{ project.description }}'>{{ project.title }}</a><small>（<a href='/applications/samples/{{ project.id }}.pdf'>&raquo; 提案書を見る</a>）</small></li>
   {% endfor %}

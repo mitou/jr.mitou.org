@@ -1,13 +1,24 @@
+
+
 # 未踏ジュニア応募者向け提案書サンプル (最新順)
 # https://jr.mitou.org/applications/#sample
-
 - id: jellyfish_alert
+  type: sample
 - id: tactica_note
+  type: sample
 - id: niwangojs
+  type: sample
 - id: mer
+  type: sample
 - id: noxicel
+  type: sample
 - id: flight_fit_vr
+  type: sample
 - id: visible
+  type: sample
 - id: det_exploit
+  type: sample
 - id: amoyo
+  type: sample
 - id: abecobe
+  type: sample
