@@ -31,7 +31,7 @@ redirect_from:
 <ul>
   {% assign application_samples = site.data.applications | where: 'type', 'sample' %}
   {% for application_sample in application_samples %}
-  {% assign project = site.data.projects | where: 'id', application_sample.id | first %}
+  {% assign project = site.data.projects | find: 'id', application_sample.project_id %}
   <li><a href='/projects/{{ project.year }}/{{ project.id }}' title='{{ project.description }}'>{{ project.title }}</a><small>（<a href='/applications/samples/{{ project.id }}.pdf'>&raquo; 提案書を見る</a>）</small></li>
   {% endfor %}
 </ul>

@@ -1,24 +1,26 @@
+# 未踏ジュニア - 提案書を準備しよう
+# https://jr.mitou.org/applications/
 
-
-# 未踏ジュニア応募者向け提案書サンプル (最新順)
+# 応募者向け提案書サンプル (最新順)
 # https://jr.mitou.org/applications/#sample
-- id: jellyfish_alert
+- project_id: jellyfish_alert
   type: sample
-- id: tactica_note
+- project_id: tactica_note
   type: sample
-- id: niwangojs
+- project_id: niwangojs
   type: sample
-- id: mer
+- project_id: mer
   type: sample
-- id: noxicel
+- project_id: noxicel
   type: sample
-- id: flight_fit_vr
+- project_id: flight_fit_vr
   type: sample
-- id: visible
+- project_id: visible
   type: sample
-- id: det_exploit
+- project_id: det_exploit
   type: sample
-- id: amoyo
+- project_id: amoyo
   type: sample
-- id: abecobe
+- project_id: abecobe
   type: sample
+
