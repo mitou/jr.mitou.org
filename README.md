@@ -25,7 +25,7 @@
 <div id='how-to-update-projects'><br></div>
 
 ## :rocket: プロジェクト情報を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) でプロジェクト情報を更新できます。
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) で[プロジェクト情報](https://jr.mitou.org/projects/)を更新できます。
 
 更新できる情報は以下のとおりです。
 ```yml
@@ -52,7 +52,7 @@
 <div id='how-to-update-creators'><br></div>
 
 ## :busts_in_silhouette: クリエータ情報を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) でクリエータ情報を更新できます。  
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) でクリエータ情報を更新できます。(※ 個別ページはありません)  
 
 更新できる情報は以下のとおりです。
 ```yml
@@ -70,7 +70,7 @@
 <div id='how-to-update-mentors'><br></div>
 
 ## :bust_in_silhouette: メンター情報を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`mentors.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/mentors.yml) でメンター情報を更新できます。
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`mentors.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/mentors.yml) で[メンター情報](https://jr.mitou.org/mentors/)を更新できます。
 
 更新できる情報は以下のとおりです。
 ```yml
@@ -94,7 +94,7 @@
 <div id='how-to-update-news'><br></div>
 
 ## :newspaper: お知らせを更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`news.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/news.yml) でお知らせ記事を更新できます。
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`news.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/news.yml) で[お知らせ記事](https://jr.mitou.org/news)を更新できます。
 
 更新できる情報は以下のとおりです。
 ```yml
