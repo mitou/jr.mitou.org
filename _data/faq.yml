@@ -25,15 +25,15 @@
   q_en: If accepted, what support can I get?
   a_en: An assigned mentor will support development scheduling and development issues once a week for about one hour. Also, up to <a href='https://www.google.com/search?q=500,000+Yen+to+USD'>500K Yen</a> is given per project to cover all the development costs. In addition, there are events at which all participants come together (such as Kickoff Camp and Demo Day) and get feedback from project managers and other MITOU-related personnel and experts related to projects.
 
-- q: 地方在住なのですが、合宿や成果報告会に参加するための交通費は支給されますか？
-  a: はい、プロジェクト期間中の公式イベントへの交通費と合宿の費用は、各プロジェクトの開発予算とは別に支給されます。
-  q_en: I live outside Tokyo in Japan. Will the transportation fee be covered to attend camps and the demo day?
-  a_en: Aside from the project development cost, transportation and camp costs for official events will be covered.
+- q: 地方や海外在住なのですが、合宿や成果報告会に参加するための交通費は支給されますか？
+  a: 日本国内に居住の場合、プロジェクト期間中の公式イベントへの交通費と合宿の費用は、各プロジェクトの開発予算とは別に支給されます。海外に居住の場合、日本までの渡航費は支給されません。
+  q_en: I live outside Tokyo in Japan or overseas. Will the transportation fee be covered to attend camps and the demo day?
+  a_en: Aside from the project development cost, transportation and camp costs for official events will be covered if you live in Japan. If you live abroad, the transportation cost to Japan is not covered.
 
 - q: 入院中・海外在住などの理由で合宿や報告会への参加が難しいのですが、応募はできますか？
-  a: 問題ありません。インターネット電話サービスなどを使ってイベントでの発表や現地参加者との意見交換・交流ができるよう環境を整えます。海外から合宿や報告会に参加するための日本への往復旅費（経済的かつ合理的な範囲）は開発予算とは別に支給されます。
+  a: ブースト合宿か中間合宿のどちらかには現地で参加をいただく必要があります。もし、入院など何らかの合理的な理由で参加が難しい場合は、採択時に申告をお願いします。
   q_en: It is hard to attend presentations because of hospitalization or living abroad. Can I still apply?
-  a_en: No problem. An environment will be set up to present and talk with participants during events using internet calling services. The round trip cost from overseas (in economical and rational range) will be given in addition to the development fee.
+  a_en: You are required to attend either the Boost Camp or the Midterm Camp in person. However, if you have a reasonable reason, such as hospitalization, that makes it difficult to attend, please inform us at the time of selection.
 
 - q: 学校でアルバイトが禁止されているのですが、応募はできますか？
   a: 未踏ジュニアの開発費支援は、あくまで開発に必要な機材・ソフトウェアを購入するための予算です。労働の対価として支払われる給料ではないため、アルバイトにはあたりません。

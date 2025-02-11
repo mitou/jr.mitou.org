@@ -13,6 +13,19 @@ thumbnail: /assets/img/schedule.webp
 ## [<i class="fa-light fa-calendar-clock"></i>](#agenda) 採択後のスケジュール {#agenda}
 <img src="/assets/img/spinner.svg" data-src="/assets/img/schedule.png" alt="採択後のスケジュール" width="100%" class="post-photo lazyload">
 
+<div class="tips">以下、2025年度の暫定スケジュールです。</div>
+
+<ul class="list-agenda">
+  <!--<li><strong>〆切日:</strong> 2025年4月6日 23:59 応募〆切</li>-->
+  <li><strong>ブースト合宿:</strong> 2025年6月14-15日@東京都内</li>
+  <li><strong>中間合宿:</strong> 2025年8月23-24日@東京都内</li>
+  <li><strong>成果報告会:</strong> 2025年11月上旬@東京都内</li>
+  <li><strong>参加費:</strong> 無料 (海外居住の場合を除き、イベント参加の為の交通費・宿泊費も支給されます)</li>
+  <ul>
+    <li>海外居住の場合は、日本までの渡航費は支給されません。</li>
+    <li>海外在住者も含むすべての採択者について、<a href='./schedule'>ブースト合宿か中間合宿</a>のどちらかには現地で参加をいただく必要があります。もし、入院など何らかの合理的な理由で参加が難しい場合は、採択時に申告をお願いします。</li>
+  </ul>
+</ul>
 
 ## [<i class="fa-light fa-comments"></i>](#meeting) メンター・ミーティング {#meeting}
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/mtg.svg" alt="ミーティング" width="50%" class="post-photo lazyload">
