@@ -13,11 +13,6 @@ description: 未踏ジュニアへの応募から採択までの流れをまと�
 
 {% include agenda.html %}
 
-<a href='https://prtimes.jp/main/html/searchrlp/company_id/22934' class='button'>これまでの募集告知を見る</a>
-
-<br>
-
-
 ## [<i class="fa-light fa-mailbox"></i>](#apply) 応募から採択までの流れ {#apply}
 
 <div class="note">以下は2024年度の流れです。2025年度の流れは2月〜3月頃に公開予定です。</div><br>
