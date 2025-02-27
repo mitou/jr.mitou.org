@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  Stats of MITOU Junior
+description: This page provides statistics on the MITOU Junior program, including the number of applications, selected projects, and acceptance rate. Feel free to use and share this information. In {{ site.data.stats[0].year }}, we received {{ site.data.stats[0].applications }} applications and supported {{ site.data.stats[0].projects }} projects, resulting in an acceptance rate of {{ site.data.stats[0].competition_rate }}%.
+thumbnail: /assets/img/stats.webp
 lang:   en
 ---
 
@@ -58,8 +60,8 @@ lang:   en
 
 <script src="https://code.highcharts.com/highcharts.js"></script>
 
-
-<p style='margin-top: 50px;'>This page shows the stats of MITOU Junior, which includes the number of applications, selected projects, and its acceptance rate. Feel free to use and share these information.</p>
+{% assign current_stat = site.data.stats[0] %}
+<p style='margin-top: 50px;'>This page provides statistics on the MITOU Junior program, including the number of applications, selected projects, and acceptance rate. Feel free to use and share this information.<br><br>In {{ current_stat.year }}, we received <b>{{ current_stat.applications }} applications</b> and supported <b>{{ current_stat.projects }} projects</b>, resulting in an acceptance rate of <b>{{ current_stat.competition_rate }}%</b>.</p>
 
 <center><small>( <i class="fas fa-mouse-pointer green"></i> Place the cursor or tap to check the number.)</small></center>
 
@@ -250,7 +252,29 @@ MITOU Junior program in {{ stat.year }} is now in progress. Number of creators a
 
 {% endfor %}
 
-## Contact
+
+## [<i class="fa-light fa-chart-user"></i>](#total) Cumulative Data {#total}
+<p style='margin-top: 50px;'>
+  The cumulative data from fiscal year 2016 to {{ current_stat.year }} is as follows:
+  {% assign total_applications = 0 %}
+  {% assign total_projects = 0 %}
+  {% assign total_creators = 0 %}
+  {% assign total_spcs     = 0 %}
+  {% for stat in site.data.stats %}
+    {% assign total_applications = total_applications | plus: stat.applications %}
+    {% assign total_projects     = total_projects     | plus: stat.projects     %}
+    {% assign total_creators     = total_creators     | plus: stat.creators     %}
+  {% endfor %}
+  <ul>
+    <li>Total applications submitted: <b>{{ total_applications }}</b></li>
+    <li>Total projects selected:      <b>{{ total_projects     }}</b></li>
+    <li>Total creators supported:     <b>{{ total_creators     }}</b></li>
+  </ul>
+</p>
+
+<a href="/english/projects" class="button">See projects showcase</a>
+
+## [<i class="fa-light fa-envelope"></i>](#contact) Contact {#contact}
 
 <div style="margin-top: 50px;">
   <p>Let us know if you have any questions or interests to the MITOU Junior program.</p>
