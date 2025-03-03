@@ -54,7 +54,7 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 {% include arrow.html %}
 
 
-### 5. インタビュー [<i class="fa-light fa-microphone-stand"></i>](#interview)（2025年4月32日〜5月6日） {#interview}
+### 5. インタビュー [<i class="fa-light fa-microphone-stand"></i>](#interview)（2025年4月23日〜5月6日） {#interview}
 あなたの提案書に興味を持ったメンターが、**オンラインで 30 分程度のインタビュー**を行います。**5分間の発表時間**を設けるので、提案書の内容をまとめた発表スライドをご準備いただけると幸いです。発表後、メンターからいくつか質問をさせていただきます。採択可否の結果はその場では通知されません。
 
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/mtg.svg" alt="ミーティング" width="50%" class="post-photo lazyload">
