@@ -148,7 +148,7 @@ this_year: 2024
       {% if mentor.is_alumni %} {% continue %} {% endif %}
       <a href="/mentors#{{ mentor.id }}" class="mentor-list-one">
         <img src="/assets/img/spinner.svg" data-src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" class="lazyload" loading="lazy">
-	<p class="mentor-list-name">{{ mentor.name.last }} <span class="pc-inline-b">{{ mentor.name.first }}</span></p>
+	<p class="mentor-list-name">{{ mentor.name.last }} <span class="ignore-sp">{{ mentor.name.first }}</span></p>
 	<p class="mentor-list-af pc">{{ mentor.affiliation }}</p>
       </a>
     {% endfor %}
