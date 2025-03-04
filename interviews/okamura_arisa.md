@@ -204,7 +204,7 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 <div class='flex'>
   <a class='button' href='/projects/2022/noxicel'>成果報告会の発表を見る</a>
   <a class='button' href='/applications/#story'>他の採択者の体験談を見る</a>
-  <a class='button' href='https://twitter.com/intent/tweet?text=未踏ジュニア修了生インタビュー ─ 岡村 有紗さん&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url=https://jr.mitou.org/interviews/okamura_arisa.html' target="_blank">ツイートする</a>
+  <a class='button' href='https://twitter.com/intent/tweet?text=未踏ジュニア修了生インタビュー ─ 岡村 有紗さん&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url=https://jr.mitou.org/interviews/okamura_arisa' target="_blank">ツイートする</a>
 </div>
 
 <br>

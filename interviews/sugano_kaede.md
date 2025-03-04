@@ -170,7 +170,7 @@ U-22プログラミングコンテストの審査員に未踏関係者が何人�
 <div class='flex'>
   <a class='button' href='/projects/2017/narratica'>成果報告会の発表を見る</a>
   <a class='button' href='/applications/#story'>他の採択者の体験談を見る</a>
-  <a class='button' href='https://twitter.com/intent/tweet?text=未踏ジュニア修了生インタビュー ─ 菅野 楓さん&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url=https://jr.mitou.org/interviews/sugano_kaede.html' target="_blank">ツイートする</a>
+  <a class='button' href='https://twitter.com/intent/tweet?text=未踏ジュニア修了生インタビュー ─ 菅野 楓さん&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url=https://jr.mitou.org/interviews/sugano_kaede' target="_blank">ツイートする</a>
 </div>
 
 <br>
