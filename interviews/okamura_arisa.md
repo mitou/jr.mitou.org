@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 未踏ジュニア <br class='ignore-pc'>修了生インタビュー<br> ─ 岡村 有紗さん<br class='ignore-pc'>（2022年度）
+title: 未踏ジュニア <br class='ignore-pc'>修了生インタビュー<br> ─ 岡村 有紗さん
 thumbnail: /assets/img/interviews/okamura_arisa_1.webp
 description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。金尾真樹斗さんと2人でチームを組み「Noxicel - 英作文とAIを用いた英単語学習アプリ」というプロジェクトに取り組みました。本ページでは当時の様子について伺った話をまとめています。
 ---
@@ -198,12 +198,13 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 <br>
 
 <div class="tips">
-  岡村さん達の成果報告会の発表も公開されておりますので、よければぜひ!
+  成果報告会の発表も公開されておりますので、よければぜひ!
 </div>
 
 <div class='flex'>
-  <a href="/projects/2022/noxicel" class="button">岡村さんの発表を見る</a>
-  <a href="https://twitter.com/intent/tweet?text=未踏ジュニア 修了生インタビュー ─ 岡村 有紗さん（2022年度）&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url=https://jr.mitou.org/interviews/okamura_arisa.html" class="button" target="_blank" rel="noopener">ツイートする</a>
+  <a class='button' href='/projects/2022/noxicel'>成果報告会の発表を見る</a>
+  <a class='button' href='/applications/#story'>他の採択者の体験談を見る</a>
+  <a class='button' href='https://twitter.com/intent/tweet?text=未踏ジュニア修了生インタビュー ─ 岡村 有紗さん&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url=https://jr.mitou.org/interviews/okamura_arisa' target="_blank">ツイートする</a>
 </div>
 
 <br>
