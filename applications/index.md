@@ -86,7 +86,8 @@ redirect_from:
     <a href="/interviews/{{ creator.id }}">
       【公式】修了生インタビュー
       ─
-      {{ creator.name }}さん（{{ creator.year }}年度）
+      {{ creator.name }}さん
+      <!--（{{ creator.year }}年度）-->
     </a><br>
     <small>（<a href='/projects/{{ project.year }}/{{ project.id }}'>{{ project.title }}</a>）</small>
   </li>

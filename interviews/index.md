@@ -9,7 +9,7 @@ description: 本ページでは、未踏ジュニア修了生のインタビュ�
 
 本ページでは、未踏ジュニアの全行程を修了した採択者（修了生）のインタビュー記事をまとめています。
 
-<small>（カッコ内は採択プロジェクト名です）</small>
+<!--<small>（カッコ内は採択プロジェクト名です）</small>-->
 
 <br>
 
@@ -22,11 +22,12 @@ description: 本ページでは、未踏ジュニア修了生のインタビュ�
     <a href="/interviews/{{ creator.id }}">
       未踏ジュニア 修了生インタビュー
       ─
-      {{ creator.name }}さん（{{ creator.year }}年度）
+      {{ creator.name }}さん
+      <!--({{ creator.year }}年度)-->
       <!--<span class="ph-inline-b">- {{ interview.date }}</span>-->
     </a>
     <br>
-    <small>（<a href='/projects/{{ project.year }}/{{ project.id }}'>{{ project.title }}</a>）</small>
+    <small>採択プロジェクト『<a href='/projects/{{ project.year }}/{{ project.id }}'>{{ project.title }}</a>』</small>
   </li>
   {% endfor %}
 </ul>
