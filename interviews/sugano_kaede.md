@@ -1,25 +1,22 @@
 ---
 layout: post
 title: 未踏ジュニア <br class='ignore-pc'>修了生インタビュー<br> ─ 菅野 楓さん
-thumbnail: /assets/img/projects/2017/narratica.webp
+thumbnail: /assets/img/interviews/sugano_kaede_1.webp
 description: 菅野楓さんは、2017年度の未踏ジュニア修了生。映画の脚本をテキスト分析してストーリーを評価する「narratica〜ストーリーコンサルタント〜」というプロジェクトに取り組みました。本記事では、当時の様子について伺った話をまとめています。
 ---
 
 <br>
 
+<img class="top-img lazyloaded" loading="lazy"
+     style="border-radius: 6px; border-width: 5px; border-style: solid; border-color: #28a13a;"
+      src="/assets/img/interviews/sugano_kaede_1.webp"
+ data-src="/assets/img/interviews/sugano_kaede_1.webp"
+      alt="菅野さんと narratica〜ストーリーコンサルタント〜"
+    title="菅野さんと narratica〜ストーリーコンサルタント〜">
+
 菅野楓さんは、2017年度の未踏ジュニア修了生。映画の脚本をテキスト分析してストーリーを評価する「[narratica〜ストーリーコンサルタント〜](/projects/2017/narratica)」というプロジェクトに取り組みました。本記事では、当時の様子について伺った話をまとめています。
 
 <br>
-
-<a href='/projects/2017/narratica'>
-  <img class="top-img lazyloaded" loading="lazy"
-       style="border-radius: 6px; border-width: 5px; border-style: solid; border-color: #28a13a;"
-        src="/assets/img/projects/2017/narratica.webp"
-   data-src="/assets/img/projects/2017/narratica.webp"
-        alt="narratica〜ストーリーコンサルタント〜"
-      title="narratica〜ストーリーコンサルタント〜">
-</a>
-
 
 ## 新しいものを学ぶことが楽しかった
 
