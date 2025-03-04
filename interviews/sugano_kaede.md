@@ -37,7 +37,7 @@ U-22プログラミングコンテストの審査員に未踏関係者が何人�
 
 その後、中学校に入学するぐらいの頃に、未踏ジュニアキャンプ（※1）に参加しました。
 
-そこで、そのとき持っていたアイデアを、（未踏ジュニアのメンターである）[安川さん](http://localhost:4000/mentors/#yohei_yasukawa)と[西尾さん](/mentors/#hirokazu_nishio)に相談したところ、「ここをもっとこうすると面白いんじゃないか」みたいなアドバイスをもらいました。この経験が、未踏ジュニアに直結したと思っています。
+そこで、そのとき持っていたアイデアを、（未踏ジュニアのメンターである）[安川さん](/mentors#yohei_yasukawa)と[西尾さん](/mentors/#hirokazu_nishio)に相談したところ、「ここをもっとこうすると面白いんじゃないか」みたいなアドバイスをもらいました。この経験が、未踏ジュニアに直結したと思っています。
 
 <img class="top-img lazyloaded" loading="lazy"
      style="border-radius: 6px; border-width: 5px; border-style: solid; border-color: #28a13a; margin: 30px auto 10px;"
