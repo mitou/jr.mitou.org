@@ -41,8 +41,8 @@ U-22プログラミングコンテストの審査員に未踏関係者が何人�
 
 <img class="top-img lazyloaded" loading="lazy"
      style="border-radius: 6px; border-width: 5px; border-style: solid; border-color: #28a13a; margin: 30px auto 10px;"
-      src="https://www.mitou.org/projects/mitou_jr/images/image009.jpg"
- data-src="https://www.mitou.org/projects/mitou_jr/images/image009.jpg"
+      src="/assets/img/interviews/sugano_kaede_2.jpg"
+ data-src="/assets/img/interviews/sugano_kaede_2.jpg"
       alt="2017年度 未踏ジュニアキャンプの様子"
     title="2017年度 未踏ジュニアキャンプの様子">
 
