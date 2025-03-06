@@ -184,7 +184,7 @@ U-22プログラミングコンテストの審査員に未踏関係者が何人�
 <div align='center' style='margin: 50px auto;'>（了）</div>
 
 <div align='right' style='font-size: smaller;'>
-  公開日：2025年3月4日<br>
+  公開日：2025年3月6日<br>
   文責：風穴 江（<a href='https://x.com/windhole'>@windhole</a>）<br>
   インタビュー協力：<a href='/mentors#yohei_yasukawa'>安川 要平</a>、<a href='/mentors#yu_ukai'>鵜飼 佑</a>
 </div>
