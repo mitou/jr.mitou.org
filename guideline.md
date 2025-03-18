@@ -35,7 +35,9 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 
 ### 2. 提案書を作成する [<i class="fa-light fa-pencil"></i>](#proposal) {#proposal}
 開発するプロジェクトと、自身の開発経験などを提案書に記入します。
+
 <a href="/applications" class="button">提案書を準備する</a>
+
 {% include arrow.html %}
 
 
@@ -44,7 +46,10 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 
 <a href="https://forms.gle/dBbqBQvEMKwTpDig6" class="button" target="_blank">応募フォームを見る</a>
 
+<div class="note">「応募が締め切られた」という旨のエラー画面が出る場合や、応募時にエラーになる場合、学校などのGoogleアカウントが学校側の設定によって外部のGoogleフォームをブロックしている可能性があります。アカウントを切り替える、ログアウトする、<a href='https://www.google.com/search?q=ブラウザ+シークレットモード'>シークレットモードで開く</a>などの方法で解決する事例が報告されています。ご参考になれば幸いです。</div><br>
+
 {% include arrow.html %}
+
 
 
 ### 4. 書類選考の結果通知 [<i class="fa-light fa-envelope-circle-check"></i>](#first-feedback)（2025年4月17日ごろ） {#first-feedback}
@@ -66,13 +71,17 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 
 ### 6. 追加インタビュー期間 [<i class="fa-light fa-comments-question"></i>](#interview-more)（2025年5月7日〜5月13日） {#interview-more}
 メンターによっては、この期間に追加の質問や、追加のインタビューを希望する場合があります。
+
 {% include arrow.html %}
 
 
 ### 7. 採択結果の通知 [<i class="fa-light fa-envelope-dot"></i>](#second-feedback)（2025年5月18日） {#second-feedback}
 インタビュー期間終了後、**5月18日 (日曜)** に採択結果がメールで届きます。
+
 <div class="tips">結果を受け取れるよう、mitou.orgドメインからの迷惑メール解除設定をしておいてください。</div><br>
+
 {% include arrow.html %}
+
 
 ### 8. ブースト合宿 [<i class="fa-light fa-handshake"></i>](#boost-your-project) {#boost-your-project}
 **採択、おめでとうございます！**
