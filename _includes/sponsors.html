@@ -13,7 +13,7 @@
 
   {% for sponsor in platinum_sponsors %}
   {% if forloop.first %}
-  <h3 id='sponsor-platinum' style='margin-top: 50px;'>{{ site.data.translations.sponsorPlatinum[lang] }}</h3>
+  <h3 id='sponsors-platinum' style='margin-top: 50px;'>{{ site.data.translations.sponsorPlatinum[lang] }}</h3>
   <div class="sponsors-list-platinum">
   {% endif %}
     {% if lang == 'ja' or sponsor.link_en == nil %}

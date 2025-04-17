@@ -106,11 +106,11 @@
   link:    https://prog-8.com/
   link_en: https://progate.com/
 
-- name: Ruby on Railsチュートリアル
-  img:  railstutorial.webp
+- name: Recursion
+  img:  recursion.webp
   type: inkind
-  link:    https://railstutorial.jp
-  link_en: https://yasslab.jp/en
+  link:    https://recursionist.io/
+  link_en: https://recursionist.io/
 
 - name: Helpfeel
   img:  helpfeel.webp
@@ -135,6 +135,12 @@
   type: inkind
   link:    https://case-shinjuku.com/2023/03/17/34326
   link_en: https://case-shinjuku.com/english
+
+- name: Ruby on Railsチュートリアル
+  img:  railstutorial.webp
+  type: inkind
+  link:    https://railstutorial.jp
+  link_en: https://yasslab.jp/en
 
 
 # 後援団体 - Supportors
