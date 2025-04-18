@@ -34,3 +34,9 @@ description: 大学の募集要項やプレスリリースなどで未踏ジュ�
   <a class='button' href='/projects'>採択例を見る</a>
   <a class='button' href='/english'>英語版を見る</a>
 </div>
+
+<hr style='margin: 100px auto 100px auto;'>
+
+<div class='flex'>
+  <a href='https://twitter.com/intent/tweet?text=大学と未踏ジュニア&hashtags=未踏ジュニア&url=https://jr.mitou.org/admissions&lang=jp&related=mitoujr' class='button'>ツイートする</a>
+</div>
