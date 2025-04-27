@@ -46,12 +46,36 @@
      },
 
      exclude:              ['assets', 'img', 'webp', 'projects'],
-     searchResultTemplate: '<li><img class="lazyload" data-src="{thumbnail}" loading="lazy"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor}PM</small><br><code>{description}</code></li>',
+     searchResultTemplate: '<li><img class="lazyload" data-src="{thumbnail}" loading="lazy"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor}PM ({year})</small><br><code>{description}</code></li>',
      // debounceTime:         400,
      noResultsText:        '検索結果が見つかりませんでした。',
      loadingText:          '検索中...',
-     loadingDelay:         800
+     loadingDelay:         800,
+
+     // Mark hit keywords
+     templateMiddleware: function(prop, value, template) {
+       const query = document.getElementById('search-input').value.trim();
+       if (query && typeof value === 'string') {
+	 // 加工対象を限定する
+	 const highlightTargets = ['title', 'description', 'creators', 'mentor', 'year'];
+
+	 if (highlightTargets.includes(prop)) {
+	   const keywords = query.split(/\s+/).filter(Boolean);
+	   if (keywords.length === 0) return value;
+
+	   const regex = new RegExp('(' + keywords.map(escapeRegExp).join('|') + ')', 'gi');
+	   return value.replace(regex, '<mark>$1</mark>');
+	 }
+       }
+
+       return value; // 加工対象じゃないならそのまま返す
+     }
    });
+
+   // 正規表現エスケープ用の関数
+   function escapeRegExp(string) {
+     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+   }
 
    function getQueryParam(name) {
      const  urlSearchParams = new URLSearchParams(window.location.search);
