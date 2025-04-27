@@ -34,6 +34,18 @@ redirect_from:
   </div>
 
   <!-- Project Search -->
+  <style>
+    .loading-skeleton {
+      width: 100%;
+      background: linear-gradient(90deg, #eee, #ddd, #eee);
+      background-size: 200% 100%;
+      animation: loading 1.5s infinite;
+    }
+    @keyframes loading {
+      from { background-position: 200% 0; }
+      to { background-position: -200% 0; }
+    }
+  </style>
   <script src="/assets/js/simple-jekyll-search.js"></script>
   <script type="text/javascript">
    let placeholder_text = 'キーワードで検索する (例: ';
@@ -72,7 +84,7 @@ redirect_from:
      searchResultTemplate: '<li><img class="lazyload" data-src="{thumbnail}" loading="lazy"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor}PM ({year})</small><br><code>{description}</code></li>',
      // debounceTime:         400,
      noResultsText:        '検索結果が見つかりませんでした。',
-     loadingText:          '検索中...',
+     loadingText:          '<div class="loading-skeleton">検索中...</div>',
      loadingDelay:         800,
 
      // Mark hit keywords
