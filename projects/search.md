@@ -42,9 +42,23 @@ redirect_from:
       animation: loading 1.5s infinite;
     }
     @keyframes loading {
-      from { background-position: 200% 0; }
-      to { background-position: -200% 0; }
+      from { background-position:  200% 0; }
+      to   { background-position: -200% 0; }
     }
+
+    .search-result {
+      line-height:   1.6;
+      margin-bottom: 2rem; /* 各プロジェクトの下にも適度な間隔 */
+    }
+    .search-result-title {
+      line-height: 0em !important;
+    }
+    .search-result-description code {
+      margin-top: 1em;
+      font-size:  1em;
+      line-height: 1.6;
+    }
+
   </style>
   <script src="/assets/js/simple-jekyll-search.js"></script>
   <script type="text/javascript">
@@ -81,7 +95,7 @@ redirect_from:
      },
 
      exclude:              ['assets', 'img', 'webp', 'projects'],
-     searchResultTemplate: '<li><img class="lazyload" data-src="{thumbnail}" loading="lazy"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor}PM ({year})</small><br><code>{description}</code></li>',
+     searchResultTemplate: '<li class="search-result"><img class="lazyload" data-src="{thumbnail}" loading="lazy"><span class="search-result-title"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor}PM ({year})</small><br></span><code class="search-result-description">{description}</code></li>',
      // debounceTime:         400,
      noResultsText:        '検索結果が見つかりませんでした。',
      loadingText:          '<div class="loading-skeleton">検索中...</div>',
