@@ -242,9 +242,36 @@ Highcharts.chart('rates', {
 </script>
 
 
-<!-- 年度別の採択プロジェクトの統計情報 -->
-<div class="projects">
+<!-- 累計の統計情報 -->
+## [<i class="fa-light fa-users-medical"></i>](#total) 累計データ {#total}
+<p style='margin-top: 50px;'>
+  2016年度から{{ current_stat.year }}年度までの累計データは以下のとおりです。
+  {% assign total_applications = 0 %}
+  {% assign total_projects = 0 %}
+  {% assign total_creators = 0 %}
+  {% assign total_spcs  = 0 %}
+  {% for stat in site.data.stats %}
+    {% assign total_applications = total_applications | plus: stat.applications %}
+    {% assign total_projects     = total_projects     | plus: stat.projects     %}
+    {% assign total_creators     = total_creators     | plus: stat.creators     %}
+  {% endfor %}
+  <ul>
+    <li>これまでの累計応募件数: {{ total_applications }} 件</li>
+    <li>採択したプロジェクト数: {{ total_projects     }} 件</li>
+    <li>採択したクリエータ人数: {{ total_creators     }} 名</li>
+  </ul>
+</p>
 
+<a href="/projects/showcase" class="button">採択プロジェクトを見る</a>
+
+
+<!-- 年次の統計情報 -->
+## [<i class="fa-light fa-chart-user"></i>](#annual) 年次データ {#annual}
+<p style='margin-top: 50px;'>
+  2016年度から{{ current_stat.year }}年度までの年次データは以下のとおりです。
+</p>
+
+<div class="projects">
 {% for stat in site.data.stats %}
   <a href="#{{ stat.year }}">
     <h3 id='{{ stat.year }}' style='margin-top: 70px;'>
@@ -286,29 +313,7 @@ Highcharts.chart('rates', {
 </div>
 
 
-## [<i class="fa-light fa-chart-user"></i>](#total) 累計データ {#total}
-<p style='margin-top: 50px;'>
-  2016年度から{{ current_stat.year }}年度までの累計データは以下のとおりです。
-  {% assign total_applications = 0 %}
-  {% assign total_projects = 0 %}
-  {% assign total_creators = 0 %}
-  {% assign total_spcs  = 0 %}
-  {% for stat in site.data.stats %}
-    {% assign total_applications = total_applications | plus: stat.applications %}
-    {% assign total_projects     = total_projects     | plus: stat.projects     %}
-    {% assign total_creators     = total_creators     | plus: stat.creators     %}
-  {% endfor %}
-  <ul>
-    <li>これまでの累計応募件数: {{ total_applications }} 件</li>
-    <li>採択したプロジェクト数: {{ total_projects     }} 件</li>
-    <li>採択したクリエータ人数: {{ total_creators     }} 名</li>
-  </ul>
-</p>
-
-<a href="/projects/showcase" class="button">採択プロジェクトを見る</a>
-
-
-## [<i class="fa-light fa-book"></i>](#total) 他の統計情報 {#references}
+## [<i class="fa-light fa-book"></i>](#references) 他の統計情報 {#references}
 
 IPA が運営する[25歳未満を対象とした未踏事業](/opportunities#ipa-mitou)や、[年齢制限の無い未踏アドバンスト事業](/opportunities#ipa-mitou-advanced)の統計情報については以下のページからご確認いただけます。
 
