@@ -532,6 +532,13 @@ footer{
     padding-right: 16px;
     margin-right: 12px;
   }
+
+  // スマホではインデントを外す
+  @media screen and (max-width: $phone-width) {
+    padding: 16px 1em;
+    text-indent: 0;
+    padding-left: 1em;
+  }
 }
 .wip{
   border: dotted 5px $main-color;
@@ -547,6 +554,12 @@ footer{
     padding-right: 16px;
     margin-right: 12px;
   }
+  // スマホではインデントを外す
+  @media screen and (max-width: $phone-width) {
+    &::before { padding-right: 8px; }
+    text-indent:  0;
+    padding-left: 1em;
+  }
 }
 .note{
   border: dotted 5px $main-color;
@@ -556,7 +569,7 @@ footer{
   padding-left: 4em;
   text-indent: -3em;
   text-align: left;
-  &::before{
+  &::before {
     border-right: solid 4px $main-color;
     content: '\f14a';
     color: $main-color;
@@ -566,7 +579,16 @@ footer{
     padding-right: 16px;
     margin-right: 12px;
   }
+  img { width: 100%; }
+
+  // スマホではインデントを外す
+  @media screen and (max-width: $phone-width) {
+    &::before { padding-right: 8px; }
+    text-indent:  0;
+    padding-left: 1em;
+  }
 }
+
 .quote{
   border: ridge 1px $main-color;
   border-radius: 8px;
@@ -587,6 +609,13 @@ footer{
     height: 100%;
     padding-right: 16px;
     margin-right: 12px;
+  }
+
+  // スマホではインデントを外す
+  @media screen and (max-width: $phone-width) {
+    &::before { padding-right: 0px; }
+    text-indent:   0;
+    padding-left:  1em;
   }
 }
 

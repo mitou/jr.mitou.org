@@ -41,7 +41,8 @@ redirect_from:
   {% endfor %}
 </ul>
 
-<div class='note' style='margin: 30px auto 50px;'><small>提案書の状態から約６ヶ月間の支援を得た結果が<a href='/final'>成果報告会</a>での発表となります。最初から完成している必要はありません。有志のクリエータが応募者のために公開しているサンプルが、提案書の準備に役立てば嬉しいです。<br><br><a href='/assets/img/schedule_sample.png'><img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" width="100%" class="lazyload" style='margin: 0px 0px; '></a></small></div>
+<div class='note' style='margin: 30px auto 50px;'><small>提案書の状態から約６ヶ月間の支援を得た結果が<a href='/final'>成果報告会</a>での発表となります。最初から完成している必要はありません。有志のクリエータが応募者のために公開しているサンプルが、提案書の準備に役立てば嬉しいです。<br><br><a href='/assets/img/schedule_sample.png'><img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" class="lazyload"></a></small></div>
+
 
 <a href='/projects' class='button'>他の採択例を見る</a>
 
