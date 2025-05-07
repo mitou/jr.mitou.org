@@ -1,7 +1,7 @@
 ---
 layout: post
 title: |
-  提案書サンプル &raquo;<br>Mer - 多機能電子リコーダー
+  提案書サンプル &raquo; <br>Mer - 多機能電子リコーダー
 description: |
   未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。
 thumbnail: /assets/img/projects/2020/mer.webp
