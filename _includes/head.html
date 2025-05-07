@@ -107,11 +107,11 @@
   {% endif %}
 
   <!-- Helpfeel -->
-  {% if page.url contains '/guideline'    or
-        page.url contains '/applications' or
-        page.url contains '/schedule'     or
-        page.url contains '/about'        or
-        page.url contains '/q-box'  %}
+  {% if page.url == '/guideline.html' or
+        page.url == '/applications/'  or
+        page.url == '/schedule.html'  or
+        page.url == '/about.html'     or
+        page.url == '/q-box.html'  %}
   <script src="https://helpfeel.com/projects/js/helpfeel-element.js" data-project-name="mitoujr" defer></script>
   {% endif %}
 </head>
