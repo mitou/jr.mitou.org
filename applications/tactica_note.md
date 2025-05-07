@@ -21,5 +21,5 @@ thumbnail: /assets/img/projects/2024/
 </div>
 
 <div class='flex'>
-  <a href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20{{ page.title | escape }}&hashtags=未踏ジュニア&url={{ site.url }}{{ page.url | replace_last: ".html", "" }}&lang=jp&related=mitoujr' class='button'>ツイートする</a>
+  <a href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート&hashtags=未踏ジュニア&url={{ site.url }}{{ page.url | replace_last: ".html", "" }}&lang=jp&related=mitoujr' class='button'>ツイートする</a>
 </div>

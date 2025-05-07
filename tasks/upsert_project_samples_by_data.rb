@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'yaml'
+require 'cgi'
 
 # Remove existing sample pages. They are re-generated later.
 Dir.glob("./applications/*.md"  ).each { File.delete(it) unless it.split('/').last.start_with? 'index.md' }
@@ -37,7 +38,7 @@ project_samples.each_with_index do |project, index|
     </div>
 
     <div class='flex'>
-      <a href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20{{ page.title | escape }}&hashtags=未踏ジュニア&url={{ site.url }}{{ page.url | replace_last: ".html", "" }}&lang=jp&related=mitoujr' class='button'>ツイートする</a>
+      <a href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20#{CGI.escapeHTML project[:title]}&hashtags=未踏ジュニア&url={{ site.url }}{{ page.url | replace_last: ".html", "" }}&lang=jp&related=mitoujr' class='button'>ツイートする</a>
     </div>
   PROJECT_SAMPLE_PAGE
 

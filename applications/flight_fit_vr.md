@@ -21,5 +21,5 @@ thumbnail: /assets/img/projects/2020/flight_fit_vr.webp
 </div>
 
 <div class='flex'>
-  <a href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20{{ page.title | escape }}&hashtags=未踏ジュニア&url={{ site.url }}{{ page.url | replace_last: ".html", "" }}&lang=jp&related=mitoujr' class='button'>ツイートする</a>
+  <a href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品&hashtags=未踏ジュニア&url={{ site.url }}{{ page.url | replace_last: ".html", "" }}&lang=jp&related=mitoujr' class='button'>ツイートする</a>
 </div>
