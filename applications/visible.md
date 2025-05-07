@@ -1,7 +1,7 @@
 ---
 layout: post
 title: |
-  提案書サンプル - Visible ─ Webアクセシビリティー診断 & 修正提案ツール
+  提案書サンプル &raquo;<br>Visible ─ Webアクセシビリティー診断 & 修正提案ツール
 description: |
   未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。
 thumbnail: /assets/img/projects/2020/visible.webp

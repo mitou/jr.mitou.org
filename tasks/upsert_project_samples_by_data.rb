@@ -17,7 +17,7 @@ project_samples.each_with_index do |project, index|
     ---
     layout: post
     title: |
-      提案書サンプル - #{project[:title]}
+      提案書サンプル &raquo;<br>#{project[:title]}
     description: |
       未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。
     thumbnail: /assets/img/projects/#{project[:year]}/#{project[:thumbnail]}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: |
-  提案書サンプル - abecobe - シンプルかつ難しいパズルゲーム
+  提案書サンプル &raquo;<br>abecobe - シンプルかつ難しいパズルゲーム
 description: |
   未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。
 thumbnail: /assets/img/projects/2019/abecobe.webp

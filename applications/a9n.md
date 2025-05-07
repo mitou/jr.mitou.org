@@ -1,7 +1,7 @@
 ---
 layout: post
 title: |
-  提案書サンプル - A9N: HALを用いて移植容易性を実現するマイクロカーネル
+  提案書サンプル &raquo;<br>A9N: HALを用いて移植容易性を実現するマイクロカーネル
 description: |
   未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。
 thumbnail: /assets/img/projects/2023/a9n.webp

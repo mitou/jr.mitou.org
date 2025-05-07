@@ -1,7 +1,7 @@
 ---
 layout: post
 title: |
-  提案書サンプル - niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン
+  提案書サンプル &raquo;<br>niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン
 description: |
   未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。
 thumbnail: /assets/img/projects/2023/niwangojs.webp

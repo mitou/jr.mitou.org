@@ -1,7 +1,7 @@
 ---
 layout: post
 title: |
-  提案書サンプル - -Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品
+  提案書サンプル &raquo;<br>-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品
 description: |
   未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。
 thumbnail: /assets/img/projects/2020/flight_fit_vr.webp
