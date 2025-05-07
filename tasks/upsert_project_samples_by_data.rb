@@ -2,6 +2,9 @@
 
 require 'yaml'
 require 'cgi'
+#require 'active_support/all'
+require 'active_support/core_ext/string/filters'
+TRUNCATE_LENGTH = 33
 
 # Remove existing sample pages. They are re-generated later.
 Dir.glob("./applications/*.md"  ).each { File.delete(it) unless it.split('/').last.start_with? 'index.md' }
@@ -13,6 +16,11 @@ project_samples = YAML.load_file("_data/projects.yml", symbolize_names: true)
   .select{ project_sample_ids.include? it[:id] }
 
 project_samples.each_with_index do |project, index|
+  # Prev/Next project data for navigation
+  project_index = project_samples.index(project)
+  prev_project  = project_samples.rotate(project_index - 1).first
+  next_project  = project_samples.rotate(project_index + 1).first
+
   sample_path = "./applications/#{project[:id]}.md"
   sample_page = <<~PROJECT_SAMPLE_PAGE
     ---
@@ -49,6 +57,23 @@ project_samples.each_with_index do |project, index|
       <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20#{CGI.escapeHTML project[:title]}&hashtags=未踏ジュニア&url={{ site.url }}/applications/#{project[:id]}&lang=jp&related=mitoujr'>ツイートする</a>
     </div>
 
+    <nav>
+      <p class='nav prev'>
+        <a href='#{prev_project[:id]}' title='#{CGI.escapeHTML prev_project[:title]}'>
+          &larr; {{ translations.navPrev[lang] }} 前の提案書
+          <br>
+          #{ prev_project[:title].truncate(TRUNCATE_LENGTH) }
+        </a>
+      </p>
+
+      <p class='nav next'>
+        <a href='#{next_project[:id]}' title='#{CGI.escapeHTML next_project[:title]}'>
+          次の提案書 {{ translations.navNext[lang] }} &rarr;
+          <br>
+          #{ next_project[:title].truncate(TRUNCATE_LENGTH) }
+        </a>
+      </p>
+    </nav>
   PROJECT_SAMPLE_PAGE
 
   #puts sample_page

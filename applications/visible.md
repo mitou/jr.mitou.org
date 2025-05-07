@@ -32,3 +32,20 @@ thumbnail: /assets/img/projects/2020/visible.webp
   <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20Visible ─ Webアクセシビリティー診断 &amp; 修正提案ツール&hashtags=未踏ジュニア&url={{ site.url }}/applications/visible&lang=jp&related=mitoujr'>ツイートする</a>
 </div>
 
+<nav>
+  <p class='nav prev'>
+    <a href='flight_fit_vr' title='-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品'>
+      &larr; {{ translations.navPrev[lang] }} 前の提案書
+      <br>
+      -Flight Fit VR- 「飛行」をテーマに仮想空間で...
+    </a>
+  </p>
+
+  <p class='nav next'>
+    <a href='mer' title='Mer - 多機能電子リコーダー'>
+      次の提案書 {{ translations.navNext[lang] }} &rarr;
+      <br>
+      Mer - 多機能電子リコーダー
+    </a>
+  </p>
+</nav>

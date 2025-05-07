@@ -32,3 +32,20 @@ thumbnail: /assets/img/projects/2023/a9n.webp
   <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20A9N: HALを用いて移植容易性を実現するマイクロカーネル&hashtags=未踏ジュニア&url={{ site.url }}/applications/a9n&lang=jp&related=mitoujr'>ツイートする</a>
 </div>
 
+<nav>
+  <p class='nav prev'>
+    <a href='tactica_note' title='TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート'>
+      &larr; {{ translations.navPrev[lang] }} 前の提案書
+      <br>
+      TacticaNote - 育成年代の選手の言語化をサポート...
+    </a>
+  </p>
+
+  <p class='nav next'>
+    <a href='niwangojs' title='niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン'>
+      次の提案書 {{ translations.navNext[lang] }} &rarr;
+      <br>
+      niwango.js - 動画のコメントでプログラミング可能...
+    </a>
+  </p>
+</nav>

@@ -32,3 +32,20 @@ thumbnail: /assets/img/projects/2019/abecobe.webp
   <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20abecobe - シンプルかつ難しいパズルゲーム&hashtags=未踏ジュニア&url={{ site.url }}/applications/abecobe&lang=jp&related=mitoujr'>ツイートする</a>
 </div>
 
+<nav>
+  <p class='nav prev'>
+    <a href='det_exploit' title='DetExploit - Windows用OSS脆弱性スキャナー'>
+      &larr; {{ translations.navPrev[lang] }} 前の提案書
+      <br>
+      DetExploit - Windows用OSS脆弱性スキャナー
+    </a>
+  </p>
+
+  <p class='nav next'>
+    <a href='jellyfish_alert' title='クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム'>
+      次の提案書 {{ translations.navNext[lang] }} &rarr;
+      <br>
+      クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム
+    </a>
+  </p>
+</nav>

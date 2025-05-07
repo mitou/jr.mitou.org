@@ -32,3 +32,20 @@ thumbnail: /assets/img/projects/2019/amoyo.webp
   <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20編模様 (あもーよ) イラスト手編み支援アプリ&hashtags=未踏ジュニア&url={{ site.url }}/applications/amoyo&lang=jp&related=mitoujr'>ツイートする</a>
 </div>
 
+<nav>
+  <p class='nav prev'>
+    <a href='mer' title='Mer - 多機能電子リコーダー'>
+      &larr; {{ translations.navPrev[lang] }} 前の提案書
+      <br>
+      Mer - 多機能電子リコーダー
+    </a>
+  </p>
+
+  <p class='nav next'>
+    <a href='det_exploit' title='DetExploit - Windows用OSS脆弱性スキャナー'>
+      次の提案書 {{ translations.navNext[lang] }} &rarr;
+      <br>
+      DetExploit - Windows用OSS脆弱性スキャナー
+    </a>
+  </p>
+</nav>

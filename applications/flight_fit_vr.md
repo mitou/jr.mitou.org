@@ -32,3 +32,20 @@ thumbnail: /assets/img/projects/2020/flight_fit_vr.webp
   <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品&hashtags=未踏ジュニア&url={{ site.url }}/applications/flight_fit_vr&lang=jp&related=mitoujr'>ツイートする</a>
 </div>
 
+<nav>
+  <p class='nav prev'>
+    <a href='noxicel' title='Noxicel - 英作文とAIを用いた英単語学習アプリ'>
+      &larr; {{ translations.navPrev[lang] }} 前の提案書
+      <br>
+      Noxicel - 英作文とAIを用いた英単語学習アプリ
+    </a>
+  </p>
+
+  <p class='nav next'>
+    <a href='visible' title='Visible ─ Webアクセシビリティー診断 &amp; 修正提案ツール'>
+      次の提案書 {{ translations.navNext[lang] }} &rarr;
+      <br>
+      Visible ─ Webアクセシビリティー診断 & 修正提...
+    </a>
+  </p>
+</nav>

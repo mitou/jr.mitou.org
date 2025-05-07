@@ -32,3 +32,20 @@ thumbnail: /assets/img/projects/2024/
   <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート&hashtags=未踏ジュニア&url={{ site.url }}/applications/tactica_note&lang=jp&related=mitoujr'>ツイートする</a>
 </div>
 
+<nav>
+  <p class='nav prev'>
+    <a href='jellyfish_alert' title='クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム'>
+      &larr; {{ translations.navPrev[lang] }} 前の提案書
+      <br>
+      クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム
+    </a>
+  </p>
+
+  <p class='nav next'>
+    <a href='a9n' title='A9N: HALを用いて移植容易性を実現するマイクロカーネル'>
+      次の提案書 {{ translations.navNext[lang] }} &rarr;
+      <br>
+      A9N: HALを用いて移植容易性を実現するマイクロカーネル
+    </a>
+  </p>
+</nav>

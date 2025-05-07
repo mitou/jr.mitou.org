@@ -32,3 +32,20 @@ thumbnail: /assets/img/projects/2020/mer.webp
   <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20Mer - 多機能電子リコーダー&hashtags=未踏ジュニア&url={{ site.url }}/applications/mer&lang=jp&related=mitoujr'>ツイートする</a>
 </div>
 
+<nav>
+  <p class='nav prev'>
+    <a href='visible' title='Visible ─ Webアクセシビリティー診断 &amp; 修正提案ツール'>
+      &larr; {{ translations.navPrev[lang] }} 前の提案書
+      <br>
+      Visible ─ Webアクセシビリティー診断 & 修正提...
+    </a>
+  </p>
+
+  <p class='nav next'>
+    <a href='amoyo' title='編模様 (あもーよ) イラスト手編み支援アプリ'>
+      次の提案書 {{ translations.navNext[lang] }} &rarr;
+      <br>
+      編模様 (あもーよ) イラスト手編み支援アプリ
+    </a>
+  </p>
+</nav>

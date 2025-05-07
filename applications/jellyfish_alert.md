@@ -32,3 +32,20 @@ thumbnail: /assets/img/projects/2024/
   <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム&hashtags=未踏ジュニア&url={{ site.url }}/applications/jellyfish_alert&lang=jp&related=mitoujr'>ツイートする</a>
 </div>
 
+<nav>
+  <p class='nav prev'>
+    <a href='abecobe' title='abecobe - シンプルかつ難しいパズルゲーム'>
+      &larr; {{ translations.navPrev[lang] }} 前の提案書
+      <br>
+      abecobe - シンプルかつ難しいパズルゲーム
+    </a>
+  </p>
+
+  <p class='nav next'>
+    <a href='tactica_note' title='TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート'>
+      次の提案書 {{ translations.navNext[lang] }} &rarr;
+      <br>
+      TacticaNote - 育成年代の選手の言語化をサポート...
+    </a>
+  </p>
+</nav>

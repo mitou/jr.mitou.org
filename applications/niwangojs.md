@@ -32,3 +32,20 @@ thumbnail: /assets/img/projects/2023/niwangojs.webp
   <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン&hashtags=未踏ジュニア&url={{ site.url }}/applications/niwangojs&lang=jp&related=mitoujr'>ツイートする</a>
 </div>
 
+<nav>
+  <p class='nav prev'>
+    <a href='a9n' title='A9N: HALを用いて移植容易性を実現するマイクロカーネル'>
+      &larr; {{ translations.navPrev[lang] }} 前の提案書
+      <br>
+      A9N: HALを用いて移植容易性を実現するマイクロカーネル
+    </a>
+  </p>
+
+  <p class='nav next'>
+    <a href='noxicel' title='Noxicel - 英作文とAIを用いた英単語学習アプリ'>
+      次の提案書 {{ translations.navNext[lang] }} &rarr;
+      <br>
+      Noxicel - 英作文とAIを用いた英単語学習アプリ
+    </a>
+  </p>
+</nav>

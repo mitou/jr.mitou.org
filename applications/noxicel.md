@@ -32,3 +32,20 @@ thumbnail: /assets/img/projects/2022/noxicel.webp
   <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20Noxicel - 英作文とAIを用いた英単語学習アプリ&hashtags=未踏ジュニア&url={{ site.url }}/applications/noxicel&lang=jp&related=mitoujr'>ツイートする</a>
 </div>
 
+<nav>
+  <p class='nav prev'>
+    <a href='niwangojs' title='niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン'>
+      &larr; {{ translations.navPrev[lang] }} 前の提案書
+      <br>
+      niwango.js - 動画のコメントでプログラミング可能...
+    </a>
+  </p>
+
+  <p class='nav next'>
+    <a href='flight_fit_vr' title='-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品'>
+      次の提案書 {{ translations.navNext[lang] }} &rarr;
+      <br>
+      -Flight Fit VR- 「飛行」をテーマに仮想空間で...
+    </a>
+  </p>
+</nav>
