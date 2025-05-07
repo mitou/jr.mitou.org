@@ -20,6 +20,8 @@ thumbnail: /assets/img/projects/2020/visible.webp
   </div>
 </div>
 
+<div class='note' style='margin: 30px auto 50px;'><small>提案書の状態から約６ヶ月間の支援を得た結果が<a href='/final'>成果報告会</a>での発表となります。最初から完成している必要はありません。有志のクリエータが応募者のために公開しているサンプルが、提案書の準備に役立てば嬉しいです。<br><br><img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" class="lazyload"></small></div>
+
 <div class='flex'>
   <a href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20Visible ─ Webアクセシビリティー診断 &amp; 修正提案ツール&hashtags=未踏ジュニア&url={{ site.url }}{{ page.url | replace_last: ".html", "" }}&lang=jp&related=mitoujr' class='button'>ツイートする</a>
 </div>
