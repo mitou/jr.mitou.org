@@ -102,6 +102,8 @@ section{
   flex-direction: column;
   width:  100%;
   height: 700px;
+  @media screen and (max-width: $header-phone) { height: 550px; }
+  @media screen and (max-width: $phone-width)  { height: 400px; }
 }
 .pdf-container {
   height: 100%;
