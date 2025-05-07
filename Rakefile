@@ -12,6 +12,12 @@ task :upsert_project_pages_by_data_en do
   ruby "tasks/upsert_project_pages_by_data_en.rb"
 end
 
+# Upsert project application page by data
+desc 'Upsert project application by project data'
+task :upsert_project_samples_by_data do
+  ruby "tasks/upsert_project_samples_by_data.rb"
+end
+
 # Translate given-year projects with LLM like OpenAI
 desc 'Translate given-year projects with LLM'
 task :convert_ja2en_by_llm do
