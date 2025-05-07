@@ -2,7 +2,7 @@
 {% assign this_stat  = site.data.stats  | find: 'year', include.year %}
 {% assign this_final = site.data.finals | find: 'year', include.year %}
 
-<h2 style="margin-top: 0px;">{{ include.year }}年度の採択者と成果</h2>
+<h2 id='final' style="margin-top: 0px;">{{ include.year }}年度の採択者と成果</h2>
 <p>{{ page.description }}(採択倍率: <a href='/stats'>{{ this_stat.competition_rate }}倍</a>)</p>
 
 {% if this_final.playlist %}
