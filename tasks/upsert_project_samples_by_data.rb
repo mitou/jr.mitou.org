@@ -27,7 +27,7 @@ project_samples.each_with_index do |project, index|
 
     <div class='flex'>
       <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-      <a class="button" href="/{{ page.url | replace: '.md', '.pdf' }}">PDF で見る</a>
+      <a class="button" href="/applications/samples/#{project[:id]}.pdf">PDF で見る</a>
     </div>
 
     <div class="pdf-wrap" style='margin: 30px 0px;'>

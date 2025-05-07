@@ -11,7 +11,7 @@ thumbnail: /assets/img/projects/2020/visible.webp
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href="/{{ page.url | replace: '.md', '.pdf' }}">PDF で見る</a>
+  <a class="button" href="/applications/samples/visible.pdf">PDF で見る</a>
 </div>
 
 <div class="pdf-wrap" style='margin: 30px 0px;'>
