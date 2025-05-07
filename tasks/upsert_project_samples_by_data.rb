@@ -1,0 +1,51 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+
+# Remove existing sample pages. They are re-generated later.
+Dir.glob("./applications/*.md"  ).each { File.delete(it) unless it.split('/').last.start_with? 'index.md' }
+
+project_sample_ids = YAML.load_file("_data/applications.yml", symbolize_names: true)
+  .select{ it[:type] == 'sample'}
+  .map{ it[:project_id] }
+project_samples = YAML.load_file("_data/projects.yml", symbolize_names: true)
+  .select{ project_sample_ids.include? it[:id] }
+
+project_samples.each_with_index do |project, index|
+  sample_path = "./applications/#{project[:id]}.md"
+  sample_page = <<~PROJECT_SAMPLE_PAGE
+    ---
+    layout: post
+    title: |
+      提案書サンプル - #{project[:title]}
+    description: |
+      未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。
+    thumbnail: /assets/img/projects/#{project[:year]}/#{project[:thumbnail]}
+    ---
+
+    <p style='padding: 50px 0px 10px;'>{{ page.description }}</p>
+
+    <div class='flex'>
+      <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
+      <a class="button" href="/{{ page.url | replace: '.md', '.pdf' }}">PDF で見る</a>
+    </div>
+
+    <div class="pdf-wrap" style='margin: 30px 0px;'>
+      <div class="pdf-container">
+        <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://jr.mitou.org/applications/samples/#{project[:id]}.pdf" />
+      </div>
+    </div>
+
+    <div class='flex'>
+      <a href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20{{ page.title | escape }}&hashtags=未踏ジュニア&url={{ site.url }}{{ page.url | replace_last: ".html", "" }}&lang=jp&related=mitoujr' class='button'>ツイートする</a>
+    </div>
+  PROJECT_SAMPLE_PAGE
+
+  #puts sample_page
+  #binding.irb; exit
+  IO.write(sample_path, sample_page) # + "\n" + page_shared_contents
+
+  puts("Upsert: #{sample_path}")
+end
+
+puts ''
