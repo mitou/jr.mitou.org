@@ -11,12 +11,12 @@ thumbnail: /assets/img/projects/2023/niwangojs.webp
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href="/applications/samples/niwangojs.pdf">PDF で見る</a>
+  <a class="button" href="/applications/niwangojs.pdf">PDF で見る</a>
 </div>
 
 <div class="pdf-wrap" style='margin: 30px 0px;'>
   <div class="pdf-container">
-    <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://jr.mitou.org/applications/samples/niwangojs.pdf" />
+    <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://jr.mitou.org/applications/niwangojs.pdf" />
   </div>
 </div>
 

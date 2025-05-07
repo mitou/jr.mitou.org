@@ -11,12 +11,12 @@ thumbnail: /assets/img/projects/2024/
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href="/applications/samples/jellyfish_alert.pdf">PDF で見る</a>
+  <a class="button" href="/applications/jellyfish_alert.pdf">PDF で見る</a>
 </div>
 
 <div class="pdf-wrap" style='margin: 30px 0px;'>
   <div class="pdf-container">
-    <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://jr.mitou.org/applications/samples/jellyfish_alert.pdf" />
+    <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://jr.mitou.org/applications/jellyfish_alert.pdf" />
   </div>
 </div>
 

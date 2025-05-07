@@ -11,12 +11,12 @@ thumbnail: /assets/img/projects/2019/amoyo.webp
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href="/applications/samples/amoyo.pdf">PDF で見る</a>
+  <a class="button" href="/applications/amoyo.pdf">PDF で見る</a>
 </div>
 
 <div class="pdf-wrap" style='margin: 30px 0px;'>
   <div class="pdf-container">
-    <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://jr.mitou.org/applications/samples/amoyo.pdf" />
+    <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://jr.mitou.org/applications/amoyo.pdf" />
   </div>
 </div>
 

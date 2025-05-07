@@ -11,12 +11,12 @@ thumbnail: /assets/img/projects/2019/abecobe.webp
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href="/applications/samples/abecobe.pdf">PDF で見る</a>
+  <a class="button" href="/applications/abecobe.pdf">PDF で見る</a>
 </div>
 
 <div class="pdf-wrap" style='margin: 30px 0px;'>
   <div class="pdf-container">
-    <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://jr.mitou.org/applications/samples/abecobe.pdf" />
+    <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://jr.mitou.org/applications/abecobe.pdf" />
   </div>
 </div>
 
