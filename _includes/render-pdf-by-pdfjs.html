@@ -197,26 +197,30 @@
 </style>
 
 <!-- PDF.jsのライブラリを読み込む -->
-<script type="module">
-  import * as pdfjsLib from 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/build/pdf.min.mjs';
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js"></script>
 
+<script>
   // PDF.jsの初期化とPDF表示を行う関数
   async function initPDF(projectId) {
+    console.log('PDF初期化開始:', projectId);
+
     const loadingElement = document.getElementById(`pdf-loading-${projectId}`);
     const loadingText = loadingElement.querySelector('.loading-text');
     let loadingTimeout;
 
     try {
       // デバッグモードの設定
-      const isDebug = window.location.hostname === 'localhost';
+      const isDebug = true; // デバッグを常に有効化
       const debugLog = (...args) => {
-        if (isDebug) {
-          console.log(...args);
-        }
+        console.log('[PDF Debug]', ...args);
       };
 
+      debugLog('初期化開始');
+
       // ワーカーの設定
-      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/build/pdf.worker.mjs';
+      window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+      debugLog('ワーカー設定完了');
 
       const canvas = document.getElementById(`pdf-canvas-${projectId}`);
       const textLayer = document.getElementById(`text-layer-${projectId}`);
@@ -272,15 +276,20 @@
       loadingText.textContent = 'PDF 読み込み中... (0%)';
 
       // PDFの読み込みオプションを設定
-      const loadingTask = pdfjsLib.getDocument({
+      const loadingTask = window.pdfjsLib.getDocument({
         url: pdfUrl,
-        cMapUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/cmaps/',
+        cMapUrl: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/cmaps/',
         cMapPacked: true,
-        standardFontDataUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/standard_fonts/'
+        standardFontDataUrl: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/standard_fonts/',
+        disableStream: true, // iOS Safariでの問題を回避
+        disableAutoFetch: true // iOS Safariでの問題を回避
       });
+
+      debugLog('PDF読み込みタスク作成完了');
 
       // 進捗状況の監視
       loadingTask.onProgress = (progressData) => {
+        debugLog('読み込み進捗:', progressData);
         if (progressData.total > 0) {
           const percent = Math.round((progressData.loaded / progressData.total) * 100);
           loadingText.textContent = `PDF 読み込み中... (${percent}%)`;
@@ -289,19 +298,23 @@
 
       // タイムアウト処理の設定（30秒）
       loadingTimeout = setTimeout(() => {
+        debugLog('読み込みタイムアウト');
         loadingText.textContent = '読み込みに時間がかかっています...';
       }, 30000);
 
-      pdf = await loadingTask.promise;
+      debugLog('PDF読み込み開始');
+      const pdfDocument = await loadingTask.promise;
+      debugLog('PDF読み込み完了');
+
       clearTimeout(loadingTimeout);
 
       debugLog('PDF loaded:', {
-        numPages: pdf.numPages,
-        fingerprint: pdf.fingerprint,
-        isEncrypted: pdf.isEncrypted,
-        isPureXfa: pdf.isPureXfa
+        numPages: pdfDocument.numPages,
+        fingerprint: pdfDocument.fingerprint,
+        isEncrypted: pdfDocument.isEncrypted,
+        isPureXfa: pdfDocument.isPureXfa
       });
-      numPages = pdf.numPages;
+      numPages = pdfDocument.numPages;
       
       // ページ情報を更新
       function updatePageInfo() {
@@ -312,7 +325,7 @@
 
       // ページを表示する関数
       async function renderPage(pageNum) {
-        const page = await pdf.getPage(pageNum);
+        const page = await pdfDocument.getPage(pageNum);
         const leftArrow = document.getElementById(`pdf-nav-arrow-left-${projectId}`);
         const rightArrow = document.getElementById(`pdf-nav-arrow-right-${projectId}`);
 
@@ -324,28 +337,40 @@
         const originalViewport = page.getViewport({ scale: 1 });
         const containerWidth = pdfContainer.clientWidth;
 
-        // スケール値を計算
+        // スケール値を計算（アスペクト比を維持）
         const scale = containerWidth / originalViewport.width;
-        const viewport = page.getViewport({ scale });
+        const viewport = page.getViewport({ 
+          scale: scale,
+          rotation: 0 // 回転を明示的に0度に設定
+        });
 
         // canvasのピクセルサイズを設定
-        canvas.width = viewport.width;
-        canvas.height = viewport.height;
-
+        const canvas = document.getElementById(`pdf-canvas-${projectId}`);
+        const context = canvas.getContext('2d');
+        
+        // デバイスピクセル比を考慮
+        const dpr = window.devicePixelRatio || 1;
+        canvas.width = viewport.width * dpr;
+        canvas.height = viewport.height * dpr;
+        
         // CSSで幅100%、高さautoに
-        canvas.style.width = '100%';
-        canvas.style.height = 'auto';
+        canvas.style.width = `${viewport.width}px`;
+        canvas.style.height = `${viewport.height}px`;
+        
+        // コンテキストのスケーリング
+        context.scale(dpr, dpr);
 
         // テキストレイヤーの設定
-        textLayer.style.width = '100%';
-        textLayer.style.height = `${canvas.offsetHeight}px`;
+        textLayer.style.width = `${viewport.width}px`;
+        textLayer.style.height = `${viewport.height}px`;
         textLayer.style.left = '0';
         textLayer.style.top = '0';
 
         // PDFを描画
         await page.render({
-          canvasContext: canvas.getContext('2d'),
-          viewport: viewport
+          canvasContext: context,
+          viewport: viewport,
+          intent: 'display'
         }).promise;
 
         // テキストレイヤー
@@ -355,7 +380,7 @@
         // テキストレイヤーをクリア
         textLayer.innerHTML = '';
         
-        await pdfjsLib.renderTextLayer({
+        await window.pdfjsLib.renderTextLayer({
           textContent,
           container: textLayer,
           viewport,
@@ -410,8 +435,8 @@
                 debugLog('Link clicked:', annotation.dest);
                 
                 try {
-                  const dest = await pdf.getDestination(annotation.dest);
-                  const pageIndex = await pdf.getPageIndex(dest[0]);
+                  const dest = await pdfDocument.getDestination(annotation.dest);
+                  const pageIndex = await pdfDocument.getPageIndex(dest[0]);
                   debugLog('Destination page:', pageIndex + 1);
                   
                   if (pageIndex !== -1) {
@@ -492,8 +517,8 @@
 
       // コンポーネントのクリーンアップ
       window.addEventListener('unload', () => {
-        if (pdf) {
-          pdf.destroy();
+        if (pdfDocument) {
+          pdfDocument.destroy();
         }
       });
 
@@ -505,7 +530,6 @@
       }
 
       // ページ描画後やページ切り替え時に呼び出す
-      await renderPage(currentPage);
       updateNavArrows();
 
       // ローディング表示を終了
