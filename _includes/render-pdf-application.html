@@ -322,26 +322,97 @@
         // リンクレイヤー
         linkLayer.innerHTML = '';
         const annotations = await page.getAnnotations();
-        //console.log('annotations', annotations);
-        annotations.forEach(annotation => {
-          if (annotation.subtype === 'Link' && annotation.url) {
+        console.log('Annotations:', annotations);
+
+        // リンクレイヤーのスタイルを設定
+        linkLayer.style.position = 'absolute';
+        linkLayer.style.left = '0';
+        linkLayer.style.top = '0';
+        linkLayer.style.width = '100%';
+        linkLayer.style.height = '100%';
+        linkLayer.style.pointerEvents = 'auto';
+        linkLayer.style.zIndex = '100';
+
+        // 各アノテーションを処理
+        for (const annotation of annotations) {
+          if (annotation.subtype === 'Link') {
+            console.log('Processing link:', annotation);
+
+            // リンク要素を作成
             const link = document.createElement('a');
-            link.href = annotation.url;
-            link.target = '_blank';
-            link.rel = 'noopener noreferrer';
+            link.style.position = 'absolute';
+            link.style.cursor = 'pointer';
+            link.style.zIndex = '101';
+            link.style.transition = 'background-color 0.2s';
+
+            // ホバー時のスタイル
+            link.addEventListener('mouseenter', () => {
+              link.style.backgroundColor = 'rgba(0, 0, 255, 0.1)';
+            });
+            link.addEventListener('mouseleave', () => {
+              link.style.backgroundColor = 'transparent';
+            });
+
+            // リンクの位置とサイズを設定
             const rect = viewport.convertToViewportRectangle(annotation.rect);
             const x = Math.min(rect[0], rect[2]);
             const y = Math.min(rect[1], rect[3]);
             const width = Math.abs(rect[2] - rect[0]);
             const height = Math.abs(rect[3] - rect[1]);
-            link.style.position = 'absolute';
+
             link.style.left = `${x}px`;
             link.style.top = `${y}px`;
             link.style.width = `${width}px`;
             link.style.height = `${height}px`;
+
+            // 外部リンクの場合
+            if (annotation.url) {
+              console.log('External link:', annotation.url);
+              link.href = annotation.url;
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+              link.title = annotation.url;
+            }
+            // 内部リンクの場合
+            else if (annotation.dest) {
+              console.log('Internal link:', annotation.dest);
+              link.href = '#';
+              link.title = 'ページ内リンク';
+              
+              // クリックイベントを設定
+              link.addEventListener('click', async (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                console.log('Link clicked:', annotation.dest);
+                
+                try {
+                  const dest = await pdf.getDestination(annotation.dest);
+                  const pageIndex = await pdf.getPageIndex(dest[0]);
+                  console.log('Destination page:', pageIndex + 1);
+                  
+                  if (pageIndex !== -1) {
+                    currentPage = pageIndex + 1;
+                    await renderPage(currentPage);
+                    updatePageInfo();
+                    pdfContainer.focus();
+                  }
+                } catch (error) {
+                  console.error('リンク先のページへの移動に失敗しました:', error);
+                }
+              });
+            }
+
+            // リンクをレイヤーに追加
             linkLayer.appendChild(link);
           }
-        });
+        }
+
+        // ページコンテナのクリックイベントを無効化
+        const pageContainer = document.querySelector('.pdf-page-container');
+        pageContainer.style.pointerEvents = 'none';
+        
+        // リンクレイヤーのみクリックイベントを有効化
+        linkLayer.style.pointerEvents = 'auto';
 
         // スクロール位置をリセット
         pdfContainer.scrollTop = 0;
