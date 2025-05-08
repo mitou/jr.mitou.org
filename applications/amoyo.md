@@ -14,7 +14,7 @@ thumbnail: /assets/img/projects/2019/amoyo.webp
   <a class="button" href="/applications/amoyo.pdf">PDF で見る</a>
 </div>
 
-{% include render-pdf-by-pdfjs.html project_id="amoyo" %}
+{% include render-pdf-by-google-drive.html project_id="amoyo" %}
 
 <div class='note' style='margin: 30px auto 50px;'><small>上記の提案書の状態から、約６ヶ月間の支援を得た結果が下記の<a href='/projects/2019#final'>成果報告会</a>での発表となります。<br><br><img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" class="lazyload"></small></div>
 
