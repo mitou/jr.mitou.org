@@ -14,11 +14,7 @@ thumbnail: /assets/img/projects/2020/visible.webp
   <a class="button" href="/applications/visible.pdf">PDF で見る</a>
 </div>
 
-<div class="pdf-wrap" style='margin: 30px 0px;'>
-  <div class="pdf-container">
-    <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://jr.mitou.org/applications/visible.pdf" />
-  </div>
-</div>
+{% include render-pdf-application.html project_id="visible" %}
 
 <div class='note' style='margin: 30px auto 50px;'><small>上記の提案書の状態から、約６ヶ月間の支援を得た結果が下記の<a href='/projects/2020#final'>成果報告会</a>での発表となります。<br><br><img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" class="lazyload"></small></div>
 
