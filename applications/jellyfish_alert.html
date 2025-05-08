@@ -237,21 +237,96 @@
       pdfContainer.addEventListener('keydown', handleKeyDown);
 
       // 矢印のクリックイベントを設定
-      leftArrow.addEventListener('click', () => {
-        if (currentPage > 1) {
-          currentPage--;
-          renderPage(currentPage);
-          updatePageInfo();
-          pdfContainer.focus(); // フォーカスを維持
+      let isProcessing = false;
+
+      const handlePageChange = async (direction) => {
+        if (isProcessing) return;
+        isProcessing = true;
+
+        try {
+          if (direction === 'prev' && currentPage > 1) {
+            currentPage--;
+            await renderPage(currentPage);
+            updatePageInfo();
+          } else if (direction === 'next' && currentPage < numPages) {
+            currentPage++;
+            await renderPage(currentPage);
+            updatePageInfo();
+          }
+        } finally {
+          isProcessing = false;
         }
+      };
+
+      // タッチイベントの処理
+      leftArrow.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        handlePageChange('prev');
+      }, { passive: false });
+
+      rightArrow.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        handlePageChange('next');
+      }, { passive: false });
+
+      // クリックイベントの処理
+      leftArrow.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        handlePageChange('prev');
       });
 
-      rightArrow.addEventListener('click', () => {
-        if (currentPage < numPages) {
-          currentPage++;
-          renderPage(currentPage);
-          updatePageInfo();
-          pdfContainer.focus(); // フォーカスを維持
+      rightArrow.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        handlePageChange('next');
+      });
+
+      // タッチイベントとクリックイベントの処理を分離
+      const pageContainer = document.querySelector('.pdf-page-container');
+      let touchStartX = 0;
+      let touchStartTime = 0;
+      const SWIPE_THRESHOLD = 50;
+      const TAP_THRESHOLD = 300;
+
+      pageContainer.addEventListener('touchstart', (e) => {
+        // 矢印アイコン上でのタッチは無視
+        if (e.target === leftArrow || e.target === rightArrow) {
+          return;
+        }
+        touchStartX = e.touches[0].clientX;
+        touchStartTime = Date.now();
+      });
+
+      pageContainer.addEventListener('touchend', async (e) => {
+        // 矢印アイコン上でのタッチは無視
+        if (e.target === leftArrow || e.target === rightArrow) {
+          return;
+        }
+
+        const touchEndX = e.changedTouches[0].clientX;
+        const touchEndTime = Date.now();
+        const deltaX = touchEndX - touchStartX;
+        const deltaTime = touchEndTime - touchStartTime;
+
+        if (Math.abs(deltaX) > SWIPE_THRESHOLD && deltaTime < TAP_THRESHOLD) {
+          if (deltaX > 0 && currentPage > 1) {
+            await handlePageChange('prev');
+          } else if (deltaX < 0 && currentPage < numPages) {
+            await handlePageChange('next');
+          }
+        } else {
+          const rect = pageContainer.getBoundingClientRect();
+          const x = e.changedTouches[0].clientX - rect.left;
+          const width = rect.width;
+
+          if (x < width * 0.2 && currentPage > 1) {
+            await handlePageChange('prev');
+          } else if (x > width * 0.8 && currentPage < numPages) {
+            await handlePageChange('next');
+          }
         }
       });
 
@@ -468,54 +543,6 @@
           currentPage++;
           await renderPage(currentPage);
           pdfContainer.focus(); // フォーカスを維持
-        }
-      });
-
-      // タッチイベントとクリックイベントの処理
-      let touchStartX = 0;
-      let touchStartTime = 0;
-      const SWIPE_THRESHOLD = 50; // スワイプ判定の閾値（ピクセル）
-      const TAP_THRESHOLD = 300; // タップ判定の閾値（ミリ秒）
-
-      const pageContainer = document.querySelector('.pdf-page-container');
-
-      pageContainer.addEventListener('touchstart', (e) => {
-        touchStartX = e.touches[0].clientX;
-        touchStartTime = Date.now();
-      });
-
-      pageContainer.addEventListener('touchend', async (e) => {
-        const touchEndX = e.changedTouches[0].clientX;
-        const touchEndTime = Date.now();
-        const deltaX = touchEndX - touchStartX;
-        const deltaTime = touchEndTime - touchStartTime;
-
-        // スワイプ判定
-        if (Math.abs(deltaX) > SWIPE_THRESHOLD && deltaTime < TAP_THRESHOLD) {
-          if (deltaX > 0 && currentPage > 1) {
-            // 右スワイプ（前のページ）
-            currentPage--;
-            await renderPage(currentPage);
-          } else if (deltaX < 0 && currentPage < numPages) {
-            // 左スワイプ（次のページ）
-            currentPage++;
-            await renderPage(currentPage);
-          }
-        } else {
-          // タップ判定
-          const rect = pageContainer.getBoundingClientRect();
-          const x = e.changedTouches[0].clientX - rect.left;
-          const width = rect.width;
-
-          if (x < width * 0.2 && currentPage > 1) {
-            // 左側タップ（前のページ）
-            currentPage--;
-            await renderPage(currentPage);
-          } else if (x > width * 0.8 && currentPage < numPages) {
-            // 右側タップ（次のページ）
-            currentPage++;
-            await renderPage(currentPage);
-          }
         }
       });
 
