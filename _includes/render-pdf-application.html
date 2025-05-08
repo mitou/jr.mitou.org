@@ -1,6 +1,17 @@
 <div class="pdf-wrap" style='margin: 30px 0px 55px;'>
-  <div class="pdf-container">
-    <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://jr.mitou.org/applications/{{ include.project_id }}.pdf" />
+  <div class="pdf-container" id="pdf-container-{{ include.project_id }}">
+    <div class="pdf-page-container" id="pdf-page-container-{{ include.project_id }}">
+      <span class="pdf-nav-arrow pdf-nav-arrow-left" id="pdf-nav-arrow-left-{{ include.project_id }}">&#x2039;</span>
+      <span class="pdf-nav-arrow pdf-nav-arrow-right" id="pdf-nav-arrow-right-{{ include.project_id }}">&#x203A;</span>
+      <canvas id="pdf-canvas-{{ include.project_id }}"></canvas>
+      <div id="text-layer-{{ include.project_id }}" class="text-layer"></div>
+      <div id="link-layer-{{ include.project_id }}" class="link-layer"></div>
+    </div>
+  </div>
+  <div class="pdf-controls">
+    <button id="prev-page-{{ include.project_id }}" class="pdf-button">前のページ</button>
+    <span id="page-info-{{ include.project_id }}" class="page-info">ページ 1 / 1</span>
+    <button id="next-page-{{ include.project_id }}" class="pdf-button">次のページ</button>
   </div>
 </div>
 
@@ -8,16 +19,384 @@
   .pdf-wrap {
     display: flex;
     flex-direction: column;
-    width:  100%;
-    height: 700px;
-    @media screen and (max-width: $header-phone) { height: 550px; }
-    @media screen and (max-width: $phone-width)  { height: 400px; }
+    width: 100%;
   }
   .pdf-container {
-    height: 100%;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    scroll-behavior: smooth;
   }
-  .pdf-container embed {
-    width:  100%;
+  .pdf-page-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .pdf-container canvas,
+  .text-layer,
+  .link-layer {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  .text-layer, .link-layer {
+    pointer-events: auto;
+  }
+  .text-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    line-height: 1.0;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+  }
+  .text-layer > span {
+    color: transparent;
+    position: absolute;
+    white-space: pre;
+    cursor: text;
+    transform-origin: 0% 0%;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+  }
+  .text-layer .highlight {
+    margin: -1px;
+    padding: 1px;
+    background-color: rgb(180, 0, 170);
+    border-radius: 4px;
+  }
+  .text-layer .highlight.selected {
+    background-color: rgb(0, 100, 0);
+  }
+  .link-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+  .link-layer a {
+    position: absolute;
+    font-size: 1em;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
+    background: transparent;
+    cursor: pointer;
+  }
+  .link-layer a:hover {
+    background: rgba(255, 255, 0, 0.2);
+  }
+  .pdf-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+  .pdf-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 14px;
+    @media screen and (max-width: $phone-width) {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  }
+  .pdf-button:hover {
+    background-color: #0056b3;
+  }
+  .pdf-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  .page-info {
+    font-size: 14px;
+    color: #666;
+    @media screen and (max-width: $phone-width) {
+      font-size: 12px;
+    }
+  }
+  .error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .pdf-nav-arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 2.5em;
+    color: #007bff;
+    opacity: 0.25;
+    cursor: pointer;
+    user-select: none;
+    transform: translateY(-50%);
+    z-index: 1000;
+    transition: opacity 0.2s;
+  }
+  .pdf-nav-arrow:hover {
+    opacity: 0.75;
+  }
+  .pdf-nav-arrow-left {
+    left: 8px;
+  }
+  .pdf-nav-arrow-right {
+    right: 8px;
+  }
+  @media (max-width: 600px) {
+    .pdf-nav-arrow {
+      font-size: 2em;
+    }
   }
 </style>
+
+<!-- PDF.jsのライブラリを読み込む -->
+<script type="module">
+  import * as pdfjsLib from 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/build/pdf.min.mjs';
+
+  // PDF.jsの初期化とPDF表示を行う関数
+  async function initPDF(projectId) {
+    try {
+      // ワーカーの設定
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/build/pdf.worker.mjs';
+
+      const canvas = document.getElementById(`pdf-canvas-${projectId}`);
+      const textLayer = document.getElementById(`text-layer-${projectId}`);
+      const linkLayer = document.getElementById(`link-layer-${projectId}`);
+      const pdfContainer = document.getElementById(`pdf-container-${projectId}`);
+      const pdfUrl = `/applications/${projectId}.pdf`;
+      const prevButton = document.getElementById(`prev-page-${projectId}`);
+      const nextButton = document.getElementById(`next-page-${projectId}`);
+      const pageInfo = document.getElementById(`page-info-${projectId}`);
+      const leftArrow = document.getElementById(`pdf-nav-arrow-left-${projectId}`);
+      const rightArrow = document.getElementById(`pdf-nav-arrow-right-${projectId}`);
+
+      let currentPage = 1;
+      let pdf = null;
+
+      // 矢印のクリックイベントを設定
+      leftArrow.addEventListener('click', () => {
+        if (currentPage > 1) {
+          currentPage--;
+          renderPage(currentPage);
+          updatePageInfo();
+        }
+      });
+
+      rightArrow.addEventListener('click', () => {
+        if (currentPage < numPages) {
+          currentPage++;
+          renderPage(currentPage);
+          updatePageInfo();
+        }
+      });
+
+      // PDFの読み込みオプションを設定
+      const loadingTask = pdfjsLib.getDocument({
+        url: pdfUrl,
+        cMapUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/cmaps/',
+        cMapPacked: true,
+        standardFontDataUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/standard_fonts/'
+      });
+
+      pdf = await loadingTask.promise;
+      const numPages = pdf.numPages;
+      
+      // ページ情報を更新
+      function updatePageInfo() {
+        pageInfo.textContent = `ページ ${currentPage} / ${numPages}`;
+        prevButton.disabled = currentPage <= 1;
+        nextButton.disabled = currentPage >= numPages;
+      }
+
+      // ページを表示する関数
+      async function renderPage(pageNum) {
+        const page = await pdf.getPage(pageNum);
+        const leftArrow = document.getElementById(`pdf-nav-arrow-left-${projectId}`);
+        const rightArrow = document.getElementById(`pdf-nav-arrow-right-${projectId}`);
+
+        // 矢印の表示/非表示を制御
+        leftArrow.style.display = pageNum > 1 ? 'block' : 'none';
+        rightArrow.style.display = pageNum < numPages ? 'block' : 'none';
+
+        // PDFページの元のサイズ
+        const originalViewport = page.getViewport({ scale: 1 });
+        const containerWidth = pdfContainer.clientWidth;
+
+        // スケール値を計算
+        const scale = containerWidth / originalViewport.width;
+        const viewport = page.getViewport({ scale });
+
+        // canvasのピクセルサイズを設定
+        canvas.width = viewport.width;
+        canvas.height = viewport.height;
+
+        // CSSで幅100%、高さautoに
+        canvas.style.width = '100%';
+        canvas.style.height = 'auto';
+
+        // テキストレイヤー・リンクレイヤーも同様に
+        [textLayer, linkLayer].forEach(layer => {
+          layer.style.width = '100%';
+          layer.style.height = `${canvas.offsetHeight}px`;
+          layer.style.left = '0';
+          layer.style.top = '0';
+        });
+
+        // PDFを描画
+        await page.render({
+          canvasContext: canvas.getContext('2d'),
+          viewport: viewport
+        }).promise;
+
+        // テキストレイヤー
+        const textContent = await page.getTextContent();
+        await pdfjsLib.renderTextLayer({
+          textContent,
+          container: textLayer,
+          viewport,
+          textDivs: [],
+          textContentSource: textContent
+        }).promise;
+
+        // リンクレイヤー
+        linkLayer.innerHTML = '';
+        const annotations = await page.getAnnotations();
+        annotations.forEach(annotation => {
+          if (annotation.subtype === 'Link' && annotation.url) {
+            const link = document.createElement('a');
+            link.href = annotation.url;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            const rect = viewport.convertToViewportRectangle(annotation.rect);
+            const x = Math.min(rect[0], rect[2]);
+            const y = Math.min(rect[1], rect[3]);
+            const width = Math.abs(rect[2] - rect[0]);
+            const height = Math.abs(rect[3] - rect[1]);
+            link.style.position = 'absolute';
+            link.style.left = `${x}px`;
+            link.style.top = `${y}px`;
+            link.style.width = `${width}px`;
+            link.style.height = `${height}px`;
+            linkLayer.appendChild(link);
+          }
+        });
+
+        // スクロール位置をリセット
+        pdfContainer.scrollTop = 0;
+
+        updatePageInfo();
+      }
+
+      // 最初のページを表示
+      await renderPage(currentPage);
+
+      // ページナビゲーションのイベントリスナー
+      prevButton.addEventListener('click', async () => {
+        if (currentPage > 1) {
+          currentPage--;
+          await renderPage(currentPage);
+        }
+      });
+
+      nextButton.addEventListener('click', async () => {
+        if (currentPage < numPages) {
+          currentPage++;
+          await renderPage(currentPage);
+        }
+      });
+
+      // ★ ここから追加 ★
+      const pageContainer = document.querySelector('.pdf-page-container');
+
+      pageContainer.addEventListener('click', async (e) => {
+        // リンククリック時は無視
+        if (e.target.tagName.toLowerCase() === 'a') return;
+
+        const rect = pageContainer.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+
+        if (x < rect.width * 0.2) {
+          if (currentPage > 1) {
+            currentPage--;
+            await renderPage(currentPage);
+          }
+        } else if (x > rect.width * 0.8) {
+          if (currentPage < numPages) {
+            currentPage++;
+            await renderPage(currentPage);
+          }
+        }
+      });
+      // ★ ここまで追加 ★
+
+      // ウィンドウのリサイズ時にPDFを再描画
+      let resizeTimeout;
+      window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(async () => {
+          await renderPage(currentPage);
+        }, 250);
+      });
+
+      // コンポーネントのクリーンアップ
+      window.addEventListener('unload', () => {
+        if (pdf) {
+          pdf.destroy();
+        }
+      });
+
+      function updateNavArrows() {
+        const leftArrow = document.getElementById(`pdf-nav-arrow-left-${projectId}`);
+        const rightArrow = document.getElementById(`pdf-nav-arrow-right-${projectId}`);
+        leftArrow.style.display = (currentPage > 1) ? 'block' : 'none';
+        rightArrow.style.display = (currentPage < numPages) ? 'block' : 'none';
+      }
+
+      // ページ描画後やページ切り替え時に呼び出す
+      await renderPage(currentPage);
+      updateNavArrows();
+
+    } catch (error) {
+      console.error('PDFの読み込みに失敗しました:', error);
+      const canvas = document.getElementById(`pdf-canvas-${projectId}`);
+      canvas.parentElement.innerHTML = '<p class="error">PDFの読み込みに失敗しました。</p>';
+    }
+  }
+
+  // ページ読み込み完了時にPDFを表示
+  document.addEventListener('DOMContentLoaded', () => {
+    initPDF('{{ include.project_id }}');
+  });
+</script>
