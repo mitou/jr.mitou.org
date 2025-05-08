@@ -12,20 +12,573 @@
     function gtag(){dataLayer.push(arguments)};
     gtag('js', new Date());
     gtag('config', 'G-GWHM8P0RTE');
-  </script> </head> <body> <header> <a href="/" hreflang="ja" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a> <a href="/" hreflang="ja" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a> <label for="nav-check" class="ph nav-hamburger"><img src="/assets/img/bars.svg" alt="メニュー" style="width:24px;" class="lazyload" loading="lazy"></label> <input type="checkbox" id="nav-check" style="display:none;"/> <nav class="topnav pc"> <div class="header-left"> <a hreflang="ja" href="/about">未踏ジュニアとは</a> <a hreflang="ja" href="/guideline">応募の手引き</a> <a hreflang="ja" href="/projects">採択一覧</a> <a hreflang="ja" href="/schedule">採択後の流れ</a> <a hreflang="ja" href="/#faq">FAQ</a> <a hreflang="ja" href="/stats">統計</a> <a hreflang="ja" href="/#contact">問い合わせ</a> </div> <a hreflang="ja" href="/guideline" class="header-button">募集要項を見る</a> </nav> <label for="nav-check" class="header-back"></label> </header> <div class="main"> <div class="page-head"> <h1>提案書サンプル &raquo; <br>Visible ─ Webアクセシビリティー診断 & 修正提案ツール </h1> </div> <div class="post"> <p style="padding: 50px 0px 10px;">未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。 </p> <div class="flex"> <a class="button" href="/applications#sample">サンプル一覧に戻る</a> <a class="button" href="/applications/visible.pdf">PDF で見る</a> </div> <div class="pdf-wrap" style="margin: 30px 0px 55px;"> <div class="pdf-container"> <embed src="https://drive.google.com/viewerng/viewer?embedded=true&amp;url=https://jr.mitou.org/applications/visible.pdf"/> </div> </div> <style>
+  </script> </head> <body> <header> <a href="/" hreflang="ja" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a> <a href="/" hreflang="ja" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a> <label for="nav-check" class="ph nav-hamburger"><img src="/assets/img/bars.svg" alt="メニュー" style="width:24px;" class="lazyload" loading="lazy"></label> <input type="checkbox" id="nav-check" style="display:none;"/> <nav class="topnav pc"> <div class="header-left"> <a hreflang="ja" href="/about">未踏ジュニアとは</a> <a hreflang="ja" href="/guideline">応募の手引き</a> <a hreflang="ja" href="/projects">採択一覧</a> <a hreflang="ja" href="/schedule">採択後の流れ</a> <a hreflang="ja" href="/#faq">FAQ</a> <a hreflang="ja" href="/stats">統計</a> <a hreflang="ja" href="/#contact">問い合わせ</a> </div> <a hreflang="ja" href="/guideline" class="header-button">募集要項を見る</a> </nav> <label for="nav-check" class="header-back"></label> </header> <div class="main"> <div class="page-head"> <h1>提案書サンプル &raquo; <br>Visible ─ Webアクセシビリティー診断 & 修正提案ツール </h1> </div> <div class="post"> <p style="padding: 50px 0px 10px;">未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。 </p> <div class="flex"> <a class="button" href="/applications#sample">サンプル一覧に戻る</a> <a class="button" href="/applications/visible.pdf">PDF で見る</a> </div> <p></p> <div class="pdf-wrap" style="margin: 30px 0px 55px;"> <div class="pdf-loading" id="pdf-loading-visible"> <img src="/assets/img/spinner.svg" alt="読み込み中..." class="loading-spinner"/> <p class="loading-text">PDF 読み込み中...</p> </div> <div class="pdf-container" id="pdf-container-visible" tabindex="0"> <div class="pdf-page-container" id="pdf-page-container-visible"> <span class="pdf-nav-arrow pdf-nav-arrow-left" id="pdf-nav-arrow-left-visible">&#x2039;</span> <span class="pdf-nav-arrow pdf-nav-arrow-right" id="pdf-nav-arrow-right-visible">&#x203A;</span> <canvas id="pdf-canvas-visible"></canvas> <div id="text-layer-visible" class="text-layer"></div> </div> </div> <div class="pdf-controls"> <button id="prev-page-visible" class="pdf-button">前のページ</button> <span id="page-info-visible" class="page-info">ページ 1 / 1</span> <button id="next-page-visible" class="pdf-button">次のページ</button> </div> </div> <style>
   .pdf-wrap {
     display: flex;
     flex-direction: column;
-    width:  100%;
-    height: 700px;
-    @media screen and (max-width: $header-phone) { height: 550px; }
-    @media screen and (max-width: $phone-width)  { height: 400px; }
+    width: 100%;
+    position: relative;
   }
   .pdf-container {
-    height: 100%;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    scroll-behavior: smooth;
   }
-  .pdf-container embed {
-    width:  100%;
-    height: 100%;
+  .pdf-page-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    box-sizing: border-box;
   }
-</style> <div class="note" style="margin: 30px auto 50px;"><small>上記の提案書の状態から、約６ヶ月間の支援を得た結果が下記の<a href="/projects/2020#final">成果報告会</a>での発表となります。<br/><br/><img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" class="lazyload"/></small></div> <div class="youtube"> <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/cwYkmn3oA_o?rel=0&amp;start=88" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> </div> <div class="flex"> <a class="button" href="/applications#sample">サンプル一覧に戻る</a> <a class="button" href="https://twitter.com/intent/tweet?text=提案書サンプル%20-%20Visible ─ Webアクセシビリティー診断 &amp; 修正提案ツール&amp;hashtags=未踏ジュニア&amp;url=https://jr.mitou.org/applications/visible&amp;lang=jp&amp;related=mitoujr">ツイートする</a> </div> <nav> <p class="nav prev"> <a href="flight_fit_vr" title="-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品"> &larr; 前の提案書 <br/> -Flight Fit VR- 「飛行」をテーマに仮想空間で... </a> </p> <p class="nav next"> <a href="mer" title="Mer - 多機能電子リコーダー"> 次の提案書 &rarr; <br/> Mer - 多機能電子リコーダー </a> </p> </nav> </div> </div> <footer> <a hreflang="ja" href="/">ホーム</a> <a hreflang="ja" href="/about">未踏ジュニアとは</a> <a hreflang="ja" href="/news">お知らせ一覧</a> <a hreflang="ja" href="/guideline">応募の手引き</a> <a hreflang="ja" href="/applications">提案書ダウンロード</a> <a hreflang="ja" href="/projects">採択プロジェクト一覧</a> <a hreflang="ja" href="/projects/showcase">採択プロジェクト図鑑</a> <a hreflang="ja" href="/projects/search">採択プロジェクト検索</a> <a hreflang="ja" href="/interviews">修了生インタビュー</a> <a hreflang="ja" href="/mentors">メンター紹介</a> <a hreflang="ja" href="/#faq">よくある質問</a> <a hreflang="ja" href="/q-box">匿名質問箱</a> <a hreflang="ja" href="/#contact">問い合わせ</a> <a hreflang="ja" href="/stats">統計情報</a> <a hreflang="ja" href="/applications#story">採択者の体験談</a> <a hreflang="ja" href="/opportunities">他の支援プログラム</a> <a hreflang="ja" href="/admissions">大学と未踏ジュニア</a> <a hreflang="ja" href="/#sponsors">スポンサー</a> <a hreflang="ja" href="/flyers">チラシ</a> <a hreflang="ja" href="/privacy">プライバシーポリシー</a> <a hreflang="en" href="/english">English</a> <div class="sns"> <a href="https://twitter.com/mitoujr"><i class="fab fa-twitter"></i></a> <a href="https://facebook.com/mitoujr"><i class="fab fa-facebook"></i></a> <a href="https://github.com/mitou/jr.mitou.org"><i class="fab fa-github"></i></a> <a href="https://anchor.fm/mitoujr"><i class="fab fa-spotify"></i></a> <a href="https://youtube.com/mitoujr"><i class="fab fa-youtube"></i></a> </div> <span class="copyright">Copyright &copy; <a href='/#organizer' style='padding: 0 0 0 0; color: #666; font-weight: lighter;'>未踏社団</a> 未踏ジュニア実行委員会 </span> </footer> <script src="/assets/js/lazysizes.min.js" async=""></script> </body> </html>
+  .pdf-container canvas {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    pointer-events: none;
+  }
+  .text-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    line-height: 1.0;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    z-index: 10;
+  }
+  .text-layer > span {
+    color: transparent;
+    position: absolute;
+    white-space: pre;
+    cursor: text;
+    transform-origin: 0% 0%;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+  }
+  .text-layer a {
+    position: absolute;
+    font-size: 1em;
+    background: transparent;
+    cursor: pointer;
+    color: transparent;
+  }
+  .text-layer a:hover {
+    background: rgba(255, 255, 0, 0.2);
+  }
+  .pdf-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+  .pdf-button {
+    padding: 8px 16px;
+    background-color: rgb(40, 161, 58);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 14px;
+    white-space: nowrap;
+    min-width: max-content;
+  }
+  .pdf-button:hover {
+    background-color: rgb(32, 129, 46);
+  }
+  .pdf-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  .page-info {
+    font-size: 14px;
+    color: #666;
+    min-width: 120px;
+    text-align: center;
+  }
+  .error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .pdf-nav-arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 2.5em;
+    color: rgb(40, 161, 58);
+    opacity: 0.25;
+    cursor: pointer;
+    user-select: none;
+    transform: translateY(-50%);
+    z-index: 1000;
+    transition: opacity 0.2s;
+  }
+  .pdf-nav-arrow:hover {
+    opacity: 0.75;
+  }
+  .pdf-nav-arrow-left {
+    left: 8px;
+  }
+  .pdf-nav-arrow-right {
+    right: 8px;
+  }
+  .pdf-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+    border-radius: 4px;
+  }
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  .loading-text {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+    min-width: 200px;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    .pdf-button {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+    .page-info {
+      font-size: 12px;
+      min-width: 100px;
+    }
+  }
+</style> <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js"></script> <script>
+  // PDF.jsの初期化とPDF表示を行う関数
+  async function initPDF(projectId) {
+    // デバッグモードの設定（localhost または ngrok.io の場合に有効）
+    const isDebug = window.location.hostname === 'localhost' || window.location.hostname.endsWith('.ngrok.io');
+    const debugLog = (...args) => {
+      if (isDebug) {
+        console.log('[PDF Debug]', ...args);
+      }
+    };
+
+    debugLog('PDF初期化開始:', projectId);
+
+    const loadingElement = document.getElementById(`pdf-loading-${projectId}`);
+    const loadingText = loadingElement.querySelector('.loading-text');
+    let loadingTimeout;
+
+    try {
+      debugLog('初期化開始');
+
+      // ワーカーの設定
+      window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+      debugLog('ワーカー設定完了');
+
+      const canvas = document.getElementById(`pdf-canvas-${projectId}`);
+      const textLayer = document.getElementById(`text-layer-${projectId}`);
+      const pdfContainer = document.getElementById(`pdf-container-${projectId}`);
+      const pdfUrl = `/applications/${projectId}.pdf`;
+      const prevButton = document.getElementById(`prev-page-${projectId}`);
+      const nextButton = document.getElementById(`next-page-${projectId}`);
+      const pageInfo = document.getElementById(`page-info-${projectId}`);
+      const leftArrow = document.getElementById(`pdf-nav-arrow-left-${projectId}`);
+      const rightArrow = document.getElementById(`pdf-nav-arrow-right-${projectId}`);
+
+      let currentPage = 1;
+      let pdf = null;
+      let numPages = 0;
+
+      // キーボードイベントのハンドラーを追加
+      const handleKeyDown = (event) => {
+        if (event.key === 'ArrowLeft' && currentPage > 1) {
+          currentPage--;
+          renderPage(currentPage);
+          updatePageInfo();
+        } else if (event.key === 'ArrowRight' && currentPage < numPages) {
+          currentPage++;
+          renderPage(currentPage);
+          updatePageInfo();
+        }
+      };
+
+      // PDFコンテナにキーボードイベントを追加
+      pdfContainer.addEventListener('keydown', handleKeyDown);
+
+      // 矢印のクリックイベントを設定
+      leftArrow.addEventListener('click', () => {
+        if (currentPage > 1) {
+          currentPage--;
+          renderPage(currentPage);
+          updatePageInfo();
+          pdfContainer.focus(); // フォーカスを維持
+        }
+      });
+
+      rightArrow.addEventListener('click', () => {
+        if (currentPage < numPages) {
+          currentPage++;
+          renderPage(currentPage);
+          updatePageInfo();
+          pdfContainer.focus(); // フォーカスを維持
+        }
+      });
+
+      // ローディング表示を開始
+      loadingElement.style.display = 'flex';
+      loadingText.textContent = 'PDF 読み込み中... (0%)';
+
+      // PDFの読み込みオプションを設定
+      const loadingTask = window.pdfjsLib.getDocument({
+        url: pdfUrl,
+        cMapUrl: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/cmaps/',
+        cMapPacked: true,
+        standardFontDataUrl: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/standard_fonts/',
+        disableStream: true, // iOS Safariでの問題を回避
+        disableAutoFetch: true // iOS Safariでの問題を回避
+      });
+
+      debugLog('PDF読み込みタスク作成完了');
+
+      // 進捗状況の監視
+      loadingTask.onProgress = (progressData) => {
+        debugLog('読み込み進捗:', progressData);
+        if (progressData.total > 0) {
+          const percent = Math.round((progressData.loaded / progressData.total) * 100);
+          loadingText.textContent = `PDF 読み込み中... (${percent}%)`;
+        }
+      };
+
+      // タイムアウト処理の設定（30秒）
+      loadingTimeout = setTimeout(() => {
+        debugLog('読み込みタイムアウト');
+        loadingText.textContent = '読み込みに時間がかかっています...';
+      }, 30000);
+
+      debugLog('PDF読み込み開始');
+      const pdfDocument = await loadingTask.promise;
+      debugLog('PDF読み込み完了');
+
+      clearTimeout(loadingTimeout);
+
+      debugLog('PDF loaded:', {
+        numPages: pdfDocument.numPages,
+        fingerprint: pdfDocument.fingerprint,
+        isEncrypted: pdfDocument.isEncrypted,
+        isPureXfa: pdfDocument.isPureXfa
+      });
+      numPages = pdfDocument.numPages;
+      
+      // ページ情報を更新
+      function updatePageInfo() {
+        pageInfo.textContent = `ページ ${currentPage} / ${numPages}`;
+        prevButton.disabled = currentPage <= 1;
+        nextButton.disabled = currentPage >= numPages;
+      }
+
+      // ページを表示する関数
+      async function renderPage(pageNum) {
+        // ページ番号の範囲チェック
+        if (pageNum < 1 || pageNum > numPages) {
+          return;
+        }
+
+        const page = await pdfDocument.getPage(pageNum);
+        const leftArrow = document.getElementById(`pdf-nav-arrow-left-${projectId}`);
+        const rightArrow = document.getElementById(`pdf-nav-arrow-right-${projectId}`);
+
+        // 矢印の表示/非表示を制御
+        leftArrow.style.display = pageNum > 1 ? 'block' : 'none';
+        rightArrow.style.display = pageNum < numPages ? 'block' : 'none';
+
+        // PDFページの元のサイズ
+        const originalViewport = page.getViewport({ scale: 1 });
+        const containerWidth = pdfContainer.clientWidth;
+
+        // スケール値を計算（アスペクト比を維持）
+        const scale = containerWidth / originalViewport.width;
+        const viewport = page.getViewport({ 
+          scale: scale,
+          rotation: 0 // 回転を明示的に0度に設定
+        });
+
+        // canvasのピクセルサイズを設定
+        const canvas = document.getElementById(`pdf-canvas-${projectId}`);
+        const context = canvas.getContext('2d');
+        
+        // デバイスピクセル比を考慮
+        const dpr = window.devicePixelRatio || 1;
+        canvas.width = viewport.width * dpr;
+        canvas.height = viewport.height * dpr;
+        
+        // CSSで幅100%、高さautoに
+        canvas.style.width = `${viewport.width}px`;
+        canvas.style.height = `${viewport.height}px`;
+        
+        // コンテキストのスケーリング
+        context.scale(dpr, dpr);
+
+        // テキストレイヤーの設定
+        textLayer.style.width = `${viewport.width}px`;
+        textLayer.style.height = `${viewport.height}px`;
+        textLayer.style.left = '0';
+        textLayer.style.top = '0';
+
+        // PDFを描画
+        await page.render({
+          canvasContext: context,
+          viewport: viewport,
+          intent: 'display'
+        }).promise;
+
+        // テキストレイヤー
+        const textContent = await page.getTextContent();
+        debugLog('Text content:', textContent);
+        
+        // テキストレイヤーをクリア
+        textLayer.innerHTML = '';
+        
+        await window.pdfjsLib.renderTextLayer({
+          textContent,
+          container: textLayer,
+          viewport,
+          textDivs: [],
+          textContentSource: textContent
+        }).promise;
+
+        // リンクの処理
+        const annotations = await page.getAnnotations();
+        debugLog('Annotations:', annotations);
+
+        for (const annotation of annotations) {
+          if (annotation.subtype === 'Link') {
+            debugLog('Processing link:', annotation);
+
+            // リンク要素を作成
+            const link = document.createElement('a');
+            link.style.position = 'absolute';
+            link.style.cursor = 'pointer';
+            link.style.transition = 'background-color 0.2s';
+
+            // リンクの位置とサイズを設定
+            const rect = viewport.convertToViewportRectangle(annotation.rect);
+            const x = Math.min(rect[0], rect[2]);
+            const y = Math.min(rect[1], rect[3]);
+            const width = Math.abs(rect[2] - rect[0]);
+            const height = Math.abs(rect[3] - rect[1]);
+
+            link.style.left = `${x}px`;
+            link.style.top = `${y}px`;
+            link.style.width = `${width}px`;
+            link.style.height = `${height}px`;
+
+            // 外部リンクの場合
+            if (annotation.url) {
+              debugLog('External link:', annotation.url);
+              link.href = annotation.url;
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+              link.title = annotation.url;
+            }
+            // 内部リンクの場合
+            else if (annotation.dest) {
+              debugLog('Internal link:', annotation.dest);
+              link.href = '#';
+              link.title = 'ページ内リンク';
+              
+              // クリックイベントを設定
+              link.addEventListener('click', async (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                debugLog('Link clicked:', annotation.dest);
+                
+                try {
+                  const dest = await pdfDocument.getDestination(annotation.dest);
+                  const pageIndex = await pdfDocument.getPageIndex(dest[0]);
+                  debugLog('Destination page:', pageIndex + 1);
+                  
+                  if (pageIndex !== -1) {
+                    currentPage = pageIndex + 1;
+                    await renderPage(currentPage);
+                    updatePageInfo();
+                    pdfContainer.focus();
+                  }
+                } catch (error) {
+                  console.error('リンク先のページへの移動に失敗しました:', error);
+                }
+              });
+            }
+
+            // リンクをテキストレイヤーに追加
+            textLayer.appendChild(link);
+          }
+        }
+
+        // スクロール位置をリセット
+        pdfContainer.scrollTop = 0;
+
+        updatePageInfo();
+      }
+
+      // 最初のページを表示
+      await renderPage(currentPage);
+
+      // ページナビゲーションのイベントリスナー
+      prevButton.addEventListener('click', async () => {
+        if (currentPage > 1) {
+          currentPage--;
+          await renderPage(currentPage);
+          pdfContainer.focus(); // フォーカスを維持
+        }
+      });
+
+      nextButton.addEventListener('click', async () => {
+        if (currentPage < numPages) {
+          currentPage++;
+          await renderPage(currentPage);
+          pdfContainer.focus(); // フォーカスを維持
+        }
+      });
+
+      // タッチイベントとクリックイベントの処理
+      let touchStartX = 0;
+      let touchStartTime = 0;
+      const SWIPE_THRESHOLD = 50; // スワイプ判定の閾値（ピクセル）
+      const TAP_THRESHOLD = 300; // タップ判定の閾値（ミリ秒）
+
+      const pageContainer = document.querySelector('.pdf-page-container');
+
+      pageContainer.addEventListener('touchstart', (e) => {
+        touchStartX = e.touches[0].clientX;
+        touchStartTime = Date.now();
+      });
+
+      pageContainer.addEventListener('touchend', async (e) => {
+        const touchEndX = e.changedTouches[0].clientX;
+        const touchEndTime = Date.now();
+        const deltaX = touchEndX - touchStartX;
+        const deltaTime = touchEndTime - touchStartTime;
+
+        // スワイプ判定
+        if (Math.abs(deltaX) > SWIPE_THRESHOLD && deltaTime < TAP_THRESHOLD) {
+          if (deltaX > 0 && currentPage > 1) {
+            // 右スワイプ（前のページ）
+            currentPage--;
+            await renderPage(currentPage);
+          } else if (deltaX < 0 && currentPage < numPages) {
+            // 左スワイプ（次のページ）
+            currentPage++;
+            await renderPage(currentPage);
+          }
+        } else {
+          // タップ判定
+          const rect = pageContainer.getBoundingClientRect();
+          const x = e.changedTouches[0].clientX - rect.left;
+          const width = rect.width;
+
+          if (x < width * 0.2 && currentPage > 1) {
+            // 左側タップ（前のページ）
+            currentPage--;
+            await renderPage(currentPage);
+          } else if (x > width * 0.8 && currentPage < numPages) {
+            // 右側タップ（次のページ）
+            currentPage++;
+            await renderPage(currentPage);
+          }
+        }
+      });
+
+      // ウィンドウのリサイズ時にPDFを再描画
+      let resizeTimeout;
+      window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(async () => {
+          await renderPage(currentPage);
+        }, 250);
+      });
+
+      // コンポーネントのクリーンアップ
+      window.addEventListener('unload', () => {
+        if (pdfDocument) {
+          pdfDocument.destroy();
+        }
+      });
+
+      function updateNavArrows() {
+        const leftArrow = document.getElementById(`pdf-nav-arrow-left-${projectId}`);
+        const rightArrow = document.getElementById(`pdf-nav-arrow-right-${projectId}`);
+        leftArrow.style.display = (currentPage > 1) ? 'block' : 'none';
+        rightArrow.style.display = (currentPage < numPages) ? 'block' : 'none';
+      }
+
+      // ページ描画後やページ切り替え時に呼び出す
+      updateNavArrows();
+
+      // ローディング表示を終了
+      loadingElement.style.display = 'none';
+
+    } catch (error) {
+      clearTimeout(loadingTimeout);
+      console.error('PDFの読み込みに失敗しました:', error);
+      
+      // エラーメッセージを詳細に表示
+      let errorMessage = 'PDFの読み込みに失敗しました。';
+      if (error.name === 'MissingPDFException') {
+        errorMessage = 'PDFファイルが見つかりません。';
+      } else if (error.name === 'InvalidPDFException') {
+        errorMessage = 'PDFファイルが壊れている可能性があります。';
+      } else if (error.name === 'UnexpectedResponseException') {
+        errorMessage = 'サーバーからの応答が不正です。';
+      }
+
+      loadingText.textContent = errorMessage;
+      loadingText.style.color = '#dc3545';
+      
+      // リトライボタンを表示
+      const retryButton = document.createElement('button');
+      retryButton.textContent = '再読み込み';
+      retryButton.className = 'pdf-button';
+      retryButton.style.marginTop = '10px';
+      retryButton.onclick = () => {
+        window.location.reload();
+      };
+      loadingElement.appendChild(retryButton);
+    }
+  }
+
+  // ページ読み込み完了時にPDFを表示
+  document.addEventListener('DOMContentLoaded', () => {
+    initPDF('visible');
+  });
+</script> <div class="note" style="margin: 30px auto 50px;"><small>上記の提案書の状態から、約６ヶ月間の支援を得た結果が下記の<a href="/projects/2020#final">成果報告会</a>での発表となります。<br/><br/><img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" class="lazyload"/></small></div> <div class="youtube"> <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/cwYkmn3oA_o?rel=0&amp;start=88" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> </div> <div class="flex"> <a class="button" href="/applications#sample">サンプル一覧に戻る</a> <a class="button" href="https://twitter.com/intent/tweet?text=提案書サンプル%20-%20Visible ─ Webアクセシビリティー診断 &amp; 修正提案ツール&amp;hashtags=未踏ジュニア&amp;url=https://jr.mitou.org/applications/visible&amp;lang=jp&amp;related=mitoujr">ツイートする</a> </div> <nav> <p class="nav prev"> <a href="flight_fit_vr" title="-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品"> &larr; 前の提案書 <br/> -Flight Fit VR- 「飛行」をテーマに仮想空間で... </a> </p> <p class="nav next"> <a href="mer" title="Mer - 多機能電子リコーダー"> 次の提案書 &rarr; <br/> Mer - 多機能電子リコーダー </a> </p> </nav> </div> </div> <footer> <a hreflang="ja" href="/">ホーム</a> <a hreflang="ja" href="/about">未踏ジュニアとは</a> <a hreflang="ja" href="/news">お知らせ一覧</a> <a hreflang="ja" href="/guideline">応募の手引き</a> <a hreflang="ja" href="/applications">提案書ダウンロード</a> <a hreflang="ja" href="/projects">採択プロジェクト一覧</a> <a hreflang="ja" href="/projects/showcase">採択プロジェクト図鑑</a> <a hreflang="ja" href="/projects/search">採択プロジェクト検索</a> <a hreflang="ja" href="/interviews">修了生インタビュー</a> <a hreflang="ja" href="/mentors">メンター紹介</a> <a hreflang="ja" href="/#faq">よくある質問</a> <a hreflang="ja" href="/q-box">匿名質問箱</a> <a hreflang="ja" href="/#contact">問い合わせ</a> <a hreflang="ja" href="/stats">統計情報</a> <a hreflang="ja" href="/applications#story">採択者の体験談</a> <a hreflang="ja" href="/opportunities">他の支援プログラム</a> <a hreflang="ja" href="/admissions">大学と未踏ジュニア</a> <a hreflang="ja" href="/#sponsors">スポンサー</a> <a hreflang="ja" href="/flyers">チラシ</a> <a hreflang="ja" href="/privacy">プライバシーポリシー</a> <a hreflang="en" href="/english">English</a> <div class="sns"> <a href="https://twitter.com/mitoujr"><i class="fab fa-twitter"></i></a> <a href="https://facebook.com/mitoujr"><i class="fab fa-facebook"></i></a> <a href="https://github.com/mitou/jr.mitou.org"><i class="fab fa-github"></i></a> <a href="https://anchor.fm/mitoujr"><i class="fab fa-spotify"></i></a> <a href="https://youtube.com/mitoujr"><i class="fab fa-youtube"></i></a> </div> <span class="copyright">Copyright &copy; <a href='/#organizer' style='padding: 0 0 0 0; color: #666; font-weight: lighter;'>未踏社団</a> 未踏ジュニア実行委員会 </span> </footer> <script src="/assets/js/lazysizes.min.js" async=""></script> </body> </html>
