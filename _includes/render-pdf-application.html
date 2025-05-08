@@ -4,7 +4,7 @@
   https://github.com/mozilla/pdf.js/blob/master/LICENSE
 -->
 <div class="pdf-wrap" style='margin: 30px 0px 55px;'>
-  <div class="pdf-container" id="pdf-container-{{ include.project_id }}">
+  <div class="pdf-container" id="pdf-container-{{ include.project_id }}" tabindex="0">
     <div class="pdf-page-container" id="pdf-page-container-{{ include.project_id }}">
       <span class="pdf-nav-arrow pdf-nav-arrow-left" id="pdf-nav-arrow-left-{{ include.project_id }}">&#x2039;</span>
       <span class="pdf-nav-arrow pdf-nav-arrow-right" id="pdf-nav-arrow-right-{{ include.project_id }}">&#x203A;</span>
@@ -147,8 +147,11 @@
   .page-info {
     font-size: 14px;
     color: #666;
+    min-width: 120px;
+    text-align: center;
     @media screen and (max-width: $phone-width) {
       font-size: 12px;
+      min-width: 100px;
     }
   }
   .error {
@@ -211,6 +214,28 @@
 
       let currentPage = 1;
       let pdf = null;
+      let numPages = 0;  // numPagesをグローバル変数として定義
+
+      // キーボードイベントのハンドラーを追加
+      document.addEventListener('keydown', (event) => {
+        // PDFコンテナまたはナビゲーションボタンがフォーカスされている場合に処理
+        const activeElement = document.activeElement;
+        const isPdfContainer = activeElement.id === `pdf-container-${projectId}`;
+        const isPrevButton = activeElement.id === `prev-page-${projectId}`;
+        const isNextButton = activeElement.id === `next-page-${projectId}`;
+
+        if (isPdfContainer || isPrevButton || isNextButton) {
+          if (event.key === 'ArrowLeft' && currentPage > 1) {
+            currentPage--;
+            renderPage(currentPage);
+            updatePageInfo();
+          } else if (event.key === 'ArrowRight' && currentPage < numPages) {
+            currentPage++;
+            renderPage(currentPage);
+            updatePageInfo();
+          }
+        }
+      });
 
       // 矢印のクリックイベントを設定
       leftArrow.addEventListener('click', () => {
@@ -238,7 +263,7 @@
       });
 
       pdf = await loadingTask.promise;
-      const numPages = pdf.numPages;
+      numPages = pdf.numPages;  // numPagesを設定
       
       // ページ情報を更新
       function updatePageInfo() {
@@ -289,6 +314,7 @@
 
         // テキストレイヤー
         const textContent = await page.getTextContent();
+        //console.log('textContent', textContent);
         await pdfjsLib.renderTextLayer({
           textContent,
           container: textLayer,
@@ -300,6 +326,7 @@
         // リンクレイヤー
         linkLayer.innerHTML = '';
         const annotations = await page.getAnnotations();
+        //console.log('annotations', annotations);
         annotations.forEach(annotation => {
           if (annotation.subtype === 'Link' && annotation.url) {
             const link = document.createElement('a');
