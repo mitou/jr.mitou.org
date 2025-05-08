@@ -15,7 +15,6 @@
       <span class="pdf-nav-arrow pdf-nav-arrow-right" id="pdf-nav-arrow-right-{{ include.project_id }}">&#x203A;</span>
       <canvas id="pdf-canvas-{{ include.project_id }}"></canvas>
       <div id="text-layer-{{ include.project_id }}" class="text-layer"></div>
-      <div id="link-layer-{{ include.project_id }}" class="link-layer"></div>
     </div>
   </div>
   <div class="pdf-controls">
@@ -53,17 +52,13 @@
     padding: 0;
     box-sizing: border-box;
   }
-  .pdf-container canvas,
-  .text-layer,
-  .link-layer {
+  .pdf-container canvas {
     width: 100% !important;
     height: auto !important;
     display: block;
     margin: 0 auto;
     z-index: 1;
-  }
-  .text-layer, .link-layer {
-    pointer-events: auto;
+    pointer-events: none;
   }
   .text-layer {
     position: absolute;
@@ -77,8 +72,7 @@
     -webkit-user-select: text;
     -moz-user-select: text;
     -ms-user-select: text;
-    z-index: 10 !important;
-    pointer-events: auto !important;
+    z-index: 10;
   }
   .text-layer > span {
     color: transparent;
@@ -91,34 +85,14 @@
     -moz-user-select: text;
     -ms-user-select: text;
   }
-  .text-layer .highlight {
-    margin: -1px;
-    padding: 1px;
-    background-color: rgb(180, 0, 170);
-    border-radius: 4px;
-  }
-  .text-layer .highlight.selected {
-    background-color: rgb(0, 100, 0);
-  }
-  .link-layer {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-  }
-  .link-layer a {
+  .text-layer a {
     position: absolute;
     font-size: 1em;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     background: transparent;
     cursor: pointer;
+    color: transparent;
   }
-  .link-layer a:hover {
+  .text-layer a:hover {
     background: rgba(255, 255, 0, 0.2);
   }
   .pdf-controls {
@@ -246,7 +220,6 @@
 
       const canvas = document.getElementById(`pdf-canvas-${projectId}`);
       const textLayer = document.getElementById(`text-layer-${projectId}`);
-      const linkLayer = document.getElementById(`link-layer-${projectId}`);
       const pdfContainer = document.getElementById(`pdf-container-${projectId}`);
       const pdfUrl = `/applications/${projectId}.pdf`;
       const prevButton = document.getElementById(`prev-page-${projectId}`);
@@ -363,13 +336,11 @@
         canvas.style.width = '100%';
         canvas.style.height = 'auto';
 
-        // テキストレイヤー・リンクレイヤーも同様に
-        [textLayer, linkLayer].forEach(layer => {
-          layer.style.width = '100%';
-          layer.style.height = `${canvas.offsetHeight}px`;
-          layer.style.left = '0';
-          layer.style.top = '0';
-        });
+        // テキストレイヤーの設定
+        textLayer.style.width = '100%';
+        textLayer.style.height = `${canvas.offsetHeight}px`;
+        textLayer.style.left = '0';
+        textLayer.style.top = '0';
 
         // PDFを描画
         await page.render({
@@ -381,6 +352,9 @@
         const textContent = await page.getTextContent();
         debugLog('Text content:', textContent);
         
+        // テキストレイヤーをクリア
+        textLayer.innerHTML = '';
+        
         await pdfjsLib.renderTextLayer({
           textContent,
           container: textLayer,
@@ -389,21 +363,10 @@
           textContentSource: textContent
         }).promise;
 
-        // リンクレイヤー
-        linkLayer.innerHTML = '';
+        // リンクの処理
         const annotations = await page.getAnnotations();
         debugLog('Annotations:', annotations);
 
-        // リンクレイヤーのスタイルを設定
-        linkLayer.style.position = 'absolute';
-        linkLayer.style.left = '0';
-        linkLayer.style.top = '0';
-        linkLayer.style.width = '100%';
-        linkLayer.style.height = '100%';
-        linkLayer.style.pointerEvents = 'auto';
-        linkLayer.style.zIndex = '100';
-
-        // 各アノテーションを処理
         for (const annotation of annotations) {
           if (annotation.subtype === 'Link') {
             debugLog('Processing link:', annotation);
@@ -412,16 +375,7 @@
             const link = document.createElement('a');
             link.style.position = 'absolute';
             link.style.cursor = 'pointer';
-            link.style.zIndex = '101';
             link.style.transition = 'background-color 0.2s';
-
-            // ホバー時のスタイル
-            link.addEventListener('mouseenter', () => {
-              link.style.backgroundColor = 'rgba(0, 0, 255, 0.1)';
-            });
-            link.addEventListener('mouseleave', () => {
-              link.style.backgroundColor = 'transparent';
-            });
 
             // リンクの位置とサイズを設定
             const rect = viewport.convertToViewportRectangle(annotation.rect);
@@ -472,17 +426,10 @@
               });
             }
 
-            // リンクをレイヤーに追加
-            linkLayer.appendChild(link);
+            // リンクをテキストレイヤーに追加
+            textLayer.appendChild(link);
           }
         }
-
-        // ページコンテナのクリックイベントを無効化
-        const pageContainer = document.querySelector('.pdf-page-container');
-        pageContainer.style.pointerEvents = 'none';
-        
-        // リンクレイヤーのみクリックイベントを有効化
-        linkLayer.style.pointerEvents = 'auto';
 
         // スクロール位置をリセット
         pdfContainer.scrollTop = 0;
