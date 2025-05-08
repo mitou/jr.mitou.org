@@ -270,6 +270,10 @@
       // PDFコンテナにキーボードイベントを追加
       pdfContainer.addEventListener('keydown', handleKeyDown);
 
+      // ボタンにもキーボードイベントを追加
+      prevButton.addEventListener('keydown', handleKeyDown);
+      nextButton.addEventListener('keydown', handleKeyDown);
+
       // 矢印のクリックイベントを設定
       let isProcessing = false;
       let touchStartTime = 0;
@@ -556,7 +560,6 @@
                     currentPage = pageIndex + 1;
                     await renderPage(currentPage);
                     updatePageInfo();
-                    pdfContainer.focus();
                   }
                 } catch (error) {
                   console.error('リンク先のページへの移動に失敗しました:', error);
@@ -569,9 +572,6 @@
           }
         }
 
-        // スクロール位置をリセット
-        pdfContainer.scrollTop = 0;
-
         updatePageInfo();
       }
 
@@ -583,7 +583,6 @@
         if (currentPage > 1) {
           currentPage--;
           await renderPage(currentPage);
-          pdfContainer.focus(); // フォーカスを維持
         }
       });
 
@@ -591,7 +590,6 @@
         if (currentPage < numPages) {
           currentPage++;
           await renderPage(currentPage);
-          pdfContainer.focus(); // フォーカスを維持
         }
       });
 
