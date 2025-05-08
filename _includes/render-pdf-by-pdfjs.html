@@ -148,6 +148,16 @@
     transform: translateY(-50%);
     z-index: 1000;
     transition: opacity 0.2s;
+    /* タップ領域を広げるための疑似要素を追加 */
+  }
+  .pdf-nav-arrow::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    bottom: -100px;
+    left: -30px;
+    right: -30px;
+    z-index: -1;
   }
   .pdf-nav-arrow:hover {
     opacity: 0.75;
@@ -192,6 +202,12 @@
     .page-info {
       font-size: 12px;
       min-width: 100px;
+    }
+    .pdf-nav-arrow::before {
+      top: -80px;
+      bottom: -80px;
+      left: -20px;
+      right: -20px;
     }
   }
 </style>
