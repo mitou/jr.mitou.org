@@ -216,25 +216,20 @@
       let numPages = 0;  // numPagesをグローバル変数として定義
 
       // キーボードイベントのハンドラーを追加
-      document.addEventListener('keydown', (event) => {
-        // PDFコンテナまたはナビゲーションボタンがフォーカスされている場合に処理
-        const activeElement = document.activeElement;
-        const isPdfContainer = activeElement.id === `pdf-container-${projectId}`;
-        const isPrevButton = activeElement.id === `prev-page-${projectId}`;
-        const isNextButton = activeElement.id === `next-page-${projectId}`;
-
-        if (isPdfContainer || isPrevButton || isNextButton) {
-          if (event.key === 'ArrowLeft' && currentPage > 1) {
-            currentPage--;
-            renderPage(currentPage);
-            updatePageInfo();
-          } else if (event.key === 'ArrowRight' && currentPage < numPages) {
-            currentPage++;
-            renderPage(currentPage);
-            updatePageInfo();
-          }
+      const handleKeyDown = (event) => {
+        if (event.key === 'ArrowLeft' && currentPage > 1) {
+          currentPage--;
+          renderPage(currentPage);
+          updatePageInfo();
+        } else if (event.key === 'ArrowRight' && currentPage < numPages) {
+          currentPage++;
+          renderPage(currentPage);
+          updatePageInfo();
         }
-      });
+      };
+
+      // PDFコンテナにキーボードイベントを追加
+      pdfContainer.addEventListener('keydown', handleKeyDown);
 
       // 矢印のクリックイベントを設定
       leftArrow.addEventListener('click', () => {
@@ -242,6 +237,7 @@
           currentPage--;
           renderPage(currentPage);
           updatePageInfo();
+          pdfContainer.focus(); // フォーカスを維持
         }
       });
 
@@ -250,6 +246,7 @@
           currentPage++;
           renderPage(currentPage);
           updatePageInfo();
+          pdfContainer.focus(); // フォーカスを維持
         }
       });
 
@@ -360,6 +357,7 @@
         if (currentPage > 1) {
           currentPage--;
           await renderPage(currentPage);
+          pdfContainer.focus(); // フォーカスを維持
         }
       });
 
@@ -367,6 +365,7 @@
         if (currentPage < numPages) {
           currentPage++;
           await renderPage(currentPage);
+          pdfContainer.focus(); // フォーカスを維持
         }
       });
 
