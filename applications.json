@@ -1,13 +1,14 @@
 ---
 ---
 
-[ {% for application in site.data.applications %}
-  {% assign project = site.data.projects | where: 'id', application.id | first %}
+{% assign applications = site.data.applications | where: 'type', 'sample'  %}
+[ {% for application in applications %}
+  {% assign project = site.data.projects | where: 'id', application.project_id | first %}
   {
     "id"          : "{{ project.id }}",
     "year"        : "{{ project.year }}",
     "title"       : "{{ project.title }}",
     "project_url" : "{{ site.url }}/projects/{{ project.year }}/{{ project.id }}",
-    "application" : "{{ site.url }}/applications/samples/{{ project.id }}.pdf"
+    "application" : "{{ site.url }}/applications/{{ project.id }}"
   }{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
