@@ -6,7 +6,7 @@
 <div class="pdf-wrap" style='margin: 30px 0px 55px;'>
   <div class="pdf-loading" id="pdf-loading-{{ include.project_id }}">
     <img src="/assets/img/spinner.svg" alt="読み込み中..." class="loading-spinner">
-    <p class="loading-text">PDFを読み込み中です...</p>
+    <p class="loading-text">PDF 読み込み中...</p>
   </div>
   <div class="pdf-container" id="pdf-container-{{ include.project_id }}" tabindex="0">
     <div class="pdf-page-container" id="pdf-page-container-{{ include.project_id }}">
@@ -206,6 +206,8 @@
     color: #666;
     font-size: 14px;
     margin: 0;
+    min-width: 200px;
+    text-align: center;
   }
   @media (max-width: 600px) {
     .pdf-button {
@@ -225,9 +227,11 @@
 
   // PDF.jsの初期化とPDF表示を行う関数
   async function initPDF(projectId) {
+    const loadingElement = document.getElementById(`pdf-loading-${projectId}`);
+    const loadingText = loadingElement.querySelector('.loading-text');
+    let loadingTimeout;
+
     try {
-      const loadingElement = document.getElementById(`pdf-loading-${projectId}`);
-      
       // デバッグモードの設定
       const isDebug = window.location.hostname === 'localhost';
       const debugLog = (...args) => {
@@ -289,6 +293,10 @@
         }
       });
 
+      // ローディング表示を開始
+      loadingElement.style.display = 'flex';
+      loadingText.textContent = 'PDF 読み込み中... (0%)';
+
       // PDFの読み込みオプションを設定
       const loadingTask = pdfjsLib.getDocument({
         url: pdfUrl,
@@ -297,10 +305,22 @@
         standardFontDataUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/standard_fonts/'
       });
 
-      // ローディング表示を開始
-      loadingElement.style.display = 'flex';
+      // 進捗状況の監視
+      loadingTask.onProgress = (progressData) => {
+        if (progressData.total > 0) {
+          const percent = Math.round((progressData.loaded / progressData.total) * 100);
+          loadingText.textContent = `PDF 読み込み中... (${percent}%)`;
+        }
+      };
+
+      // タイムアウト処理の設定（30秒）
+      loadingTimeout = setTimeout(() => {
+        loadingText.textContent = '読み込みに時間がかかっています...';
+      }, 30000);
 
       pdf = await loadingTask.promise;
+      clearTimeout(loadingTimeout);
+
       debugLog('PDF loaded:', {
         numPages: pdf.numPages,
         fingerprint: pdf.fingerprint,
@@ -544,9 +564,31 @@
       loadingElement.style.display = 'none';
 
     } catch (error) {
+      clearTimeout(loadingTimeout);
       console.error('PDFの読み込みに失敗しました:', error);
-      const canvas = document.getElementById(`pdf-canvas-${projectId}`);
-      canvas.parentElement.innerHTML = '<p class="error">PDFの読み込みに失敗しました。</p>';
+      
+      // エラーメッセージを詳細に表示
+      let errorMessage = 'PDFの読み込みに失敗しました。';
+      if (error.name === 'MissingPDFException') {
+        errorMessage = 'PDFファイルが見つかりません。';
+      } else if (error.name === 'InvalidPDFException') {
+        errorMessage = 'PDFファイルが壊れている可能性があります。';
+      } else if (error.name === 'UnexpectedResponseException') {
+        errorMessage = 'サーバーからの応答が不正です。';
+      }
+
+      loadingText.textContent = errorMessage;
+      loadingText.style.color = '#dc3545';
+      
+      // リトライボタンを表示
+      const retryButton = document.createElement('button');
+      retryButton.textContent = '再読み込み';
+      retryButton.className = 'pdf-button';
+      retryButton.style.marginTop = '10px';
+      retryButton.onclick = () => {
+        window.location.reload();
+      };
+      loadingElement.appendChild(retryButton);
     }
   }
 
