@@ -182,7 +182,7 @@
       min-width: 100px;
     }
   }
-</style> <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js"></script> <script>
+</style> <script src="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.min.js"></script> <script src="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js"></script> <script>
   // PDF.jsの初期化とPDF表示を行う関数
   async function initPDF(projectId) {
     // デバッグモードの設定（localhost または ngrok.io の場合に有効）
@@ -203,7 +203,7 @@
       debugLog('初期化開始');
 
       // ワーカーの設定
-      window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js';
       debugLog('ワーカー設定完了');
 
       const canvas = document.getElementById(`pdf-canvas-${projectId}`);
@@ -315,13 +315,32 @@
       loadingText.textContent = 'PDF 読み込み中... (0%)';
 
       // PDFの読み込みオプションを設定
-      const loadingTask = window.pdfjsLib.getDocument({
+      const loadingTask = pdfjsLib.getDocument({
         url: pdfUrl,
-        cMapUrl: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/cmaps/',
+        cMapUrl: 'https://unpkg.com/pdfjs-dist@3.11.174/cmaps/',
         cMapPacked: true,
-        standardFontDataUrl: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/standard_fonts/',
-        disableStream: true, // iOS Safariでの問題を回避
-        disableAutoFetch: true // iOS Safariでの問題を回避
+        standardFontDataUrl: 'https://unpkg.com/pdfjs-dist@3.11.174/standard_fonts/',
+        disableStream: true,
+        disableAutoFetch: true,
+        fontExtraProperties: true,
+        useSystemFonts: true,
+        maxCanvasPixels: 16777216,
+        isEvalSupported: true,
+        disableFontFace: false,
+        useWorkerFetch: true,
+        enableXfa: true,
+        enableFontFace: true,
+        fontFaceProperties: {
+          fontFamily: 'sans-serif',
+          fontWeight: 'normal',
+          fontStyle: 'normal'
+        },
+        disableFontFace: false,
+        useSystemFonts: true,
+        standardFontDataUrl: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/standard_fonts/',
+        maxFontSize: 0,
+        fontLoadingTimeout: 30000,
+        retryFontLoading: true
       });
 
       debugLog('PDF読み込みタスク作成完了');
@@ -353,6 +372,20 @@
         isEncrypted: pdfDocument.isEncrypted,
         isPureXfa: pdfDocument.isPureXfa
       });
+
+      // フォント情報のデバッグ出力を追加
+      const page = await pdfDocument.getPage(1);
+      const commonObjs = page.commonObjs;
+      debugLog('Common Objects:', commonObjs);
+      
+      const fontObjs = page.objs;
+      debugLog('Font Objects:', fontObjs);
+
+      // テキストレイヤーのデバッグ出力を追加
+      const textContent = await page.getTextContent();
+      debugLog('Text Content:', textContent);
+      debugLog('Text Content Items:', textContent.items);
+
       numPages = pdfDocument.numPages;
       
       // ページ情報を更新
@@ -424,12 +457,14 @@
         // テキストレイヤーをクリア
         textLayer.innerHTML = '';
         
-        await window.pdfjsLib.renderTextLayer({
+        await pdfjsLib.renderTextLayer({
           textContent,
           container: textLayer,
           viewport,
           textDivs: [],
-          textContentSource: textContent
+          textContentSource: textContent,
+          renderInteractiveForms: true,
+          enhanceTextSelection: true
         }).promise;
 
         // リンクの処理
