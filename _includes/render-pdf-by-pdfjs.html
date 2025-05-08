@@ -203,19 +203,21 @@
 <script>
   // PDF.jsの初期化とPDF表示を行う関数
   async function initPDF(projectId) {
-    console.log('PDF初期化開始:', projectId);
+    // デバッグモードの設定（localhost または ngrok.io の場合に有効）
+    const isDebug = window.location.hostname === 'localhost' || window.location.hostname.endsWith('.ngrok.io');
+    const debugLog = (...args) => {
+      if (isDebug) {
+        console.log('[PDF Debug]', ...args);
+      }
+    };
+
+    debugLog('PDF初期化開始:', projectId);
 
     const loadingElement = document.getElementById(`pdf-loading-${projectId}`);
     const loadingText = loadingElement.querySelector('.loading-text');
     let loadingTimeout;
 
     try {
-      // デバッグモードの設定
-      const isDebug = true; // デバッグを常に有効化
-      const debugLog = (...args) => {
-        console.log('[PDF Debug]', ...args);
-      };
-
       debugLog('初期化開始');
 
       // ワーカーの設定
@@ -325,6 +327,11 @@
 
       // ページを表示する関数
       async function renderPage(pageNum) {
+        // ページ番号の範囲チェック
+        if (pageNum < 1 || pageNum > numPages) {
+          return;
+        }
+
         const page = await pdfDocument.getPage(pageNum);
         const leftArrow = document.getElementById(`pdf-nav-arrow-left-${projectId}`);
         const rightArrow = document.getElementById(`pdf-nav-arrow-right-${projectId}`);
@@ -482,29 +489,53 @@
         }
       });
 
-      // ★ ここから追加 ★
+      // タッチイベントとクリックイベントの処理
+      let touchStartX = 0;
+      let touchStartTime = 0;
+      const SWIPE_THRESHOLD = 50; // スワイプ判定の閾値（ピクセル）
+      const TAP_THRESHOLD = 300; // タップ判定の閾値（ミリ秒）
+
       const pageContainer = document.querySelector('.pdf-page-container');
 
-      pageContainer.addEventListener('click', async (e) => {
-        // リンククリック時は無視
-        if (e.target.tagName.toLowerCase() === 'a') return;
+      pageContainer.addEventListener('touchstart', (e) => {
+        touchStartX = e.touches[0].clientX;
+        touchStartTime = Date.now();
+      });
 
-        const rect = pageContainer.getBoundingClientRect();
-        const x = e.clientX - rect.left;
+      pageContainer.addEventListener('touchend', async (e) => {
+        const touchEndX = e.changedTouches[0].clientX;
+        const touchEndTime = Date.now();
+        const deltaX = touchEndX - touchStartX;
+        const deltaTime = touchEndTime - touchStartTime;
 
-        if (x < rect.width * 0.2) {
-          if (currentPage > 1) {
+        // スワイプ判定
+        if (Math.abs(deltaX) > SWIPE_THRESHOLD && deltaTime < TAP_THRESHOLD) {
+          if (deltaX > 0 && currentPage > 1) {
+            // 右スワイプ（前のページ）
             currentPage--;
             await renderPage(currentPage);
+          } else if (deltaX < 0 && currentPage < numPages) {
+            // 左スワイプ（次のページ）
+            currentPage++;
+            await renderPage(currentPage);
           }
-        } else if (x > rect.width * 0.8) {
-          if (currentPage < numPages) {
+        } else {
+          // タップ判定
+          const rect = pageContainer.getBoundingClientRect();
+          const x = e.changedTouches[0].clientX - rect.left;
+          const width = rect.width;
+
+          if (x < width * 0.2 && currentPage > 1) {
+            // 左側タップ（前のページ）
+            currentPage--;
+            await renderPage(currentPage);
+          } else if (x > width * 0.8 && currentPage < numPages) {
+            // 右側タップ（次のページ）
             currentPage++;
             await renderPage(currentPage);
           }
         }
       });
-      // ★ ここまで追加 ★
 
       // ウィンドウのリサイズ時にPDFを再描画
       let resizeTimeout;
