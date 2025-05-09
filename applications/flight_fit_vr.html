@@ -30,6 +30,8 @@
     border-radius: 4px;
     margin-bottom: 10px;
     scroll-behavior: smooth;
+    touch-action: pan-y pinch-zoom;
+    -webkit-overflow-scrolling: touch;
   }
   .pdf-page-container {
     position: relative;
@@ -39,6 +41,7 @@
     align-items: flex-start;
     padding: 0;
     box-sizing: border-box;
+    touch-action: pan-y pinch-zoom;
   }
   .pdf-container canvas {
     width: 100% !important;
@@ -61,6 +64,7 @@
     -moz-user-select: text;
     -ms-user-select: text;
     z-index: 10;
+    touch-action: pan-y pinch-zoom;
   }
   .text-layer > span {
     color: transparent;
