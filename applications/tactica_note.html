@@ -462,6 +462,7 @@
         textLayer.style.height = `${viewport.height}px`;
         textLayer.style.left = '0';
         textLayer.style.top = '0';
+        textLayer.style.setProperty('--scale-factor', scale.toString());
 
         // PDFを描画
         await page.render({
