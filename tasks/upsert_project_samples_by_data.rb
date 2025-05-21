@@ -7,19 +7,20 @@ require 'active_support/core_ext/string/filters'
 TRUNCATE_LENGTH = 33
 
 # Remove existing sample pages. They are re-generated later.
-Dir.glob("./applications/*.md"  ).each { File.delete(it) unless it.split('/').last.start_with? 'index.md' }
+Dir.glob('./applications/*.md').each do |filename|
+  File.delete(filename) unless File.basename(filename).start_with?('index.md')
+end
 
-project_sample_ids = YAML.load_file("_data/applications.yml", symbolize_names: true)
-  .select{ it[:type] == 'sample'}
-  .map{ it[:project_id] }
-project_samples = YAML.load_file("_data/projects.yml", symbolize_names: true)
-  .select{ project_sample_ids.include? it[:id] }
+project_sample_ids = YAML.load_file('_data/applications.yml', symbolize_names: true)
+  .select { |item| item[:type] == 'sample' }
+  .map { |item| item[:project_id] }
+project_samples = YAML.load_file('_data/projects.yml', symbolize_names: true)
+  .select { |project| project_sample_ids.include? project[:id] }
 
 project_samples.each_with_index do |project, index|
   # Prev/Next project data for navigation
-  project_index = project_samples.index(project)
-  prev_project  = project_samples.rotate(project_index - 1).first
-  next_project  = project_samples.rotate(project_index + 1).first
+  prev_project = project_samples[(index - 1) % project_samples.length]
+  next_project = project_samples[(index + 1) % project_samples.length]
 
   sample_path = "./applications/#{project[:id]}.md"
   sample_page = <<~PROJECT_SAMPLE_PAGE
