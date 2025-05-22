@@ -8,12 +8,6 @@ gem 'rake'          # Enable Rakefile to run tasks
 gem 'ruby-openai'   # Translate project info from JA to EN
 gem 'activesupport' # To truncate titles. https://railsguides.jp/active_support_core_extensions.html#truncate
 
-
-# Declare to install bundled gems to fix warnings:
-# https://www.ruby-lang.org/ja/news/2023/12/25/ruby-3-3-0-released/
-gem 'csv'
-gem 'base64'
-
 group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-redirect-from'

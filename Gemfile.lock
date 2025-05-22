@@ -226,8 +226,6 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
-  base64
-  csv
   html-proofer
   jekyll
   jekyll-feed
