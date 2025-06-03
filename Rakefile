@@ -48,6 +48,7 @@ task test: [:build] do
       /meti.go.jp/,
       /#:~:text=/,
       /twitter.com/,  # Skip testing Twitter URLs
+      /x.com/,        # Skip testing X.com's URLs
     ],
     #ignore_status_codes: [0, 500, 999],
   }
