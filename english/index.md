@@ -245,7 +245,7 @@ Example projects, accepted and boosted by our program, are as follows.
     <img src="/assets/img/spinner.svg" data-src="/assets/img/english/toubans.webp" alt="Toubans! - The easy-to-use duty-management chatbot" class="project-img lazyload" loading="lazy" />
   </a>
 
-  <a href='https://hato.nyiyui.ca/README-en.html' class="project-showcase project-one">
+  <a href='/english/projects/2023/hato' class="project-showcase project-one">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/english/hato.webp" alt="Hopefully Automatic Train Operation (HATO): Immersive Automatic Model Train Control System" class="project-img lazyload" loading="lazy" />
   </a>
 </div>

@@ -447,14 +447,14 @@
 - id: hato
   title: "Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム"
   title_en: "Hopefully Automatic Train Operation (HATO): Immersive Automatic Model Train Control System"
-  description: HATOは鉄道模型の世界に没入するためのNゲージ列車全自動運行システムです。メインプログラムは、センサ郡と制御電源を独自USB上プロトコルHLCPを介して制御し、車両の位置等を検知し、事故を回避します。運転指令所にあるような列車制御UIを実装することで、ユーザの鉄道模型世界への没入度を高めます。An <a href='https://hato.nyiyui.ca/README-en.html'>English website</a> is also available.
+  description: HATOは鉄道模型の世界に没入するためのNゲージ列車全自動運行システムです。メインプログラムは、センサ郡と制御電源を独自USB上プロトコルHLCPを介して制御し、車両の位置等を検知し、事故を回避します。運転指令所にあるような列車制御UIを実装することで、ユーザの鉄道模型世界への没入度を高めます。An <a href='/projects/2023/hato'>English website</a> is also available.
   description_en: |
     HATO is a fully automatic operation system for N gauge trains that aims to immerse users in the world of model railroading. HATO controls a distributed system consisting of a group of sensors and power supply units via a custom protocol, HLCP (Hato Line Control Protocol), which is run over USB. The system manages the position and speed of multiple trains while preventing accidents and automatically operating trains. In addition, a train control interface similar to those found in an transit control centre enhances the immersiveness of your model train simulation. HATO is an open source project available on <a href='https://github.com/nyiyui/hato'>GitHub</a>.
   thumbnail: hato.webp
   promotion: rcGFUpEQFpU # 日本語版
   final:       iksrkcghhdc
   final_start: 30
-  link: https://hato.nyiyui.ca
+  link: https://github.com/nyiyui/hato
   tags: [鉄道, 鉄道模型, Nゲージ]
   year: 2023
   mentor_id: rhythm_sakamoto
