@@ -4,7 +4,7 @@ title: |
   提案書サンプル &raquo; <br>TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート
 description: |
   未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。
-thumbnail: /assets/img/projects/2024/
+thumbnail: /assets/img/projects/2024/tactica_note.webp
 ---
 
 <p style='padding: 50px 0px 10px;'>{{ page.description }}</p>
