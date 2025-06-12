@@ -1,3 +1,4 @@
+# AKATSUKI: https://mitouteki.jp/
 - id:    fukuoka
   link:  https://mitou-fukuoka.org/
   title: 福岡未踏的人材発掘・育成コンソーシアム
@@ -18,36 +19,8 @@
   title: LEADING EDGE 四国
   description: "IT・デジタル技術を活用した独創的なアイデアを持つ地域の若い才能と愛媛県内企業が新しい形で結びつき、愛媛発の新たな価値を創出するオープンイノベーションプログラムです。 <strong>満15歳～25歳未満で四国・瀬戸内圏域</strong>にゆかりのある若者 (在学・在住・出身など) のチャレンジを待っています。"
 
-## 2024
 
-#- id:    kansai_tcc
-#  link:  https://kansai-tcc.dle.or.jp/
-#  title: 関西テック・クリエイター・チャレンジ
-#  description: "<strong>関西の大学・大学院・<a href='https://www.mext.go.jp/a_menu/koutou/kousen/index.htm'>高等専門学校</a>に在籍中</strong>の若手テック人材を発掘・育成するプログラムです。本プログラムをきっかけに、若手テック人材の育成コミュニティを形成し、他の大学や企業と産学官連携を強化することで、人材育成のエコシステム構築もめざしています。"
-
-#- id:    flyingtokyo
-#  link:  https://flyingtokyo.com/
-#  title: Flying Tokyo 2024
-#  description: "経産省の支援を受け、<a href='https://twitter.com/rhizomatiks'>Rhizomatiks (ライゾマティクス)</a> が運営する、アート分野の36歳未満の若手クリエイターを支援・育成するプログラムです。500万円を上限として、制作支援や活動費の支援なども実施されます。"
-
-
-## 2023
-
-#- id:    etsuzan
-#  link:  https://etsuzan.org/
-#  title: 新潟版未踏的人材育成事業（ETSUZAN）
-#  description: "<strong>新潟</strong>の若者を対象に実施するIT人材発掘・育成プログラム「ETSUZAN（越山）」は、新潟の企業体による、新潟県内の学生や若手の育成を行うプロジェクトです。内に秘めた強い熱意とやり遂げる力がある人を求めています。"
-
-#- id:    hokuriku
-#  link:  https://hokuriku-choetsu.studio.site/
-#  title: 「北陸超越」人材発掘プロジェクト
-#  description: "<strong>石川・富山・福井のいずれかに在住</strong>している30歳以下の方々を対象とした支援プログラムです。具体的な開発・製作活動を通して具現化し、そして成長していくことを願い、そのような若い人たちからの意欲的な開発・製作テーマを募集しています。"
-
-#- id:    inno-vation
-#  link:  https://www.inno.go.jp/
-#  title: 異能（Inno）vation
-#  description: "異能vationプログラムはICT分野において破壊的な地球規模の価値創造を生み出すために、大いなる可能性がある奇想天外でアンビシャスな技術課題への挑戦を支援します。あらたな日常が始まろうとしている中、あらたな挑戦をする方々からの応募を歓迎しています。（公式アカウント: <a href='https://www.youtube.com/@innoproject'>YouTube</a> / <a href='https://www.instagram.com/inno_project/'>Instagram</a> / <a href='https://www.facebook.com/innovationproject/'>Facebook</a> / <a href='https://twitter.com/inno_project'>X</a>）"
-
+# Other support programs
 - id:    cybozu
   link:  https://labs.cybozu.co.jp/youth/requirements.html
   title: サイボウズ・ラボユース
@@ -58,6 +31,8 @@
   title: 国立研究開発法人 産総研「覚醒プロジェクト」
   description: "若手人材が、国立研究開発法人産業技術総合研究所（<a href='https://www.aist.go.jp/'>産総研</a>）の保有する先端的研究設備等を活用することにより、ディープテック分野の独創的かつ斬新な研究開発を推進し、社会課題解決にチャレンジするプロジェクトです。"
 
+
+# IPA MITOU Programs: https://www.ipa.go.jp/en/about/it-talents/mitou.html
 - id:    ipa-mitou
   link:  https://www.ipa.go.jp/jinzai/mitou/it/about.html
   title: 未踏IT人材発掘・育成事業
@@ -73,3 +48,36 @@
   title: 未踏アドバンスト事業
   description: "<strong>年齢不問</strong>の、ビジネスや社会課題の解決につなげたいと考えているIT人材を発掘・育成する事業です。製品・サービスの企画・構想を練っている段階、もしくはプロトタイプ開発を継続している段階のプロジェクトを募集しています。これまでの成果報告会の様子は <a href='https://www.youtube.com/@ipa5619/playlists?view=50&sort=dd&shelf_id=6'>YouTube から公開</a>されています。"
 
+  
+# Past support programs (Hidden in HTML/JSON)
+## 2024
+- id:    kansai_tcc
+  link:  https://kansai-tcc.dle.or.jp/
+  title: 関西テック・クリエイター・チャレンジ
+  is_closed: true
+  description: "<strong>関西の大学・大学院・<a href='https://www.mext.go.jp/a_menu/koutou/kousen/index.htm'>高等専門学校</a>に在籍中</strong>の若手テック人材を発掘・育成するプログラムです。本プログラムをきっかけに、若手テック人材の育成コミュニティを形成し、他の大学や企業と産学官連携を強化することで、人材育成のエコシステム構築もめざしています。"
+
+- id:    flyingtokyo
+  link:  https://flyingtokyo.com/
+  title: Flying Tokyo 2024
+  is_closed: true
+  description: "経産省の支援を受け、<a href='https://twitter.com/rhizomatiks'>Rhizomatiks (ライゾマティクス)</a> が運営する、アート分野の36歳未満の若手クリエイターを支援・育成するプログラムです。500万円を上限として、制作支援や活動費の支援なども実施されます。"
+
+## 2023
+- id:    etsuzan
+  link:  https://etsuzan.org/
+  title: 新潟版未踏的人材育成事業（ETSUZAN）
+  is_closed: true
+  description: "<strong>新潟</strong>の若者を対象に実施するIT人材発掘・育成プログラム「ETSUZAN（越山）」は、新潟の企業体による、新潟県内の学生や若手の育成を行うプロジェクトです。内に秘めた強い熱意とやり遂げる力がある人を求めています。"
+
+- id:    hokuriku
+  link:  https://hokuriku-choetsu.studio.site/
+  title: 「北陸超越」人材発掘プロジェクト
+  is_closed: true
+  description: "<strong>石川・富山・福井のいずれかに在住</strong>している30歳以下の方々を対象とした支援プログラムです。具体的な開発・製作活動を通して具現化し、そして成長していくことを願い、そのような若い人たちからの意欲的な開発・製作テーマを募集しています。"
+
+- id:    inno-vation
+  link:  https://www.inno.go.jp/
+  title: 異能（Inno）vation
+  is_closed: true
+  description: "異能vationプログラムはICT分野において破壊的な地球規模の価値創造を生み出すために、大いなる可能性がある奇想天外でアンビシャスな技術課題への挑戦を支援します。あらたな日常が始まろうとしている中、あらたな挑戦をする方々からの応募を歓迎しています。（公式アカウント: <a href='https://www.youtube.com/@innoproject'>YouTube</a> / <a href='https://www.instagram.com/inno_project/'>Instagram</a> / <a href='https://www.facebook.com/innovationproject/'>Facebook</a> / <a href='https://twitter.com/inno_project'>X</a>）"

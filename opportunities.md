@@ -13,7 +13,8 @@ redirect_from:
   <small>細かな募集要項は未踏ジュニアとは異なります。<br class='ignore-pc'>詳細は以下の公式サイトからご確認ください。</small><br>
 </p>
 
-{% for opportunity in site.data.opportunities %}
+{% assign open_opportunities = site.data.opportunities | where_exp: "item", "item.is_closed != true" %}
+{% for opportunity in open_opportunities %}
 <h2 id='{{ opportunity.id }}'>
   <a href='#{{ opportunity.id }}' style='color: #333; font-weight: bold;'>{{ opportunity.title }}</a>
 </h2>
