@@ -1,0 +1,9 @@
+{% assign projects = site.data.projects | where: 'mentor_id', include.mentor_id %}
+<h4>採択プロジェクト{% if projects.size > 0 %} <small style="font-weight: normal;">({{ projects.size }}件)</small>{% endif %}</h4>
+<ul>
+  {% for pj in projects %}
+    <li><a href="/projects/{{ pj.year }}/{{ pj.id }}">{{ pj.title }}</a></li>
+  {% else %}
+    <li><a href='/guideline'>次回募集</a>から採択開始!</li>
+  {% endfor %}
+</ul>

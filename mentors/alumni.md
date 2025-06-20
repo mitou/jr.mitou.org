@@ -35,15 +35,7 @@ redirect_from:
         <h4>こんな人・こんな提案を待っています</h4>
         <p>{{ mentor.interested }}</p>
 
-	<h4>これまでの採択プロジェクト</h4>
-	<ul>
-	  {% assign projects = site.data.projects | where: 'mentor_id', mentor.id %}
-	  {% for pj in projects %}
-	    <li><a href="/projects/{{ pj.year }}#{{ pj.id }}">{{ pj.title }}</a></li>
-	  {% else %}
-	    <li><a href='/guideline'>次回募集</a>から採択開始!</li>
-	  {% endfor %}
-	</ul>
+	{% include mentor-to-projects.html mentor_id=mentor.id %}
 
         <h4>略歴</h4>
         <p>{{ mentor.bio }}</p>
