@@ -6,3 +6,4 @@ vendor
 .DS_Store
 .envrc
 tmp
+CLAUDE.md
