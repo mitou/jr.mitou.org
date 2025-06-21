@@ -36,11 +36,12 @@ jobs:
     - name: Commit and push if changes exist
       if: steps.check_news.outputs.has_changes == 'true'
       run: |
-        git config --local user.email "yohei@yasslab.jp"
-        git config --local user.name "Yohei Yasukawa"
+        git config --global user.name "Yohei Yasukawa"
+        git config --global user.email "yohei@yasslab.jp"
+        git checkout main
         git add _data/news.yml
         git commit -m "🤖 Update news from PR TIMES RSS feed"
-        git push
+        git push origin main
     
     - name: 🔧 Build all pages
       if: steps.check_news.outputs.has_changes == 'true'
