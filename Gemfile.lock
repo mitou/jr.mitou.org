@@ -198,6 +198,8 @@ GEM
       ffi (~> 1.0)
     rexml (3.4.1)
     rouge (4.5.2)
+    rss (0.3.1)
+      rexml
     ruby-openai (8.1.0)
       event_stream_parser (>= 0.3.0, < 2.0.0)
       faraday (>= 1)
@@ -266,6 +268,7 @@ DEPENDENCIES
   jekyll-sitemap
   mini_racer
   rake
+  rss
   ruby-openai
   tzinfo
   tzinfo-data

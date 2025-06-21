@@ -7,6 +7,7 @@ gem 'jekyll'
 gem 'rake'          # Enable Rakefile to run tasks
 gem 'ruby-openai'   # Translate project info from JA to EN
 gem 'activesupport' # To truncate titles. https://railsguides.jp/active_support_core_extensions.html#truncate
+gem 'rss'           # Parse RSS feeds for news updates
 
 group :jekyll_plugins do
   gem 'jekyll-feed'
