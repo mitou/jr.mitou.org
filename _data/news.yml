@@ -34,6 +34,10 @@
   link: 'https://www.tv-asahi.co.jp/nanikore/backnumber2/0136/#:~:text=高校生が作った4DXモーションシミュレーター'
   date: 2024/09/15
 
+- title: '未踏社団、小中高生クリエータ支援プログラム「2024年度 未踏ジュニア」の募集を開始 (公式)'
+  link: 'https://prtimes.jp/main/html/rd/p/000000015.000022934.html'
+  date: 2024/03/10
+
 - title: '小学生プログラミング大会　宮崎の上田君がグランプリ (47NEWS)'
   link: 'https://www.47news.jp/10603458.html'
   date: 2024/03/03
@@ -114,14 +118,14 @@
   link: 'https://www.watch.impress.co.jp/kodomo_it/news/1300787.html'
   date: 2021/01/25
 
-- title: 'Teen''s tracking app takes a different approach to the coronavirus challenge (CBS News)'
-  link: 'https://www.cbsnews.com/news/coronavirus-teens-tracking-app-different-approach-data-privacy-covid-tracing-japan-asiato/'
-  date: 2020/05/21
-
 # 404 Not Found as of 2024/04/04
 #- title: NHK高校講座「社会と情報」第18回 社会における情報システム　プログラミングに挑戦！（NHK）
 #  link: https://www.nhk.or.jp/kokokoza/tv/syakaijouhou/archive/chapter018.html
 #  date: 2020/01/25
+
+- title: 'Teen''''s tracking app takes a different approach to the coronavirus challenge (CBS News)'
+  link: 'https://www.cbsnews.com/news/coronavirus-teens-tracking-app-different-approach-data-privacy-covid-tracing-japan-asiato/'
+  date: 2020/05/21
 
 - title: '自分の「欲しい！」を創り出す若きクリエータが集結（EdTechZine）'
   link: 'https://edtechzine.jp/article/detail/3036'
@@ -142,6 +146,10 @@
 - title: '「やりたいことを忘れない」小5でScratchを始めてから未踏ジュニアスーパークリエイターに認定されるまで（Progate）'
   link: 'https://progate.com/success_interviews/ymitsuhashi'
   date: 2019/03/01
+
+- title: '「2019年度未踏ジュニア」募集開始のお知らせ (公式)'
+  link: 'https://prtimes.jp/main/html/rd/p/000000007.000022934.html'
+  date: 2019/02/04
 
 - title: '10代のトップクリエータが魅せた、“好きなものを作る” ものづくりへ情熱（こどもとIT）'
   link: 'https://www.watch.impress.co.jp/kodomo_it/news/1153935.html'
@@ -171,27 +179,35 @@
   link: 'https://www.watch.impress.co.jp/kodomo_it/news/1112464.html'
   date: 2018/03/20
 
-- title: 'AO入試C方式対象コンテストに「未踏ジュニアスーパークリエータ認定者」と「ファブ3Dコンテスト入賞者」を追加（慶應義塾大学SFC）'
-  link: 'https://www.sfc.keio.ac.jp/news/012903.html'
-  date: 2018/03/19
-
-- title: '中学2年生にしてiPhoneアプリを5本リリース、毎日1アイデアを考える未踏ジュニアスーパークリエータ（EdTechZine）'
-  link: 'https://edtechzine.jp/article/detail/780'
-  date: 2018/03/19
-
 # 404 link
 #- title: 独創アイデア、技術力を持つ小中高生クリエータの11プロジェクト─今、未踏ジュニアが生み出すもの (CodeIQ Magazine)
 #  link: https://codeiq.jp/magazine/2017/12/56070/
 #  date: 2017/12/01
 
-- title: '未来のスーパークリエーターを発掘・支援する「未踏ジュニア」今年も開催──応募締め切りは5月11日（こどもとIT）'
-  link: 'https://www.watch.impress.co.jp/kodomo_it/news/1109737.html'
-  date: 2018/03/05
+- title: '中学2年生にしてiPhoneアプリを5本リリース、毎日1アイデアを考える未踏ジュニアスーパークリエータ（EdTechZine）'
+  link: 'https://edtechzine.jp/article/detail/780'
+  date: 2018/03/19
+
+- title: 'AO入試C方式対象コンテストに「未踏ジュニアスーパークリエータ認定者」と「ファブ3Dコンテスト入賞者」を追加（慶應義塾大学SFC）'
+  link: 'https://www.sfc.keio.ac.jp/news/012903.html'
+  date: 2018/03/19
 
 - title: '小中高生・高専生対象「未踏ジュニア」、採択グループに最大50万円（リセマム）'
   link: 'https://resemom.jp/article/2018/03/05/43295.html'
   date: 2018/03/05
 
+- title: '未来のスーパークリエーターを発掘・支援する「未踏ジュニア」今年も開催──応募締め切りは5月11日（こどもとIT）'
+  link: 'https://www.watch.impress.co.jp/kodomo_it/news/1109737.html'
+  date: 2018/03/05
+
+- title: '「2018年度未踏ジュニア」開催および、募集開始のお知らせ (公式)'
+  link: 'https://prtimes.jp/main/html/rd/p/000000004.000022934.html'
+  date: 2018/03/05
+
 - title: '出る杭を伸ばせ！　プログラミングで頭角を現す小中高生クリエイターたち（こどもとIT）'
   link: 'https://www.watch.impress.co.jp/kodomo_it/news/1093210.html'
   date: 2017/11/29
+
+- title: '「2017年度未踏ジュニア」開催のお知らせ (公式)'
+  link: 'https://prtimes.jp/main/html/rd/p/000000003.000022934.html'
+  date: 2017/04/19
