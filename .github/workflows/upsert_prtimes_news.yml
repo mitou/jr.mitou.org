@@ -1,4 +1,4 @@
-name: Update PR TIMES News
+name: Upsert PR TIMES News
 
 on:
   # 2週間ごとに日本時間の午前9時に実行（UTC 0時、毎月1日と15日）
@@ -40,7 +40,7 @@ jobs:
         git config --global user.email "yohei@yasslab.jp"
         git checkout main
         git add _data/news.yml
-        git commit -m "🤖 Update news from PR TIMES RSS feed"
+        git commit -m "🤖 Upsert news from PR TIMES RSS feed"
         git push origin main
     
     - name: 🔧 Build all pages
