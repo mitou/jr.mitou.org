@@ -41,3 +41,15 @@ jobs:
         git add _data/news.yml
         git commit -m "🤖 Update news from PR TIMES RSS feed"
         git push
+    
+    - name: 🔧 Build all pages
+      if: steps.check_news.outputs.has_changes == 'true'
+      run: |
+        JEKYLL_ENV=production bundle exec jekyll build
+    
+    - name: 🚀 Deploy to GitHub Pages
+      if: steps.check_news.outputs.has_changes == 'true' && github.ref == 'refs/heads/main' && job.status == 'success'
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        personal_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
