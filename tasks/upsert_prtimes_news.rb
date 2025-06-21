@@ -15,15 +15,58 @@ NEWS_YAML_PATH = '_data/news.yml'
 # 取得する記事数（デフォルト: 10件）
 NUM_OF_ITEMS = (ARGV[0] || 10).to_i
 
-# 既存のニュースを読み込み
-existing_news = if File.exist?(NEWS_YAML_PATH)
-  YAML.load_file(NEWS_YAML_PATH) || []
-else
-  []
+# YAMLファイルを行ごとに読み込み、手動でパース
+news_items = []
+comment_blocks = {}
+current_comments = []
+
+if File.exist?(NEWS_YAML_PATH)
+  lines = File.readlines(NEWS_YAML_PATH)
+  current_item = nil
+  
+  lines.each_with_index do |line, index|
+    # コメント行の処理
+    if line.strip.start_with?('#')
+      current_comments << line
+      next
+    end
+    
+    # 新しいアイテムの開始
+    if line.start_with?('- title:')
+      # 前のアイテムがあれば保存
+      if current_item
+        # アイテムの直前にコメントがあれば保存
+        if !current_comments.empty?
+          comment_blocks[news_items.size] = current_comments.join
+          current_comments = []
+        end
+        news_items << current_item
+      end
+      
+      # 新しいアイテムを開始
+      current_item = {}
+      current_item['title'] = line.sub(/^- title:\s*['"]?/, '').sub(/['"]?\s*$/, '').strip
+    elsif line.start_with?('  link:') && current_item
+      current_item['link'] = line.sub(/^\s*link:\s*['"]?/, '').sub(/['"]?\s*$/, '').strip
+    elsif line.start_with?('  date:') && current_item
+      current_item['date'] = line.sub(/^\s*date:\s*/, '').strip
+    elsif line.strip.empty? && !current_comments.empty?
+      # 空行もコメントブロックの一部として保持
+      current_comments << line
+    end
+  end
+  
+  # 最後のアイテムを保存
+  if current_item
+    if !current_comments.empty?
+      comment_blocks[news_items.size] = current_comments.join
+    end
+    news_items << current_item
+  end
 end
 
 # 既存のリンクをSetに格納（重複チェック用）
-existing_links = existing_news.map { |news| news['link'] }.to_set
+existing_links = news_items.map { |news| news['link'] }.to_set
 
 # RSSフィードをパース
 begin
@@ -60,12 +103,24 @@ begin
   
   # 新しい記事がある場合
   if new_items.any?
-    # 新しい記事を既存のニュースの先頭に追加
-    updated_news = new_items + existing_news
+    # すべてのニュースを日付順にソート（新しい順）
+    all_news = (new_items + news_items).sort_by { |item| Date.parse(item['date']) }.reverse!
     
     # YAMLファイルに書き込み
     File.open(NEWS_YAML_PATH, 'w') do |file|
-      file.write(updated_news.to_yaml)
+      all_news.each_with_index do |news, index|
+        # このアイテムの前にコメントがあるか確認
+        original_index = news_items.index(news)
+        if original_index && comment_blocks[original_index]
+          file.write(comment_blocks[original_index])
+        end
+        
+        # 常にクォートを使用（シンプルで安全）
+        file.write("- title: '#{news['title'].gsub("'", "''")}'\n")
+        file.write("  link: '#{news['link']}'\n")
+        file.write("  date: #{news['date']}\n")
+        file.write("\n") unless index == all_news.size - 1
+      end
     end
     
     puts "✅ #{new_items.size}件の新しいプレスリリースを追加しました:"
