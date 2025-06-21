@@ -48,12 +48,6 @@ jobs:
       with:
         bundler-cache: true
 
-    - name: 🧪 Install gems
-      run: |
-        bundle config set with 'test'
-        bundle config set path 'vendor/bundle'
-        bundle install --jobs 4 --retry 3
-
     - name: 📝 Extract PR number from last commit
       run: |
         COMMIT_MESSAGE=$(git show -s --format=%s HEAD)
