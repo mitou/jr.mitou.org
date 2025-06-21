@@ -12,28 +12,34 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout repository
+    - name: ☑️ Checkout repository
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
     
-    - name: Setup Ruby
+    - name: 💎 Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
     
-    - name: Check for new PR TIMES articles
+    - name: 📣 Check for new PR TIMES articles
       id: check_news
       run: |
         bundle exec rake upsert_prtimes_news
         # 変更があるかチェック
         if [[ -n $(git status --porcelain) ]]; then
-          echo "has_changes=true" >> $GITHUB_OUTPUT
-        else
+          echo "has_changes=true"  >> $GITHUB_OUTPUT; else
           echo "has_changes=false" >> $GITHUB_OUTPUT
         fi
-    
-    - name: Commit and push if changes exist
+
+    - name: 🔧 Build & Test
+      if: steps.check_news.outputs.has_changes == 'true'
+      run: |
+        JEKYLL_ENV=test bundle exec jekyll build
+        JEKYLL_ENV=test bundle exec jekyll doctor
+        SKIP_BUILD=true bundle exec rake test
+
+    - name: 📝 Commit and push if changes exist
       if: steps.check_news.outputs.has_changes == 'true'
       run: |
         git config --global user.name "Yohei Yasukawa"
