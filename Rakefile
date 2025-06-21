@@ -24,6 +24,12 @@ task :convert_ja2en_by_llm do
   ruby "tasks/convert_ja2en_by_llm.rb"
 end
 
+# Upsert news from PR TIMES RSS feed
+desc 'Upsert news from PR TIMES RSS feed'
+task :upsert_prtimes_news do
+  ruby "tasks/upsert_prtimes_news.rb"
+end
+
 # cf. GitHub - gjtorikian/html-proofer
 # https://github.com/gjtorikian/html-proofer
 
