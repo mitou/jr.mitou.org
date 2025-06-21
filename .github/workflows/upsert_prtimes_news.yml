@@ -28,8 +28,8 @@ jobs:
       id: check_news
       run: |
         bundle exec rake upsert_prtimes_news
-        # 変更があるかチェック
-        if [[ -n $(git status --porcelain) ]]; then
+        # _data/news.yml の変更のみをチェック
+        if [[ -n $(git status --porcelain _data/news.yml) ]]; then
           echo "has_changes=true"  >> $GITHUB_OUTPUT; else
           echo "has_changes=false" >> $GITHUB_OUTPUT
         fi
