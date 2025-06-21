@@ -8,8 +8,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-news:
+  upsert-news:
     runs-on: ubuntu-latest
+    outputs:
+      has_changes: ${{ steps.check_news.outputs.has_changes }}
     
     steps:
     - name: ☑️ Checkout repository
@@ -48,14 +50,30 @@ jobs:
         git add _data/news.yml
         git commit -m "🤖 Upsert news from PR TIMES RSS feed"
         git push origin main
+
+  deploy:
+    needs: upsert-news
+    if: needs.upsert-news.outputs.has_changes == 'true' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: ☑️ Checkout repository
+      uses: actions/checkout@v4
+      with:
+        ref: main
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: 💎 Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
     
     - name: 🔧 Build all pages
-      if: steps.check_news.outputs.has_changes == 'true'
       run: |
         JEKYLL_ENV=production bundle exec jekyll build
     
     - name: 🚀 Deploy to GitHub Pages
-      if: steps.check_news.outputs.has_changes == 'true' && github.ref == 'refs/heads/main' && job.status == 'success'
+      if: job.status == 'success'
       uses: peaceiris/actions-gh-pages@v4
       with:
         personal_token: ${{ secrets.GITHUB_TOKEN }}
