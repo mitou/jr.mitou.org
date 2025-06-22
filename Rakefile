@@ -1,34 +1,25 @@
 task default: 'test'
 
-# Upsert individual project page by data
-desc 'Upsert project page by project data'
-task :upsert_project_pages_by_data do
-  ruby "tasks/upsert_project_pages_by_data.rb"
-end
+desc 'Upsert individual project page by project data'
+task(:upsert_project_pages_by_data) { ruby "tasks/upsert_project_pages_by_data.rb" }
 
-# Upsert individual project page by data in English
-desc 'Upsert project page by project data in English'
-task :upsert_project_pages_by_data_en do
-  ruby "tasks/upsert_project_pages_by_data_en.rb"
-end
+desc 'Upsert individual project page by project data in English'
+task(:upsert_project_pages_by_data_en) { ruby "tasks/upsert_project_pages_by_data_en.rb" }
 
-# Upsert project application page by data
 desc 'Upsert project application by project data'
-task :upsert_project_samples_by_data do
-  ruby "tasks/upsert_project_samples_by_data.rb"
-end
+task(:upsert_project_samples_by_data) { ruby "tasks/upsert_project_samples_by_data.rb" }
 
-# Translate given-year projects with LLM like OpenAI
 desc 'Translate given-year projects with LLM'
-task :convert_ja2en_by_llm do
-  ruby "tasks/convert_ja2en_by_llm.rb"
-end
+task(:convert_ja2en_by_llm) { ruby "tasks/convert_ja2en_by_llm.rb" }
 
-# Upsert news from PR TIMES RSS feed
 desc 'Upsert news from PR TIMES RSS feed'
-task :upsert_prtimes_news do
-  ruby "tasks/upsert_prtimes_news.rb"
-end
+task(:upsert_prtimes_news) { ruby "tasks/upsert_prtimes_news.rb" }
+
+desc 'Build the site with Jekyll (flushes cache via clean)'
+task(build: [:clean]) { system 'bundle exec jekyll build' unless ENV['SKIP_BUILD'] == 'true' }
+
+desc 'Clean Jekyll cache and build files'
+task(:clean) { system 'bundle exec jekyll clean' unless ENV['SKIP_BUILD'] == 'true' }
 
 # cf. GitHub - gjtorikian/html-proofer
 # https://github.com/gjtorikian/html-proofer
@@ -60,13 +51,4 @@ task test: [:build] do
   }
 
   HTMLProofer.check_directory('_site', options).run
-end
-
-# Enable 'build' to flush cache files via 'clean'
-task build: [:clean] do
-  system 'JEKYLL_ENV=test bundle exec jekyll build' unless ENV['SKIP_BUILD'] == 'true'
-end
-
-task :clean do
-  system 'bundle exec jekyll clean' unless ENV['SKIP_BUILD'] == 'true'
 end
