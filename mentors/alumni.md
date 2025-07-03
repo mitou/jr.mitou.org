@@ -6,7 +6,7 @@ redirect_from:
   - /alumni
 ---
 
-## Mentor Alumni
+## [<i class="fa-duotone fa-users"></i>](#message) Mentor Alumni {#message}
 
 
 未踏ジュニアのメンターとして貢献していただいた方々です。当時の情報をそのままに残しております。ご協力していただきありがとうございました! 🙏✨
@@ -15,8 +15,9 @@ redirect_from:
 
 <div class="mentors flex">
   {% for mentor in site.data.mentors %}
-    {% unless mentor.is_alumni %} {% continue %} {% endunless %}
-    {% include mentor.html mentor=mentor %}
+    {% if mentor.is_alumni %}
+      {% include mentor.html mentor=mentor %}
+    {% endif %}
   {% endfor %}
 </div>
 

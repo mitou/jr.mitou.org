@@ -13,8 +13,9 @@ description: クリエータを支援する人達（メンター）の紹介ペ�
 
 <div class="mentors flex">
   {% for mentor in site.data.mentors %}
-    {% if mentor.is_alumni %} {% continue %} {% endif %}
-    {% include mentor.html mentor=mentor %}
+    {% unless mentor.is_alumni %}
+      {% include mentor.html mentor=mentor %}
+    {% endunless %}
   {% endfor %}
 </div>
 
