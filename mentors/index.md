@@ -14,35 +14,7 @@ description: クリエータを支援する人達（メンター）の紹介ペ�
 <div class="mentors flex">
   {% for mentor in site.data.mentors %}
     {% if mentor.is_alumni %} {% continue %} {% endif %}
-    <div class="mentor" id="{{ mentor.id }}">
-      <a href='#{{ mentor.id }}'><img src='/assets/img/spinner.svg' data-src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" class="mentor-img lazyload" loading='lazy'></a>
-      <div class="mentor-info">
-        <h3 class="mentor-name"><a href='#{{ mentor.id }}' style='color: inherit; text-decoration: none;'>{{ mentor.name.last }} {{ mentor.name.first }}</a></h3>
-        <p>{{ mentor.affiliation }}</p>
-
-        <div class="mentor-sns">
-          {% if mentor.facebook %}<a href="https://www.facebook.com/{{ mentor.facebook }}"><i class="fab fa-facebook-square green"></i></a>{% endif %}
-          {% if mentor.twitter %}<a href="https://twitter.com/{{ mentor.twitter }}"><i class="fab fa-twitter-square green"></i></a>{%endif%}
-          {% if mentor.web %}<a href="{{ mentor.web }}"><i class="fas fa-globe green"></i></a>{% endif %}
-          {% if mentor.github %}<a href="https://github.com/{{ mentor.github }}"><i class="fab fa-github-square green"></i></a>{% endif %}
-	  <a href="https://scrapbox.io/mitou-meikan/{% if mentor.meikan %}{{ mentor.meikan }}{% else %}{{ mentor.name.last }}_{{ mentor.name.first }}{% endif %}"><img class="icon-mitou-meikan" src="/assets/img/mitou_meikan.png" alt="未踏名鑑" /></a>
-        </div>
-      </div>
-
-      <div class="mentor-comment text-left">
-        <h4>こんな人・こんな提案を待っています</h4>
-        <p>{{ mentor.interested }}</p>
-
-	{% include mentor-to-projects.html mentor_id=mentor.id %}
-
-        <h4>略歴</h4>
-        <p>{{ mentor.bio }}</p>
-
-	{% if mentor.has_youtube_message %}<a class="button" href="https://www.youtube.com/watch?v={{ mentor.has_youtube_message }}&list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg" target="_blank" rel="noopener">メッセージ動画を見る</a>{% endif %}
-	{% if mentor.has_article_message %}<a class="button" href="/applications#tips">メッセージ記事を見る</a>{% endif %}
-	
-      </div>
-    </div>
+    {% include mentor.html mentor=mentor %}
   {% endfor %}
 </div>
 
