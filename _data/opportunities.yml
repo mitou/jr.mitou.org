@@ -24,6 +24,11 @@
   title: LEADING EDGE 四国
   description: "IT・デジタル技術を活用した独創的なアイデアを持つ地域の若い才能と愛媛県内企業が新しい形で結びつき、愛媛発の新たな価値を創出するオープンイノベーションプログラムです。 <strong>満15歳～25歳未満で四国・瀬戸内圏域</strong>にゆかりのある若者 (在学・在住・出身など) のチャレンジを待っています。"
 
+- id:    ishin
+  link:  https://mitou-ishin.com/
+  title: ISHIN (鹿児島)
+  description: "<b>鹿児島市および周辺地域に在住、通勤・通学している満15歳〜39歳</b>の若手人材を対象に、自ら課題を定義し、IT・テクノロジーを活用して解決に挑む人材育成プログラムです。"
+
 
 # Other support programs
 - id:    cybozu
