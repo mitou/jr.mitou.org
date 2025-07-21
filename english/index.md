@@ -85,46 +85,46 @@ Our alumni are creating new values after the program as well. Here are a few exa
 
 <ul class="list-none news-list">
   <li>
-    <span class="media-pc-date pc-inline-b">CES 2023&nbsp;</span>
+    <a href="https://www.youtube.com/watch?v=GCtFWPWUPXY">
+      Supporting students to study visual programming with AI: TutoriaLLM | Blockly Summit 2025
+    </a>
+    <small>(<span>Google Blockly</span>)</small>
+  </li>
+  <li>
     <a href="https://www.ces.tech/ces-innovation-awards/2023/contact-glove/">
       INNOVATION AWARD PRODUCT - Contact Glove By Diver-X
-      <span class="ph-inline-b">- CES 2023</span>
     </a>
+    <small>(<span>CES 2023</span>)</small>
   </li>
   <li>
-    <span class="media-pc-date pc-inline-b">TEDxAnjo</span>
     <a href="https://tedxanjo.com/akarikawaguchi/">
       Speakers - Akari Kawaguchi
-      <span class="ph-inline-b">- TEDxAnjo</span>
     </a>
+    <small>(<span>TEDxAnjo</span>)</small>
   </li>
   <li>
-    <span class="media-pc-date pc-inline-b">J-MEDIA ARTS</span>
     <a href="https://j-mediaarts.jp/en/award/single/vr-sandbox/">
       25th Entertainment Division U-18 Award - VR Sandbox
-      <span class="ph-inline-b">- J-MEDIA ARTS</span>
     </a>
+    <small>(<span>J-MEDIA ARTS</span>)</small>
   </li>
   <li>
-    <span class="media-pc-date pc-inline-b">CBS News</span>
     <a href="https://www.cbsnews.com/news/coronavirus-teens-tracking-app-different-approach-data-privacy-covid-tracing-japan-asiato/">
       Teen's tracking app takes a different approach to the coronavirus challenge
-      <span class="ph-inline-b">- CBS News</span>
     </a>
+    <small>(<span>CBS News</span>)</small>
   </li>
   <li>
-    <span class="media-pc-date pc-inline-b">KitPloit</span>
     <a href="https://www.kitploit.com/2019/09/detexploit-software-that-detect.html">
       DetExploit - Software That Detect Vulnerable Applications
-      <span class="ph-inline-b">- KitPloit</span>
     </a>
+    <small>(<span>KitPloit</span>)</small>
   </li>
   <li>
-    <span class="media-pc-date pc-inline-b">SXSW EDU</span>
     <a href="https://www.youtube.com/watch?v=EZvmIcmtWoE">
-      Toubans! pitch at SXSW 2019 (YouTube)
-      <span class="ph-inline-b">- SXSW EDU</span>
+      Toubans! pitch at SXSW 2019 - YouTube
     </a>
+    <small>(<span>SXSW EDU</span>)</small>
   </li>
 </ul>
 
