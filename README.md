@@ -101,6 +101,7 @@
 - title: 記事タイトル (例：「テクノロジー×好きなこと」で“未踏”の領域に挑む10代のトップクリエーターたち (こどもとIT))
   url: 記事ページのURL (例：https://www.watch.impress.co.jp/kodomo_it/news/1219499.html)
   date: 公開日 (例：2019/11/20)
+  lang: 英語なら en を追加 (省略可。日本語の記事なら不要)
 ```
 
 [&raquo; `news.yml` を更新する](https://github.com/mitou/jr.mitou.org/blob/main/_data/news.yml)
