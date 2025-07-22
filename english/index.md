@@ -85,23 +85,21 @@ Our alumni are creating new values after the program as well. Here are a few exa
 
 {% include news-list.html %}
 
-<!--
 <div class="youtube" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
   <meta itemprop="isFamilyFriendly"     content="True">
   <meta itemprop="requiresSubscription" content="False">
   <meta itemprop="width"                content="1280">
   <meta itemprop="height"               content="720">
-  <meta itemprop="thumbnailUrl"         content="https://i.gyazo.com/40c97a96f2ac9e94f6f93fa70677b830.png">
-  <meta itemprop="uploadDate"           content="2019-03-07">
-  <meta itemprop="contentUrl"           content="https://youtube.googleapis.com/v/EZvmIcmtWoE">
-  <meta itemprop="embedUrl"             content="https://www.youtube.com/embed/EZvmIcmtWoE?rel=0">
-  <meta itemprop="name"                 content="Toubans! pitch at SXSW 2019">
-  <meta itemprop="description"          content="A pitch at SXSW 2019 on Toubans! project, The easy-to-use duty-management chatbot.">
-  <iframe width="100%" src="https://www.youtube.com/embed/EZvmIcmtWoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <meta itemprop="thumbnailUrl"         content="https://i.gyazo.com/5557b5f76e1d2918848a75d61a55dc94.png">
+  <meta itemprop="uploadDate"           content="2025-07-19">
+  <meta itemprop="contentUrl"           content="https://youtube.googleapis.com/v/GCtFWPWUPXY">
+  <meta itemprop="embedUrl"             content="https://www.youtube.com/embed/GCtFWPWUPXY?rel=0">
+  <meta itemprop="name"                 content="Supporting students to study visual programming with AI: TutoriaLLM | Blockly Summit 2025">
+  <meta itemprop="description"          content='TutoriaLLM, an app which I have developed, has a programming environment that integrates LLM and Blockly to "assist" student\'s coding experience and teaching experience. In Blockly Summit, I will show how children can learn programming in a more fun and interactive way. Speaker: So Tokumaru, Student Developer, MITOU JUNIOR'>
+  <iframe width="100%" src="https://www.youtube.com/embed/GCtFWPWUPXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<a href="https://www.youtube.com/watch?v=EZvmIcmtWoE" class="button">Watch on YouTube</a>
--->
+<a href="https://www.youtube.com/watch?v=GCtFWPWUPXY" class="button">Watch on YouTube</a>
 
 <br>
 
