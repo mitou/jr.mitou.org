@@ -1,6 +1,7 @@
 - title: 'Supporting students to study visual programming with AI: TutoriaLLM | Blockly Summit 2025 (Google Blockly)'
   link: 'https://www.youtube.com/watch?v=GCtFWPWUPXY'
   date: 2025/07/19
+  lang: en
 
 - title: '「KIDOU Global Conference」出展のご案内 (IPA)'
   link: 'https://www.ipa.go.jp/jinzai/mitou/event/kidou-global-conference.html#:~:text=未踏ジュニア'
@@ -41,6 +42,11 @@
 - title: '高校生が作った4DXモーションシミュレーター | ナニコレ珍百景 (テレビ朝日)'
   link: 'https://www.tv-asahi.co.jp/nanikore/backnumber2/0136/#:~:text=高校生が作った4DXモーションシミュレーター'
   date: 2024/09/15
+
+- title: '25th Entertainment Division U-18 Award - VR Sandbox (J-MEDIA ARTS)'
+  link: https://j-mediaarts.jp/en/award/single/vr-sandbox/index-2.html
+  date: 2024/03/21
+  lang: en
 
 - title: '未踏社団、小中高生クリエータ支援プログラム「2024年度 未踏ジュニア」の募集を開始 (公式)'
   link: 'https://prtimes.jp/main/html/rd/p/000000015.000022934.html'
@@ -98,6 +104,16 @@
   link: 'https://logmi.jp/tech/articles/328175'
   date: 2023/02/09
 
+- title: 'Speakers - Akari Kawaguchi (TEDxAnjo)'
+  link: https://tedxanjo.com/akarikawaguchi/
+  date: 2023/08/02
+  lang: en
+
+- title: 'INNOVATION AWARD PRODUCT - Contact Glove By Diver-X (CES 2023)'
+  link: https://www.ces.tech/ces-innovation-awards/2023/contact-glove/
+  date: 2023/01/08
+  lang: en
+
 - title: '小中高生のIT人材発掘「未踏ジュニア 成果報告会」、リアルとオンラインで11月3日開催（こどもとIT）'
   link: 'https://edu.watch.impress.co.jp/docs/news/1451267.html'
   date: 2022/10/28
@@ -134,6 +150,7 @@
 - title: 'Teen''''s tracking app takes a different approach to the coronavirus challenge (CBS News)'
   link: 'https://www.cbsnews.com/news/coronavirus-teens-tracking-app-different-approach-data-privacy-covid-tracing-japan-asiato/'
   date: 2020/05/21
+  lang: en
 
 - title: '自分の「欲しい！」を創り出す若きクリエータが集結（EdTechZine）'
   link: 'https://edtechzine.jp/article/detail/3036'
@@ -147,9 +164,19 @@
   link: 'https://forest.watch.impress.co.jp/docs/news/1214557.html'
   date: 2019/10/25
 
+- title: 'DetExploit - Software That Detect Vulnerable Applications (KitPloit)'
+  link: https://kitploit.com/2019/09/detexploit-software-that-detect.html/
+  date: 2019/09/13
+  lang: en
+
 - title: '「50センチ革命」の先にあるものとは。未踏ジュニアからLINE BOOT AWARDSグランプリ受賞、SXSW Eduでもピッチをした未踏ジュニアスーパークリエータ（EdTechZine）'
   link: 'https://edtechzine.jp/article/detail/1976'
   date: 2019/03/20
+
+- title: 'Toubans! pitch at SXSW 2019 - YouTube (SXSW EDU)'
+  link: https://www.youtube.com/watch?v=EZvmIcmtWoE
+  date: 2019/03/07
+  lang: en
 
 - title: '「やりたいことを忘れない」小5でScratchを始めてから未踏ジュニアスーパークリエイターに認定されるまで（Progate）'
   link: 'https://progate.com/success_interviews/ymitsuhashi'

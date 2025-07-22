@@ -1,4 +1,7 @@
-{% assign news_by_date = site.data.news | sort: 'date' | reverse %}
+{% if page.lang != 'en' %}
+  {% assign news_by_date = site.data.news | sort: 'date' | reverse %} {% else %}
+  {% assign news_by_date = site.data.news | sort: 'date' | reverse | where: 'lang', 'en' %}
+{% endif %}
 <ul class="list-none news-list">
   {% for news in news_by_date %}
   <li>

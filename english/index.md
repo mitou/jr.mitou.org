@@ -79,54 +79,11 @@ Creators who have shown their outstanding performance during MITOU Junior progra
 {% endfor %}
 
 
-## [<i class="fa-light fa-newspaper"></i>](#media) Media & Awards {#media}
+## [<i class="fa-light fa-newspaper"></i>](#news) Media & Awards {#news}
 
 Our alumni are creating new values after the program as well. Here are a few examples.
 
-<ul class="list-none news-list">
-  <li>
-    <a href="https://www.youtube.com/watch?v=GCtFWPWUPXY">
-      Supporting students to study visual programming with AI: TutoriaLLM | Blockly Summit 2025
-    </a>
-    <small>(<span>Google Blockly</span>)</small>
-  </li>
-  <li>
-    <a href="https://www.ces.tech/ces-innovation-awards/2023/contact-glove/">
-      INNOVATION AWARD PRODUCT - Contact Glove By Diver-X
-    </a>
-    <small>(<span>CES 2023</span>)</small>
-  </li>
-  <li>
-    <a href="https://tedxanjo.com/akarikawaguchi/">
-      Speakers - Akari Kawaguchi
-    </a>
-    <small>(<span>TEDxAnjo</span>)</small>
-  </li>
-  <li>
-    <a href="https://j-mediaarts.jp/en/award/single/vr-sandbox/">
-      25th Entertainment Division U-18 Award - VR Sandbox
-    </a>
-    <small>(<span>J-MEDIA ARTS</span>)</small>
-  </li>
-  <li>
-    <a href="https://www.cbsnews.com/news/coronavirus-teens-tracking-app-different-approach-data-privacy-covid-tracing-japan-asiato/">
-      Teen's tracking app takes a different approach to the coronavirus challenge
-    </a>
-    <small>(<span>CBS News</span>)</small>
-  </li>
-  <li>
-    <a href="https://www.kitploit.com/2019/09/detexploit-software-that-detect.html">
-      DetExploit - Software That Detect Vulnerable Applications
-    </a>
-    <small>(<span>KitPloit</span>)</small>
-  </li>
-  <li>
-    <a href="https://www.youtube.com/watch?v=EZvmIcmtWoE">
-      Toubans! pitch at SXSW 2019 - YouTube
-    </a>
-    <small>(<span>SXSW EDU</span>)</small>
-  </li>
-</ul>
+{% include news-list.html %}
 
 <!--
 <div class="youtube" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
