@@ -70,7 +70,7 @@ redirect_from:
       {{ application_tip.title }}
       <i class="fa-solid fa-up-right-from-square"></i>
     </a>
-    <small>（<a href='/mentors#{{ mentor.id }}'>{{ mentor.name.last }}</a>）</small>
+    <small>（<a href='/mentors/#{{ mentor.id }}'>{{ mentor.name.last }}</a>）</small>
   </li>
   {% endfor %}
 </ul>

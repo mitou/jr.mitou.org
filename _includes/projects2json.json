@@ -11,7 +11,7 @@
     ],
     "mentor"      : { {% assign mentor = site.data.mentors | find_exp: "item", "item.id == pj.mentor_id" %}
       "id"           : "{{ mentor.id }}",
-      "url"          : "{{ site.url }}/mentors#{{ mentor.id }}",
+      "url"          : "{{ site.url }}/mentors/#{{ mentor.id }}",
       "name"         : "{{ mentor.name.last }} {{ mentor.name.first }}",
       "affilication" : "{{ mentor.affiliation }}",
       "interested"   : "{{ mentor.interested | escape }}",

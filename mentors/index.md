@@ -74,7 +74,7 @@ redirect_from: /mentors.html
     </div>
     <div class="mentor-comment text-left">
       <h4>略歴</h4>
-      <p>メンターも兼任しています。詳細は<a href="/mentors#yu_ukai">メンター欄</a>を参照。</p>
+      <p>メンターも兼任しています。詳細は<a href="/mentors/#yu_ukai">メンター欄</a>を参照。</p>
     </div>
   </div>
 

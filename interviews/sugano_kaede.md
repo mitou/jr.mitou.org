@@ -37,7 +37,7 @@ U-22プログラミングコンテストの審査員に未踏関係者が何人�
 
 その後、中学校に入学するぐらいの頃に、未踏ジュニアキャンプ（※）に参加しました。
 
-そこで、そのとき持っていたアイデアを、（未踏ジュニアのメンターである）[安川さん](/mentors#yohei_yasukawa)と[西尾さん](/mentors/#hirokazu_nishio)に相談したところ、「ここをもっとこうすると面白いんじゃないか」みたいなアドバイスをもらいました。この経験が、未踏ジュニアに直結したと思っています。
+そこで、そのとき持っていたアイデアを、（未踏ジュニアのメンターである）[安川さん](/mentors/#yohei_yasukawa)と[西尾さん](/mentors/#hirokazu_nishio)に相談したところ、「ここをもっとこうすると面白いんじゃないか」みたいなアドバイスをもらいました。この経験が、未踏ジュニアに直結したと思っています。
 
 <img class="top-img lazyloaded" loading="lazy"
      style="border-radius: 6px;"
@@ -186,7 +186,7 @@ U-22プログラミングコンテストの審査員に未踏関係者が何人�
 <div align='right' style='font-size: smaller;'>
   公開日：2025年3月6日<br>
   文責：風穴 江（<a href='https://x.com/windhole'>@windhole</a>）<br>
-  インタビュー協力：<a href='/mentors#yohei_yasukawa'>安川 要平</a>、<a href='/mentors#yu_ukai'>鵜飼 佑</a>
+  インタビュー協力：<a href='/mentors/#yohei_yasukawa'>安川 要平</a>、<a href='/mentors/#yu_ukai'>鵜飼 佑</a>
 </div>
 
 <br>
