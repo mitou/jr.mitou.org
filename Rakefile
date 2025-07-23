@@ -46,6 +46,7 @@ task test: [:build] do
       /#:~:text=/,
       /twitter.com/,  # Skip testing Twitter URLs
       /x.com/,        # Skip testing X.com's URLs
+      %r{/mentors/#}, # Ignore anchor links to mentors page
     ],
     #ignore_status_codes: [0, 500, 999],
   }
