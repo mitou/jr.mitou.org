@@ -2,7 +2,7 @@
 {% assign mentor_name_first = mentor.id | split: '_' | first | capitalize %}
 {% assign mentor_name_last  = mentor.id | split: '_' | last  | capitalize %}
 
-{%- if page.lang "en" -%}
+{%- if page.lang == "en" -%}
 <a href="/mentors/{% if mentor.is_alumni %}alumni{% endif %}#{{ mentor.id }}" >{{ mentor_name_first }} {{ mentor_name_last }}</a>
 {%- else -%}
 <a href="/mentors/{% if mentor.is_alumni %}alumni{% endif %}#{{ mentor.id }}" >{{ mentor.name.last }} {{ mentor.name.first }}</a>
