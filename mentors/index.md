@@ -2,6 +2,7 @@
 layout: post
 title: メンター紹介
 description: クリエータを支援する人達（メンター）の紹介ページです。
+redirect_from: /mentors.html
 ---
 
 
