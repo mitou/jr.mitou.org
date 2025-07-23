@@ -95,7 +95,7 @@ Our alumni are creating new values after the program as well. Here are a few exa
   <meta itemprop="contentUrl"           content="https://youtube.googleapis.com/v/GCtFWPWUPXY">
   <meta itemprop="embedUrl"             content="https://www.youtube.com/embed/GCtFWPWUPXY?rel=0">
   <meta itemprop="name"                 content="Supporting students to study visual programming with AI: TutoriaLLM | Blockly Summit 2025">
-  <meta itemprop="description"          content='TutoriaLLM, an app which I have developed, has a programming environment that integrates LLM and Blockly to "assist" student\'s coding experience and teaching experience. In Blockly Summit, I will show how children can learn programming in a more fun and interactive way. Speaker: So Tokumaru, Student Developer, MITOU JUNIOR'>
+  <meta itemprop="description"          content="TutoriaLLM, an app which I have developed, has a programming environment that integrates LLM and Blockly to 'assist' student's coding experience and teaching experience. In Blockly Summit, I will show how children can learn programming in a more fun and interactive way. Speaker: So Tokumaru, Student Developer, MITOU JUNIOR">
   <iframe width="100%" src="https://www.youtube.com/embed/GCtFWPWUPXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
