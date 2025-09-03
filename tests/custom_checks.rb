@@ -9,7 +9,7 @@ class CustomChecks < ::HTMLProofer::Check
 
   def run
     current_filename = @runner.current_filename
-    puts "\tchecking ... " + current_filename[5..].split('.').first
+    puts "\tchecking ... " + current_filename.delete_prefix('_site').split('.').first
 
     check_meta_tags
     check_json_apis if valid_and_equal_to?(BASE_PATH + '/apis.html')
