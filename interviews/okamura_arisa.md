@@ -1,22 +1,13 @@
 ---
-layout: post
+layout: interview
 title: 未踏ジュニア <br class='ignore-pc'>修了生インタビュー<br> ─ 岡村 有紗さん
+description: |
+  {% assign creator_id = page.name | remove: '.md' %}
+  {% assign interview  = site.data.interviews | find: 'creator', creator_id  %}
+  {{ interview.description }}
 thumbnail: /assets/img/interviews/okamura_arisa_1.webp
-description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。金尾真樹斗さんと2人でチームを組み「Noxicel - 英作文とAIを用いた英単語学習アプリ」というプロジェクトに取り組みました。本ページでは当時の様子について伺った話をまとめています。
+thumbnail_alt: 岡村有紗さんの成果報告会の様子
 ---
-
-<br>
-
-<a href='/projects/2022/noxicel'>
-  <img class="top-img lazyloaded" loading="lazy"
-       style="border-radius: 6px; border-width: 5px; border-style: solid; border-color: #28a13a;"
-        src="/assets/img/interviews/okamura_arisa_1.webp"
-   data-src="/assets/img/interviews/okamura_arisa_1.webp"
-        alt="岡村有紗さんの成果報告会の様子"
-      title="岡村有紗さんの成果報告会の様子">
-</a>
-
-岡村有紗さんは、2022年度の未踏ジュニア修了生。金尾真樹斗さんと2人でチームを組み「[Noxicel - 英作文とAIを用いた英単語学習アプリ](/projects/2022/noxicel)」というプロジェクトに取り組みました。本ページでは当時の様子について伺った話をまとめています。
 
 
 ## 作りたいものが<br class='ignore-pc'>湧き出てくる
@@ -33,7 +24,7 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 
 そういう感じで、何か作ってみたいものが、生活していて割と頻繁に、すごく湧き出てくるタイプだったので、未踏ジュニアに応募する前から、作りたいものを作るのが習慣になっていました。
 
-<img class="top-img lazyloaded" loading="lazy"
+<img class="top-img lazyload" loading="lazy"
       src="/assets/img/interviews/okamura_arisa_2.webp"
  data-src="/assets/img/interviews/okamura_arisa_2.webp"
       alt="立方体の切断という数学の問題を視覚的に理解するためのアプリ"
@@ -110,7 +101,7 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 
 （でも蓋を開けてみたら）逆に集まりすぎて、こちらでお願いする人を選ばないといけないみたいな感じになるぐらい、協力するよと言ってくださる方がいて、そのときは、すごく嬉しかったです。
 
-<img class="top-img lazyloaded" loading="lazy"
+<img class="top-img lazyload" loading="lazy"
       src="/assets/img/interviews/okamura_arisa_3.webp"
  data-src="/assets/img/interviews/okamura_arisa_3.webp"
       alt="生成AIを使った英単語学習アプリの様子"
@@ -155,7 +146,7 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 
 自分の触ってみたい分野が広がると、すごい楽しいので、友だち作りに、ぜひ（笑）。
 
-<img class="top-img lazyloaded" loading="lazy"
+<img class="top-img lazyload" loading="lazy"
       src="/assets/img/interviews/okamura_arisa_4.webp"
  data-src="/assets/img/interviews/okamura_arisa_4.webp"
       alt="2022年度の未踏ジュニア集合写真"
@@ -186,25 +177,3 @@ description: 岡村有紗さんは、2022年度の未踏ジュニア修了生。
 そういうのが、どこまでできるかというか、どこまでデジタルとアナログを融合させることによっていろんなものを進化できるか、みたいなことを考えています。
 
 アナログとデジタルの融合であったりとか、デジタルな技術を、社会に溶け込むような感じで社会実装するか、（それを）どれだけスムーズにできるかみたいなのに今はすごく興味があって、それを今後もやっていけたらいいなと思っています。
-
-<div align='center' style='margin: 50px auto;'>（了）</div>
-
-<div align='right' style='font-size: smaller;'>
-  公開日：2024年4月3日<br>
-  文責：風穴 江（<a href='https://twitter.com/windhole'>@windhole</a>）<br>
-  インタビュー協力：<a href='/mentors/#yohei_yasukawa'>安川 要平</a>、<a href='/mentors/#yu_ukai'>鵜飼 佑</a>
-</div>
-
-<br>
-
-<div class="tips">
-  成果報告会の発表も公開されておりますので、よければぜひ!
-</div>
-
-<div class='flex'>
-  <a class='button' href='/projects/2022/noxicel'>成果報告会の発表を見る</a>
-  <a class='button' href='/applications/#story'>他の採択者の体験談を見る</a>
-  <a class='button' href='https://twitter.com/intent/tweet?text=未踏ジュニア修了生インタビュー ─ 岡村 有紗さん&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url=https://jr.mitou.org/interviews/okamura_arisa' target="_blank">ツイートする</a>
-</div>
-
-<br>

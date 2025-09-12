@@ -1,0 +1,54 @@
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+
+  <div class="main">
+    <div class="page-head">
+      <h1>{{ page.title }}</h1>
+    </div>
+
+    <div class="post">
+      {% assign creator_id = page.name | remove: '.md' %}
+      {% assign interview  = site.data.interviews | find: 'creator', creator_id  %}
+
+      <img class="top-img lazyload" loading="lazy"
+           style="border-radius: 6px; border-width: 5px; border-style: solid; border-color: #28a13a; margin: 50px auto 30px;"
+             src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}"
+             alt="{{ page.thumbnail_alt }}"
+           title="{{ page.thumbnail_alt }}">
+
+      {{ interview.description }}
+
+      {{ content }}
+
+      <div align='center' style='margin: 50px auto;'>（了）</div>
+
+      <div align='right' style='font-size: smaller; margin-bottom: 80px;'>
+	公開日：{{ interview.date | date: "%Y年%-m月%-d日"}}<br>
+	文責：風穴 江（<a href='https://x.com/windhole'>@windhole</a>）<br>
+	インタビュー協力：<a href='/mentors/#yohei_yasukawa'>安川 要平</a>、<a href='/mentors/#yu_ukai'>鵜飼 佑</a>
+      </div>
+
+      <div class="tips">
+	成果報告会の発表も公開されておりますので、よければぜひ!
+      </div>
+
+      {% assign creator = site.data.creators | find: 'id', interview.creator  %}
+      {% assign project = site.data.projects | find: 'id', creator.project_id %}
+      <div class='flex'>
+	<a class='button' href='/projects/{{ project.year }}/{{ project.id }}'>成果報告会の発表を見る</a>
+	<a class='button' href='/interviews'>他のインタビューを見る</a>
+      </div>
+
+      <a class='button' href='https://twitter.com/intent/tweet?text={{ page.title | strip_html }}&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url=https://jr.mitou.org/interviews/{{ creator.id }}' target="_blank">ツイートする</a>
+
+      <br>
+
+    </div>
+  </div>
+
+  {% include footer.html %}
+</body>
+
+</html>

@@ -1,22 +1,14 @@
 ---
-layout: post
+layout: interview
 title: 未踏ジュニア <br class='ignore-pc'>修了生インタビュー<br> ─ 菅野 楓さん
+description: |
+  {% assign creator_id = page.name | remove: '.md' %}
+  {% assign interview  = site.data.interviews | find: 'creator', creator_id  %}
+  {{ interview.description }}
 thumbnail: /assets/img/interviews/sugano_kaede_1.webp
-description: 菅野楓さんは、2017年度の未踏ジュニア修了生。映画の脚本をテキスト分析してストーリーを評価する「narratica〜ストーリーコンサルタント〜」というプロジェクトに取り組みました。本記事では、当時の様子について伺った話をまとめています。
+thumbnail_alt: 菅野さんと narratica〜ストーリーコンサルタント〜
 ---
 
-<br>
-
-<img class="top-img lazyloaded" loading="lazy"
-     style="border-radius: 6px; border-width: 5px; border-style: solid; border-color: #28a13a;"
-      src="/assets/img/interviews/sugano_kaede_1.webp"
- data-src="/assets/img/interviews/sugano_kaede_1.webp"
-      alt="菅野さんと narratica〜ストーリーコンサルタント〜"
-    title="菅野さんと narratica〜ストーリーコンサルタント〜">
-
-菅野楓さんは、2017年度の未踏ジュニア修了生。映画の脚本をテキスト分析してストーリーを評価する「[narratica〜ストーリーコンサルタント〜](/projects/2017/narratica)」というプロジェクトに取り組みました。本記事では、当時の様子について伺った話をまとめています。
-
-<br>
 
 ## 新しいものを学ぶことが<br class='ignore-pc'>楽しかった
 
@@ -39,7 +31,7 @@ U-22プログラミングコンテストの審査員に未踏関係者が何人�
 
 そこで、そのとき持っていたアイデアを、（未踏ジュニアのメンターである）[安川さん](/mentors/#yohei_yasukawa)と[西尾さん](/mentors/#hirokazu_nishio)に相談したところ、「ここをもっとこうすると面白いんじゃないか」みたいなアドバイスをもらいました。この経験が、未踏ジュニアに直結したと思っています。
 
-<img class="top-img lazyloaded" loading="lazy"
+<img class="top-img lazyload" loading="lazy"
      style="border-radius: 6px;"
       src="/assets/img/interviews/sugano_kaede_2.webp"
  data-src="/assets/img/interviews/sugano_kaede_2.webp"
@@ -105,7 +97,7 @@ U-22プログラミングコンテストの審査員に未踏関係者が何人�
 
 それが、未踏ジュニアを経験して自分が一番変わったところかなと思います。
 
-<img class="top-img lazyloaded" loading="lazy"
+<img class="top-img lazyload" loading="lazy"
       src="/assets/img/interviews/sugano_kaede_3.webp"
  data-src="/assets/img/interviews/sugano_kaede_3.webp"
       alt="成果報告会の様子"
@@ -160,7 +152,7 @@ U-22プログラミングコンテストの審査員に未踏関係者が何人�
 
 なぜかというと、未踏ジュニアの期間中、自分が作っているものについて話を聞いてもらう機会がたくさんあるんです。ちょっと進捗が出たらメンターさんに言いますし、合宿では、未踏ジュニアを修了された先輩にも話を聞いてもらえたりします。成果報告会も、もちろん、そうですし。いろんな人に話を聞いてもらって、「これ、いいね」と言ってもらえると、モチベーションになりますし、作っているサービスの力が増すような気がしています。自分がそうだったので、これは本当にお勧めです。
 
-<img class="top-img lazyloaded" loading="lazy"
+<img class="top-img lazyload" loading="lazy"
       src="/assets/img/interviews/sugano_kaede_4.webp"
  data-src="/assets/img/interviews/sugano_kaede_4.webp"
       alt="未踏ジュニア修了式の様子"
@@ -175,30 +167,3 @@ U-22プログラミングコンテストの審査員に未踏関係者が何人�
   </small>
 </div>
 
-<!--
-<div class='youtube'>
-  <iframe src="https://www.youtube.com/embed/okW-GD5xo-4" title="The Big Bang Competition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
--->
-
-<div align='center' style='margin: 50px auto;'>（了）</div>
-
-<div align='right' style='font-size: smaller;'>
-  公開日：2025年3月6日<br>
-  文責：風穴 江（<a href='https://x.com/windhole'>@windhole</a>）<br>
-  インタビュー協力：<a href='/mentors/#yohei_yasukawa'>安川 要平</a>、<a href='/mentors/#yu_ukai'>鵜飼 佑</a>
-</div>
-
-<br>
-
-<div class="note">
-  成果報告会の発表も公開されておりますので、よければぜひ!
-</div>
-
-<div class='flex'>
-  <a class='button' href='/projects/2017/narratica'>成果報告会の発表を見る</a>
-  <a class='button' href='/applications/#story'>他の採択者の体験談を見る</a>
-  <a class='button' href='https://twitter.com/intent/tweet?text=未踏ジュニア修了生インタビュー ─ 菅野 楓さん&via=MitouJr&hashtags=未踏ジュニア&related=MitouJr&lang=jp&url=https://jr.mitou.org/interviews/sugano_kaede' target="_blank">ツイートする</a>
-</div>
-
-<br>
