@@ -2,7 +2,7 @@
 layout: post
 title: 未踏ジュニア <br class='ignore-pc'>修了生インタビュー
 description: 本ページでは、未踏ジュニア修了生のインタビュー記事をまとめています。
-thumbnail: /assets/img/interviews/ogp.webp
+thumbnail: /assets/img/interviews/interview_ogp.png
 ---
 
 
