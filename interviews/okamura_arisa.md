@@ -5,7 +5,7 @@ description: |
   {% assign creator_id = page.name | remove: '.md' %}
   {% assign interview  = site.data.interviews | find: 'creator', creator_id  %}
   {{ interview.description }}
-thumbnail: /assets/img/interviews/okamura_arisa_1.webp
+thumbnail: /assets/img/interviews/interview_ogp.png
 thumbnail_alt: 岡村有紗さんの成果報告会の様子
 ---
 
