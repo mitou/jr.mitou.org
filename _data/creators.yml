@@ -16,6 +16,97 @@
 #  year: 202x
 #  #is_spc: true
 
+# 2025年度
+- id: naoki_ohira
+  project_id: neureka
+  name: 大平 直輝
+  year: 2025
+
+- id: mitsuki_goto
+  project_id: talkboost
+  name: 後藤 潤樹
+  year: 2025
+
+- id: shintaro_matsumoto
+  project_id: uminavi
+  name: 松本 慎太郎
+  year: 2025
+
+- id: shohei_nagashima
+  project_id: nextrouter
+  name: 長島 昇平
+  year: 2025
+
+- id: koichi_kubo
+  project_id: oshaberi_taskboard
+  name: 久保 晃市
+  year: 2025
+
+- id: momoko_yamashita
+  project_id: kigo
+  name: 山下 桃子
+  year: 2025
+
+- id: masamune_kato
+  project_id: sms_solar
+  name: 加藤 正宗
+  year: 2025
+
+- id: seorus_jang
+  project_id: sr_motor_heart
+  name: 張 契洙
+  year: 2025
+
+- id: soma_noda
+  project_id: aikyo
+  name: 野田 蒼馬
+  year: 2025
+
+- id: haruma_yasuda
+  project_id: aikyo
+  name: 安田 陽真
+  year: 2025
+
+- id: itta_funahashi
+  project_id: gen5
+  name: 船橋 一汰
+  year: 2025
+
+- id: shotaro_nakamura
+  project_id: gen5
+  name: 中村 承太郎
+  year: 2025
+
+- id: yuna_matsunaga
+  project_id: gen5
+  name: 松長 侑南
+  year: 2025
+
+- id: yuto_tokunaga
+  project_id: cian
+  name: 徳永 優人
+  year: 2025
+
+- id: kodai_miyazaki
+  project_id: paper_cad
+  name: 宮崎 航大
+  year: 2025
+
+- id: mio_mitamura
+  project_id: fudey
+  name: 三田村 美桜
+  year: 2025
+
+- id: daichi_minami
+  project_id: mathmosis
+  name: 南 大地
+  year: 2025
+
+- id: takehiro_kano
+  project_id: flusca
+  name: 加納 武紘
+  year: 2025
+
 # 2024年度
 - id: rio_sakazono
   project_id: inton

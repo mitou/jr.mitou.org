@@ -1,8 +1,8 @@
 ---
 layout:    post
-title:     2024年 成果報告会
-this_year: 2024
-thumbnail: /assets/img/final_2024.webp
+title:     2025年 成果報告会
+this_year: 2025
+thumbnail: /assets/img/final_2025.png # 仮。素材支給後に差し替え
 description: 未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！
 twitter_card: summary_large_image
 
@@ -13,31 +13,22 @@ twitter_card: summary_large_image
 
 <br>
 
-<!-- 1. 最初に表示するサムネイル画像。日時と会場を画像に含める -->
+<!-- 1. 最初に表示するサムネイル画像。日時と会場を画像に含める（仮。後で差し替え） -->
 <img src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}"
      alt="{{ page.this_year }}年度 未踏ジュニア成果報告会 サムネイル画像"
      class="project-thumbnail lazyload" width='100%' loading="lazy" />
 
 
-<!-- 2. 現地参加の申し込みが始まったら用意する -->
-2024年度の未踏ジュニア成果報告会は**11月4日 (月曜・振替休日) に東京大学で開催**されました！<br class='ignore-pc'><br class='ignore-pc'>**YouTube からアーカイブ視聴ができる**ので、見逃した方や見返したい方もぜひ！📺✨
+<!-- 2. 現地参加の申し込みやライブ配信の案内は決定次第ここに表示します（プレイベント文言・仮） -->
+<p>
+  2025年度の未踏ジュニア成果報告会を11月3日 (月曜・振替休日) に、プラチナスポンサーとしてご支援いただいている、GMO インターネットグループ株式会社様の会場提供にて、GMO Yours・フクラスにて開催させていただきます。
 
-<br>
-
-<!--今年は現地で作品展示 (デモ・実演など) の時間も用意する予定ですので、ぜひ現地までお越しいただけると幸いです。-->
-<!--<img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp" alt="2023年度のクリエータの一部が Maker Faire Tokyo 2023 に出展している様子" class="top-img lazyload" loading="lazy">-->
-
-<div class='youtube'>
-  <iframe src="https://www.youtube.com/embed/c8NdJn3XxIA?list=PLNObH2jlC6ldl5Nh5KNfXkBitzcI4M6Gm" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<div class='flex'>
-  <!--<a class="button" href="https://mitoujr2024.peatix.com/view" >現地参加を申し込む</a>-->
-  <a class="button" href="https://www.youtube.com/playlist?list=PLNObH2jlC6ldl5Nh5KNfXkBitzcI4M6Gm">YouTube で見る</a>
-  <a class="button" href="https://togetter.com/li/2460295">当日の反響を見る</a>
-</div>
-
-<div class='flex'>
+  <br>
+  <div class='flex'>
+    <a class="button" href="https://mitoujr2024.peatix.com/view" >現地参加を申し込む</a>
+    <!--<a class="button" href="https://www.youtube.com/playlist?list=PLNObH2jlC6ldl5Nh5KNfXkBitzcI4M6Gm">YouTube で見る</a>
+    <a class="button" href="https://togetter.com/li/2460295">当日の反響を見る</a>-->
+  </div><div class='flex'>
   <a href="https://twitter.com/hashtag/未踏ジュニア" class="button">#未踏ジュニア の<br>ハッシュタグを見る</a>
 
   <a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final?{{ page.this_year }}&lang=jp&related=mitoujr" class="button">#未踏ジュニア で<br>ツイートする</a>
@@ -45,6 +36,8 @@ twitter_card: summary_large_image
 
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
 
+<!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
+<!--
 ## [<i class="fa-light fa-calendar-clock"></i>](#timetable) タイムテーブル {#timetable}
 
 <ul>
@@ -58,6 +51,7 @@ twitter_card: summary_large_image
   {% include final-timetable.html this_year=page.this_year range_begin=6 range_end=16 %}
 
 </ul>
+
 
 `------- オンライン配信はここまで --------`
 

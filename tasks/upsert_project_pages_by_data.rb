@@ -3,7 +3,17 @@
 require 'yaml'
 require 'cgi'
 #require 'active_support/all'
-require 'active_support/core_ext/string/filters'
+# Use ActiveSupport's String#truncate if available; otherwise define a tiny fallback
+begin
+  require 'active_support/core_ext/string/filters'
+rescue LoadError
+  class String
+    def truncate(max, omission = '...')
+      return self if self.length <= max
+      self[0, max] + omission
+    end
+  end
+end
 TRUNCATE_LENGTH = 33
 
 # Remove existing JA/EN pages and re-generate them
@@ -14,7 +24,10 @@ class Hash
   def has_english?; self.has_key? :title_en; end
 end
 
-projects = YAML.load_file("_data/projects.yml", symbolize_names: true)
+projects = YAML.load_file("_data/projects.yml")
+if projects.is_a?(Array) && projects.first.is_a?(Hash) && projects.first.keys.any? { |k| k.is_a?(String) }
+  projects = projects.map { |h| h.transform_keys(&:to_sym) }
+end
 projects.each_with_index do |project, index|
   #binding.irb; exit
   # To inspect & debug specific projects
@@ -203,5 +216,3 @@ projects.each_with_index do |project, index|
     puts("Upsert (JA/EN): #{path_ja}") :
     puts("Upsert (JA):    #{path_ja}")
 end
-
-

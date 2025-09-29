@@ -2,6 +2,14 @@
 # https://www.youtube.com/@MitouJr/playlists
 
 # ライブ配信時の設定例（成果報告会の直前〜切り抜き完成まで）
+#- year: 2025
+#  live: <YouTubeLiveVideoID>
+#  #live_start: 0
+#  #reaction: <Togetter or X hashtag>
+#
+# 公開前プレースホルダ（ライブID決定後、上のテンプレを使用）
+- year: 2025
+
 #- year: 2024
 #  live: NVg4W_I8Qp0
 #  live_start: 173
