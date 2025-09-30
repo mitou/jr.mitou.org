@@ -3,17 +3,7 @@
 require 'yaml'
 require 'cgi'
 #require 'active_support/all'
-# Use ActiveSupport's String#truncate if available; otherwise define a tiny fallback
-begin
-  require 'active_support/core_ext/string/filters'
-rescue LoadError
-  class String
-    def truncate(max, omission = '...')
-      return self if self.length <= max
-      self[0, max] + omission
-    end
-  end
-end
+require 'active_support/core_ext/string/filters'
 TRUNCATE_LENGTH = 33
 
 # Remove existing JA/EN pages and re-generate them
