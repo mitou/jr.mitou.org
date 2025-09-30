@@ -29,7 +29,7 @@ twitter_card: summary_large_image
 <div style='margin-top: 50px; margin-bottom: 30px;'>
   <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='{{ translations.altThumbnail[lang] }} - {{ pj_title }}'
   {% if pj.thumbnail %}    data-src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
-  {% else %}               data-src='/assets/img/projects/{{ pj.year }}/{{ pj.id        }}.webp'
+  {% else %}               data-src='{{ page.thumbnail }}'
   {% endif %}                 title='{{ pj_title }}' style='border-radius: 6px;' loading='lazy' />
 </div>
 
