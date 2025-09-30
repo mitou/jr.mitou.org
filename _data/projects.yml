@@ -107,7 +107,7 @@
   link: https://gen5.app
   year: 2025
   mentor_id: ryo_suzuki
-  thumbnail: ../../tbu.webp
+  thumbnail: ../tbu.webp
   creator_ids:
   - itta_funahashi
   - shotaro_nakamura
@@ -138,7 +138,7 @@
   description: 複数の光回線を束ね、プライベートIP単位の動的負荷分散によりネットワーク全体の通信品質を向上させる広帯域ルータ。全回線の負荷を均等化し、既存の冗長化中心の制御では得にくい快適な体験を実現します。
   year: 2025
   mentor_id: kakeru_ishii
-  thumbnail: ../../tbu.webp
+  thumbnail: ../tbu.webp
   creator_ids:
   - shohei_nagashima
 
