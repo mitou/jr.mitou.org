@@ -14,10 +14,7 @@ class Hash
   def has_english?; self.has_key? :title_en; end
 end
 
-projects = YAML.load_file("_data/projects.yml")
-if projects.is_a?(Array) && projects.first.is_a?(Hash) && projects.first.keys.any? { |k| k.is_a?(String) }
-  projects = projects.map { |h| h.transform_keys(&:to_sym) }
-end
+projects = YAML.load_file("_data/projects.yml", symbolize_names: true)
 projects.each_with_index do |project, index|
   #binding.irb; exit
   # To inspect & debug specific projects
@@ -206,3 +203,4 @@ projects.each_with_index do |project, index|
     puts("Upsert (JA/EN): #{path_ja}") :
     puts("Upsert (JA):    #{path_ja}")
 end
+
