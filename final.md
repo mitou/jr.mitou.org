@@ -102,7 +102,7 @@ twitter_card: summary_large_image
 -->
 
 
-## {{ page.this_year }}年度のプロジェクト {#projects}
+<h2 id='projects'>{{ page.this_year }}年度のプロジェクト</h2>
 
 {% assign projects = site.data.projects | where_exp: "pj", "pj.year == page.this_year" %}
 <div class="projects flex">
