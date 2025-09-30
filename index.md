@@ -3,7 +3,7 @@ layout: default
 nosnippet: true
 this_year: 2025
 
-# this_year を変更するとトップページの採択プロジェクトが切り替わります。
+# this_year を変更すると、表示したい年度の採択プロジェクトに切り替わります。
 # 成果報告会の公開準備が整ったら this_year を今年度の数字に変更してください。
 # 詳細: https://github.com/mitou/jr.mitou.org#how-to-build-projects
 ---
