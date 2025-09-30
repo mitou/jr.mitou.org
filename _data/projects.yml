@@ -1,11 +1,11 @@
 # Data Template (詳細はREADMEを参照してください)
 #
-#- id: 他のIDと重複しないID。例: visible
+#- id: 他のIDと重複しない小文字。例: visible
 #  title: プロジェクトのタイトル。例：Visible ─ Webアクセシビリティー診断 & 修正提案ツール
 #  title_en: 上記タイトルの英語版。例：Visible ─ Web Accessibility Diagnosis & Correction Proposal Tool
 #  description: プロジェクト概要。例：VisibleはWebサイトのアクセシビリティーを診断するサービスです。...
 #  description_en: 上記概要の英語版。例：Visible is a service that diagnoses the accessibility of websites. ...
-#  thumbnail: サムネイル画像 (省略可)。デフォルトでは `/assets/img/projects/{#year}/#{id}.webp` にある画像を参照
+#  thumbnail: サムネイル画像 (省略推奨)。画像は `/assets/img/projects/{#year}/#{id}.webp` に WebP 画像を配置する
 #  promotion: プロジェクトの PV やデモ動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。(Gif にも対応)
 #  promotion_en: 上記に同じ (動画の英語版)。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。(Gif にも対応)
 #  final: 未踏ジュニア成果報告会の発表動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
