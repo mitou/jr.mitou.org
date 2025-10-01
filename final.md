@@ -33,7 +33,27 @@ twitter_card: summary_large_image
 
   <a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final?{{ page.this_year }}&lang=jp&related=mitoujr" class="button">#未踏ジュニア で<br>ツイートする</a>
 </div>
-
+<section id="sponsor-logos">
+  <div class='flex'>
+    {% for sponsor in site.data.sponsors %}
+    <a href="{{ sponsor.link }}" target="_blank">
+      {% if sponsor.type == 'platinum' %}
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="lazyload sponsor-logo-platinum">
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+  <div class='flex'>
+    {% for sponsor in site.data.sponsors %}
+    <a href="{{ sponsor.link }}" target="_blank">
+      {% if sponsor.type == 'gold' %}
+      <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="lazyload sponsor-logo-gold">
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+  <p>未踏ジュニアは<a href='#sponsors'>スポンサー</a>からの支援によって運営されています。</p>
+</section>
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
 
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
