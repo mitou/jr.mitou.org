@@ -33,6 +33,7 @@ twitter_card: summary_large_image
 
   <a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final?{{ page.this_year }}&lang=jp&related=mitoujr" class="button">#未踏ジュニア で<br>ツイートする</a>
 </div>
+
 <section id="sponsor-logos">
   <div class='flex'>
     {% for sponsor in site.data.sponsors %}
@@ -52,7 +53,7 @@ twitter_card: summary_large_image
     </a>
     {% endfor %}
   </div>
-  <p>未踏ジュニアは<a href='#sponsors'>スポンサー</a>からの支援によって運営されています。</p>
+  <p>未踏ジュニアは<a href='/#sponsors'>スポンサー</a>からの支援によって運営されています。</p>
 </section>
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
 
