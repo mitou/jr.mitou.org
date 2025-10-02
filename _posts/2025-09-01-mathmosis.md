@@ -125,13 +125,13 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='paper_cad' title='ジオラマストラクチャー向け3D/2D統合CADの開発'>
+    <a href='paper_cad' title='Paper CAD - ミニチュア建物を簡単に設計するための2D/3D統合CAD'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        ジオラマストラクチャー向け3D/2D統合CADの開発
+        Paper CAD - ミニチュア建物を簡単に設計するための...
       {% endif %}
     </a>
   </p>

@@ -3,7 +3,7 @@ layout: post
 title: |
   人工心臓に応用するためのシンクロナスリラクタンスモーターの開発
 description: |
-  永久磁石等の励磁源を持たないシンクロナスリラクタンスモーターを自作し、人工心臓の血液ポンプ駆動装置としての応用を目指す取り組み。希土類磁石を使わず安全・堅牢・安価な設計で患者の負担軽減を目指します。
+  16歳の高校生が人工心臓の駆動装置として、永久磁石などの励磁源を持たないシンクロナスリラクタンスモーターを自作します。これは三相交流で制御されます。希土類磁石を使わないことにより、安全性が高く、堅牢で、安価な設計を目指します。このモーターは人工心臓の血液ポンプの駆動装置となります。人工心臓の駆動装置としては初の試みであり、元々高価な人工心臓は長期で安価に提供することができます。患者さまの経済的負担を下げ安心に暮らせる未来をつくることが出来ます。
 permalink: /projects/2025/sr_motor_heart
 thumbnail: /assets/img/projects/2025/sr_motor_heart.webp
 twitter_card: summary_large_image
@@ -113,13 +113,13 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='gen5' title='Gen5 - LLMを用いた柔軟な画像処理エディタ'>
+    <a href='gen5' title='Gen5 - 自然言語とGUIの融合による柔軟な画像編集エディタ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Gen5 - LLMを用いた柔軟な画像処理エディタ
+        Gen5 - 自然言語とGUIの融合による柔軟な画像編集エディタ
       {% endif %}
     </a>
   </p>

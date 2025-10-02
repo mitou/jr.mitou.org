@@ -3,7 +3,7 @@ layout: post
 title: |
   TalkBoost - 吃音者の発話の自発性を促進し、積極的に話すことを支援するアプリ
 description: |
-  TalkBoostは、吃音を持つ人が「話したい気持ち」を大切にできるよう支援するアプリです。ペンダント型デバイスで日常の音声を収集し、AIが吃音を自動検出。気づきにくい特徴を可視化し、発話の傾向や難しい場面を理解できるようにし、挑戦の積み重ねを後押しします。
+  TalkBoostは、吃音を持つ人が「話したい気持ち」を大切にできるよう支援するアプリです。ペンダント型デバイスで日常の音声を収集し、AIが吃音を自動検出。自分では気づきにくい特徴を可視化し、発話の傾向や難しい場面を理解できます。挑戦を積み重ねることで、話す勇気を育み、前向きなコミュニケーションと自己成長を後押しします。
 permalink: /projects/2025/talkboost
 thumbnail: /assets/img/projects/2025/talkboost.webp
 twitter_card: summary_large_image
@@ -113,13 +113,13 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='nextrouter' title='ベストエフォート型光回線を複数利用することで高速に通信を行うルータの開発'>
+    <a href='nextrouter' title='NextRouter -ベストエフォート型光回線を複数利用することで高速に通信を行うルータの開発-'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        ベストエフォート型光回線を複数利用することで高速に通信を行う...
+        NextRouter -ベストエフォート型光回線を複数利用す...
       {% endif %}
     </a>
   </p>
