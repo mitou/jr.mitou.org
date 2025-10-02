@@ -1,11 +1,11 @@
 # Data Template (詳細はREADMEを参照してください)
 #
-#- id: 他のIDと重複しないID。例: visible
+#- id: 他のIDと重複しない小文字。例: visible
 #  title: プロジェクトのタイトル。例：Visible ─ Webアクセシビリティー診断 & 修正提案ツール
 #  title_en: 上記タイトルの英語版。例：Visible ─ Web Accessibility Diagnosis & Correction Proposal Tool
 #  description: プロジェクト概要。例：VisibleはWebサイトのアクセシビリティーを診断するサービスです。...
 #  description_en: 上記概要の英語版。例：Visible is a service that diagnoses the accessibility of websites. ...
-#  thumbnail: サムネイル画像。デフォルトでは `/assets/img/projects/{#year}/#{id}.webp` にある画像を参照
+#  thumbnail: サムネイル画像 (省略推奨)。画像は `/assets/img/projects/{#year}/#{id}.webp` に WebP 画像を配置する
 #  promotion: プロジェクトの PV やデモ動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。(Gif にも対応)
 #  promotion_en: 上記に同じ (動画の英語版)。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。(Gif にも対応)
 #  final: 未踏ジュニア成果報告会の発表動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
@@ -34,6 +34,137 @@
 #  mentor_id: 
 #  creator_ids:
 #  - 
+
+# 2025年度（プレースホルダ完了版。必要に応じて後日微修正）
+- id: uminavi
+  title: UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム
+  description: GPSが届かない水中での自己位置推定に高価な音響測位システムが必要という参入障壁を下げ、個人でも高精度な位置情報を活用した水中探査に挑戦できるようにする、オープンソースの自己位置推定システムです。<br><br>GPSが届かない水中での自己位置推定には、従来、数百万円もする高価な音響測位システムが必要であり、私のような個人開発者にとっては導入が困難でした。<br><br>本プロジェクトは、この「高価で手が出ない」という参入障壁を取り除き、誰もが高精度な位置情報を活用した水中探査に挑戦できる環境を目指します。 
+  year: 2025
+  mentor_id: yohei_yasukawa
+  creator_ids:
+  - shintaro_matsumoto
+
+- id: flusca
+  title: Flusca - シミュレーションによって体験を生み出すゲーム
+  description: 「Flusca（フラスカ）」は、自律的に変化し続けるシミュレーションによって、あなただけのプレイ体験を生み出すゲームです。<br><br>あらかじめ定められた筋書きは存在せず、あなたの行動とキャラクターたちの自律的なふるまいが交わることで、主観的な解釈に基づく物語が頭の中に形作られていくでしょう。<br><br>じっくりと眺め、時には直接関わってみてください。画面の向こうでは、今なにが起きていますか？
+  year: 2025
+  mentor_id: rhythm_sakamoto
+  creator_ids:
+  - takehiro_kano
+
+- id: fudey
+  title: Fudey - Sensory Calligraphy
+  description: あなたの筆が音を奏でながら、正しい筆運びを身につけられます。従来の見て覚える書道から聞いて感じる書道へ。筆圧の強弱が美しい音の変化となり、筆のスピードはヒートマップで色鮮やかに可視化。3D空間では筆の動きを立体的に再現し、あらゆる角度から筆運びを観察できます。習字が苦手な方にこそおすすめ！Apple Pencilで本格的な筆の感覚を体験できる革新的書道アプリをぜひ！
+  year: 2025
+  mentor_id: masato_bito
+  creator_ids:
+  - mio_mitamura
+
+- id: oshaberi_taskboard
+  title: おしゃべりなタスクボード – アナログ的な操作で子供の自己管理を補助できる、忘れ防止装置
+  description: 日々のToDoをホワイトボード等で管理しようとしても、その運用自体を忘れてしまう人がいます。対策としてスマホのリマインダー・アプリが有効ですが、子どもや高齢者など、様々な理由によりスマホを持たない人がいます。また、タスク管理は楽しくないので続かないという声もありました。そこで、子どもが楽しく自己管理できるようになることを目的として、アナログ的な操作でデジタル管理できる忘れ防止装置を開発しました。
+  year: 2025
+  mentor_id: rina_kotake
+  creator_ids:
+  - koichi_kubo
+
+- id: mathmosis
+  title: Mathmosis - 数学学習支援AIを搭載したタブレット向けアプリ
+  description: タブレット上でスタイラスペンを使い問題を解くことで、あなたの思考プロセスをAIが詳細に分析します。解答中のつまずきの根本原因を正確に特定。理解を助ける個別フィードバックを提供し、曖昧な「わからない」を残さず、確実な学力定着を実現します。また、事前に授業ノートをアップロードすることで、授業で習ったやり方でAIが解説します。
+  year: 2025
+  mentor_id: maki_komuro
+  link: https://mathmosis.mi875.net
+  creator_ids:
+  - daichi_minami
+
+- id: paper_cad
+  title: Paper CAD - ミニチュア建物を簡単に設計するための2D/3D統合CAD
+  description: 建物模型制作のためのツールで、3D建物モデルを作成・インポートし、紙用2D展開図(SVG)へ自動変換することが可能です。これまでは立体構造物である建物を平面に展開する"設計"作業が模型制作上の大きな負担でしたが、Paper CADでは3D建物モデルから展開図を自動生成することで直感的・簡単に設計作業が行えます。これにより、模型制作のハードルを下げ、初心者も経験者も短時間で高精度な街並みを制作できるようになります。
+  year: 2025
+  mentor_id: shoya_ishimaru
+  link: https://paper-cad.soynyuu.com
+  creator_ids:
+  - kodai_miyazaki
+
+- id: sms_solar
+  title: S.M.S.｜太陽集光変換ユニット：電力・熱・光の屋内伝送システム
+  description: S.M.S.は、太陽の光を使用して、電気・熱・明かりを同時に作り、それを家庭の中でそのまま使えるように変換する、新しいエネルギー装置です。<br><br>発電部にタービンなど動的部品がないので、静音性に優れ、壊れにくく、長寿命なのが特長です。また、電気だけでなく、光や熱もそのまま使用できるので、ムダが少なくとても効率的です。もし停電や災害が起きても、太陽さえ出ていれば、明かりと電源を保つことができます。S.M.S.は、自然と調和し、環境に優しく暮らせる毎日を支えるための仕組みです。
+  year: 2025
+  mentor_id: hirokazu_nishio
+  creator_ids:
+  - masamune_kato
+
+- id: gen5
+  title: Gen5 - 自然言語とGUIの融合による柔軟な画像編集エディタ
+  description: Gen5（ゲンゴ）は、自然言語とGUIを融合したインターフェースによる画像処理エディタです。画像を編集する指示から、AIが編集エフェクトや必要なマスク画像を生成します。同時に、エフェクトを微調整するためのパラメータUIも自動的に組み立てます。自然言語の直感性とGUIの操作性を「いいとこ取り」することで、スムーズな画像編集フローを実現します。
+  link: https://gen5.app
+  year: 2025
+  mentor_id: ryo_suzuki
+  creator_ids:
+  - itta_funahashi
+  - shotaro_nakamura
+  - yuna_matsunaga
+
+- id: sr_motor_heart
+  title: 人工心臓に応用するためのシンクロナスリラクタンスモーターの開発
+  description: 16歳の高校生が人工心臓の駆動装置として、永久磁石などの励磁源を持たないシンクロナスリラクタンスモーターを自作します。これは三相交流で制御されます。希土類磁石を使わないことにより、安全性が高く、堅牢で、安価な設計を目指します。このモーターは人工心臓の血液ポンプの駆動装置となります。人工心臓の駆動装置としては初の試みであり、元々高価な人工心臓は長期で安価に提供することができます。患者さまの経済的負担を下げ安心に暮らせる未来をつくることが出来ます。
+  year: 2025
+  mentor_id: daiki_teramoto
+  creator_ids:
+  - seorus_jang
+
+- id: aikyo
+  title: aikyo - 相互につながるAIキャラクターを作成するバックエンドフレームワーク
+  description: aikyoは、相互につながるAIキャラクターを作成するバックエンドフレームワークです。独立したキャラクターが相互につながり、自然な会話のキャッチボールができるネットワークを簡単に構築することができます。さらに、ActionやKnowledgeと呼ばれるシステムにより、LLMによる自律的なキャラクターの操作を可能にします。
+  year: 2025
+  mentor_id: yoshifumi_seki
+  link: https://aikyo.vercel.app/
+  creator_ids:
+  - soma_noda
+  - haruma_yasuda
+
+- id: nextrouter
+  title: NextRouter -ベストエフォート型光回線を複数利用することで高速に通信を行うルータの開発-
+  description: 複数の光回線を束ねて大規模ネットワークの高速化を実現する次世代ルータを開発しました。既存ルータの多くが複数回線を冗長化させるだけの制御に留まるのに対し、本ルータは各利用者のIPアドレス単位で最適な回線への割り当てと通信量の制御を行う機能を持ち、複数回線を効率よく活用することで、帯域保証のない回線しか利用できない環境でもネットワーク全体の通信品質向上を目指します。
+  year: 2025
+  mentor_id: kakeru_ishii
+  creator_ids:
+  - shohei_nagashima
+
+- id: talkboost
+  title: TalkBoost - 吃音者の発話の自発性を促進し、積極的に話すことを支援するアプリ
+  description: TalkBoostは、吃音を持つ人が「話したい気持ち」を大切にできるよう支援するアプリです。ペンダント型デバイスで日常の音声を収集し、AIが吃音を自動検出。自分では気づきにくい特徴を可視化し、発話の傾向や難しい場面を理解できます。挑戦を積み重ねることで、話す勇気を育み、前向きなコミュニケーションと自己成長を後押しします。
+  year: 2025
+  mentor_id: yu_ukai
+  creator_ids:
+  - mitsuki_goto
+
+- id: kigo
+  title: KIGO -ろう者と健常者の間の心理的な壁を越える装置-
+  description: この装置は、リビングに置いて常に音を監視し、対象の音を見つけたらスマホアプリに通知するろう者向けの装置です。しかし、KIGOはろう者の生活をアシストするだけでなく、日常生活に含まれている季節感や情緒や雰囲気を持った俳句の季語に関係する音だけを検出し通知することで、ろう者と健常者で日常の中の季節感や雰囲気に気づき、二人の間の心理的な壁を越えることを目的にした装置です。
+  year: 2025
+  mentor_id: yuya_okada
+  link: https://protopedia.net/prototype/private/a7a8c08c-2368-4809-9637-57dff8a11ff0
+  creator_ids:
+  - momoko_yamashita
+
+- id: cian
+  title: Cian - 今日をつぶやく、明日を見つける、未来を思案するジャーナルアプリ
+  description: CianはSNS感覚の短文ジャーナルとAI対話を組み合わせた、思案ができる新しいジャーナルアプリです。書くだけでLLMが要約し、頻出ワードと感情の流れを見える化。振り返り対話で思案を重ね、次に踏み出す一歩を提案。日常のメモにも、悩んだ日の相談相手にも、いつもそばであなたの思案を支えます。
+  link: https://cianapp.com
+  year: 2025
+  mentor_id: yuya_okada
+  creator_ids:
+  - yuto_tokunaga
+
+- id: neureka
+  title: Neureka! - 教材生成とAI学習パートナーによる理解支援サービス
+  description: あらゆる学習の基礎である「理解」は重要である反面、時に多くの時間や労力を必要とすることがあります。Neureka!は、ノートや教科書の写真をアップロードするだけで、ポッドキャストやフラッシュカードといった教材の生成に加えチャットやAIリアルタイム対話機能でのインタラクティブな学習を行うことができ、「理解」をより深く短時間で行うためのサポートをします。
+  year: 2025
+  mentor_id: maki_komuro
+  link: https://protopedia.net/prototype/7467
+  creator_ids:
+  - naoki_ohira
 
 # 2024年度
 - id: qwet

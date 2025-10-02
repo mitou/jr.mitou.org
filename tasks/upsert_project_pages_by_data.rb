@@ -32,7 +32,11 @@ projects.each_with_index do |project, index|
   redirect_from_en = project[:redirect_from] ? "redirect_from: /english#{redirect_base}/#{project[:redirect_from]}" : ""
 
   # Generate JA/EN project pages from projects.yml
-  project[:thumbnail] ||= "#{project[:id]}.webp"
+  project[:thumbnail] ||= if File.exist?("./assets/img/projects/#{project[:year]}/#{project[:id]}.webp")
+                            "#{project[:id]}.webp"
+                          else
+                            "../tbu.webp"
+                          end
   path_ja = "./_posts/#{project[:year]}-09-01-#{project[:id]}.md"
   page_ja = <<~JA_PROJECT_FRONTMATTER
     ---
@@ -83,7 +87,7 @@ projects.each_with_index do |project, index|
    <div style='margin-top: 50px; margin-bottom: 30px;'>
      <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='{{ translations.altThumbnail[lang] }} - {{ pj_title }}'
      {% if pj.thumbnail %}    data-src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
-     {% else %}               data-src='/assets/img/projects/{{ pj.year }}/{{ pj.id        }}.webp'
+     {% else %}               data-src='{{ page.thumbnail }}'
      {% endif %}                 title='{{ pj_title }}' style='border-radius: 6px;' loading='lazy' />
    </div>
 
@@ -203,5 +207,3 @@ projects.each_with_index do |project, index|
     puts("Upsert (JA/EN): #{path_ja}") :
     puts("Upsert (JA):    #{path_ja}")
 end
-
-

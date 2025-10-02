@@ -1,9 +1,11 @@
+{% capture default_thumbnail_path %}/assets/img/projects/{{ pj.year }}/{{ pj.id }}.webp{% endcapture %}
+{% capture default_thumbnail_exists %}{% file_exists default_thumbnail_path %}{% endcapture %}
 [ {% for pj in projects %}
   {
     "id"          : "{{ pj.id }}",
     "title"       : "{{ pj.title }}",
     "description" : "{{ pj.description | escape }}",
-    "thumbnail"   : "{{ site.url }}/assets/img/projects/{{ pj.year }}/{% if pj.thumbnail %}{{ pj.thumbnail }}{% else %}{{ pj.id}}.webp{% endif %}",
+    "thumbnail"   : "{{ site.url }}/assets/img/projects/{{ pj.year }}/{% if pj.thumbnail %}{{ pj.thumbnail }}{% elsif default_thumbnail_exists %}../tbu.webp{% else %}{{ pj.id }}.webp{% endif %}",
     "url"         : "{{ site.url }}/projects/{{ pj.year }}/{{ pj.id }}",
     "year"        : "{{ pj.year }}",
     "creators"    : [

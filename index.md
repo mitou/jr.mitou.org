@@ -1,9 +1,9 @@
 ---
 layout: default
 nosnippet: true
-this_year: 2024
+this_year: 2025
 
-# this_year を変更するとトップページの採択プロジェクトが切り替わります。
+# this_year を変更すると、表示したい年度の採択プロジェクトに切り替わります。
 # 成果報告会の公開準備が整ったら this_year を今年度の数字に変更してください。
 # 詳細: https://github.com/mitou/jr.mitou.org#how-to-build-projects
 ---
@@ -35,16 +35,16 @@ this_year: 2024
   -->
 
   <!--【〆切後のアナウンス】-->
+  <!--
   <a href="/guideline" class="dialog ignore-sp">
     たくさんのご応募ありがとうございました!!
   </a>
+  -->
 
   <!--【成果報告前のアナウンス】-->
-  <!--
   <a href="/final" class="dialog ignore-sp">
-    🆕 成果報告会の参加申込が始まりました！<br>11月4日 @ 東京大学 情報学環・福武ホール
+    🆕 成果報告会の参加申込開始! (11月3日)
   </a>
-  -->
 
   <!--【成果報告後のアナウンス】-->
   <!--
