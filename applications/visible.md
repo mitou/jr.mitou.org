@@ -25,7 +25,7 @@ thumbnail: /assets/img/projects/2020/visible.webp
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20Visible ─ Webアクセシビリティー診断 &amp; 修正提案ツール&hashtags=未踏ジュニア&url={{ site.url }}/applications/visible&lang=jp&related=mitoujr'>ツイートする</a>
+  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20Visible ─ Webアクセシビリティー診断 &amp; 修正提案ツール&hashtags=未踏ジュニア&url={{ site.url }}/applications/visible&lang=ja&related=mitoujr'>ツイートする</a>
 </div>
 
 <nav>

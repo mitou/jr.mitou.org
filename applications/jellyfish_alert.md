@@ -25,7 +25,7 @@ thumbnail: /assets/img/projects/2024/jellyfish_alert.webp
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム&hashtags=未踏ジュニア&url={{ site.url }}/applications/jellyfish_alert&lang=jp&related=mitoujr'>ツイートする</a>
+  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム&hashtags=未踏ジュニア&url={{ site.url }}/applications/jellyfish_alert&lang=ja&related=mitoujr'>ツイートする</a>
 </div>
 
 <nav>

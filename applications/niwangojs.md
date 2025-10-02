@@ -25,7 +25,7 @@ thumbnail: /assets/img/projects/2023/niwangojs.webp
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン&hashtags=未踏ジュニア&url={{ site.url }}/applications/niwangojs&lang=jp&related=mitoujr'>ツイートする</a>
+  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン&hashtags=未踏ジュニア&url={{ site.url }}/applications/niwangojs&lang=ja&related=mitoujr'>ツイートする</a>
 </div>
 
 <nav>

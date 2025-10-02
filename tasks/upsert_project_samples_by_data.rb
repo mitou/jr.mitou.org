@@ -50,7 +50,7 @@ project_samples.each_with_index do |project, index|
 
     <div class='flex'>
       <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-      <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20#{CGI.escapeHTML project[:title]}&hashtags=未踏ジュニア&url={{ site.url }}/applications/#{project[:id]}&lang=jp&related=mitoujr'>ツイートする</a>
+      <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20#{CGI.escapeHTML project[:title]}&hashtags=未踏ジュニア&url={{ site.url }}/applications/#{project[:id]}&lang=ja&related=mitoujr'>ツイートする</a>
     </div>
 
     <nav>

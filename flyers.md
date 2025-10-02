@@ -50,7 +50,7 @@ redirect_from:
   <a class='button' target='_blank' rel='noopener'
       href='https://twitter.com/hashtag/未踏ジュニア?f=live'>ハッシュタグを見る</a>
   <a class='button' target='_blank' rel='noopener'
-      href='https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/flyers&lang=jp&related=mitoujr'>ツイートする</a>
+      href='https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/flyers&lang=ja&related=mitoujr'>ツイートする</a>
 </div>
 
 <style>

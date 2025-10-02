@@ -25,7 +25,7 @@ thumbnail: /assets/img/projects/2024/tactica_note.webp
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート&hashtags=未踏ジュニア&url={{ site.url }}/applications/tactica_note&lang=jp&related=mitoujr'>ツイートする</a>
+  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート&hashtags=未踏ジュニア&url={{ site.url }}/applications/tactica_note&lang=ja&related=mitoujr'>ツイートする</a>
 </div>
 
 <nav>

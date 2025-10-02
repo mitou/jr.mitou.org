@@ -25,7 +25,7 @@ thumbnail: /assets/img/projects/2019/amoyo.webp
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20編模様 (あもーよ) イラスト手編み支援アプリ&hashtags=未踏ジュニア&url={{ site.url }}/applications/amoyo&lang=jp&related=mitoujr'>ツイートする</a>
+  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20編模様 (あもーよ) イラスト手編み支援アプリ&hashtags=未踏ジュニア&url={{ site.url }}/applications/amoyo&lang=ja&related=mitoujr'>ツイートする</a>
 </div>
 
 <nav>

@@ -25,7 +25,7 @@ thumbnail: /assets/img/projects/2023/a9n.webp
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20A9N: HALを用いて移植容易性を実現するマイクロカーネル&hashtags=未踏ジュニア&url={{ site.url }}/applications/a9n&lang=jp&related=mitoujr'>ツイートする</a>
+  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20A9N: HALを用いて移植容易性を実現するマイクロカーネル&hashtags=未踏ジュニア&url={{ site.url }}/applications/a9n&lang=ja&related=mitoujr'>ツイートする</a>
 </div>
 
 <nav>

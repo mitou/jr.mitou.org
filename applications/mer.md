@@ -25,7 +25,7 @@ thumbnail: /assets/img/projects/2020/mer.webp
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20Mer - 多機能電子リコーダー&hashtags=未踏ジュニア&url={{ site.url }}/applications/mer&lang=jp&related=mitoujr'>ツイートする</a>
+  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20Mer - 多機能電子リコーダー&hashtags=未踏ジュニア&url={{ site.url }}/applications/mer&lang=ja&related=mitoujr'>ツイートする</a>
 </div>
 
 <nav>

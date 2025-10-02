@@ -25,7 +25,7 @@ thumbnail: /assets/img/projects/2020/flight_fit_vr.webp
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品&hashtags=未踏ジュニア&url={{ site.url }}/applications/flight_fit_vr&lang=jp&related=mitoujr'>ツイートする</a>
+  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品&hashtags=未踏ジュニア&url={{ site.url }}/applications/flight_fit_vr&lang=ja&related=mitoujr'>ツイートする</a>
 </div>
 
 <nav>

@@ -27,7 +27,7 @@ redirect_from:
 
 <div class='flex'>
   <a href='https://twitter.com/hashtag/未踏ジュニア?f=live' class='button'>ハッシュタグを見る</a>
-  <a href='https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/opportunities&lang=jp&related=mitoujr' class='button'>ツイートする</a>
+  <a href='https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/opportunities&lang=ja&related=mitoujr' class='button'>ツイートする</a>
 </div>
 
 <a href='https://www.youtube.com/playlist?list=PLNObH2jlC6lfUNKMCrBl1UGJU8QKVrbov' class='button'>YouTube で見る</a>

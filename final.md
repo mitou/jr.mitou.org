@@ -31,7 +31,7 @@ twitter_card: summary_large_image
   </div><div class='flex'>
   <a href="https://twitter.com/hashtag/未踏ジュニア" class="button">#未踏ジュニア の<br>ハッシュタグを見る</a>
 
-  <a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final?{{ page.this_year }}&lang=jp&related=mitoujr" class="button">#未踏ジュニア で<br>ツイートする</a>
+  <a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final?{{ page.this_year }}&lang=ja&related=mitoujr" class="button">#未踏ジュニア で<br>ツイートする</a>
 </div>
 
 <section id="sponsor-logos">
