@@ -55,37 +55,57 @@ twitter_card: summary_large_image
   </div>
   <p>未踏ジュニアは<a href='/#sponsors'>スポンサー</a>からの支援によって運営されています。</p>
 </section>
-<!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
+
 
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
-<!--
-## [<i class="fa-light fa-calendar-clock"></i>](#timetable) タイムテーブル {#timetable}
+<h2 id='#timetable'>
+  <a href='#timetable'><i class="fa-light fa-calendar-clock"></i></a>
+  タイムテーブル
+</h2>
 
 <ul>
-  <li>10:30 受付開始</li>
-  <li>11:00 〜 11:10 ご案内</li>
-  <li>11:10 〜 12:20 プレゼンテーション</li>
-  {% include final-timetable.html this_year=page.this_year range_begin=0 range_end=5 %}
+  <li>09:30 受付開始</li>
+  <li>10:00 〜 10:10 ご案内</li>
+  <li>10:10 〜 11:40 プレゼンテーション (6件)</li>
+  {% include final-timetable.html project_ids="
+    aikyo,
+    sms_solar,
+    kigo,
+    flusca,
+    fudey,
+    paper_cad,
+  " %}
 
-  <li>12:20 〜 13:20 昼食休憩</li>
-  <li>13:20 〜 15:50 プレゼンテーション</li>
-  {% include final-timetable.html this_year=page.this_year range_begin=6 range_end=16 %}
-
+  <li>11:40 〜 12:40 昼食休憩</li>
+  <li>12:40 〜 15:10 プレゼンテーション (9件)</li>
+  {% include final-timetable.html project_ids="
+    neureka,
+    talkboost,
+    gen5,
+    cian,
+    mathmosis,
+    uminavi,
+    sr_motor_heart,
+    oshaberi_taskboard,
+    nextrouter,
+  " %}
 </ul>
 
 
-`------- オンライン配信はここまで --------`
+<code>--------- オンライン配信はここまで ----------</code>
 
 <ul>
   <li>
-    15:50 〜 17:30 作品展示 (デモ)・質疑応答<br>
+    15:20 〜 16:40 作品展示 (デモ)・質疑応答<br>
+    <!-- もしデモ展示テーブルがあれば合わせて表示
     18分 x 3回転  13分 x 3回転。<br>
     1プロジェクトあたり2回ブース発表。<br>
     <img width='100%' src="/assets/img/spinner.svg" alt="デモ展示タイムターブル"
      data-src="https://i.gyazo.com/8ae7cf2fd9158336373c2f4fd95746d5.png"
      class="lazyload" loading="lazy" />
+    -->
   </li>
-  <li>17:30 〜 18:00 スポンサー賞発表、修了式</li>
+  <li>16:40 〜 17:20 スポンサー賞発表、修了式</li>
 </ul>
 
 <br>

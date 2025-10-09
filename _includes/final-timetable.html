@@ -1,9 +1,14 @@
-{% assign projects = site.data.projects | where_exp: "pj", "pj.year == include.this_year" %}
-{{ include.range }}
+{% assign project_ids = include.project_ids | split: "," | compact %}
+
 <ul>
-{% for order in (include.range_begin..include.range_end) %}
-  {% assign pj = projects[order] %}
-  <small><li class='final-timetable' style='list-style-type: "{{ order | plus: 1 }}. "'><a href='/projects/{{ pj.year }}/{{ pj.id }}'>{{ pj.title }}</a></li></small>
+{% for project_id in project_ids %}
+  {% assign project_id_trimmed = project_id | strip %}
+  {% assign project = site.data.projects | find: "id", project_id_trimmed %}
+  {% unless project %}{% continue %}{% endunless %}
+  
+  <li class='final-timetable'>
+    <a href='/projects/{{ project.year }}/{{ project.id }}'>{{ project.title }}</a>
+  </li>
 {% endfor %}
 </ul>
 
