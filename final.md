@@ -58,7 +58,7 @@ twitter_card: summary_large_image
 
 
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
-<h2 id='#timetable'>
+<h2 id='timetable'>
   <a href='#timetable'><i class="fa-light fa-calendar-clock"></i></a>
   タイムテーブル
 </h2>
