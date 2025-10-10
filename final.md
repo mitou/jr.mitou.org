@@ -91,8 +91,12 @@ twitter_card: summary_large_image
   " %}
 </ul>
 
-
-<code>--------- オンライン配信はここまで ----------</code>
+<div style="text-align: center; margin: 2em 0; position: relative;">
+  <span style="display: inline-block; padding: 0 1em; background: white; position: relative; z-index: 1;">
+    オンライン配信はココまで
+  </span>
+  <div style="position: absolute; top: 50%; left: 0; right: 0; border-top: 1px dashed #999; z-index: 0;"></div>
+</div>
 
 <ul>
   <li>
