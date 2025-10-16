@@ -64,7 +64,7 @@ twitter_card: summary_large_image
 </h2>
 
 <ul>
-  <li>09:30 受付開始</li>
+  <li>09:30 受付開始 @ <a href='https://peatix.com/event/4598142'>GMO Yours・フクラス</a></li>
   <li>10:00 〜 10:10 ご案内</li>
   <li>10:10 〜 11:40 プレゼンテーション (6件)</li>
   {% include final-timetable.html project_ids="
