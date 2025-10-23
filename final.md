@@ -25,7 +25,7 @@ twitter_card: summary_large_image
 
   <br>
   <div class='flex'>
-    <a class="button" href="https://peatix.com/event/4598142" >現地参加を申し込む</a>
+    <a class="button" href="https://peatix.com/event/4598142" onclick="return gtagSendEvent(this.href);">参加を申し込む</a>
     <!--<a class="button" href="https://www.youtube.com/playlist?list=PLNObH2jlC6ldl5Nh5KNfXkBitzcI4M6Gm">YouTube で見る</a>
     <a class="button" href="https://togetter.com/li/2460295">当日の反響を見る</a>-->
   </div><div class='flex'>
