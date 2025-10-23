@@ -16,6 +16,22 @@
     function gtag(){dataLayer.push(arguments)};
     gtag('js', new Date());
     gtag('config', 'G-GWHM8P0RTE');
+  </script> <script>
+    // Helper function to delay opening a URL until a gtag event is sent.
+    // Call it in response to an action that should navigate to a URL.
+    function gtagSendEvent(url) {
+      var callback = function () {
+        if (typeof url === 'string') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion_event_signup_1', {
+        'event_callback': callback,
+        'event_timeout': 2000,
+        // <event_parameters>
+      });
+      return false;
+    }
   </script> </head> <body> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVZHMQK8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <header> <a href="/english/" hreflang="en" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="Logo of MITOU Junior" class="lazyload" loading="lazy"></a> <a href="/english/" hreflang="en" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="Logo of MITOU Junior" class="lazyload" loading="lazy"></a> <label for="nav-check" class="ph nav-hamburger"><img src="/assets/img/bars.svg" alt="メニュー" style="width:24px;" class="lazyload" loading="lazy"></label> <input type="checkbox" id="nav-check" style="display:none;"/> <nav class="topnav pc"> <div class="header-left"> <a hreflang="en" href="/english/#top">TOP</a> <a hreflang="en" href="/english/#news">Media & Awards</a> <a hreflang="en" href="/english/projects">Project Showcase</a> <a hreflang="en" href="/english/#agenda">Program Agenda</a> <a hreflang="en" href="/english/stats">Stats</a> <a hreflang="en" href="/english/#contact">Contact</a> </div> <a hreflang="ja" href="/404" class="header-button"> <span style='color: white; font-size: 80%;'>Switch to Japanese</span> </a> </nav> <label for="nav-check" class="header-back"></label> </header> <div class="main"> <style type="text/css" media="screen">
   .container {
     margin: 150px auto 50px;
