@@ -7,7 +7,7 @@
   {% unless project %}{% continue %}{% endunless %}
   
   <li class='final-timetable'>
-    <a href='/projects/{{ project.year }}/{{ project.id }}'>{{ project.title }}</a>
+    <a href='#{{ project.id }}'>{{ project.title }}</a>
   </li>
 {% endfor %}
 </ul>
