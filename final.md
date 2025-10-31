@@ -59,8 +59,8 @@ twitter_card: summary_large_image
 
 <!-- 3. ライブ配信 URL が決まったら、ページ冒頭に埋め込む -->
 
-<h2 id='youtube'>
-  <a href='#youtube'><i class="fa-brands fa-youtube"></i></a>
+<h2 id='live'>
+  <a href='#live'><i class="fa-brands fa-youtube"></i></a>
   ライブ配信
 </h2>
 
