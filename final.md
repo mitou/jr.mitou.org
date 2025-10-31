@@ -57,6 +57,22 @@ twitter_card: summary_large_image
 </section>
 
 
+<!-- 3. ライブ配信 URL が決まったら、ページ冒頭に埋め込む -->
+
+<h2 id='youtube'>
+  <a href='#youtube'><i class="fa-brands fa-youtube"></i></a>
+  ライブ配信
+</h2>
+
+<div class='youtube'>
+  <iframe src="https://www.youtube.com/embed/8lNubVsBVhM" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class='flex'>
+  <a class="button" href="https://youtu.be/8lNubVsBVhM">YouTube で見る</a>
+  <a class="button" href="https://peatix.com/event/4598142">現地参加を申し込む</a>
+</div>
+
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
 <h2 id='timetable'>
   <a href='#timetable'><i class="fa-light fa-calendar-clock"></i></a>
@@ -114,23 +130,10 @@ twitter_card: summary_large_image
 
 <br>
 
-<!-- 3. ライブ配信 URL が決まったら、ページ冒頭に埋め込む -->
 <!--
-成果報告会は [YouTube](https://www.youtube.com/mitoujr) からもご視聴いただけます 📺⚡️
-<div class='youtube'>
-  <iframe src="https://www.youtube.com/embed/NVg4W_I8Qp0" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 <div class='flex'>
   <a href="https://youtu.be/scoDs7P3paI?list=PLNObH2jlC6lfjkMZAmRffPLGs_gFJOfGU" class="button">YouTube で見る</a>
   <a href="https://togetter.com/li/2252240" class="button">当日の反響を見る</a>
-</div>
-
-<hr>
-
-<div class='flex'>
-  <a href="https://youtu.be/NVg4W_I8Qp0" class="button">YouTube で見る</a>
-  <a href="https://mitoujr2024.peatix.com/view" class="button">現地参加を申し込む</a>
 </div>
 -->
 
