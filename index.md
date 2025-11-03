@@ -14,51 +14,26 @@ this_year: 2025
   <!--<img src="/assets/img/2019_all.min.webp" data-src="/assets/img/2019_all.webp" alt="2019年度 未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">-->
 
   <!--【チラシのアナウンス】-->
-  <!--
-  <a href="/flyers" class="dialog ignore-sp">
-    🆕 チラシ配布のお願い (〆 2月2日 23:59)
-  </a>
-  -->
+  <!--<a href="/flyers" class="dialog ignore-sp">🆕 チラシ配布のお願い (〆 2月2日 23:59)</a>-->
 
   <!--【募集予告のアナウンス】-->
-  <!--<a href="/pre" class="dialog ignore-sp">
-    ⏳ 2025年度の募集は2月〜3月頃に公開予定です
-  </a>
-  -->
+  <!--<a href="/pre" class="dialog ignore-sp">⏳ 2025年度の募集は2月〜3月頃に公開予定です</a>-->
   <!--📮 2025年度の事前登録 (特典付き) が開始されました-->
 
   <!--【募集中のアナウンス】-->
-  <!--
-  <a href="/guideline" class="dialog ignore-sp">
-    🆕 2025年度の募集要項を見る (〆 3月30日 23:59)
-  </a>
-  -->
+  <!--<a href="/guideline" class="dialog ignore-sp">🆕 2025年度の募集要項を見る (〆 3月30日 23:59)</a>-->
 
   <!--【〆切後のアナウンス】-->
-  <!--
-  <a href="/guideline" class="dialog ignore-sp">
-    たくさんのご応募ありがとうございました!!
-  </a>
-  -->
+  <!--<a href="/guideline" class="dialog ignore-sp">たくさんのご応募ありがとうございました!!</a>-->
 
   <!--【成果報告前のアナウンス】-->
-  <!--
-  <a href="/final" class="dialog ignore-sp">
-    🆕 成果報告会の参加申込開始! (11月3日)
-  </a>
-  -->
+  <!--<a href="/final" class="dialog ignore-sp">🆕 成果報告会の参加申込開始! (11月3日)</a>-->
 
   <!--【成果報告日のアナウンス】-->
-  <a href="/final" class="dialog ignore-sp">
-    ⚡️ 成果報告会、ライブ配信中！
-  </a>
+  <!--<a href="/final" class="dialog ignore-sp">⚡️ 成果報告会、ライブ配信中！</a>-->
 
   <!--【成果報告後のアナウンス】-->
-  <!--
-  <a href="/final" class="dialog ignore-sp">
-    🆕 成果報告会のアーカイブ配信が公開されました！
-  </a>
-  -->
+  <a href="/final#live" class="dialog ignore-sp">🆕 成果報告会のアーカイブ配信が公開されました！</a>
 </div>
 
 <section id="about">
