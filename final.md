@@ -74,13 +74,16 @@ twitter_card: summary_large_image
     </a>
     {% endfor %}
   </div>
-
 </section>
 
 <div class="note">
   未踏ジュニアは<b><a href='/#sponsors'>スポンサー</a>からの支援</b>によって運営されています。
   <br class='ignore-pc'>
   (<a href='/#sponsors'>&raquo; スポンサーを見る</a>)
+</div>
+
+<div class='flex'>
+  <a class="button" href="https://youtu.be/8lNubVsBVhM">YouTube で見る</a>
 </div>
 
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
