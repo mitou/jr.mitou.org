@@ -74,8 +74,14 @@ twitter_card: summary_large_image
     </a>
     {% endfor %}
   </div>
-  <p>未踏ジュニアは<a href='/#sponsors'>スポンサー</a>からの支援によって運営されています。</p>
+
 </section>
+
+<div class="note">
+  未踏ジュニアは<b><a href='/#sponsors'>スポンサー</a>からの支援</b>によって運営されています。
+
+  （<a href='/#sponsors'>&raquo; スポンサーを見る</a>）
+</div>
 
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
 <h2 id='timetable'>
