@@ -39,7 +39,7 @@ twitter_card: summary_large_image
 </h2>
 
 <div class='youtube'>
-  <iframe src="https://www.youtube.com/embed/8lNubVsBVhM?autoplay=1&mute=1" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/8lNubVsBVhM?start=1805" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class='flex'>
@@ -78,12 +78,10 @@ twitter_card: summary_large_image
 
 <div class="note">
   未踏ジュニアは<b><a href='/#sponsors'>スポンサー</a>からの支援</b>によって運営されています。
-  <br class='ignore-pc'>
-  (<a href='/#sponsors'>&raquo; スポンサーを見る</a>)
 </div>
 
 <div class='flex'>
-  <a class="button" href="https://youtu.be/8lNubVsBVhM">YouTube で見る</a>
+  <a class="button" href="https://youtu.be/8lNubVsBVhM?start=1805">YouTube で見る</a>
 </div>
 
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
