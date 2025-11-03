@@ -39,7 +39,7 @@ twitter_card: summary_large_image
 </h2>
 
 <div class='youtube'>
-  <iframe src="https://www.youtube.com/embed/8lNubVsBVhM?autoplay=1" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/8lNubVsBVhM?autoplay=1&mute=1" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class='flex'>
