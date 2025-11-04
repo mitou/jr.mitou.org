@@ -7,7 +7,11 @@
   {% unless project %}{% continue %}{% endunless %}
   
   <li class='final-timetable'>
+    {% if include.is_internal_link == true %}
     <a href='#{{ project.id }}'>{{ project.title }}</a>
+    {% else %}
+    <a href='/projects/{{ project.year }}/{{ project.id }}'>{{ project.title }}</a>
+    {% endif %}
   </li>
 {% endfor %}
 </ul>

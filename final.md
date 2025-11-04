@@ -94,7 +94,7 @@ twitter_card: summary_large_image
   <li>09:30 受付開始 @ <a href='https://peatix.com/event/4598142'>GMO Yours・フクラス</a></li>
   <li>10:00 〜 10:10 ご案内</li>
   <li>10:10 〜 11:40 プレゼンテーション (6件)</li>
-  {% include final-timetable.html project_ids="
+  {% include final-timetable.html is_internal_link=false project_ids="
     aikyo,
     sms_solar,
     kigo,
@@ -105,7 +105,7 @@ twitter_card: summary_large_image
 
   <li>11:40 〜 12:40 昼食休憩</li>
   <li>12:40 〜 15:10 プレゼンテーション (9件)</li>
-  {% include final-timetable.html project_ids="
+  {% include final-timetable.html is_internal_link=false project_ids="
     neureka,
     talkboost,
     gen5,
