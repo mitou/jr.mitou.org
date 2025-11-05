@@ -39,13 +39,13 @@ twitter_card: summary_large_image
 </h2>
 
 <div class='youtube'>
-  <iframe src="https://www.youtube.com/embed/8lNubVsBVhM?start=1805" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/AvjScGFJbGk?list=PLNObH2jlC6ldzoiJ7jso-rhxvVVdnWH0V" title="{{ page.this_year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class='flex'>
-  <a href="https://twitter.com/hashtag/未踏ジュニア" class="button">#未踏ジュニア の<br>ハッシュタグを見る</a>
-  <a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final#live&lang=ja&related=mitoujr" class="button">#未踏ジュニア で<br>ツイートする</a>
-  <!--<a href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final?{{ page.this_year }}&lang=ja&related=mitoujr" class="button">#未踏ジュニア で<br>ツイートする</a>-->
+  <a class="button" href="https://twitter.com/hashtag/未踏ジュニア">#未踏ジュニア の<br>ハッシュタグを見る</a>
+  <a class="button" href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final#live&lang=ja&related=mitoujr">#未踏ジュニア で<br>ツイートする</a>
+  <!--<a class="button" href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final?{{ page.this_year }}&lang=ja&related=mitoujr">#未踏ジュニア で<br>ツイートする</a>-->
 </div>
 
 <!--
@@ -82,6 +82,7 @@ twitter_card: summary_large_image
 
 <div class='flex'>
   <a class="button" href="https://youtu.be/8lNubVsBVhM?start=1805">YouTube で見る</a>
+  <a class="button" href="https://posfie.com/@mitoujr/p/TLnWXge">当日の反響を見る</a>
 </div>
 
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
@@ -143,8 +144,8 @@ twitter_card: summary_large_image
 
 <!--
 <div class='flex'>
-  <a href="https://youtu.be/scoDs7P3paI?list=PLNObH2jlC6lfjkMZAmRffPLGs_gFJOfGU" class="button">YouTube で見る</a>
-  <a href="https://togetter.com/li/2252240" class="button">当日の反響を見る</a>
+  <a class="button" href="https://youtu.be/scoDs7P3paI?list=PLNObH2jlC6lfjkMZAmRffPLGs_gFJOfGU">YouTube で見る</a>
+  <a class="button" href="https://togetter.com/li/2252240">当日の反響を見る</a>
 </div>
 -->
 
@@ -154,9 +155,9 @@ twitter_card: summary_large_image
   
   <a class="button" href="https://fb.me/e/237iDG0Ne">Facebook イベント</a>
 
-  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6ldtjWuPw3Cum2cjzglIU-wD" class="button">YouTube で見る</a>
+  <a class="button" href="https://www.youtube.com/playlist?list=PLNObH2jlC6ldtjWuPw3Cum2cjzglIU-wD">YouTube で見る</a>
 
-  <a href="https://togetter.com/li/1968577" class="button">Twitter の反響を見る</a>
+  <a class="button" href="https://togetter.com/li/1968577">Twitter の反響を見る</a>
 </div>
 -->
 
