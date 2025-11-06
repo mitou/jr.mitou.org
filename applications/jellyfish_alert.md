@@ -20,7 +20,7 @@ thumbnail: /assets/img/projects/2024/jellyfish_alert.webp
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'jellyfish_alert'" | first %}
 <div class="youtube">
-  <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.final }}?rel=0{% if pj.final_start %}&start={{ pj.final_start }}{% endif %}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.final }}?rel=0{% if pj.final_start %}&start={{ pj.final_start }}{% endif %}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <div class='flex'>
@@ -30,10 +30,10 @@ thumbnail: /assets/img/projects/2024/jellyfish_alert.webp
 
 <nav>
   <p class='nav prev'>
-    <a href='abecobe' title='abecobe - シンプルかつ難しいパズルゲーム'>
+    <a href='uminavi' title='UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム'>
       &larr; {{ translations.navPrev[lang] }} 前の提案書
       <br>
-      abecobe - シンプルかつ難しいパズルゲーム
+      UmiNavi — 個人開発者のための水中ドローン向け自己位...
     </a>
   </p>
 

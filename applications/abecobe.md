@@ -20,7 +20,7 @@ thumbnail: /assets/img/projects/2019/abecobe.webp
 
 {% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'abecobe'" | first %}
 <div class="youtube">
-  <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.final }}?rel=0{% if pj.final_start %}&start={{ pj.final_start }}{% endif %}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/{{ pj.final }}?rel=0{% if pj.final_start %}&start={{ pj.final_start }}{% endif %}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <div class='flex'>
@@ -38,10 +38,10 @@ thumbnail: /assets/img/projects/2019/abecobe.webp
   </p>
 
   <p class='nav next'>
-    <a href='jellyfish_alert' title='クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム'>
+    <a href='uminavi' title='UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム'>
       次の提案書 {{ translations.navNext[lang] }} &rarr;
       <br>
-      クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム
+      UmiNavi — 個人開発者のための水中ドローン向け自己位...
     </a>
   </p>
 </nav>
