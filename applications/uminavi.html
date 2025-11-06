@@ -1,0 +1,660 @@
+<!DOCTYPE html> <html lang="ja" dir="ltr"> <head> <meta charset="utf-8"> <title>提案書サンプル &raquo; UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム - 未踏ジュニア</title> <meta property="og:title" content="提案書サンプル &raquo; UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム - 未踏ジュニア"/> <meta name="twitter:title" content="提案書サンプル &raquo; UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム - 未踏ジュニア"> <meta name="description" content="未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。"/> <meta name="twitter:description" content="未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。"/> <meta property="og:description" content="未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。"/> <meta name="author" content="未踏社団 未踏ジュニア実行委員会"> <link rel="canonical" href="https://jr.mitou.org/applications/uminavi.html"/> <link rel="alternate" hreflang="ja" href="https://jr.mitou.org/"/> <link rel="alternate" hreflang="en" href="https://jr.mitou.org/english/"/> <link rel="shortcut icon" href="/assets/img/favicon.ico"> <link rel="stylesheet" href="/assets/css/main.css"/> <meta name="viewport" content="width=device-width,initial-scale=1"> <link href="https://kit.fontawesome.com" rel="preconnect" crossorigin> <script src="https://kit.fontawesome.com/82f32b9df5.js" crossorigin="anonymous"></script> <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin> <link href="https://fonts.googleapis.com" rel="preconnect" crossorigin> <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700&display=swap" rel="stylesheet"> <meta property="fb:admins" content="715330868"/> <meta property="fb:admins" content="1254438080"/> <meta property="fb:app_id" content="3454272331281041"/> <meta property="og:url" content="https://jr.mitou.org/applications/uminavi.html"/> <meta property="og:site_name" content="未踏ジュニア"/> <meta property="og:type" content="website"/> <meta property="og:locale" content="ja_JP"/> <meta name="twitter:site" content="@mitoujr"/> <meta name="twitter:card" content="summary"/> <meta name="twitter:image" content="https://jr.mitou.org/assets/img/projects/2025/uminavi.webp"/> <meta property="og:image" content="https://jr.mitou.org/assets/img/projects/2025/uminavi.webp"/> <meta property="og:image:width" content="2050"/> <meta property="og:image:height" content="900"/> <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" sizes="180x180"> <link rel="manifest" href="/site.webmanifest"> <meta name="msapplication-TileColor" content="#509E48"> <meta name="theme-color" content="#509E48"> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NVZHMQK8');</script> <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)
+   },i[r].l=1*new Date();a=s.createElement(o),
+			 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+   ga('create', 'UA-77183423-1', 'auto');
+   ga('send', 'pageview');
+  </script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-GWHM8P0RTE"></script> <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+    gtag('config', 'G-GWHM8P0RTE');
+  </script> <script>
+    // Helper function to delay opening a URL until a gtag event is sent.
+    // Call it in response to an action that should navigate to a URL.
+    function gtagSendEvent(url) {
+      var callback = function () {
+        if (typeof url === 'string') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion_event_signup_1', {
+        'event_callback': callback,
+        'event_timeout': 2000,
+        // <event_parameters>
+      });
+      return false;
+    }
+  </script> </head> <body> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVZHMQK8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <header> <a href="/" hreflang="ja" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a> <a href="/" hreflang="ja" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="未踏ジュニア" class="lazyload" loading="lazy"></a> <label for="nav-check" class="ph nav-hamburger"><img src="/assets/img/bars.svg" alt="メニュー" style="width:24px;" class="lazyload" loading="lazy"></label> <input type="checkbox" id="nav-check" style="display:none;"/> <nav class="topnav pc"> <div class="header-left"> <a hreflang="ja" href="/about">未踏ジュニアとは</a> <a hreflang="ja" href="/guideline">応募の手引き</a> <a hreflang="ja" href="/projects">採択一覧</a> <a hreflang="ja" href="/schedule">採択後の流れ</a> <a hreflang="ja" href="/#faq">FAQ</a> <a hreflang="ja" href="/stats">統計</a> <a hreflang="ja" href="/#contact">問い合わせ</a> </div> <a hreflang="ja" href="/final" class="header-button" style='font-size: 90%;'>成果報告会を見る</a> </nav> <label for="nav-check" class="header-back"></label> </header> <div class="main"> <div class="page-head"> <h1>提案書サンプル &raquo; <br>UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム </h1> </div> <div class="post"> <p style="padding: 50px 0px 10px;">未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。 </p> <div class="flex"> <a class="button" href="/applications#sample">サンプル一覧に戻る</a> <a class="button" href="/applications/uminavi.pdf">PDF で見る</a> </div> <p></p> <div class="pdf-wrap" style="margin: 30px 0px 55px;"> <div class="pdf-loading" id="pdf-loading-uminavi"> <img src="/assets/img/spinner.svg" alt="読み込み中..." class="loading-spinner"/> <p class="loading-text">PDF 読み込み中...</p> </div> <div class="pdf-container" id="pdf-container-uminavi" tabindex="0"> <div class="pdf-page-container" id="pdf-page-container-uminavi"> <span class="pdf-nav-arrow pdf-nav-arrow-left" id="pdf-nav-arrow-left-uminavi">&#x2039;</span> <span class="pdf-nav-arrow pdf-nav-arrow-right" id="pdf-nav-arrow-right-uminavi">&#x203A;</span> <canvas id="pdf-canvas-uminavi"></canvas> <div id="text-layer-uminavi" class="text-layer"></div> </div> </div> <div class="pdf-controls"> <button id="prev-page-uminavi" class="pdf-button">前のページ</button> <span id="page-info-uminavi" class="page-info">ページ 1 / 1</span> <button id="next-page-uminavi" class="pdf-button">次のページ</button> </div> </div> <style>
+  .pdf-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  }
+  .pdf-container {
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    scroll-behavior: smooth;
+  }
+  .pdf-page-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .pdf-container canvas {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    pointer-events: none;
+  }
+  .text-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    line-height: 1.0;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    z-index: 10;
+  }
+  .text-layer > span {
+    color: transparent;
+    position: absolute;
+    white-space: pre;
+    cursor: text;
+    transform-origin: 0% 0%;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+  }
+  .text-layer a {
+    position: absolute;
+    font-size: 1em;
+    background: transparent;
+    cursor: pointer;
+    color: transparent;
+  }
+  .text-layer a:hover {
+    background: rgba(255, 255, 0, 0.2);
+  }
+  .pdf-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+  .pdf-button {
+    padding: 8px 16px;
+    background-color: rgb(40, 161, 58);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 14px;
+    white-space: nowrap;
+    min-width: max-content;
+  }
+  .pdf-button:hover {
+    background-color: rgb(32, 129, 46);
+  }
+  .pdf-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  .page-info {
+    font-size: 14px;
+    color: #666;
+    min-width: 120px;
+    text-align: center;
+  }
+  .error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .pdf-nav-arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 2.5em;
+    color: rgb(40, 161, 58);
+    opacity: 0.25;
+    cursor: pointer;
+    user-select: none;
+    transform: translateY(-50%);
+    z-index: 1000;
+    transition: opacity 0.2s;
+    /* タップ領域を広げるための疑似要素を追加 */
+  }
+  .pdf-nav-arrow::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    bottom: -100px;
+    left: -30px;
+    right: -30px;
+    z-index: -1;
+  }
+  .pdf-nav-arrow:hover {
+    opacity: 0.75;
+  }
+  .pdf-nav-arrow-left {
+    left: 8px;
+  }
+  .pdf-nav-arrow-right {
+    right: 8px;
+  }
+  .pdf-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+    border-radius: 4px;
+  }
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  .loading-text {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+    min-width: 200px;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    .pdf-button {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+    .page-info {
+      font-size: 12px;
+      min-width: 100px;
+    }
+    .pdf-nav-arrow::before {
+      top: -80px;
+      bottom: -80px;
+      left: -20px;
+      right: -20px;
+    }
+  }
+</style> <script src="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.min.js"></script> <script src="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js"></script> <script>
+  // PDF.jsの初期化とPDF表示を行う関数
+  async function initPDF(projectId) {
+    // デバッグモードの設定（localhost または ngrok.io の場合に有効）
+    const isDebug = window.location.hostname === 'localhost' || window.location.hostname.endsWith('.ngrok.io');
+    const debugLog = (...args) => {
+      if (isDebug) {
+        console.log('[PDF Debug]', ...args);
+      }
+    };
+
+    debugLog('PDF初期化開始:', projectId);
+
+    const loadingElement = document.getElementById(`pdf-loading-${projectId}`);
+    const loadingText = loadingElement.querySelector('.loading-text');
+    let loadingTimeout;
+
+    try {
+      debugLog('初期化開始');
+
+      // ワーカーの設定
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js';
+      debugLog('ワーカー設定完了');
+
+      const canvas = document.getElementById(`pdf-canvas-${projectId}`);
+      const textLayer = document.getElementById(`text-layer-${projectId}`);
+      const pdfContainer = document.getElementById(`pdf-container-${projectId}`);
+      const pdfUrl = `/applications/${projectId}.pdf`;
+      const prevButton = document.getElementById(`prev-page-${projectId}`);
+      const nextButton = document.getElementById(`next-page-${projectId}`);
+      const pageInfo = document.getElementById(`page-info-${projectId}`);
+      const leftArrow = document.getElementById(`pdf-nav-arrow-left-${projectId}`);
+      const rightArrow = document.getElementById(`pdf-nav-arrow-right-${projectId}`);
+
+      let currentPage = 1;
+      let pdf = null;
+      let numPages = 0;
+
+      // キーボードイベントのハンドラーを追加
+      const handleKeyDown = (event) => {
+        if (event.key === 'ArrowLeft' && currentPage > 1) {
+          currentPage--;
+          renderPage(currentPage);
+          updatePageInfo();
+        } else if (event.key === 'ArrowRight' && currentPage < numPages) {
+          currentPage++;
+          renderPage(currentPage);
+          updatePageInfo();
+        }
+      };
+
+      // PDFコンテナにキーボードイベントを追加
+      pdfContainer.addEventListener('keydown', handleKeyDown);
+
+      // ボタンにもキーボードイベントを追加
+      prevButton.addEventListener('keydown', handleKeyDown);
+      nextButton.addEventListener('keydown', handleKeyDown);
+
+      // 矢印のクリックイベントを設定
+      let isProcessing = false;
+      let touchStartTime = 0;
+      let lastTouchEndTime = 0;
+      const TOUCH_COOLDOWN = 10; // タッチイベントのクールダウン時間（ミリ秒）
+
+      const handlePageChange = async (direction) => {
+        const now = Date.now();
+        if (isProcessing || (now - lastTouchEndTime) < TOUCH_COOLDOWN) return;
+        
+        isProcessing = true;
+        lastTouchEndTime = now;
+
+        try {
+          if (direction === 'prev' && currentPage > 1) {
+            currentPage--;
+            await renderPage(currentPage);
+            updatePageInfo();
+          } else if (direction === 'next' && currentPage < numPages) {
+            currentPage++;
+            await renderPage(currentPage);
+            updatePageInfo();
+          }
+        } finally {
+          setTimeout(() => {
+            isProcessing = false;
+          }, TOUCH_COOLDOWN);
+        }
+      };
+
+      // タッチイベントの処理
+      leftArrow.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        touchStartTime = Date.now();
+      }, { passive: false });
+
+      leftArrow.addEventListener('touchend', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const touchEndTime = Date.now();
+        if (touchEndTime - touchStartTime < 300) { // 長押しを防ぐ
+          handlePageChange('prev');
+        }
+      }, { passive: false });
+
+      rightArrow.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        touchStartTime = Date.now();
+      }, { passive: false });
+
+      rightArrow.addEventListener('touchend', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const touchEndTime = Date.now();
+        if (touchEndTime - touchStartTime < 300) { // 長押しを防ぐ
+          handlePageChange('next');
+        }
+      }, { passive: false });
+
+      // クリックイベントの処理
+      leftArrow.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        handlePageChange('prev');
+      });
+
+      rightArrow.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        handlePageChange('next');
+      });
+
+      // ローディング表示を開始
+      loadingElement.style.display = 'flex';
+      loadingText.textContent = 'PDF 読み込み中... (0%)';
+
+      // PDFの読み込みオプションを設定
+      const loadingTask = pdfjsLib.getDocument({
+        url: pdfUrl,
+        cMapUrl: 'https://unpkg.com/pdfjs-dist@3.11.174/cmaps/',
+        cMapPacked: true,
+        standardFontDataUrl: 'https://unpkg.com/pdfjs-dist@3.11.174/standard_fonts/',
+        disableStream: true,
+        disableAutoFetch: true,
+        fontExtraProperties: true,
+        useSystemFonts: true,
+        maxCanvasPixels: 16777216,
+        isEvalSupported: true,
+        disableFontFace: false,
+        useWorkerFetch: true,
+        enableXfa: true,
+        enableFontFace: true,
+        fontFaceProperties: {
+          fontFamily: 'sans-serif',
+          fontWeight: 'normal',
+          fontStyle: 'normal'
+        },
+        disableFontFace: false,
+        useSystemFonts: true,
+        standardFontDataUrl: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/standard_fonts/',
+        maxFontSize: 0,
+        fontLoadingTimeout: 30000,
+        retryFontLoading: true
+      });
+
+      debugLog('PDF読み込みタスク作成完了');
+
+      // 進捗状況の監視
+      loadingTask.onProgress = (progressData) => {
+        debugLog('読み込み進捗:', progressData);
+        if (progressData.total > 0) {
+          const percent = Math.round((progressData.loaded / progressData.total) * 100);
+          loadingText.textContent = `PDF 読み込み中... (${percent}%)`;
+        }
+      };
+
+      // タイムアウト処理の設定（30秒）
+      loadingTimeout = setTimeout(() => {
+        debugLog('読み込みタイムアウト');
+        loadingText.textContent = '読み込みに時間がかかっています...';
+      }, 30000);
+
+      debugLog('PDF読み込み開始');
+      const pdfDocument = await loadingTask.promise;
+      debugLog('PDF読み込み完了');
+
+      clearTimeout(loadingTimeout);
+
+      debugLog('PDF loaded:', {
+        numPages: pdfDocument.numPages,
+        fingerprint: pdfDocument.fingerprint,
+        isEncrypted: pdfDocument.isEncrypted,
+        isPureXfa: pdfDocument.isPureXfa
+      });
+
+      // フォント情報のデバッグ出力を追加
+      const page = await pdfDocument.getPage(1);
+      const commonObjs = page.commonObjs;
+      debugLog('Common Objects:', commonObjs);
+      
+      const fontObjs = page.objs;
+      debugLog('Font Objects:', fontObjs);
+
+      // テキストレイヤーのデバッグ出力を追加
+      const textContent = await page.getTextContent();
+      debugLog('Text Content:', textContent);
+      debugLog('Text Content Items:', textContent.items);
+
+      numPages = pdfDocument.numPages;
+      
+      // ページ情報を更新
+      function updatePageInfo() {
+        pageInfo.textContent = `ページ ${currentPage} / ${numPages}`;
+        prevButton.disabled = currentPage <= 1;
+        nextButton.disabled = currentPage >= numPages;
+      }
+
+      // ページを表示する関数
+      async function renderPage(pageNum) {
+        // ページ番号の範囲チェック
+        if (pageNum < 1 || pageNum > numPages) {
+          return;
+        }
+
+        const page = await pdfDocument.getPage(pageNum);
+        const leftArrow = document.getElementById(`pdf-nav-arrow-left-${projectId}`);
+        const rightArrow = document.getElementById(`pdf-nav-arrow-right-${projectId}`);
+
+        // 矢印の表示/非表示を制御
+        leftArrow.style.display = pageNum > 1 ? 'block' : 'none';
+        rightArrow.style.display = pageNum < numPages ? 'block' : 'none';
+
+        // PDFページの元のサイズ
+        const originalViewport = page.getViewport({ scale: 1 });
+        const containerWidth = pdfContainer.clientWidth;
+
+        // スケール値を計算（アスペクト比を維持）
+        const scale = containerWidth / originalViewport.width;
+        const viewport = page.getViewport({ 
+          scale: scale,
+          rotation: 0 // 回転を明示的に0度に設定
+        });
+
+        // canvasのピクセルサイズを設定
+        const canvas = document.getElementById(`pdf-canvas-${projectId}`);
+        const context = canvas.getContext('2d');
+        
+        // デバイスピクセル比を考慮
+        const dpr = window.devicePixelRatio || 1;
+        canvas.width = viewport.width * dpr;
+        canvas.height = viewport.height * dpr;
+        
+        // CSSで幅100%、高さautoに
+        canvas.style.width = `${viewport.width}px`;
+        canvas.style.height = `${viewport.height}px`;
+        
+        // コンテキストのスケーリング
+        context.scale(dpr, dpr);
+
+        // テキストレイヤーの設定
+        textLayer.style.width = `${viewport.width}px`;
+        textLayer.style.height = `${viewport.height}px`;
+        textLayer.style.left = '0';
+        textLayer.style.top = '0';
+
+        // PDFを描画
+        await page.render({
+          canvasContext: context,
+          viewport: viewport,
+          intent: 'display'
+        }).promise;
+
+        // テキストレイヤー
+        const textContent = await page.getTextContent();
+        debugLog('Text content:', textContent);
+        
+        // テキストレイヤーをクリア
+        textLayer.innerHTML = '';
+        
+        await pdfjsLib.renderTextLayer({
+          textContent,
+          container: textLayer,
+          viewport,
+          textDivs: [],
+          textContentSource: textContent,
+          renderInteractiveForms: true,
+          enhanceTextSelection: true
+        }).promise;
+
+        // リンクの処理
+        const annotations = await page.getAnnotations();
+        debugLog('Annotations:', annotations);
+
+        for (const annotation of annotations) {
+          if (annotation.subtype === 'Link') {
+            debugLog('Processing link:', annotation);
+
+            // リンク要素を作成
+            const link = document.createElement('a');
+            link.style.position = 'absolute';
+            link.style.cursor = 'pointer';
+            link.style.transition = 'background-color 0.2s';
+
+            // リンクの位置とサイズを設定
+            const rect = viewport.convertToViewportRectangle(annotation.rect);
+            const x = Math.min(rect[0], rect[2]);
+            const y = Math.min(rect[1], rect[3]);
+            const width = Math.abs(rect[2] - rect[0]);
+            const height = Math.abs(rect[3] - rect[1]);
+
+            link.style.left = `${x}px`;
+            link.style.top = `${y}px`;
+            link.style.width = `${width}px`;
+            link.style.height = `${height}px`;
+
+            // 外部リンクの場合
+            if (annotation.url) {
+              debugLog('External link:', annotation.url);
+              link.href = annotation.url;
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+              link.title = annotation.url;
+            }
+            // 内部リンクの場合
+            else if (annotation.dest) {
+              debugLog('Internal link:', annotation.dest);
+              link.href = '#';
+              link.title = 'ページ内リンク';
+              
+              // クリックイベントを設定
+              link.addEventListener('click', async (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                debugLog('Link clicked:', annotation.dest);
+                
+                try {
+                  const dest = await pdfDocument.getDestination(annotation.dest);
+                  const pageIndex = await pdfDocument.getPageIndex(dest[0]);
+                  debugLog('Destination page:', pageIndex + 1);
+                  
+                  if (pageIndex !== -1) {
+                    currentPage = pageIndex + 1;
+                    await renderPage(currentPage);
+                    updatePageInfo();
+                  }
+                } catch (error) {
+                  console.error('リンク先のページへの移動に失敗しました:', error);
+                }
+              });
+            }
+
+            // リンクをテキストレイヤーに追加
+            textLayer.appendChild(link);
+          }
+        }
+
+        updatePageInfo();
+      }
+
+      // 最初のページを表示
+      await renderPage(currentPage);
+
+      // ページナビゲーションのイベントリスナー
+      prevButton.addEventListener('click', async () => {
+        if (currentPage > 1) {
+          currentPage--;
+          await renderPage(currentPage);
+        }
+      });
+
+      nextButton.addEventListener('click', async () => {
+        if (currentPage < numPages) {
+          currentPage++;
+          await renderPage(currentPage);
+        }
+      });
+
+      // ウィンドウのリサイズ時にPDFを再描画
+      let resizeTimeout;
+      window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(async () => {
+          await renderPage(currentPage);
+        }, 250);
+      });
+
+      // コンポーネントのクリーンアップ
+      window.addEventListener('unload', () => {
+        if (pdfDocument) {
+          pdfDocument.destroy();
+        }
+      });
+
+      function updateNavArrows() {
+        const leftArrow = document.getElementById(`pdf-nav-arrow-left-${projectId}`);
+        const rightArrow = document.getElementById(`pdf-nav-arrow-right-${projectId}`);
+        leftArrow.style.display = (currentPage > 1) ? 'block' : 'none';
+        rightArrow.style.display = (currentPage < numPages) ? 'block' : 'none';
+      }
+
+      // ページ描画後やページ切り替え時に呼び出す
+      updateNavArrows();
+
+      // ローディング表示を終了
+      loadingElement.style.display = 'none';
+
+    } catch (error) {
+      clearTimeout(loadingTimeout);
+      console.error('PDFの読み込みに失敗しました:', error);
+      
+      // エラーメッセージを詳細に表示
+      let errorMessage = 'PDFの読み込みに失敗しました。';
+      if (error.name === 'MissingPDFException') {
+        errorMessage = 'PDFファイルが見つかりません。';
+      } else if (error.name === 'InvalidPDFException') {
+        errorMessage = 'PDFファイルが壊れている可能性があります。';
+      } else if (error.name === 'UnexpectedResponseException') {
+        errorMessage = 'サーバーからの応答が不正です。';
+      }
+
+      loadingText.textContent = errorMessage;
+      loadingText.style.color = '#dc3545';
+      
+      // リトライボタンを表示
+      const retryButton = document.createElement('button');
+      retryButton.textContent = '再読み込み';
+      retryButton.className = 'pdf-button';
+      retryButton.style.marginTop = '10px';
+      retryButton.onclick = () => {
+        window.location.reload();
+      };
+      loadingElement.appendChild(retryButton);
+    }
+  }
+
+  // ページ読み込み完了時にPDFを表示
+  document.addEventListener('DOMContentLoaded', () => {
+    initPDF('uminavi');
+  });
+</script> <div class="note" style="margin: 30px auto 50px;"><small>上記の提案書の状態から、約６ヶ月間の支援を得た結果が下記の<a href="/projects/2025#final">成果報告会</a>での発表となります。<br/><br/><img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" class="lazyload"/></small></div> <div class="youtube"> <iframe width="560" height="315" class="lazyload" data-src="https://www.youtube.com/embed/QD9t6MWWNfo?rel=0&amp;start=26" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> </div> <div class="flex"> <a class="button" href="/applications#sample">サンプル一覧に戻る</a> <a class="button" href="https://twitter.com/intent/tweet?text=提案書サンプル%20-%20UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム&amp;hashtags=未踏ジュニア&amp;url=https://jr.mitou.org/applications/uminavi&amp;lang=ja&amp;related=mitoujr">ツイートする</a> </div> <nav> <p class="nav prev"> <a href="abecobe" title="abecobe - シンプルかつ難しいパズルゲーム"> &larr; 前の提案書 <br/> abecobe - シンプルかつ難しいパズルゲーム </a> </p> <p class="nav next"> <a href="jellyfish_alert" title="クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム"> 次の提案書 &rarr; <br/> クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム </a> </p> </nav> </div> </div> <footer> <a hreflang="ja" href="/">ホーム</a> <a hreflang="ja" href="/about">未踏ジュニアとは</a> <a hreflang="ja" href="/news">お知らせ一覧</a> <a hreflang="ja" href="/guideline">応募の手引き</a> <a hreflang="ja" href="/applications">提案書を準備しよう</a> <a hreflang="ja" href="/projects">採択プロジェクト一覧</a> <a hreflang="ja" href="/projects/showcase">採択プロジェクト図鑑</a> <a hreflang="ja" href="/projects/search">採択プロジェクト検索</a> <a hreflang="ja" href="/interviews">修了生インタビュー</a> <a hreflang="ja" href="/mentors">メンター紹介</a> <a hreflang="ja" href="/#faq">よくある質問</a> <a hreflang="ja" href="/q-box">匿名質問箱</a> <a hreflang="ja" href="/#contact">問い合わせ</a> <a hreflang="ja" href="/stats">統計情報</a> <a hreflang="ja" href="/applications#story">採択者の体験談</a> <a hreflang="ja" href="/opportunities">他の支援プログラム</a> <a hreflang="ja" href="/admissions">大学と未踏ジュニア</a> <a hreflang="ja" href="/#sponsors">スポンサー</a> <a hreflang="ja" href="/flyers">チラシ</a> <a hreflang="ja" href="/privacy">プライバシーポリシー</a> <a hreflang="en" href="/english">English</a> <div class="sns"> <a href="https://twitter.com/mitoujr"><i class="fab fa-twitter"></i></a> <a href="https://facebook.com/mitoujr"><i class="fab fa-facebook"></i></a> <a href="https://github.com/mitou/jr.mitou.org"><i class="fab fa-github"></i></a> <a href="https://anchor.fm/mitoujr"><i class="fab fa-spotify"></i></a> <a href="https://youtube.com/mitoujr"><i class="fab fa-youtube"></i></a> </div> <span class="copyright">Copyright &copy; <a href='/#organizer' style='padding: 0 0 0 0; color: #666; font-weight: lighter;'>未踏社団</a> 未踏ジュニア実行委員会 </span> </footer> <script src="/assets/js/lazysizes.min.js" async=""></script> </body> </html>
