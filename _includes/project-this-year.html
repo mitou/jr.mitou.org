@@ -18,7 +18,11 @@
 {% elsif this_final.live %}
 
 <div class='youtube' style='margin-top: 30px;'>
-  <iframe src="https://www.youtube.com/embed/{{ this_final.live }}?rel=0{% if this_final.live_start %}&start={{ this_final.live_start }}{% endif %}" title="{{ include.year }}年度 未踏ジュニア成果報告会" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  {% if this_final.live_start %}
+    {% include youtube-embed.html id=this_final.live year=include.year title="未踏ジュニア成果報告会" start=this_final.live_start %}
+  {% else %}
+    {% include youtube-embed.html id=this_final.live year=include.year title="未踏ジュニア成果報告会" %}
+  {% endif %}
 </div>
 
 <div class='flex'>
