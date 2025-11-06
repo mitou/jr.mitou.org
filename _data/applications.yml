@@ -3,6 +3,12 @@
 
 # 応募者向け提案書サンプル (最新順)
 # https://jr.mitou.org/applications/#sample
+
+# 提案書サンプルの生成コマンド
+# bundle exec rake upsert_project_samples_by_data
+
+- project_id: uminavi
+  type: sample
 - project_id: jellyfish_alert
   type: sample
 - project_id: tactica_note
