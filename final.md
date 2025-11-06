@@ -39,7 +39,7 @@ twitter_card: summary_large_image
 </h2>
 
 <div class='youtube'>
-  {% include youtube-embed.html id="AvjScGFJbGk" list="PLNObH2jlC6ldzoiJ7jso-rhxvVVdnWH0V" title="未踏ジュニア成果報告会" %}
+  {% include youtube-embed.html id="AvjScGFJbGk" list="PLNObH2jlC6ldzoiJ7jso-rhxvVVdnWH0V" year="2025" title="未踏ジュニア成果報告会" %}
 </div>
 
 <div class='flex'>
