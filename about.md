@@ -17,7 +17,8 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
   <meta itemprop="embedUrl"             content="https://www.youtube.com/embed/Eu42E-FXBME?rel=0">
   <meta itemprop="name"                 content="未踏ジュニアとは？">
   <meta itemprop="description"          content="未踏ジュニアとは何か、IPA が実施する未踏事業とは何が違うのか、どういう関係なのか？といったことを３分で説明する動画です。「未踏」について知るキッカケになれば嬉しいです。">
-  <iframe width="100%" src="https://www.youtube.com/embed/Eu42E-FXBME?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  {% include youtube-embed.html id='Eu42E-FXBME' list='PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr' %}
 </div>
 
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTube で見る</a>
@@ -158,7 +159,8 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
   <meta itemprop="embedUrl"             content="https://www.youtube.com/embed/1KNkEAh9AK4?rel=0">
   <meta itemprop="name"                 content="未踏ジュニアとは？">
   <meta itemprop="description"          content="未踏関係者に『なんで未踏?』という質問をしてみました。未踏について一歩深く知るキッカケになれば嬉しいです。">
-  <iframe width="100%" src="https://www.youtube.com/embed/1KNkEAh9AK4?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+  {% include youtube-embed.html id='1KNkEAh9AK4' %}
 </div>
 
 <div class='flex'>
