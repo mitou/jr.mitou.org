@@ -20,7 +20,7 @@ redirect_from:
 </div>
 
 
-## 内部向け API 一覧（開発中）
+## 内部向け API 一覧（[自動テスト用](https://github.com/mitou/jr.mitou.org/blob/main/_tests/custom_checks.rb)）
 
 <div id='index'>
   <ul>

@@ -26,7 +26,7 @@ task(:clean) { system 'bundle exec jekyll clean' unless ENV['SKIP_BUILD'] == 'tr
 
 require 'html-proofer'
 task test: [:build] do
-  require './tests/custom_checks'
+  require './_tests/custom_checks'
   options = {
     checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'CustomChecks'],
     allow_hash_href:  true,
