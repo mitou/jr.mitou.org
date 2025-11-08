@@ -8,11 +8,15 @@
   {% assign mentor_name_first = mentor.id | split: '_' | first | capitalize %}
   {% assign mentor_name_last  = mentor.id | split: '_' | last  | capitalize %}
   {% assign mentor_name = mentor_name_first | append: ' ' | append: mentor_name_last %}
+  {% assign educational_level   = "Primary and Secondary Education (Ages 17 and under)" %}
+  {% assign educational_program = "MITOU Junior" %}
 {%- else -%}
   {% assign pj_title       = pj.title          | strip_html | escape %}
   {% assign pj_description = pj.description    | strip_html | escape %}
   {% assign pj_promotion   = pj.promotion %}
   {% assign mentor_name = mentor.name.last | append: ' ' | append: mentor.name.first %}
+  {% assign educational_level   = "小中高生・高専生" %}
+  {% assign educational_program = "未踏ジュニア" %}
 {%- endif -%}
 {
   "@context"   : "https://schema.org",
@@ -46,12 +50,12 @@
     "thumbnailUrl" : "{{ page.thumbnail }}",
     "uploadDate"   : "{{ pj.year }}-11-03T10:00:00+09:00"
   }{%- endif -%},
-  "dateCreated": "{{ pj.year }}-10-01T10:00:00+09:00",
-  "educationalLevel": {%- if page.lang == 'en' -%}"Primary and Secondary Education (Ages 17 and under)"{%- else -%}"小中高生・高専生"{%- endif -%},
-  "inLanguage": "{{ lang }}",
+  "dateCreated":      "{{ pj.year }}-10-01T10:00:00+09:00",
+  "educationalLevel": "{{ educational_level }}",
+  "inLanguage":       "{{ lang }}",
   "isPartOf": {
     "@type": "EducationalProgram",
-    "name": {%- if page.lang == 'en' -%}"MITOU Junior"{%- else -%}"未踏ジュニア"{%- endif -%},
-    "url": "{{ site.url }}"
+    "name":  "{{ educational_program }}",
+    "url":   "{{ site.url }}"
   }
 }
