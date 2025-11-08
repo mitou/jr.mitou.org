@@ -32,6 +32,10 @@ Liquid::Template.register_filter(Jekyll::LiquifyFilter)
 # https://jekyllrb.com/docs/plugins/generators/
 module Reading
   class Generator < Jekyll::Generator
+    # This plugin needs _site/**/*.json files.
+    # So this needs to be execed at very last.
+    priority :lowest
+    safe true
 
     # Tweak data that Jekyll can access like `{% site.data.foobars %}`
     def generate(site)
