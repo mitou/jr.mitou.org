@@ -34,5 +34,5 @@ redirect_from:
 </div>
 
 <div class="note">
-  上記の API は開発中のため、予告なく変更・削除される場合がある点にご注意ください。
+  上記は<a href="https://github.com/mitou/jr.mitou.org/blob/main/_tests/custom_checks.rb">自動テスト</a>などで使われている内部向け API（開発中）のため、予告なく変更・削除される場合がある点にご注意ください。
 </div>
