@@ -207,13 +207,9 @@ projects.each_with_index do |project, index|
   PROJECT_SCHEMA_DATA_TYPE
 
   #binding.irb; exit
-  IO.write(path_ja, page_ja + "\n" + page_shared_contents)
-  IO.write(path_en, page_en + "\n" + page_shared_contents) if project.has_english?
+  IO.write(path_ja, page_ja + "\n" + page_shared_contents + "\n" + project_schema_data_type)
+  IO.write(path_en, page_en + "\n" + page_shared_contents + "\n" + project_schema_data_type) if project.has_english?
 
-  # TODO: Add PROJECT_SCHEMA_DATA_TYPE after validating SCHEMA_DATA_TYPE by test suites.
-  #IO.write(path_ja, page_ja + "\n" + project_schema_data_type + "\n" + page_shared_contents)
-  #IO.write(path_en, page_en + "\n" + project_schema_data_type + "\n" + page_shared_contents) if project.has_english?
-  #
   # Add JA/EN *.json pages to check and validate SCHEMA_DATA_TYPE by test suites
   IO.write path_ja.gsub(".md", ".json"), <<~PROJECT_JSON_JA
     ---
@@ -223,7 +219,7 @@ projects.each_with_index do |project, index|
     {% include project-json-ld.json project_id="#{project[:id]}" %}
   PROJECT_JSON_JA
 
-  IO.write path_en.gsub(".md", ".json"), <<~PROJECT_JSON_EN
+  IO.write path_en.gsub(".md", ".json"), <<~PROJECT_JSON_EN if project.has_english?
     ---
     lang: en
     permalink: /english/projects/#{project[:year]}/#{project[:id]}.json
