@@ -1,19 +1,19 @@
 task default: 'test'
 
 desc 'Upsert individual project page by project data'
-task(:upsert_project_pages_by_data) { ruby "tasks/upsert_project_pages_by_data.rb" }
+task(:upsert_project_pages_by_data) { ruby "_tasks/upsert_project_pages_by_data.rb" }
 
 desc 'Upsert individual project page by project data in English'
-task(:upsert_project_pages_by_data_en) { ruby "tasks/upsert_project_pages_by_data_en.rb" }
+task(:upsert_project_pages_by_data_en) { ruby "_tasks/upsert_project_pages_by_data_en.rb" }
 
 desc 'Upsert project application by project data'
-task(:upsert_project_samples_by_data) { ruby "tasks/upsert_project_samples_by_data.rb" }
+task(:upsert_project_samples_by_data) { ruby "_tasks/upsert_project_samples_by_data.rb" }
 
 desc 'Translate given-year projects with LLM'
-task(:convert_ja2en_by_llm) { ruby "tasks/convert_ja2en_by_llm.rb" }
+task(:convert_ja2en_by_llm) { ruby "_tasks/convert_ja2en_by_llm.rb" }
 
 desc 'Upsert news from PR TIMES RSS feed'
-task(:upsert_prtimes_news) { ruby "tasks/upsert_prtimes_news.rb" }
+task(:upsert_prtimes_news) { ruby "_tasks/upsert_prtimes_news.rb" }
 
 desc 'Build the site with Jekyll (flushes cache via clean)'
 task(build: [:clean]) { system 'bundle exec jekyll build' unless ENV['SKIP_BUILD'] == 'true' }

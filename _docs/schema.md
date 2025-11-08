@@ -16,7 +16,7 @@
 
 **実装ファイル**:
 - `_includes/project-json-ld.json` - 再利用可能なJSON-LDテンプレート
-- `tasks/upsert_project_pages_by_data.rb` - 自動生成スクリプト
+- `_tasks/upsert_project_pages_by_data.rb` - 自動生成スクリプト
 
 **技術選択**:
 - **Schema.orgタイプ**: `CreativeWork` - プロジェクトの創造的側面を強調
@@ -151,7 +151,7 @@ _includes/
 ├── project-json-ld.json          # JSON-LDテンプレート（共通）
 └── ...
 
-tasks/
+_tasks/
 ├── upsert_project_pages_by_data.rb  # 自動生成スクリプト
 └── ...
 

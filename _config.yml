@@ -28,7 +28,6 @@ feed:
   posts_limit: 1000
 
 exclude:
-  - tasks/
   - Rakefile
 
 sass:
