@@ -202,7 +202,7 @@ projects.each_with_index do |project, index|
   project_schema_data_type = <<~PROJECT_SCHEMA_DATA_TYPE
     <!-- Schema.org Data Type: https://schema.org/ -->
     <script type="application/ld+json">
-      {% include project-json-ld.json %}
+      {% include project-json-ld.json project_id="#{project[:id]}" %}
     </script>
   PROJECT_SCHEMA_DATA_TYPE
 
