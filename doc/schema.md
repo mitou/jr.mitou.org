@@ -12,6 +12,7 @@
 - **PR**: #238 - Schema.org JSON-LD構造化データでSEO最適化
 - **実装日**: 2025年11月8日
 - **状況**: マージ待ち
+- **最終更新**: テンプレートのパラメータ化完了
 
 **実装ファイル**:
 - `_includes/project-json-ld.json` - 再利用可能なJSON-LDテンプレート
@@ -24,7 +25,7 @@
 
 ### 🟡 進行中
 
-#### Phase 2: 段階的デプロイ戦略
+#### Phase 2: 検証・テスト段階
 **現在の実装状況**:
 ```ruby
 # JSON-LD埋め込みは一時的に無効化（安全なテスト用）
@@ -32,9 +33,13 @@
 #IO.write(path_ja, page_ja + "\n" + project_schema_data_type + "\n" + page_shared_contents)
 ```
 
-**検証用JSONエンドポイント**: ✅ 実装済み
+**検証用JSONエンドポイント**: ✅ 実装・動作確認済み
 - 例: `/projects/2025/uminavi.json`
 - 例: `/english/projects/2025/uminavi.json`
+
+**自動テスト環境**: ✅ 整備済み（2025年11月8日）
+- `_plugins/custom_plugins.rb` - `_site`内の全JSONファイルを自動テスト
+- 生成される230個のJSONエンドポイントすべてが検証対象
 
 ### 📋 今後の予定
 
@@ -170,20 +175,23 @@ bundle exec rake upsert_project_pages_by_data
 
 ### Liquid Template vs Ruby to_json
 
-#### 現在の実装: Liquid Template
-```ruby
-project_schema_data_type = <<~PROJECT_SCHEMA_DATA_TYPE
-  <!-- Schema.org Data Type: https://schema.org/ -->
-  <script type="application/ld+json">
-    {% include project-json-ld.json %}
-  </script>
-PROJECT_SCHEMA_DATA_TYPE
+#### 現在の実装: Liquid Template（パラメータ化済み）
+```liquid
+{% include project-json-ld.json project_id="uminavi" %}
+```
+
+**テンプレート側の改善（2025年11月8日実装）**:
+```liquid
+{% assign pj = site.data.projects | where_exp: "pj", "pj.id == include.project_id" | first %}
+{% assign lang = page.lang | default: 'ja' %}
 ```
 
 **利点**:
 - Jekyll統合がスムーズ
 - 動的データ（`{{ pj_title }}`等）の自然な解決
 - Liquidテンプレートエンジンの機能活用
+- **パラメータ化により再利用性が向上**
+- **テンプレートが自己完結型に**
 
 **課題**:
 - JSON構文エラーの早期発見が困難
