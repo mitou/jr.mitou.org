@@ -220,15 +220,16 @@ projects.each_with_index do |project, index|
     permalink: /projects/#{project[:year]}/#{project[:id]}.json
     ---
 
-    {% include project-json-ld.json %}
+    {% include project-json-ld.json project_id="#{project[:id]}" %}
   PROJECT_JSON_JA
 
   IO.write path_en.gsub(".md", ".json"), <<~PROJECT_JSON_EN
     ---
+    lang: en
     permalink: /english/projects/#{project[:year]}/#{project[:id]}.json
     ---
 
-    {% include project-json-ld.json %}
+    {% include project-json-ld.json project_id="#{project[:id]}" %}
   PROJECT_JSON_EN
 
   project.has_english? ?

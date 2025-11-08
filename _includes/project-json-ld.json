@@ -1,3 +1,15 @@
+{% comment %} pj.description needs NOT to be escaped to render <br> tags. {% endcomment %}
+{% assign pj   = site.data.projects | where_exp: "pj", "pj.id == include.project_id" | first %}
+{% assign lang = page.lang | default: 'ja' %}
+{% if page.lang == 'en' %}
+  {% assign pj_title       = pj.title_en | escape %}
+  {% assign pj_description = pj.description_en %}
+  {% assign pj_promotion   = pj.promotion_en | default: pj.promotion %}
+{% else %}
+  {% assign pj_title       = pj.title | escape %}
+  {% assign pj_description = pj.description %}
+  {% assign pj_promotion   = pj.promotion %}
+{% endif %}
 {% assign mentor = site.data.mentors | where: "id", pj.mentor_id | first %}
 {
   "@context"   : "https://schema.org",
