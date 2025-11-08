@@ -49,6 +49,19 @@
   <script src="https://kit.fontawesome.com/82f32b9df5.js" crossorigin="anonymous"></script>
   {% endunless %}
 
+  <!-- JSON-LD for Google Search Results -->
+  <!-- https://developers.google.com/search/docs/appearance/site-names?hl=ja#json-ld -->
+  {% if page.url == '/' %}
+  <script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type"    : "WebSite",
+      "name"     : "MITOU Junior",
+      "url"      : "https://jr.mitou.org"
+    }
+  </script>
+  {% endif %}
+
   <!-- Font Preload (preconnect) -->
   <link href="https://fonts.gstatic.com"    rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com" rel="preconnect" crossorigin>
