@@ -214,6 +214,7 @@ projects.each_with_index do |project, index|
   IO.write path_ja.gsub(".md", ".json"), <<~PROJECT_JSON_JA
     ---
     permalink: /projects/#{project[:year]}/#{project[:id]}.json
+    thumbnail: /assets/img/projects/#{project[:year]}/#{project[:thumbnail]}
     ---
 
     {% include project-json-ld.json project_id="#{project[:id]}" %}
@@ -223,6 +224,7 @@ projects.each_with_index do |project, index|
     ---
     lang: en
     permalink: /english/projects/#{project[:year]}/#{project[:id]}.json
+    thumbnail: /assets/img/projects/#{project[:year]}/#{project[:thumbnail]}
     ---
 
     {% include project-json-ld.json project_id="#{project[:id]}" %}

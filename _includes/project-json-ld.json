@@ -1,13 +1,13 @@
-{% comment %} pj.description needs NOT to be escaped to render <br> tags. {% endcomment %}
+{% comment %} pj.description is also escaped here because <br> tags are not needed in Schema Data Type. {% endcomment %}
 {% assign pj   = site.data.projects | where_exp: "pj", "pj.id == include.project_id" | first %}
 {% assign lang = page.lang | default: 'ja' %}
 {% if page.lang == 'en' %}
-  {% assign pj_title       = pj.title_en | escape %}
-  {% assign pj_description = pj.description_en %}
-  {% assign pj_promotion   = pj.promotion_en | default: pj.promotion %}
+  {% assign pj_title       = pj.title_en       | escape %}
+  {% assign pj_description = pj.description_en | escape %}
+  {% assign pj_promotion   = pj.promotion_en   | default: pj.promotion %}
 {% else %}
-  {% assign pj_title       = pj.title | escape %}
-  {% assign pj_description = pj.description %}
+  {% assign pj_title       = pj.title       | escape %}
+  {% assign pj_description = pj.description | escape %}
   {% assign pj_promotion   = pj.promotion %}
 {% endif %}
 {% assign mentor = site.data.mentors | where: "id", pj.mentor_id | first %}
@@ -32,12 +32,14 @@
     "url"  : "https://jr.mitou.org/mentors/#{{ pj.mentor_id }}"
   }{% if pj.final %},
   "video": {
-    "@type"     : "VideoObject",
-    "name"      : "{{ pj_title }}",
-    "embedUrl"  : "https://www.youtube.com/embed/{{ pj.final }}",
-    "uploadDate": "{{ pj.year }}-11-03"
+    "@type"        : "VideoObject",
+    "name"         : "{{ pj_title }}",
+    "embedUrl"     : "https://www.youtube.com/embed/{{ pj.final }}",
+    "description"  : "{{ pj_description | strip_newlines | replace: '"', '\\"' }}",
+    "thumbnailUrl" : "{{ page.thumbnail }}",
+    "uploadDate"   : "{{ pj.year }}-11-03T10:00:00+09:00"
   }{% endif %},
-  "dateCreated": "{{ pj.year }}-10-01",
+  "dateCreated": "{{ pj.year }}-10-01T10:00:00+09:00",
   "educationalLevel": "小中高生・高専生",
   "inLanguage": "{{ lang }}",
   "isPartOf": {
