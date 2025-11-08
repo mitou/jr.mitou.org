@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2024/maglev_sphere_mobility.json
+thumbnail: /assets/img/projects/2024/maglev_sphere_mobility.webp
+---
+
+{% include project-json-ld.json project_id="maglev_sphere_mobility" %}

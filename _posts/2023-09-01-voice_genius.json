@@ -1,0 +1,6 @@
+---
+permalink: /projects/2023/voice_genius.json
+thumbnail: /assets/img/projects/2023/voice_genius.webp
+---
+
+{% include project-json-ld.json project_id="voice_genius" %}

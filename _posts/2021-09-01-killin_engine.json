@@ -1,0 +1,6 @@
+---
+permalink: /projects/2021/killin_engine.json
+thumbnail: /assets/img/projects/2021/killin_engine.webp
+---
+
+{% include project-json-ld.json project_id="killin_engine" %}

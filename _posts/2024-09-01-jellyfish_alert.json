@@ -1,0 +1,6 @@
+---
+permalink: /projects/2024/jellyfish_alert.json
+thumbnail: /assets/img/projects/2024/jellyfish_alert.webp
+---
+
+{% include project-json-ld.json project_id="jellyfish_alert" %}

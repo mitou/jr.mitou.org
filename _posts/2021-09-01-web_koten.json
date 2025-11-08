@@ -1,0 +1,6 @@
+---
+permalink: /projects/2021/web_koten.json
+thumbnail: /assets/img/projects/2021/web-koten.webp
+---
+
+{% include project-json-ld.json project_id="web_koten" %}

@@ -1,0 +1,6 @@
+---
+permalink: /projects/2025/flusca.json
+thumbnail: /assets/img/projects/2025/flusca.webp
+---
+
+{% include project-json-ld.json project_id="flusca" %}

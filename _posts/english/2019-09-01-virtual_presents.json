@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2019/virtual_presents.json
+thumbnail: /assets/img/projects/2019/virtual_presents.webp
+---
+
+{% include project-json-ld.json project_id="virtual_presents" %}

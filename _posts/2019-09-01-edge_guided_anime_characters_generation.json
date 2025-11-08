@@ -1,0 +1,6 @@
+---
+permalink: /projects/2019/edge_guided_anime_characters_generation.json
+thumbnail: /assets/img/projects/2019/edge_guided_anime_characters_generation.webp
+---
+
+{% include project-json-ld.json project_id="edge_guided_anime_characters_generation" %}

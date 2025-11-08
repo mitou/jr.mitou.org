@@ -1,0 +1,6 @@
+---
+permalink: /projects/2017/anki_cookie.json
+thumbnail: /assets/img/projects/2017/anki_cookie.webp
+---
+
+{% include project-json-ld.json project_id="anki_cookie" %}

@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2020/brush_talk.json
+thumbnail: /assets/img/projects/2020/brush_talk.webp
+---
+
+{% include project-json-ld.json project_id="brush_talk" %}

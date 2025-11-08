@@ -1,0 +1,6 @@
+---
+permalink: /projects/2023/umeda_sansei_kai.json
+thumbnail: /assets/img/projects/2023/umeda_sansei_kai.webp
+---
+
+{% include project-json-ld.json project_id="umeda_sansei_kai" %}

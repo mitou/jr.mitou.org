@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2023/capitalens.json
+thumbnail: /assets/img/projects/2023/capitalens.webp
+---
+
+{% include project-json-ld.json project_id="capitalens" %}

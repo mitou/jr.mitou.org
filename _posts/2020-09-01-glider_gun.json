@@ -1,0 +1,6 @@
+---
+permalink: /projects/2020/glider_gun.json
+thumbnail: /assets/img/projects/2020/glider_gun.webp
+---
+
+{% include project-json-ld.json project_id="glider_gun" %}

@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2018/smile_meeting_room.json
+thumbnail: /assets/img/projects/2018/smile_meeting_room.webp
+---
+
+{% include project-json-ld.json project_id="smile_meeting_room" %}

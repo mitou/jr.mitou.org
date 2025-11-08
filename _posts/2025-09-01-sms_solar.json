@@ -1,0 +1,6 @@
+---
+permalink: /projects/2025/sms_solar.json
+thumbnail: /assets/img/projects/2025/sms_solar.webp
+---
+
+{% include project-json-ld.json project_id="sms_solar" %}

@@ -1,0 +1,6 @@
+---
+permalink: /projects/2022/motion_rapid.json
+thumbnail: /assets/img/projects/2022/motion_rapid.webp
+---
+
+{% include project-json-ld.json project_id="motion_rapid" %}

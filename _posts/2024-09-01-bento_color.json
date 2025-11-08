@@ -1,0 +1,6 @@
+---
+permalink: /projects/2024/bento_color.json
+thumbnail: /assets/img/projects/2024/bento_color.webp
+---
+
+{% include project-json-ld.json project_id="bento_color" %}

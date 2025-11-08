@@ -1,0 +1,6 @@
+---
+permalink: /projects/2021/mark_sdgs.json
+thumbnail: /assets/img/projects/2021/sdgs.webp
+---
+
+{% include project-json-ld.json project_id="mark_sdgs" %}

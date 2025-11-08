@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2018/corkboard.json
+thumbnail: /assets/img/projects/2018/corkboard.webp
+---
+
+{% include project-json-ld.json project_id="corkboard" %}

@@ -1,0 +1,6 @@
+---
+permalink: /projects/2016/vr_picture_book_maker.json
+thumbnail: /assets/img/projects/2016/vr_picture_book_maker.webp
+---
+
+{% include project-json-ld.json project_id="vr_picture_book_maker" %}

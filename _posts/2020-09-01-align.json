@@ -1,0 +1,6 @@
+---
+permalink: /projects/2020/align.json
+thumbnail: /assets/img/projects/2020/align.webp
+---
+
+{% include project-json-ld.json project_id="align" %}

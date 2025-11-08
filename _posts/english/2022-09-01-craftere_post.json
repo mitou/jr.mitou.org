@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2022/craftere_post.json
+thumbnail: /assets/img/projects/2022/craftere_post.webp
+---
+
+{% include project-json-ld.json project_id="craftere_post" %}

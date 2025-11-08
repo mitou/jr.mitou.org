@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2023/stask.json
+thumbnail: /assets/img/projects/2023/stask.webp
+---
+
+{% include project-json-ld.json project_id="stask" %}

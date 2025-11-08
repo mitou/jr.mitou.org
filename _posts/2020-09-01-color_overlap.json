@@ -1,0 +1,6 @@
+---
+permalink: /projects/2020/color_overlap.json
+thumbnail: /assets/img/projects/2020/color_overlap.webp
+---
+
+{% include project-json-ld.json project_id="color_overlap" %}

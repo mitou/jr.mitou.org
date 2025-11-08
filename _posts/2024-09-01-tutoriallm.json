@@ -1,0 +1,6 @@
+---
+permalink: /projects/2024/tutoriallm.json
+thumbnail: /assets/img/projects/2024/tutoriallm.webp
+---
+
+{% include project-json-ld.json project_id="tutoriallm" %}

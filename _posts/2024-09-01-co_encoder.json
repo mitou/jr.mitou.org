@@ -1,0 +1,6 @@
+---
+permalink: /projects/2024/co_encoder.json
+thumbnail: /assets/img/projects/2024/co_encoder.webp
+---
+
+{% include project-json-ld.json project_id="co_encoder" %}

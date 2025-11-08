@@ -1,0 +1,6 @@
+---
+permalink: /projects/2017/music_reminder.json
+thumbnail: /assets/img/projects/2017/music_reminder.webp
+---
+
+{% include project-json-ld.json project_id="music_reminder" %}

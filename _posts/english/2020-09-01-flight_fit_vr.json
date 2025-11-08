@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2020/flight_fit_vr.json
+thumbnail: /assets/img/projects/2020/flight_fit_vr.webp
+---
+
+{% include project-json-ld.json project_id="flight_fit_vr" %}

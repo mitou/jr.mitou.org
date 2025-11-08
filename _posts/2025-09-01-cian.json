@@ -1,0 +1,6 @@
+---
+permalink: /projects/2025/cian.json
+thumbnail: /assets/img/projects/2025/cian.webp
+---
+
+{% include project-json-ld.json project_id="cian" %}

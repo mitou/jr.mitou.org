@@ -1,0 +1,6 @@
+---
+permalink: /projects/2018/life_watcher.json
+thumbnail: /assets/img/projects/2018/life_watcher.webp
+---
+
+{% include project-json-ld.json project_id="life_watcher" %}

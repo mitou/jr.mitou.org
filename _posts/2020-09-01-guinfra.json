@@ -1,0 +1,6 @@
+---
+permalink: /projects/2020/guinfra.json
+thumbnail: /assets/img/projects/2020/guinfra.webp
+---
+
+{% include project-json-ld.json project_id="guinfra" %}

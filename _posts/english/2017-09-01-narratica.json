@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2017/narratica.json
+thumbnail: /assets/img/projects/2017/narratica.webp
+---
+
+{% include project-json-ld.json project_id="narratica" %}

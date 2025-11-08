@@ -1,0 +1,6 @@
+---
+permalink: /projects/2022/study_rec.json
+thumbnail: /assets/img/projects/2022/study_rec.webp
+---
+
+{% include project-json-ld.json project_id="study_rec" %}

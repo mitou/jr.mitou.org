@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2020/skimer.json
+thumbnail: /assets/img/projects/2020/skimer.webp
+---
+
+{% include project-json-ld.json project_id="skimer" %}

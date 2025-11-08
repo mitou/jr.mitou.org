@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2017/rakuraku_yomiyomi.json
+thumbnail: /assets/img/projects/2017/rakuraku_yomiyomi.webp
+---
+
+{% include project-json-ld.json project_id="rakuraku_yomiyomi" %}

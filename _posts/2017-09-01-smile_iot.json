@@ -1,0 +1,6 @@
+---
+permalink: /projects/2017/smile_iot.json
+thumbnail: /assets/img/projects/2017/smile_iot.webp
+---
+
+{% include project-json-ld.json project_id="smile_iot" %}

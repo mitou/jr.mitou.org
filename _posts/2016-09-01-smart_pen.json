@@ -1,0 +1,6 @@
+---
+permalink: /projects/2016/smart_pen.json
+thumbnail: /assets/img/projects/2016/smart_pen.webp
+---
+
+{% include project-json-ld.json project_id="smart_pen" %}

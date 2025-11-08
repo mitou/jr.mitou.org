@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2021/vr_sandbox.json
+thumbnail: /assets/img/projects/2021/vr_sandbox.webp
+---
+
+{% include project-json-ld.json project_id="vr_sandbox" %}

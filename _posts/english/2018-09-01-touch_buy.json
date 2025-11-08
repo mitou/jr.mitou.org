@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2018/touch_buy.json
+thumbnail: /assets/img/projects/2018/touch_buy.webp
+---
+
+{% include project-json-ld.json project_id="touch_buy" %}

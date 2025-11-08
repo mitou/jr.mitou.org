@@ -1,0 +1,6 @@
+---
+permalink: /projects/2017/fall_in_friends.json
+thumbnail: /assets/img/projects/2017/fall_in_friends.webp
+---
+
+{% include project-json-ld.json project_id="fall_in_friends" %}

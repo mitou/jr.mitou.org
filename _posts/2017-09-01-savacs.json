@@ -1,0 +1,6 @@
+---
+permalink: /projects/2017/savacs.json
+thumbnail: /assets/img/projects/2017/savacs.webp
+---
+
+{% include project-json-ld.json project_id="savacs" %}

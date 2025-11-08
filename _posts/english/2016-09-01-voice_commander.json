@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2016/voice_commander.json
+thumbnail: /assets/img/projects/2016/voice_commander.webp
+---
+
+{% include project-json-ld.json project_id="voice_commander" %}

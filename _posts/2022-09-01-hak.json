@@ -1,0 +1,6 @@
+---
+permalink: /projects/2022/hak.json
+thumbnail: /assets/img/projects/2022/hak.webp
+---
+
+{% include project-json-ld.json project_id="hak" %}

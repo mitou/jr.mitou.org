@@ -1,0 +1,6 @@
+---
+permalink: /projects/2022/scairecrow.json
+thumbnail: /assets/img/projects/2022/scairecrow.png
+---
+
+{% include project-json-ld.json project_id="scairecrow" %}

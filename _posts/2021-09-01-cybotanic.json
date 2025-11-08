@@ -1,0 +1,6 @@
+---
+permalink: /projects/2021/cybotanic.json
+thumbnail: /assets/img/projects/2021/cybotanic.webp
+---
+
+{% include project-json-ld.json project_id="cybotanic" %}

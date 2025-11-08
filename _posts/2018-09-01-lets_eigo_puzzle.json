@@ -1,0 +1,6 @@
+---
+permalink: /projects/2018/lets_eigo_puzzle.json
+thumbnail: /assets/img/projects/2018/lets_eigo_puzzle.webp
+---
+
+{% include project-json-ld.json project_id="lets_eigo_puzzle" %}

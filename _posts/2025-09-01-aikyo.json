@@ -1,0 +1,6 @@
+---
+permalink: /projects/2025/aikyo.json
+thumbnail: /assets/img/projects/2025/aikyo.webp
+---
+
+{% include project-json-ld.json project_id="aikyo" %}

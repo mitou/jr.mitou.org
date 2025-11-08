@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2024/fairy_guide.json
+thumbnail: /assets/img/projects/2024/fairy_guide.webp
+---
+
+{% include project-json-ld.json project_id="fairy_guide" %}

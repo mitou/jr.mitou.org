@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2019/relay_master.json
+thumbnail: /assets/img/projects/2019/relay_master.webp
+---
+
+{% include project-json-ld.json project_id="relay_master" %}

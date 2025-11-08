@@ -1,0 +1,6 @@
+---
+permalink: /projects/2023/bakusoku_agv.json
+thumbnail: /assets/img/projects/2023/bakusoku_agv.webp
+---
+
+{% include project-json-ld.json project_id="bakusoku_agv" %}

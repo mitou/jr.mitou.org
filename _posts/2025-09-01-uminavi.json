@@ -1,0 +1,6 @@
+---
+permalink: /projects/2025/uminavi.json
+thumbnail: /assets/img/projects/2025/uminavi.webp
+---
+
+{% include project-json-ld.json project_id="uminavi" %}

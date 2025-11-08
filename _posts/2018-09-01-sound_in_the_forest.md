@@ -138,3 +138,8 @@ twitter_card: summary_large_image
 </nav>
 
 {% include project-navigation.html %}
+
+<!-- Schema.org Data Type: https://schema.org/ -->
+<script type="application/ld+json">
+  {% include project-json-ld.json project_id="sound_in_the_forest" %}
+</script>

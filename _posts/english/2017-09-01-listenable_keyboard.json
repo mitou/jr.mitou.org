@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2017/listenable_keyboard.json
+thumbnail: /assets/img/projects/2017/listenable_keyboard.webp
+---
+
+{% include project-json-ld.json project_id="listenable_keyboard" %}
