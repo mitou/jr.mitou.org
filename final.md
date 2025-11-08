@@ -81,7 +81,7 @@ twitter_card: summary_large_image
 </div>
 
 <div class='flex'>
-  <a class="button" href="https://youtu.be/8lNubVsBVhM?start=1805">YouTube で見る</a>
+  <a class="button" href="https://youtube.com/playlist?list=PLNObH2jlC6ldzoiJ7jso-rhxvVVdnWH0V">YouTube で見る</a>
   <a class="button" href="https://posfie.com/@mitoujr/p/TLnWXge">当日の反響を見る</a>
 </div>
 
