@@ -36,10 +36,10 @@ module Reading
     # Tweak data that Jekyll can access like `{% site.data.foobars %}`
     def generate(site)
       apis = []
+      #binding.irb; exit
       Dir.glob('./**/*.json') do |filepath|
-        filepath = filepath[1..]                # Correct path: ./api.json -> /api.json
-        next if filepath.start_with? '/_'       # Ignore internal parts like Partial
-        next if filepath.start_with? '/vendor/' # Ignore external parts like RubyGem
+        next unless filepath.start_with? './_site' # Check only generated *.json pages
+        filepath = filepath[7..] # Correct path: ./_site/api.json -> /api.json
 
         # NOTE: Can't get data if set like `key: value`
         #       It seems needed to be like `'key' => 'value'`
