@@ -199,9 +199,33 @@ projects.each_with_index do |project, index|
    {% include project-navigation.html %}
   SHARED_PROJECT_CONTENTS
 
+  project_json_ld = <<~PROJECT_JSON_LD
+    <!-- JSON-LD for Project SEO -->
+    <script type="application/ld+json">
+      {% include project-json-ld.json %}
+    </script>
+  PROJECT_JSON_LD
+
   #binding.irb; exit
-  IO.write(path_ja, page_ja + "\n" + page_shared_contents)
-  IO.write(path_en, page_en + "\n" + page_shared_contents) if project.has_english?
+  IO.write(path_ja, page_ja + "\n" + project_json_ld + "\n" + page_shared_contents)
+  IO.write(path_en, page_en + "\n" + project_json_ld + "\n" + page_shared_contents) if project.has_english?
+
+  # Add JA/EN *.json pages to check and validate JSON-LD by test suites
+  IO.write path_ja.gsub(".md", ".json"), <<~PROJECT_JSON_JA
+    ---
+    permalink: /projects/#{project[:year]}/#{project[:id]}.json
+    ---
+
+    {% include project-json-ld.json %}
+  PROJECT_JSON_JA
+
+  IO.write path_en.gsub(".md", ".json"), <<~PROJECT_JSON_EN
+    ---
+    permalink: /english/projects/#{project[:year]}/#{project[:id]}.json
+    ---
+
+    {% include project-json-ld.json %}
+  PROJECT_JSON_EN
 
   project.has_english? ?
     puts("Upsert (JA/EN): #{path_ja}") :

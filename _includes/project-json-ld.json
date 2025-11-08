@@ -1,0 +1,36 @@
+{% assign mentor = site.data.mentors | where: "id", pj.mentor_id | first %}
+{
+  "@context"   : "https://schema.org",
+  "@type"      : "CreativeWork",
+  "@id"        : "{{ site.url }}{{ page.url }}",
+  "name"       : "{{ pj_title }}",
+  "description": "{{ pj_description | strip_newlines | replace: '"', '\\"' }}",
+  "creator": [
+    {% for creator_id in pj.creator_ids %}
+      {% assign creator = site.data.creators | where: "id", creator_id | first %}
+      {
+        "@type": "Person",
+        "name" : "{{ creator.name }}"
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "contributor": {
+    "@type": "Person",
+    "name" : "{{ mentor.name.last }} {{ mentor.name.first }}",
+    "url"  : "https://jr.mitou.org/mentors/#{{ pj.mentor_id }}"
+  }{% if pj.final %},
+  "video": {
+    "@type"     : "VideoObject",
+    "name"      : "{{ pj_title }}",
+    "embedUrl"  : "https://www.youtube.com/embed/{{ pj.final }}",
+    "uploadDate": "{{ pj.year }}-11-03"
+  }{% endif %},
+  "dateCreated": "{{ pj.year }}-10-01",
+  "educationalLevel": "小中高生・高専生",
+  "inLanguage": "{{ lang }}",
+  "isPartOf": {
+    "@type": "EducationalProgram",
+    "name": "未踏ジュニア",
+    "url": "https://jr.mitou.org"
+  }
+}
