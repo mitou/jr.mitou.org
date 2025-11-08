@@ -1,15 +1,19 @@
 {%- assign pj   = site.data.projects | where_exp: "pj", "pj.id == include.project_id" | first -%}
 {%- assign lang = page.lang | default: 'ja' -%}
+{%- assign mentor = site.data.mentors | where: "id", pj.mentor_id | first -%}
 {%- if page.lang == 'en' -%}
   {% assign pj_title       = pj.title_en       | strip_html | escape   %}
   {% assign pj_description = pj.description_en | strip_html | escape   %}
   {% assign pj_promotion   = pj.promotion_en   | default: pj.promotion %}
+  {% assign mentor_name_first = mentor.id | split: '_' | first | capitalize %}
+  {% assign mentor_name_last  = mentor.id | split: '_' | last  | capitalize %}
+  {% assign mentor_name = mentor_name_first | append: ' ' | append: mentor_name_last %}
 {%- else -%}
   {% assign pj_title       = pj.title          | strip_html | escape %}
   {% assign pj_description = pj.description    | strip_html | escape %}
   {% assign pj_promotion   = pj.promotion %}
+  {% assign mentor_name = mentor.name.last | append: ' ' | append: mentor.name.first %}
 {%- endif -%}
-{%- assign mentor = site.data.mentors | where: "id", pj.mentor_id | first -%}
 {
   "@context"   : "https://schema.org",
   "@type"      : "CreativeWork",
@@ -31,12 +35,8 @@
   ],
   "contributor": {
     "@type": "Person",
-    {%- if page.lang == 'en' -%}
-    "name" : "{{ mentor.id | split: '_' | first | capitalize }} {{ mentor.id | split: '_' | last  | capitalize }}",
-    {%- else -%}
-    "name" : "{{ mentor.name.last }} {{ mentor.name.first }}",
-    {%- endif -%}
-    "url"  : "https://jr.mitou.org/mentors/{% if mentor.is_alumni %}alumni{% endif %}#{{ pj.mentor_id }}"
+    "name" : "{{ mentor_name }}",
+    "url"  : "{{ site.url }}/mentors/{% if mentor.is_alumni %}alumni{% endif %}#{{ pj.mentor_id }}"
   }{%- if pj.final -%},
   "video": {
     "@type"        : "VideoObject",
@@ -52,6 +52,6 @@
   "isPartOf": {
     "@type": "EducationalProgram",
     "name": {%- if page.lang == 'en' -%}"MITOU Junior"{%- else -%}"未踏ジュニア"{%- endif -%},
-    "url": "https://jr.mitou.org"
+    "url": "{{ site.url }}"
   }
 }
