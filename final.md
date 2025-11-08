@@ -22,17 +22,8 @@ twitter_card: summary_large_image
 <!-- 2. 現地参加の申し込みやライブ配信の案内は決定次第ここに表示します（プレイベント文言・仮） -->
 <p>2025年度の未踏ジュニア成果報告会を11月3日 (月曜・振替休日) に、プラチナスポンサーとしてご支援いただいている、GMO インターネットグループ株式会社様の会場提供にて、<a href='https://peatix.com/event/4598142'>GMO Yours・フクラス</a>にて開催させていただきます。</p>
 
-<!--
-<div class='flex'>
-  <a class="button" href="https://peatix.com/event/4598142" onclick="return gtagSendEvent(this.href);">参加を申し込む</a>
-  <a class="button" href="https://www.youtube.com/playlist?list=PLNObH2jlC6ldl5Nh5KNfXkBitzcI4M6Gm">YouTube で見る</a>
-  <a class="button" href="https://togetter.com/li/2460295">当日の反響を見る</a>
-</div>
--->
-
 
 <!-- 3. ライブ配信 URL が決まったら、ページ冒頭に埋め込む -->
-
 <h2 id='live'>
   <a href='#live'><i class="fa-brands fa-youtube"></i></a>
   ライブ配信
