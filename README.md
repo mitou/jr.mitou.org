@@ -247,9 +247,9 @@ $ bundle exec rake test
 
 <div id='how-to-build-i18n'><br></div>
 
-### ::globe_with_meridians: 英語版 PJ ページを公開する
+### :globe_with_meridians: 英語版 PJ ページを公開する
 
-**成果報告会が終わったら** [各 PJ の英語ページ](https://jr.mitou.org/english/projects/)を、以下の手順で公開できます。
+**[成果報告会](https://jr.mitou.org/final)が終わったら** [各 PJ の英語ページ](https://jr.mitou.org/english/projects/)を、以下の手順で公開できます。
 
 1. LLM ([`_tasks/convert_ja2en_by_llm.rb`](https://github.com/mitou/jr.mitou.org/blob/main/_tasks/convert_ja2en_by_llm.rb)) を使って既存の日本語タイトル/概要文から英文の草案を作成する
 1. 生成した英文（草案）を内部ツール (Cosense) で共有し、有志にレビューしてもらう
