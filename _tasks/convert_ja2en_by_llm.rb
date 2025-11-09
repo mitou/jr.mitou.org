@@ -37,20 +37,20 @@ projects.each_with_index do |project, index|
   next unless project[:year] == TARGET_YEAR
 
   params[:messages][-1][:content] = project[:title]
-  en_title = client.chat(parameters: params).dig 'choices', 0, 'message', 'content'
+  title_en = client.chat(parameters: params).dig 'choices', 0, 'message', 'content'
 
   params[:messages][-1][:content] = project[:description]
-  en_desc  = client.chat(parameters: params).dig 'choices', 0, 'message', 'content'
+  description_en  = client.chat(parameters: params).dig 'choices', 0, 'message', 'content'
   #puts response
   # this_year_projects = projects.select{|pj| pj[:year] == project[:year] }
   output = <<~COSENSE_FORMAT
     \t[#{project[:title]} #{BASE_URL}/#{project[:year]}/#{project[:id]}]
     \t\tcode:title_en
-    \t\t\t#{en_title}
+    \t\t\t#{title_en}
     \t\tcode:description
     \t\t\t#{project[:description].chomp}
     \t\tcode:description_en
-    \t\t\t#{en_desc.chomp}
+    \t\t\t#{description_en.chomp}
 
   COSENSE_FORMAT
 
