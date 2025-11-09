@@ -255,7 +255,7 @@ $ bundle exec rake test
 1. 生成した英文（草案）を内部ツール (Cosense) で共有し、有志にレビューしてもらう
 1. レビューが大体終わったら英文を [`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) のカラムに英文を追加する
 1. 追加したら[ページ生成タスク](#how-to-build-generators)を実行し、`/english/projects` ページから結果を確認する
-1. 生成したページが問題ない状態まで至ったらリリースし、SNS などで周知する 🌐✨  ([SNS 周知例](https://x.com/yasulab/status/1827921241375949029))
+1. 生成したページが問題なさそうであればリリースし、SNS などで周知する 🌐✨  ([SNS 周知例](https://x.com/yasulab/status/1827921241375949029))
 
 :octocat: プルリクエストの例: [Add English project pages to `/english/projects/**/*` (#187) - GitHub](https://github.com/mitou/jr.mitou.org/pull/187)  
 
