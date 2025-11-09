@@ -19,7 +19,7 @@ params = {
     {
       role:    'system',
       #content: '小中高生クリエータ支援プログラム「未踏ジュニア」の採択プロジェクトの英語版を用意したいです。渡された日本語のタイトルまたは概要を、英語にしてください。タイトルの強調は不要です。',
-      content: "We would like to translate MITOU Junior projects' title/abstract from Japanese into English. Please make sure that the tone of the translations are appropriately formal for an official website and no emphasis.",
+      content: "We would like to translate MITOU Junior projects' title/abstract from Japanese into English. Please make sure that the tone of the translations are appropriately formal for an official website and no emphasis. You don't need prefixes like **Title:** and **Abstract:** in your output, just English title/abstract only.",
     },
     {
       role:    'user',
@@ -44,9 +44,13 @@ projects.each_with_index do |project, index|
   #puts response
   # this_year_projects = projects.select{|pj| pj[:year] == project[:year] }
   output = <<~COSENSE_FORMAT
-    \t[#{project[:title]} #{BASE_URL}/#{project[:year]}/#{project[:id]}] / #{en_title}
-    \t\t#{project[:description].chomp}
-    \t\t#{en_desc.chomp}
+    \t[#{project[:title]} #{BASE_URL}/#{project[:year]}/#{project[:id]}]
+    \t\tcode:title_en
+    \t\t\t#{en_title}
+    \t\tcode:description
+    \t\t\t#{project[:description].chomp}
+    \t\tcode:description_en
+    \t\t\t#{en_desc.chomp}
 
   COSENSE_FORMAT
 
