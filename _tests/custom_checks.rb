@@ -46,9 +46,12 @@ class CustomChecks < ::HTMLProofer::Check
 
       add_failure("Invalid JSON format: #{json_path}") if not valid_json?(BASE_PATH + json_path)
 
-      # If given JSON is valid, check columns in it
-      responses  = JSON.load_file(BASE_PATH + json_path, symbolize_names: true)
-      responses.map{|response| response[:thumbnail] }.compact.each do |thumbnail|
+      # If given JSON is valid, check columns in it.
+      # And handle both array and non-array JSON structures:
+      # - Array of hash example: http://localhost:4000/projects/2025.json
+      # - A single hash example: http://localhost:4000/projects/2025/uminavi.json
+      responses = Array(JSON.load_file(BASE_PATH + json_path, symbolize_names: true))
+      responses.map{ |item| item[:thumbnail] if item.is_a?(Hash) }.compact.each do |thumbnail|
         thumbnail.gsub!('https://jr.mitou.org', BASE_PATH)
 
         add_failure(

@@ -28,32 +28,37 @@ end
 # Register LiquifyFilter module to Jekyll template
 Liquid::Template.register_filter(Jekyll::LiquifyFilter)
 
-# A plugin to set custom site.data like APIs: {% site.data.apis %}
-# https://jekyllrb.com/docs/plugins/generators/
+# See PR description for technical details and rationale
+# https://github.com/mitou/jr.mitou.org/pull/239
 module Reading
   class Generator < Jekyll::Generator
-    # This plugin needs _site/**/*.json files.
-    # So this needs to be execed at very last.
-    priority :lowest
+    priority :low
     safe true
 
-    # Tweak data that Jekyll can access like `{% site.data.foobars %}`
     def generate(site)
-      apis = []
-      #binding.irb; exit
-      Dir.glob('./**/*.json') do |filepath|
-        next unless filepath.start_with? './_site' # Check only generated *.json pages
-        filepath = filepath[7..] # Correct path: ./_site/api.json -> /api.json
+      # For general pages like /index.md
+      json_pages = site.pages
+        .select { |page| page.url.end_with?('.json') && !page.url.start_with?('/assets/') }
+        .map    { |page|
+        {
+          'to_json' => page.url,
+          'to_html' => page.url.delete_suffix('.json')
+        }
+      }
 
-        # NOTE: Can't get data if set like `key: value`
-        #       It seems needed to be like `'key' => 'value'`
-        apis << {
-          'to_json' => filepath,      # => /api.json
-          'to_html' => filepath[..-6] # => /api
+      # For project pages like /projects/YYYY/project_name.json
+      json_posts = site.collections.flat_map do |_name, collection|
+        collection.docs
+          .select { |doc| doc.url && doc.url.end_with?('.json') }
+          .map    { |doc|
+          {
+            'to_json' => doc.url,
+            'to_html' => doc.url.delete_suffix('.json')
+          }
         }
       end
 
-      # Now you can get data above by like `{{ site.data.apis | first }}`
+      apis = (json_pages + json_posts).sort_by { |api| api['to_json'] }
       site.data['apis'] = apis
     end
   end
