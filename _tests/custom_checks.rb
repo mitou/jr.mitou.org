@@ -48,8 +48,8 @@ class CustomChecks < ::HTMLProofer::Check
 
       # If given JSON is valid, check columns in it.
       # And handle both array and non-array JSON structures:
-      # - Array of hash example: http://localhost:4000/projects/2025.json
-      # - A single hash example: http://localhost:4000/projects/2025/uminavi.json
+      # - Array of hash example: https://jr.mitou.org/projects/2025.json
+      # - A single hash example: https://jr.mitou.org/projects/2025/uminavi.json
       responses = Array(JSON.load_file(BASE_PATH + json_path, symbolize_names: true))
       responses.map{ |item| item[:thumbnail] if item.is_a?(Hash) }.compact.each do |thumbnail|
         thumbnail.gsub!('https://jr.mitou.org', BASE_PATH)
