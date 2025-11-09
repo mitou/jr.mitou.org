@@ -2,7 +2,7 @@
 
 require 'yaml'
 require 'ruby/openai' # Translate project with OpenAI from JA to EN
-TARGET_YEAR=2024      # Translate given-year projects from JA to EN
+TARGET_YEAR=2025      # Translate given-year projects from JA to EN
 
 OpenAI.configure do |config|
   config.access_token    = ENV.fetch('OPENAI_ACCESS_TOKEN')
