@@ -12,7 +12,8 @@ end
 
 client = OpenAI::Client.new
 params = {
-  model: 'gpt-4o',     # https://platform.openai.com/docs/models/gpt-4o
+  model: 'gpt-5',       # https://platform.openai.com/docs/models/gpt-5
+  #model: 'gpt-4o',     # https://platform.openai.com/docs/models/gpt-4o
   #model: 'o1-preview', # https://platform.openai.com/docs/models#o1
   messages: [
     {
