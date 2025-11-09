@@ -28,8 +28,6 @@ jobs:
     - name: 🔧 Build & Test
       run: |
         bundle exec rake upsert_project_pages_by_data
-        # NOTE: Build twice to get all JSON URLs from results for /apis page.
-        JEKYLL_ENV=test bundle exec jekyll build
         JEKYLL_ENV=test bundle exec jekyll build
         JEKYLL_ENV=test bundle exec jekyll doctor
         SKIP_BUILD=true bundle exec rake test
@@ -80,8 +78,6 @@ jobs:
 
     - name: 🔧 Build all pages
       run: |
-        # NOTE: Build twice to get all JSON URLs from results for /apis page.
-        JEKYLL_ENV=production bundle exec jekyll build
         JEKYLL_ENV=production bundle exec jekyll build
 
     - name: 🚀 Deploy to GitHub Pages
