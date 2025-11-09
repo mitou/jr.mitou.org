@@ -245,6 +245,23 @@ $ bundle exec rake test
 :octocat: プルリクエストの例: [Add MITOU Junior Interview: `@alicelavander` (#175) - GitHub](https://github.com/mitou/jr.mitou.org/pull/175)  
 
 
+<div id='how-to-build-i18n'><br></div>
+
+### ::globe_with_meridians: 英語版 PJ ページを公開する
+
+**成果報告会が終わったら** [各 PJ の英語ページ](https://jr.mitou.org/english/projects/)を、以下の手順で公開できます。
+
+1. LLM ([`_tasks/convert_ja2en_by_llm.rb`](https://github.com/mitou/jr.mitou.org/blob/main/_tasks/convert_ja2en_by_llm.rb)) を使って既存の日本語タイトル/概要文から英文の草案を作成する
+1. 生成した英文（草案）を内部ツール (Cosense) で共有し、有志にレビューしてもらう
+1. レビューが大体終わったら英文を [`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) のカラムに英文を追加する
+1. 追加したら[ページ生成タスク](#how-to-build-generators)を実行し、`/english/projects` ページから結果を確認する
+1. 生成したページが問題ない状態まで至ったらリリースし、SNS などで周知する 🌐✨  ([SNS 周知例](https://x.com/yasulab/status/1827921241375949029))
+
+:octocat: プルリクエストの例: [Add English project pages to `/english/projects/**/*` (#187) - GitHub](https://github.com/mitou/jr.mitou.org/pull/187)  
+
+
+
+
 <div id='license'><br></div>
 
 ## :two_hearts: 使用素材、著作物、ライセンスについて
