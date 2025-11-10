@@ -29,6 +29,7 @@ twitter_card: summary_large_image
   ライブ配信
 </h2>
 
+<!-- NOTE: 発表当日は src パラメータに &autoplay=1&mute=1 を入れると、自動でライブ配信が見れる -->
 <div class='youtube'>
   {% include youtube-embed.html id="AvjScGFJbGk" list="PLNObH2jlC6ldzoiJ7jso-rhxvVVdnWH0V" year="2025" title="未踏ジュニア成果報告会" %}
 </div>
