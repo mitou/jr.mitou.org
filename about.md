@@ -42,9 +42,9 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 2016年から未踏ジュニアが始まり、これまでに **{{ total_applications }} 件の応募をいただき、{{ total_creators }} 名のクリエータを支援・採択**してきました。
 
 <div class="cover-photo">
-  <img src="/assets/img/2024_cover.min.webp" data-src="/assets/img/2024_cover.webp"
-     title="2024年度の未踏ジュニア集合写真 @ 東京大学" class="top-img lazyload" loading="lazy"
-       alt="2024年度の未踏ジュニア集合写真 @ 東京大学">
+  <img src="/assets/img/2025_cover.min.webp" data-src="/assets/img/2025_cover.webp"
+     title="2025年度の未踏ジュニア集合写真 @ GMO Yours・フクラス" class="top-img lazyload" loading="lazy"
+       alt="2025年度の未踏ジュニア集合写真 @ GMO Yours・フクラス">
    
 </div>
 
