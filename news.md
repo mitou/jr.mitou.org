@@ -17,10 +17,10 @@ redirect_from:
 
 <br>
 
-<div class="tips">未踏ジュニア修了生のインタビュー記事や体験談記事もありますので、よければ合わせてお読みいただけると嬉しいです！</div>
+<div class="tips">未踏ジュニア修了生の公式インタビュー記事ありますので、よければ合わせてお読みいただけると嬉しいです！</div>
 
 <div class='flex'>
-  <a class='button' href='/applications/#story'>記事を見る</a>
+  <a class='button' href='/interviews'>インタビュー記事を見る</a>
 </div>
 
 <br>
