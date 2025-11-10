@@ -2,9 +2,9 @@
  width="100%" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
 
  {% if include.id %}
-   src="https://www.youtube.com/embed/{{ include.id }}?rel=0{% if include.list %}&list={{ include.list }}{% endif %}{% if include.start %}&start={{ include.start }}{% endif %}"
+   src="https://www.youtube.com/embed/{{ include.id }}?rel=0{% if include.list %}&list={{ include.list }}{% endif %}{% if include.start %}&start={{ include.start }}{% endif %}&hl={{ lang }}"
  {% else %}
-   src="https://www.youtube.com/embed/videoseries?rel=0{% if include.list %}&list={{ include.list }}{% endif %}{% if include.start %}&start={{ include.start }}{% endif %}"
+   src="https://www.youtube.com/embed/videoseries?rel=0{% if include.list %}&list={{ include.list }}{% endif %}{% if include.start %}&start={{ include.start }}{% endif %}&hl={{ lang }}"
  {% endif %}
 
  {% if include.title %}
