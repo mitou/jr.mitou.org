@@ -31,7 +31,7 @@ this_year: 2025
   <!--<a href="/final" class="dialog ignore-sp">⚡️ 成果報告会、ライブ配信中！</a>-->
 
   <!--【成果報告後のアナウンス】-->
-  <a href="/final#live" class="dialog ignore-sp">🆕 成果報告会の動画が公開されました！</a>
+  <a href="/final" class="dialog ignore-sp">🆕 成果報告会の動画が公開されました！</a>
 </div>
 
 <section id="about">
