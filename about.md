@@ -105,7 +105,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
    title="クリエータに修了証書を授与している様子 @ 東京大学" class="top-img lazyload" loading="lazy"
      alt="クリエータに修了証書を授与している様子 @ 東京大学">
 
-<a href="/admissions" class="button">詳細を見る</a>
+<a href="/admissions" class="button">大学の募集例を見る</a>
 
 <br>
 
