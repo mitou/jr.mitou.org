@@ -12,8 +12,8 @@ end
 
 client = OpenAI::Client.new
 params = {
-  model: 'gpt-5-chat-latest', # https://platform.openai.com/docs/models/gpt-5
-  #model: 'gpt-4o',           # https://platform.openai.com/docs/models/gpt-4o
+  #model: 'gpt-5-chat-latest', # https://platform.openai.com/docs/models/gpt-5
+  model: 'gpt-4o',           # https://platform.openai.com/docs/models/gpt-4o
   #model: 'o1-preview',       # https://platform.openai.com/docs/models#o1
   messages: [
     {
@@ -32,18 +32,25 @@ params = {
 }
 
 BASE_URL = 'https://jr.mitou.org/projects'
-projects = YAML.load_file("_data/projects.yml", symbolize_names: true)
-projects.each_with_index do |project, index|
-  next unless project[:year] == TARGET_YEAR
+target_projects = YAML.load_file("_data/projects.yml", symbolize_names: true).select { it[:year] == TARGET_YEAR }
 
-  params[:messages][-1][:content] = project[:title]
-  title_en = client.chat(parameters: params).dig 'choices', 0, 'message', 'content'
+outputs = target_projects.map.with_index do |project, index|
+  Thread.new do
+    task_params = params.dup
+    task_params[:messages] = params[:messages].dup
 
-  params[:messages][-1][:content] = project[:description]
-  description_en  = client.chat(parameters: params).dig 'choices', 0, 'message', 'content'
-  #puts response
-  # this_year_projects = projects.select{|pj| pj[:year] == project[:year] }
-  output = <<~COSENSE_FORMAT
+    task_params[:messages][-1][:content] = project[:title]
+    title_en = client.chat(parameters: task_params).dig 'choices', 0, 'message', 'content'
+
+    task_params[:messages][-1][:content] = project[:description]
+    description_en = client.chat(parameters: task_params).dig 'choices', 0, 'message', 'content'
+
+    [index, project, title_en, description_en]
+  end
+end
+
+outputs.map(&:value).sort.each do |index, project, title_en, description_en|
+  puts <<~COSENSE_FORMAT
     \t[#{project[:title]} #{BASE_URL}/#{project[:year]}/#{project[:id]}]
     \t\tcode:title_en
     \t\t\t#{title_en}
@@ -53,6 +60,4 @@ projects.each_with_index do |project, index|
     \t\t\t#{description_en.chomp}
 
   COSENSE_FORMAT
-
-  puts output
 end
