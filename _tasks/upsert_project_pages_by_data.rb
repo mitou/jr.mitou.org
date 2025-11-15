@@ -44,7 +44,7 @@ projects.each_with_index do |project, index|
     title: |
       #{project[:title]}
     description: |
-      #{project[:description]}
+      #{project[:description].gsub("\n", "\n  ")}
     permalink: /projects/#{project[:year]}/#{project[:id]}
     thumbnail: /assets/img/projects/#{project[:year]}/#{project[:thumbnail]}
     twitter_card: summary_large_image
@@ -60,7 +60,7 @@ projects.each_with_index do |project, index|
     title: |
       #{project[:title_en]}
     description: |
-      #{project[:description_en]}
+      #{project[:description_en].gsub("\n", "\n  ")}
     permalink: /english/projects/#{project[:year]}/#{project[:id]}
     thumbnail: /assets/img/projects/#{project[:year]}/#{project[:thumbnail]}
     twitter_card: summary_large_image
