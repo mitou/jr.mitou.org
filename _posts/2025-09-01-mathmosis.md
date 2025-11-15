@@ -117,7 +117,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        Chatty Task Board – A Device t...
       {% else %}
         おしゃべりなタスクボード – アナログ的な操作で子供の自己管...
       {% endif %}
@@ -129,7 +129,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        Paper CAD - An Integrated 2D/3...
       {% else %}
         Paper CAD - ミニチュア建物を簡単に設計するための...
       {% endif %}

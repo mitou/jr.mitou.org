@@ -5,7 +5,6 @@ title: |
   KillinEngine - A Multiplayer Game Development Engine
 description: |
   KillinEngine is a game development tool that allows users to create online multiplayer games while playing with friends. Utilizing the latest network technology, creators can be summoned into a single virtual space to collaboratively edit games in real-time.
-
 permalink: /english/projects/2021/killin_engine
 thumbnail: /assets/img/projects/2021/killin_engine.webp
 twitter_card: summary_large_image

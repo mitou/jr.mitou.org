@@ -5,7 +5,6 @@ title: |
   VirtualPresents - A Web Service for Use in Virtual Worlds
 description: |
   This project explores the development of a web service designed to enhance virtual worlds. It allows users to publish images to virtual worlds from the web and provides features similar to "likes" on Twitter. The project proposes a concept that serves as a bridge between the significantly different realms of virtual worlds and the web.
-
 permalink: /english/projects/2019/virtual_presents
 thumbnail: /assets/img/projects/2019/virtual_presents.webp
 twitter_card: summary_large_image

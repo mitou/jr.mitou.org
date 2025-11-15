@@ -5,7 +5,6 @@ title: |
   Code Museum - A Source Code Editor Specializing Only in Reading
 description: |
   Code Museum is a source code editor that deliberately omits the "writing function" found in typical editors, focusing instead on "reading functions." It offers various features for reading, such as range execution and GPT-based functionalities. By using this editor, users can reduce the time spent reading code and enhance productivity.
-
 permalink: /english/projects/2023/code_museum
 thumbnail: /assets/img/projects/2023/code_museum.webp
 twitter_card: summary_large_image

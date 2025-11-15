@@ -117,7 +117,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        Gen5 - A Flexible Image Editin...
       {% else %}
         Gen5 - 自然言語とGUIの融合による柔軟な画像編集エディタ
       {% endif %}
@@ -129,7 +129,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        aikyo - A backend framework fo...
       {% else %}
         aikyo - 相互につながるAIキャラクターを作成するバッ...
       {% endif %}

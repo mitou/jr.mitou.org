@@ -5,7 +5,6 @@ title: |
   Motion Rapid - A Tool for Creating CSS Animations with a Video Editing Software-like UI
 description: |
   MotionRapid is a tool that allows users to create CSS parallax animations through a user interface similar to that of video editing software. By utilizing a timeline UI, which is widely adopted in video editing software, users can create parallax animations without directly coding in HTML, CSS, or JavaScript.
-
 permalink: /english/projects/2022/motion_rapid
 thumbnail: /assets/img/projects/2022/motion_rapid.webp
 twitter_card: summary_large_image

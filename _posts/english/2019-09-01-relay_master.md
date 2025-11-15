@@ -5,7 +5,6 @@ title: |
   Relay Master
 description: |
   We have developed a system that analyzes various physical activities simply by running with a special baton embedded with sensors. The data is uploaded to a dedicated website, where your activities are analyzed and optimized by AI. Why not achieve professional-level performance using "Relay Master"?
-
 permalink: /english/projects/2019/relay_master
 thumbnail: /assets/img/projects/2019/relay_master.webp
 twitter_card: summary_large_image

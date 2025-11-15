@@ -5,7 +5,6 @@ title: |
   reprODucE - Simulation Software Specializing in Biology
 description: |
   A theoretical approach is essential for understanding the complex phenomena of biology. The simulation software reprODucE, specialized for biology, allows users to construct and simulate mathematical models simply by creating graphs of biological phenomena through an intuitive interface, without the need for complex equations or programming. We hope that many people will engage with biological theories through reprODucE.
-
 permalink: /english/projects/2024/reproduce
 thumbnail: /assets/img/projects/2024/reproduce.webp
 twitter_card: summary_large_image

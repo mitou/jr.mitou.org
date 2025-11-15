@@ -5,7 +5,6 @@ title: |
   Robot Soccer Simulation Using Reinforcement Learning
 description: |
   Development of a Robot Soccer Player Using Reinforcement Learning
-
 permalink: /english/projects/2018/robot_soccer
 thumbnail: /assets/img/projects/2018/robot_soccer.webp
 twitter_card: summary_large_image

@@ -5,7 +5,6 @@ title: |
   Spaghetian - Building a CPU Using Only Electricity and Electromagnets
 description: |
   This project involves connecting three custom-built electromagnetic CPUs to form a network, on which an online ping-pong game operates. By constructing the fundamental elements of modern computer technology, which have become indistinguishable from magic, the project aims to demonstrate that these concepts can be understood by anyone.
-
 permalink: /english/projects/2020/spaghetian
 thumbnail: /assets/img/projects/2020/spaghetian.webp
 twitter_card: summary_large_image

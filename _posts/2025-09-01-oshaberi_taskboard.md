@@ -117,7 +117,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        Fudey - Sensory Calligraphy
       {% else %}
         Fudey - Sensory Calligraphy
       {% endif %}
@@ -129,7 +129,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        Mathmosis - A Tablet Applicati...
       {% else %}
         Mathmosis - 数学学習支援AIを搭載したタブレット...
       {% endif %}

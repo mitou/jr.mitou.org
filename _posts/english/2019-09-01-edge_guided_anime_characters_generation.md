@@ -5,7 +5,6 @@ title: |
   Edge-guided Anime Characters Generation
 description: |
   We have developed a GAN-based system capable of automatically completing unfinished line drawings. This system enables even beginners to easily create complex illustrations. This research particularly focuses on the generation of anime face images.
-
 permalink: /english/projects/2019/edge_guided_anime_characters_generation
 thumbnail: /assets/img/projects/2019/edge_guided_anime_characters_generation.webp
 twitter_card: summary_large_image

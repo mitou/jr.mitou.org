@@ -117,7 +117,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        aikyo - A backend framework fo...
       {% else %}
         aikyo - 相互につながるAIキャラクターを作成するバッ...
       {% endif %}
@@ -129,7 +129,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        TalkBoost - An application tha...
       {% else %}
         TalkBoost - 吃音者の発話の自発性を促進し、積極的...
       {% endif %}

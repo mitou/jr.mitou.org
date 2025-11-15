@@ -1,0 +1,7 @@
+---
+lang: en
+permalink: /english/projects/2025/fudey.json
+thumbnail: /assets/img/projects/2025/fudey.webp
+---
+
+{% include project-json-ld.json project_id="fudey" %}

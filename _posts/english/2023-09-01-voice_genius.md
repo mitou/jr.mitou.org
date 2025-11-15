@@ -5,7 +5,6 @@ title: |
   Voice Genius - AI x Yukkuri Commentary
 description: |
   Voice Genius is software that utilizes AI, such as the recently popular ChatGPT, to create fully automated, slow-paced explanatory videos. It generates videos from titles and articles, transforming data and articles that may be difficult to understand in text form into familiar video formats. The generated videos can be viewed on <a href='https://www.youtube.com/channel/UCWtA77cOFQE-_n81o8jeq6A/shorts'>YouTube</a> or <a href='https://www.tiktok.com/@ai.yukkuri'>TikTok</a>.
-
 permalink: /english/projects/2023/voice_genius
 thumbnail: /assets/img/projects/2023/voice_genius.webp
 twitter_card: summary_large_image

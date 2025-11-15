@@ -5,7 +5,6 @@ title: |
   Monitoring Compass - A Discovery Sharing System for Elderly People with Dementia
 description: |
   The Mimamori Compass is a system designed to facilitate the early detection of wandering or missing elderly individuals with dementia. By issuing a QR code in advance, discoverers can scan it to notify the family. Early detection helps protect elderly individuals with dementia from accidents and troubles. Additionally, if a family requests a search, information can be disseminated through social media to solicit cooperation in search efforts. By using the Mimamori Compass, a community-wide support system is established, ensuring that elderly individuals are not left behind.
-
 permalink: /english/projects/2024/mimamori_compass
 thumbnail: /assets/img/projects/2024/mimamori_compass.webp
 twitter_card: summary_large_image

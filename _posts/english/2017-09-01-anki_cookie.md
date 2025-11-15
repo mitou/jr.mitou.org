@@ -5,7 +5,6 @@ title: |
   Memory Cookies
 description: |
   Developed a system that supports motivation for memorization learning by baking kanji and words, which were diligently learned through web quizzes, onto cookies.
-
 permalink: /english/projects/2017/anki_cookie
 thumbnail: /assets/img/projects/2017/anki_cookie.webp
 twitter_card: summary_large_image

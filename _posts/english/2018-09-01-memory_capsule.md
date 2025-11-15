@@ -5,7 +5,6 @@ title: |
   Memory Capsule - A Social Networking Service Connecting Through Capsules
 description: |
   Developed a social networking service (SNS) that allows users to bury and unearth virtual capsules linked to specific locations.
-
 permalink: /english/projects/2018/memory_capsule
 thumbnail: /assets/img/projects/2018/memory_capsule.webp
 twitter_card: summary_large_image

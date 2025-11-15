@@ -5,7 +5,6 @@ title: |
   TacticaNote - A Soccer Notebook to Support Verbalization for Youth Players
 description: |
   TacticaNote is a collaborative soccer notebook designed to support players in articulating their thoughts. By utilizing a Large Language Model (LLM), it delves into and clarifies individual and team challenges, facilitating the sharing of concrete opinions. This empowers players to take the lead in problem-solving. Players can objectively reflect on their performance, analyze the phenomena occurring on the field and their causes, share solutions, and seamlessly integrate these insights into their practice sessions.
-
 permalink: /english/projects/2024/tactica_note
 thumbnail: /assets/img/projects/2024/tactica_note.webp
 twitter_card: summary_large_image

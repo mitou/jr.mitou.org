@@ -5,7 +5,6 @@ title: |
   Fall in Friends: An App to Transform Japan's Inbound Tourism for the Tokyo Olympics
 description: |
   Developed an application that allows foreign visitors in need to ask questions to Japanese people who want to help travelers.
-
 permalink: /english/projects/2017/fall_in_friends
 thumbnail: /assets/img/projects/2017/fall_in_friends.webp
 twitter_card: summary_large_image

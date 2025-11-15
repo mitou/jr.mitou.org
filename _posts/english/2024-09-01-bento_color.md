@@ -5,7 +5,6 @@ title: |
   BentoColor - An App for Easily Creating Colorful Bento Boxes Using Templates
 description: |
   BentoColor is here to solve the common issues of bento lunches appearing dull and repetitive. By simply selecting your preferred template, the app suggests side dishes that correspond to each color, taking into account the contents of your refrigerator. Once your bento is complete, our unique scoring feature evaluates its colorfulness, allowing you to track your progress through score graphs and AI feedback. Even on busy mornings, you can effortlessly create a vibrant bento by following the template.
-
 permalink: /english/projects/2024/bento_color
 thumbnail: /assets/img/projects/2024/bento_color.webp
 twitter_card: summary_large_image

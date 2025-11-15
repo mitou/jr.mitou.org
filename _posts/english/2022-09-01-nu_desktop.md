@@ -5,7 +5,6 @@ title: |
   NuDesktop - A Lightweight and Flexible Desktop Environment
 description: |
   NuDesktop is a desktop environment for Linux that provides a UI that adapts to the state and form of the device. This allows devices that previously did not have a UI in traditional environments to be used with a better UI.
-
 permalink: /english/projects/2022/nu_desktop
 thumbnail: /assets/img/projects/2022/nu_desktop.webp
 twitter_card: summary_large_image

@@ -5,7 +5,6 @@ title: |
   Corkboard - A Location-Based Memo Management Service
 description: |
   Proposal for a Design Concept of a Notepad Application Based on a "Forest" Theme that Adapts to User Records and Emotions
-
 permalink: /english/projects/2018/corkboard
 thumbnail: /assets/img/projects/2018/corkboard.webp
 twitter_card: summary_large_image

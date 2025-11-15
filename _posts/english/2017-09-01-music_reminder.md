@@ -5,7 +5,6 @@ title: |
   Proposal for a Smartphone Application that Recommends Music Based on Personal Experiences
 description: |
   Development of a new iOS application that recommends songs from Apple Music based on experiences such as songs sung at Karaoke and movies watched.
-
 permalink: /english/projects/2017/music_reminder
 thumbnail: /assets/img/projects/2017/music_reminder.webp
 twitter_card: summary_large_image

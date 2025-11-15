@@ -5,7 +5,6 @@ title: |
   Name Attack Power Display Device - Umeda III (Revised)
 description: |
   Umeda III is a device that displays a person's name and attack power on a monocle-type display when you look at their face. By wearing this device, it facilitates and enhances communication, especially in situations where you do not remember the other person's name. The displayed information can be viewed, added, updated, and deleted through a web application.
-
 permalink: /english/projects/2023/umeda_sansei_kai
 thumbnail: /assets/img/projects/2023/umeda_sansei_kai.webp
 twitter_card: summary_large_image
