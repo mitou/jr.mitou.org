@@ -11,10 +11,10 @@ description: |
   {% endfor %}
   This pages showcases {{ total_projects }} projects accepted and boosted by MITOU Junior program for U-17.
 thumbnail: /assets/img/projects/index.webp
-latest_en_year: 2024
+latest_en_year: 2025
 
-# latest_pj_year を変更すると本ページの採択プロジェクトが切り替わります。
-# 英語版の公開準備が整ったら latest_pj_year の数値に変更してください。
+# latest_en_year を変更すると本ページの採択プロジェクトが切り替わります。
+# 英語版の公開準備が整ったら latest_en_year の数値に変更してください。
 ---
 
 {% assign total_projects = 0 %}
