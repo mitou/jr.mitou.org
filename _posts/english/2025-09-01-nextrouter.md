@@ -1,16 +1,18 @@
 ---
+lang: en
 layout: post
 title: |
-  UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム
+  NextRouter - Development of a Router That Achieves High-Speed Communication by Utilizing Multiple Best-Effort Optical Lines
 description: |
-  GPSが届かない水中での自己位置推定に高価な音響測位システムが必要という参入障壁を下げ、個人でも高精度な位置情報を活用した水中探査に挑戦できるようにする、オープンソースの自己位置推定システムです。<br><br>GPSが届かない水中での自己位置推定には、従来、数百万円もする高価な音響測位システムが必要であり、私のような個人開発者にとっては導入が困難でした。<br><br>本プロジェクトは、この「高価で手が出ない」という参入障壁を取り除き、誰もが高精度な位置情報を活用した水中探査に挑戦できる環境を目指します。
-permalink: /projects/2025/uminavi
-thumbnail: /assets/img/projects/2025/uminavi.webp
+  Developed a next-generation router that accelerates large-scale networks by aggregating multiple optical lines. Unlike most existing routers, which only provide redundancy control for multiple lines, this router assigns optimal lines and manages traffic on a per-user IP address basis. By efficiently utilizing multiple lines, it aims to improve overall network communication quality even in environments where only non-guaranteed bandwidth connections are available.
+
+permalink: /english/projects/2025/nextrouter
+thumbnail: /assets/img/projects/2025/nextrouter.webp
 twitter_card: summary_large_image
 
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'uminavi'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'nextrouter'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -113,25 +115,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='neureka' title='Neureka! - 教材生成とAI学習パートナーによる理解支援サービス'>
+    <a href='aikyo' title='aikyo - 相互につながるAIキャラクターを作成するバックエンドフレームワーク'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Neureka! - A Learning Support ...
+        aikyo - A backend framework fo...
       {% else %}
-        Neureka! - 教材生成とAI学習パートナーによる理解...
+        aikyo - 相互につながるAIキャラクターを作成するバッ...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='flusca' title='Flusca - シミュレーションによって体験を生み出すゲーム'>
+    <a href='talkboost' title='TalkBoost - 吃音者の発話の自発性を促進し、積極的に話すことを支援するアプリ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        Flusca - A Game that Creates E...
+        TalkBoost - An application tha...
       {% else %}
-        Flusca - シミュレーションによって体験を生み出すゲーム
+        TalkBoost - 吃音者の発話の自発性を促進し、積極的...
       {% endif %}
     </a>
   </p>
@@ -141,5 +143,5 @@ twitter_card: summary_large_image
 
 <!-- Schema.org Data Type: https://schema.org/ -->
 <script type="application/ld+json">
-  {% include project-json-ld.json project_id="uminavi" %}
+  {% include project-json-ld.json project_id="nextrouter" %}
 </script>

@@ -1,16 +1,18 @@
 ---
+lang: en
 layout: post
 title: |
-  UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム
+  TalkBoost - An application that promotes spontaneous speech and supports active communication for people who stutter
 description: |
-  GPSが届かない水中での自己位置推定に高価な音響測位システムが必要という参入障壁を下げ、個人でも高精度な位置情報を活用した水中探査に挑戦できるようにする、オープンソースの自己位置推定システムです。<br><br>GPSが届かない水中での自己位置推定には、従来、数百万円もする高価な音響測位システムが必要であり、私のような個人開発者にとっては導入が困難でした。<br><br>本プロジェクトは、この「高価で手が出ない」という参入障壁を取り除き、誰もが高精度な位置情報を活用した水中探査に挑戦できる環境を目指します。
-permalink: /projects/2025/uminavi
-thumbnail: /assets/img/projects/2025/uminavi.webp
+  TalkBoost is an application designed to support people who stutter in valuing their desire to speak. A pendant-shaped device collects everyday speech, and AI automatically detects stuttering. It visualizes characteristics that are difficult to notice on one’s own, helping users understand their speech patterns and challenging situations. By accumulating small challenges, it fosters the courage to speak and promotes positive communication and personal growth.
+
+permalink: /english/projects/2025/talkboost
+thumbnail: /assets/img/projects/2025/talkboost.webp
 twitter_card: summary_large_image
 
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'uminavi'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'talkboost'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -113,25 +115,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='neureka' title='Neureka! - 教材生成とAI学習パートナーによる理解支援サービス'>
+    <a href='nextrouter' title='NextRouter -ベストエフォート型光回線を複数利用することで高速に通信を行うルータの開発-'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Neureka! - A Learning Support ...
+        NextRouter - Development of a ...
       {% else %}
-        Neureka! - 教材生成とAI学習パートナーによる理解...
+        NextRouter -ベストエフォート型光回線を複数利用す...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='flusca' title='Flusca - シミュレーションによって体験を生み出すゲーム'>
+    <a href='kigo' title='KIGO -ろう者と健常者の間の心理的な壁を越える装置-'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        Flusca - A Game that Creates E...
+        KIGO - A Device to Bridge the ...
       {% else %}
-        Flusca - シミュレーションによって体験を生み出すゲーム
+        KIGO -ろう者と健常者の間の心理的な壁を越える装置-
       {% endif %}
     </a>
   </p>
@@ -141,5 +143,5 @@ twitter_card: summary_large_image
 
 <!-- Schema.org Data Type: https://schema.org/ -->
 <script type="application/ld+json">
-  {% include project-json-ld.json project_id="uminavi" %}
+  {% include project-json-ld.json project_id="talkboost" %}
 </script>

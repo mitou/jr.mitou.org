@@ -117,7 +117,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        NextRouter - Development of a ...
       {% else %}
         NextRouter -ベストエフォート型光回線を複数利用す...
       {% endif %}
@@ -129,7 +129,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        KIGO - A Device to Bridge the ...
       {% else %}
         KIGO -ろう者と健常者の間の心理的な壁を越える装置-
       {% endif %}

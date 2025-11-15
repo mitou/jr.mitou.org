@@ -1,16 +1,18 @@
 ---
+lang: en
 layout: post
 title: |
-  UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム
+  Development of a Synchronous Reluctance Motor for Application in Artificial Hearts
 description: |
-  GPSが届かない水中での自己位置推定に高価な音響測位システムが必要という参入障壁を下げ、個人でも高精度な位置情報を活用した水中探査に挑戦できるようにする、オープンソースの自己位置推定システムです。<br><br>GPSが届かない水中での自己位置推定には、従来、数百万円もする高価な音響測位システムが必要であり、私のような個人開発者にとっては導入が困難でした。<br><br>本プロジェクトは、この「高価で手が出ない」という参入障壁を取り除き、誰もが高精度な位置情報を活用した水中探査に挑戦できる環境を目指します。
-permalink: /projects/2025/uminavi
-thumbnail: /assets/img/projects/2025/uminavi.webp
+  A 16-year-old high school student is developing a self-built synchronous reluctance motor without excitation sources such as permanent magnets, to be used as a drive unit for an artificial heart. The motor is controlled by three-phase alternating current. By eliminating the use of rare-earth magnets, the design aims to achieve higher safety, robustness, and lower cost. This motor will serve as the drive mechanism for the blood pump of an artificial heart. As the first attempt to use such a motor in this application, it has the potential to make artificial hearts—traditionally expensive devices—available at lower cost over the long term, reducing patients’ financial burden and contributing to a future where they can live with greater peace of mind.
+
+permalink: /english/projects/2025/sr_motor_heart
+thumbnail: /assets/img/projects/2025/sr_motor_heart.webp
 twitter_card: summary_large_image
 
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'uminavi'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'sr_motor_heart'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -113,25 +115,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='neureka' title='Neureka! - 教材生成とAI学習パートナーによる理解支援サービス'>
+    <a href='gen5' title='Gen5 - 自然言語とGUIの融合による柔軟な画像編集エディタ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Neureka! - A Learning Support ...
+        Gen5 - A Flexible Image Editin...
       {% else %}
-        Neureka! - 教材生成とAI学習パートナーによる理解...
+        Gen5 - 自然言語とGUIの融合による柔軟な画像編集エディタ
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='flusca' title='Flusca - シミュレーションによって体験を生み出すゲーム'>
+    <a href='aikyo' title='aikyo - 相互につながるAIキャラクターを作成するバックエンドフレームワーク'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        Flusca - A Game that Creates E...
+        aikyo - A backend framework fo...
       {% else %}
-        Flusca - シミュレーションによって体験を生み出すゲーム
+        aikyo - 相互につながるAIキャラクターを作成するバッ...
       {% endif %}
     </a>
   </p>
@@ -141,5 +143,5 @@ twitter_card: summary_large_image
 
 <!-- Schema.org Data Type: https://schema.org/ -->
 <script type="application/ld+json">
-  {% include project-json-ld.json project_id="uminavi" %}
+  {% include project-json-ld.json project_id="sr_motor_heart" %}
 </script>

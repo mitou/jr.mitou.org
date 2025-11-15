@@ -1,16 +1,18 @@
 ---
+lang: en
 layout: post
 title: |
-  UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム
+  Mathmosis - A Tablet Application Equipped with an AI for Supporting Mathematics Learning
 description: |
-  GPSが届かない水中での自己位置推定に高価な音響測位システムが必要という参入障壁を下げ、個人でも高精度な位置情報を活用した水中探査に挑戦できるようにする、オープンソースの自己位置推定システムです。<br><br>GPSが届かない水中での自己位置推定には、従来、数百万円もする高価な音響測位システムが必要であり、私のような個人開発者にとっては導入が困難でした。<br><br>本プロジェクトは、この「高価で手が出ない」という参入障壁を取り除き、誰もが高精度な位置情報を活用した水中探査に挑戦できる環境を目指します。
-permalink: /projects/2025/uminavi
-thumbnail: /assets/img/projects/2025/uminavi.webp
+  By solving problems on a tablet using a stylus, the AI analyzes your thought process in detail. It accurately identifies the root causes of difficulties encountered during problem-solving and provides personalized feedback to support understanding, ensuring solid learning without leaving any vague “I don’t understand” behind. In addition, by uploading your class notes in advance, the AI offers explanations consistent with the methods taught in your lessons.
+
+permalink: /english/projects/2025/mathmosis
+thumbnail: /assets/img/projects/2025/mathmosis.webp
 twitter_card: summary_large_image
 
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'uminavi'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'mathmosis'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -113,25 +115,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='neureka' title='Neureka! - 教材生成とAI学習パートナーによる理解支援サービス'>
+    <a href='oshaberi_taskboard' title='おしゃべりなタスクボード – アナログ的な操作で子供の自己管理を補助できる、忘れ防止装置'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        Neureka! - A Learning Support ...
+        Chatty Task Board – A Device t...
       {% else %}
-        Neureka! - 教材生成とAI学習パートナーによる理解...
+        おしゃべりなタスクボード – アナログ的な操作で子供の自己管...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='flusca' title='Flusca - シミュレーションによって体験を生み出すゲーム'>
+    <a href='paper_cad' title='Paper CAD - ミニチュア建物を簡単に設計するための2D/3D統合CAD'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        Flusca - A Game that Creates E...
+        Paper CAD - An Integrated 2D/3...
       {% else %}
-        Flusca - シミュレーションによって体験を生み出すゲーム
+        Paper CAD - ミニチュア建物を簡単に設計するための...
       {% endif %}
     </a>
   </p>
@@ -141,5 +143,5 @@ twitter_card: summary_large_image
 
 <!-- Schema.org Data Type: https://schema.org/ -->
 <script type="application/ld+json">
-  {% include project-json-ld.json project_id="uminavi" %}
+  {% include project-json-ld.json project_id="mathmosis" %}
 </script>
