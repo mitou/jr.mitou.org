@@ -5,7 +5,6 @@ title: |
   Researcheck - Research Study Support Application
 description: |
   Researcheck is a research learning application designed to support students' curiosity. The internet often presents challenges such as unreliable information, search result contamination by entertainment news, and information bias. Researcheck addresses these issues by warning against and excluding inappropriate information for research learning, and by inserting antonyms to maintain the neutrality of search results.
-
 permalink: /english/projects/2021/researcheck
 thumbnail: /assets/img/projects/2021/researcheck.webp
 twitter_card: summary_large_image

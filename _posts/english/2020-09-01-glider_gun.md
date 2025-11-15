@@ -5,7 +5,6 @@ title: |
   GliderGun - A Suite of Tools for Easily Creating Browser-Based Operating Systems
 description: |
   This project provides a suite of tools that allows for the easy creation of Linux distributions. The primary purpose of the created distributions is to use a web browser, and by limiting the functionality in this way, various benefits can be obtained.
-
 permalink: /english/projects/2020/glider_gun
 thumbnail: /assets/img/projects/2020/glider_gun.webp
 twitter_card: summary_large_image

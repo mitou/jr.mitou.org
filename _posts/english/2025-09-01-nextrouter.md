@@ -5,7 +5,6 @@ title: |
   NextRouter - Development of a Router That Achieves High-Speed Communication by Utilizing Multiple Best-Effort Optical Lines
 description: |
   Developed a next-generation router that accelerates large-scale networks by aggregating multiple optical lines. Unlike most existing routers, which only provide redundancy control for multiple lines, this router assigns optimal lines and manages traffic on a per-user IP address basis. By efficiently utilizing multiple lines, it aims to improve overall network communication quality even in environments where only non-guaranteed bandwidth connections are available.
-
 permalink: /english/projects/2025/nextrouter
 thumbnail: /assets/img/projects/2025/nextrouter.webp
 twitter_card: summary_large_image

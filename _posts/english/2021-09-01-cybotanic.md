@@ -5,7 +5,6 @@ title: |
   Cybotanic: Cyborg-Enhanced Plants.
 description: |
   This project aims to intuitively convey the concept of living plants by leveraging technology to enhance the functions of plants. By capturing the bioelectric potentials flowing through the ion channels of plants using electrodes, the collected data is used to animate plants with artificial muscles and to create a performance with a synthesizer alongside humans.
-
 permalink: /english/projects/2021/cybotanic
 thumbnail: /assets/img/projects/2021/cybotanic.webp
 twitter_card: summary_large_image

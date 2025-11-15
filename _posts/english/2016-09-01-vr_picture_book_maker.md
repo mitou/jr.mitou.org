@@ -5,7 +5,6 @@ title: |
   VR Picture Book Maker
 description: |
   VR Picture Book Maker is a smartphone application designed to create worlds and stories that can be experienced in virtual reality. Enter the world of a story! Go on a date with someone special! Attend a live performance by your favorite artist! This app allows anyone to easily create VR picture books viewable on a smartphone. Users can select 360-degree background images, characters, speech bubbles, sound effects, and transition effects to craft their VR picture books.
-
 permalink: /english/projects/2016/vr_picture_book_maker
 thumbnail: /assets/img/projects/2016/vr_picture_book_maker.webp
 twitter_card: summary_large_image

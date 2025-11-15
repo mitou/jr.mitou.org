@@ -5,7 +5,6 @@ title: |
   Sound in the forest - Representation of "Moving Sound" Using Multiple Smartphones
 description: |
   Development of a System to Achieve Spatial Audio by Real-Time Synchronization of Web Browsers on Multiple Smartphones
-
 permalink: /english/projects/2018/sound_in_the_forest
 thumbnail: /assets/img/projects/2018/sound_in_the_forest.webp
 twitter_card: summary_large_image

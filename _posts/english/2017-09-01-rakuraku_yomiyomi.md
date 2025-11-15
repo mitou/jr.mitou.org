@@ -5,7 +5,6 @@ title: |
   Easy Reading
 description: |
   An application that allows elderly individuals with declining vision and children to easily read news articles. It features text display enhancements, marking of read sections, and eye-tracking capabilities.
-
 permalink: /english/projects/2017/rakuraku_yomiyomi
 thumbnail: /assets/img/projects/2017/rakuraku_yomiyomi.webp
 twitter_card: summary_large_image

@@ -5,7 +5,6 @@ title: |
   narratica: Story Consultant
 description: |
   Using natural language processing to analyze movie scripts and evaluate the story based on the emotional changes of the characters. Real-time emotion analysis of user-written text.
-
 permalink: /english/projects/2017/narratica
 thumbnail: /assets/img/projects/2017/narratica.webp
 twitter_card: summary_large_image

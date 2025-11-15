@@ -5,7 +5,6 @@ title: |
   FairyGuide - A Memorable Journey with a Talking Plush Toy
 description: |
   FairyGuide is a talking plush toy that provides guidance at tourist destinations. In this project, we developed a device equipped with GPS information, large language models (LLM), and voice recognition/speech technology. By attaching this device to the plush toy, it can convey a wide range of information related to the area. Would you like to embark on a memorable journey with FairyGuide?
-
 permalink: /english/projects/2024/fairy_guide
 thumbnail: /assets/img/projects/2024/fairy_guide.webp
 twitter_card: summary_large_image

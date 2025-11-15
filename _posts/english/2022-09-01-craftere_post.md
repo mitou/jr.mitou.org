@@ -5,7 +5,6 @@ title: |
   CrafterePost - A Web Service for Sharing 3D Minecraft Structures
 description: |
   CrafterePost is a web service that allows users to share Minecraft structures in 3D. Viewers can observe the structures from any angle using just their browser. If the uploader creates a 3D video of the building process, viewers can watch from any point in time and from any perspective, making it easy to understand even complex block arrangements.
-
 permalink: /english/projects/2022/craftere_post
 thumbnail: /assets/img/projects/2022/craftere_post.webp
 twitter_card: summary_large_image

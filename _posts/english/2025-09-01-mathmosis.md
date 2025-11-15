@@ -5,7 +5,6 @@ title: |
   Mathmosis - A Tablet Application Equipped with an AI for Supporting Mathematics Learning
 description: |
   By solving problems on a tablet using a stylus, the AI analyzes your thought process in detail. It accurately identifies the root causes of difficulties encountered during problem-solving and provides personalized feedback to support understanding, ensuring solid learning without leaving any vague “I don’t understand” behind. In addition, by uploading your class notes in advance, the AI offers explanations consistent with the methods taught in your lessons.
-
 permalink: /english/projects/2025/mathmosis
 thumbnail: /assets/img/projects/2025/mathmosis.webp
 twitter_card: summary_large_image

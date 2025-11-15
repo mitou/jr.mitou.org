@@ -5,7 +5,6 @@ title: |
   Development of a Magnetic Levitation Spherical Drive Mobility System
 description: |
   This project introduces a novel mobility system that combines vertical levitation using electromagnets with spherical drive mechanisms. It aims to create an unprecedented vehicle design where the body and wheels are separated through levitation. The ultimate goal of this project is to establish a fully magnetically levitated vehicle as a new option among existing mobility solutions.
-
 permalink: /english/projects/2024/maglev_sphere_mobility
 thumbnail: /assets/img/projects/2024/maglev_sphere_mobility.webp
 twitter_card: summary_large_image

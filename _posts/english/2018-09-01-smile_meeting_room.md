@@ -5,7 +5,6 @@ title: |
   Smile Conference Room - Efficient Use of Conference Rooms with IoT
 description: |
   Supporting the efficient use of meeting rooms by controlling reservations and the power supply of equipment within the rooms using IoT devices.
-
 permalink: /english/projects/2018/smile_meeting_room
 thumbnail: /assets/img/projects/2018/smile_meeting_room.webp
 twitter_card: summary_large_image

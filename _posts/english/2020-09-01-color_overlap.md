@@ -5,7 +5,6 @@ title: |
   Color Overlap - A Puzzle Game Using the Three Primary Colors of Light (RGB)
 description: |
   This is a puzzle game where players rescue people who have been turned into stone and had their "colors" stolen by magic. By skillfully stacking various shapes of RGB blocks, players can restore color to the kingdom. The game is developed using Unity.
-
 permalink: /english/projects/2020/color_overlap
 thumbnail: /assets/img/projects/2020/color_overlap.webp
 twitter_card: summary_large_image

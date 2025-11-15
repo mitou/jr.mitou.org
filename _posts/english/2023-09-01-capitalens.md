@@ -5,7 +5,6 @@ title: |
   Capitalens
 description: |
   Capitalens is a web application that leverages new technologies such as AI to visualize current activities based on primary information from the National Diet. It addresses issues such as the dissemination of decontextualized information on social media by providing AI-generated summaries of meetings and speaker classification features, making parliamentary discussions more accessible.
-
 permalink: /english/projects/2023/capitalens
 thumbnail: /assets/img/projects/2023/capitalens.webp
 twitter_card: summary_large_image

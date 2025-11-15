@@ -5,9 +5,8 @@ title: |
   Chatty Task Board – A Device to Prevent Forgetfulness and Support Children’s Self-Management Through Analog-like operation
 description: |
   Even if you try to manage your daily to-do list on a whiteboard or similar device, some people end up forgetting to use it.
-
-While smartphone reminder apps can be effective, there are individuals—such as children and older adults—who do not use smartphones for various reasons. In addition, many find task management unenjoyable and difficult to sustain. To address these issues, we developed a device that helps prevent forgetfulness by enabling digital task management through analog interactions, allowing children to enjoyably develop self-management habits.
-
+  
+  While smartphone reminder apps can be effective, there are individuals—such as children and older adults—who do not use smartphones for various reasons. In addition, many find task management unenjoyable and difficult to sustain. To address these issues, we developed a device that helps prevent forgetfulness by enabling digital task management through analog interactions, allowing children to enjoyably develop self-management habits.
 permalink: /english/projects/2025/oshaberi_taskboard
 thumbnail: /assets/img/projects/2025/oshaberi_taskboard.webp
 twitter_card: summary_large_image

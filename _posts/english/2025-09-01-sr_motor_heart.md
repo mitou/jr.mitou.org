@@ -5,7 +5,6 @@ title: |
   Development of a Synchronous Reluctance Motor for Application in Artificial Hearts
 description: |
   A 16-year-old high school student is developing a self-built synchronous reluctance motor without excitation sources such as permanent magnets, to be used as a drive unit for an artificial heart. The motor is controlled by three-phase alternating current. By eliminating the use of rare-earth magnets, the design aims to achieve higher safety, robustness, and lower cost. This motor will serve as the drive mechanism for the blood pump of an artificial heart. As the first attempt to use such a motor in this application, it has the potential to make artificial hearts—traditionally expensive devices—available at lower cost over the long term, reducing patients’ financial burden and contributing to a future where they can live with greater peace of mind.
-
 permalink: /english/projects/2025/sr_motor_heart
 thumbnail: /assets/img/projects/2025/sr_motor_heart.webp
 twitter_card: summary_large_image

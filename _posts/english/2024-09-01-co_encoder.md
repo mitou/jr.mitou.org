@@ -5,7 +5,6 @@ title: |
   Co-Encoder - Context Compression Encoder for LLMs
 description: |
   In recent years, the technology of generative AI has advanced significantly, enabling large language models (LLMs) like ChatGPT to generate natural text. However, these models face the challenge of high inference costs. Particularly when processing long texts, they require substantial memory and high-performance GPUs, making inference difficult with standard GPUs. To address this issue, we propose a Co-Encoder that compresses input converted into matrices and directly feeds it to the LLM, enabling low-cost inference of long texts.
-
 permalink: /english/projects/2024/co_encoder
 thumbnail: /assets/img/projects/2024/co_encoder.webp
 twitter_card: summary_large_image

@@ -5,7 +5,6 @@ title: |
   Smart Guide Cane 'Michishirube' ~ AI-Powered White Cane for Assisting the Visually Impaired ~
 description: |
   Michishirube is a white cane equipped with AI based on a proprietary machine learning model. It assists visually impaired individuals by detecting and notifying them of dangers such as train tracks, crosswalks, and vehicles during their walks, thereby enabling safer navigation.
-
 permalink: /english/projects/2022/michishirube
 thumbnail: /assets/img/projects/2022/michishirube.webp
 twitter_card: summary_large_image

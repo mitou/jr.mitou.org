@@ -5,7 +5,6 @@ title: |
   TalkBoost - An application that promotes spontaneous speech and supports active communication for people who stutter
 description: |
   TalkBoost is an application designed to support people who stutter in valuing their desire to speak. A pendant-shaped device collects everyday speech, and AI automatically detects stuttering. It visualizes characteristics that are difficult to notice on one’s own, helping users understand their speech patterns and challenging situations. By accumulating small challenges, it fosters the courage to speak and promotes positive communication and personal growth.
-
 permalink: /english/projects/2025/talkboost
 thumbnail: /assets/img/projects/2025/talkboost.webp
 twitter_card: summary_large_image

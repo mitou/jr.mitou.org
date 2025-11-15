@@ -5,7 +5,6 @@ title: |
   AI 4-Panel Manga Maker
 description: |
   AI 4-Panel Manga Maker is a web application that utilizes AI to create 4-panel comics from your drawings. By sketching as if doodling, the application recognizes your drawings and generates a story using GPT-4. This allows you to easily create 4-panel comics without the need to consider story structure. Create your own unique 4-panel comic with your drawings!
-
 permalink: /english/projects/2023/ai_4koma_maker
 thumbnail: /assets/img/projects/2023/ai_4koma_maker.webp
 twitter_card: summary_large_image

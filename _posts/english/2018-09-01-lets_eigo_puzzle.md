@@ -5,7 +5,6 @@ title: |
   Let's English Puzzle! - Learn English Vocabulary Enjoyably with Transforming Cubes
 description: |
   Development of Infrared Communication Blocks and Games for Elementary School Students to Learn English Vocabulary While Playing.
-
 permalink: /english/projects/2018/lets_eigo_puzzle
 thumbnail: /assets/img/projects/2018/lets_eigo_puzzle.webp
 twitter_card: summary_large_image
