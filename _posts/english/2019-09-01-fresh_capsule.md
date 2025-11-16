@@ -5,7 +5,6 @@ title: |
   fresh capsule - Food Management App
 description: |
   "fresh capsule" is a mobile application designed to manage the expiration dates of purchased food items. By photographing the section where the expiration date is printed with a smartphone, the expiration date is automatically added to a list within the app.
-
 permalink: /english/projects/2019/fresh_capsule
 thumbnail: /assets/img/projects/2019/fresh_capsule.webp
 twitter_card: summary_large_image

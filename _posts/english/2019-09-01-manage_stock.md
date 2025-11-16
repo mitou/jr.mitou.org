@@ -5,7 +5,6 @@ title: |
   ManageStock - Inventory Management App for Households
 description: |
   Have you ever experienced the inconvenience of forgetting to buy everyday items like tissue paper? ManageStock is an application designed to solve such problems by managing inventory using IoT and other technologies.
-
 permalink: /english/projects/2019/manage_stock
 thumbnail: /assets/img/projects/2019/manage_stock.webp
 twitter_card: summary_large_image

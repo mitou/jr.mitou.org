@@ -5,7 +5,6 @@ title: |
   Creating a DIY Motor with a 3D Printer
 description: |
   The ultimate goal of this project is to expand the options for motor selection by including self-made motors, thereby enabling more precise realization of ideas. As a first step towards this goal, we successfully created a brushless motor using 3D-printed parts, developed a custom control circuit, and achieved motor operation. Moving forward, we aim to enhance efficiency and promote information sharing to foster a culture of self-made motors.
-
 permalink: /english/projects/2023/3d_printed_brushless_motor
 thumbnail: /assets/img/projects/2023/3d_printed_brushless_motor.webp
 twitter_card: summary_large_image

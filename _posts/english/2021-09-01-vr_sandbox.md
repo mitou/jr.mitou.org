@@ -5,7 +5,6 @@ title: |
   VRSandbox: An Easy 3D Modeling Tool for Everyone
 description: |
   This application allows users to intuitively create three-dimensional objects by using VR controllers like a brush and palette. While virtual spaces and 3D models have become more accessible, it is still not easy for individuals to create them. This application enables simple 3D modeling without the need for complex modeling software. By performing a crouching action, users can change the scale and enter life-sized structures.
-
 permalink: /english/projects/2021/vr_sandbox
 thumbnail: /assets/img/projects/2021/vr_sandbox.webp
 twitter_card: summary_large_image

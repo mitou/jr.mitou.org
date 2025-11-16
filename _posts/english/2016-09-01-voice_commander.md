@@ -5,7 +5,6 @@ title: |
   Voice Commander: Commands × Poses × Che
 description: |
   Voice Commander is an innovative chess game operated through voice commands and gestures. Beyond focusing on graphics, it integrates voice recognition for piece movement and gesture control using markers displayed on smartphones, aiming to achieve a sense of "coolness." Inspired by the chess game featured in the anime "No Game No Life," each square on the board is assigned a name for players to call out during voice recognition, which can be easily customized by modifying a text file.
-
 permalink: /english/projects/2016/voice_commander
 thumbnail: /assets/img/projects/2016/voice_commander.webp
 twitter_card: summary_large_image

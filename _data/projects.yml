@@ -38,7 +38,14 @@
 # 2025年度（プレースホルダ完了版。必要に応じて後日微修正）
 - id: uminavi
   title: UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム
-  description: GPSが届かない水中での自己位置推定に高価な音響測位システムが必要という参入障壁を下げ、個人でも高精度な位置情報を活用した水中探査に挑戦できるようにする、オープンソースの自己位置推定システムです。<br><br>GPSが届かない水中での自己位置推定には、従来、数百万円もする高価な音響測位システムが必要であり、私のような個人開発者にとっては導入が困難でした。<br><br>本プロジェクトは、この「高価で手が出ない」という参入障壁を取り除き、誰もが高精度な位置情報を活用した水中探査に挑戦できる環境を目指します。 
+  title_en: UmiNavi — A Self-Localization System for Underwater Drones for Individual Developers
+  description: GPSが届かない水中での自己位置推定に高価な音響測位システムが必要という参入障壁を下げ、個人でも高精度な位置情報を活用した水中探査に挑戦できるようにする、オープンソースの自己位置推定システムです。<br><br>GPSが届かない水中での自己位置推定には、従来、数百万円もする高価な音響測位システムが必要であり、私のような個人開発者にとっては導入が困難でした。<br><br>本プロジェクトは、この「高価で手が出ない」という参入障壁を取り除き、誰もが高精度な位置情報を活用した水中探査に挑戦できる環境を目指します。
+  description_en: |
+    An open-source self-localization system that lowers the entry barrier posed by the need for expensive acoustic positioning systems for underwater localization where GPS signals cannot reach, enabling individuals to conduct underwater exploration using high-precision location information.
+
+    Traditionally, underwater self-localization in GPS-denied environments has required costly acoustic positioning systems costing several million yen(tens of thousands of USD), making them inaccessible to individual developers.
+
+    This project aims to eliminate this barrier of high cost and inaccessibility, creating an environment where anyone can take on underwater exploration using precise location information.
   promotion: dfu-2PCIi_U
   final: QD9t6MWWNfo
   final_start: 26
@@ -49,7 +56,14 @@
 
 - id: flusca
   title: Flusca - シミュレーションによって体験を生み出すゲーム
+  title_en: Flusca - A Game that Creates Experiences through Simulation
   description: 「Flusca（フラスカ）」は、自律的に変化し続けるシミュレーションによって、あなただけのプレイ体験を生み出すゲームです。<br><br>あらかじめ定められた筋書きは存在せず、あなたの行動とキャラクターたちの自律的なふるまいが交わることで、主観的な解釈に基づく物語が頭の中に形作られていくでしょう。<br><br>じっくりと眺め、時には直接関わってみてください。画面の向こうでは、今なにが起きていますか？
+  description_en: |
+    Flusca is a game that creates a unique play experience for each player through a continuously evolving autonomous simulation.
+    
+    There is no predetermined storyline; instead, the interaction between your actions and the autonomous behavior of the characters gives rise to a story that takes shape in your mind through subjective interpretation.
+    
+    Take your time to observe, and at times, engage directly. What is happening beyond the screen right now?
   final: g60v1LH5BPw
   final_start: 62
   year: 2025
@@ -59,7 +73,10 @@
 
 - id: fudey
   title: Fudey - Sensory Calligraphy
-  description: あなたの筆が音を奏でながら、正しい筆運びを身につけられます。従来の見て覚える書道から聞いて感じる書道へ。筆圧の強弱が美しい音の変化となり、筆のスピードはヒートマップで色鮮やかに可視化。3D空間では筆の動きを立体的に再現し、あらゆる角度から筆運びを観察できます。習字が苦手な方にこそおすすめ！Apple Pencilで本格的な筆の感覚を体験できる革新的書道アプリをぜひ！
+  title_en: Fudey - Sensory Calligraphy
+  description: あなたの筆が音を奏でながら、正しい筆運びを身につけられます。従来の見て覚える書道から聞いて感じる書道へ。筆圧の強弱が美しい音の変化となり、筆のスピードはヒートマップで色鮮やかに可視化。3D空間では筆の動きを立体的に再現し、あらゆる角度から筆運びを観察できます。習字が苦手な方にこそおすすめ！Apple Pencilで本格的な筆の感覚を体験できる革新的書道アプリをぜひ！n
+  description_en: |
+    You can master proper brush strokes while your brush produces sound. Shifting from traditional calligraphy learned by sight to calligraphy experienced through sound and sensation. Variations in brush pressure create beautiful changes in tone, while brush speed is vividly visualized as a heat map. In a 3D space, brush movements are reproduced three-dimensionally, allowing observation from any angle. Highly recommended for those who find calligraphy challenging. Experience the authentic feel of a brush with Apple Pencil through this innovative calligraphy application.
   final: 7Z5vvzBaMlc
   final_start: 71
   year: 2025
@@ -69,7 +86,12 @@
 
 - id: oshaberi_taskboard
   title: おしゃべりなタスクボード – アナログ的な操作で子供の自己管理を補助できる、忘れ防止装置
+  title_en: Chatty Task Board – A Device to Prevent Forgetfulness and Support Children’s Self-Management Through Analog-like operation
   description: 日々のToDoをホワイトボード等で管理しようとしても、その運用自体を忘れてしまう人がいます。対策としてスマホのリマインダー・アプリが有効ですが、子どもや高齢者など、様々な理由によりスマホを持たない人がいます。また、タスク管理は楽しくないので続かないという声もありました。そこで、子どもが楽しく自己管理できるようになることを目的として、アナログ的な操作でデジタル管理できる忘れ防止装置を開発しました。
+  description_en: |
+    Even if you try to manage your daily to-do list on a whiteboard or similar device, some people end up forgetting to use it.
+
+    While smartphone reminder apps can be effective, there are individuals—such as children and older adults—who do not use smartphones for various reasons. In addition, many find task management unenjoyable and difficult to sustain. To address these issues, we developed a device that helps prevent forgetfulness by enabling digital task management through analog interactions, allowing children to enjoyably develop self-management habits.
   final: xvzN1bza_sg
   final_start: 75
   year: 2025
@@ -79,7 +101,10 @@
 
 - id: mathmosis
   title: Mathmosis - 数学学習支援AIを搭載したタブレット向けアプリ
+  title_en: Mathmosis - A Tablet Application Equipped with an AI for Supporting Mathematics Learning
   description: タブレット上でスタイラスペンを使い問題を解くことで、あなたの思考プロセスをAIが詳細に分析します。解答中のつまずきの根本原因を正確に特定。理解を助ける個別フィードバックを提供し、曖昧な「わからない」を残さず、確実な学力定着を実現します。また、事前に授業ノートをアップロードすることで、授業で習ったやり方でAIが解説します。
+  description_en: |
+    By solving problems on a tablet using a stylus, the AI analyzes your thought process in detail. It accurately identifies the root causes of difficulties encountered during problem-solving and provides personalized feedback to support understanding, ensuring solid learning without leaving any vague “I don’t understand” behind. In addition, by uploading your class notes in advance, the AI offers explanations consistent with the methods taught in your lessons.
   final: M5IyYcwf1Iw
   final_start: 40
   year: 2025
@@ -90,7 +115,10 @@
 
 - id: paper_cad
   title: Paper CAD - ミニチュア建物を簡単に設計するための2D/3D統合CAD
+  title_en: Paper CAD - An Integrated 2D/3D CAD System for Easy Design of Architectural Models
   description: 建物模型制作のためのツールで、3D建物モデルを作成・インポートし、紙用2D展開図(SVG)へ自動変換することが可能です。これまでは立体構造物である建物を平面に展開する"設計"作業が模型制作上の大きな負担でしたが、Paper CADでは3D建物モデルから展開図を自動生成することで直感的・簡単に設計作業が行えます。これにより、模型制作のハードルを下げ、初心者も経験者も短時間で高精度な街並みを制作できるようになります。
+  description_en: |
+    A tool for creating architectural models that enables users to create or import 3D building models and automatically convert them into 2D paper layouts (SVG). Traditionally, the “design” process of unfolding three-dimensional structures into flat layouts has been a major burden in model making. Paper CAD allows intuitive and simple design work by automatically generating unfolded drawings from 3D building models. This lowers the barrier to model creation, enabling both beginners and experienced users to produce highly accurate cityscapes in a short time.
   final: e2hH0dd1JTc
   final_start: 79
   year: 2025
@@ -101,7 +129,12 @@
 
 - id: sms_solar
   title: S.M.S.｜太陽集光変換ユニット：電力・熱・光の屋内伝送システム
+  title_en: "S.M.S. | Solar Concentration Conversion Unit: Indoor Transmission System for Electricity, Heat, and Light"
   description: S.M.S.は、太陽の光を使用して、電気・熱・明かりを同時に作り、それを家庭の中でそのまま使えるように変換する、新しいエネルギー装置です。<br><br>発電部にタービンなど動的部品がないので、静音性に優れ、壊れにくく、長寿命なのが特長です。また、電気だけでなく、光や熱もそのまま使用できるので、ムダが少なくとても効率的です。もし停電や災害が起きても、太陽さえ出ていれば、明かりと電源を保つことができます。S.M.S.は、自然と調和し、環境に優しく暮らせる毎日を支えるための仕組みです。
+  description_en: |
+    S.M.S. is a new energy device that uses sunlight to simultaneously generate electricity, heat, and light, and converts them for direct use in the home.
+
+    Because the power generation unit contains no dynamic components such as turbines, it operates quietly, is resistant to failure, and has a long lifespan. In addition to electricity, it allows direct use of light and heat, minimizing waste and achieving high efficiency. Even in the event of a power outage or disaster, as long as there is sunlight, it can provide both illumination and power. S.M.S. is a system designed to support a lifestyle that is in harmony with nature and environmentally friendly.
   final: iYeeSu-Xzps
   final_start: 142
   year: 2025
@@ -111,7 +144,10 @@
 
 - id: gen5
   title: Gen5 - 自然言語とGUIの融合による柔軟な画像編集エディタ
+  title_en: Gen5 - A Flexible Image Editing Editor Integrating Natural Language and GUI
   description: Gen5（ゲンゴ）は、自然言語とGUIを融合したインターフェースによる画像処理エディタです。画像を編集する指示から、AIが編集エフェクトや必要なマスク画像を生成します。同時に、エフェクトを微調整するためのパラメータUIも自動的に組み立てます。自然言語の直感性とGUIの操作性を「いいとこ取り」することで、スムーズな画像編集フローを実現します。
+  description_en: |
+    Gen5 is an image processing editor featuring an interface that integrates natural language and a graphical user interface. From user prompts for image editing, the AI generates editing effects and the necessary mask images. At the same time, it automatically constructs a parameter UI for tweak the effects. By combining the intuitiveness of natural language with the operability of a GUI, it enables a smooth and efficient image editing workflow.
   link: https://gen5.app
   final: j5JL3YzfD5U
   final_start: 78
@@ -124,7 +160,10 @@
 
 - id: sr_motor_heart
   title: 人工心臓に応用するためのシンクロナスリラクタンスモーターの開発
+  title_en: Development of a Synchronous Reluctance Motor for Application in Artificial Hearts
   description: 16歳の高校生が人工心臓の駆動装置として、永久磁石などの励磁源を持たないシンクロナスリラクタンスモーターを自作します。これは三相交流で制御されます。希土類磁石を使わないことにより、安全性が高く、堅牢で、安価な設計を目指します。このモーターは人工心臓の血液ポンプの駆動装置となります。人工心臓の駆動装置としては初の試みであり、元々高価な人工心臓は長期で安価に提供することができます。患者さまの経済的負担を下げ安心に暮らせる未来をつくることが出来ます。
+  description_en: |
+    A 16-year-old high school student is developing a self-built synchronous reluctance motor without excitation sources such as permanent magnets, to be used as a drive unit for an artificial heart. The motor is controlled by three-phase alternating current. By eliminating the use of rare-earth magnets, the design aims to achieve higher safety, robustness, and lower cost. This motor will serve as the drive mechanism for the blood pump of an artificial heart. As the first attempt to use such a motor in this application, it has the potential to make artificial hearts—traditionally expensive devices—available at lower cost over the long term, reducing patients’ financial burden and contributing to a future where they can live with greater peace of mind.
   final: acrD049g4gE
   final_start: 145
   year: 2025
@@ -134,7 +173,10 @@
 
 - id: aikyo
   title: aikyo - 相互につながるAIキャラクターを作成するバックエンドフレームワーク
+  title_en: aikyo - A backend framework for creating interconnected AI characters
   description: aikyoは、相互につながるAIキャラクターを作成するバックエンドフレームワークです。独立したキャラクターが相互につながり、自然な会話のキャッチボールができるネットワークを簡単に構築することができます。さらに、ActionやKnowledgeと呼ばれるシステムにより、LLMによる自律的なキャラクターの操作を可能にします。
+  description_en: |
+    aikyo is a backend framework for creating interconnected AI characters. It enables the easy construction of networks where independent characters can connect with each other and engage in natural conversational exchanges. In addition, systems called Action and Knowledge allow for autonomous character control using large language models (LLMs).
   final: JrLu5CIzPTA
   final_start: 57
   year: 2025
@@ -146,7 +188,10 @@
 
 - id: nextrouter
   title: NextRouter -ベストエフォート型光回線を複数利用することで高速に通信を行うルータの開発-
+  title_en: NextRouter - Development of a Router That Achieves High-Speed Communication by Utilizing Multiple Best-Effort Optical Lines
   description: 複数の光回線を束ねて大規模ネットワークの高速化を実現する次世代ルータを開発しました。既存ルータの多くが複数回線を冗長化させるだけの制御に留まるのに対し、本ルータは各利用者のIPアドレス単位で最適な回線への割り当てと通信量の制御を行う機能を持ち、複数回線を効率よく活用することで、帯域保証のない回線しか利用できない環境でもネットワーク全体の通信品質向上を目指します。
+  description_en: |
+    Developed a next-generation router that accelerates large-scale networks by aggregating multiple optical lines. Unlike most existing routers, which only provide redundancy control for multiple lines, this router assigns optimal lines and manages traffic on a per-user IP address basis. By efficiently utilizing multiple lines, it aims to improve overall network communication quality even in environments where only non-guaranteed bandwidth connections are available.
   final: fP6aAtX21BM
   final_start: 65
   year: 2025
@@ -156,7 +201,10 @@
 
 - id: talkboost
   title: TalkBoost - 吃音者の発話の自発性を促進し、積極的に話すことを支援するアプリ
+  title_en: TalkBoost - An application that promotes spontaneous speech and supports active communication for people who stutter
   description: TalkBoostは、吃音を持つ人が「話したい気持ち」を大切にできるよう支援するアプリです。ペンダント型デバイスで日常の音声を収集し、AIが吃音を自動検出。自分では気づきにくい特徴を可視化し、発話の傾向や難しい場面を理解できます。挑戦を積み重ねることで、話す勇気を育み、前向きなコミュニケーションと自己成長を後押しします。
+  description_en: |
+    TalkBoost is an application designed to support people who stutter in valuing their desire to speak. A pendant-shaped device collects everyday speech, and AI automatically detects stuttering. It visualizes characteristics that are difficult to notice on one’s own, helping users understand their speech patterns and challenging situations. By accumulating small challenges, it fosters the courage to speak and promotes positive communication and personal growth.
   final: yvbELxZ9IxA
   final_start: 54
   year: 2025
@@ -166,7 +214,10 @@
 
 - id: kigo
   title: KIGO -ろう者と健常者の間の心理的な壁を越える装置-
+  title_en: KIGO - A Device to Bridge the Psychological Gap Between Deaf and Hearing People -
   description: この装置は、リビングに置いて常に音を監視し、対象の音を見つけたらスマホアプリに通知するろう者向けの装置です。しかし、KIGOはろう者の生活をアシストするだけでなく、日常生活に含まれている季節感や情緒や雰囲気を持った俳句の季語に関係する音だけを検出し通知することで、ろう者と健常者で日常の中の季節感や雰囲気に気づき、二人の間の心理的な壁を越えることを目的にした装置です。
+  description_en: |
+    This device is designed for deaf individuals and is placed in a living space to constantly monitor sounds, sending notifications to a smartphone app when specific sounds are detected. However, KIGO is not merely an assistive device for daily life; it focuses on detecting and notifying only sounds associated with seasonal words (kigo) found in haiku, which convey a sense of season, emotion, and atmosphere. By doing so, it aims to help both deaf and hearing people become aware of the seasonal nuances and ambiance present in everyday life, fostering a deeper mutual understanding and bridging the psychological gap between them.
   final: 4szWD5h20vQ
   final_start: 118
   year: 2025
@@ -177,7 +228,10 @@
 
 - id: cian
   title: Cian - 今日をつぶやく、明日を見つける、未来を思案するジャーナルアプリ
+  title_en: Cian - A journal app for reflecting on today, discovering tomorrow, and contemplating the future
   description: CianはSNS感覚の短文ジャーナルとAI対話を組み合わせた、思案ができる新しいジャーナルアプリです。書くだけでLLMが要約し、頻出ワードと感情の流れを見える化。振り返り対話で思案を重ね、次に踏み出す一歩を提案。日常のメモにも、悩んだ日の相談相手にも、いつもそばであなたの思案を支えます。
+  description_en: |
+    Cian is a new journaling application that combines short-form, social media–style entries with AI dialogue to support reflective thinking. The LLM automatically summarizes what you write and visualizes frequently used words and emotional trends. Through reflective conversations, it helps you deepen your thoughts and suggests your next steps. Whether for everyday notes or as a companion on difficult days, Cian is always there to support your reflections.
   link: https://cianapp.com
   final: j_wH9TOSxoI
   final_start: 52
@@ -188,7 +242,10 @@
 
 - id: neureka
   title: Neureka! - 教材生成とAI学習パートナーによる理解支援サービス
-  description: あらゆる学習の基礎である「理解」は重要である反面、時に多くの時間や労力を必要とすることがあります。Neureka!は、ノートや教科書の写真をアップロードするだけで、ポッドキャストやフラッシュカードといった教材の生成に加えチャットやAIリアルタイム対話機能でのインタラクティブな学習を行うことができ、「理解」をより深く短時間で行うためのサポートをします。
+  title_en: Neureka! - A Learning Support Service through Educational Material Generation and AI Learning Partner
+  description: あらゆる学習の基礎である「理解」は重要である反面、時に多くの時間や労力を必要とすることがあります。Neureka! は、ノートや教科書の写真をアップロードするだけで、ポッドキャストやフラッシュカードといった教材の生成に加えチャットやAIリアルタイム対話機能でのインタラクティブな学習を行うことができ、「理解」をより深く短時間で行うためのサポートをします。
+  description_en: |
+    While “understanding,” the foundation of all learning, is essential, it can sometimes require significant time and effort. Neureka! supports deeper and more efficient understanding by allowing users to upload photos of notebooks or textbooks to automatically generate learning materials such as podcasts and flashcards, and to engage in interactive study through chat and real-time AI conversation features.
   final: aYoOcDKCpGg
   final_start: 25
   year: 2025
@@ -196,6 +253,7 @@
   link: https://protopedia.net/prototype/7467
   creator_ids:
   - naoki_ohira
+
 
 # 2024年度
 - id: qwet

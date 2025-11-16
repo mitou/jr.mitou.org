@@ -5,7 +5,6 @@ title: |
   Listening Keyboard
 description: |
   A keyboard equipped with voice recognition functionality, available in Japanese, English, and Chinese.
-
 permalink: /english/projects/2017/listenable_keyboard
 thumbnail: /assets/img/projects/2017/listenable_keyboard.webp
 twitter_card: summary_large_image

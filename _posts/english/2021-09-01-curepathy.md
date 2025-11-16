@@ -5,7 +5,6 @@ title: |
   Curepathy - An App to Deepen Children's Interests
 description: |
   This is an application designed to support active learning for elementary and middle school students. It presents learning content tailored to the user's interests through user ratings, tags, and a recommendation engine. Additionally, it incorporates elements of dress-up games to provide an enjoyable and continuous learning experience.
-
 permalink: /english/projects/2021/curepathy
 thumbnail: /assets/img/projects/2021/curepathy.webp
 twitter_card: summary_large_image

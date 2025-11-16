@@ -5,7 +5,6 @@ title: |
   Brush Talk: A Communication App for Young Children
 description: |
   This is a note-taking application designed to facilitate communication between young children who are not yet proficient in writing and elderly individuals with hearing difficulties. To ensure ease of use for elderly users who may not be familiar with smartphones, the number of operational buttons has been minimized. Additionally, illustrations are incorporated to make the application intuitive for young children.
-
 permalink: /english/projects/2020/brush_talk
 thumbnail: /assets/img/projects/2020/brush_talk.webp
 twitter_card: summary_large_image

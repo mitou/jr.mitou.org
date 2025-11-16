@@ -5,7 +5,6 @@ title: |
   PictoPlate - An App to Solve Menu Issues in Restaurants
 description: |
   When faced with text-only menus commonly found in overseas restaurants, it can be difficult to visualize the dishes. The smartphone app, PictoPlate, addresses this by allowing users to simply take a photo of the menu. The app then provides information about the appearance, ingredients, cooking methods, taste, and whether the dish contains any ingredients the user cannot consume. Additionally, it supports smooth communication with restaurant staff when placing orders.
-
 permalink: /english/projects/2024/picto_plate
 thumbnail: /assets/img/projects/2024/picto_plate.webp
 twitter_card: summary_large_image

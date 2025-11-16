@@ -5,7 +5,6 @@ title: |
   -Flight Fit VR- A VR Project for Physical Training in a Virtual Space with the Theme of "Flight"
 description: |
   This project utilizes Oculus VR goggles to allow users to relax amidst beautiful scenery and music while engaging in physical exercise. It consists of three mini-games designed to enhance core strength, abdominal muscles, and the muscles of the front thighs.
-
 permalink: /english/projects/2020/flight_fit_vr
 thumbnail: /assets/img/projects/2020/flight_fit_vr.webp
 twitter_card: summary_large_image

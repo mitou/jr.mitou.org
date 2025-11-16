@@ -5,7 +5,6 @@ title: |
   Life Watcher - An Alert System for Individuals with Sudden Changes in Chronic Conditions
 description: |
   Development of an Alert Application for Smartwatches to Assist Individuals with Sudden Changes in Chronic Conditions.
-
 permalink: /english/projects/2018/life_watcher
 thumbnail: /assets/img/projects/2018/life_watcher.webp
 twitter_card: summary_large_image

@@ -5,7 +5,6 @@ title: |
   Creating a Motion Simulator from Scratch
 description: |
   This Motion Simulator is a system designed to enhance the sense of immersion by allowing users to physically experience the movements depicted in content, similar to 4DX in movie theaters. I have been working on creating my own Motion Simulator from scratch over several years through trial and error. This time, I have built a chair-type Motion Simulator that features "6 degrees of freedom" and is "compact enough to fit the mechanism under the chair." Such a Motion Simulator with these characteristics is not only unique among DIY projects but also does not exist in commercial products.
-
 permalink: /english/projects/2023/motion_simulator
 thumbnail: /assets/img/projects/2023/motion_simulator.webp
 twitter_card: summary_large_image
