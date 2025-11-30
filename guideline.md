@@ -6,26 +6,26 @@ description: 未踏ジュニアへの応募から採択までの流れをまと�
 
 <br>
 
-本ページでは未踏ジュニアに応募するまでの流れをまとめています。[応募者向けの動画や記事](#plan)などもまとめているので、応募時のご参考になれば嬉しいです。
+本ページでは、未踏ジュニアに応募するまでの流れや、応募者向けの動画・記事などをまとめています。
 
 
 ## [<i class="fa-light fa-badge-check"></i>](#agenda) 募集要項 {#agenda}
 
 {% include agenda.html %}
 
+
 ## [<i class="fa-light fa-mailbox"></i>](#apply) 応募から採択までの流れ {#apply}
 
 ### 1. プロジェクトの計画を立てる [<i class="fa-light fa-thought-bubble"></i>](#plan) {#plan}
-プロジェクト期間にどのようなソフトウェア・ハードウェアの開発に挑戦したいか、計画を立てます。最大 4 人までのチームで開発することもできます。通っているプログラミング教室やクラブなどで、大人に相談するのもよいでしょう。
 
-YouTube からは応募者向けのメッセージや提案のコツなどを公開しています。
+プロジェクト期間にどのようなソフトウェア・ハードウェアの開発に挑戦したいか、計画を立てます。最大４人までのチームで開発することもできます。通っているプログラミング教室やクラブなどで、大人に相談するのもよいでしょう。
+
+計画を立てるコツや採択者の体験談、応募者向けのメッセージ動画なども公開していますので、お役に立てば幸いです。
 
 <center><h4 class="heading-balloon" style='margin-top: 20px; margin-bottom: 20px;'>公開している動画の例</h4></center>
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank" rel="noopener"><img src="/assets/img/highlights-for-creators.min.webp" data-src="/assets/img/highlights-for-creators.webp" alt="Movies for Prospective Creators" width="100%" class="lazyload" loading="lazy"></a>
+
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button" target="_blank" rel="noopner">応募者向けの動画を見る</a>
-
-「動画ではなくテキストで読みたい！」という方向けの記事もあります。こちらもご参考になれば幸いです。
-
 <a href="/applications#tips" class='button'>応募者向けの記事を見る</a>
 
 {% include arrow.html %}
