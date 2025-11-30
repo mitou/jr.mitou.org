@@ -21,16 +21,19 @@
   project_id: neureka
   name: 大平 直輝
   year: 2025
+  is_spc: true
 
 - id: mitsuki_goto
   project_id: talkboost
   name: 後藤 潤樹
   year: 2025
+  is_spc: true
 
 - id: shintaro_matsumoto
   project_id: uminavi
   name: 松本 慎太郎
   year: 2025
+  is_spc: true
 
 - id: shohei_nagashima
   project_id: nextrouter
@@ -41,41 +44,49 @@
   project_id: oshaberi_taskboard
   name: 久保 晃市
   year: 2025
+  is_spc: true
 
 - id: momoko_yamashita
   project_id: kigo
   name: 山下 桃子
   year: 2025
+  is_spc: true
 
 - id: masamune_kato
   project_id: sms_solar
   name: 加藤 正宗
   year: 2025
+  is_spc: true
 
 - id: seorus_jang
   project_id: sr_motor_heart
   name: 張 契洙
   year: 2025
+  is_spc: true
 
 - id: soma_noda
   project_id: aikyo
   name: 野田 蒼馬
   year: 2025
+  is_spc: true
 
 - id: haruma_yasuda
   project_id: aikyo
   name: 安田 陽真
   year: 2025
+  is_spc: true
 
 - id: itta_funahashi
   project_id: gen5
   name: 船橋 一汰
   year: 2025
+  is_spc: true
 
 - id: shotaro_nakamura
   project_id: gen5
   name: 中村 承太郎
   year: 2025
+  is_spc: true
 
 - id: yuna_matsunaga
   project_id: gen5
@@ -91,16 +102,19 @@
   project_id: paper_cad
   name: 宮崎 航大
   year: 2025
+  is_spc: true
 
 - id: mio_mitamura
   project_id: fudey
   name: 三田村 美桜
   year: 2025
+  is_spc: true
 
 - id: daichi_minami
   project_id: mathmosis
   name: 南 大地
   year: 2025
+  is_spc: true
 
 - id: takehiro_kano
   project_id: flusca
