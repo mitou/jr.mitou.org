@@ -13,7 +13,7 @@ thumbnail: /assets/img/schedule.webp
 ## [<i class="fa-light fa-calendar-clock"></i>](#agenda) 採択後のスケジュール {#agenda}
 <img src="/assets/img/spinner.svg" data-src="/assets/img/schedule.png" alt="採択後のスケジュール" width="100%" class="post-photo lazyload">
 
-<div class="tips">以下、2025年度の暫定スケジュールです。</div>
+<div class="tips">以下は暫定スケジュールです。</div>
 
 <ul class="list-agenda">
   <!--<li><strong>〆切日:</strong> 2025年4月6日 23:59 応募〆切</li>-->

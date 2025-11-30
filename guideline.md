@@ -84,7 +84,7 @@ YouTube からは応募者向けのメッセージや提案のコツなどを公
 ### 8. ブースト合宿 [<i class="fa-light fa-handshake"></i>](#boost-your-project) {#boost-your-project}
 **採択、おめでとうございます！**
 
-採択者全員が参加するブースト合宿が **2025年6月14日〜15日** に開催されます。ブースト合宿では他の採択者や[過去の修了生](/projects)、[担当メンター](/mentors)との顔合わせなども兼ねて、あなたがこれから進めるプロジェクトについて発表します。
+採択者全員が参加するブースト合宿は **2025年6月14日〜15日** に開催されます。ブースト合宿では他の採択者や[過去の修了生](/projects)、[担当メンター](/mentors)との顔合わせなども兼ねて、あなたがこれから進めるプロジェクトについて発表します。
 
 <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/boost.svg" alt="ブースト合宿" width="50%" class="post-photo lazyload">
 
