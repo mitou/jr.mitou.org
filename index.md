@@ -153,7 +153,7 @@ this_year: 2025
 
   
   <div class='flex'>
-    <a class="button" href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr">応募者向けの動画を見る</a>
+    <a class="button" href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">応募者向けの動画を見る</a>
     <a class="button" href="/applications#tips">応募者向けの記事を見る</a>
   </div>
 </section>
