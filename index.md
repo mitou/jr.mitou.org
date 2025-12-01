@@ -146,9 +146,16 @@ this_year: 2025
     <img src="/assets/img/highlights-for-creators.min.webp" data-src="/assets/img/highlights-for-creators.webp" alt="Movies for Prospective Creators" width="100%" class="lazyload" loading="lazy">
   </a>
 
-  <p>応募者に役立つ動画を YouTube でまとめました。<br>質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="/q-box">匿名質問箱</a>でも受付中！</p>
+  <p>
+    応募者にとって役立つ動画や記事もまとめています！<br>
+    質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="/q-box">匿名質問箱</a>でも受付中！
+  </p>
 
-  <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button">YouTube で見る</a>  
+  
+  <div class='flex'>
+    <a class="button" href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr">応募者向けの動画を見る</a>
+    <a class="button" href="/applications#tips">応募者向けの記事を見る</a>
+  </div>
 </section>
 
 <section class="lets-apply">

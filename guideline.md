@@ -22,11 +22,18 @@ description: 未踏ジュニアへの応募から採択までの流れをまと�
 
 計画を立てるコツや採択者の体験談、応募者向けのメッセージ動画なども公開していますので、お役に立てば幸いです。
 
-<center><h4 class="heading-balloon" style='margin-top: 20px; margin-bottom: 20px;'>公開している動画の例</h4></center>
-<a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank" rel="noopener"><img src="/assets/img/highlights-for-creators.min.webp" data-src="/assets/img/highlights-for-creators.webp" alt="Movies for Prospective Creators" width="100%" class="lazyload" loading="lazy"></a>
+<center>
+  <h4 class="heading-balloon" style='margin-top: 20px; margin-bottom: 20px;'>公開している動画の例</h4>
+</center>
 
-<a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" class="button" target="_blank" rel="noopner">応募者向けの動画を見る</a>
-<a href="/applications#tips" class='button'>応募者向けの記事を見る</a>
+<a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
+  <img src="/assets/img/highlights-for-creators.min.webp" data-src="/assets/img/highlights-for-creators.webp"
+       alt="Movies for Prospective Creators" width="100%" class="lazyload" loading="lazy">
+</a>
+
+<a class="button" href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">応募者向けの動画を見る</a>
+<a class="button" href="/applications#tips">応募者向けの記事を見る</a>
+
 
 {% include arrow.html %}
 
