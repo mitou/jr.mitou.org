@@ -30,6 +30,8 @@ thumbnail: /assets/img/projects/2025/uminavi.webp
   {% include youtube-embed.html id=pj.final start=pj.final_start %}
 </div>
 
+<p  style='margin-top: 40px;'>{{ pj.description }}</p>
+
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
   <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム&hashtags=未踏ジュニア&url={{ site.url }}/applications/{{ pj.id }}&lang=ja&related=mitoujr'>ツイートする</a>
