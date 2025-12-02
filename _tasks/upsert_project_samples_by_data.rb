@@ -9,11 +9,11 @@ TRUNCATE_LENGTH = 33
 # Remove existing sample pages. They are re-generated later.
 Dir.glob("./applications/*.md"  ).each { File.delete(it) unless it.split('/').last.start_with? 'index.md' }
 
+projects = YAML.load_file("_data/projects.yml", symbolize_names: true)
 project_sample_ids = YAML.load_file("_data/applications.yml", symbolize_names: true)
-  .select{ it[:type] == 'sample'}
-  .map{ it[:project_id] }
-project_samples = YAML.load_file("_data/projects.yml", symbolize_names: true)
-  .select{ project_sample_ids.include? it[:id] }
+  .select { it[:type] == 'sample' }
+  .map    { it[:project_id]       }
+project_samples = project_sample_ids.map { |sample_id| projects.find { it[:id] == sample_id } }
 
 project_samples.each_with_index do |project, index|
   # Prev/Next project data for navigation
