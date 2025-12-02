@@ -30,10 +30,10 @@ thumbnail: /assets/img/projects/2022/noxicel.webp
 
 <nav>
   <p class='nav prev'>
-    <a href='niwangojs' title='niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン'>
+    <a href='mer' title='Mer - 多機能電子リコーダー'>
       &larr; {{ translations.navPrev[lang] }} 前の提案書
       <br>
-      niwango.js - 動画のコメントでプログラミング可能...
+      Mer - 多機能電子リコーダー
     </a>
   </p>
 

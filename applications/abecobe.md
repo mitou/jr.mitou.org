@@ -30,18 +30,18 @@ thumbnail: /assets/img/projects/2019/abecobe.webp
 
 <nav>
   <p class='nav prev'>
-    <a href='det_exploit' title='DetExploit - Windows用OSS脆弱性スキャナー'>
+    <a href='amoyo' title='編模様 (あもーよ) イラスト手編み支援アプリ'>
       &larr; {{ translations.navPrev[lang] }} 前の提案書
       <br>
-      DetExploit - Windows用OSS脆弱性スキャナー
+      編模様 (あもーよ) イラスト手編み支援アプリ
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='uminavi' title='UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム'>
+    <a href='fudey' title='Fudey - Sensory Calligraphy'>
       次の提案書 {{ translations.navNext[lang] }} &rarr;
       <br>
-      UmiNavi — 個人開発者のための水中ドローン向け自己位...
+      Fudey - Sensory Calligraphy
     </a>
   </p>
 </nav>

@@ -30,18 +30,18 @@ thumbnail: /assets/img/projects/2025/uminavi.webp
 
 <nav>
   <p class='nav prev'>
-    <a href='abecobe' title='abecobe - シンプルかつ難しいパズルゲーム'>
+    <a href='fudey' title='Fudey - Sensory Calligraphy'>
       &larr; {{ translations.navPrev[lang] }} 前の提案書
       <br>
-      abecobe - シンプルかつ難しいパズルゲーム
+      Fudey - Sensory Calligraphy
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='fudey' title='Fudey - Sensory Calligraphy'>
+    <a href='jellyfish_alert' title='クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム'>
       次の提案書 {{ translations.navNext[lang] }} &rarr;
       <br>
-      Fudey - Sensory Calligraphy
+      クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム
     </a>
   </p>
 </nav>

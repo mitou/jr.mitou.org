@@ -30,18 +30,18 @@ thumbnail: /assets/img/projects/2023/niwangojs.webp
 
 <nav>
   <p class='nav prev'>
-    <a href='a9n' title='A9N: HALを用いて移植容易性を実現するマイクロカーネル'>
+    <a href='tactica_note' title='TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート'>
       &larr; {{ translations.navPrev[lang] }} 前の提案書
       <br>
-      A9N: HALを用いて移植容易性を実現するマイクロカーネル
+      TacticaNote - 育成年代の選手の言語化をサポート...
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='noxicel' title='Noxicel - 英作文とAIを用いた英単語学習アプリ'>
+    <a href='a9n' title='A9N: HALを用いて移植容易性を実現するマイクロカーネル'>
       次の提案書 {{ translations.navNext[lang] }} &rarr;
       <br>
-      Noxicel - 英作文とAIを用いた英単語学習アプリ
+      A9N: HALを用いて移植容易性を実現するマイクロカーネル
     </a>
   </p>
 </nav>

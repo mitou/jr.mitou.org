@@ -30,18 +30,18 @@ thumbnail: /assets/img/projects/2019/amoyo.webp
 
 <nav>
   <p class='nav prev'>
-    <a href='mer' title='Mer - 多機能電子リコーダー'>
+    <a href='det_exploit' title='DetExploit - Windows用OSS脆弱性スキャナー'>
       &larr; {{ translations.navPrev[lang] }} 前の提案書
       <br>
-      Mer - 多機能電子リコーダー
+      DetExploit - Windows用OSS脆弱性スキャナー
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='det_exploit' title='DetExploit - Windows用OSS脆弱性スキャナー'>
+    <a href='abecobe' title='abecobe - シンプルかつ難しいパズルゲーム'>
       次の提案書 {{ translations.navNext[lang] }} &rarr;
       <br>
-      DetExploit - Windows用OSS脆弱性スキャナー
+      abecobe - シンプルかつ難しいパズルゲーム
     </a>
   </p>
 </nav>

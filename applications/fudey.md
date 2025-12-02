@@ -30,18 +30,18 @@ thumbnail: /assets/img/projects/2025/fudey.webp
 
 <nav>
   <p class='nav prev'>
-    <a href='uminavi' title='UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム'>
+    <a href='abecobe' title='abecobe - シンプルかつ難しいパズルゲーム'>
       &larr; {{ translations.navPrev[lang] }} 前の提案書
       <br>
-      UmiNavi — 個人開発者のための水中ドローン向け自己位...
+      abecobe - シンプルかつ難しいパズルゲーム
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='jellyfish_alert' title='クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム'>
+    <a href='uminavi' title='UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム'>
       次の提案書 {{ translations.navNext[lang] }} &rarr;
       <br>
-      クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム
+      UmiNavi — 個人開発者のための水中ドローン向け自己位...
     </a>
   </p>
 </nav>

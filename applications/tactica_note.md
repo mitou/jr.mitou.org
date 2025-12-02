@@ -38,10 +38,10 @@ thumbnail: /assets/img/projects/2024/tactica_note.webp
   </p>
 
   <p class='nav next'>
-    <a href='a9n' title='A9N: HALを用いて移植容易性を実現するマイクロカーネル'>
+    <a href='niwangojs' title='niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン'>
       次の提案書 {{ translations.navNext[lang] }} &rarr;
       <br>
-      A9N: HALを用いて移植容易性を実現するマイクロカーネル
+      niwango.js - 動画のコメントでプログラミング可能...
     </a>
   </p>
 </nav>

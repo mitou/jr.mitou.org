@@ -30,18 +30,18 @@ thumbnail: /assets/img/projects/2023/a9n.webp
 
 <nav>
   <p class='nav prev'>
-    <a href='tactica_note' title='TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート'>
+    <a href='niwangojs' title='niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン'>
       &larr; {{ translations.navPrev[lang] }} 前の提案書
       <br>
-      TacticaNote - 育成年代の選手の言語化をサポート...
+      niwango.js - 動画のコメントでプログラミング可能...
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='niwangojs' title='niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン'>
+    <a href='mer' title='Mer - 多機能電子リコーダー'>
       次の提案書 {{ translations.navNext[lang] }} &rarr;
       <br>
-      niwango.js - 動画のコメントでプログラミング可能...
+      Mer - 多機能電子リコーダー
     </a>
   </p>
 </nav>

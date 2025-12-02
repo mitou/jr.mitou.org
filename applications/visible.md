@@ -38,10 +38,10 @@ thumbnail: /assets/img/projects/2020/visible.webp
   </p>
 
   <p class='nav next'>
-    <a href='mer' title='Mer - 多機能電子リコーダー'>
+    <a href='det_exploit' title='DetExploit - Windows用OSS脆弱性スキャナー'>
       次の提案書 {{ translations.navNext[lang] }} &rarr;
       <br>
-      Mer - 多機能電子リコーダー
+      DetExploit - Windows用OSS脆弱性スキャナー
     </a>
   </p>
 </nav>

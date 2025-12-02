@@ -30,18 +30,18 @@ thumbnail: /assets/img/projects/2020/mer.webp
 
 <nav>
   <p class='nav prev'>
-    <a href='visible' title='Visible ─ Webアクセシビリティー診断 &amp; 修正提案ツール'>
+    <a href='a9n' title='A9N: HALを用いて移植容易性を実現するマイクロカーネル'>
       &larr; {{ translations.navPrev[lang] }} 前の提案書
       <br>
-      Visible ─ Webアクセシビリティー診断 & 修正提...
+      A9N: HALを用いて移植容易性を実現するマイクロカーネル
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='amoyo' title='編模様 (あもーよ) イラスト手編み支援アプリ'>
+    <a href='noxicel' title='Noxicel - 英作文とAIを用いた英単語学習アプリ'>
       次の提案書 {{ translations.navNext[lang] }} &rarr;
       <br>
-      編模様 (あもーよ) イラスト手編み支援アプリ
+      Noxicel - 英作文とAIを用いた英単語学習アプリ
     </a>
   </p>
 </nav>
