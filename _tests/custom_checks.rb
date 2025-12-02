@@ -16,6 +16,7 @@ class CustomChecks < ::HTMLProofer::Check
     check_deadlines if valid_and_equal_to?(BASE_PATH + '/guideline.html')
     check_yaml_data if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
     check_navi_text if valid_and_equal_to?(BASE_PATH + '/projects/2024/qwet.html')
+    check_app_order if valid_and_equal_to?(BASE_PATH + '/applications/abecobe.html')
   end
 
   def valid_and_equal_to?(filename)
@@ -128,5 +129,30 @@ class CustomChecks < ::HTMLProofer::Check
 
     add_failure("Unmatched nav text and title:\n\t#{prev_text}\n\t#{prev_title}") unless prev_title.start_with? prev_text
     add_failure("Unmatched nav text and title:\n\t#{next_text}\n\t#{next_title}") unless next_title.start_with? next_text
+  end
+
+  # Check if a sample application page has correct Next/Prev nav links.
+  # The nav links should be the same order as https://jr.mitou.org/applications/#sample
+  def check_app_order
+    sample_ids = YAML.load_file("_data/applications.yml", symbolize_names: true)
+      .select { it[:type] == 'sample' }
+      .map    { it[:project_id] }.reverse
+
+    current_id = sample_ids.first # => The 1st sample application (abecobe)
+    prev_id    = @html.css('nav > p.prev > a[href]')[0].attribute_nodes[0].value
+    next_id    = @html.css('nav > p.next > a[href]')[0].attribute_nodes[0].value
+
+    add_failure(
+      <<~ERROR_MESSAGE
+        The 1st sample application (#{sample_ids[0]}) should have following nav links:
+          \s current_id: #{current_id}
+
+          \s prev_id: #{prev_id}
+          \s correct: #{sample_ids[1]}
+
+          \s next_id: #{next_id}
+          \s correct: #{sample_ids[-1]}
+      ERROR_MESSAGE
+    ) unless sample_ids[1] == prev_id and sample_ids[-1] == next_id
   end
 end
