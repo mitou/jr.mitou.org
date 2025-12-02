@@ -30,10 +30,10 @@ thumbnail: /assets/img/projects/2024/jellyfish_alert.webp
 
 <nav>
   <p class='nav prev'>
-    <a href='uminavi' title='UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム'>
+    <a href='fudey' title='Fudey - Sensory Calligraphy'>
       &larr; {{ translations.navPrev[lang] }} 前の提案書
       <br>
-      UmiNavi — 個人開発者のための水中ドローン向け自己位...
+      Fudey - Sensory Calligraphy
     </a>
   </p>
 

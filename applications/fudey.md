@@ -1,47 +1,47 @@
 ---
 layout: post
 title: |
-  提案書サンプル &raquo; <br>UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム
+  提案書サンプル &raquo; <br>Fudey - Sensory Calligraphy
 description: |
   未踏ジュニア採択者の有志が、応募者のために公開している提案書（応募時点でのプロジェクト概要）です。
-thumbnail: /assets/img/projects/2025/uminavi.webp
+thumbnail: /assets/img/projects/2025/fudey.webp
 ---
 
 <p style='padding: 50px 0px 10px;'>{{ page.description }}</p>
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href="/applications/uminavi.pdf">PDF で見る</a>
+  <a class="button" href="/applications/fudey.pdf">PDF で見る</a>
 </div>
 
-{% include render-pdf.html project_id="uminavi" %}
+{% include render-pdf.html project_id="fudey" %}
 
 <div class='note' style='margin: 30px auto 50px;'><small>上記の提案書の状態から、約６ヶ月間の支援を得た結果が下記の<a href='/projects/2025#final'>成果報告会</a>での発表となります。<br><br><img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" class="lazyload"></small></div>
 
-{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'uminavi'" | first %}
+{% assign pj = site.data.projects | where_exp: "pj", "pj.id == 'fudey'" | first %}
 <div class="youtube">
   {% include youtube-embed.html id=pj.final start=pj.final_start %}
 </div>
 
 <div class='flex'>
   <a class="button" href="/applications#sample">サンプル一覧に戻る</a>
-  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム&hashtags=未踏ジュニア&url={{ site.url }}/applications/uminavi&lang=ja&related=mitoujr'>ツイートする</a>
+  <a class="button" href='https://twitter.com/intent/tweet?text=提案書サンプル%20-%20Fudey - Sensory Calligraphy&hashtags=未踏ジュニア&url={{ site.url }}/applications/fudey&lang=ja&related=mitoujr'>ツイートする</a>
 </div>
 
 <nav>
   <p class='nav prev'>
-    <a href='abecobe' title='abecobe - シンプルかつ難しいパズルゲーム'>
+    <a href='uminavi' title='UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム'>
       &larr; {{ translations.navPrev[lang] }} 前の提案書
       <br>
-      abecobe - シンプルかつ難しいパズルゲーム
+      UmiNavi — 個人開発者のための水中ドローン向け自己位...
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='fudey' title='Fudey - Sensory Calligraphy'>
+    <a href='jellyfish_alert' title='クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム'>
       次の提案書 {{ translations.navNext[lang] }} &rarr;
       <br>
-      Fudey - Sensory Calligraphy
+      クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム
     </a>
   </p>
 </nav>
