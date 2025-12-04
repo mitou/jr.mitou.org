@@ -210,10 +210,9 @@ $ bundle exec rake test
 
 ローカル環境で生成結果を確認したい場合は、上記セクション「[Webサイトの仕組みを改善したい](https://github.com/mitou/jr.mitou.org#hammer_and_wrench-web%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF%E3%82%92%E6%94%B9%E5%96%84%E3%81%97%E3%81%9F%E3%81%84)」の手順に沿って進めてください。
 
-- 更新作業の例:
-  - :octocat: [2025年度の採択プロジェクト公開時のPR (#233) - GitHub](https://github.com/mitou/jr.mitou.org/pull/233)
-  - :octocat: [2024年度の採択プロジェクト公開時のPR (#195) - GitHub](https://github.com/mitou/jr.mitou.org/pull/195)
-  - :octocat: [2023年度の採択プロジェクト公開時のPR (#144) - GitHub](https://github.com/mitou/jr.mitou.org/pull/144)
+- :octocat: 2025年度の対応例: [#233](https://github.com/mitou/jr.mitou.org/pull/233)
+- :octocat: 2024年度の対応例: [#195](https://github.com/mitou/jr.mitou.org/pull/195)
+- :octocat: 2023年度の対応例: [#144](https://github.com/mitou/jr.mitou.org/pull/144)
 
 
 <div id='how-to-build-spc'><br></div>
