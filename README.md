@@ -188,8 +188,7 @@ $ bundle exec rake test
 
 詳細は以下の更新例のプルリクエストからご確認いただけます。
 
-- 更新作業の例:
-  - :octocat: [2024年度の募集アナウンス終了時のPR (#177) - GitHub](https://github.com/mitou/jr.mitou.org/pull/177)
+- :octocat: 2024年度の対応例: [#177](https://github.com/mitou/jr.mitou.org/pull/177)
 
 
 <div id='how-to-build-projects'><br></div>
@@ -242,7 +241,7 @@ $ bundle exec rake test
 1. [`interviews`](https://github.com/mitou/jr.mitou.org/tree/main/interviews) ディレクトリに行き、`{{ クリエータID }}.md` ファイルを作成し、インタビュー記事を転記する
 1. インタビュー記事の内容に問題がなければ、公開して SNS に投稿する ([投稿例](https://twitter.com/mitoujr/status/1775724225346912470))
 
-:octocat: プルリクエストの例: [Add MITOU Junior Interview: `@alicelavander` (#175) - GitHub](https://github.com/mitou/jr.mitou.org/pull/175)  
+:octocat: 対応例: [Add MITOU Junior Interview: `@alicelavander` (#175)](https://github.com/mitou/jr.mitou.org/pull/175)  
 
 
 <div id='how-to-build-i18n'><br></div>
@@ -257,13 +256,9 @@ $ bundle exec rake test
 1. 追加したら[ページ生成タスク](#how-to-build-generators)を実行し、`/english/projects` ページから結果を確認する
 1. [`english/index.md`](https://github.com/mitou/jr.mitou.org/blob/main/english/index.md) と [`english/projects/index.md`](https://github.com/mitou/jr.mitou.org/blob/main/english/projects/index.md) にある `latest_en_year` の値を最新年度に更新する
 1. 生成したページが問題なさそうであればリリースし、SNS などで周知する 🌐✨
-   - :iphone: [SNS 周知例 in 2025](https://x.com/mitoujr/status/1989902584602321322)
-   - :iphone: [SNS 周知例 in 2024](https://x.com/mitoujr/status/1827919186263523689)
 
-
-- 公開作業の例:
-  - :octocat: [2025年度の公開例 (#240) - GitHub](https://github.com/mitou/jr.mitou.org/pull/240)
-  - :octocat: [2024年度の公開例 (#187) - GitHub](https://github.com/mitou/jr.mitou.org/pull/187)  
+- :octocat: 2025年度の対応例: [#240](https://github.com/mitou/jr.mitou.org/pull/240) / [SNS](https://x.com/mitoujr/status/1989902584602321322)
+- :octocat: 2024年度の対応例: [#187](https://github.com/mitou/jr.mitou.org/pull/187) / [SNS](https://x.com/mitoujr/status/1827919186263523689)
 
 
 
