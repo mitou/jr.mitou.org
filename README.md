@@ -145,7 +145,7 @@ $ bundle exec jekyll server
 具体的なデータの流れについては[スライド資料](https://speakerdeck.com/yasulab/how-ruby-boosts-young-innovative-creators-in-the-mitou-junior-program)からご確認ください。
 
 [![How Ruby Boosts Young Innovative Creators In The MITOU Junior Program.](https://github.com/mitou/jr.mitou.org/blob/main/assets/img/mitoujr-on-jekyll.png?raw=true)](https://speakerdeck.com/yasulab/how-ruby-boosts-young-innovative-creators-in-the-mitou-junior-program)
-_引用元: [テストも、国際化も！ 小中高生クリエータ支援プログラム『未踏ジュニア』を支える技術](https://speakerdeck.com/yasulab/how-ruby-boosts-young-innovative-creators-in-the-mitou-junior-program)_<br>_([&raquo; 動画で見る](https://youtu.be/Jo8lZkvC-No?t=17160))_
+_引用元: [テストも、国際化も！ 小中高生クリエータ支援プログラム『未踏ジュニア』を支える技術](https://speakerdeck.com/yasulab/how-ruby-boosts-young-innovative-creators-in-the-mitou-junior-program) ([&raquo; 動画で見る](https://youtu.be/Jo8lZkvC-No?t=17160))_
 
 
 <div id='how-to-build-generators'><br></div>
