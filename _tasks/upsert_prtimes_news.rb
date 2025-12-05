@@ -6,14 +6,8 @@ require 'yaml'
 require 'date'
 require 'open-uri'
 
-# PR TIMESのRSSフィードURL
-RSS_URL = 'https://prtimes.jp/companyrdf.php?company_id=22934'
-
-# YAMLファイルのパス
+PR_TIMES_RSS   = 'https://prtimes.jp/companyrdf.php?company_id=22934'
 NEWS_YAML_PATH = '_data/news.yml'
-
-# 取得する記事数（デフォルト: 10件）
-NUM_OF_ITEMS = (ARGV[0] || 10).to_i
 
 # YAMLファイルを行ごとに読み込み、手動でパース
 news_items = []
@@ -23,14 +17,14 @@ current_comments = []
 if File.exist?(NEWS_YAML_PATH)
   lines = File.readlines(NEWS_YAML_PATH)
   current_item = nil
-  
+
   lines.each_with_index do |line, index|
     # コメント行の処理
     if line.strip.start_with?('#')
       current_comments << line
       next
     end
-    
+
     # 新しいアイテムの開始
     if line.start_with?('- title:')
       # 前のアイテムがあれば保存
@@ -42,7 +36,7 @@ if File.exist?(NEWS_YAML_PATH)
         end
         news_items << current_item
       end
-      
+
       # 新しいアイテムを開始
       current_item = {}
       current_item['title'] = line.sub(/^- title:\s*['"]?/, '').sub(/['"]?\s*$/, '').strip
@@ -55,7 +49,7 @@ if File.exist?(NEWS_YAML_PATH)
       current_comments << line
     end
   end
-  
+
   # 最後のアイテムを保存
   if current_item
     if !current_comments.empty?
@@ -70,18 +64,18 @@ existing_links = news_items.map { |news| news['link'] }.to_set
 
 # RSSフィードをパース
 begin
-  rss_content = URI.open(RSS_URL).read
-  feed = RSS::Parser.parse(rss_content)
-  
+  rss_content = URI.open(PR_TIMES_RSS).read
+  feed        = RSS::Parser.parse(rss_content)
+
   new_items = []
-  
+
   # 最新の記事から順に処理
-  feed.items.first(NUM_OF_ITEMS).each do |item|
+  feed.items.each do |item|
     link = item.link
-    
+
     # 既存のニュースに含まれていない場合のみ追加
     next if existing_links.include?(link)
-    
+
     # 日付をYAML用のフォーマットに変換
     date = if item.respond_to?(:dc_date)
       Date.parse(item.dc_date.to_s).strftime('%Y/%m/%d')
@@ -90,22 +84,22 @@ begin
     else
       Date.today.strftime('%Y/%m/%d')
     end
-    
+
     # タイトルに「(公式)」を追加
     title = "#{item.title} (公式)"
-    
+
     new_items << {
       'title' => title,
       'link' => link,
       'date' => date
     }
   end
-  
+
   # 新しい記事がある場合
   if new_items.any?
     # すべてのニュースを日付順にソート（新しい順）
     all_news = (new_items + news_items).sort_by { |item| Date.parse(item['date']) }.reverse!
-    
+
     # YAMLファイルに書き込み
     File.open(NEWS_YAML_PATH, 'w') do |file|
       all_news.each_with_index do |news, index|
@@ -114,7 +108,7 @@ begin
         if original_index && comment_blocks[original_index]
           file.write(comment_blocks[original_index])
         end
-        
+
         # 常にクォートを使用（シンプルで安全）
         file.write("- title: '#{news['title'].gsub("'", "''")}'\n")
         file.write("  link: '#{news['link']}'\n")
@@ -122,7 +116,7 @@ begin
         file.write("\n") unless index == all_news.size - 1
       end
     end
-    
+
     puts "✅ #{new_items.size}件の新しいプレスリリースを追加しました:"
     new_items.each do |item|
       puts "  - #{item['title']}"
@@ -132,7 +126,7 @@ begin
   else
     puts "ℹ️  新しいプレスリリースはありません。"
   end
-  
+
 rescue => e
   puts "❌ エラーが発生しました: #{e.message}"
   exit 1
