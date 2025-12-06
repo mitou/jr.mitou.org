@@ -6,13 +6,16 @@ require 'yaml'
 require 'date'
 require 'open-uri'
 
-PR_TIMES_RSS   = 'https://prtimes.jp/companyrdf.php?company_id=22934'
+# 最新N件のみを対象とする（古い記事は既に手動で追加済みと見なす）
+RSS_MAX_ITEMS  = 10
+RSS_PR_TIMES   = 'https://prtimes.jp/companyrdf.php?company_id=22934'
 NEWS_YAML_PATH = '_data/news.yml'
 
 # YAMLファイルを行ごとに読み込み、手動でパース
-news_items = []
-comment_blocks = {}
+news_items       = []
+comment_blocks   = {}
 current_comments = []
+
 
 if File.exist?(NEWS_YAML_PATH)
   lines = File.readlines(NEWS_YAML_PATH)
@@ -44,6 +47,8 @@ if File.exist?(NEWS_YAML_PATH)
       current_item['link'] = line.sub(/^\s*link:\s*['"]?/, '').sub(/['"]?\s*$/, '').strip
     elsif line.start_with?('  date:') && current_item
       current_item['date'] = line.sub(/^\s*date:\s*/, '').strip
+    elsif line.start_with?('  lang:') && current_item
+      current_item['lang'] = line.sub(/^\s*lang:\s*/, '').strip
     elsif line.strip.empty? && !current_comments.empty?
       # 空行もコメントブロックの一部として保持
       current_comments << line
@@ -64,22 +69,28 @@ existing_links = news_items.map { |news| news['link'] }.to_set
 
 # RSSフィードをパース
 begin
-  rss_content = URI.open(PR_TIMES_RSS).read
+  rss_content = URI.open(RSS_PR_TIMES).read
   feed        = RSS::Parser.parse(rss_content)
 
   new_items = []
 
-  # 最新の記事から順に処理
-  feed.items.each do |item|
+  # 最新N件のみを処理
+  feed.items.first(RSS_MAX_ITEMS).each do |item|
     link = item.link
+
+    # AIフロンティアプログラムの記事をスキップ
+    if item.title.include?("AIフロンティア")
+      puts "⏭️  スキップ: AIフロンティアプログラム記事"
+      next
+    end
 
     # 既存のニュースに含まれていない場合のみ追加
     next if existing_links.include?(link)
 
-    # 日付をYAML用のフォーマットに変換
-    date = if item.respond_to?(:dc_date)
+    # 日付を取得してYAML用のフォーマットに変換
+    date = if item.respond_to?(:dc_date) && item.dc_date
       Date.parse(item.dc_date.to_s).strftime('%Y/%m/%d')
-    elsif item.respond_to?(:date)
+    elsif item.respond_to?(:date) && item.date
       Date.parse(item.date.to_s).strftime('%Y/%m/%d')
     else
       Date.today.strftime('%Y/%m/%d')
@@ -113,6 +124,12 @@ begin
         file.write("- title: '#{news['title'].gsub("'", "''")}'\n")
         file.write("  link: '#{news['link']}'\n")
         file.write("  date: #{news['date']}\n")
+
+        # langフィールドがある場合は追加
+        if news['lang']
+          file.write("  lang: #{news['lang']}\n")
+        end
+
         file.write("\n") unless index == all_news.size - 1
       end
     end
