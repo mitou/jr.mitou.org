@@ -7,7 +7,7 @@ require 'date'
 require 'open-uri'
 
 # 最新N件のみを対象とする（古い記事は既に手動で追加済みと見なす）
-RSS_MAX_ITEMS  = 10
+RSS_MAX_ITEMS  = 5
 RSS_PR_TIMES   = 'https://prtimes.jp/companyrdf.php?company_id=22934'
 NEWS_YAML_PATH = '_data/news.yml'
 
@@ -46,13 +46,13 @@ lines.each_with_index do |line, index|
 
     # 新しいアイテムを開始
     current_item = {}
-    current_item['title'] = line.sub(/^- title:\s*['"]?/, '').sub(/['"]?\s*$/, '').strip
+    current_item[:title] = line.sub(/^- title:\s*['"]?/, '').sub(/['"]?\s*$/, '').strip
   elsif line.start_with?('  link:') && current_item
-    current_item['link'] = line.sub(/^\s*link:\s*['"]?/, '').sub(/['"]?\s*$/, '').strip
+    current_item[:link]  = line.sub(/^\s*link:\s*['"]?/, '').sub(/['"]?\s*$/, '').strip
   elsif line.start_with?('  date:') && current_item
-    current_item['date'] = line.sub(/^\s*date:\s*/, '').strip
+    current_item[:date]  = line.sub(/^\s*date:\s*/, '').strip
   elsif line.start_with?('  lang:') && current_item
-    current_item['lang'] = line.sub(/^\s*lang:\s*/, '').strip
+    current_item[:lang]  = line.sub(/^\s*lang:\s*/, '').strip
   elsif line.strip.empty? && !current_comments.empty?
     # 空行もコメントブロックの一部として保持
     current_comments << line
@@ -67,14 +67,10 @@ if current_item
   news_items << current_item
 end
 
-# 既存のリンクをSetに格納（重複チェック用）
+# 既存リンクをSetに格納し（重複チェック用）、RSSフィードをパース
 existing_links = news_items.map { |news| news['link'] }.to_set
-
-# RSSフィードをパース
-rss_content = URI.open(RSS_PR_TIMES).read
-feed        = RSS::Parser.parse(rss_content)
-
-new_items = []
+feed           = RSS::Parser.parse(URI.open(RSS_PR_TIMES).read)
+new_items      = []
 
 # 最新N件のみを処理
 feed.items.first(RSS_MAX_ITEMS).each do |item|
@@ -96,9 +92,9 @@ feed.items.first(RSS_MAX_ITEMS).each do |item|
   title = "#{item.title} (公式)"
 
   new_items << {
-    'title' => title,
-    'link' => link,
-    'date' => date
+    title: title,
+    link:  link,
+    date:  date,
   }
 end
 
@@ -106,26 +102,26 @@ end
 if new_items.any?
   # 元のファイル内容をバックアップ
   original_content = File.read(NEWS_YAML_PATH)
-  
+
   # 新規記事のみを先頭に追加（既存コンテンツは変更しない）
   File.open(NEWS_YAML_PATH, 'w') do |file|
     # 新規記事を先頭に追加
     new_items.reverse.each do |news|
-      file.write("- title: '#{news['title'].gsub("'", "''")}'\n")
-      file.write("  link: '#{news['link']}'\n")
-      file.write("  date: #{news['date']}\n")
+      file.write("- title: '#{news[:title].gsub("'", "''")}'\n")
+      file.write("  link: '#{news[:link]}'\n")
+      file.write("  date: #{news[:date]}\n")
       file.write("\n")
     end
-    
+
     # 既存のファイル内容をそのまま追加
     file.write(original_content)
   end
 
   puts "✅ #{new_items.size}件の新しいプレスリリースを追加しました:"
   new_items.each do |item|
-    puts "  - #{item['title']}"
-    puts "    #{item['link']}"
-    puts "    #{item['date']}"
+    puts "  - #{item[:title]}"
+    puts "    #{item[:link]}"
+    puts "    #{item[:date]}"
   end
 else
   puts "ℹ️  新しいプレスリリースはありません。"
