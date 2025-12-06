@@ -5,7 +5,7 @@
 <ul class="list-none news-list">
   {% for news in news_by_date %}
   <li>
-    <span class="news-pc-date pc-inline-b">{{ news.date }}</span>
+    <span class="news-pc-date pc-inline-b">{{ news.date | date: "%Y/%m/%d" }}</span>
     <a href="{{ news.link }}">
       {{ news.title }}
       <span class="ph-inline-b">- {{ news.date | date: "%Y/%m/%d" }}</span>
