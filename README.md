@@ -1,4 +1,4 @@
-[![Test & Deploy](https://github.com/mitou/jr.mitou.org/actions/workflows/test.yml/badge.svg)](https://github.com/mitou/jr.mitou.org/actions/workflows/test.yml) [![Upsert PR TIMES News](https://github.com/mitou/jr.mitou.org/actions/workflows/upsert_prtimes_news.yml/badge.svg)](https://github.com/mitou/jr.mitou.org/actions/workflows/upsert_prtimes_news.yml) [![pages-build-deployment](https://github.com/mitou/jr.mitou.org/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/mitou/jr.mitou.org/actions/workflows/pages/pages-build-deployment) [![CodeQL](https://github.com/mitou/jr.mitou.org/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/mitou/jr.mitou.org/actions/workflows/codeql-analysis.yml)
+[![Test & Deploy](https://github.com/mitou/jr.mitou.org/actions/workflows/test.yml/badge.svg)](https://github.com/mitou/jr.mitou.org/actions/workflows/test.yml) [![pages-build-deployment](https://github.com/mitou/jr.mitou.org/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/mitou/jr.mitou.org/actions/workflows/pages/pages-build-deployment) [![CodeQL](https://github.com/mitou/jr.mitou.org/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/mitou/jr.mitou.org/actions/workflows/codeql-analysis.yml)
 
 # 未踏ジュニア公式Webサイト
 [![Cover Photo of MITOU Junior](https://raw.githubusercontent.com/mitou/jr.mitou.org/main/assets/img/mitoujr_cover.png)](https://jr.mitou.org/)
@@ -197,17 +197,17 @@ $ bundle exec rake test
 
 [成果報告会](https://jr.mitou.org/final)が近づいたら、以下の手順で新年度の採択プロジェクトを公開します。
 
-1. [README 冒頭にある手順](https://github.com/mitou/jr.mitou.org#readme)に沿って [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) を追加する
-1. [README 冒頭にある手順](https://github.com/mitou/jr.mitou.org#readme)に沿って [`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) を追加する (サムネ画像以外)
+1. [README 冒頭にある手順](#readme)に沿って [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) を追加する
+1. [README 冒頭にある手順](#readme)に沿って [`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) を追加する (サムネ画像以外)
 1. 所定のフォルダにあるサムネイル画像を `/assets/img/projects/20xx` に配置し、[`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) に追加する (デフォルトでは `#{project.id}.webp` を参照)
 1. 上記の情報をベースに、新年度の統計情報を [`_data/stats.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/stats.yml) に追加する
 1. トップページ ([`index.md`](https://github.com/mitou/jr.mitou.org/blob/main/index.md?plain=1)) と成果報告会ページ ([`final.md`](https://github.com/mitou/jr.mitou.org/blob/main/final.md?plain=1)) で表示するプロジェクトを新年度に更新する
 1. [`/projects`](https://github.com/mitou/jr.mitou.org/blob/main/projects) ディレクトリに `20xx.md` ファイルと `20xx.json` ファイルを追加する
 1. コメントアウトされているトップページ ([`index.md`](https://github.com/mitou/jr.mitou.org/blob/main/index.md?plain=1)) のアナウンス情報を更新する
-1. 成果報告会ページ ([`final.md`]((https://github.com/mitou/jr.mitou.org/blob/main/final.md?plain=1))) のコメント情報にしたがってサムネイル情報などを更新する
-1. 成果報告会が終わったら `_data/finals.yml` を更新する
+1. 成果報告会ページ ([`final.md`](https://github.com/mitou/jr.mitou.org/blob/main/final.md?plain=1) のコメント情報にしたがってサムネイル情報などを更新する
+1. 成果報告会が終わったら [`_data/finals.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/finals.md?plain=1) を更新する
 
-ローカル環境で生成結果を確認したい場合は、上記セクション「[Webサイトの仕組みを改善したい](https://github.com/mitou/jr.mitou.org#hammer_and_wrench-web%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF%E3%82%92%E6%94%B9%E5%96%84%E3%81%97%E3%81%9F%E3%81%84)」の手順に沿って進めてください。
+ローカル環境で生成結果を確認したい場合は、上記セクション「[Webサイトの仕組みを改善したい](https://github.com/mitou/jr.mitou.org#how-to-build)」の手順に沿って進めてください。
 
 - :octocat: 2025年度の対応例: [#233](https://github.com/mitou/jr.mitou.org/pull/233)
 - :octocat: 2024年度の対応例: [#195](https://github.com/mitou/jr.mitou.org/pull/195)
@@ -220,9 +220,9 @@ $ bundle exec rake test
 
 [スパクリ認定](https://jr.mitou.org/about#supports-awarding)の結果が出たら、以下の手順で公開します。
 
-1. [README 冒頭にある手順](https://github.com/mitou/jr.mitou.org#readme)に沿って [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) の `is_spc: true` を追加する
+1. [README 冒頭にある手順](#readme)に沿って [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) の `is_spc: true` を追加する
 1. 上記の結果をベースに、スパクリの統計情報を [`_data/stats.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/stats.yml) に追加する
-1. プレスがあれば、プレス情報を[お知らせ](#how-to-update-news) ([`_data/news.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/news.yml) )に追加する
+1. プレスがあれば、プレス情報を[お知らせに追記](#how-to-update-news)する
 1. 翌年度の開催が決定していれば、次回の募集要項（予定）を追加する ([追加例](https://github.com/mitou/jr.mitou.org/commit/7979630))
 1. 翌年度の開催が決定していれば、古くなった応募の手引きを更新する ([更新例](https://github.com/mitou/jr.mitou.org/commit/2c3243be))
 
