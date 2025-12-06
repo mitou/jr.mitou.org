@@ -1,5 +1,5 @@
 {% if page.lang != 'en' %}
-  {% assign news_by_date = site.data.news | sort: 'date' | reverse %} {% else %}
+  {% assign news_by_date = site.data.news | sort: 'date' | reverse                       %} {% else %}
   {% assign news_by_date = site.data.news | sort: 'date' | reverse | where: 'lang', 'en' %}
 {% endif %}
 <ul class="list-none news-list">
@@ -7,8 +7,8 @@
   <li>
     <span class="news-pc-date pc-inline-b">{{ news.date }}</span>
     <a href="{{ news.link }}">
-      {{ news.title }}{% unless news.link contains 'http' %} (公式){% endunless%}
-      <span class="ph-inline-b">- {{ news.date }}</span>
+      {{ news.title }}
+      <span class="ph-inline-b">- {{ news.date | date: "%Y/%m/%d" }}</span>
     </a>
   </li>
   {% if include.limit and include.limit == forloop.index %}{% break %}{% endif %}
