@@ -22,7 +22,7 @@ unless File.exist?(NEWS_YAML_PATH)
 end
 
 # YAMLファイルが存在する場合のみパース処理を実行
-lines = File.readlines(NEWS_YAML_PATH)
+lines        = File.readlines(NEWS_YAML_PATH)
 current_item = nil
 
 lines.each_with_index do |line, index|
@@ -68,7 +68,7 @@ if current_item
 end
 
 # 既存リンクをSetに格納し（重複チェック用）、RSSフィードをパース
-existing_links = news_items.map { |news| news['link'] }.to_set
+existing_links = news_items.map { |news| news[:link] }.to_set
 feed           = RSS::Parser.parse(URI.open(RSS_PR_TIMES).read)
 new_items      = []
 
