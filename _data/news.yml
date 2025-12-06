@@ -1,3 +1,8 @@
+# 'lang: en' が設定されている場合、
+# 英語版の News セクションにも表示されます。
+# 日本語版は設定の有無に関わらず表示されます。
+# https://jr.mitou.org/english/#news
+
 - title: '小中高生クリエータ支援プログラム『未踏ジュニア』、2025年度スーパークリエータ認定者を公開 (公式)'
   link: 'https://prtimes.jp/main/html/rd/p/000000018.000022934.html'
   date: 2025/11/30
