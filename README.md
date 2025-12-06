@@ -197,8 +197,8 @@ $ bundle exec rake test
 
 [成果報告会](https://jr.mitou.org/final)が近づいたら、以下の手順で新年度の採択プロジェクトを公開します。
 
-1. [README 冒頭にある手順](https://github.com/mitou/jr.mitou.org#readme)に沿って [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) を追加する
-1. [README 冒頭にある手順](https://github.com/mitou/jr.mitou.org#readme)に沿って [`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) を追加する (サムネ画像以外)
+1. [README 冒頭にある手順](#readme)に沿って [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) を追加する
+1. [README 冒頭にある手順](#readme)に沿って [`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) を追加する (サムネ画像以外)
 1. 所定のフォルダにあるサムネイル画像を `/assets/img/projects/20xx` に配置し、[`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) に追加する (デフォルトでは `#{project.id}.webp` を参照)
 1. 上記の情報をベースに、新年度の統計情報を [`_data/stats.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/stats.yml) に追加する
 1. トップページ ([`index.md`](https://github.com/mitou/jr.mitou.org/blob/main/index.md?plain=1)) と成果報告会ページ ([`final.md`](https://github.com/mitou/jr.mitou.org/blob/main/final.md?plain=1)) で表示するプロジェクトを新年度に更新する
@@ -220,7 +220,7 @@ $ bundle exec rake test
 
 [スパクリ認定](https://jr.mitou.org/about#supports-awarding)の結果が出たら、以下の手順で公開します。
 
-1. [README 冒頭にある手順](https://github.com/mitou/jr.mitou.org#readme)に沿って [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) の `is_spc: true` を追加する
+1. [README 冒頭にある手順](#readme)に沿って [`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) の `is_spc: true` を追加する
 1. 上記の結果をベースに、スパクリの統計情報を [`_data/stats.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/stats.yml) に追加する
 1. プレスがあれば、プレス情報を[お知らせに追記](#how-to-update-news)する
 1. 翌年度の開催が決定していれば、次回の募集要項（予定）を追加する ([追加例](https://github.com/mitou/jr.mitou.org/commit/7979630))
