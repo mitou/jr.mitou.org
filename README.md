@@ -255,7 +255,7 @@ $ bundle exec rake test
 1. レビューが大体終わったら英文を [`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) のカラムに英文を追加する
 1. 追加したら[ページ生成タスク](#how-to-build-generators)を実行し、`/english/projects` ページから結果を確認する
 1. [`english/index.md`](https://github.com/mitou/jr.mitou.org/blob/main/english/index.md) と [`english/projects/index.md`](https://github.com/mitou/jr.mitou.org/blob/main/english/projects/index.md) にある `latest_en_year` の値を最新年度に更新する
-1. 生成したページが問題なさそうであればリリースし、SNS などで周知する 🌐✨
+1. 問題なさそうであればリリースし、[お知らせに追記](#how-to-update-news)して SNS で周知する 🌐✨
 
 - :octocat: 2025年度の対応例: [#240](https://github.com/mitou/jr.mitou.org/pull/240) / [SNS](https://x.com/mitoujr/status/1989902584602321322)
 - :octocat: 2024年度の対応例: [#187](https://github.com/mitou/jr.mitou.org/pull/187) / [SNS](https://x.com/mitoujr/status/1827919186263523689)
