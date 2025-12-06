@@ -104,30 +104,21 @@ end
 
 # 新しい記事がある場合
 if new_items.any?
-  # すべてのニュースを日付順にソート（新しい順）
-  all_news = (new_items + news_items).sort_by { |item| Date.parse(item['date']) }.reverse!
-
-  # YAMLファイルに書き込み
+  # 元のファイル内容をバックアップ
+  original_content = File.read(NEWS_YAML_PATH)
+  
+  # 新規記事のみを先頭に追加（既存コンテンツは変更しない）
   File.open(NEWS_YAML_PATH, 'w') do |file|
-    all_news.each_with_index do |news, index|
-      # このアイテムの前にコメントがあるか確認
-      original_index = news_items.index(news)
-      if original_index && comment_blocks[original_index]
-        file.write(comment_blocks[original_index])
-      end
-
-      # 常にクォートを使用（シンプルで安全）
+    # 新規記事を先頭に追加
+    new_items.reverse.each do |news|
       file.write("- title: '#{news['title'].gsub("'", "''")}'\n")
       file.write("  link: '#{news['link']}'\n")
       file.write("  date: #{news['date']}\n")
-
-      # langフィールドがある場合は追加
-      if news['lang']
-        file.write("  lang: #{news['lang']}\n")
-      end
-
-      file.write("\n") unless index == all_news.size - 1
+      file.write("\n")
     end
+    
+    # 既存のファイル内容をそのまま追加
+    file.write(original_content)
   end
 
   puts "✅ #{new_items.size}件の新しいプレスリリースを追加しました:"
