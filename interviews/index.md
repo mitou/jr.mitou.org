@@ -19,9 +19,9 @@ thumbnail: /assets/img/interviews/interview_ogp.png
   {% assign creator = site.data.creators | find: 'id', interview.creator  %}
   {% assign project = site.data.projects | find: 'id', creator.project_id %}
 
-  <div class="project" id="{{ creator.name }}">
+  <div class="project" id="{{ creator.id }}">
     <h3 class="project-title no-link-decoration">
-      <a href='#{{ creator.name }}'>
+      <a href='#{{ creator.id }}'>
 	未踏ジュニア 修了生インタビュー<br>
 	─
 	{{ creator.name }}さん
