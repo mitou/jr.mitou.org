@@ -65,6 +65,10 @@
 # 採択者の体験談
 # （公式インタビュー記事は自動追加のため不要）
 # https://jr.mitou.org/applications/#story
+- project_id: oshaberi_taskboard
+  title: 未踏ジュニア振り返り
+  link: https://note.com/sci_invention/n/n719e2a6f54d5?sub_rt=share_pb
+  type: story
 - project_id: jellyfish_alert
   title: 未踏ジュニア2024を終えて
   link: https://note.com/sh_o4964/n/n07afe27ab5bc
