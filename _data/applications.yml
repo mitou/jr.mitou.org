@@ -62,12 +62,18 @@
   link: https://speakerdeck.com/yasulab/believe-in-your-passion
   type: tips
 
+
 # 採択者の体験談
 # （公式インタビュー記事は自動追加のため不要）
 # https://jr.mitou.org/applications/#story
+
+- project_id: fudey
+  title: プログラミング初心者が未踏ジュニア完走した話
+  link: https://note.com/nabi88/n/nbdc2fb731654
+  type: story
 - project_id: oshaberi_taskboard
   title: 未踏ジュニア振り返り
-  link: https://note.com/sci_invention/n/n719e2a6f54d5?sub_rt=share_pb
+  link: https://note.com/sci_invention/n/n719e2a6f54d5
   type: story
 - project_id: jellyfish_alert
   title: 未踏ジュニア2024を終えて
