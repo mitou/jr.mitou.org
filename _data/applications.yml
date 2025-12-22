@@ -67,6 +67,10 @@
 # （公式インタビュー記事は自動追加のため不要）
 # https://jr.mitou.org/applications/#story
 
+- project_id: kigo
+  title: 未踏ジュニアの振り返り
+  link: https://note.com/otama_kum_akero/n/nab69337fe6dc
+  type: story
 - project_id: fudey
   title: プログラミング初心者が未踏ジュニア完走した話
   link: https://note.com/nabi88/n/nbdc2fb731654
