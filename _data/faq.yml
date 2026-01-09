@@ -16,7 +16,7 @@
 
 
 - q: 未踏ジュニアは誰が運営していますか？
-  a: 未踏ジュニアは、未踏事業を運営する IPA と相互協力協定を締結した、<a href='https://prtimes.jp/main/html/rd/p/000000001.000013014.html'>一般社団法人未踏</a>によって運営されています。<a href='/mentors'>メンター</a>を含め、未踏修了生のボランティアと、企業・団体様からのご支援により運営されています。運営にかかる費用は<a href='#sponsors'>スポンサー各社</a>の支援によって賄われています。<a href='/about'>[詳細を見る]</a>
+  a: 未踏ジュニアは、未踏事業を運営する IPA と相互協力協定を締結した、<a href='/#organizer'>一般社団法人未踏</a>によって運営されています。<a href='/mentors'>メンター</a>を含め、未踏修了生のボランティアと、企業・団体様からのご支援により運営されています。運営にかかる費用は<a href='#sponsors'>スポンサー各社</a>の支援によって賄われています。<a href='/about'>[詳細を見る]</a>
   q_en: Who runs the MITOU Junir program?
   a_en: <a href='https://www.mitou.org/'>MITOU Foundation</a> runs the project. Volunteer by project manager and MITOU graduates, and support by companies and organizations.
 
@@ -86,17 +86,17 @@
   a_en: Yes. Check out "<a href='https://www.youtube.com/watch?v=UgrS5DQOs9Y'>Guidelines in Case (in Japanese)</a>" video in YouTube for details.
 
 - q: 開発した成果物の権利は誰に帰属しますか？
-  a: クリエータに帰属します。詳細は <a href='https://helpfeel.com/mitoujr/%E9%96%8B%E7%99%BA%E3%81%97%E3%81%9F%E6%88%90%E6%9E%9C%E7%89%A9%E3%81%AE%E6%A8%A9%E5%88%A9%E3%81%AF%E8%AA%B0%E3%81%AB%E5%B8%B0%E5%B1%9E%E3%81%97%E3%81%BE%E3%81%99%E3%81%8B%EF%BC%9F-608b8bfcf9926e001cce2477'>よくある質問と回答（Helpfeel）</a>をご参照ください。
+  a: クリエータに帰属します。詳細は <a href='https://helpfeel.com/mitoujr/開発した成果物の権利は誰に帰属しますか？-608b8bfcf9926e001cce2477'>よくある質問と回答（Helpfeel）</a>をご参照ください。
   q_en: To whom does the rights of the developed project belong to?
   a_en: The person who created it.
 
 - q: 未踏ジュニアスーパークリエータとはなんですか？
-  a: 特に優れた成果を残したクリエータは「未踏ジュニアスーパークリエータ」として認定され、慶應義塾大学SFCなどの<a href='https://www.sfc.keio.ac.jp/news/012903.html'>推薦枠の対象</a>にもなっています。これまでの認定者数の推移は<a href='/stats'>統計情報</a>をご参照ください。
+  a: 特に優れた成果を残したクリエータは「未踏ジュニアスーパークリエータ」として認定され、慶應義塾大学SFCなどの<a href='/admissions'>推薦枠の対象</a>にもなっています。これまでの認定者数の推移は<a href='/stats'>統計情報</a>をご参照ください。
   q_en: #
   a_en: #
 
 - q: どうなると採択されますか？担当メンターはどう決まりますか？
-  a: たくさんのご応募の中から、<a href='#mentors'>メンター陣</a>の誰か1人でも「あなたの<a href='/applications'>提案書</a>を最も応援したい」となったとき、採択されます。そのメンターが、あなたの担当メンターになります。詳細は<a href="https://helpfeel.com/mitoujr/%E6%8E%A1%E6%8A%9E%E3%81%AE%E5%9F%BA%E6%BA%96%E3%81%AF%E4%BD%95%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F-608b9004b063970020612eaf">よくある質問と回答（Helpfeel）</a>をご参照ください。
+  a: たくさんのご応募の中から、<a href='#mentors'>メンター陣</a>の誰か1人でも「あなたの<a href='/applications'>提案書</a>を最も応援したい」となったとき、採択されます。そのメンターが、あなたの担当メンターになります。詳細は<a href="https://helpfeel.com/mitoujr/採択の基準は何ですか？-608b9004b063970020612eaf">よくある質問と回答（Helpfeel）</a>をご参照ください。
   q_en: #
   a_en: #
 
