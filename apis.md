@@ -22,6 +22,10 @@ redirect_from:
 
 ## 内部向け API 一覧（[自動テスト用](https://github.com/mitou/jr.mitou.org/blob/main/_tests/custom_checks.rb)）
 
+<div class="note">
+  以下は<a href="https://github.com/mitou/jr.mitou.org/blob/main/_tests/custom_checks.rb">自動テスト</a>などで使われている内部向け API のため、予告なく変更・削除される場合がある点にご注意ください。
+</div>
+
 <div id='index'>
   <ul>
     {% for api in site.data.apis %}
@@ -34,5 +38,5 @@ redirect_from:
 </div>
 
 <div class="note">
-  上記は<a href="https://github.com/mitou/jr.mitou.org/blob/main/_tests/custom_checks.rb">自動テスト</a>などで使われている内部向け API（開発中）のため、予告なく変更・削除される場合がある点にご注意ください。
+  上記は<a href="https://github.com/mitou/jr.mitou.org/blob/main/_tests/custom_checks.rb">自動テスト</a>などで使われている内部向け API のため、予告なく変更・削除される場合がある点にご注意ください。
 </div>
