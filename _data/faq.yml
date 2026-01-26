@@ -41,9 +41,9 @@
   a_en: The MITOU Junior development fee is strictly for development tools and software. It is not salary paid for labor, so it does not count as working.
 
 - q: IPAの未踏IT人材発掘・育成事業に既に応募しています。応募資料を使い回せますか？
-  a: いいえ、2026年度より、未踏IT人材発掘・育成事業に既に同様の内容を応募している場合でも、未踏ジュニアのフォーマットにあわせて提出をいただくことが必須になりました。
-  q_en: I already submitted proposal to The MITOU Program for under 25 run by IPA. Can I use the same application?
-  a_en: Yes. However, the same proposal and documents for <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>The MITOU Program</a> can no longer be used to apply for the MITOU Junior program from 2026.
+  a: いいえ、2026年度より、未踏IT人材発掘・育成事業に既に同様の内容を応募している場合でも、<a href='/applications/#template'>未踏ジュニアのフォーマット</a>にあわせて提出をいただくことが必須になりました。
+  q_en: I already submitted a proposal to another <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>MITOU Program</a> run by IPA. Can I use the same application?
+  a_en: You can submit the same project proposal, but please use <a href='/applications/#template'>our template</a>. From 2026, this is required for all MITOU Junior applications.
 
 - q: IPAの未踏IT人材発掘・育成事業に既に応募しています。両方に採択されたらどうなりますか？
   a: 未踏ジュニアのプロジェクト開始日より前に、未踏IT人材発掘・育成事業の採択結果が通知される予定です。その結果を受けて、未踏ジュニアの方を辞退していただいても大丈夫です。
