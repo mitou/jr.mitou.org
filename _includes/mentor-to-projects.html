@@ -1,5 +1,16 @@
 {% assign projects = site.data.projects | where: 'mentor_id', include.mentor_id %}
-<h4>採択プロジェクト{% if projects.size > 0 %} <small style="font-weight: normal;">({{ projects.size }}件)</small>{% endif %}</h4>
+{% assign mentor   = site.data.mentors  | find:  'id',        include.mentor_id %}
+
+{% if mentor.is_alumni and projects.size == 0 %}
+<!-- Show nothing in 採択プロジェクト section in this case. -->
+{% else %}
+<h4>
+  採択プロジェクト
+  {% if projects.size > 0 %}
+    <small style="font-weight: normal;">({{ projects.size }}件)</small>
+  {% endif %}
+</h4>
+
 <ul>
   {% for pj in projects %}
     <li><a href="/projects/{{ pj.year }}/{{ pj.id }}">{{ pj.title }}</a></li>
@@ -7,3 +18,5 @@
     <li><a href='/guideline'>次回募集</a>から採択開始!</li>
   {% endfor %}
 </ul>
+{% endif %}
+
