@@ -1,0 +1,54 @@
+{% assign endorsements = site.data.endorsements | where_exp: "item", "item.draft != true" %}
+{% if endorsements and endorsements.size > 0 %}
+<section id="endorsements">
+  {% if page.layout == "post" or page.layout == "interview" or page.layout == "english" %}
+  <h2>推薦の声</h2>
+  {% else %}
+  <h2 class="heading-line">推薦の声</h2>
+  {% endif %}
+  <div class="endorsements-list flex">
+    {% for endorsement in endorsements %}
+    {% assign sponsor_name = endorsement.sponsor_name | default: endorsement.company %}
+    {% assign sponsor = site.data.sponsors | where: "name", sponsor_name | first %}
+    {% assign company_link = sponsor.link %}
+    {% assign company_name = endorsement.company | default: sponsor.name %}
+    {% assign logo_src = nil %}
+    {% if sponsor and sponsor.img %}
+      {% assign logo_src = "/assets/img/sponsors/" | append: sponsor.img %}
+    {% endif %}
+    <div class="endorsement-card">
+      <div class="endorsement-card-head">
+        <div class="endorsement-person">
+          <img src="/assets/img/spinner.svg" data-src="/assets/img/{{ endorsement.photo }}" alt="{{ endorsement.name }}の写真" class="lazyload endorsement-photo" loading="lazy">
+          <div class="endorsement-meta">
+            <p class="endorsement-name">{{ endorsement.name }}</p>
+            {% if endorsement.title %}
+            <p class="endorsement-title">{{ endorsement.title }}</p>
+            {% endif %}
+            {% if company_name %}
+              {% if company_link %}
+              <a href="{{ company_link }}" class="endorsement-company" target="_blank" rel="noopener">{{ company_name }}</a>
+              {% else %}
+              <p class="endorsement-company">{{ company_name }}</p>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+        {% if logo_src %}
+        <div class="endorsement-logo">
+          {% if company_link %}
+          <a href="{{ company_link }}" target="_blank" rel="noopener">
+            <img src="/assets/img/spinner.svg" data-src="{{ logo_src }}" alt="{{ company_name }} ロゴ" class="lazyload" loading="lazy">
+          </a>
+          {% else %}
+          <img src="/assets/img/spinner.svg" data-src="{{ logo_src }}" alt="{{ company_name }} ロゴ" class="lazyload" loading="lazy">
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+      <p class="endorsement-quote">{{ endorsement.quote }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

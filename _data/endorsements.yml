@@ -1,0 +1,17 @@
+# 推薦の声（スポンサーコメント）
+# draft: true の間は表示されません。公開時に削除してください。
+- name: "山田 太郎"
+  title: "取締役 / 人材開発部"
+  company: "GMOインターネットグループ株式会社"
+  sponsor_name: "GMOインターネットグループ株式会社"
+  photo: "endorsements/unknown.webp"
+  quote: "未踏ジュニアの挑戦は、次世代の創造力を伸ばす素晴らしい取り組みです。"
+  draft: false
+
+- name: "佐藤 花子"
+  title: "人材戦略部 部長"
+  company: "近畿大学情報学部"
+  sponsor_name: "近畿大学情報学部"
+  photo: "endorsements/unknown.webp"
+  quote: "早い段階から本物の開発体験を積める環境に共感し、支援しています。"
+  draft: false
