@@ -121,7 +121,7 @@ class CustomChecks < ::HTMLProofer::Check
   # Check if navigation text in each PJ page fails to be encoded. (文字化け)
   # Fetched sample PJ page: https://jr.mitou.org/projects/2024/qwet
   def check_navi_text
-    projects   = YAML.load_file("_data/projects.yml", symbolize_names: true).select{ it[:year] == 2024 }
+    projects   = YAML.load_file("_data/projects.yml", symbolize_names: true).select { |project| project[:year] == 2024 }
     prev_text  = @html.css('nav > p.prev').text.strip.lines.last.strip[0..-4]
     next_text  = @html.css('nav > p.next').text.strip.lines.last.strip[0..-4]
     prev_title = projects[-1][:title]
@@ -135,8 +135,8 @@ class CustomChecks < ::HTMLProofer::Check
   # The nav links should be the same order as https://jr.mitou.org/applications/#sample
   def check_app_order
     sample_ids = YAML.load_file("_data/applications.yml", symbolize_names: true)
-      .select { it[:type] == 'sample' }
-      .map    { it[:project_id] }.reverse
+      .select { |application| application[:type] == 'sample' }
+      .map    { |application| application[:project_id] }.reverse
 
     current_id = sample_ids.first # => The 1st sample application (abecobe)
     prev_id    = @html.css('nav > p.prev > a[href]')[0].attribute_nodes[0].value
@@ -154,5 +154,44 @@ class CustomChecks < ::HTMLProofer::Check
           \s correct: #{sample_ids[-1]}
       ERROR_MESSAGE
     ) unless sample_ids[1] == prev_id and sample_ids[-1] == next_id
+  end
+end
+
+# Custom checks for HTML-Proofer
+class TrailingSlash < HTMLProofer::Check
+  def run
+    @html.css('a').each do |node|
+      href = node['href']
+      next if href.nil? || href.empty?
+
+      # 外部リンクを除外（httpで始まるものをスキップ）
+      next if href.start_with?('http://', 'https://')
+
+      # アンカーがある場合はパス部分のみを取得、ない場合はhref全体
+      base_path = href.include?('#') ? href.split('#').first : href
+
+      # base_pathが空の場合（例：#anchorのみ）はスキップ
+      next if base_path.nil? || base_path.empty?
+
+      # trailing slashで終わる内部リンクをチェック
+      next unless base_path.end_with?('/')
+
+      # ルートパス（/）は除外
+      next if base_path == '/'
+
+      # 絶対パスの場合は _site からの相対パスに変換
+      file_path = if base_path.start_with?('/')
+                    File.join('_site', base_path, 'index.html')
+                  else
+                    # 相対パスの場合は現在のファイルからの相対位置を計算
+                    current_dir = File.dirname(@path)
+                    File.join(current_dir, base_path, 'index.html')
+                  end
+
+      # ファイルが存在しない場合はエラー
+      unless File.exist?(file_path)
+        add_failure("Link with trailing slash '#{href}' points to non-existent path (expected: #{file_path})", line: node.line)
+      end
+    end
   end
 end
