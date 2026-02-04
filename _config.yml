@@ -7,6 +7,8 @@ url:     "https://jr.mitou.org"
 baseurl: "/" # the subpath of your site, e.g. /blog
 
 # Build settings
+permalink: pretty
+
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
