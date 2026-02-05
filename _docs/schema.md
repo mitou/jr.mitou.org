@@ -38,8 +38,8 @@
 **実装状況**: 全プロジェクトページで本番稼働中
 ```ruby
 # Phase 3 実装完了（2025年11月8日）
-IO.write(path_ja, page_ja + "\n" + page_shared_contents + "\n" + project_schema_data_type)
-IO.write(path_en, page_en + "\n" + page_shared_contents + "\n" + project_schema_data_type)
+File.write(path_ja, page_ja + "\n" + page_shared_contents + "\n" + project_schema_data_type)
+File.write(path_en, page_en + "\n" + page_shared_contents + "\n" + project_schema_data_type)
 ```
 
 **影響範囲**:

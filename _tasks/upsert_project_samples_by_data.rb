@@ -83,7 +83,7 @@ project_samples.each_with_index do |project, index|
 
   #puts sample_page
   #binding.irb; exit
-  IO.write(sample_path, sample_page) # + "\n" + page_shared_contents
+  File.write(sample_path, sample_page) # + "\n" + page_shared_contents
 
   puts("Upsert: #{sample_path}")
 end
