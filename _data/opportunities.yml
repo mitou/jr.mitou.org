@@ -24,6 +24,11 @@
   title: LEADING EDGE 四国
   description: "IT・デジタル技術を活用した独創的なアイデアを持つ地域の若い才能と愛媛県内企業が新しい形で結びつき、愛媛発の新たな価値を創出するオープンイノベーションプログラムです。 <strong>満15歳～25歳未満で四国・瀬戸内圏域</strong>にゆかりのある若者 (在学・在住・出身など) のチャレンジを待っています。"
 
+- id:    yamaguchi
+  link:  https://yamaguchi-henkaku.jp/
+  title: 山口 未来変革デジタル人材発掘・育成プログラム
+  description: "山口県が主導する、地元の高校生・大学生・若手社会人などを対象にしたデジタル人材育成事業です。ICT で世の中をよくしたい方、そんな力をこれから身につけたい方を大募集！"
+
 - id:    ishin
   link:  https://mitou-ishin.com/
   title: ISHIN (鹿児島)
