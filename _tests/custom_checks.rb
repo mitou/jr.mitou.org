@@ -20,7 +20,7 @@ class CustomChecks < ::HTMLProofer::Check
   end
 
   def valid_and_equal_to?(filename)
-    # TODO: This should call add_failure() once at maximum but better than ignoring invalid filename.
+    # MEMO: May report same error multiple times, but keeps code simple and clear.
     self.add_failure("No such page found: #{filename}") && return false if not File.exist?(filename)
 
     @runner.current_filename == filename ? true : false
