@@ -21,8 +21,8 @@ class CustomChecks < ::HTMLProofer::Check
 
   def valid_and_equal_to?(filename)
     # TODO: This should call add_failure() once at maximum but better than ignoring invalid filename.
-    self.add_failure("No such file found: #{filename}") if not File.exist?(filename)
-    self.add_failure("No redirect file: #{filename} is redirect file") if File.read(filename).include? 'redirect_to'
+    self.add_failure("No such page found: #{filename}") && return false if not File.exist?(filename)
+
     @runner.current_filename == filename ? true : false
   end
 
