@@ -23,7 +23,8 @@
           <div class="endorsement-meta">
             <p class="endorsement-name">{{ endorsement.name }}</p>
             {% if endorsement.title %}
-            <p class="endorsement-title">{{ endorsement.title }}</p>
+            {% assign endorsement_title = endorsement.title | replace: '\n', '<br>' %}
+            <p class="endorsement-title">{{ endorsement_title }}</p>
             {% endif %}
             {% if company_name %}
               {% if company_link %}

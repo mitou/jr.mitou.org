@@ -7,6 +7,7 @@ $shadow-color: rgba($main-color,0.3);
 $sub-color: #ffed4d; // Yellow
 $lightgray: #eff2f6; // Light gray
 $phone-width:  760px;
+$tablet-width: 1366px;
 $header-phone: 940px;
 * {
   box-sizing: border-box;
@@ -1153,7 +1154,7 @@ footer{
 .endorsement-card-head {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
 }
@@ -1162,6 +1163,7 @@ footer{
   align-items: center;
   gap: 12px;
   min-width: 0;
+  margin-right: auto;
 }
 .endorsement-photo {
   width: 72px;
@@ -1180,6 +1182,7 @@ footer{
 .endorsement-title {
   font-size: 0.85em;
   color: #666;
+  white-space: pre-line;
 }
 .endorsement-company {
   display: inline-block;
@@ -1207,6 +1210,11 @@ footer{
   color: $main-color;
   margin-left: 4px;
   font-weight: 700;
+}
+@media screen and (max-width:$tablet-width) and (min-width: ($phone-width + 1)) {
+  #endorsements .endorsement-card {
+    width: calc(90% - 16px);
+  }
 }
 @media screen and (max-width: $phone-width) {
   .endorsement-card {
