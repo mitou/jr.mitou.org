@@ -1,7 +1,7 @@
 {% if site.data.endorsements.size > 0 %}
 <section id="endorsements">
   <h2 {% if page.layout == "default" %}class="heading-line"{% endif %}>
-    <a href='#endorsements'><i class="far fa-thumbs-up green"></i></a>
+    <a href='#endorsements'><i class="far fa-thumbs-up {% if page.layout == "default" %}green{% endif %}"></i></a>
     推薦の声
   </h2>
   <div class="endorsements-list flex">
