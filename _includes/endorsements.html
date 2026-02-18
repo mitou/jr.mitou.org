@@ -1,12 +1,11 @@
-{% assign endorsements = site.data.endorsements %}
-{% if endorsements and endorsements.size > 0 %}
+{% if site.data.endorsements.size > 0 %}
 <section id="endorsements">
-  <h2 class="heading-line">
+  <h2 {% if page.layout == "default" %}class="heading-line"{% endif %}>
     <a href='#endorsements'><i class="far fa-thumbs-up green"></i></a>
     推薦の声
   </h2>
   <div class="endorsements-list flex">
-    {% for endorsement in endorsements %}
+    {% for endorsement in site.data.endorsements %}
     {% assign sponsor = site.data.sponsors | where: "id", endorsement.sponsor_id | first %}
     {% assign company_link = sponsor.link %}
     {% assign company_name = sponsor.name %}
