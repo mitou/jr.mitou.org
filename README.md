@@ -9,7 +9,7 @@
 
 <div id='how-to-update'><br></div>
 
-## :white_check_mark: ブラウザで情報を更新できます（共通）
+## [:white_check_mark:](#how-to-update) ブラウザで情報を更新できます（共通）
 
 どこを更新するにせよ**Webブラウザが一番簡単**だと思います...!! 😆
 
@@ -24,8 +24,9 @@
 
 <div id='how-to-update-projects'><br></div>
 
-## :rocket: プロジェクト情報を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) で[プロジェクト情報](https://jr.mitou.org/projects/)を更新できます。
+## [:rocket:](#how-to-update-projects) プロジェクト情報を更新したい
+
+[`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) で[プロジェクト情報](https://jr.mitou.org/projects/)を更新できます。
 
 更新できる情報は以下のとおりです。
 ```yml
@@ -49,12 +50,15 @@
 
 [&raquo; `projects.yml` を更新する](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml)
 
+
 <div id='how-to-update-creators'><br></div>
 
-## :busts_in_silhouette: クリエータ情報を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) でクリエータ情報を更新できます。(※ 個別ページはありません)  
+## [:busts_in_silhouette:](#how-to-update-creators) クリエータ情報を更新したい
+
+[`_data/creators.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/creators.yml) でクリエータ情報を更新できます。(※ 個別ページはありません)  
 
 更新できる情報は以下のとおりです。
+
 ```yml
 - id: クリエータのID。例: mihashi
   project_id: 開発したプロジェクトのID。例: utips
@@ -69,10 +73,12 @@
 
 <div id='how-to-update-mentors'><br></div>
 
-## :bust_in_silhouette: メンター情報を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`mentors.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/mentors.yml) で[メンター情報](https://jr.mitou.org/mentors/)を更新できます。
+## [:bust_in_silhouette:](#how-to-update-mentors) メンター情報を更新したい
+
+[`_data/mentors.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/mentors.yml) で[メンター情報](https://jr.mitou.org/mentors/)を更新できます。
 
 更新できる情報は以下のとおりです。
+
 ```yml
 - id: メンターの ID (例: yohei_yasukawa)
   name:
@@ -93,10 +99,12 @@
 
 <div id='how-to-update-news'><br></div>
 
-## :newspaper: お知らせを更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`news.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/news.yml) で[お知らせ記事](https://jr.mitou.org/news)を更新できます。
+## [:newspaper:](#how-to-update-news) お知らせを更新したい
+
+[`_data/news.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/news.yml) で[お知らせ記事](https://jr.mitou.org/news)を更新できます。
 
 更新できる情報は以下のとおりです。
+
 ```yml
 - title: 記事タイトル (例：「テクノロジー×好きなこと」で“未踏”の領域に挑む10代のトップクリエーターたち (こどもとIT))
   url: 記事ページのURL (例：https://www.watch.impress.co.jp/kodomo_it/news/1219499.html)
@@ -110,9 +118,11 @@
 <div id='how-to-update-endorsements'><br></div>
 
 ## [:+1:](#how-to-update-endorsements) 推薦の声を更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`endorsements.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/endorsements.yml) で[推薦の声](https://jr.mitou.org/#endorsements)を更新できます。
+
+[`_data/endorsements.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/endorsements.yml) で[推薦の声](https://jr.mitou.org/#endorsements)を更新できます。
 
 更新できる情報は以下のとおりです。
+
 ```yml
 - name:  推薦者の氏名
   title: 推薦者の役職
@@ -126,8 +136,9 @@
 
 <div id='how-to-update-applications'><br></div>
 
-## :bookmark_tabs: 提案書ページを更新したい
-[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`applications.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/applications.yml) で[提案書ページ](https://jr.mitou.org/applications/)を更新できます。
+## [:bookmark_tabs:](#how-to-update-applications) 提案書ページを更新したい
+
+[`_data/applications.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/applications.yml) で[提案書ページ](https://jr.mitou.org/applications/)を更新できます。
 
 更新できる情報は
 
@@ -142,7 +153,7 @@
 
 <div id='how-to-build'><br></div>
 
-## :hammer_and_wrench: Webサイトの仕組みを改善したい
+## [:hammer_and_wrench:](#how-to-build) Webサイトの仕組みを改善したい
 
 ローカル環境のブラウザで確認したい場合は、次の手順でローカルサーバーを立ち上げてください。
 
@@ -165,9 +176,9 @@ $ bundle exec jekyll server
 _引用元: [テストも、国際化も！ 小中高生クリエータ支援プログラム『未踏ジュニア』を支える技術](https://speakerdeck.com/yasulab/how-ruby-boosts-young-innovative-creators-in-the-mitou-junior-program) ([&raquo; 動画で見る](https://youtu.be/Jo8lZkvC-No?t=17160))_
 
 
-<div id='how-to-build-generators'><br></div>
+<div id='how-to-build-projects'><br></div>
 
-### :scroll: プロジェクト個別ページを生成したい
+### [:scroll:](#how-to-build-projects) プロジェクト個別ページを生成したい
 
 [GitHub Actions で自動生成される](https://github.com/mitou/jr.mitou.org/blob/main/.github/workflows/test.yml)ため毎回実行する必要はありませんが、新しい年度の採択プロジェクトの新規掲載時に手動で生成・確認したい場面などあれば、下記コマンドでプロジェクト個別ページを生成してください。
 
@@ -179,7 +190,7 @@ $ bundle exec rake upsert_project_pages_by_data
 
 <div id='how-to-build-tests'><br></div>
 
-### :robot: リンク切れはテストで検知できます
+### [:robot:](#how-to-build-tests) リンク切れはテストで検知できます
 
 内部リンク (アンカー含む) や `alt` 属性の空欄などは次のコマンドでテストできます。
 
@@ -193,9 +204,9 @@ $ bundle exec rake test
 上記テストは [GitHub Actions](https://github.com/mitou/jr.mitou.org/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [.github/workflows](https://github.com/mitou/jr.mitou.org/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
 
 
-<div id='how-to-build-announcements'><br></div>
+<div id='how-to-publish-announcements'><br></div>
 
-### :loudspeaker: 新年度の募集期間中 ⇄ 募集期間外のアナウンス切り替え
+### [:loudspeaker:](#how-to-publish-announcements) 新年度の募集期間中 ⇄ 募集期間外のアナウンス切り替え
 
 新年度の未踏ジュニア募集期間中 ⇄ 募集期間外の切り替えタイミングで、アナウンス表示を切り替えます。
 
@@ -208,9 +219,9 @@ $ bundle exec rake test
 - :octocat: 2024年度の対応例: [#177](https://github.com/mitou/jr.mitou.org/pull/177)
 
 
-<div id='how-to-build-projects'><br></div>
+<div id='how-to-publish-projects'><br></div>
 
-### :new: 新年度の採択プロジェクトを公開する
+### [:new:](#how-to-publish-projects) 新年度の採択プロジェクトを公開する
 
 [成果報告会](https://jr.mitou.org/final)が近づいたら、以下の手順で新年度の採択プロジェクトを公開します。
 
@@ -231,9 +242,9 @@ $ bundle exec rake test
 - :octocat: 2023年度の対応例: [#144](https://github.com/mitou/jr.mitou.org/pull/144)
 
 
-<div id='how-to-build-spc'><br></div>
+<div id='how-to-publish-spc'><br></div>
 
-### :trophy: スパクリ認定を公開する
+### [:trophy:](#how-to-publish-spc) スパクリ認定を公開する
 
 [スパクリ認定](https://jr.mitou.org/about#supports-awarding)の結果が出たら、以下の手順で公開します。
 
@@ -248,9 +259,9 @@ $ bundle exec rake test
 - :octocat: 2023年度の対応例: [#166](https://github.com/mitou/jr.mitou.org/pull/166) / [プレス](https://prtimes.jp/main/html/rd/p/000000014.000022934.html) / [SNS](https://x.com/mitoujr/status/1739489291720651229)
 
 
-<div id='how-to-build-interview'><br></div>
+<div id='how-to-publish-interview'><br></div>
 
-### :microphone: インタビュー記事を公開する
+### [:microphone:](#how-to-publish-interview) インタビュー記事を公開する
 
 [修了生インタビュー](https://jr.mitou.org/interviews)の記事が出来たら、以下の手順で公開できます。
 
@@ -261,16 +272,16 @@ $ bundle exec rake test
 :octocat: 対応例: [Add MITOU Junior Interview: `@alicelavander` (#175)](https://github.com/mitou/jr.mitou.org/pull/175)  
 
 
-<div id='how-to-build-i18n'><br></div>
+<div id='how-to-publish-i18n'><br></div>
 
-### :globe_with_meridians: 英語版 PJ ページを公開する
+### [:globe_with_meridians:](#how-to-publish-i18n) 英語版 PJ ページを公開する
 
 **[成果報告会](https://jr.mitou.org/final)が終わったら** [各 PJ の英語ページ](https://jr.mitou.org/english/projects/)を、以下の手順で公開できます。
 
 1. LLM ([`_tasks/convert_ja2en_by_llm.rb`](https://github.com/mitou/jr.mitou.org/blob/main/_tasks/convert_ja2en_by_llm.rb)) を使って既存の日本語タイトル/概要文から英文の草案を作成する: `bundle exec rake convert_ja2en_by_llm`
 1. 生成した英文の草案を内部ツール (Cosense) で共有し、有志にレビューしてもらう
 1. レビューが大体終わったら英文を [`_data/projects.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/projects.yml) のカラムに英文を追加する
-1. 追加したら[ページ生成タスク](#how-to-build-generators)を実行し、`/english/projects` ページから結果を確認する
+1. 追加したら[ページ生成タスク](#how-to-build-projects)を実行し、`/english/projects` ページから結果を確認する
 1. [`english/index.md`](https://github.com/mitou/jr.mitou.org/blob/main/english/index.md) と [`english/projects/index.md`](https://github.com/mitou/jr.mitou.org/blob/main/english/projects/index.md) にある `latest_en_year` の値を最新年度に更新する
 1. 問題なさそうであればリリースし、[お知らせに追記](#how-to-update-news)して SNS で周知する 🌐✨
 
@@ -281,7 +292,7 @@ $ bundle exec rake test
 
 <div id='license'><br></div>
 
-## :two_hearts: 使用素材、著作物、ライセンスについて
+## [:two_hearts:](#license) 使用素材、著作物、ライセンスについて
 
 - [Font Awesome](https://fontawesome.com/license/) - :copyright: Fonticons, Inc.
 - [Twemoji](https://twemoji.twitter.com/) - :copyright: 2020 Twitter, Inc and other contributors.
@@ -308,10 +319,10 @@ $ bundle exec rake test
   ソフトウェアは「現状のまま」で、明示であるか暗黙であるかを問わず、何らの保証もなく提供されます。ここでいう保証とは、商品性、特定の目的への適合性、および権利非侵害についての保証も含みますが、それに限定されるものではありません。 作者または著作権者は、契約行為、不法行為、またはそれ以外であろうと、ソフトウェアに起因または関連し、あるいはソフトウェアの使用またはその他の扱いによって生じる一切の請求、損害、その他の義務について何らの責任も負わないものとします。
 </details>
 
+
 <div id='credits'><br></div>
 
-
-## :copyright: クレジット
+## [:copyright:](#credits) クレジット
 
 Copyright &copy; [未踏社団](https://jr.mitou.org/#organizer) [未踏ジュニア](https://jr.mitou.org/)実行委員会
 
