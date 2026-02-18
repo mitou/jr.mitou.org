@@ -1,4 +1,4 @@
-{% assign endorsements = site.data.endorsements | where_exp: "item", "item.draft != true" %}
+{% assign endorsements = site.data.endorsements %}
 {% if endorsements and endorsements.size > 0 %}
 <section id="endorsements">
   <h2 class="heading-line">
