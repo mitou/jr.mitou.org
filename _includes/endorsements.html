@@ -7,39 +7,32 @@
   <div class="endorsements-list flex">
     {% for endorsement in site.data.endorsements %}
     {% assign sponsor = site.data.sponsors | where: "id", endorsement.sponsor_id | first %}
-    {% assign company_link = sponsor.link %}
-    {% assign company_name = sponsor.name %}
-    {% assign logo_src = nil %}
-    {% if sponsor and sponsor.img %}
-      {% assign logo_src = "/assets/img/sponsors/" | append: sponsor.img %}
-    {% endif %}
     <div class="endorsement-card">
       <div class="endorsement-card-head">
         <div class="endorsement-person">
-          <img src="/assets/img/spinner.svg" data-src="/assets/img/{{ endorsement.photo }}" alt="{{ endorsement.name }}の写真" class="lazyload endorsement-photo" loading="lazy">
+          <img src="/assets/img/spinner.svg" data-src="/assets/img/{{ endorsement.photo }}" alt="{{ endorsement.name }}さんの写真" class="lazyload endorsement-photo" loading="lazy">
           <div class="endorsement-meta">
             <p class="endorsement-name">{{ endorsement.name }}</p>
             {% if endorsement.title %}
-            {% assign endorsement_title = endorsement.title | replace: '\n', '<br>' %}
-            <p class="endorsement-title">{{ endorsement_title }}</p>
+            <p class="endorsement-title">{{ endorsement.title }}</p>
             {% endif %}
-            {% if company_name %}
-              {% if company_link %}
-              <a href="{{ company_link }}" class="endorsement-company" target="_blank" rel="noopener">{{ company_name }}</a>
+            {% if sponsor.name %}
+              {% if sponsor.link %}
+              <a href="{{ sponsor.link }}" class="endorsement-company" target="_blank" rel="noopener">{{ sponsor.name }}</a>
               {% else %}
-              <p class="endorsement-company">{{ company_name }}</p>
+              <p class="endorsement-company">{{ sponsor.name }}</p>
               {% endif %}
             {% endif %}
           </div>
         </div>
-        {% if logo_src %}
+        {% if sponsor.img %}
         <div class="endorsement-logo">
-          {% if company_link %}
-          <a href="{{ company_link }}" target="_blank" rel="noopener">
-            <img src="/assets/img/spinner.svg" data-src="{{ logo_src }}" alt="{{ company_name }} ロゴ" class="lazyload" loading="lazy">
+          {% if sponsor.link %}
+          <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
+            <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }} ロゴ" class="lazyload" loading="lazy">
           </a>
           {% else %}
-          <img src="/assets/img/spinner.svg" data-src="{{ logo_src }}" alt="{{ company_name }} ロゴ" class="lazyload" loading="lazy">
+          <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }} ロゴ" class="lazyload" loading="lazy">
           {% endif %}
         </div>
         {% endif %}
