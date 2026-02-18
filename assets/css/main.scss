@@ -7,6 +7,7 @@ $shadow-color: rgba($main-color,0.3);
 $sub-color: #ffed4d; // Yellow
 $lightgray: #eff2f6; // Light gray
 $phone-width:  760px;
+$tablet-width: 1366px;
 $header-phone: 940px;
 * {
   box-sizing: border-box;
@@ -480,7 +481,7 @@ footer{
     border-top: solid 2px $main-color;
     border-bottom: solid 2px $main-color;
     background-image: repeating-linear-gradient(-45deg, transparent, transparent 4px, rgba($main-color, 0.1) 4px, rgba($main-color, 0.1) 10px );
-    margin: 4em 0 1em;
+    margin: 2.8em 0 0.9em;
     &::before{
       content: '';
       clear: both;
@@ -490,7 +491,7 @@ footer{
   h3{
     border-left: solid 6px $main-color;
     background-color: rgba($main-color, 0.05);
-    margin-top: 2.4em;
+    margin-top: 1.8em;
     padding: 8px;
   }
   ul{
@@ -1085,6 +1086,31 @@ footer{
   margin: auto; // Center horizontally
   height: auto; // Maintain aspect ratio
 }
+/* Tighten spacing between sponsor logos and endorsements */
+#sponsor-logos {
+  padding-bottom: 8px;
+}
+#endorsements {
+  padding-top: 8px;
+}
+/* Match post content width */
+.post #sponsor-logos,
+.post #endorsements {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+/* Use full width cards inside post layout */
+.post #endorsements .endorsements-list {
+  flex-direction: column;
+}
+.post #endorsements .endorsement-card {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
 
 /* Ensure the parent container of the logos centers them vertically and horizontally */
 #sponsor-logos .flex {
@@ -1107,6 +1133,110 @@ footer{
 
 .sponsor-logo-gold {
   width: 120px;
+}
+
+/* Endorsements */
+#endorsements .endorsements-list {
+  justify-content: center;
+  gap: 16px;
+}
+.endorsement-card {
+  background-color: #fff;
+  box-shadow: 0 0 6px 1px $shadow-color;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 20px;
+  text-align: left;
+  width: calc(50% - 16px);
+  display: flex;
+  flex-direction: column;
+}
+.endorsement-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.endorsement-person {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  margin-right: auto;
+}
+.endorsement-photo {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: $lightgray;
+}
+.endorsement-meta p {
+  margin: 0;
+  line-height: 1.4em;
+}
+.endorsement-name {
+  font-weight: 700;
+}
+.endorsement-title {
+  font-size: 0.85em;
+  color: #666;
+  white-space: pre-line;
+}
+.endorsement-company {
+  display: inline-block;
+  font-size: 0.85em;
+  margin-top: 2px;
+}
+.endorsement-logo img {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+}
+.endorsement-quote {
+  margin-top: 16px;
+  color: #555;
+  position: relative;
+}
+.endorsement-quote::before {
+  content: "“";
+  color: $main-color;
+  margin-right: 4px;
+  font-weight: 700;
+}
+.endorsement-quote::after {
+  content: "”";
+  color: $main-color;
+  margin-left: 4px;
+  font-weight: 700;
+}
+@media screen and (max-width:$tablet-width) and (min-width: ($phone-width + 1)) {
+  #endorsements .endorsement-card {
+    width: calc(90% - 16px);
+  }
+}
+@media screen and (max-width: $phone-width) {
+  .endorsement-card {
+    width: calc(100% - 16px);
+    padding: 16px;
+  }
+  .endorsement-card-head {
+    justify-content: flex-start;
+  }
+  .endorsement-photo {
+    width: 64px;
+    height: 64px;
+  }
+  .endorsement-logo {
+    flex-basis: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .endorsement-logo img {
+    width: 200px;
+  }
 }
 
 .sv{

@@ -4,13 +4,15 @@
 #   link:    法人またはプロダクトへのリンク
 #   link_en: 法人またはプロダクトへのリンク (英語版。無い場合は上記 link が適用されます)
 
-- name: GMOインターネットグループ株式会社
+- id: gmo
+  name: GMOインターネットグループ株式会社
   img:  2025/gmo.webp
   type: platinum
   link:    https://www.gmo.jp/
   link_en: https://www.gmo.jp/en/
 
-- name: 近畿大学情報学部
+- id: kindai
+  name: 近畿大学情報学部
   img:  2025/kindai.webp
   type: platinum
   link:    https://www.kindai.ac.jp/informatics/

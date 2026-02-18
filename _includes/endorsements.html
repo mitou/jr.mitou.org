@@ -1,0 +1,31 @@
+{% if site.data.endorsements.size > 0 %}
+<section id="endorsements">
+  <h2 {% if page.layout == "default" %}class="heading-line"{% endif %}>
+    <a href='#endorsements'><i class="far fa-thumbs-up green"></i></a>
+    推薦の声
+  </h2>
+  <div class="endorsements-list flex">
+    {% for endorsement in site.data.endorsements %}
+    {% assign sponsor = site.data.sponsors | where: "id", endorsement.sponsor_id | first %}
+    <div class="endorsement-card">
+      <div class="endorsement-card-head">
+        <div class="endorsement-person">
+          <img src="/assets/img/spinner.svg" data-src="/assets/img/{{ endorsement.photo }}" alt="{{ endorsement.name }}さんの写真" class="lazyload endorsement-photo" loading="lazy">
+          <div class="endorsement-meta">
+            <p class="endorsement-name">{{ endorsement.name }}</p>
+            <p class="endorsement-title">{{ endorsement.title }}</p>
+            <a href="{{ sponsor.link }}" class="endorsement-company" target="_blank" rel="noopener">{{ sponsor.name }}</a>
+          </div>
+        </div>
+        <div class="endorsement-logo">
+          <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
+            <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }} ロゴ" class="lazyload" loading="lazy">
+          </a>
+        </div>
+      </div>
+      <p class="endorsement-quote">{{ endorsement.quote }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
