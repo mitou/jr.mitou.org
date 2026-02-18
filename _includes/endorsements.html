@@ -2,16 +2,22 @@
 {% if endorsements and endorsements.size > 0 %}
 <section id="endorsements">
   {% if page.layout == "post" or page.layout == "interview" or page.layout == "english" %}
-  <h2>推薦の声</h2>
+  <h2></h2>
+  <h2 class="heading-line">
+    <a href='#endorsements'><i class="far fa-thumbs-up green"></i></a>
+    推薦の声
+  </h2>
   {% else %}
-  <h2 class="heading-line">推薦の声</h2>
+  <h2 class="heading-line">
+    <a href='#endorsements'><i class="far fa-thumbs-up green"></i></a>
+    推薦の声
+  </h2>
   {% endif %}
   <div class="endorsements-list flex">
     {% for endorsement in endorsements %}
-    {% assign sponsor_name = endorsement.sponsor_name | default: endorsement.company %}
-    {% assign sponsor = site.data.sponsors | where: "name", sponsor_name | first %}
+    {% assign sponsor = site.data.sponsors | where: "id", endorsement.sponsor_id | first %}
     {% assign company_link = sponsor.link %}
-    {% assign company_name = endorsement.company | default: sponsor.name %}
+    {% assign company_name = sponsor.name %}
     {% assign logo_src = nil %}
     {% if sponsor and sponsor.img %}
       {% assign logo_src = "/assets/img/sponsors/" | append: sponsor.img %}
