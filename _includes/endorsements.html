@@ -14,26 +14,14 @@
           <div class="endorsement-meta">
             <p class="endorsement-name">{{ endorsement.name }}</p>
             <p class="endorsement-title">{{ endorsement.title }}</p>
-            {% if sponsor.name %}
-              {% if sponsor.link %}
-              <a href="{{ sponsor.link }}" class="endorsement-company" target="_blank" rel="noopener">{{ sponsor.name }}</a>
-              {% else %}
-              <p class="endorsement-company">{{ sponsor.name }}</p>
-              {% endif %}
-            {% endif %}
+            <a href="{{ sponsor.link }}" class="endorsement-company" target="_blank" rel="noopener">{{ sponsor.name }}</a>
           </div>
         </div>
-        {% if sponsor.img %}
         <div class="endorsement-logo">
-          {% if sponsor.link %}
           <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
             <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }} ロゴ" class="lazyload" loading="lazy">
           </a>
-          {% else %}
-          <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }} ロゴ" class="lazyload" loading="lazy">
-          {% endif %}
         </div>
-        {% endif %}
       </div>
       <p class="endorsement-quote">{{ endorsement.quote }}</p>
     </div>
