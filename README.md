@@ -107,6 +107,23 @@
 [&raquo; `news.yml` を更新する](https://github.com/mitou/jr.mitou.org/blob/main/_data/news.yml)
 
 
+<div id='how-to-update-endorsements'><br></div>
+
+## [:+1:](#how-to-update-endorsements) 推薦の声を更新したい
+[`_data`](https://github.com/mitou/jr.mitou.org/tree/main/_data) 内の [`endorsements.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/endorsements.yml) で[推薦の声](https://jr.mitou.org/#endorsements)を更新できます。
+
+更新できる情報は以下のとおりです。
+```yml
+- name:  推薦者の氏名
+  title: 推薦者の役職
+  photo: 推薦者の写真
+  quote: 推薦者の声
+  sponsor_id: 推薦者が所属するスポンサーのID
+```
+
+[&raquo; `endorsements.yml` を更新する](https://github.com/mitou/jr.mitou.org/blob/main/_data/endorsements.yml)
+
+
 <div id='how-to-update-applications'><br></div>
 
 ## :bookmark_tabs: 提案書ページを更新したい
