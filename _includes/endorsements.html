@@ -1,18 +1,10 @@
 {% assign endorsements = site.data.endorsements | where_exp: "item", "item.draft != true" %}
 {% if endorsements and endorsements.size > 0 %}
 <section id="endorsements">
-  {% if page.layout == "post" or page.layout == "interview" or page.layout == "english" %}
-  <h2></h2>
   <h2 class="heading-line">
     <a href='#endorsements'><i class="far fa-thumbs-up green"></i></a>
     推薦の声
   </h2>
-  {% else %}
-  <h2 class="heading-line">
-    <a href='#endorsements'><i class="far fa-thumbs-up green"></i></a>
-    推薦の声
-  </h2>
-  {% endif %}
   <div class="endorsements-list flex">
     {% for endorsement in endorsements %}
     {% assign sponsor = site.data.sponsors | where: "id", endorsement.sponsor_id | first %}
