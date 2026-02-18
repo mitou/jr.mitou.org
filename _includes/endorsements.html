@@ -13,9 +13,7 @@
           <img src="/assets/img/spinner.svg" data-src="/assets/img/{{ endorsement.photo }}" alt="{{ endorsement.name }}さんの写真" class="lazyload endorsement-photo" loading="lazy">
           <div class="endorsement-meta">
             <p class="endorsement-name">{{ endorsement.name }}</p>
-            {% if endorsement.title %}
             <p class="endorsement-title">{{ endorsement.title }}</p>
-            {% endif %}
             {% if sponsor.name %}
               {% if sponsor.link %}
               <a href="{{ sponsor.link }}" class="endorsement-company" target="_blank" rel="noopener">{{ sponsor.name }}</a>
