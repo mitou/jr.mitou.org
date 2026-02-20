@@ -19,7 +19,7 @@ this_year: 2025
   <!--📮 2025年度の事前登録 (特典付き) が開始されました-->
 
   <!--【募集中のアナウンス】-->
-  <!--<a href="/guideline" class="dialog ignore-sp">🆕 2025年度の募集要項を見る (〆 3月30日 23:59)</a>-->
+  <a href="/guideline" class="dialog ignore-sp">🆕 2026年度の募集要項を見る (〆 3月28日 23:59)</a>
 
   <!--【〆切後のアナウンス】-->
   <!--<a href="/guideline" class="dialog ignore-sp">たくさんのご応募ありがとうございました!!</a>-->
@@ -31,7 +31,7 @@ this_year: 2025
   <!--<a href="/final" class="dialog ignore-sp">⚡️ 成果報告会、ライブ配信中！</a>-->
 
   <!--【成果報告後のアナウンス】-->
-  <a href="/final" class="dialog ignore-sp">🆕 成果報告会の動画が公開されました！</a>
+  <!--<a href="/final" class="dialog ignore-sp">🆕 成果報告会の動画が公開されました！</a>-->
 </div>
 
 <section id="about">
