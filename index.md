@@ -148,7 +148,6 @@ this_year: 2025
 
 <section class="lets-apply">
   <h2>未踏ジュニアに<br class="ph">応募してみませんか？</h2>
-  <h3>2025年度の募集について</h3>
 
   {% include agenda.html %}
 
