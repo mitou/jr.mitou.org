@@ -18,7 +18,7 @@ thumbnail: /assets/img/projects/2024/jellyfish_alert.webp
 
 {% include render-pdf.html project_id=pj.id %}
 
-<div class='note' style='margin: 30px auto 50px;'><small>上記の提案書の状態から、約６ヶ月間の支援を得た結果が下記の<a href='#final'>成果報告会での発表</a>となります。<br><br><img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" class="lazyload"></small></div>
+<div class='note' style='margin: 30px auto 50px;'><small>上記の提案書の状態から、約半年間の支援を得た結果が下記の<a href='#final'>成果報告会での発表</a>となります。<br><br><img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" class="lazyload"></small></div>
 
 <h3 id='final' style='margin-top: 60px;'>
    <a href='#final'><i class='fa-solid fa-graduation-cap'></i></a>
