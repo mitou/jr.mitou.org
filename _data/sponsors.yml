@@ -6,26 +6,26 @@
 
 - id: gmo
   name: GMOインターネットグループ株式会社
-  img:  2025/gmo.webp
+  img:  2026/gmo.webp
   type: platinum
   link:    https://www.gmo.jp/
   link_en: https://www.gmo.jp/en/
 
 - id: kindai
   name: 近畿大学情報学部
-  img:  2025/kindai.webp
+  img:  2026/kindai.webp
   type: platinum
   link:    https://www.kindai.ac.jp/informatics/
   link_en: https://www.kindai.ac.jp/english/
 
 - name: ハヤブサ財団
-  img:  2025/hayabusa.webp
+  img:  2026/hayabusa.webp
   type: gold
   link: https://hayabusa.foundation/
   #link_en: 
 
 - name: ビジョナル株式会社
-  img:  2025/visional.webp
+  img:  2026/visional.webp
   type: gold
   link: https://www.visional.inc/ja/index.html
   #link_en: 
@@ -43,7 +43,7 @@
 #   #link_en:
 
 - name: 株式会社ドワンゴ
-  img:  2025/dwango.webp
+  img:  2026/dwango.webp
   type: silver
   link:    https://dwango.co.jp/
   link_en: https://en.dwango.co.jp/
@@ -55,15 +55,15 @@
 #  #link_en:
 
 - name: 株式会社TwoGate
-  img:  2025/twogate.webp
+  img:  2026/twogate.webp
   type: silver
   link: https://twogate.com/
   #link_en:
 
-- name: 株式会社 教育と探求社
-  img:  2025/kt.webp
-  type: silver
-  link: https://eduq.jp/
+#- name: 株式会社 教育と探求社
+#  img:  2026/kt.webp
+#  type: silver
+#  link: https://eduq.jp/
   #link_en:
 
 # - name: 株式会社サイバーエージェント
@@ -73,16 +73,15 @@
 #   #link_en:
 
 - name: 株式会社 LoiLo
-  img:  2025/loilo.webp
+  img:  2026/loilo.webp
   type: silver
   link: https://loilo.inc/
   #link_en:
 
-- name: mercari R4D
-  img:  2025/mercari.webp
-  type: silver
-  link: https://r4d.mercari.com/
-  link_en: https://r4d.mercari.com/en/
+#- name: mercari R4D
+#  img:  2025/mercari.webp
+#  type: silver
+#  link: https://r4d.mercari.com/
 
 # - name: 株式会社プロコミット
 #   img:  2024/procommit.webp
