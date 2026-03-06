@@ -16,10 +16,9 @@ thumbnail: /assets/img/schedule.webp
 <div class="tips">以下は暫定スケジュールです。</div>
 
 <ul class="list-agenda">
-  <!--<li><strong>〆切日:</strong> 2025年4月6日 23:59 応募〆切</li>-->
-  <li><strong>ブースト合宿:</strong> 2025年6月14-15日@東京都内</li>
-  <li><strong>中間合宿:</strong> 2025年8月23-24日@東京都内</li>
-  <li><strong>成果報告会:</strong> 2025年11月3日@東京都内</li>
+  <li><strong>ブースト合宿:</strong> 2026年6月6日〜7日@東京都内</li>
+  <li><strong>中間合宿:</strong> 2026年8月22日〜23日@大阪府内</li>
+  <li><strong>成果報告会:</strong> 2026年11月上旬予定 <small>(調整中)</small></li>
   <li><strong>参加費:</strong> 無料 (海外居住の場合を除き、イベント参加の為の交通費・宿泊費も支給されます)</li>
   <ul>
     <li>海外居住の場合は、日本までの渡航費は支給されません。</li>
