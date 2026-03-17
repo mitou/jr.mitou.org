@@ -68,7 +68,7 @@ redirect_from: /mentors.html
       <h3 class="mentor-name">鵜飼 佑</h3>
       <div class="mentor-sns">
         <a href="https://www.facebook.com/ukai.yu"><i class="fab fa-facebook-square green"></i></a>
-      	<a href="https://twitter.com/ukkaripon"><i class="fab fa-twitter-square green"></i></a>
+      	<a href="https://x.com/ukkaripon"><i class="fab fa-x-twitter green"></i></a>
         <a href="https://scrapbox.io/mitou-meikan/鵜飼_佑"><img class="icon-mitou-meikan" src="/assets/img/mitou_meikan.png" alt="未踏名鑑" /></a>
       </div>
     </div>
