@@ -42,7 +42,7 @@ class CustomChecks < ::HTMLProofer::Check
   # and check if they all return valid JSON data.
   def check_json_apis
     @html.css('#index > ul > li').each do |node|
-      json_path = node.at_css('a').attribute('href').value
+      json_path = node.at_css('a.json').attribute('href').value
       # e.g. => /projects.json
 
       add_failure("Invalid JSON format: #{json_path}") if not valid_json?(BASE_PATH + json_path)

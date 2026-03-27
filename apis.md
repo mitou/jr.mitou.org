@@ -30,7 +30,7 @@ redirect_from:
   <ul>
     {% for api in site.data.apis %}
     <li>
-      <a href='{{ api.to_json }}'>{{ api.to_json }}</a>
+      <a class='json' href='{{ api.to_json }}'>{{ api.to_json }}</a>
       <small>(<a href='{{ api.to_html }}'>&raquo; HTML で見る</a>)</small>
     </li>
     {% endfor %}
