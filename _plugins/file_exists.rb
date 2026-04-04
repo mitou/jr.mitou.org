@@ -24,8 +24,10 @@ module Jekyll
       # Jekyllでは通常、パスはプロジェクトルートからの相対パスとして扱われる
       full_path = File.join(source_dir, path)
 
-      # ファイルの存在をチェックしてtrue/falseを返す
-      File.exist?(full_path).to_s
+      # NOTE: Liquid では空でない文字列はすべて truthy のため、"false" を返すと
+      #       {% if %} で常に true と評価されてしまう。そのため false の場合は
+      #       nil を返すことで、{% if %} が正しく機能するようにしている。
+      File.exist?(full_path) ? 'true' : nil
     end
   end
 end
