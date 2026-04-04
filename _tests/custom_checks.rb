@@ -12,11 +12,12 @@ class CustomChecks < ::HTMLProofer::Check
     puts "\tchecking ... " + current_filename.delete_prefix('_site').split('.').first
 
     check_meta_tags
-    check_json_apis if valid_and_equal_to?(BASE_PATH + '/apis.html')
-    check_deadlines if valid_and_equal_to?(BASE_PATH + '/guideline.html')
-    check_yaml_data if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
-    check_navi_text if valid_and_equal_to?(BASE_PATH + '/projects/2024/qwet.html')
-    check_app_order if valid_and_equal_to?(BASE_PATH + '/applications/abecobe.html')
+    check_json_apis  if valid_and_equal_to?(BASE_PATH + '/apis.html')
+    check_deadlines  if valid_and_equal_to?(BASE_PATH + '/guideline.html')
+    check_yaml_data  if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
+    check_navi_text  if valid_and_equal_to?(BASE_PATH + '/projects/2024/qwet.html')
+    check_app_order  if valid_and_equal_to?(BASE_PATH + '/applications/abecobe.html')
+    check_thumbnails if valid_and_equal_to?(BASE_PATH + '/projects/search.html')
   end
 
   def valid_and_equal_to?(filename)
@@ -129,6 +130,19 @@ class CustomChecks < ::HTMLProofer::Check
 
     add_failure("Unmatched nav text and title:\n\t#{prev_text}\n\t#{prev_title}") unless prev_title.start_with? prev_text
     add_failure("Unmatched nav text and title:\n\t#{next_text}\n\t#{next_title}") unless next_title.start_with? next_text
+  end
+
+  # Check if thumbnail paths in /projects/search.json all exist as actual files
+  def check_thumbnails
+    JSON.load_file(BASE_PATH + '/projects/search.json', symbolize_names: true).each do |project|
+      thumbnail = project[:thumbnail].gsub('https://jr.mitou.org', BASE_PATH)
+      add_failure(
+        <<~ERROR_MESSAGE
+          No such thumbnail: #{thumbnail}
+            \s Project: #{project[:permalink]}
+        ERROR_MESSAGE
+      ) unless File.exist?(thumbnail)
+    end
   end
 
   # Check if a sample application page has correct Next/Prev nav links.
