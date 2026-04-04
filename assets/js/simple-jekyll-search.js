@@ -25,13 +25,17 @@ function setOptions (_options) {
   }
 }
 
+function getNestedValue (obj, key) {
+  return key.split('.').reduce(function (o, k) { return o && o[k] }, obj)
+}
+
 function compile (data) {
   return options.template.replace(options.pattern, function (match, prop) {
-    const value = options.middleware(prop, data[prop], options.template)
+    const value = options.middleware(prop, getNestedValue(data, prop), options.template)
     if (typeof value !== 'undefined') {
       return value
     }
-    return data[prop] || match
+    return getNestedValue(data, prop) || match
   })
 }
 
@@ -80,7 +84,7 @@ function LiteralSearchStrategy () {
   this.matches = function (str, crit) {
     if (!str) return false
 
-    str = str.trim().toLowerCase()
+    str = (typeof str === 'string' ? str : JSON.stringify(str)).trim().toLowerCase()
     crit = crit.trim().toLowerCase()
 
     return crit.split(' ').filter(function (word) {
