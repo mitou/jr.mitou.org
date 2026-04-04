@@ -139,7 +139,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.18.1)
+    json (2.19.2)
     json-minify (0.0.3)
       json (> 0)
     kramdown (2.5.1)
