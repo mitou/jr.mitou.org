@@ -5,12 +5,10 @@ layout: null
 {% assign projects  = site.data.projects %}
 
 [ {% for pj in projects %}
-  {% capture default_thumbnail_path %}/assets/img/projects/{{ pj.year }}/{{ pj.id }}.webp{% endcapture %}
-  {% capture default_thumbnail_exists %}{% file_exists default_thumbnail_path %}{% endcapture %}
   {
     "title"       : "{{ pj.title       | strip_html | escape }}",
     "description" : "{{ pj.description | strip_html | escape }}",
-    "thumbnail"   : "{{ site.url }}/assets/img/projects/{{ pj.year }}/{% if pj.thumbnail %}{{ pj.thumbnail }}{% elsif default_thumbnail_exists == "true" %}{{ pj.id }}.webp{% else %}../tbu.webp{% endif %}",
+    "thumbnail"   : "{{ site.url }}/assets/img/projects/{{ pj.year }}/{{ pj.id }}.webp",
     "permalink"   : "{{ site.url }}/projects/{{ pj.year }}/{{ pj.id }}",
     "year"        : "{{ pj.year }}",
     "creators"    : "{% for creator_id in pj.creator_ids %}{% assign creator = site.data.creators | find_exp: 'item', 'item.id == creator_id' %}{{ creator.name }}{% unless forloop.last %} / {% endunless %}{% endfor %}",
