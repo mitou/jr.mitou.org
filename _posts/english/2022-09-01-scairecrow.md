@@ -6,7 +6,7 @@ title: |
 description: |
   scarecrow is a hardware project designed to deter crows from approaching garbage disposal areas. The presence of crows often leads to litter being scattered, resulting in unsightly conditions in the town. To address this issue, we have developed a system that detects crows in real-time and effectively repels them by emitting laser beams.
 permalink: /english/projects/2022/scairecrow
-thumbnail: /assets/img/projects/2022/scairecrow.png
+thumbnail: /assets/img/projects/2022/scairecrow.webp
 twitter_card: summary_large_image
 
 ---

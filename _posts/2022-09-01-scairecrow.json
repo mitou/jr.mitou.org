@@ -1,6 +1,6 @@
 ---
 permalink: /projects/2022/scairecrow.json
-thumbnail: /assets/img/projects/2022/scairecrow.png
+thumbnail: /assets/img/projects/2022/scairecrow.webp
 ---
 
 {% include project-json-ld.json project_id="scairecrow" %}

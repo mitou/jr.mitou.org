@@ -6,7 +6,7 @@ title: |
 description: |
   We designed and built a notebook PC from the ground up, aiming for use by developers and gamers. Prioritizing customizability, we utilized desktop components and intentionally omitted the battery, opting for a power connection to achieve a compact form. Additionally, we devised and implemented a new interface using a touch display as a trackpad, focusing on ease of use.
 permalink: /english/projects/2020/force_book
-thumbnail: /assets/img/projects/2020/forcebook.webp
+thumbnail: /assets/img/projects/2020/force_book.webp
 twitter_card: summary_large_image
 
 ---
