@@ -13,7 +13,7 @@ redirect_from:
 
 - API の利用例:
   - 検索ページ: [https://jr.mitou.org/projects/search](/projects/search)
-  - 検索データ: [https://jr.mitou.org/projects/search.json](/projects/search.json)
+  - 検索データ: [https://jr.mitou.org/projects.json](/projects.json)
 
 <div class="note">
   未踏ジュニア関係者による内部での利用を目的とした API となります。

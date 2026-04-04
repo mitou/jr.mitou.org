@@ -3,8 +3,8 @@
   {% capture thumbnail_exists %}{% file_exists thumbnail_path %}{% endcapture %}
   {
     "id"          : "{{ pj.id }}",
-    "title"       : "{{ pj.title }}",
-    "description" : "{{ pj.description | escape }}",
+    "title"       : "{{ pj.title       | strip_html | escape }}",
+    "description" : "{{ pj.description | strip_html | escape }}",
     "thumbnail"   : "{{ site.url }}/assets/img/projects/{% if thumbnail_exists %}{{ pj.year }}/{{ pj.id }}.webp{% else %}tbu.webp{% endif %}",
     "permalink"   : "{{ site.url }}/projects/{{ pj.year }}/{{ pj.id }}",
     "year"        : "{{ pj.year }}",
@@ -15,6 +15,8 @@
       "id"           : "{{ mentor.id }}",
       "url"          : "{{ site.url }}/mentors/#{{ mentor.id }}",
       "name"         : "{{ mentor.name.last }} {{ mentor.name.first }}",
+      "name_last"    : "{{ mentor.name.last }}",
+      "name_first"   : "{{ mentor.name.first }}",
       "affilication" : "{{ mentor.affiliation }}",
       "interested"   : "{{ mentor.interested | escape }}",
       "bio"          : "{{ mentor.bio | escape }}",
