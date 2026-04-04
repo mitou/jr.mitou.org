@@ -3,8 +3,8 @@
   {% capture thumbnail_exists %}{% file_exists thumbnail_path %}{% endcapture %}
   {
     "id"          : "{{ pj.id }}",
-    "title"       : "{{ pj.title }}",
-    "description" : "{{ pj.description | escape }}",
+    "title"       : "{{ pj.title       | strip_html | escape }}",
+    "description" : "{{ pj.description | strip_html | escape }}",
     "thumbnail"   : "{{ site.url }}/assets/img/projects/{% if thumbnail_exists %}{{ pj.year }}/{{ pj.id }}.webp{% else %}tbu.webp{% endif %}",
     "permalink"   : "{{ site.url }}/projects/{{ pj.year }}/{{ pj.id }}",
     "year"        : "{{ pj.year }}",

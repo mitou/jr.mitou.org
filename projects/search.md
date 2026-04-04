@@ -82,7 +82,7 @@ redirect_from:
    const sjs = SimpleJekyllSearch({
      searchInput:          document.getElementById('search-input'),
      resultsContainer:     document.getElementById('search-results'),
-     json:                 '/projects/search.json',
+     json:                 '/projects.json',
      limit:                20,
 
      // JSONの読み込み完了後に success コールバック内で検索処理を実行する
@@ -96,7 +96,7 @@ redirect_from:
      },
 
      exclude:              ['assets', 'img', 'webp', 'projects'],
-     searchResultTemplate: '<li class="search-result"><img class="lazyload" data-src="{thumbnail}" loading="lazy"><span class="search-result-title"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor}PM ({year})</small><br></span><code class="search-result-description">{description}</code></li>',
+     searchResultTemplate: '<li class="search-result"><img class="lazyload" data-src="{thumbnail}" loading="lazy"><span class="search-result-title"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor.name_last}PM ({year})</small><br></span><code class="search-result-description">{description}</code></li>',
      // debounceTime:         400,
      noResultsText:        '検索結果が見つかりませんでした。',
      loadingText:          '<div class="loading-skeleton">検索中...</div>',
@@ -104,10 +104,12 @@ redirect_from:
 
      // Mark hit keywords
      templateMiddleware: function(prop, value, template) {
+       if (prop === 'creators' && Array.isArray(value)) value = value.join(' / ');
+
        const query = document.getElementById('search-input').value.trim();
        if (query && typeof value === 'string') {
 	 // 加工対象を限定する
-	 const highlightTargets = ['title', 'description', 'creators', 'mentor', 'year'];
+	 const highlightTargets = ['title', 'description', 'creators', 'mentor.name_last', 'year'];
 
 	 if (highlightTargets.includes(prop)) {
 	   const keywords = query.split(/\s+/).filter(Boolean);

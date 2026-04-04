@@ -132,9 +132,9 @@ class CustomChecks < ::HTMLProofer::Check
     add_failure("Unmatched nav text and title:\n\t#{next_text}\n\t#{next_title}") unless next_title.start_with? next_text
   end
 
-  # Check if thumbnail paths in /projects/search.json all exist as actual files
+  # Check if thumbnail paths in /projects.json all exist as actual files
   def check_thumbnails
-    JSON.load_file(BASE_PATH + '/projects/search.json', symbolize_names: true).each do |project|
+    JSON.load_file(BASE_PATH + '/projects.json', symbolize_names: true).each do |project|
       thumbnail = project[:thumbnail].gsub('https://jr.mitou.org', BASE_PATH)
       add_failure(
         <<~ERROR_MESSAGE
