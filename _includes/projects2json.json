@@ -6,7 +6,7 @@
     "title"       : "{{ pj.title }}",
     "description" : "{{ pj.description | escape }}",
     "thumbnail"   : "{{ site.url }}/assets/img/projects/{% if thumbnail_exists %}{{ pj.year }}/{{ pj.id }}.webp{% else %}tbu.webp{% endif %}",
-    "url"         : "{{ site.url }}/projects/{{ pj.year }}/{{ pj.id }}",
+    "permalink"   : "{{ site.url }}/projects/{{ pj.year }}/{{ pj.id }}",
     "year"        : "{{ pj.year }}",
     "creators"    : [
       {% for creator_id in pj.creator_ids %}{% assign creator = site.data.creators | find_exp: 'item', 'item.id == creator_id' %}"{{ creator.name }}"{% unless forloop.last %}, {% endunless %}{% endfor %}
