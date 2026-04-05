@@ -54,6 +54,10 @@ class CustomChecks < ::HTMLProofer::Check
       # - A single hash example: https://jr.mitou.org/projects/2025/uminavi.json
       responses = Array(JSON.load_file(BASE_PATH + json_path, symbolize_names: true))
       responses.map{ |item| item[:thumbnail] if item.is_a?(Hash) }.compact.each do |thumbnail|
+        # NOTE: `rake test` uses `bundle exec jekyll build` (no --config override),
+        #       so `site.url` is always 'https://jr.mitou.org' and thumbnails are
+        #       stored as absolute URLs. Replace the domain with BASE_PATH to get
+        #       the local file path for File.exist? check.
         thumbnail.gsub!('https://jr.mitou.org', BASE_PATH)
 
         add_failure(
@@ -135,6 +139,10 @@ class CustomChecks < ::HTMLProofer::Check
   # Check if thumbnail paths in /projects.json all exist as actual files
   def check_thumbnails
     JSON.load_file(BASE_PATH + '/projects.json', symbolize_names: true).each do |project|
+      # NOTE: `rake test` uses `bundle exec jekyll build` (no --config override),
+      #       so `site.url` is always 'https://jr.mitou.org' and thumbnails are
+      #       stored as absolute URLs. Replace the domain with BASE_PATH to get
+      #       the local file path for File.exist? check.
       thumbnail = project[:thumbnail].gsub('https://jr.mitou.org', BASE_PATH)
       add_failure(
         <<~ERROR_MESSAGE
