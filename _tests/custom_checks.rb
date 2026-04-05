@@ -17,7 +17,7 @@ class CustomChecks < ::HTMLProofer::Check
     check_yaml_data  if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
     check_navi_text  if valid_and_equal_to?(BASE_PATH + '/projects/2024/qwet.html')
     check_app_order  if valid_and_equal_to?(BASE_PATH + '/applications/abecobe.html')
-    check_thumbnails if valid_and_equal_to?(BASE_PATH + '/projects/search.html')
+    check_thumbnails if valid_and_equal_to?(BASE_PATH + '/projects/showcase.html')
   end
 
   def valid_and_equal_to?(filename)
