@@ -12,12 +12,13 @@ class CustomChecks < ::HTMLProofer::Check
     puts "\tchecking ... " + current_filename.delete_prefix('_site').split('.').first
 
     check_meta_tags
-    check_json_apis  if valid_and_equal_to?(BASE_PATH + '/apis.html')
-    check_deadlines  if valid_and_equal_to?(BASE_PATH + '/guideline.html')
-    check_yaml_data  if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
-    check_navi_text  if valid_and_equal_to?(BASE_PATH + '/projects/2024/qwet.html')
-    check_app_order  if valid_and_equal_to?(BASE_PATH + '/applications/abecobe.html')
-    check_thumbnails if valid_and_equal_to?(BASE_PATH + '/projects/showcase.html')
+    check_json_apis      if valid_and_equal_to?(BASE_PATH + '/apis.html')
+    check_deadlines      if valid_and_equal_to?(BASE_PATH + '/guideline.html')
+    check_yaml_data      if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
+    check_navi_text      if valid_and_equal_to?(BASE_PATH + '/projects/2024/qwet.html')
+    check_app_order      if valid_and_equal_to?(BASE_PATH + '/applications/abecobe.html')
+    check_thumbnails     if valid_and_equal_to?(BASE_PATH + '/projects/showcase.html')
+    check_search_results if valid_and_equal_to?(BASE_PATH + '/projects/search.html')
   end
 
   def valid_and_equal_to?(filename)
@@ -176,6 +177,43 @@ class CustomChecks < ::HTMLProofer::Check
           \s correct: #{sample_ids[-1]}
       ERROR_MESSAGE
     ) unless sample_ids[1] == prev_id and sample_ids[-1] == next_id
+  end
+
+  # Check that searching with ?q=Web never returns UmiNavi (unrelated project).
+  #
+  # Two assertions:
+  # 1. Searching ALL fields (original broken behavior) DOES return UmiNavi.
+  #    Confirms the bug scenario still exists in the data.
+  #    If this fails, the mentor profile changed and this test needs updating.
+  # 2. Searching only searchTerms fields (fixed behavior) does NOT return UmiNavi.
+  #    Regression guard: fails if searchTerms logic is reverted or broken.
+  def check_search_results
+    query    = 'Web'
+    projects = JSON.load_file(BASE_PATH + '/projects.json', symbolize_names: true)
+
+    # 1. All-field search (simulates original broken behavior)
+    all_field_results = projects.select do |project|
+      project.any? { |_k, v| v.to_s.downcase.include?(query.downcase) }
+    end
+    add_failure(
+      "Expected UmiNavi to appear when searching ALL fields for '?q=#{query}' " \
+      "(mentor profile should contain '#{query}'). Update this test if mentor data changed."
+    ) unless all_field_results.any? { |p| p[:id] == 'uminavi' }
+
+    # 2. searchTerms-restricted search (simulates fixed behavior)
+    restricted_results = projects.select do |project|
+      fields = [
+        project[:title],
+        project[:description],
+        project[:year],
+        project.dig(:mentor, :name_last),
+        Array(project[:creators]).join(' ')
+      ]
+      fields.any? { |v| v.to_s.downcase.include?(query.downcase) }
+    end
+    add_failure(
+      "Search for '?q=#{query}' should NOT return UmiNavi when using searchTerms"
+    ) if restricted_results.any? { |p| p[:id] == 'uminavi' }
   end
 end
 

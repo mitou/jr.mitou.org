@@ -171,6 +171,7 @@ function __setOptions_4 (_opt) {
   opt.searchStrategy = _opt.fuzzy ? _$FuzzySearchStrategy_5 : _$LiteralSearchStrategy_6
   opt.sort = _opt.sort || NoSort
   opt.exclude = _opt.exclude || []
+  opt.searchTerms = _opt.searchTerms || []
 }
 
 function findMatches (data, crit, strategy, opt) {
@@ -184,7 +185,20 @@ function findMatches (data, crit, strategy, opt) {
   return matches
 }
 
+function getValueByPath (obj, path) {
+  return path.split('.').reduce(function (o, k) { return o && o[k] }, obj)
+}
+
 function findMatchesInObject (obj, crit, strategy, opt) {
+  if (opt.searchTerms && opt.searchTerms.length > 0) {
+    for (var i = 0; i < opt.searchTerms.length; i++) {
+      var value = getValueByPath(obj, opt.searchTerms[i])
+      if (!isExcluded(value, opt.exclude) && strategy.matches(value, crit)) {
+        return obj
+      }
+    }
+    return undefined
+  }
   for (const key in obj) {
     if (!isExcluded(obj[key], opt.exclude) && strategy.matches(obj[key], crit)) {
       return obj
@@ -316,12 +330,13 @@ var _$src_8 = {};
     fuzzy: false,
     debounceTime: null,
     exclude: [],
+    searchTerms: [],
     loadingText: '検索中...',
     loadingDelay: 300
   }
 
   let debounceTimerHandle;
-  let searchTimeoutHandle;  
+  let searchTimeoutHandle;
   const debounce = function (func, delayMillis) {
     if (delayMillis) {
       clearTimeout(debounceTimerHandle)
@@ -358,7 +373,8 @@ var _$src_8 = {};
       fuzzy: options.fuzzy,
       limit: options.limit,
       sort: options.sortMiddleware,
-      exclude: options.exclude
+      exclude: options.exclude,
+      searchTerms: options.searchTerms
     })
 
     if (_$utils_9.isJSON(options.json)) {
@@ -429,7 +445,7 @@ var _$src_8 = {};
       clearTimeout(searchTimeoutHandle);
       searchTimeoutHandle = null;
     }
-      
+
     if (isValidQuery(query)) {
       // 結果エリアをクリアして、loadingText（例："検索中..."）を表示
       emptyResultsContainer();
