@@ -116,7 +116,7 @@ redirect_from:
       ChatGPTのDeep Researchによる「採択されるTips」まとめ
       <i class="fa-solid fa-up-right-from-square"></i>
     </a><br>
-    <small>（<a href='https://www.ipa.go.jp/archive/jinzai/mitou/it/2020/qv6pgp0000002ce7-att/000090477.pdf'><i class="fa-solid fa-up-right-from-square"></i>
+    <small>（<a href='https://www.ipa.go.jp/jinzai/mitou/it/2020/t6hhco000001199k-att/hyouka_in-1.pdf'><i class="fa-solid fa-up-right-from-square"></i>
       Kineto - 時間を操作する映像型ノート</a>）※
       <a href='/opportunities#ipa-mitou'>IPA 未踏</a>採択者
     </small>

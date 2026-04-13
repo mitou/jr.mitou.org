@@ -944,7 +944,7 @@
   promotion: S1XG9FEY9ko
   final: lad_C_JzR0E
   final_start: 63
-  link: https://crafterepost.netlify.app/
+  #link: https://crafterepost.netlify.app/
   year: 2022
   mentor_id: hirokazu_nishio
   creator_ids:
@@ -1005,7 +1005,7 @@
   #promotion:
   final: LohTYVmais0
   final_start: 39
-  link: https://telport.mugisus.com/app/
+  #link: https://telport.mugisus.com/app/
   year: 2021
   mentor_id: shoya_ishimaru
   creator_ids:
@@ -1407,7 +1407,7 @@
   #promotion:
   final: irYt3B7l8yg
   final_start: 62
-  link: https://amo-yotakenoko.github.io/amo-yo.html
+  #link: https://amo-yotakenoko.github.io/amo-yo.html
   year: 2019
 
 - id: det_exploit
