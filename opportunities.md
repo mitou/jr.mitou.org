@@ -1,14 +1,14 @@
 ---
 layout: post
 title: 他の支援プログラム
-description: 未踏ジュニア以外にも、あなたの「提案書」を評価してくれる支援プログラムがあります。より多くの応募者がチャンスを掴めるよう、本ページでは他の支援プログラムを紹介しています。
+description: 未踏ジュニア以外にも、あなたの「提案書」を評価・支援してくれるプログラムがあります。より多くの応募者がチャンスを掴めるよう、本ページでは他の支援プログラムを紹介しています。
 redirect_from:
   - /chance
   - /chances
 ---
 
 <p style="text-align:center; padding: 50px 0px 0px; font-size: 99%;">
-  <a href='/about'>未踏ジュニア</a>以外にも、あなたの<a href='/applications'>提案書</a>を評価してくれる支援プログラムがあります。<br class='ignore-sp'>より多くの応募者がチャンスを掴めるよう、本ページでは他の支援プログラムを紹介しています。
+  <a href='/about'>未踏ジュニア</a>以外にも、あなたの<a href='/applications'>提案書</a>を評価・支援してくれるプログラムがあります。<br class='ignore-sp'>より多くの応募者がチャンスを掴めるよう、本ページでは他の支援プログラムを紹介しています。
   <br>
   <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/final.svg" alt="他の支援プログラム（成果報告会）のイメージ図" width="80%" class="post-photo lazyload">
   <br>
