@@ -8,7 +8,9 @@ redirect_from:
 ---
 
 <p style="text-align:center; padding: 50px 0px 0px; font-size: 99%;">
-  <a href='/about'>未踏ジュニア</a>以外にも、あなたの<a href='/applications'>提案書</a>を評価してくれる支援プログラムがあります。<br class='ignore-sp'>より多くの応募者がチャンスを掴めるよう、本ページでは他の支援プログラムを紹介しています。<br>
+  <a href='/about'>未踏ジュニア</a>以外にも、あなたの<a href='/applications'>提案書</a>を評価してくれる支援プログラムがあります。<br class='ignore-sp'>より多くの応募者がチャンスを掴めるよう、本ページでは他の支援プログラムを紹介しています。
+  <br>
+  <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/final.svg" alt="他の支援プログラム（成果報告会）のイメージ図" width="80%" class="post-photo lazyload">
   <br>
   <small>細かな募集要項は未踏ジュニアとは異なります。<br class='ignore-pc'>詳細は以下の公式サイトからご確認ください。</small><br>
 </p>
