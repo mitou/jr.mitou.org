@@ -1,9 +1,9 @@
 ---
 ---
 
-{% assign open_opportunities = site.data.opportunities | where_exp: "item", "item.is_closed != true" %}
+{% assign opportunities = site.data.opportunities | where_exp: "item", "item.is_closed != true and item.title" %}
 [
-{% for opportunity in open_opportunities %}
+{% for opportunity in opportunities %}
   {
     "id": "{{ opportunity.id }}",
     "url": "{{ opportunity.link }}",
