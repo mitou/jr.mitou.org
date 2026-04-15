@@ -41,12 +41,6 @@
   title: サイボウズ・ラボユース
   description: "<a href='https://labs.cybozu.co.jp/youth/'>世界に通用する若手エンジニアの発掘と育成</a>をする学生支援制度です。ソフトウェア研究開発への熱意を支援し、開発成果はオープンソースライセンスに基づき広く世の中に公開されることが期待されています。開発成果物の権利も企業ではなく、個人本人に帰属します。"
 
-#- id:    kakusei
-#  link:  https://kakusei.aist.go.jp/
-#  title: 国立研究開発法人 産総研「覚醒プロジェクト」
-#  description: "若手人材が、国立研究開発法人産業技術総合研究所（<a href='https://www.aist.go.jp/'>産総研</a>）の保有する先端的研究設備等を活用することにより、ディープテック分野の独創的かつ斬新な研究開発を推進し、社会課題解決にチャレンジするプロジェクトです。"
-
-
 # IPA MITOU Programs: https://www.ipa.go.jp/en/about/it-talents/mitou.html
 - id:    ipa-mitou
   link:  https://www.ipa.go.jp/jinzai/mitou/it/about.html
@@ -65,6 +59,16 @@
 
   
 # Past support programs (Hidden in HTML/JSON)
+
+## 学位 (学士号) が必要のため非表示
+# > 2026 年 4 月 1 日時点で、学士取得後 15 年以内であること。
+# > https://kakusei.aist.go.jp/r8/assets/pdf/r8_ouboyouryou_ver6.pdf
+#
+#- id:    kakusei
+#  link:  https://kakusei.aist.go.jp/
+#  title: 国立研究開発法人 産総研「覚醒プロジェクト」
+#  description: "若手人材が、国立研究開発法人産業技術総合研究所（<a href='https://www.aist.go.jp/'>産総研</a>）の保有する先端的研究設備等を活用することにより、ディープテック分野の独創的かつ斬新な研究開発を推進し、社会課題解決にチャレンジするプロジェクトです。"
+
 ## 2024
 - id:    kansai_tcc
   link:  https://kansai-tcc.dle.or.jp/
