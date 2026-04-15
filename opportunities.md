@@ -17,12 +17,14 @@ redirect_from:
 
 {% assign open_opportunities = site.data.opportunities | where_exp: "item", "item.is_closed != true" %}
 {% for opportunity in open_opportunities %}
+{% if opportunity.title %}
 <h2 id='{{ opportunity.id }}' style='margin-top: 120px'>
   <a href='#{{ opportunity.id }}' style='color: #333; font-weight: bold;'>{{ opportunity.title }}</a>
 </h2>
-<p>{{ opportunity.description }}</p>
+{% endif %}
+{% if opportunity.description %}<p>{{ opportunity.description }}</p>{% endif %}
 
-<a href='{{ opportunity.link }}' class='button'>公式サイトを見る</a>
+{% if opportunity.link %}<a href='{{ opportunity.link }}' class='button'>公式サイトを見る</a>{% endif %}
 {% endfor %}
 
 <hr style='margin: 100px auto 100px auto;'>
