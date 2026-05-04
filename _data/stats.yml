@@ -2,6 +2,16 @@
 # acceptance_rate  = projects / applications * 100 [%]
 # spc_rate         = spc / creators * 100 [%]
 
+#- year: 2026
+#  applications: 233 # Ref: https://x.com/mitoujr/status/2037915952772530637
+#  projects: ??
+#  competition_rate: ??
+#  acceptance_rate:  ??
+#  creators: ??
+#  spc:      ??
+#  spc_rate: ??
+
+
 - year: 2025
   applications: 143
   projects: 15
