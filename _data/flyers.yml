@@ -8,6 +8,8 @@
 # PDF 版画像は /assets/img/flyers/#{year}.pdf
 # を参照するので、それぞれ配置してください。
 
+- year: 2026
+  form_id: 1FAIpQLSfj_bnVsTv72SXGFejCs8ejbzdNQ9aMviBjjJHbpAfJfJQr8g
 - year: 2025
   form_id: 1FAIpQLSfj_bnVsTv72SXGFejCs8ejbzdNQ9aMviBjjJHbpAfJfJQr8g
 - year: 2024

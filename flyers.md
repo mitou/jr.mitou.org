@@ -29,14 +29,18 @@ redirect_from:
          alt='未踏ジュニアのチラシ（サンプル）' />
   </a>
   <small>※
-    上記画像を
-    <span class='ignore-pc'>"タップ"</span>
-    <span class='ignore-sp'>"クリック"</span>
-    すると、<br class='ignore-pc'>高解像度版 (PDF) をダウンロードできます。<br>
+    下記から高解像度版をダウンロードできます。<br>
   </small>
 </div>
 
+<div class='flex'>
+  <a class='button' target='_blank' rel='noopener'
+      href='/assets/img/flyers/{{ flyer["year"] }}.pdf'>PDF 版を見る</a>
+  <a class='button' target='_blank' rel='noopener'
+      href='/assets/img/flyers/{{ flyer["year"] }}.png'>PNG 版を見る</a>
+</div>
 
+<br><br>
 
 ## [<i class='fas fa-mailbox green'></i>](#apply) チラシ配布に協力する {#apply}
 
@@ -72,12 +76,12 @@ redirect_from:
   .iframe-form{
     margin: auto;
     display: block;
-    height: 2200px;
+    height: 400px;
   }
   @media screen and (max-width: 600px){
     .iframe-form{
       margin-left: -23px;
-      height: 2400px;
+      height: 400px;
       width:  113%;
     }
   }
