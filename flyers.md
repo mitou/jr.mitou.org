@@ -14,13 +14,13 @@ redirect_from:
 <p style='padding: 50px 0px 40px;'>
   未踏ジュニアのチラシ配布にご協力いただける学校やスクール、CoderDojo などの方々を探しています。<br>
   <br>
-  <!--ご協力いただける場合は<a href='/assets/img/flyers/{{ flyer["id"] }}.pdf'>PDF から印刷</a>または<a href='#form'>下記フォームよりご請求</a>いただけると幸いです。-->
-  ご協力いただける場合は、<a href='#apply'>下記フォームよりチラシ送付先をご入力</a>いただけると幸いです。
+  お手数をかけて大変恐縮ですが、<a href='#print'>下記のチラシデータ</a>をダウンロードし、印刷・頒布にご協力いただけますと幸いです。
+  <!--ご協力いただける場合は、<a href='#apply'>下記フォームよりチラシ送付先をご入力</a>いただけると幸いです。-->
   <!--<a href='#apply' class='button'>チラシ配布に協力する</a>-->
 </p>
 
 
-## [<i class='fas fa-scroll green'></i>](#sample) チラシのサンプル {#sample}
+## [<i class='fas fa-scroll green'></i>](#print) チラシを自分で印刷する {#print}
 
 <!--<div class='note'>以下は2024年度のチラシです。2025年度のチラシとは内容が異なる点にご注意ください。</div>-->
 <!--以下は2024年度のサンプルです。実際のチラシは年度ごとに異なります。-->
@@ -45,7 +45,9 @@ redirect_from:
 
 <br><br>
 
-## [<i class='fas fa-mailbox green'></i>](#apply) チラシ配布に協力する {#apply}
+## [<i class='fas fa-mailbox green'></i>](#apply) チラシの郵送を希望する {#apply}
+
+期間限定で、未踏ジュニア側でチラシを印刷し、無料で郵送する場合があります。当該期間になりましたら、下記フォームよりチラシ送付先をご入力いただけると幸いです。
 
 <div class='iframe-form' style='margin-top: 50px;'>
   <iframe src='https://docs.google.com/forms/d/e/{{ flyer["form_id"] }}/viewform?embedded=true' width='100%' class='iframe-form' frameborder='0' marginheight='0' marginwidth='0'>読み込み中...</iframe>
