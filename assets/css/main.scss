@@ -969,11 +969,16 @@ footer{
   margin: auto;
 }
 .sponsors-list-inkind{
-  max-width: 555px;
+  max-width: 480px;
   align-items: center;
+  margin-top: 20px;
 }
 .sponsors-list-media{
   max-width: 370px;
+}
+.sponsors-list-clb{
+  max-width: 480px;
+  margin-top: 10px;
 }
 .sponsors-text-for-inquiry{
   margin: 30px 15px;
@@ -990,7 +995,7 @@ footer{
 
 .sponsor-platinum {
   width: 330px; // Set minimum width for logos
-  margin: 0px; 
+  margin: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1013,7 +1018,7 @@ footer{
 
 .sponsor-gold {
   width: 250px; // Set minimum width for logos
-  margin: 0px; 
+  margin: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1038,7 +1043,7 @@ footer{
 
 .sponsor-silver {
   width: 200px; // Set minimum width for logos
-  margin: 0px; 
+  margin: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1071,6 +1076,10 @@ footer{
   margin: 10px auto 30px;
   max-width: 100px;
   width: calc(50% - 20px);
+}
+.sponsor-inkind,
+.sponsor-clb{
+  margin-bottom: 10px;
 }
 
 .sponsor-supporter, .sponsor-clb {
