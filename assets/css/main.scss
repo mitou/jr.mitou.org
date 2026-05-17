@@ -1311,6 +1311,9 @@ footer{
 #about, #news, #faq, #supporters, #collaborators,#results{
   background-color: $lightgray;
 }
+#collaborators{
+  padding-bottom: 60px;
+}
 .lets-apply{
   background-color: $lightgray;
   @media screen and (min-width:$header-phone) {
