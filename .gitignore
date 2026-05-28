@@ -6,4 +6,6 @@ vendor
 .DS_Store
 .envrc
 tmp
+AGENTS.md
 CLAUDE.md
+
