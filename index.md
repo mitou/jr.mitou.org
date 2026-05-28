@@ -19,10 +19,10 @@ this_year: 2025
   <!--📮 2025年度の事前登録 (特典付き) が開始されました-->
 
   <!--【募集中のアナウンス】-->
-  <a href="/guideline" class="dialog ignore-sp">🆕 2026年度の募集要項を見る (〆 3月28日 23:59)</a>
+  <!--<a href="/guideline" class="dialog ignore-sp">🆕 2026年度の募集要項を見る (〆 3月28日 23:59)</a>-->
 
   <!--【〆切後のアナウンス】-->
-  <!--<a href="/guideline" class="dialog ignore-sp">たくさんのご応募ありがとうございました!!</a>-->
+  <a href="/guideline" class="dialog ignore-sp">たくさんのご応募ありがとうございました!!</a>
 
   <!--【成果報告前のアナウンス】-->
   <!--<a href="/final" class="dialog ignore-sp">🆕 成果報告会の参加申込開始! (11月3日)</a>-->
