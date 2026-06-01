@@ -19,6 +19,11 @@
   title: 新潟版未踏的人材育成事業（ETSUZAN）
   description: "<strong>新潟</strong>の若者を対象に実施するIT人材発掘・育成プログラム「ETSUZAN（越山）」は、新潟の企業体による、新潟県内の学生や若手の育成を行うプロジェクトです。内に秘めた強い熱意とやり遂げる力がある人を求めています。"
 
+- id:    kyoto-i-lab
+  link:  https://kyoto-i-lab.org/
+  title: 京都未踏的人材発掘・育成プログラム
+  description: "<strong>京都</strong>を中心に近畿圏（京都・大阪・兵庫・奈良・滋賀・和歌山）の若きテック人材を発掘・育成する、IPA未踏をモデルとしたプログラムです。高校生～29歳の個人やチームから提案された開発プロジェクトを、一線で活躍する PM（プロジェクト・マネージャー）がサポートします。開発支援費も提供します。"
+
 - id:    shikoku
   link:  https://www.leadingedge-shikoku.com/
   title: LEADING EDGE 四国
