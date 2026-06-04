@@ -65,6 +65,10 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 担当の[メンター](/mentors)をはじめ、[未踏事業の修了生](https://scrapbox.io/mitou-meikan/)を中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
 
+<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/mtg.svg"
+   title="メンターと定期的にオンラインで話している様子のイラスト" class="post-photo lazyload" loading="lazy"
+     alt="メンターと定期的にオンラインで話している様子のイラスト" width="50%" style="margin-bottom: 30px;">
+
 <div class="tips">期間中は担当する<a href='/mentors'>メンター</a>と定期的にオンラインで話せる機会があります。プログラミングの質問やプロジェクトの方針など、なんでも相談できます。</div>
 
 <a href="/mentors" class="button">メンター紹介を見る</a>
@@ -77,9 +81,15 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 例えばハードウェア開発で機材・資材を使いたい場面や、ソフトウェア開発で有料のAPI・サーバーを使いたい場面などで、50 万円まで使える仕組みになっています。
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_development.webp"
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_dev.webp"
+   title="機材・資材を活用して開発したプロダクトの発表 @ 成果報告会" class="top-img lazyload" loading="lazy"
+     alt="機材・資材を活用して開発したプロダクトの発表 @ 成果報告会" >
+
+<!--
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_development_v0.webp"
    title="ハードウェア開発を支援している様子 @ CASE Shinjuku" class="top-img lazyload" loading="lazy"
      alt="ハードウェア開発を支援している様子 @ CASE Shinjuku" >
+-->
 
 <br>
 
@@ -101,7 +111,13 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや東京都立大学、近畿大学に推薦枠で出願できます。
 
+<!--
 <img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.webp"
+   title="修了証書を授与されたクリエータと、メンターや運営チームの集合写真 @ GMO Yours・フクラス" class="top-img lazyload" loading="lazy"
+     alt="修了証書を授与されたクリエータと、メンターや運営チームの集合写真 @ GMO Yours・フクラス">
+-->
+
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding_v0.webp"
    title="クリエータに修了証書を授与している様子 @ 東京大学" class="top-img lazyload" loading="lazy"
      alt="クリエータに修了証書を授与している様子 @ 東京大学">
 
