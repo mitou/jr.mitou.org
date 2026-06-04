@@ -45,7 +45,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
   <img src="/assets/img/2025_cover.min.webp" data-src="/assets/img/2025_cover.webp"
      title="2025年度の未踏ジュニア集合写真 @ GMO Yours・フクラス" class="top-img lazyload" loading="lazy"
        alt="2025年度の未踏ジュニア集合写真 @ GMO Yours・フクラス">
-   
+
 </div>
 
 <div class='flex'>
@@ -103,7 +103,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 <img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp"
    title="ブース出展している様子 @ Maker Faire Tokyo 2023" class="top-img lazyload" loading="lazy"
      alt="ブース出展している様子 @ Maker Faire Tokyo 2023">
- 
+
 <br>
 
 
@@ -144,13 +144,33 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 未踏ジュニアは、[未踏事業](https://www.ipa.go.jp/jinzai/mitou/koubo/)の修了生などが集まる一般社団法人未踏（[未踏社団](https://www.mitou.org/)）によって運営されています。未踏ジュニアは、未踏社団の取り組んでいる事業の１つです。
 
-<div style='padding-top: 30px; max-width: 400px; margin: auto; display: block;'>
+<div style='padding-top: 30px; padding-bottom: 30px; max-width: 400px; margin: auto;'>
   <a href="https://www.mitou.org/">
     <img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.webp"
        title="一般社団法人未踏のロゴ画像" class="lazyload" loading="lazy" width='100%'
          alt="一般社団法人未踏のロゴ画像">
   </a>
 </div>
+
+<!--
+<div class='flex' style='gap: 8px;'>
+  <a href="/assets/img/about_foundation-1.jpg">
+    <img src="/assets/img/spinner.svg" data-src="/assets/img/about_foundation-1.jpg"
+       title="人材発掘交流" class="lazyload" loading="lazy" width="100%"
+         alt="人材発掘交流">
+  </a>
+  <a href="/assets/img/about_foundation-2.jpg">
+    <img src="/assets/img/spinner.svg" data-src="/assets/img/about_foundation-2.jpg"
+       title="創造的キャリア支援" class="lazyload" loading="lazy" width="100%"
+         alt="創造的キャリア支援">
+  </a>
+  <a href="/assets/img/about_foundation-3.jpg">
+    <img src="/assets/img/spinner.svg" data-src="/assets/img/about_foundation-3.jpg"
+       title="インフラ整備" class="lazyload" loading="lazy" width="100%"
+         alt="インフラ整備">
+  </a>
+</div>
+-->
 
 <div class='flex'>
   <a class='button' href='https://www.ipa.go.jp/jinzai/mitou/koubo/'>未踏事業を見る</a>
