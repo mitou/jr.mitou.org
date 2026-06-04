@@ -189,6 +189,10 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 ### [<i class="fa-light fa-badge-check"></i>](#opportunities) 他の支援プログラム紹介 {#opportunities}
 
+<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/final.svg"
+   title="他の支援プログラム（成果報告会）のイメージ図" class="post-photo lazyload"
+     alt="他の支援プログラム（成果報告会）のイメージ図" width="80%" style="margin: 50px auto;">
+
 『未踏ジュニア』は 17 歳以下を対象として支援しておりますが、24 歳以下を対象とした『[未踏IT人材発掘・育成事業](https://www.ipa.go.jp/jinzai/mitou/it/about.html)』や、**年齢制限の無い**『[未踏アドバンスト](https://www.ipa.go.jp/jinzai/mitou/advanced/about.html)』『[未踏ターゲット](https://www.ipa.go.jp/jinzai/mitou/target/about.html)』など、あなたの作りたいもの（[提案書](/applications)）を支援してくれるプログラムがあります。コチラもぜひ！
 
 <a href="/opportunities" class="button" style='margin: 60px auto;'>他の支援プログラムを見る</a>
