@@ -9,8 +9,8 @@
 # 英語版 FAQ https://jr.mitou.org/english/#faq
 #
 # 以下、コピペ用
-#- q: 
-#  a: 
+#- q:
+#  a:
 #  q_en: # 省略可
 #  a_en: # 省略可
 
@@ -21,9 +21,9 @@
   a_en: <a href='https://www.mitou.org/'>MITOU Foundation</a> runs the project. Volunteer by project manager and MITOU graduates, and support by companies and organizations.
 
 - q: 未踏ジュニアに採択されると、どのような支援を受けられますか？
-  a: 担当のメンターが1週間あたり1時間程度、主に開発計画や技術的課題などの相談に乗るほか、1プロジェクトにつき50万円を上限として開発に関連する費用を全額支援します。また、期間中に採択者全員が集まるイベント（ブースト会議/中間合宿など）を開催し、メンターをはじめとする未踏関係者や、プロジェクトに関連する専門家からフィードバックを得る機会を提供します。<br><br>プロジェクト期間の最後には成果報告会が開催され、開発したものを多くの人の前で発表する経験もできます。<a href='/schedule'>[採択後の流れを見る]</a>
+  a: 担当のメンターが定期的なミーティングを通じて、主に開発計画や技術的課題などの相談に乗るほか、1プロジェクトにつき50万円を上限として開発に関連する費用を全額支援します。また、期間中に採択者全員が集まるイベント（ブースト会議/中間合宿など）を開催し、メンターをはじめとする未踏関係者や、プロジェクトに関連する専門家からフィードバックを得る機会を提供します。<br><br>プロジェクト期間の最後には成果報告会が開催され、開発したものを多くの人の前で発表する経験もできます。<a href='/schedule'>[採択後の流れを見る]</a>
   q_en: If accepted, what support can I get?
-  a_en: An assigned mentor will support development scheduling and development issues once a week for about one hour. Also, up to <a href='https://www.google.com/search?q=500,000+Yen+to+USD'>500K Yen</a> is given per project to cover all the development costs. In addition, there are events at which all participants come together (such as Kickoff Camp and Demo Day) and get feedback from project managers and other MITOU-related personnel and experts related to projects.
+  a_en: An assigned mentor will support development scheduling and development issues through regular meetings. Also, up to <a href='https://www.google.com/search?q=500,000+Yen+to+USD'>500K Yen</a> is given per project to cover all the development costs. In addition, there are events at which all participants come together (such as Kickoff Camp and Demo Day) and get feedback from project managers and other MITOU-related personnel and experts related to projects.
 
 - q: 地方や海外在住なのですが、合宿や成果報告会に参加するための交通費は支給されますか？
   a: 日本国内に居住の場合、プロジェクト期間中の公式イベントへの交通費と合宿の費用は、各プロジェクトの開発予算とは別に支給されます。海外に居住の場合、日本までの渡航費は支給されません。
