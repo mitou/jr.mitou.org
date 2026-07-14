@@ -1,0 +1,169 @@
+# 提案書サンプル (PDF) 内のリンク
+# https://jr.mitou.org/applications/
+#
+# ■ なぜこのファイルが必要か
+#
+# 提案書 PDF の一部は、リンク注釈 (Link Annotation) を持っていない。
+# iLovePDF による圧縮や、macOS の「印刷」経由での書き出しで、注釈が失われるため。
+# 注釈が無いと PDF.js はリンクを復元できず、URL は「ただの文字」として描かれる。
+#
+# さらに、PDF に描かれた文字列は、そのままでは正しい URL にならないことがある。
+#   - 行末で折り返され、2〜3 行に分かれる (例: jellyfish_alert, uminavi)
+#   - URL の途中に空白が入る          (例: fudey の `20120928- a140/`)
+#   - アンダースコアが結合文字として埋め込まれる (例: abecobe)
+#
+# そのため、URL の正しさは「人が PDF を目視して確定し、このファイルに書く」ことで担保する。
+# JavaScript 側は、ここに書かれた URL を PDF のテキストから探して位置を決めるだけを担当する。
+# 自動検出に任せると、404 になる誤ったリンクを貼ってしまう。
+#
+# PDF がリンク注釈を持っている場合は、そちらが優先され、このファイルのリンクは使われない
+# (同じ場所に二重にリンクを貼らない)。つまりここには全 PDF のリンクを書いてよく、
+# 注釈が失われている PDF でだけ、このファイルが効く。
+#
+# ■ 各フィールド
+#
+#   - page:  PDF のページ番号 (1 始まり)
+#   - url:   実際に飛ぶ URL (人が PDF を目視して確定したもの)
+#   - match: 省略可。PDF 上のテキストと照合するための部分文字列。
+#            PDF に描かれた文字が url と異なる場合のみ書く。
+#            照合時は空白・改行を無視するので、折り返しや空白混入のためには不要。
+#
+# ■ 下書きの生成
+#
+#   bundle exec rake extract_application_links
+#
+#   PDF から URL 候補を抽出して下書きを出力する。必ず PDF を目視して確認すること。
+
+- project_id: a9n
+  links:
+    - page: 9
+      url: https://github.com/horizon2038/hss-python
+    - page: 9
+      url: https://github.com/horizon2038/national-flags-scraper
+
+- project_id: abecobe
+  links:
+    - page: 3
+      url: https://youtu.be/eZepKYRDOcE?t=6
+    - page: 7
+      # PDF 上ではアンダースコアが結合文字 (U+0332) として埋め込まれており、
+      # URL 全体では一致しないため、折り返し前の部分文字列で照合する。
+      url: https://docs.google.com/presentation/d/1FhRYgvBehZVVlZIdG-sIAv6jpl_gbHHW5w3f5BvRNn0/edit?usp=sharing
+      match: https://docs.google.com/presentation/d/1FhRYgvBehZVVlZIdG-
+    - page: 7
+      url: https://drive.google.com/open?id=1tjwc9dUcOji3dzkg2haZ2bDwdFjaBbn8
+
+- project_id: amoyo
+  links:
+    - page: 9
+      url: https://twitter.com/search?q=%E7%B7%A8%E3%81%BF%E7%89%A9%E6%94%AF%E6%8F%B4%E3%83%84%E3%83%BC%E3%83%AB&src=typed_query
+    - page: 11
+      url: http://www.nhk.or.jp/sougou/programming/?das_id=D0005180330_00000#in=1632
+    - page: 11
+      url: https://twitter.com/eijitanuma/status/1067986682203430912
+    - page: 12
+      url: https://youtu.be/nk451InsIuM
+    - page: 12
+      url: https://youtu.be/NKCoc6RfqOo
+    - page: 12
+      url: https://youtu.be/IV5UtyGberM
+    - page: 18
+      url: https://www.kodomonokagaku.com/magazine/programmingcontest.php
+    - page: 18
+      url: https://tech.nikkeibp.co.jp/it/article/COLUMN/20140213/536503/?P=11
+
+- project_id: det_exploit
+  links:
+    - page: 1
+      url: https://twitter.com/moppoi5168
+    - page: 5
+      url: https://github.com/moppoi5168/DetExploit
+    - page: 6
+      url: https://moppoi5168.github.io/
+    - page: 6
+      url: https://twitter.com/naogramer/
+    - page: 6
+      url: https://github.com/moppoi5168/
+    - page: 11
+      url: https://www.slideshare.net/ssuser6c19e1/abyss-of-badusb
+
+- project_id: fudey
+  links:
+    - page: 11
+      # PDF 上では `20120928- a140/` と空白が入って描かれている (照合時に空白は無視される)
+      url: https://news.mynavi.jp/techplus/article/20120928-a140/
+
+- project_id: jellyfish_alert
+  links:
+    - page: 9
+      url: https://nice-asp-ef7.notion.site/Building-Jellyfish-Alert-System-using-Drone-and-AI-f5c124e1dedc4b198e3fdce1762e7ac7?pvs=4
+    - page: 9
+      url: https://www.notion.so/Creating-Jellyfish-swarms-prediction-model-968b4eabac194509aabe14a478491db8?pvs=4
+    - page: 9
+      url: https://www.notion.so/Predict-jellyfish-swarms-by-sea-current-934845f94649462fb870217edaf46a8c?pvs=4
+    - page: 9
+      url: https://www.notion.so/Jellyfish-swarms-when-temperature-wall-goes-off-b47698cea26a479e8cb3f02c4e0197df?pvs=4
+
+- project_id: mer
+  links:
+    - page: 5
+      url: http://ewi.akai-pro.jp/ewi5000w/
+    - page: 6
+      url: https://www.roland.com/jp/products/aerophone_ae-10/
+    - page: 6
+      url: https://www.kickstarter.com/projects/888369457/the-recorder-reinvented
+
+- project_id: niwangojs
+  links:
+    - page: 2
+      url: https://github.com/xpadev-net/niwango
+    - page: 3
+      url: https://github.com/xpadev-net/niconicomments/
+    - page: 3
+      url: https://www.npmjs.com/package/@xpadev-net/niconicomments
+    - page: 3
+      url: https://xpadev-net.github.io/niconicomments/sample/
+    - page: 3
+      url: https://github.com/tanbatu/comment-zouryou
+    - page: 3
+      url: https://github.com/nyankomaher/nicotver
+    - page: 3
+      url: https://github.com/RyotaKITA-12/terminalKakeGohan
+    - page: 3
+      url: https://twitter.com/geek_pjt/status/1619640824538746882
+    - page: 3
+      url: https://github.com/geekcamp-vol11-team30/
+    - page: 3
+      url: https://magi-sche.vercel.app/
+    - page: 3
+      url: https://github.com/GiikuCAMPvol1/
+    - page: 4
+      url: https://github.com/xpadev-net/niwango.js
+    - page: 4
+      url: https://xpadev-net.github.io/niconicomments/sample/?video=23
+    - page: 4
+      url: https://xpadev-net.github.io/niconicomments/sample/?video=24
+    - page: 4
+      url: https://twitter.com/search?q=from%3A%40xpadev%20%23%E3%83%8B%E3%83%AF%E3%83%B3%E8%AA%9E&f=live
+
+- project_id: noxicel
+  links:
+    - page: 7
+      url: https://eigo-duke.com/tango/tangoindex.html
+
+- project_id: tactica_note
+  links:
+    - page: 8
+      url: https://tactica-chat.com
+
+- project_id: uminavi
+  links:
+    - page: 8
+      url: https://github.com/sharminrahman/SVIn2?tab=readme-ov-file
+    - page: 17
+      url: https://www.matlabexpo.com/content/dam/mathworks/mathworks-dot-com/images/events/matlabexpo/jp/2023/Evaluation-of-real-world-applicability-of-gps-independent-location-estimation-methods.pdf
+
+- project_id: visible
+  links:
+    - page: 13
+      url: https://wakatime.com/@Ryo
