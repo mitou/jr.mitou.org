@@ -35,13 +35,17 @@
     height: auto !important;
     min-height: 0 !important;
     padding: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
     background: #f5f5f5;
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-bottom: 10px;
-    scroll-behavior: smooth;
+    /* clip は「はみ出しを切る」だけで、スクロールできる領域を作らない。
+       1 ページずつ描画してボタンで送るビューアなので、内部スクロールは要らない。
+
+       auto や hidden にすると、canvas の高さの端数 (例 1128.6px) のせいで 1px だけ
+       スクロールできる状態になり、ページを読むためのマウスホイールがそこに吸われる
+       (スクロールが親に伝わらず、ページが動かなくなる)。 */
+    overflow: clip;
   }
   .pdf-page-container {
     position: relative;
@@ -325,35 +329,36 @@
       };
 
       // タッチイベントの処理
-      leftArrow.addEventListener('touchstart', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
+      //
+      // touchstart では preventDefault しない。矢印はタップ領域を上下 100px 広げているため、
+      // ここでタッチの既定動作を止めると、矢印の近くから始めた縦スワイプでページをスクロール
+      // できなくなる (指が矢印に触れただけで画面が動かせない)。
+      // 代わりに、指が動いた場合はスワイプとみなしてページ送りを行わない。
+      let touchMoved = false;
+
+      const onTouchStart = () => {
         touchStartTime = Date.now();
-      }, { passive: false });
+        touchMoved = false;
+      };
 
-      leftArrow.addEventListener('touchend', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        const touchEndTime = Date.now();
-        if (touchEndTime - touchStartTime < 300) { // 長押しを防ぐ
-          handlePageChange('prev');
-        }
-      }, { passive: false });
+      const onTouchMove = () => {
+        touchMoved = true;
+      };
 
-      rightArrow.addEventListener('touchstart', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        touchStartTime = Date.now();
-      }, { passive: false });
+      const onTouchEnd = (direction) => (e) => {
+        if (touchMoved) return;                        // スワイプ (スクロール) だった
+        if (Date.now() - touchStartTime >= 300) return; // 長押しだった
 
-      rightArrow.addEventListener('touchend', (e) => {
-        e.preventDefault();
+        e.preventDefault();  // 直後に click が二重で発火するのを防ぐ
         e.stopPropagation();
-        const touchEndTime = Date.now();
-        if (touchEndTime - touchStartTime < 300) { // 長押しを防ぐ
-          handlePageChange('next');
-        }
-      }, { passive: false });
+        handlePageChange(direction);
+      };
+
+      [[leftArrow, 'prev'], [rightArrow, 'next']].forEach(([arrow, direction]) => {
+        arrow.addEventListener('touchstart', onTouchStart, { passive: true });
+        arrow.addEventListener('touchmove', onTouchMove, { passive: true });
+        arrow.addEventListener('touchend', onTouchEnd(direction), { passive: false });
+      });
 
       // クリックイベントの処理
       leftArrow.addEventListener('click', (e) => {
