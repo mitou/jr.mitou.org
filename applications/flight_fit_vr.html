@@ -43,13 +43,17 @@
     height: auto !important;
     min-height: 0 !important;
     padding: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
     background: #f5f5f5;
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-bottom: 10px;
-    scroll-behavior: smooth;
+    /* clip は「はみ出しを切る」だけで、スクロールできる領域を作らない。
+       1 ページずつ描画してボタンで送るビューアなので、内部スクロールは要らない。
+
+       auto や hidden にすると、canvas の高さの端数 (例 1128.6px) のせいで 1px だけ
+       スクロールできる状態になり、ページを読むためのマウスホイールがそこに吸われる
+       (スクロールが親に伝わらず、ページが動かなくなる)。 */
+    overflow: clip;
   }
   .pdf-page-container {
     position: relative;
@@ -99,6 +103,9 @@
     background: transparent;
     cursor: pointer;
     color: transparent;
+    /* ページ送りの矢印 (z-index: 1000) は当たり判定が広いため、リンクをその上に置く。
+       そうしないと、ページ端に近いリンクがクリックできない。 */
+    z-index: 1001;
   }
   .text-layer a:hover {
     background: rgba(255, 255, 0, 0.2);
@@ -219,8 +226,25 @@
     }
   }
 </style> <script src="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.min.js"></script> <script src="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js"></script> <script>
+  // 一部の PDF はリンク注釈 (Link Annotation) を持っておらず、URL が「ただの文字」として
+  // 描かれている。そのままでは PDF.js がリンクを復元できないため、人が検証した URL を
+  // _data/application_links.yml から受け取り、PDF のテキストから位置を探して重ねる。
+  //
+  // URL の正しさは YAML 側で担保する。ここで URL を推測しない (誤ったリンクは、リンクが
+  // 無い状態より悪い。ユーザーが URL を目で読んで開く選択肢を奪い、黙って 404 へ飛ばす)。
+
+  // PDF に描かれた文字列と URL を照合するための正規化。
+  //   - 空白と改行を除去する: URL は行末で折り返されることがあり、途中に空白が入ることもある
+  //   - 結合文字 (U+0300〜U+036F) を除去する: アンダースコアが結合下線として埋め込まれた PDF がある
+  // _tests/verify_application_links.rb の normalize と同じルールにすること。
+  const IGNORED_IN_MATCH = /[\s\u0300-\u036F]/;
+
+  function normalizeForMatch(str) {
+    return Array.from(str).filter((ch) => !IGNORED_IN_MATCH.test(ch)).join('');
+  }
+
   // PDF.jsの初期化とPDF表示を行う関数
-  async function initPDF(projectId) {
+  async function initPDF(projectId, knownLinks) {
     // デバッグモードの設定（localhost または ngrok.io の場合に有効）
     const isDebug = window.location.hostname === 'localhost' || window.location.hostname.endsWith('.ngrok.io');
     const debugLog = (...args) => {
@@ -285,7 +309,7 @@
       const handlePageChange = async (direction) => {
         const now = Date.now();
         if (isProcessing || (now - lastTouchEndTime) < TOUCH_COOLDOWN) return;
-        
+
         isProcessing = true;
         lastTouchEndTime = now;
 
@@ -307,35 +331,36 @@
       };
 
       // タッチイベントの処理
-      leftArrow.addEventListener('touchstart', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
+      //
+      // touchstart では preventDefault しない。矢印はタップ領域を上下 100px 広げているため、
+      // ここでタッチの既定動作を止めると、矢印の近くから始めた縦スワイプでページをスクロール
+      // できなくなる (指が矢印に触れただけで画面が動かせない)。
+      // 代わりに、指が動いた場合はスワイプとみなしてページ送りを行わない。
+      let touchMoved = false;
+
+      const onTouchStart = () => {
         touchStartTime = Date.now();
-      }, { passive: false });
+        touchMoved = false;
+      };
 
-      leftArrow.addEventListener('touchend', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        const touchEndTime = Date.now();
-        if (touchEndTime - touchStartTime < 300) { // 長押しを防ぐ
-          handlePageChange('prev');
-        }
-      }, { passive: false });
+      const onTouchMove = () => {
+        touchMoved = true;
+      };
 
-      rightArrow.addEventListener('touchstart', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        touchStartTime = Date.now();
-      }, { passive: false });
+      const onTouchEnd = (direction) => (e) => {
+        if (touchMoved) return;                        // スワイプ (スクロール) だった
+        if (Date.now() - touchStartTime >= 300) return; // 長押しだった
 
-      rightArrow.addEventListener('touchend', (e) => {
-        e.preventDefault();
+        e.preventDefault();  // 直後に click が二重で発火するのを防ぐ
         e.stopPropagation();
-        const touchEndTime = Date.now();
-        if (touchEndTime - touchStartTime < 300) { // 長押しを防ぐ
-          handlePageChange('next');
-        }
-      }, { passive: false });
+        handlePageChange(direction);
+      };
+
+      [[leftArrow, 'prev'], [rightArrow, 'next']].forEach(([arrow, direction]) => {
+        arrow.addEventListener('touchstart', onTouchStart, { passive: true });
+        arrow.addEventListener('touchmove', onTouchMove, { passive: true });
+        arrow.addEventListener('touchend', onTouchEnd(direction), { passive: false });
+      });
 
       // クリックイベントの処理
       leftArrow.addEventListener('click', (e) => {
@@ -417,7 +442,7 @@
       const page = await pdfDocument.getPage(1);
       const commonObjs = page.commonObjs;
       debugLog('Common Objects:', commonObjs);
-      
+
       const fontObjs = page.objs;
       debugLog('Font Objects:', fontObjs);
 
@@ -427,13 +452,18 @@
       debugLog('Text Content Items:', textContent.items);
 
       numPages = pdfDocument.numPages;
-      
+
       // ページ情報を更新
       function updatePageInfo() {
         pageInfo.textContent = `ページ ${currentPage} / ${numPages}`;
         prevButton.disabled = currentPage <= 1;
         nextButton.disabled = currentPage >= numPages;
       }
+
+      // 描画の世代。ページを素早く切り替えると renderPage が同時に複数走り、
+      // 先に始まった描画が、後から始まった描画のテキストレイヤーを書き換えてしまう。
+      // 各 await の後で世代が変わっていたら、その描画は捨てる。
+      let renderGeneration = 0;
 
       // ページを表示する関数
       async function renderPage(pageNum) {
@@ -442,7 +472,12 @@
           return;
         }
 
+        const generation = ++renderGeneration;
+        const isStale = () => generation !== renderGeneration;
+
         const page = await pdfDocument.getPage(pageNum);
+        if (isStale()) return;
+
         const leftArrow = document.getElementById(`pdf-nav-arrow-left-${projectId}`);
         const rightArrow = document.getElementById(`pdf-nav-arrow-right-${projectId}`);
 
@@ -456,7 +491,7 @@
 
         // スケール値を計算（アスペクト比を維持）
         const scale = containerWidth / originalViewport.width;
-        const viewport = page.getViewport({ 
+        const viewport = page.getViewport({
           scale: scale,
           rotation: 0 // 回転を明示的に0度に設定
         });
@@ -464,16 +499,16 @@
         // canvasのピクセルサイズを設定
         const canvas = document.getElementById(`pdf-canvas-${projectId}`);
         const context = canvas.getContext('2d');
-        
+
         // デバイスピクセル比を考慮
         const dpr = window.devicePixelRatio || 1;
         canvas.width = viewport.width * dpr;
         canvas.height = viewport.height * dpr;
-        
+
         // CSSで幅100%、高さautoに
         canvas.style.width = `${viewport.width}px`;
         canvas.style.height = `${viewport.height}px`;
-        
+
         // コンテキストのスケーリング
         context.scale(dpr, dpr);
 
@@ -483,33 +518,48 @@
         textLayer.style.left = '0';
         textLayer.style.top = '0';
 
+        // PDF.js が生成する span は font-size に calc(var(--scale-factor) * Npx) を使う。
+        // この変数を設定しないと文字の大きさが決まらず、span の幅・高さが正しく求まらない。
+        textLayer.style.setProperty('--scale-factor', scale);
+
         // PDFを描画
         await page.render({
           canvasContext: context,
           viewport: viewport,
           intent: 'display'
         }).promise;
+        if (isStale()) return;
 
         // テキストレイヤー
         const textContent = await page.getTextContent();
+        if (isStale()) return;
         debugLog('Text content:', textContent);
-        
+
         // テキストレイヤーをクリア
         textLayer.innerHTML = '';
-        
+
+        // textDivs には、描画されたテキストの span が textContent.items と同じ順で入る。
+        // PDF にリンク注釈が無い場合、この span の位置からリンクの矩形を求める。
+        const textDivs = [];
+
         await pdfjsLib.renderTextLayer({
           textContent,
           container: textLayer,
           viewport,
-          textDivs: [],
+          textDivs,
           textContentSource: textContent,
           renderInteractiveForms: true,
           enhanceTextSelection: true
         }).promise;
+        if (isStale()) return;
 
         // リンクの処理
         const annotations = await page.getAnnotations();
+        if (isStale()) return;
         debugLog('Annotations:', annotations);
+
+        // 注釈から作ったリンクの矩形。あとでテキストから復元するリンクと重ならないようにする。
+        const annotationRects = [];
 
         for (const annotation of annotations) {
           if (annotation.subtype === 'Link') {
@@ -533,6 +583,8 @@
             link.style.width = `${width}px`;
             link.style.height = `${height}px`;
 
+            annotationRects.push({ left: x, top: y, right: x + width, bottom: y + height });
+
             // 外部リンクの場合
             if (annotation.url) {
               debugLog('External link:', annotation.url);
@@ -546,18 +598,18 @@
               debugLog('Internal link:', annotation.dest);
               link.href = '#';
               link.title = 'ページ内リンク';
-              
+
               // クリックイベントを設定
               link.addEventListener('click', async (e) => {
                 e.preventDefault();
                 e.stopPropagation();
                 debugLog('Link clicked:', annotation.dest);
-                
+
                 try {
                   const dest = await pdfDocument.getDestination(annotation.dest);
                   const pageIndex = await pdfDocument.getPageIndex(dest[0]);
                   debugLog('Destination page:', pageIndex + 1);
-                  
+
                   if (pageIndex !== -1) {
                     currentPage = pageIndex + 1;
                     await renderPage(currentPage);
@@ -574,7 +626,100 @@
           }
         }
 
+        // リンク注釈を持たない PDF のために、人が検証した URL をテキストの上に重ねる
+        renderKnownLinks(pageNum, textContent.items, textDivs, annotationRects);
+
         updatePageInfo();
+      }
+
+      // _data/application_links.yml に登録された URL を、PDF のテキストの上に重ねる。
+      function renderKnownLinks(pageNum, items, textDivs, annotationRects) {
+        const links = knownLinks.filter((link) => link.page === pageNum);
+        if (links.length === 0) return;
+
+        // span と item が 1 対 1 で対応しなければ、位置を特定できないので何もしない。
+        // リンクが増えないだけで、表示・テキスト選択・ページ送りには影響しない。
+        if (textDivs.length !== items.length) {
+          debugLog('span と item の数が一致しないため、リンクの復元を見送ります:', textDivs.length, items.length);
+          return;
+        }
+
+        // 正規化した全文と、その各文字がどの item から来たかの対応表を作る
+        let text = '';
+        const itemOfChar = [];
+
+        items.forEach((item, index) => {
+          for (const ch of item.str) {
+            if (IGNORED_IN_MATCH.test(ch)) continue;
+            text += ch;
+            itemOfChar.push(index);
+          }
+        });
+
+        links.forEach((link) => {
+          const key = normalizeForMatch(link.match || link.url);
+          const at = text.indexOf(key);
+
+          if (at === -1) {
+            debugLog('PDF のテキストから見つかりませんでした:', link.url);
+            return;
+          }
+
+          rectsOf(itemOfChar[at], itemOfChar[at + key.length - 1], textDivs).forEach((rect) => {
+            // 注釈から作ったリンクと重なる場合は、そちらを優先して二重に貼らない
+            if (annotationRects.some((annotation) => overlaps(annotation, rect))) return;
+
+            const a = document.createElement('a');
+            a.className = 'pdf-text-link';
+            a.href = link.url;
+            a.target = '_blank';
+            a.title = link.url;
+            a.style.left = `${rect.left}px`;
+            a.style.top = `${rect.top}px`;
+            a.style.width = `${rect.right - rect.left}px`;
+            a.style.height = `${rect.bottom - rect.top}px`;
+            textLayer.appendChild(a);
+
+            debugLog('テキストからリンクを復元しました:', link.url);
+          });
+        });
+      }
+
+      // item の範囲に対応する span の矩形を、行ごとにまとめて返す。
+      // URL は行末で折り返されることがあり、1 つのリンクが複数行にまたがる。
+      function rectsOf(firstItem, lastItem, textDivs) {
+        const rects = [];
+
+        for (let i = firstItem; i <= lastItem; i++) {
+          const div = textDivs[i];
+          if (!div) continue;
+
+          // 大きさを持たない span (空文字など) は行の位置を持たないので飛ばす。
+          // 拾ってしまうと、左上 (0, 0) に大きさ 0 のリンクができる。
+          if (div.offsetWidth === 0 || div.offsetHeight === 0) continue;
+
+          const rect = {
+            left: div.offsetLeft,
+            top: div.offsetTop,
+            right: div.offsetLeft + div.offsetWidth,
+            bottom: div.offsetTop + div.offsetHeight
+          };
+          const sameRow = rects.find((r) => Math.abs(r.top - rect.top) < (rect.bottom - rect.top) / 2);
+
+          if (sameRow) {
+            sameRow.left = Math.min(sameRow.left, rect.left);
+            sameRow.right = Math.max(sameRow.right, rect.right);
+            sameRow.bottom = Math.max(sameRow.bottom, rect.bottom);
+          } else {
+            rects.push(rect);
+          }
+        }
+
+        return rects;
+      }
+
+      function overlaps(a, b) {
+        return a.left < b.right && b.left < a.right && a.top < b.bottom && b.top < a.bottom;
       }
 
       // 最初のページを表示
@@ -627,7 +772,7 @@
     } catch (error) {
       clearTimeout(loadingTimeout);
       console.error('PDFの読み込みに失敗しました:', error);
-      
+
       // エラーメッセージを詳細に表示
       let errorMessage = 'PDFの読み込みに失敗しました。';
       if (error.name === 'MissingPDFException') {
@@ -640,7 +785,7 @@
 
       loadingText.textContent = errorMessage;
       loadingText.style.color = '#dc3545';
-      
+
       // リトライボタンを表示
       const retryButton = document.createElement('button');
       retryButton.textContent = '再読み込み';
@@ -655,6 +800,9 @@
 
   // ページ読み込み完了時にPDFを表示
   document.addEventListener('DOMContentLoaded', () => {
-    initPDF('flight_fit_vr');
+    
+    
+    initPDF('flight_fit_vr', []);
+    
   });
 </script> <div class="note" style="margin: 30px auto 50px;"><small>上記の提案書の状態から、約半年間の支援を得た結果が下記の<a href="#final">成果報告会での発表</a>となります。<br/><br/><img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" class="lazyload"/></small></div> <h3 id="final" style="margin-top: 60px;"> <a href="#final"><i class="fa-solid fa-graduation-cap"></i></a> -Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品 <a href="/projects/2020/flight_fit_vr"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> </h3> <div class="youtube"> <iframe width="100%" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/rIRHwI6EV8E?rel=0&amp;start=55&amp;hl=" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe> </div> <p style="margin-top: 40px;">OculusのVRゴーグルで、美しい景色と音楽の中でリラックスしながら身体を鍛えることができる作品です。３つのミニゲームから構成されており、体幹、腹筋、前腿の筋肉などの筋力向上を期待できます。</p> <div class="flex"> <a class="button" href="/applications#sample">サンプル一覧に戻る</a> <a class="button" href="https://twitter.com/intent/tweet?text=提案書サンプル%20-%20-Flight Fit VR- 「飛行」をテーマに仮想空間で身体を鍛えるVR作品&amp;hashtags=未踏ジュニア&amp;url=https://jr.mitou.org/applications/flight_fit_vr&amp;lang=ja&amp;related=mitoujr">ツイートする</a> </div> <nav> <p class="nav prev"> <a href="noxicel" title="Noxicel - 英作文とAIを用いた英単語学習アプリ"> &larr; 前の提案書 <br/> Noxicel - 英作文とAIを用いた英単語学習アプリ </a> </p> <p class="nav next"> <a href="visible" title="Visible ─ Webアクセシビリティー診断 &amp; 修正提案ツール"> 次の提案書 &rarr; <br/> Visible ─ Webアクセシビリティー診断 &amp; 修正提... </a> </p> </nav> </div> </div> <footer> <a hreflang="ja" href="/">ホーム</a> <a hreflang="ja" href="/about">未踏ジュニアとは</a> <a hreflang="ja" href="/news">お知らせ一覧</a> <a hreflang="ja" href="/guideline">応募の手引き</a> <a hreflang="ja" href="/applications">提案書を準備しよう</a> <a hreflang="ja" href="/projects">採択プロジェクト一覧</a> <a hreflang="ja" href="/projects/showcase">採択プロジェクト図鑑</a> <a hreflang="ja" href="/projects/search">採択プロジェクト検索</a> <a hreflang="ja" href="/interviews">修了生インタビュー</a> <a hreflang="ja" href="/mentors">メンター紹介</a> <a hreflang="ja" href="/#faq">よくある質問</a> <a hreflang="ja" href="/q-box">匿名質問箱</a> <a hreflang="ja" href="/#contact">問い合わせ</a> <a hreflang="ja" href="/stats">統計情報</a> <a hreflang="ja" href="/applications#story">採択者の体験談</a> <a hreflang="ja" href="/opportunities">他の支援プログラム</a> <a hreflang="ja" href="/admissions">大学と未踏ジュニア</a> <a hreflang="ja" href="/#sponsors">スポンサー</a> <a hreflang="ja" href="/flyers">チラシ</a> <a hreflang="ja" href="/privacy">プライバシーポリシー</a> <a hreflang="en" href="/english">English</a> <div class="sns"> <a href="https://x.com/mitoujr"><i class="fab fa-x-twitter"></i></a> <a href="https://facebook.com/mitoujr"><i class="fab fa-facebook"></i></a> <a href="https://github.com/mitou/jr.mitou.org"><i class="fab fa-github"></i></a> <a href="https://anchor.fm/mitoujr"><i class="fab fa-spotify"></i></a> <a href="https://youtube.com/mitoujr"><i class="fab fa-youtube"></i></a> </div> <span class="copyright">Copyright &copy; <a href='/#organizer' style='padding: 0 0 0 0; color: #666; font-weight: lighter;'>未踏社団</a> 未踏ジュニア実行委員会 </span> </footer> <script src="/assets/js/lazysizes.min.js" async=""></script> </body> </html>
