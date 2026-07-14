@@ -25,6 +25,13 @@ jobs:
       with:
         bundler-cache: true
 
+    # 提案書 PDF 内のリンク (_data/application_links.yml) が PDF のテキストと
+    # 照合できるかを検証する。pdftotext を使うため poppler-utils を入れる。
+    - name: 📄 Verify links in application PDFs
+      run: |
+        sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+        bundle exec rake verify_application_links
+
     - name: 🔧 Build & Test
       run: |
         bundle exec rake upsert_project_pages_by_data
@@ -52,7 +59,7 @@ jobs:
       run: |
         COMMIT_MESSAGE=$(git show -s --format=%s HEAD)
         PR_NUMBER=$(echo "$COMMIT_MESSAGE" | sed -nE 's/^Merge pull request #([0-9]+).*/\1/p')
-        
+
         if [ -n "$PR_NUMBER" ]; then
           echo "PR_NUMBER=#$PR_NUMBER" >> $GITHUB_ENV; else
           echo "PR_NUMBER="            >> $GITHUB_ENV

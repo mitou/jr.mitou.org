@@ -12,6 +12,12 @@ task(:upsert_project_samples_by_data) { ruby "_tasks/upsert_project_samples_by_d
 desc 'Translate given-year projects with LLM'
 task(:convert_ja2en_by_llm) { ruby "_tasks/convert_ja2en_by_llm.rb" }
 
+desc 'Extract URL candidates from application PDFs (draft for _data/application_links.yml)'
+task(:extract_application_links) { ruby "_tasks/extract_application_links.rb" }
+
+desc 'Verify that links in _data/application_links.yml are found in the PDFs'
+task(:verify_application_links) { ruby "_tests/verify_application_links.rb" }
+
 desc 'Build the site with Jekyll (flushes cache via clean)'
 task(build: [:clean]) { system 'bundle exec jekyll build' unless ENV['SKIP_BUILD'] == 'true' }
 
