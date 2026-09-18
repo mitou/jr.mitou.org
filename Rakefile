@@ -31,7 +31,7 @@ require 'html-proofer'
 task test: [:build] do
   require './_tests/custom_checks'
   options = {
-    checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'CustomChecks', 'TrailingSlash', 'LazyloadImages'],
+    checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'CustomChecks', 'TrailingSlash', 'LazyloadImages', 'VideoThumbnails'],
     allow_hash_href:  true,
     disable_external: ENV['TEST_EXTERNAL_LINKS'] != 'true',
     enforce_https:    true,

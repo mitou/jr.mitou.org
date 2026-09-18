@@ -4,6 +4,9 @@
 require 'json'
 require 'yaml'
 
+# `rake test` builds with _config.yml, so absolute URLs in _site start with its `url`.
+SITE_URL = YAML.load_file('_config.yml').fetch('url') # => 'https://jr.mitou.org'
+
 class CustomChecks < ::HTMLProofer::Check
   BASE_PATH = '_site'
 
@@ -62,7 +65,7 @@ class CustomChecks < ::HTMLProofer::Check
         #       so `site.url` is always 'https://jr.mitou.org' and thumbnails are
         #       stored as absolute URLs. Replace the domain with BASE_PATH to get
         #       the local file path for File.exist? check.
-        thumbnail.gsub!('https://jr.mitou.org', BASE_PATH)
+        thumbnail.gsub!(SITE_URL, BASE_PATH)
 
         add_failure(
           <<~ERROR_MESSAGE
@@ -147,7 +150,7 @@ class CustomChecks < ::HTMLProofer::Check
       #       so `site.url` is always 'https://jr.mitou.org' and thumbnails are
       #       stored as absolute URLs. Replace the domain with BASE_PATH to get
       #       the local file path for File.exist? check.
-      thumbnail = project[:thumbnail].gsub('https://jr.mitou.org', BASE_PATH)
+      thumbnail = project[:thumbnail].gsub(SITE_URL, BASE_PATH)
       add_failure(
         <<~ERROR_MESSAGE
           No such thumbnail: #{thumbnail}
@@ -268,6 +271,19 @@ class LazyloadImages < HTMLProofer::Check
 
       file_path = File.join('_site', src.split(/[?#]/).first)
       add_failure("No such lazyload image: #{src}", line: node.line) unless File.exist?(file_path)
+    end
+  end
+end
+
+# HTML-Proofer doesn't check image URLs in `<meta itemprop="thumbnailUrl">` (structured data).
+class VideoThumbnails < HTMLProofer::Check
+  def run
+    @html.css('meta[itemprop="thumbnailUrl"]').each do |node|
+      url = node['content']
+      next unless url.start_with?("#{SITE_URL}/")
+
+      file_path = File.join('_site', url.delete_prefix(SITE_URL))
+      add_failure("No such video thumbnail: #{url}", line: node.line) unless File.exist?(file_path)
     end
   end
 end
