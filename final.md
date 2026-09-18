@@ -125,7 +125,7 @@ twitter_card: summary_large_image
     18分 x 3回転  13分 x 3回転。<br>
     1プロジェクトあたり2回ブース発表。<br>
     <img width='100%' src="/assets/img/spinner.svg" alt="デモ展示タイムターブル"
-     data-src="https://i.gyazo.com/8ae7cf2fd9158336373c2f4fd95746d5.png"
+     data-src="/assets/img/final_2024_demo.png"
      class="lazyload" loading="lazy" />
     -->
   </li>
