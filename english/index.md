@@ -65,7 +65,7 @@ If necessary, places to develop will be provided. And transportation and accommo
 
 Creators who have shown their outstanding performance during MITOU Junior program get an outstanding performance award. The award is highly recognized for Admissions Office of several universities, including [Keio University SFC](https://www.sfc.keio.ac.jp/en/), [Kindai University](https://www.kindai.ac.jp/english/) and [Tokyo Metropolitan University](https://www.tmu.ac.jp/english/index.html).
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.webp"
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding_v0.webp"
  title="Award ceremony for graduates of the MITOU Junior program at The University of Tokyo." class="top-img lazyload" loading="lazy"
  alt="Award ceremony for graduates of the MITOU Junior program at The University of Tokyo.">
 <br><br>
