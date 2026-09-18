@@ -112,12 +112,12 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや東京都立大学、近畿大学に推薦枠で出願できます。
 
 <!--
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.webp"
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding_group.webp"
    title="修了証書を授与されたクリエータと、メンターや運営チームの集合写真 @ GMO Yours・フクラス" class="top-img lazyload" loading="lazy"
      alt="修了証書を授与されたクリエータと、メンターや運営チームの集合写真 @ GMO Yours・フクラス">
 -->
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding_v0.webp"
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.webp"
    title="クリエータに修了証書を授与している様子 @ 東京大学" class="top-img lazyload" loading="lazy"
      alt="クリエータに修了証書を授与している様子 @ 東京大学">
 
