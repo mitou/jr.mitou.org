@@ -255,3 +255,16 @@ class TrailingSlash < HTMLProofer::Check
     end
   end
 end
+
+# HTML-Proofer checks only `src`, so lazyload images (`data-src`) are not verified.
+class LazyloadImages < HTMLProofer::Check
+  def run
+    @html.css('img[data-src]').each do |node|
+      src = node['data-src']
+      next unless src.start_with?('/') && !src.start_with?('//')
+
+      file_path = File.join('_site', src.split(/[?#]/).first)
+      add_failure("No such lazyload image: #{src}", line: node.line) unless File.exist?(file_path)
+    end
+  end
+end

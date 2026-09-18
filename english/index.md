@@ -45,7 +45,7 @@ Creators will be able to learn from mentors and other [MITOU Program](https://ww
   
 Each group will be eligible to receive up to [500K Yen](https://www.google.com/search?q=500,000+Yen+to+USD) as funding for development.
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_development.webp"
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_dev_v0.webp"
  title="Support developing projects at CASE Shinjuku." class="top-img lazyload" loading="lazy"
  alt="Support developing projects at CASE Shinjuku." >
 <br><br>
