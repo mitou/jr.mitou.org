@@ -4,8 +4,8 @@
 require 'json'
 require 'yaml'
 
-# Same as `url` in _config.yml. `rake test` builds with it, so absolute URLs in _site start with this.
-SITE_URL = 'https://jr.mitou.org'
+# `rake test` builds with _config.yml, so absolute URLs in _site start with its `url`.
+SITE_URL = YAML.load_file('_config.yml').fetch('url') # => 'https://jr.mitou.org'
 
 class CustomChecks < ::HTMLProofer::Check
   BASE_PATH = '_site'
