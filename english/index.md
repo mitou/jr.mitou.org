@@ -26,7 +26,7 @@ Creators will be able to learn from mentors and other [MITOU Program](https://ww
   <meta itemprop="requiresSubscription" content="False">
   <meta itemprop="width"                content="1280">
   <meta itemprop="height"               content="720">
-  <meta itemprop="thumbnailUrl"         content="https://i.gyazo.com/c154c247c3056509f102d10b0daec7c8.jpg">
+  <meta itemprop="thumbnailUrl"         content="{{ '/assets/img/videos/qcMk-CLo21c.jpg' | absolute_url }}">
   <meta itemprop="uploadDate"           content="2019-12-11">
   <meta itemprop="contentUrl"           content="https://youtube.googleapis.com/v/qcMk-CLo21c">
   <meta itemprop="embedUrl"             content="https://www.youtube.com/embed/qcMk-CLo21c?rel=0">
@@ -91,7 +91,7 @@ Our alumni are creating new values after the program as well. Here are a few exa
   <meta itemprop="requiresSubscription" content="False">
   <meta itemprop="width"                content="1280">
   <meta itemprop="height"               content="720">
-  <meta itemprop="thumbnailUrl"         content="https://i.gyazo.com/5557b5f76e1d2918848a75d61a55dc94.png">
+  <meta itemprop="thumbnailUrl"         content="{{ '/assets/img/videos/GCtFWPWUPXY.png' | absolute_url }}">
   <meta itemprop="uploadDate"           content="2025-07-19">
   <meta itemprop="contentUrl"           content="https://youtube.googleapis.com/v/GCtFWPWUPXY">
   <meta itemprop="embedUrl"             content="https://www.youtube.com/embed/GCtFWPWUPXY?rel=0">

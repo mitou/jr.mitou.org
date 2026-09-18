@@ -11,7 +11,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
   <meta itemprop="requiresSubscription" content="False">
   <meta itemprop="width"                content="1280">
   <meta itemprop="height"               content="720">
-  <meta itemprop="thumbnailUrl"         content="https://i.gyazo.com/c9279aac3f89da401e0d3d14f570fa37.jpg">
+  <meta itemprop="thumbnailUrl"         content="{{ '/assets/img/videos/Eu42E-FXBME.jpg' | absolute_url }}">
   <meta itemprop="uploadDate"           content="2022-10-05">
   <meta itemprop="contentUrl"           content="https://youtube.googleapis.com/v/Eu42E-FXBME">
   <meta itemprop="embedUrl"             content="https://www.youtube.com/embed/Eu42E-FXBME?rel=0">
@@ -189,7 +189,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
   <meta itemprop="requiresSubscription" content="False">
   <meta itemprop="width"                content="1280">
   <meta itemprop="height"               content="720">
-  <meta itemprop="thumbnailUrl"         content="https://i.gyazo.com/67c56597574a341d2d686a51ad8238ed.jpg">
+  <meta itemprop="thumbnailUrl"         content="{{ '/assets/img/videos/1KNkEAh9AK4.jpg' | absolute_url }}">
   <meta itemprop="uploadDate"           content="2019-02-20">
   <meta itemprop="contentUrl"           content="https://youtube.googleapis.com/v/1KNkEAh9AK4">
   <meta itemprop="embedUrl"             content="https://www.youtube.com/embed/1KNkEAh9AK4?rel=0">
