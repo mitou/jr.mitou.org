@@ -23,7 +23,7 @@ class CustomChecks < ::HTMLProofer::Check
 
   def valid_and_equal_to?(filename)
     # MEMO: May report same error multiple times, but keeps code simple and clear.
-    unless File.exist?(filename)
+    if not File.exist?(filename)
       add_failure("No such page found: #{filename}")
       return false
     end
