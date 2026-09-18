@@ -86,7 +86,7 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
      alt="機材・資材を活用して開発したプロダクトの発表 @ 成果報告会" >
 
 <!--
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_development_v0.webp"
+<img src="/assets/img/spinner.svg" data-src="/assets/img/about_dev_v0.webp"
    title="ハードウェア開発を支援している様子 @ CASE Shinjuku" class="top-img lazyload" loading="lazy"
      alt="ハードウェア開発を支援している様子 @ CASE Shinjuku" >
 -->
