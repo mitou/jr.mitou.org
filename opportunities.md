@@ -12,7 +12,8 @@ redirect_from:
   <br>
   <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/final.svg" alt="他の支援プログラム（成果報告会）のイメージ図" width="80%" class="post-photo lazyload">
   <br>
-  <small>細かな募集要項は未踏ジュニアとは異なります。<br class='ignore-pc'>詳細は以下の公式サイトからご確認ください。</small><br>
+  <small><i class="fa-light fa-solid fa-triangle-exclamation"></i>
+    以下は掲載当時のデータとなり、現在は変更されている可能性があります。<br class='ignore-sp'><b>必ず公式ページから最新情報をご確認ください。</b></small><br>
 </p>
 
 {% assign opportunities = site.data.opportunities | where_exp: "item", "item.is_closed != true" %}
