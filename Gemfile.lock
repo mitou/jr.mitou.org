@@ -146,12 +146,6 @@ GEM
       rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    libv8-node (23.6.1.0)
-    libv8-node (23.6.1.0-aarch64-linux)
-    libv8-node (23.6.1.0-arm64-darwin)
-    libv8-node (23.6.1.0-x86_64-darwin)
-    libv8-node (23.6.1.0-x86_64-linux)
-    libv8-node (23.6.1.0-x86_64-linux-musl)
     liquid (4.0.4)
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -159,8 +153,6 @@ GEM
     logger (1.7.0)
     mercenary (0.4.0)
     metrics (0.12.2)
-    mini_racer (0.18.1)
-      libv8-node (~> 23.6.1.0)
     minitest (5.27.0)
     multipart-post (2.4.1)
     net-http (0.9.1)
@@ -266,7 +258,6 @@ DEPENDENCIES
   jekyll-minifier
   jekyll-redirect-from
   jekyll-sitemap
-  mini_racer
   rake
   rss
   ruby-openai

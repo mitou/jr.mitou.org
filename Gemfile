@@ -35,6 +35,3 @@ end
 
 # Performance-booster for watching directories on Windows
 gem 'wdm', :install_if => Gem.win_platform? # , '~> 0.1.1'
-
-# Enable to edit jr.mitou.org on Codespaces
-gem 'mini_racer'
