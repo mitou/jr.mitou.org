@@ -113,25 +113,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='jenga_builder' title='JengaBuilder - フィジカルAIによるジェンガタワーの全自動セットアップ'>
+    <a href='invisible_mind' title='InvisibleMind - LLMエージェントを用いた人工経済による経済学教育アプリ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        JengaBuilder - フィジカルAIによるジェンガタ...
+        InvisibleMind - LLMエージェントを用いた人...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='invisible_mind' title='InvisibleMind - LLMエージェントを用いた人工経済による経済学教育アプリ'>
+    <a href='kintsugi_4d_dojo' title='Kintsugi 4D Dojo ― 金継ぎを最高の思い出にする体験・支援アプリ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        InvisibleMind - LLMエージェントを用いた人...
+        Kintsugi 4D Dojo ― 金継ぎを最高の思い出に...
       {% endif %}
     </a>
   </p>

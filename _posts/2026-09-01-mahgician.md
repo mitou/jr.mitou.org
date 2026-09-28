@@ -113,25 +113,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='invisible_mind' title='InvisibleMind - LLMエージェントを用いた人工経済による経済学教育アプリ'>
+    <a href='minera_lens' title='MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        InvisibleMind - LLMエージェントを用いた人...
+        MineraLens - 結晶構造から鉱物の「なぜ」を探る3...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='aroute' title='~ARoute~「駅構内を直感的に理解できる3Dマップ」'>
+    <a href='origami_cp' title='LLMを用いた折り紙展開図作成ツール'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        ~ARoute~「駅構内を直感的に理解できる3Dマップ」
+        LLMを用いた折り紙展開図作成ツール
       {% endif %}
     </a>
   </p>

@@ -113,25 +113,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='origami_cp' title='LLMを用いた折り紙展開図作成ツール'>
+    <a href='unframe' title='Unframe - MRを使ったプレゼンテーションアプリ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        LLMを用いた折り紙展開図作成ツール
+        Unframe - MRを使ったプレゼンテーションアプリ
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='minera_lens' title='MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ'>
+    <a href='nagi' title='nagi - アトピー性皮膚炎の無意識の掻破行動を抑制するデバイス'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        MineraLens - 結晶構造から鉱物の「なぜ」を探る3...
+        nagi - アトピー性皮膚炎の無意識の掻破行動を抑制するデバイス
       {% endif %}
     </a>
   </p>

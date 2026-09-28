@@ -113,25 +113,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='esor_frame' title='EsorFrame - 悩みを前進させるAI相談支援サービス'>
+    <a href='stellaphonic' title='Stellaphonic - 音で宇宙を感じる新しい天体観測'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        EsorFrame - 悩みを前進させるAI相談支援サービス
+        Stellaphonic - 音で宇宙を感じる新しい天体観測
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='stellaphonic' title='Stellaphonic - 音で宇宙を感じる新しい天体観測'>
+    <a href='mahgician' title='Mahgician - IoT牌によるリアルとデジタルを融合する麻雀システム'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Stellaphonic - 音で宇宙を感じる新しい天体観測
+        Mahgician - IoT牌によるリアルとデジタルを融合...
       {% endif %}
     </a>
   </p>
