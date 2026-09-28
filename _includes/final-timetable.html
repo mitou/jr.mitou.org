@@ -1,4 +1,4 @@
-{% assign project_ids = include.project_ids %}
+{% assign project_ids = include.project_ids | split: "," | compact %}
 
 <ul>
 {% for project_id in project_ids %}
