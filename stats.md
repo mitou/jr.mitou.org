@@ -293,13 +293,13 @@ Highcharts.chart('rates', {
   </ul>
 
   {% if stat.year == 2016 %}
-  修了したクリエータ数は {{ stat.creators }} 名です。なお、<a href='/about#supports-awarding'>スーパークリエータ認定</a>は2017年度から始まったため、{{ stat.year }}年度のデータはありません。
+  クリエータ数は {{ stat.creators }} 名です。なお、<a href='/about#supports-awarding'>スーパークリエータ認定</a>は2017年度から始まったため、{{ stat.year }}年度のデータはありません。
   {% elsif stat.creators and stat.spc %}
-  修了したクリエータ数は {{ stat.creators }} 名、そのうち {{ stat.spc }} 名をスーパークリエータと認定しました。（認定率: {{ stat.spc_rate }}%）
+  クリエータ数は {{ stat.creators }} 名、そのうち {{ stat.spc }} 名をスーパークリエータと認定しました。（認定率: {{ stat.spc_rate }}%）
   {% elsif stat.creators %}
-  修了したクリエータ数は {{ stat.creators }} 名です。スーパークリエータの認定は後日発表されます。
+  クリエータ数は {{ stat.creators }} 名です。スーパークリエータの認定は後日発表されます。
   {% else %}
-  修了したクリエータ数およびスーパークリエータ認定数は後日発表されます。
+  クリエータ数およびスーパークリエータ認定数は後日発表されます。
   {% endif %}
 
   <!-- NOTE: 最新年度の採択プロジェクト公開前は、統計情報のみ表示する -->
