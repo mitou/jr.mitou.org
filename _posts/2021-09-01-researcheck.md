@@ -72,7 +72,7 @@ twitter_card: summary_large_image
 {% endif %}
 
 {% if pj_promotion %}
-## {{ translations.demoMovie[lang] }} {#demo}
+## [{{ translations.demoMovie[lang] }}](#demo){: .heading-anchor} {#demo}
 {% if pj_promotion contains '.gif' %}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='{{ translations.demoMovie[lang] }} (Gif)'
      data-src='/assets/img/projects/{{ pj.year }}/{{ pj_promotion }}' loading='lazy'
@@ -86,7 +86,7 @@ twitter_card: summary_large_image
 {% endif %}
 
 {% if pj.final %}
-## {{ translations.pitch[lang] }}  {#final}
+## [{{ translations.pitch[lang] }}](#final){: .heading-anchor} {#final}
 <div class="youtube">
   {% include youtube-embed.html id=pj.final start=pj.final_start %}
 </div>
@@ -105,7 +105,7 @@ twitter_card: summary_large_image
 
 <a href="https://youtu.be/{{ pj.final }}{% if pj.final_start %}?t={{ pj.final_start }}{% endif %}" target="_blank" class="button">{{ translations.watchOnYouTube[lang] }}</a>
 {% else %}
-## {{ translations.pitch[lang] }}  {#final}
+## [{{ translations.pitch[lang] }}](#final){: .heading-anchor} {#final}
 成果報告会での発表をお楽しみください。
 
 <a href="/final" class="button">成果報告会の情報を見る</a>
