@@ -63,12 +63,12 @@
   year: 2026
 
 - id: mio_hanai
-  project_id: esorframe
+  project_id: esor_frame
   name: 花井 美緒
   year: 2026
 
 - id: noa_shimada
-  project_id: mineralens
+  project_id: minera_lens
   name: 嶋田 乃彩
   year: 2026
 
@@ -78,17 +78,17 @@
   year: 2026
 
 - id: koki_uchida
-  project_id: jengabuilder
+  project_id: jenga_builder
   name: 内田 康喜
   year: 2026
 
 - id: ryusei_kamiyama
-  project_id: aquabeacon
+  project_id: aqua_beacon
   name: 神山 瑠星
   year: 2026
 
 - id: kai_masujima
-  project_id: invisiblemind
+  project_id: invisible_mind
   name: 増島 楷
   year: 2026
 
@@ -118,7 +118,7 @@
   year: 2026
 
 - id: kantaro_hanada
-  project_id: harmonicseam
+  project_id: harmonic_seam
   name: 花田 勘太郎
   year: 2026
 

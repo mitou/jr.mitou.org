@@ -87,13 +87,13 @@ twitter_card: summary_large_image
   <li>10:00 〜 10:10 ご案内・配信開始</li>
   <li>10:10 〜 11:55 プレゼンテーション①（7件）</li>
   {% include final-timetable.html is_internal_link=false project_ids="
-    aquabeacon,
+    aqua_beacon,
     kintsugi_4d_dojo,
-    harmonicseam,
+    harmonic_seam,
     kinetic_fit,
     pentect,
     stellaphonic,
-    mineralens,
+    minera_lens,
   " %}
 
   <li>11:55 〜 12:55 昼食休憩</li>
@@ -110,12 +110,12 @@ twitter_card: summary_large_image
   <li>14:25 〜 14:35 休憩</li>
   <li>14:35 〜 16:05 プレゼンテーション③（6件）</li>
   {% include final-timetable.html is_internal_link=false project_ids="
-    jengabuilder,
+    jenga_builder,
     aroute,
     unframe,
-    esorframe,
+    esor_frame,
     nagi,
-    invisiblemind,
+    invisible_mind,
   " %}
 
   <li>16:05 〜 16:15 配信終了・ブース準備</li>
