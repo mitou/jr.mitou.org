@@ -9,9 +9,9 @@ twitter_card: summary_large_image
 # this_year を変更すると、表示したい年度の採択プロジェクトに切り替わります。
 # 成果報告会の公開準備が整ったら this_year を今年度の数字に変更してください。
 # 詳細: https://github.com/mitou/jr.mitou.org#user-content-how-to-build-projects
-presentation_1: [aquabeacon, kintsugi_4d_dojo, harmonicseam, kinetic_fit, pentect, stellaphonic, esorframe]
+presentation_1: [aquabeacon, kintsugi_4d_dojo, harmonicseam, kinetic_fit, pentect, stellaphonic, mineralens]
 presentation_2: [mahgician, origami_cp, omochi, frey, monika, r_akanaly]
-presentation_3: [jengabuilder, aroute, unframe, mineralens, nagi, invisiblemind]
+presentation_3: [jengabuilder, aroute, unframe, esorframe, nagi, invisiblemind]
 ---
 
 <br>
