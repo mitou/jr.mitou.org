@@ -77,7 +77,6 @@
   description: "Freyは、シミュレーションから生まれた架空の惑星を観察し、「なぜ？」を辿ってゆくWebツールです。地形によって気候が変わり、それが食料生産、ひいては人口分布、産業にまで影響します。地図のレイヤーを切り替え、時間を動かすことで、普段は見えにくい自然環境と社会の関係を探ることがでます。とある惑星の今ができるまでを、のぞいてみませんか？"
   year: 2026
   mentor_id: rhythm_sakamoto
-  link: https://freyplanet.com/
   creator_ids:
   - ryu_umehara
 
@@ -127,6 +126,7 @@
 - id: stellaphonic
   title: "Stellaphonic - 音で宇宙を感じる新しい天体観測"
   description: "Stellaphonicは、実在する星の位置を音に変え、耳を頼りに星を探して奏でるアプリです。スマートフォンを空へ向け、音の強弱や左右の違いから星の方向を探り、発見した星を画面上でなぞって演奏します。高齢者や視力が弱い人も星空に親しめることを目指し、旅行先やキャンプ場、街明かりで星が見えにくい場所での観察を支えます。祖父母と孫が発見を楽しみ、星座の形を音とともに記憶に残せる体験を届けます。"
+  hero_video: 5Y_TAsdKTjg
   year: 2026
   mentor_id: maki_komuro
   creator_ids:
