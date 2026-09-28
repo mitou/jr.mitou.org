@@ -113,25 +113,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='aqua_beacon' title='AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-'>
+    <a href='nagi' title='nagi - アトピー性皮膚炎の無意識の掻破行動を抑制するデバイス'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        AquaBeacon -光と音を組み合わせて藻場でも位置推定...
+        nagi - アトピー性皮膚炎の無意識の掻破行動を抑制するデバイス
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='mahgician' title='Mahgician - IoT牌によるリアルとデジタルを融合する麻雀システム'>
+    <a href='aqua_beacon' title='AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Mahgician - IoT牌によるリアルとデジタルを融合...
+        AquaBeacon -光と音を組み合わせて藻場でも位置推定...
       {% endif %}
     </a>
   </p>

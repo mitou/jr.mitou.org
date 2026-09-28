@@ -113,25 +113,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='unframe' title='Unframe - MRを使ったプレゼンテーションアプリ'>
+    <a href='mahgician' title='Mahgician - IoT牌によるリアルとデジタルを融合する麻雀システム'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Unframe - MRを使ったプレゼンテーションアプリ
+        Mahgician - IoT牌によるリアルとデジタルを融合...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='esor_frame' title='EsorFrame - 悩みを前進させるAI相談支援サービス'>
+    <a href='omochi' title='Omochi - あらゆるプログラムに、共通の操作口を'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        EsorFrame - 悩みを前進させるAI相談支援サービス
+        Omochi - あらゆるプログラムに、共通の操作口を
       {% endif %}
     </a>
   </p>

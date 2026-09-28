@@ -113,13 +113,13 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='monika' title='Monika: AIエージェントのための知識管理ツールチェイン'>
+    <a href='aqua_beacon' title='AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Monika: AIエージェントのための知識管理ツールチェイン
+        AquaBeacon -光と音を組み合わせて藻場でも位置推定...
       {% endif %}
     </a>
   </p>

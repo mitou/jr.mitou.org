@@ -113,25 +113,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='r_akanaly' title='r_AKanaly - 独自エージェントによる全自動コンピューターウイルス解析機'>
+    <a href='harmonic_seam' title='HarmonicSeam インタラクティブ音楽のための西洋音楽理論に基づく論理検証エンジン'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        r_AKanaly - 独自エージェントによる全自動コンピュ...
+        HarmonicSeam インタラクティブ音楽のための西洋音...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='omochi' title='Omochi - あらゆるプログラムに、共通の操作口を'>
+    <a href='pentect' title='Pentect - 機密情報をAIに安全に渡すためのセキュアプロキシ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Omochi - あらゆるプログラムに、共通の操作口を
+        Pentect - 機密情報をAIに安全に渡すためのセキュア...
       {% endif %}
     </a>
   </p>

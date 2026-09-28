@@ -125,13 +125,13 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='pentect' title='Pentect - 機密情報をAIに安全に渡すためのセキュアプロキシ'>
+    <a href='kinetic_fit' title='kinetic fit - スマホでスキャンするだけであなただけのキーボードを'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Pentect - 機密情報をAIに安全に渡すためのセキュア...
+        kinetic fit - スマホでスキャンするだけであなた...
       {% endif %}
     </a>
   </p>

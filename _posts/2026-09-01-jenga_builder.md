@@ -113,25 +113,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='stellaphonic' title='Stellaphonic - 音で宇宙を感じる新しい天体観測'>
+    <a href='r_akanaly' title='r_AKanaly - 独自エージェントによる全自動コンピューターウイルス解析機'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Stellaphonic - 音で宇宙を感じる新しい天体観測
+        r_AKanaly - 独自エージェントによる全自動コンピュ...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='aqua_beacon' title='AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-'>
+    <a href='aroute' title='~ARoute~「駅構内を直感的に理解できる3Dマップ」'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        AquaBeacon -光と音を組み合わせて藻場でも位置推定...
+        ~ARoute~「駅構内を直感的に理解できる3Dマップ」
       {% endif %}
     </a>
   </p>

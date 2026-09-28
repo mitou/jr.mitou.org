@@ -113,25 +113,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='minera_lens' title='MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ'>
+    <a href='pentect' title='Pentect - 機密情報をAIに安全に渡すためのセキュアプロキシ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        MineraLens - 結晶構造から鉱物の「なぜ」を探る3...
+        Pentect - 機密情報をAIに安全に渡すためのセキュア...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='jenga_builder' title='JengaBuilder - フィジカルAIによるジェンガタワーの全自動セットアップ'>
+    <a href='minera_lens' title='MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        JengaBuilder - フィジカルAIによるジェンガタ...
+        MineraLens - 結晶構造から鉱物の「なぜ」を探る3...
       {% endif %}
     </a>
   </p>
