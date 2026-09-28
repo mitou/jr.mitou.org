@@ -5,7 +5,7 @@ title: |
 description: |
   本プロジェクトでは、実物の麻雀牌を使った対面麻雀に、デジタルゲームのような演出やアシストを加えることを目指して、IoT麻雀牌とそれを用いた麻雀システムを開発しました。実物の牌を囲んで遊ぶ楽しさはそのままに、ゲーム状況に応じてリーチや和了を演出することで、リアル麻雀とデジタル麻雀のいいとこ取りをした、新しい麻雀体験を実現します。
 permalink: /projects/2026/mahgician
-thumbnail: /assets/img/projects/2026/../tbu.webp
+thumbnail: /assets/img/projects/2026/mahgician.webp
 twitter_card: summary_large_image
 
 ---
