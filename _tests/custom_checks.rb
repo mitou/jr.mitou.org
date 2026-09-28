@@ -115,18 +115,51 @@ class CustomChecks < ::HTMLProofer::Check
 
   # Check Creators/Projects YAML data and make CI failed if broken
   # e.g.: https://github.com/mitou/jr.mitou.org/pull/206
+  #
+  # Each creator must belong to exactly one project, in both directions:
+  # - projects.yml: every ID in `creator_ids` exists in creators.yml,
+  #   and each creator is referred to by only one project.
+  # - creators.yml: creator IDs are unique, and `project_id` points to
+  #   the project whose `creator_ids` includes the creator.
+  #   (e.g. `project_id` left as an old ID after renaming a project)
   def check_yaml_data
     projects    = YAML.load_file("_data/projects.yml", symbolize_names: true)
-    creator_ids = YAML.load_file("_data/creators.yml", symbolize_names: true).map{ |creator| creator[:id] }
+    creators    = YAML.load_file("_data/creators.yml", symbolize_names: true)
+    creator_ids = creators.map{ |creator| creator[:id] }
+    referred    = projects.flat_map{ |project| project[:creator_ids].to_a }.tally
+
+    creator_ids.tally.select{ |_, count| count > 1 }.each_key do |creator_id|
+      add_failure("Duplicated creator ID in _data/creators.yml: #{creator_id}")
+    end
 
     projects.each do |project|
+      missing_ids = project[:creator_ids].to_a - creator_ids
       add_failure(
         <<~ERROR_MESSAGE
           The following creator ID is NOT found in _data/creators.yml
             \s Project ID: #{project[:id]}
-            \s Creator ID: #{project[:creator_ids]}
+            \s Creator ID: #{missing_ids}
         ERROR_MESSAGE
-      ) if (project[:creator_ids] & creator_ids).empty?
+      ) unless missing_ids.empty?
+    end
+
+    creators.each do |creator|
+      count = referred.fetch(creator[:id], 0)
+      add_failure(
+        <<~ERROR_MESSAGE
+          The following creator is referred to by #{count} projects (must be 1) in _data/projects.yml
+            \s Creator ID: #{creator[:id]}
+        ERROR_MESSAGE
+      ) unless count == 1
+
+      project = projects.find{ |pj| pj[:id] == creator[:project_id] }
+      add_failure(
+        <<~ERROR_MESSAGE
+          The following creator's project_id does NOT match creator_ids in _data/projects.yml
+            \s Creator ID: #{creator[:id]}
+            \s Project ID: #{creator[:project_id]}
+        ERROR_MESSAGE
+      ) unless project && project[:creator_ids].to_a.include?(creator[:id])
     end
   end
 
