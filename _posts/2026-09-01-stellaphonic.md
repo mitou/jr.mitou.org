@@ -5,7 +5,7 @@ title: |
 description: |
   Stellaphonicは、実在する星の位置を音に変え、耳を頼りに星を探して奏でるアプリです。スマートフォンを空へ向け、音の強弱や左右の違いから星の方向を探り、発見した星を画面上でなぞって演奏します。高齢者や視力が弱い人も星空に親しめることを目指し、旅行先やキャンプ場、街明かりで星が見えにくい場所での観察を支えます。祖父母と孫が発見を楽しみ、星座の形を音とともに記憶に残せる体験を届けます。
 permalink: /projects/2026/stellaphonic
-thumbnail: /assets/img/projects/2026/../tbu.webp
+thumbnail: /assets/img/projects/2026/stellaphonic.webp
 twitter_card: summary_large_image
 ---
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'stellaphonic'" | first %}

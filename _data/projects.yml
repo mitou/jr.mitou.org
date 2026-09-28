@@ -42,6 +42,7 @@
   description: "「Pentect」は、AIエージェントの通信に含まれる機密情報をマスキングするセキュアプロキシです。APIキーやパスワード、個人情報などを検出し、隠します。マスキングした情報はツールの実行時にクライアントで復元するため、モデルに元の値を渡さずにAPI呼び出しなどを行えます。Claude CodeやCodexなどで利用できます。"
   year: 2026
   mentor_id: yoshifumi_seki
+  link: https://pentect.dev/
   creator_ids:
   - tom_nagai
 
@@ -51,6 +52,7 @@
   hero_video: jbducYlsGMo
   year: 2026
   mentor_id: yu_ukai
+  link: https://r-akanaly.com/
   creator_ids:
   - kouki_morita
 
@@ -63,7 +65,7 @@
   - akito_hattori
 
 - id: omochi
-  title: "Omochi"
+  title: "Omochi - あらゆるプログラムに、共通の操作口を"
   description: "Omochiは、A2UIを活用して、プログラムに簡単に操作画面を追加するための仕組みです。それぞれのプログラムが提供する画面を組み合わせて、自分の用途に合ったダッシュボードを作れます。小さなスクリプトから、複数のPCで動くツール、エージェントとのやり取りまで。少ないコードで操作画面を用意し、一つのダッシュボードからまとめて使える環境を目指しています。"
   year: 2026
   mentor_id: kakeru_ishii
@@ -75,6 +77,7 @@
   description: "Freyは、シミュレーションから生まれた架空の惑星を観察し、「なぜ？」を辿ってゆくWebツールです。地形によって気候が変わり、それが食料生産、ひいては人口分布、産業にまで影響します。地図のレイヤーを切り替え、時間を動かすことで、普段は見えにくい自然環境と社会の関係を探ることがでます。とある惑星の今ができるまでを、のぞいてみませんか？"
   year: 2026
   mentor_id: rhythm_sakamoto
+  link: https://freyplanet.com/
   creator_ids:
   - ryu_umehara
 
@@ -91,6 +94,7 @@
   description: "MRはPCにはない表現能力を持っています。しかし、ただ単純にその表現能力をプレゼンに活用しようとすれば、表現の広さからかえって情報を見づらくし、プレゼンに必要な情報を見やすくまとめる力を損なわせてしまいます。Unframeは、MRをプレゼンテーションで活用することで起こる問題を身体やアニメーションを使って打ち消し、枠にとらわれない新しいプレゼンの形を作り出します。"
   year: 2026
   mentor_id: yoshifumi_seki
+  link: https://un-fra.me/
   creator_ids:
   - kazuki_sato
   - soshi_gondai
@@ -164,7 +168,7 @@
   - roi_suda
 
 - id: aroute
-  title: "ARoute - 駅構内を直感的に理解できる3Dマップ"
+  title: "~ARoute~「駅構内を直感的に理解できる3Dマップ」"
   description: "「ARoute」は、 駅という複雑な空間をわかりやすく表現する新しい3Dフロアマップです。従来の駅構内図の場合、階層の位置関係が把握しづらいという難点がありましたが、ARouteはボクセルを用いて立体的に表現することで、不要な情報を省きながら、階層同士のつながりを直感的に理解できます。また、マップ作成時には3D表示を保ちながら、各階層を2Dのレイヤーとして切り替え・簡単に編集ができるため、誰でも簡単に駅のマップを作成することができます。"
   year: 2026
   mentor_id: ryo_suzuki

@@ -5,7 +5,7 @@ title: |
 description: |
   kinetic fitは、手のいくつかのポーズをスマートフォンで3Dスキャンし、そこから抽出される「骨格データ」とユーザーの普段のキーボード入力から抽出される「入力文書の解析」によりその人の体にフィットするキーボードの「筐体」と「配列」を生成します。このプロジェクトでは、必要な指の動きを少なくすることによる「タイピング速度の向上」と、手首の角度や肩の開き方の改善による「長期タイピングの疲労の軽減」を目的としています。
 permalink: /projects/2026/kinetic_fit
-thumbnail: /assets/img/projects/2026/../tbu.webp
+thumbnail: /assets/img/projects/2026/kinetic_fit.webp
 twitter_card: summary_large_image
 ---
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'kinetic_fit'" | first %}
@@ -102,12 +102,12 @@ twitter_card: summary_large_image
     </a>
   </p>
   <p class='nav next'>
-    <a href='omochi' title='Omochi'>
+    <a href='omochi' title='Omochi - あらゆるプログラムに、共通の操作口を'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
       {% else %}
-        Omochi
+        Omochi - あらゆるプログラムに、共通の操作口を
       {% endif %}
     </a>
   </p>

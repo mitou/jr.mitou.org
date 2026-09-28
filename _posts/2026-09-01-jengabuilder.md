@@ -5,7 +5,7 @@ title: |
 description: |
   本プロジェクトは、ロボットアーム「SO-101」を活用し、崩れたジェンガを全自動で積み直すシステムです。人間の遠隔操作の軌跡をAIに学習させることによる柔軟な動作と、ロボット特有のプログラムによる高精度な動きを共存させた自動化システムを構築します。全自動雀卓から着想を得た、シュールな面白さと、人間とロボットのインタラクションをテーマとした、エンターテインメントロボットの実現を目指します。
 permalink: /projects/2026/jengabuilder
-thumbnail: /assets/img/projects/2026/../tbu.webp
+thumbnail: /assets/img/projects/2026/jengabuilder.webp
 twitter_card: summary_large_image
 ---
 {% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'jengabuilder'" | first %}

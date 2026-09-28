@@ -102,12 +102,12 @@ twitter_card: summary_large_image
     </a>
   </p>
   <p class='nav next'>
-    <a href='aroute' title='ARoute - 駅構内を直感的に理解できる3Dマップ'>
+    <a href='aroute' title='~ARoute~「駅構内を直感的に理解できる3Dマップ」'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
       {% else %}
-        ARoute - 駅構内を直感的に理解できる3Dマップ
+        ~ARoute~「駅構内を直感的に理解できる3Dマップ」
       {% endif %}
     </a>
   </p>
