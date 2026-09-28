@@ -454,6 +454,15 @@ footer{
   }
 }
 
+// 見出しをその節へのリンクにする。見た目は見出しのまま、hover で下線を出す。
+.heading-anchor {
+  color: inherit;
+  font-weight: inherit;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 @media screen and (max-width:$phone-width) {
   .mentor{
     width: 100%;
