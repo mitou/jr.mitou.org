@@ -1,6 +1,0 @@
----
-permalink: /projects/2026/mineralens.json
-thumbnail: /assets/img/projects/2026/mineralens.webp
----
-
-{% include project-json-ld.json project_id="mineralens" %}

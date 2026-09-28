@@ -113,7 +113,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='mineralens' title='MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ'>
+    <a href='minera_lens' title='MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -125,7 +125,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='jengabuilder' title='JengaBuilder - フィジカルAIによるジェンガタワーの全自動セットアップ'>
+    <a href='jenga_builder' title='JengaBuilder - フィジカルAIによるジェンガタワーの全自動セットアップ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

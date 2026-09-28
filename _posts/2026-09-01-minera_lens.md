@@ -1,16 +1,16 @@
 ---
 layout: post
 title: |
-  HarmonicSeam インタラクティブ音楽のための西洋音楽理論に基づく論理検証エンジン
+  MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ
 description: |
-  映画の音楽は、場面の変わり目に合わせて書かれます。ゲームでは、いつ場面と曲が変わるかはプレイヤー次第です。HarmonicSeamは、楽譜データ（MIDI）を解析し、場面が変わると、音楽理論のうえで破綻せずに次の曲へ移れる瞬間まで待って切り替えます。<br><br>「調」が遠いときは、短い「橋」を規則どおりに書いて渡ります。<br><br>最初からそう編曲されていたかのような切り替えが作れます。聴けば早いので、動画もどうぞ。
-permalink: /projects/2026/harmonicseam
-thumbnail: /assets/img/projects/2026/harmonicseam.webp
+  「MineraLens」は、鉱物の3Dモデルに結晶構造データによる原子配列を重ね、「見える鉱物」と「見えない構造」を同時に観察できる学習アプリです。例えばダイヤモンドと石墨を並べ、結合や結晶系から「なぜ硬さや劈開が違うのか？」を探ることができます。BASICモードは問いから観察へ、ADVANCEDモードは出典付きデータで検証へ。見た目・構造・性質をつなげ、「なぜ？」と発見が生まれる体験を作ります。
+permalink: /projects/2026/minera_lens
+thumbnail: /assets/img/projects/2026/minera_lens.webp
 twitter_card: summary_large_image
 
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'harmonicseam'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'minera_lens'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -113,25 +113,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='kintsugi_4d_dojo' title='Kintsugi 4D Dojo ― 金継ぎを最高の思い出にする体験・支援アプリ'>
+    <a href='esor_frame' title='EsorFrame - 悩みを前進させるAI相談支援サービス'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Kintsugi 4D Dojo ― 金継ぎを最高の思い出に...
+        EsorFrame - 悩みを前進させるAI相談支援サービス
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='pentect' title='Pentect - 機密情報をAIに安全に渡すためのセキュアプロキシ'>
+    <a href='stellaphonic' title='Stellaphonic - 音で宇宙を感じる新しい天体観測'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Pentect - 機密情報をAIに安全に渡すためのセキュア...
+        Stellaphonic - 音で宇宙を感じる新しい天体観測
       {% endif %}
     </a>
   </p>
@@ -141,5 +141,5 @@ twitter_card: summary_large_image
 
 <!-- Schema.org Data Type: https://schema.org/ -->
 <script type="application/ld+json">
-  {% include project-json-ld.json project_id="harmonicseam" %}
+  {% include project-json-ld.json project_id="minera_lens" %}
 </script>

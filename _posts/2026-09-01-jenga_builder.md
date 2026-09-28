@@ -1,16 +1,16 @@
 ---
 layout: post
 title: |
-  MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ
+  JengaBuilder - フィジカルAIによるジェンガタワーの全自動セットアップ
 description: |
-  「MineraLens」は、鉱物の3Dモデルに結晶構造データによる原子配列を重ね、「見える鉱物」と「見えない構造」を同時に観察できる学習アプリです。例えばダイヤモンドと石墨を並べ、結合や結晶系から「なぜ硬さや劈開が違うのか？」を探ることができます。BASICモードは問いから観察へ、ADVANCEDモードは出典付きデータで検証へ。見た目・構造・性質をつなげ、「なぜ？」と発見が生まれる体験を作ります。
-permalink: /projects/2026/mineralens
-thumbnail: /assets/img/projects/2026/mineralens.webp
+  本プロジェクトは、ロボットアーム「SO-101」を活用し、崩れたジェンガを全自動で積み直すシステムです。人間の遠隔操作の軌跡をAIに学習させることによる柔軟な動作と、ロボット特有のプログラムによる高精度な動きを共存させた自動化システムを構築します。全自動雀卓から着想を得た、シュールな面白さと、人間とロボットのインタラクションをテーマとした、エンターテインメントロボットの実現を目指します。
+permalink: /projects/2026/jenga_builder
+thumbnail: /assets/img/projects/2026/jenga_builder.webp
 twitter_card: summary_large_image
 
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'mineralens'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'jenga_builder'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -113,25 +113,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='esorframe' title='EsorFrame - 悩みを前進させるAI相談支援サービス'>
+    <a href='stellaphonic' title='Stellaphonic - 音で宇宙を感じる新しい天体観測'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        EsorFrame - 悩みを前進させるAI相談支援サービス
+        Stellaphonic - 音で宇宙を感じる新しい天体観測
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='stellaphonic' title='Stellaphonic - 音で宇宙を感じる新しい天体観測'>
+    <a href='aqua_beacon' title='AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Stellaphonic - 音で宇宙を感じる新しい天体観測
+        AquaBeacon -光と音を組み合わせて藻場でも位置推定...
       {% endif %}
     </a>
   </p>
@@ -141,5 +141,5 @@ twitter_card: summary_large_image
 
 <!-- Schema.org Data Type: https://schema.org/ -->
 <script type="application/ld+json">
-  {% include project-json-ld.json project_id="mineralens" %}
+  {% include project-json-ld.json project_id="jenga_builder" %}
 </script>

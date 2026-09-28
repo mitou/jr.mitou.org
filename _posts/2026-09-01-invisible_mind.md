@@ -4,13 +4,13 @@ title: |
   InvisibleMind - LLMエージェントを用いた人工経済による経済学教育アプリ
 description: |
   「InvisibleMind」は、LLMエージェントが暮らす人工経済で経済学を学ぶアプリです。教科書の経済学は常に合理的な人間を前提にしますが、現実の人はそうではありません。史実を元にしたシナリオで政策や予測を試すと、経済の動きをシミュレーションで確かめられ、大家や市民などの登場人物に「なぜそう動いたのか」をインタビューできます。経済理論が生まれた順に、前の理論がなぜ外れたのかを辿ってみませんか？
-permalink: /projects/2026/invisiblemind
-thumbnail: /assets/img/projects/2026/invisiblemind.webp
+permalink: /projects/2026/invisible_mind
+thumbnail: /assets/img/projects/2026/invisible_mind.webp
 twitter_card: summary_large_image
 
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'invisiblemind'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'invisible_mind'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -113,7 +113,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='aquabeacon' title='AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-'>
+    <a href='aqua_beacon' title='AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -141,5 +141,5 @@ twitter_card: summary_large_image
 
 <!-- Schema.org Data Type: https://schema.org/ -->
 <script type="application/ld+json">
-  {% include project-json-ld.json project_id="invisiblemind" %}
+  {% include project-json-ld.json project_id="invisible_mind" %}
 </script>

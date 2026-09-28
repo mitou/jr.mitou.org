@@ -1,16 +1,16 @@
 ---
 layout: post
 title: |
-  JengaBuilder - フィジカルAIによるジェンガタワーの全自動セットアップ
+  AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-
 description: |
-  本プロジェクトは、ロボットアーム「SO-101」を活用し、崩れたジェンガを全自動で積み直すシステムです。人間の遠隔操作の軌跡をAIに学習させることによる柔軟な動作と、ロボット特有のプログラムによる高精度な動きを共存させた自動化システムを構築します。全自動雀卓から着想を得た、シュールな面白さと、人間とロボットのインタラクションをテーマとした、エンターテインメントロボットの実現を目指します。
-permalink: /projects/2026/jengabuilder
-thumbnail: /assets/img/projects/2026/jengabuilder.webp
+  AquaBeaconは、水中での位置推定をより手軽に行うためのシンプルな手法を提案するプロジェクトです。水上の親機から音を送り、水中の子機までの距離を測るとともに、子機の光をカメラで捉えて方向を求めることで、子機の位置を推定します。この位置情報を水中映像と組み合わせ、藻場の分布を地図にする技術への応用を目指します。また、開発した仕組みをオープンソースとして公開し、幅広く活用できるようにします。
+permalink: /projects/2026/aqua_beacon
+thumbnail: /assets/img/projects/2026/aqua_beacon.webp
 twitter_card: summary_large_image
 
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'jengabuilder'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'aqua_beacon'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -113,25 +113,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='stellaphonic' title='Stellaphonic - 音で宇宙を感じる新しい天体観測'>
+    <a href='jenga_builder' title='JengaBuilder - フィジカルAIによるジェンガタワーの全自動セットアップ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        Stellaphonic - 音で宇宙を感じる新しい天体観測
+        JengaBuilder - フィジカルAIによるジェンガタ...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='aquabeacon' title='AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-'>
+    <a href='invisible_mind' title='InvisibleMind - LLMエージェントを用いた人工経済による経済学教育アプリ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        AquaBeacon -光と音を組み合わせて藻場でも位置推定...
+        InvisibleMind - LLMエージェントを用いた人...
       {% endif %}
     </a>
   </p>
@@ -141,5 +141,5 @@ twitter_card: summary_large_image
 
 <!-- Schema.org Data Type: https://schema.org/ -->
 <script type="application/ld+json">
-  {% include project-json-ld.json project_id="jengabuilder" %}
+  {% include project-json-ld.json project_id="aqua_beacon" %}
 </script>

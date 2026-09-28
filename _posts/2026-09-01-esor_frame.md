@@ -4,13 +4,13 @@ title: |
   EsorFrame - 悩みを前進させるAI相談支援サービス
 description: |
   EsorFrameは、より良いAI相談支援のあり方を探り、そこで得た知見を活かしながら開発している内省支援Webアプリです。悩みを「話して終わり」にせず、AIとの対話から事実・解釈・別の見方・取れる行動を整理して可視化し、必要に応じて異なる視点も提示します。実際の開発や検証を重ねながら支援の形そのものを問い直し、次の一歩や、その先の自己解決につながる仕組みを目指しています。
-permalink: /projects/2026/esorframe
-thumbnail: /assets/img/projects/2026/esorframe.webp
+permalink: /projects/2026/esor_frame
+thumbnail: /assets/img/projects/2026/esor_frame.webp
 twitter_card: summary_large_image
 
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'esorframe'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'esor_frame'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -125,7 +125,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='mineralens' title='MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ'>
+    <a href='minera_lens' title='MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
@@ -141,5 +141,5 @@ twitter_card: summary_large_image
 
 <!-- Schema.org Data Type: https://schema.org/ -->
 <script type="application/ld+json">
-  {% include project-json-ld.json project_id="esorframe" %}
+  {% include project-json-ld.json project_id="esor_frame" %}
 </script>

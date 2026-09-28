@@ -125,7 +125,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='esorframe' title='EsorFrame - 悩みを前進させるAI相談支援サービス'>
+    <a href='esor_frame' title='EsorFrame - 悩みを前進させるAI相談支援サービス'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

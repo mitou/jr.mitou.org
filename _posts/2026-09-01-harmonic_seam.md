@@ -1,16 +1,16 @@
 ---
 layout: post
 title: |
-  AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-
+  HarmonicSeam インタラクティブ音楽のための西洋音楽理論に基づく論理検証エンジン
 description: |
-  AquaBeaconは、水中での位置推定をより手軽に行うためのシンプルな手法を提案するプロジェクトです。水上の親機から音を送り、水中の子機までの距離を測るとともに、子機の光をカメラで捉えて方向を求めることで、子機の位置を推定します。この位置情報を水中映像と組み合わせ、藻場の分布を地図にする技術への応用を目指します。また、開発した仕組みをオープンソースとして公開し、幅広く活用できるようにします。
-permalink: /projects/2026/aquabeacon
-thumbnail: /assets/img/projects/2026/aquabeacon.webp
+  映画の音楽は、場面の変わり目に合わせて書かれます。ゲームでは、いつ場面と曲が変わるかはプレイヤー次第です。HarmonicSeamは、楽譜データ（MIDI）を解析し、場面が変わると、音楽理論のうえで破綻せずに次の曲へ移れる瞬間まで待って切り替えます。<br><br>「調」が遠いときは、短い「橋」を規則どおりに書いて渡ります。<br><br>最初からそう編曲されていたかのような切り替えが作れます。聴けば早いので、動画もどうぞ。
+permalink: /projects/2026/harmonic_seam
+thumbnail: /assets/img/projects/2026/harmonic_seam.webp
 twitter_card: summary_large_image
 
 ---
 
-{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'aquabeacon'" | first %}
+{% assign pj           = site.data.projects | where_exp: "pj", "pj.id == 'harmonic_seam'" | first %}
 {% assign translations = site.data.translations %}
 {% assign lang         = page.lang | default: 'ja' %}
 
@@ -113,25 +113,25 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='jengabuilder' title='JengaBuilder - フィジカルAIによるジェンガタワーの全自動セットアップ'>
+    <a href='kintsugi_4d_dojo' title='Kintsugi 4D Dojo ― 金継ぎを最高の思い出にする体験・支援アプリ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        JengaBuilder - フィジカルAIによるジェンガタ...
+        Kintsugi 4D Dojo ― 金継ぎを最高の思い出に...
       {% endif %}
     </a>
   </p>
 
   <p class='nav next'>
-    <a href='invisiblemind' title='InvisibleMind - LLMエージェントを用いた人工経済による経済学教育アプリ'>
+    <a href='pentect' title='Pentect - 機密情報をAIに安全に渡すためのセキュアプロキシ'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        InvisibleMind - LLMエージェントを用いた人...
+        Pentect - 機密情報をAIに安全に渡すためのセキュア...
       {% endif %}
     </a>
   </p>
@@ -141,5 +141,5 @@ twitter_card: summary_large_image
 
 <!-- Schema.org Data Type: https://schema.org/ -->
 <script type="application/ld+json">
-  {% include project-json-ld.json project_id="aquabeacon" %}
+  {% include project-json-ld.json project_id="harmonic_seam" %}
 </script>

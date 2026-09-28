@@ -113,7 +113,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='invisiblemind' title='InvisibleMind - LLMエージェントを用いた人工経済による経済学教育アプリ'>
+    <a href='invisible_mind' title='InvisibleMind - LLMエージェントを用いた人工経済による経済学教育アプリ'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}

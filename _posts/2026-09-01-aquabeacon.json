@@ -1,6 +1,0 @@
----
-permalink: /projects/2026/aquabeacon.json
-thumbnail: /assets/img/projects/2026/aquabeacon.webp
----
-
-{% include project-json-ld.json project_id="aquabeacon" %}
