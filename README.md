@@ -238,6 +238,7 @@ $ bundle exec rake test
 
 ローカル環境で生成結果を確認したい場合は、上記セクション「[Webサイトの仕組みを改善したい](https://github.com/mitou/jr.mitou.org#how-to-build)」の手順に沿って進めてください。
 
+- :octocat: 2026年度の対応例: [#291](https://github.com/mitou/jr.mitou.org/pull/291)
 - :octocat: 2025年度の対応例: [#233](https://github.com/mitou/jr.mitou.org/pull/233)
 - :octocat: 2024年度の対応例: [#195](https://github.com/mitou/jr.mitou.org/pull/195)
 - :octocat: 2023年度の対応例: [#144](https://github.com/mitou/jr.mitou.org/pull/144)
