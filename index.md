@@ -1,7 +1,7 @@
 ---
 layout: default
 nosnippet: true
-this_year: 2025
+this_year: 2026
 
 # this_year を変更すると、表示したい年度の採択プロジェクトに切り替わります。
 # 成果報告会の公開準備が整ったら this_year を今年度の数字に変更してください。
@@ -22,10 +22,10 @@ this_year: 2025
   <!--<a href="/guideline" class="dialog ignore-sp">🆕 2026年度の募集要項を見る (〆 3月28日 23:59)</a>-->
 
   <!--【〆切後のアナウンス】-->
-  <a href="/guideline" class="dialog ignore-sp">たくさんのご応募ありがとうございました!!</a>
+  <!--<a href="/guideline" class="dialog ignore-sp">たくさんのご応募ありがとうございました!!</a>-->
 
   <!--【成果報告前のアナウンス】-->
-  <!--<a href="/final" class="dialog ignore-sp">🆕 成果報告会の参加申込開始! (11月3日)</a>-->
+  <a href="/final" class="dialog ignore-sp">🆕 成果報告会の参加申込開始! (11月8日)</a>
 
   <!--【成果報告日のアナウンス】-->
   <!--<a href="/final" class="dialog ignore-sp">⚡️ 成果報告会、ライブ配信中！</a>-->

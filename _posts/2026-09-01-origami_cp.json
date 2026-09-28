@@ -1,0 +1,6 @@
+---
+permalink: /projects/2026/origami_cp.json
+thumbnail: /assets/img/projects/2026/origami_cp.webp
+---
+
+{% include project-json-ld.json project_id="origami_cp" %}

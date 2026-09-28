@@ -1,8 +1,8 @@
 ---
 layout:    post
-title:     2025年 成果報告会
-this_year: 2025
-thumbnail: /assets/img/final_2025.png # 仮。素材支給後に差し替え
+title:     2026年 成果報告会
+this_year: 2026
+thumbnail: /assets/img/final_2026.png # 仮。素材支給後に差し替え
 description: 未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！
 twitter_card: summary_large_image
 
@@ -18,12 +18,15 @@ twitter_card: summary_large_image
      alt="{{ page.this_year }}年度 未踏ジュニア成果報告会 サムネイル画像"
      class="project-thumbnail lazyload" width='100%' loading="lazy" />
 
-
 <!-- 2. 現地参加の申し込みやライブ配信の案内は決定次第ここに表示します（プレイベント文言・仮） -->
-<p>2025年度の未踏ジュニア成果報告会を11月3日 (月曜・振替休日) に、プラチナスポンサーとしてご支援いただいている、GMO インターネットグループ株式会社様の会場提供にて、<a href='https://peatix.com/event/4598142'>GMO Yours・フクラス</a>にて開催させていただきます。</p>
+<p>2026年度の未踏ジュニア成果報告会を11月8日 (日) に、プラチナスポンサーとしてご支援いただいている、GMO インターネットグループ株式会社様の会場提供にて、<a href='https://peatix.com/event/5204084'>GMO Yours・フクラス</a>にて開催させていただきます。</p>
 
+<div class="flex">
+  <a class="button" href="https://peatix.com/event/5204084">現地参加を申し込む</a>
+</div>
 
 <!-- 3. ライブ配信 URL が決まったら、ページ冒頭に埋め込む -->
+{% comment %}
 <h2 id='live'>
   <a href='#live'><i class="fa-brands fa-youtube"></i></a>
   ライブ配信
@@ -39,6 +42,7 @@ twitter_card: summary_large_image
   <a class="button" href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final#live&lang=ja&related=mitoujr">#未踏ジュニア で<br>ツイートする</a>
   <!--<a class="button" href="https://twitter.com/intent/tweet?hashtags=未踏ジュニア&url=https://jr.mitou.org/final?{{ page.this_year }}&lang=ja&related=mitoujr">#未踏ジュニア で<br>ツイートする</a>-->
 </div>
+{% endcomment %}
 
 <!--
 <div class='flex'>
@@ -72,11 +76,6 @@ twitter_card: summary_large_image
   未踏ジュニアは<b><a href='/#sponsors'>スポンサー</a>からの支援</b>によって運営されています。
 </div>
 
-<div class='flex'>
-  <a class="button" href="https://youtube.com/playlist?list=PLNObH2jlC6ldzoiJ7jso-rhxvVVdnWH0V">YouTube で見る</a>
-  <a class="button" href="https://posfie.com/@mitoujr/p/TLnWXge">当日の反響を見る</a>
-</div>
-
 <!-- 4. タイムテーブルが決まったら入れる（当日まで。以降はコメントアウト） -->
 <h2 id='timetable'>
   <a href='#timetable'><i class="fa-light fa-calendar-clock"></i></a>
@@ -84,31 +83,42 @@ twitter_card: summary_large_image
 </h2>
 
 <ul>
-  <li>09:30 受付開始 @ <a href='https://peatix.com/event/4598142'>GMO Yours・フクラス</a></li>
-  <li>10:00 〜 10:10 ご案内</li>
-  <li>10:10 〜 11:40 プレゼンテーション (6件)</li>
+  <li>09:30 来場者向け受付開始</li>
+  <li>10:00 〜 10:10 ご案内・配信開始</li>
+  <li>10:10 〜 11:55 プレゼンテーション①（7件）</li>
   {% include final-timetable.html is_internal_link=false project_ids="
-    aikyo,
-    sms_solar,
-    kigo,
-    flusca,
-    fudey,
-    paper_cad,
+    aqua_beacon,
+    kintsugi_4d_dojo,
+    harmonic_seam,
+    kinetic_fit,
+    pentect,
+    stellaphonic,
+    minera_lens,
   " %}
 
-  <li>11:40 〜 12:40 昼食休憩</li>
-  <li>12:40 〜 15:10 プレゼンテーション (9件)</li>
+  <li>11:55 〜 12:55 昼食休憩</li>
+  <li>12:55 〜 14:25 プレゼンテーション②（6件）</li>
   {% include final-timetable.html is_internal_link=false project_ids="
-    neureka,
-    talkboost,
-    gen5,
-    cian,
-    mathmosis,
-    uminavi,
-    sr_motor_heart,
-    oshaberi_taskboard,
-    nextrouter,
+    mahgician,
+    origami_cp,
+    omochi,
+    frey,
+    monika,
+    r_akanaly,
   " %}
+
+  <li>14:25 〜 14:35 休憩</li>
+  <li>14:35 〜 16:05 プレゼンテーション③（6件）</li>
+  {% include final-timetable.html is_internal_link=false project_ids="
+    jenga_builder,
+    aroute,
+    unframe,
+    esor_frame,
+    nagi,
+    invisible_mind,
+  " %}
+
+  <li>16:05 〜 16:15 配信終了・ブース準備</li>
 </ul>
 
 <div style="text-align: center; margin: 2em 0; position: relative;">
@@ -120,7 +130,7 @@ twitter_card: summary_large_image
 
 <ul>
   <li>
-    15:20 〜 16:40 作品展示 (デモ)・質疑応答<br>
+    16:15 〜 17:15 作品展示（ポスター）・質疑応答（30分ずつ、前半10件／後半9件）<br>
     <!-- もしデモ展示テーブルがあれば合わせて表示
     18分 x 3回転  13分 x 3回転。<br>
     1プロジェクトあたり2回ブース発表。<br>
@@ -129,7 +139,7 @@ twitter_card: summary_large_image
      class="lazyload" loading="lazy" />
     -->
   </li>
-  <li>16:40 〜 17:20 スポンサー賞発表、修了式</li>
+  <li>17:15 〜 17:30 スポンサー賞発表・修了式</li>
 </ul>
 
 <br>
@@ -144,7 +154,7 @@ twitter_card: summary_large_image
 <!--
 <div class='flex'>
   <a class="button" href="https://www.google.com/calendar/render?action=TEMPLATE&text=2021年度未踏ジュニア成果報告会&dates=20211103T100000/20211103T180000&location=https://jr.mitou.org/final&trp=true&details=タイムテーブルなどはこちら: https://jr.mitou.org/final&trp=undefined&trp=true&sprop=https://jr.mitou.org/final">Google カレンダーに追加</a>
-  
+
   <a class="button" href="https://fb.me/e/237iDG0Ne">Facebook イベント</a>
 
   <a class="button" href="https://www.youtube.com/playlist?list=PLNObH2jlC6ldtjWuPw3Cum2cjzglIU-wD">YouTube で見る</a>
@@ -152,7 +162,6 @@ twitter_card: summary_large_image
   <a class="button" href="https://togetter.com/li/1968577">Twitter の反響を見る</a>
 </div>
 -->
-
 
 <h2 id='projects'>{{ page.this_year }}年度のプロジェクト</h2>
 

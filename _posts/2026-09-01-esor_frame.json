@@ -1,0 +1,6 @@
+---
+permalink: /projects/2026/esor_frame.json
+thumbnail: /assets/img/projects/2026/esor_frame.webp
+---
+
+{% include project-json-ld.json project_id="esor_frame" %}
