@@ -1,6 +1,6 @@
 [ {% for pj in projects %}
   {% capture thumbnail_path %}/assets/img/projects/{{ pj.year }}/{{ pj.id }}.webp{% endcapture %}
-  {% capture thumbnail_exists %}{% file_exists thumbnail_path %}{% endcapture %}
+  {% assign thumbnail_exists = thumbnail_path | file_exists %}
   {
     "id"          : "{{ pj.id }}",
     "title"       : "{{ pj.title       | strip_html | escape }}",
