@@ -18,11 +18,11 @@ twitter_card: summary_large_image
 {% if page.lang == 'en' %}
   {% assign pj_title       = pj.title_en       | escape %}
   {% assign pj_description = pj.description_en %}
-  {% assign pj_promotion   = pj.promotion_en   | default: pj.promotion %}
+  {% assign pj_demo        = pj.demo_en        | default: pj.demo %}
 {% else %}
   {% assign pj_title       = pj.title          | escape %}
   {% assign pj_description = pj.description    %}
-  {% assign pj_promotion   = pj.promotion %}
+  {% assign pj_demo        = pj.demo %}
 {% endif %}
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
@@ -71,17 +71,17 @@ twitter_card: summary_large_image
 <p class="project-comment">{{ pj.comment }}</p>
 {% endif %}
 
-{% if pj_promotion %}
+{% if pj_demo %}
 ## [{{ translations.demoMovie[lang] }}](#demo){: .heading-anchor} {#demo}
-{% if pj_promotion contains '.gif' %}
+{% if pj_demo contains '.gif' %}
 <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='{{ translations.demoMovie[lang] }} (Gif)'
-     data-src='/assets/img/projects/{{ pj.year }}/{{ pj_promotion }}' loading='lazy'
+     data-src='/assets/img/projects/{{ pj.year }}/{{ pj_demo }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 <div class="youtube">
-  {% include youtube-embed.html id=pj_promotion %}
+  {% include youtube-embed.html id=pj_demo %}
 </div>
-<a href="https://youtu.be/{{ pj_promotion }}" target="_blank" class="button">{{ translations.watchOnYouTube[lang] }}</a>
+<a href="https://youtu.be/{{ pj_demo }}" target="_blank" class="button">{{ translations.watchOnYouTube[lang] }}</a>
 {% endif %}
 {% endif %}
 
