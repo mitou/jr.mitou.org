@@ -60,7 +60,7 @@ projects.each_with_index do |project, index|
     title: |
       #{project[:title_en]}
     description: |
-      #{project[:description_en].chomp.gsub("\n", "\n  ")}
+      #{project[:description_en].to_s.chomp.gsub("\n", "\n  ")}
     permalink: /english/projects/#{project[:year]}/#{project[:id]}
     thumbnail: /assets/img/projects/#{project[:year]}/#{project[:thumbnail]}
     twitter_card: summary_large_image
