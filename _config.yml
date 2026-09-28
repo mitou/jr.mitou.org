@@ -29,6 +29,7 @@ feed:
 
 exclude:
   - Rakefile
+  - tmp # ローカル専用の作業ディレクトリ (gitignore 済み)
 
 sass:
   style:     compressed
