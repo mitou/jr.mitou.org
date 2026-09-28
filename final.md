@@ -9,9 +9,6 @@ twitter_card: summary_large_image
 # this_year を変更すると、表示したい年度の採択プロジェクトに切り替わります。
 # 成果報告会の公開準備が整ったら this_year を今年度の数字に変更してください。
 # 詳細: https://github.com/mitou/jr.mitou.org#user-content-how-to-build-projects
-presentation_1: [aquabeacon, kintsugi_4d_dojo, harmonicseam, kinetic_fit, pentect, stellaphonic, mineralens]
-presentation_2: [mahgician, origami_cp, omochi, frey, monika, r_akanaly]
-presentation_3: [jengabuilder, aroute, unframe, esorframe, nagi, invisiblemind]
 ---
 
 <br>
@@ -88,17 +85,39 @@ presentation_3: [jengabuilder, aroute, unframe, esorframe, nagi, invisiblemind]
 <ul>
   <li>09:30 来場者向け受付開始</li>
   <li>10:00 〜 10:10 ご案内・配信開始</li>
-  <li>10:10 〜 11:55 プレゼンテーション①（7件）
-    {% include final-timetable.html is_internal_link=false project_ids=page.presentation_1 %}
-  </li>
+  <li>10:10 〜 11:55 プレゼンテーション①（7件）</li>
+  {% include final-timetable.html is_internal_link=false project_ids="
+    aquabeacon,
+    kintsugi_4d_dojo,
+    harmonicseam,
+    kinetic_fit,
+    pentect,
+    stellaphonic,
+    mineralens,
+  " %}
+
   <li>11:55 〜 12:55 昼食休憩</li>
-  <li>12:55 〜 14:25 プレゼンテーション②（6件）
-    {% include final-timetable.html is_internal_link=false project_ids=page.presentation_2 %}
-  </li>
+  <li>12:55 〜 14:25 プレゼンテーション②（6件）</li>
+  {% include final-timetable.html is_internal_link=false project_ids="
+    mahgician,
+    origami_cp,
+    omochi,
+    frey,
+    monika,
+    r_akanaly,
+  " %}
+
   <li>14:25 〜 14:35 休憩</li>
-  <li>14:35 〜 16:05 プレゼンテーション③（6件）
-    {% include final-timetable.html is_internal_link=false project_ids=page.presentation_3 %}
-  </li>
+  <li>14:35 〜 16:05 プレゼンテーション③（6件）</li>
+  {% include final-timetable.html is_internal_link=false project_ids="
+    jengabuilder,
+    aroute,
+    unframe,
+    esorframe,
+    nagi,
+    invisiblemind,
+  " %}
+
   <li>16:05 〜 16:15 配信終了・ブース準備</li>
 </ul>
 
@@ -144,13 +163,11 @@ presentation_3: [jengabuilder, aroute, unframe, esorframe, nagi, invisiblemind]
 </div>
 -->
 
-<h2 id='projects'>{{ page.this_year }}年度のプロジェクト（発表順）</h2>
+<h2 id='projects'>{{ page.this_year }}年度のプロジェクト</h2>
 
 {% assign projects = site.data.projects | where_exp: "pj", "pj.year == page.this_year" %}
-{% assign presentation_order = page.presentation_1 | concat: page.presentation_2 | concat: page.presentation_3 %}
 <div class="projects flex">
-  {% for project_id in presentation_order %}
-    {% assign pj = projects | find: "id", project_id %}
+  {% for pj in projects %}
     {% include project-details.html %}
   {% endfor %}
 </div>
