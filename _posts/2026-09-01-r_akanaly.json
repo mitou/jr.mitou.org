@@ -1,0 +1,6 @@
+---
+permalink: /projects/2026/r_akanaly.json
+thumbnail: /assets/img/projects/2026/r_akanaly.webp
+---
+
+{% include project-json-ld.json project_id="r_akanaly" %}

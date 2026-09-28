@@ -60,7 +60,7 @@ projects.each_with_index do |project, index|
     title: |
       #{project[:title_en]}
     description: |
-      #{project[:description_en].chomp.gsub("\n", "\n  ")}
+      #{project[:description_en].to_s.chomp.gsub("\n", "\n  ")}
     permalink: /english/projects/#{project[:year]}/#{project[:id]}
     thumbnail: /assets/img/projects/#{project[:year]}/#{project[:thumbnail]}
     twitter_card: summary_large_image
@@ -84,12 +84,7 @@ projects.each_with_index do |project, index|
      {% assign pj_promotion   = pj.promotion %}
    {% endif %}
 
-   <div style='margin-top: 50px; margin-bottom: 30px;'>
-     <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='{{ translations.altThumbnail[lang] }} - {{ pj_title }}'
-     {% if pj.thumbnail %}    data-src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
-     {% else %}               data-src='{{ page.thumbnail }}'
-     {% endif %}                 title='{{ pj_title }}' style='border-radius: 6px;' loading='lazy' />
-   </div>
+   {% include project-gallery.html %}
 
    {{ pj_description }}
 

@@ -1,0 +1,42 @@
+{% if pj.hero_video %}
+<div class="project-hero-video">
+  <div class="youtube">
+    {% include youtube-embed.html id=pj.hero_video title=pj_title defer_load=true %}
+    <button type="button" class="project-hero-video-poster" style="background-image: url('{{ page.thumbnail }}');" aria-label="{% if lang == 'en' %}Play video of {{ pj_title }}{% else %}{{ pj_title }}の動画を再生{% endif %}">
+      <span aria-hidden="true">▶</span>
+    </button>
+  </div>
+  <a href="https://youtu.be/{{ pj.hero_video }}" target="_blank" rel="noopener noreferrer" class="project-hero-video-link">{{ translations.watchOnYouTube[lang] }}</a>
+</div>
+<script src="/assets/js/project-hero-video.js" defer></script>
+{% elsif pj.gallery and pj.gallery.size > 0 %}
+<div class="project-gallery" data-project-gallery style="margin-top: 50px; margin-bottom: 30px;">
+  <div class="project-gallery-viewport" tabindex="0" role="region" aria-roledescription="carousel" aria-label="{% if lang == 'en' %}Images of {{ pj_title }}{% else %}{{ pj_title }}の画像{% endif %}">
+    <figure class="project-gallery-slide">
+      <img class="top-img lazyload" src="/assets/img/spinner.svg"
+           {% if pj.thumbnail %}data-src="/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}"{% else %}data-src="{{ page.thumbnail }}"{% endif %}
+           alt="{{ translations.altThumbnail[lang] }} - {{ pj_title }}" title="{{ pj_title }}" loading="lazy" />
+    </figure>
+    {% for image in pj.gallery %}
+    <figure class="project-gallery-slide">
+      <img class="top-img lazyload" src="/assets/img/spinner.svg"
+           data-src="/assets/img/projects/{{ pj.year }}/{{ image }}"
+           alt="{{ pj_title }} - {% if lang == 'en' %}image{% else %}画像{% endif %} {{ forloop.index | plus: 1 }}" loading="lazy" />
+    </figure>
+    {% endfor %}
+  </div>
+  <div class="project-gallery-controls">
+    <button type="button" class="project-gallery-arrow" data-gallery-prev aria-label="{% if lang == 'en' %}Previous image{% else %}前の画像{% endif %}">‹</button>
+    <span class="project-gallery-count" data-gallery-count aria-live="polite">1 / {{ pj.gallery.size | plus: 1 }}</span>
+    <button type="button" class="project-gallery-arrow" data-gallery-next aria-label="{% if lang == 'en' %}Next image{% else %}次の画像{% endif %}">›</button>
+  </div>
+</div>
+<script src="/assets/js/project-gallery.js" defer></script>
+{% else %}
+<div style="margin-top: 50px; margin-bottom: 30px;">
+  <img class="top-img lazyload" src="/assets/img/spinner.svg" alt="{{ translations.altThumbnail[lang] }} - {{ pj_title }}"
+  {% if pj.thumbnail %}    data-src="/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}"
+  {% else %}               data-src="{{ page.thumbnail }}"
+  {% endif %}                 title="{{ pj_title }}" style="border-radius: 6px;" loading="lazy" />
+</div>
+{% endif %}

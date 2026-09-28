@@ -36,6 +36,169 @@
 #  creator_ids:
 #  - 
 
+# 2026年度（成果報告会準備資料「事前回収事項」より、2026-09-28取得）
+- id: pentect
+  title: "Pentect - 機密情報をAIに安全に渡すためのセキュアプロキシ"
+  description: "「Pentect」は、AIエージェントの通信に含まれる機密情報をマスキングするセキュアプロキシです。APIキーやパスワード、個人情報などを検出し、隠します。マスキングした情報はツールの実行時にクライアントで復元するため、モデルに元の値を渡さずにAPI呼び出しなどを行えます。Claude CodeやCodexなどで利用できます。"
+  year: 2026
+  mentor_id: yoshifumi_seki
+  creator_ids:
+  - tom_nagai
+
+- id: r_akanaly
+  title: "r_AKanaly - 独自エージェントによる全自動コンピューターウイルス解析機"
+  description: "r_AKanalyは、コンピューターウイルスを全自動で解析し報告書を作成するツールです。隔離環境でウイルスの動作を記録し、重要なつながりを残して圧縮します。生成AIがそこからウイルスの機能を推論し、それを手掛かりにプログラムの中身を仮想環境内の独自エージェントを活用し調べます。特徴や仕組みを判断の根拠とともに分かりやすい報告書にまとめ、セキュリティ製品の改善やウイルスの迅速な周知に役立てます。"
+  hero_video: jbducYlsGMo
+  year: 2026
+  mentor_id: yu_ukai
+  creator_ids:
+  - kouki_morita
+
+- id: kinetic_fit
+  title: "kinetic fit - スマホでスキャンするだけであなただけのキーボードを"
+  description: "kinetic fitは、手のいくつかのポーズをスマートフォンで3Dスキャンし、そこから抽出される「骨格データ」とユーザーの普段のキーボード入力から抽出される「入力文書の解析」によりその人の体にフィットするキーボードの「筐体」と「配列」を生成します。このプロジェクトでは、必要な指の動きを少なくすることによる「タイピング速度の向上」と、手首の角度や肩の開き方の改善による「長期タイピングの疲労の軽減」を目的としています。"
+  year: 2026
+  mentor_id: rina_kotake
+  creator_ids:
+  - akito_hattori
+
+- id: omochi
+  title: "Omochi"
+  description: "Omochiは、A2UIを活用して、プログラムに簡単に操作画面を追加するための仕組みです。それぞれのプログラムが提供する画面を組み合わせて、自分の用途に合ったダッシュボードを作れます。小さなスクリプトから、複数のPCで動くツール、エージェントとのやり取りまで。少ないコードで操作画面を用意し、一つのダッシュボードからまとめて使える環境を目指しています。"
+  year: 2026
+  mentor_id: kakeru_ishii
+  creator_ids:
+  - koroku_wakamatsu
+
+- id: frey
+  title: "Frey - 地形から文明までの惑星シミュレータ"
+  description: "Freyは、シミュレーションから生まれた架空の惑星を観察し、「なぜ？」を辿ってゆくWebツールです。地形によって気候が変わり、それが食料生産、ひいては人口分布、産業にまで影響します。地図のレイヤーを切り替え、時間を動かすことで、普段は見えにくい自然環境と社会の関係を探ることがでます。とある惑星の今ができるまでを、のぞいてみませんか？"
+  year: 2026
+  mentor_id: rhythm_sakamoto
+  creator_ids:
+  - ryu_umehara
+
+- id: nagi
+  title: "nagi - アトピー性皮膚炎の無意識の掻破行動を抑制するデバイス"
+  description: "アトピーが治らない原因は、本当にかゆみだけなのでしょうか？実は、ストレスや習慣によって、かゆくなくても快感や安心感を求めて掻いてしまう行動があります。では、その掻破に気づかせ、得ていた報酬を別の刺激に置き換えられたら？nagiは、この仮説をもとに、振動による気づきと報酬の代替感覚の2段階で掻破行動を抑制し、ストレスと掻破の結びつきを断つことで、アトピー性皮膚炎の完治への一歩を目指すデバイスです。"
+  year: 2026
+  mentor_id: yuya_okada
+  creator_ids:
+  - sena_hayashi
+
+- id: unframe
+  title: "Unframe - MRを使ったプレゼンテーションアプリ"
+  description: "MRはPCにはない表現能力を持っています。しかし、ただ単純にその表現能力をプレゼンに活用しようとすれば、表現の広さからかえって情報を見づらくし、プレゼンに必要な情報を見やすくまとめる力を損なわせてしまいます。Unframeは、MRをプレゼンテーションで活用することで起こる問題を身体やアニメーションを使って打ち消し、枠にとらわれない新しいプレゼンの形を作り出します。"
+  year: 2026
+  mentor_id: yoshifumi_seki
+  creator_ids:
+  - kazuki_sato
+  - soshi_gondai
+
+- id: origami_cp
+  title: "LLMを用いた折り紙展開図作成ツール"
+  description: "作りたい折り紙を言葉で伝えると、AIが新しい展開図と完成予想図を生成するツールです。正方形一枚から切らずに折れることや、山折り・谷折りの矛盾、完成形の見た目を確かめながら、生成と修正を繰り返します。既存の折り方を再現するだけでなく、専門的な知識や経験が必要だった創作折り紙を、より自由に楽しめる環境を目指します。"
+  year: 2026
+  mentor_id: daiki_teramoto
+  creator_ids:
+  - yuka_ito
+
+- id: esorframe
+  title: "EsorFrame - 悩みを前進させるAI相談支援サービス"
+  description: "EsorFrameは、より良いAI相談支援のあり方を探り、そこで得た知見を活かしながら開発している内省支援Webアプリです。悩みを「話して終わり」にせず、AIとの対話から事実・解釈・別の見方・取れる行動を整理して可視化し、必要に応じて異なる視点も提示します。実際の開発や検証を重ねながら支援の形そのものを問い直し、次の一歩や、その先の自己解決につながる仕組みを目指しています。"
+  year: 2026
+  mentor_id: yoshifumi_seki
+  creator_ids:
+  - mio_hanai
+
+- id: mineralens
+  title: "MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ"
+  description: "「MineraLens」は、鉱物の3Dモデルに結晶構造データによる原子配列を重ね、「見える鉱物」と「見えない構造」を同時に観察できる学習アプリです。例えばダイヤモンドと石墨を並べ、結合や結晶系から「なぜ硬さや劈開が違うのか？」を探ることができます。BASICモードは問いから観察へ、ADVANCEDモードは出典付きデータで検証へ。見た目・構造・性質をつなげ、「なぜ？」と発見が生まれる体験を作ります。"
+  year: 2026
+  mentor_id: shoya_ishimaru
+  link: https://mineralens.vercel.app/
+  creator_ids:
+  - noa_shimada
+
+- id: stellaphonic
+  title: "Stellaphonic - 音で宇宙を感じる新しい天体観測"
+  description: "Stellaphonicは、実在する星の位置を音に変え、耳を頼りに星を探して奏でるアプリです。スマートフォンを空へ向け、音の強弱や左右の違いから星の方向を探り、発見した星を画面上でなぞって演奏します。高齢者や視力が弱い人も星空に親しめることを目指し、旅行先やキャンプ場、街明かりで星が見えにくい場所での観察を支えます。祖父母と孫が発見を楽しみ、星座の形を音とともに記憶に残せる体験を届けます。"
+  year: 2026
+  mentor_id: maki_komuro
+  creator_ids:
+  - soshi_okumura
+
+- id: jengabuilder
+  title: "JengaBuilder - フィジカルAIによるジェンガタワーの全自動セットアップ"
+  description: "本プロジェクトは、ロボットアーム「SO-101」を活用し、崩れたジェンガを全自動で積み直すシステムです。人間の遠隔操作の軌跡をAIに学習させることによる柔軟な動作と、ロボット特有のプログラムによる高精度な動きを共存させた自動化システムを構築します。全自動雀卓から着想を得た、シュールな面白さと、人間とロボットのインタラクションをテーマとした、エンターテインメントロボットの実現を目指します。"
+  year: 2026
+  mentor_id: maki_komuro
+  creator_ids:
+  - koki_uchida
+
+- id: aquabeacon
+  title: "AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-"
+  description: "AquaBeaconは、水中での位置推定をより手軽に行うためのシンプルな手法を提案するプロジェクトです。水上の親機から音を送り、水中の子機までの距離を測るとともに、子機の光をカメラで捉えて方向を求めることで、子機の位置を推定します。この位置情報を水中映像と組み合わせ、藻場の分布を地図にする技術への応用を目指します。また、開発した仕組みをオープンソースとして公開し、幅広く活用できるようにします。"
+  hero_video: ujQCqB97oUU
+  year: 2026
+  mentor_id: masato_bito
+  link: https://aquabeacon.github.io/
+  creator_ids:
+  - ryusei_kamiyama
+
+- id: invisiblemind
+  title: "InvisibleMind - LLMエージェントを用いた人工経済による経済学教育アプリ"
+  description: "「InvisibleMind」は、LLMエージェントが暮らす人工経済で経済学を学ぶアプリです。教科書の経済学は常に合理的な人間を前提にしますが、現実の人はそうではありません。史実を元にしたシナリオで政策や予測を試すと、経済の動きをシミュレーションで確かめられ、大家や市民などの登場人物に「なぜそう動いたのか」をインタビューできます。経済理論が生まれた順に、前の理論がなぜ外れたのかを辿ってみませんか？"
+  hero_video: fkF-3jiEJHc
+  year: 2026
+  mentor_id: yu_ukai
+  creator_ids:
+  - kai_masujima
+
+- id: mahgician
+  title: "Mahgician - IoT牌によるリアルとデジタルを融合する麻雀システム"
+  description: "本プロジェクトでは、実物の麻雀牌を使った対面麻雀に、デジタルゲームのような演出やアシストを加えることを目指して、IoT麻雀牌とそれを用いた麻雀システムを開発しました。実物の牌を囲んで遊ぶ楽しさはそのままに、ゲーム状況に応じてリーチや和了を演出することで、リアル麻雀とデジタル麻雀のいいとこ取りをした、新しい麻雀体験を実現します。"
+  year: 2026
+  mentor_id: yoshifumi_seki
+  creator_ids:
+  - roi_suda
+
+- id: aroute
+  title: "ARoute - 駅構内を直感的に理解できる3Dマップ"
+  description: "「ARoute」は、 駅という複雑な空間をわかりやすく表現する新しい3Dフロアマップです。従来の駅構内図の場合、階層の位置関係が把握しづらいという難点がありましたが、ARouteはボクセルを用いて立体的に表現することで、不要な情報を省きながら、階層同士のつながりを直感的に理解できます。また、マップ作成時には3D表示を保ちながら、各階層を2Dのレイヤーとして切り替え・簡単に編集ができるため、誰でも簡単に駅のマップを作成することができます。"
+  year: 2026
+  mentor_id: ryo_suzuki
+  creator_ids:
+  - kenki_nishino
+  - osuke_hamano
+
+- id: monika
+  title: "Monika: AIエージェントのための知識管理ツールチェイン"
+  description: "メモやドキュメント、マニュアルなどなど、大量の文書を管理するのはとにかく大変です。ハイパーリンクや変更検知といった手法を使ってようやくまともに扱うことが可能になります。\n\n実は、現代のAIエージェントは同様の問題に直面しています。LLMは長期的な記憶が十分ではなく、プロジェクトについての知識を文書で残す必要があります。しかしながら、現状実用的に行われている管理手法は、単なるフォルダ分けなどに留まっており、モデル性能の向上に伴い可能になった巨大なプロジェクトの遂行には対応できません。\n\nMonikaは、エージェントの利用する知識管理のためのツールチェインを提供し、この問題にアプローチします。"
+  year: 2026
+  mentor_id: hirokazu_nishio
+  creator_ids:
+  - kaoru_kawabata
+
+- id: kintsugi_4d_dojo
+  title: "Kintsugi 4D Dojo ― 金継ぎを最高の思い出にする体験・支援アプリ"
+  description: "「Kintsugi 4D Dojo」は、金継ぎを「知っている」から「やってみよう」、そして「できた！」へ繋げるWebアプリです。撮影した写真で金継ぎをWeb上で疑似体験し、自分らしい修復方法を金継ぎ師のアドバイスを受けながら試すことができます。最後に、完成した作品を3Dで表現し、そこに込めた物語を組み合わせて「3D＋物語＝4D」として共有できます。あなたも「Kintsugi 4D Dojo」で、大切なものを自分の手で蘇らせてみませんか？"
+  year: 2026
+  mentor_id: yumi_nakamura
+  link: https://kintsugi-4d-dojo.netlify.app/
+  creator_ids:
+  - nao_uematsu
+
+- id: harmonicseam
+  title: "HarmonicSeam インタラクティブ音楽のための西洋音楽理論に基づく論理検証エンジン"
+  description: "映画の音楽は、場面の変わり目に合わせて書かれます。ゲームでは、いつ場面と曲が変わるかはプレイヤー次第です。HarmonicSeamは、楽譜データ（MIDI）を解析し、場面が変わると、音楽理論のうえで破綻せずに次の曲へ移れる瞬間まで待って切り替えます。\n「調」が遠いときは、短い「橋」を規則どおりに書いて渡ります。\n最初からそう編曲されていたかのような切り替えが作れます。聴けば早いので、動画もどうぞ。"
+  hero_video: 3J9TTu-TL-8
+  year: 2026
+  mentor_id: yohei_yasukawa
+  link: https://harmonicseam.github.io/
+  creator_ids:
+  - kantaro_hanada
+
 # 2025年度（プレースホルダ完了版。必要に応じて後日微修正）
 - id: uminavi
   title: UmiNavi — 個人開発者のための水中ドローン向け自己位置推定システム

@@ -1,0 +1,6 @@
+---
+permalink: /projects/2026/pentect.json
+thumbnail: /assets/img/projects/2026/pentect.webp
+---
+
+{% include project-json-ld.json project_id="pentect" %}

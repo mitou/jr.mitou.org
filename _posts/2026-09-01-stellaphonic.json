@@ -1,0 +1,6 @@
+---
+permalink: /projects/2026/stellaphonic.json
+thumbnail: /assets/img/projects/2026/../tbu.webp
+---
+
+{% include project-json-ld.json project_id="stellaphonic" %}

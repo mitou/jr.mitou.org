@@ -624,6 +624,104 @@ footer{
 .top-img{
   width: 100%;
 }
+.project-hero-video {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  .youtube {
+    border-radius: 6px;
+    overflow: hidden;
+    background: #111;
+  }
+}
+.project-hero-video-poster {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background-color: #111;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 54px;
+    border-radius: 14px;
+    background: #e62117;
+    color: #fff;
+    font-size: 26px;
+    line-height: 1;
+    padding-left: 4px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .35);
+  }
+  &:hover span, &:focus-visible span { background: #c91c13; }
+  &:focus-visible { outline: 3px solid $text-green; outline-offset: -3px; }
+}
+.project-hero-video.is-playing .project-hero-video-poster { display: none; }
+.project-hero-video-link {
+  display: block;
+  text-align: right;
+  margin-top: 8px;
+  font-size: .85em;
+}
+.project-gallery {
+  border-radius: 6px;
+  overflow: hidden;
+  background: $lightgray;
+}
+.project-gallery-viewport {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  touch-action: pan-x pan-y;
+  &:focus-visible { outline: 3px solid $text-green; outline-offset: -3px; }
+  &::-webkit-scrollbar { display: none; }
+}
+.project-gallery-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  margin: 0;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.project-gallery-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 6px 12px;
+}
+.project-gallery-count { font-size: .85em; min-width: 5em; text-align: center; }
+.project-gallery-arrow {
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  color: $text-green;
+  width: 36px;
+  height: 36px;
+  font-size: 27px;
+  line-height: 1;
+  cursor: pointer;
+  &:hover:not(:disabled), &:focus-visible { background: $sub-color; }
+  &:disabled { opacity: .35; cursor: default; }
+}
 .page-head{
   background-color: $main-color;
   padding: 10vh 2vw;
