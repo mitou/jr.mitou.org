@@ -80,7 +80,7 @@
   title: Pentect - 機密情報をAIに安全に渡すためのセキュアプロキシ
   description: 「Pentect」は、AIエージェントの通信に含まれる機密情報をマスキングするセキュアプロキシです。APIキーやパスワード、個人情報などを検出し、隠します。マスキングした情報はツールの実行時にクライアントで復元するため、モデルに元の値を渡さずにAPI呼び出しなどを行えます。Claude CodeやCodexなどで利用できます。
   year: 2026
-  mentor_id: yoshifumi_seki
+  mentor_id: kakeru_ishii
   link: https://pentect.dev/
   creator_ids:
   - tom_nagai
