@@ -103,7 +103,11 @@ creator:
 
 demoMovie:
   ja: デモ動画
-  en: Demo Movie
+  en: Demo
+
+introMovie:
+  ja: 説明動画
+  en: Intro
 
 watchOnYouTube:
   ja: YouTube で見る

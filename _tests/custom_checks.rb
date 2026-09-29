@@ -141,17 +141,6 @@ class CustomChecks < ::HTMLProofer::Check
             \s Creator ID: #{missing_ids}
         ERROR_MESSAGE
       ) unless missing_ids.empty?
-
-      # `promotion` was renamed to `demo`. Old keys are silently ignored,
-      # so the demo video would disappear without this check.
-      old_keys = project.keys & [:promotion, :promotion_en]
-      add_failure(
-        <<~ERROR_MESSAGE
-          The following key was renamed: promotion -> demo, promotion_en -> demo_en
-            \s Project ID: #{project[:id]}
-            \s Old key(s): #{old_keys}
-        ERROR_MESSAGE
-      ) unless old_keys.empty?
     end
 
     creators.each do |creator|
