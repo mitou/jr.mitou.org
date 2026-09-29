@@ -45,8 +45,8 @@ Creators will be able to learn from mentors and other [MITOU Program](https://ww
   
 Each group will be eligible to receive up to [500K Yen](https://www.google.com/search?q=500,000+Yen+to+USD) as funding for development.
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_dev.webp"
- title="Presenting a product built with equipment and materials at Demo Day." class="top-img lazyload" loading="lazy"
+<img src="/assets/img/about_dev.webp"
+ title="Presenting a product built with equipment and materials at Demo Day." class="top-img" loading="lazy"
  alt="Presenting a product built with equipment and materials at Demo Day." >
 <br><br>
 
@@ -55,8 +55,8 @@ Each group will be eligible to receive up to [500K Yen](https://www.google.com/s
 
 If necessary, places to develop will be provided. And transportation and accommodation expenses for participating in events like [Maker Faire Tokyo](https://makezine.jp/event/mft2023/en/) will also be covered.
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp"
- title="Booth exhibition at Maker Faire Tokyo 2023." class="top-img lazyload" loading="lazy"
+<img src="/assets/img/about_expenses.webp"
+ title="Booth exhibition at Maker Faire Tokyo 2023." class="top-img" loading="lazy"
  alt="Booth exhibition at Maker Faire Tokyo 2023.">
 <br><br>
 
@@ -65,8 +65,8 @@ If necessary, places to develop will be provided. And transportation and accommo
 
 Creators who have shown their outstanding performance during MITOU Junior program get an outstanding performance award. The award is highly recognized for Admissions Office of several universities, including [Keio University SFC](https://www.sfc.keio.ac.jp/en/), [Kindai University](https://www.kindai.ac.jp/english/) and [Tokyo Metropolitan University](https://www.tmu.ac.jp/english/index.html).
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.webp"
- title="Award ceremony for graduates of the MITOU Junior program at The University of Tokyo." class="top-img lazyload" loading="lazy"
+<img src="/assets/img/about_awarding.webp"
+ title="Award ceremony for graduates of the MITOU Junior program at The University of Tokyo." class="top-img" loading="lazy"
  alt="Award ceremony for graduates of the MITOU Junior program at The University of Tokyo.">
 <br><br>
 
@@ -148,14 +148,14 @@ Example projects, accepted and boosted by our program, are as follows.
     {% if pj.thumbnail %}
     <!-- Show thumbnail image if already set. -->
     <a href="/english/projects/{{ pj.year }}/{{ pj.id }}">
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}"
-           alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
+      <img src="/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}"
+           alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail" loading="lazy" />
     </a>
     {% else %}
     <!-- Show WebP thumbnail image in the default path. -->
     <a href="/english/projects/{{ pj.year }}/{{ pj.id }}">
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/{{ pj.year }}/{{ pj.id }}.webp"
-           alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
+      <img src="/assets/img/projects/{{ pj.year }}/{{ pj.id }}.webp"
+           alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail" loading="lazy" />
     </a>    
     {% endif %}
 
@@ -175,35 +175,35 @@ Example projects, accepted and boosted by our program, are as follows.
 <!--
 <div class="project-showcase-list">
   <a href='https://github.com/visible/visible' class="project-showcase project-one">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/english/visible.webp" alt="Visible - Web Accessibility Validate & Fix" class="project-img lazyload" loading="lazy" />
+    <img src="/assets/img/english/visible.webp" alt="Visible - Web Accessibility Validate & Fix" class="project-img" loading="lazy" />
   </a>
   <a href='https://www.youtube.com/watch?v=MePIVH21RZM' class="project-showcase project-one">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/english/spaghetian.webp" alt="Spaghetian - 4-bit CPU of Electromagnet" class="project-img lazyload" loading="lazy" />
+    <img src="/assets/img/english/spaghetian.webp" alt="Spaghetian - 4-bit CPU of Electromagnet" class="project-img" loading="lazy" />
   </a>
 
   <a href='https://detexploit.org/' class="project-showcase project-one">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/english/detexploit.webp" alt="abecobe - Puzzle game using two blocks" class="project-img lazyload" loading="lazy" />
+    <img src="/assets/img/english/detexploit.webp" alt="abecobe - Puzzle game using two blocks" class="project-img" loading="lazy" />
   </a>
   <a href='https://keidaroo.github.io/keidaroo_pages/links/abecobe/' class="project-showcase project-one">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/english/abecobe.webp" alt="abecobe - Puzzle game using two blocks" class="project-img lazyload" loading="lazy" />
+    <img src="/assets/img/english/abecobe.webp" alt="abecobe - Puzzle game using two blocks" class="project-img" loading="lazy" />
   </a>
 
   <a href='https://anjuart.com/en/' class="project-showcase project-one">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/english/flight-fit-vr.webp" alt="Flight Fit -VR-" class="project-img lazyload" loading="lazy" />
+    <img src="/assets/img/english/flight-fit-vr.webp" alt="Flight Fit -VR-" class="project-img" loading="lazy" />
   </a>
   <a href='https://vamboo.net/' class="project-showcase project-one">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/english/vamboo.webp" alt="vamboo - A visual programming language to create GUI application in functional and reactive way." class="project-img lazyload" loading="lazy" />
+    <img src="/assets/img/english/vamboo.webp" alt="vamboo - A visual programming language to create GUI application in functional and reactive way." class="project-img" loading="lazy" />
   </a>
 
   <a href='https://github.com/Vreath-core' class="project-showcase project-one">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/english/vreath.webp" alt="Vreath - A New Consensus Algorithm Makes CryptoCurrency Easily Available" class="project-img lazyload" loading="lazy" />
+    <img src="/assets/img/english/vreath.webp" alt="Vreath - A New Consensus Algorithm Makes CryptoCurrency Easily Available" class="project-img" loading="lazy" />
   </a>
   <a href='https://sites.google.com/view/toubans-en' class="project-showcase project-one">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/english/toubans.webp" alt="Toubans! - The easy-to-use duty-management chatbot" class="project-img lazyload" loading="lazy" />
+    <img src="/assets/img/english/toubans.webp" alt="Toubans! - The easy-to-use duty-management chatbot" class="project-img" loading="lazy" />
   </a>
 
   <a href='/english/projects/2023/hato' class="project-showcase project-one">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/english/hato.webp" alt="Hopefully Automatic Train Operation (HATO): Immersive Automatic Model Train Control System" class="project-img lazyload" loading="lazy" />
+    <img src="/assets/img/english/hato.webp" alt="Hopefully Automatic Train Operation (HATO): Immersive Automatic Model Train Control System" class="project-img" loading="lazy" />
   </a>
 </div>
 -->
@@ -211,7 +211,7 @@ Example projects, accepted and boosted by our program, are as follows.
 
 ## [<i class="fa-light fa-calendar-clock"></i>](#agenda) Program Agenda {#agenda}
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_english.webp" alt="Schedule of MITOU Junior Program" class="lazyload" loading="lazy" width='100%'>
+<img src="/assets/img/schedule_english.webp" alt="Schedule of MITOU Junior Program" loading="lazy" width='100%'>
 
 - **Target:** Individuals and groups (up to 4 members) who are 17 years old or younger as of April 1st.
 - **Due Date:** The application form typically opens on March 10th and closes in early April.
@@ -230,8 +230,8 @@ Example projects, accepted and boosted by our program, are as follows.
 
 Example timeline. Details may vary from year to year.
 
-<img  src='/assets/img/spinner.svg' class='top-img lazyload' loading='lazy'
- data-src='/assets/img/schedule_2019_en.png' alt='Example Schedule in 2019' />
+<img class='top-img' loading='lazy'
+ src='/assets/img/schedule_2019_en.png' alt='Example Schedule in 2019' />
 -->
 
 
@@ -239,8 +239,8 @@ Example timeline. Details may vary from year to year.
 
 <div class="sv">
   <div class="sv-left">
-    <img  src='/assets/img/spinner.svg'  class="sv-img lazyload" loading="lazy"
-     data-src="/assets/img/mentors/takeuchi.webp" alt="Photo of Ikuo Takeuchi">
+    <img  class="sv-img" loading="lazy"
+     src="/assets/img/mentors/takeuchi.webp" alt="Photo of Ikuo Takeuchi">
     <h3 class="mentor-name">Ikuo Takeuchi</h3>
     <h5>Professor Emeritus at <a href='https://www.u-tokyo.ac.jp/en/'>The University of Tokyo</a>, Director of <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>MITOU Programs</a>, and Director of <a href='https://www.mitou.org/index_en.html'>MITOU Foundation</a></h5>
   </div>
@@ -261,7 +261,7 @@ Example timeline. Details may vary from year to year.
 ## [<i class="fa-light fa-badge-check"></i>](#organizer) Organizer {#organizer}
 
 <section>
-  <a href='https://www.mitou.org/index_en.html'><img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.webp" alt="MITOU Foundation's logo image" class="lazyload" loading="lazy" width='100%'></a>
+  <a href='https://www.mitou.org/index_en.html'><img src="/assets/img/mitou-foundation.webp" alt="MITOU Foundation's logo image" loading="lazy" width='100%'></a>
 </section>
 
 [The MITOU Foundation](https://www.mitou.org/index_en.html) focuses on fostering IT innovation by building a network of creative talents, particularly those who have completed the [MITOU Program](https://www.ipa.go.jp/en/it-talents/mitou.html). This organization was established in 2014 to address the growing need for innovative talents capable of transforming various industries and societal structures in the 21st century. It is a non-profit general incorporated association, a legal entity in Japanese law.

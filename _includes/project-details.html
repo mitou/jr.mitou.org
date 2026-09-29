@@ -19,16 +19,16 @@
   <a href="/projects/{{ pj.year }}/{{ pj.id }}">
   {% if pj.thumbnail %}
     <!-- Show thumbnail image if it given. -->
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}"
-         alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
+    <img src="/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}"
+         alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail" loading="lazy" />
   {% elsif default_thumbnail_exists %}
     <!-- Show thumbnail image if it exists in the default path. -->
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/{{ pj.year }}/{{ pj.id }}.webp"
-         alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
+    <img src="/assets/img/projects/{{ pj.year }}/{{ pj.id }}.webp"
+         alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail" loading="lazy" />
   {% else %}
     <!-- Show thumbnail image if it NOT exists in the default path. -->
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/tbu.webp"
-         alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
+    <img src="/assets/img/projects/tbu.webp"
+         alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail" loading="lazy" />
   {% endif %}
   </a>
 

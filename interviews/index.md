@@ -31,9 +31,9 @@ thumbnail: /assets/img/interviews/interview_ogp.png
     </h3>
 
     <a href="/interviews/{{ creator.id }}">
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/interviews/{{ interview.creator }}_1.webp"
+      <img src="/assets/img/interviews/{{ interview.creator }}_1.webp"
            alt="{{ creator.name }}'s Interview" title="{{ creator.name }}'s Interview"
-           class="project-thumbnail lazyload" loading="lazy" />
+           class="project-thumbnail" loading="lazy" />
     </a>
 
     <p class="project-description">{{ interview.description }}</p>

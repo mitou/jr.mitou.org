@@ -9,7 +9,7 @@ this_year: 2026
 ---
 
 <div class="cover-photo">
-  <img src="/assets/img/2025_cover.min.webp" data-src="/assets/img/2025_cover.webp" alt="2025年度 未踏ジュニア集合写真" class="top-img lazyload" loading="lazy">
+  <img src="/assets/img/2025_cover.webp" alt="2025年度 未踏ジュニア集合写真" class="top-img">
 
   <!--【チラシのアナウンス】-->
   <!--<a href="/flyers" class="dialog ignore-sp">🆕 チラシ配布のお願い (〆 2月2日 23:59)</a>-->
@@ -40,22 +40,22 @@ this_year: 2026
 
   <div class="service flex">
     <div class="service-one">
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/mentor.svg" alt="メンター" class="service-img lazyload" loading="lazy">
+      <img src="/assets/img/illustration/mentor.svg" alt="メンター" class="service-img" loading="lazy">
       <h3>メンタリング</h3>
       <p>未踏修了生らを中心に、各界で活躍する<a href="#mentors">エンジニアや専門家</a>からサポートが得られます</p>
     </div>
     <div class="service-one">
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/money.svg" alt="資金" class="service-img lazyload" loading="lazy">
+      <img src="/assets/img/illustration/money.svg" alt="資金" class="service-img" loading="lazy">
       <h3>開発資金</h3>
       <p>各グループ50万円を上限として開発資金の援助があります</p>
     </div>
     <div class="service-one">
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/place.svg" alt="開発場所" class="service-img lazyload" loading="lazy">
+      <img src="/assets/img/illustration/place.svg" alt="開発場所" class="service-img" loading="lazy">
       <h3>開発場所</h3>
       <p>必要に応じて、開発場所や工作機材の支援が得られます</p>
     </div>
     <div class="service-one">
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/sp-creator.svg" alt="スーパークリエータ認定" class="service-img lazyload" loading="lazy">
+      <img src="/assets/img/illustration/sp-creator.svg" alt="スーパークリエータ認定" class="service-img" loading="lazy">
       <h3>スーパークリエータ認定</h3>
       <p>特に顕著な成果を残した方を表彰します。慶應SFCや都立大学、近畿大学に<a href='/admissions'>推薦枠で出願</a>できます</p>
     </div>
@@ -116,7 +116,7 @@ this_year: 2026
     {% for mentor in site.data.mentors %}
       {% if mentor.is_alumni %} {% continue %} {% endif %}
       <a href="/mentors/#{{ mentor.id }}" class="mentor-list-one">
-        <img src="/assets/img/spinner.svg" data-src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" class="lazyload" loading="lazy">
+        <img src="/assets/img/mentors/{{ mentor.img }}" alt="{{ mentor.name.last }} {{ mentor.name.first }}" loading="lazy">
 	<p class="mentor-list-name">{{ mentor.name.last }} <span class="ignore-sp">{{ mentor.name.first }}</span></p>
 	<p class="mentor-list-af pc">{{ mentor.affiliation }}</p>
       </a>
@@ -131,7 +131,7 @@ this_year: 2026
   <h2 class="heading-balloon">応募者向けお役立ち情報</h2>
 
   <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank" rel="noopener">
-    <img src="/assets/img/highlights-for-creators.min.webp" data-src="/assets/img/highlights-for-creators.webp" alt="Movies for Prospective Creators" width="100%" class="lazyload" loading="lazy">
+    <img src="/assets/img/highlights-for-creators.webp" alt="Movies for Prospective Creators" width="100%" loading="lazy">
   </a>
 
   <p>
@@ -160,7 +160,7 @@ this_year: 2026
     運営団体
   </h2>
   <p>
-    <a href="https://www.mitou.org/"><img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.webp" alt="一般社団法人未踏" class="lazyload" loading="lazy"></a>
+    <a href="https://www.mitou.org/"><img src="/assets/img/mitou-foundation.webp" alt="一般社団法人未踏" loading="lazy"></a>
   </p>
 
   <p style='text-align: left;'><a href="https://www.mitou.org/">一般社団法人未踏</a> (Mitou Foundation、代表理事：<a href='/mentors/#supervisor'>竹内 郁雄</a>) は、<a href='https://www.meti.go.jp/'>経済産業省</a>所管の独立行政法人情報処理推進機構 (<a href='https://www.ipa.go.jp/'>IPA</a>) が実施する<a href='https://www.ipa.go.jp/jinzai/mitou/koubo/'>未踏事業</a>修了生を中心に、創造的人材を多角的に支援し、業界横断的なネットワークをつくることで、ITを中心としたイノベーションを加速することを目的に設立された社団法人です。</p>
@@ -174,7 +174,7 @@ this_year: 2026
   <h2 class="heading-line">SNS</h2>
   <div class="flex">
     <div class="facebook w-half">
-      <iframe data-src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmitoujr&tabs=timeline&width=340&height=400&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" class="lazyload"></iframe>
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmitoujr&tabs=timeline&width=340&height=400&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" loading="lazy"></iframe>
     </div>
     <div class="twitter w-half">
       <a class="twitter-timeline" data-height="400" data-width="340" href="https://twitter.com/MitouJr?ref_src=twsrc%5Etfw">Tweets by mitoujr</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

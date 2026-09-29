@@ -84,14 +84,14 @@ latest_en_year: 2025
 	{% if pj.thumbnail %}
 	<!-- Show thumbnail image if already set. -->
 	<a href="/english/projects/{{ pj.year }}/{{ pj.id }}">
-	  <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}"
-           alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
+	  <img src="/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}"
+           alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail" loading="lazy" />
 	</a>
 	{% else %}
 	<!-- Show WebP thumbnail image in the default path. -->
 	<a href="/english/projects/{{ pj.year }}/{{ pj.id }}">
-	  <img src="/assets/img/spinner.svg" data-src="/assets/img/projects/{{ pj.year }}/{{ pj.id }}.webp"
-               alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail lazyload" loading="lazy" />
+	  <img src="/assets/img/projects/{{ pj.year }}/{{ pj.id }}.webp"
+               alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail" loading="lazy" />
 	</a>
 	{% endif %}
 

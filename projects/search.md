@@ -97,7 +97,7 @@ redirect_from:
 
      searchTerms:          ['title', 'description', 'creators', 'year', 'mentor.name_last'],
      exclude:              ['assets', 'img', 'webp', 'projects'],
-     searchResultTemplate: '<li class="search-result"><img class="lazyload" data-src="{thumbnail}" loading="lazy"><span class="search-result-title"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor.name_last}PM ({year})</small><br></span><code class="search-result-description">{description}</code></li>',
+     searchResultTemplate: '<li class="search-result"><img src="{thumbnail}" loading="lazy"><span class="search-result-title"><a href="{permalink}">{title}</a> <small>by {creators} / {mentor.name_last}PM ({year})</small><br></span><code class="search-result-description">{description}</code></li>',
      // debounceTime:         400,
      noResultsText:        '検索結果が見つかりませんでした。',
      loadingText:          '<div class="loading-skeleton">検索中...</div>',
