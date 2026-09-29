@@ -42,8 +42,8 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 2016年から未踏ジュニアが始まり、これまでに **{{ total_applications }} 件の応募をいただき、{{ total_creators }} 名のクリエータを支援・採択**してきました。
 
 <div class="cover-photo">
-  <img src="/assets/img/2025_cover.min.webp" data-src="/assets/img/2025_cover.webp"
-     title="2025年度の未踏ジュニア集合写真 @ GMO Yours・フクラス" class="top-img lazyload" loading="lazy"
+  <img src="/assets/img/2025_cover.webp"
+     title="2025年度の未踏ジュニア集合写真 @ GMO Yours・フクラス" class="top-img"
        alt="2025年度の未踏ジュニア集合写真 @ GMO Yours・フクラス">
 
 </div>
@@ -65,8 +65,8 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 担当の[メンター](/mentors)をはじめ、[未踏事業の修了生](https://scrapbox.io/mitou-meikan/)を中心とする各界で活躍するエンジニア・専門家の指導が受けられます。
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/mtg.svg"
-   title="メンターと定期的にオンラインで話している様子のイラスト" class="post-photo lazyload" loading="lazy"
+<img src="/assets/img/illustration/mtg.svg"
+   title="メンターと定期的にオンラインで話している様子のイラスト" class="post-photo" loading="lazy"
      alt="メンターと定期的にオンラインで話している様子のイラスト" width="50%" style="margin-bottom: 30px;">
 
 <div class="tips">期間中は担当する<a href='/mentors'>メンター</a>と定期的にオンラインで話せる機会があります。プログラミングの質問やプロジェクトの方針など、なんでも相談できます。</div>
@@ -81,13 +81,13 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 例えばハードウェア開発で機材・資材を使いたい場面や、ソフトウェア開発で有料のAPI・サーバーを使いたい場面などで、50 万円まで使える仕組みになっています。
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_dev.webp"
-   title="機材・資材を活用して開発したプロダクトの発表 @ 成果報告会" class="top-img lazyload" loading="lazy"
+<img src="/assets/img/about_dev.webp"
+   title="機材・資材を活用して開発したプロダクトの発表 @ 成果報告会" class="top-img" loading="lazy"
      alt="機材・資材を活用して開発したプロダクトの発表 @ 成果報告会" >
 
 <!--
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_dev_v0.webp"
-   title="ハードウェア開発を支援している様子 @ CASE Shinjuku" class="top-img lazyload" loading="lazy"
+<img src="/assets/img/about_dev_v0.webp"
+   title="ハードウェア開発を支援している様子 @ CASE Shinjuku" class="top-img" loading="lazy"
      alt="ハードウェア開発を支援している様子 @ CASE Shinjuku" >
 -->
 
@@ -100,8 +100,8 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 また[成果報告会](/final)などのイベントが現地開催となる場合、イベント参加のための交通費・宿泊費も支給されます。
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_expenses.webp"
-   title="ブース出展している様子 @ Maker Faire Tokyo 2023" class="top-img lazyload" loading="lazy"
+<img src="/assets/img/about_expenses.webp"
+   title="ブース出展している様子 @ Maker Faire Tokyo 2023" class="top-img" loading="lazy"
      alt="ブース出展している様子 @ Maker Faire Tokyo 2023">
 
 <br>
@@ -112,13 +112,13 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 特に顕著な成果を残したクリエータを、未踏ジュニアスーパークリエータとして認定します。慶應義塾大学SFCや東京都立大学、近畿大学に推薦枠で出願できます。
 
 <!--
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding_group.webp"
-   title="修了証書を授与されたクリエータと、メンターや運営チームの集合写真 @ GMO Yours・フクラス" class="top-img lazyload" loading="lazy"
+<img src="/assets/img/about_awarding_group.webp"
+   title="修了証書を授与されたクリエータと、メンターや運営チームの集合写真 @ GMO Yours・フクラス" class="top-img" loading="lazy"
      alt="修了証書を授与されたクリエータと、メンターや運営チームの集合写真 @ GMO Yours・フクラス">
 -->
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/about_awarding.webp"
-   title="クリエータに修了証書を授与している様子 @ 東京大学" class="top-img lazyload" loading="lazy"
+<img src="/assets/img/about_awarding.webp"
+   title="クリエータに修了証書を授与している様子 @ 東京大学" class="top-img" loading="lazy"
      alt="クリエータに修了証書を授与している様子 @ 東京大学">
 
 <a href="/admissions" class="button">大学の募集例を見る</a>
@@ -130,9 +130,9 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 未踏ジュニアでは応募から採択までの流れや、応募書類（提案書）を**書くコツ**、**採択者の体験談**なども公開しています。**提案書を良くするコツ**なども公開しているので、ぜひチェックしてみてください！
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/chukan.svg"
-   title="応募について身近な人などに相談している様子のイラスト" width="50%" class="post-photo lazyload"
-     alt="応募について身近な人などに相談している様子のイラスト">
+<img src="/assets/img/illustration/chukan.svg"
+   title="応募について身近な人などに相談している様子のイラスト" width="50%" class="post-photo"
+     alt="応募について身近な人などに相談している様子のイラスト" loading="lazy">
 
 <div class='flex'>
   <a href="/guideline"          class="button">採択までの流れを見る</a>
@@ -146,8 +146,8 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 <div style='padding-top: 30px; padding-bottom: 30px; max-width: 400px; margin: auto;'>
   <a href="https://www.mitou.org/">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/mitou-foundation.webp"
-       title="一般社団法人未踏のロゴ画像" class="lazyload" loading="lazy" width='100%'
+    <img src="/assets/img/mitou-foundation.webp"
+       title="一般社団法人未踏のロゴ画像" loading="lazy" width='100%'
          alt="一般社団法人未踏のロゴ画像">
   </a>
 </div>
@@ -155,18 +155,18 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 <!--
 <div class='flex' style='gap: 8px;'>
   <a href="/assets/img/about_foundation-1.jpg">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/about_foundation-1.jpg"
-       title="人材発掘交流" class="lazyload" loading="lazy" width="100%"
+    <img src="/assets/img/about_foundation-1.jpg"
+       title="人材発掘交流" loading="lazy" width="100%"
          alt="人材発掘交流">
   </a>
   <a href="/assets/img/about_foundation-2.jpg">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/about_foundation-2.jpg"
-       title="創造的キャリア支援" class="lazyload" loading="lazy" width="100%"
+    <img src="/assets/img/about_foundation-2.jpg"
+       title="創造的キャリア支援" loading="lazy" width="100%"
          alt="創造的キャリア支援">
   </a>
   <a href="/assets/img/about_foundation-3.jpg">
-    <img src="/assets/img/spinner.svg" data-src="/assets/img/about_foundation-3.jpg"
-       title="インフラ整備" class="lazyload" loading="lazy" width="100%"
+    <img src="/assets/img/about_foundation-3.jpg"
+       title="インフラ整備" loading="lazy" width="100%"
          alt="インフラ整備">
   </a>
 </div>
@@ -209,9 +209,9 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 ### [<i class="fa-light fa-badge-check"></i>](#opportunities) 他の支援プログラム紹介 {#opportunities}
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/final.svg"
-   title="他の支援プログラム（成果報告会）のイメージ図" class="post-photo lazyload"
-     alt="他の支援プログラム（成果報告会）のイメージ図" width="80%" style="margin: 50px auto;">
+<img src="/assets/img/illustration/final.svg"
+   title="他の支援プログラム（成果報告会）のイメージ図" class="post-photo"
+     alt="他の支援プログラム（成果報告会）のイメージ図" width="80%" style="margin: 50px auto;" loading="lazy">
 
 『未踏ジュニア』は 17 歳以下を対象として支援しておりますが、24 歳以下を対象とした『[未踏IT人材発掘・育成事業](https://www.ipa.go.jp/jinzai/mitou/it/about.html)』や、**年齢制限の無い**『[未踏アドバンスト](https://www.ipa.go.jp/jinzai/mitou/advanced/about.html)』『[未踏ターゲット](https://www.ipa.go.jp/jinzai/mitou/target/about.html)』など、あなたの作りたいもの（[提案書](/applications)）を支援してくれるプログラムがあります。コチラもぜひ！
 

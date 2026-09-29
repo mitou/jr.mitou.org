@@ -14,9 +14,9 @@ twitter_card: summary_large_image
 <br>
 
 <!-- 1. 最初に表示するサムネイル画像。日時と会場を画像に含める（仮。後で差し替え） -->
-<img src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}"
+<img src="{{ page.thumbnail }}"
      alt="{{ page.this_year }}年度 未踏ジュニア成果報告会 サムネイル画像"
-     class="project-thumbnail lazyload" width='100%' loading="lazy" />
+     class="project-thumbnail" width='100%' loading="lazy" />
 
 <!-- 2. 現地参加の申し込みやライブ配信の案内は決定次第ここに表示します（プレイベント文言・仮） -->
 <p>2026年度の未踏ジュニア成果報告会を11月8日 (日) に、プラチナスポンサーとしてご支援いただいている、GMO インターネットグループ株式会社様の会場提供にて、<a href='https://peatix.com/event/5204084'>GMO Yours・フクラス</a>にて開催させていただきます。</p>
@@ -56,7 +56,7 @@ twitter_card: summary_large_image
     {% for sponsor in site.data.sponsors %}
     <a href="{{ sponsor.link }}" target="_blank">
       {% if sponsor.type == 'platinum' %}
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="lazyload sponsor-logo-platinum">
+      <img src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-logo-platinum" loading="lazy">
       {% endif %}
     </a>
     {% endfor %}
@@ -65,7 +65,7 @@ twitter_card: summary_large_image
     {% for sponsor in site.data.sponsors %}
     <a href="{{ sponsor.link }}" target="_blank">
       {% if sponsor.type == 'gold' %}
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="lazyload sponsor-logo-gold">
+      <img src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-logo-gold" loading="lazy">
       {% endif %}
     </a>
     {% endfor %}
@@ -134,9 +134,9 @@ twitter_card: summary_large_image
     <!-- もしデモ展示テーブルがあれば合わせて表示
     18分 x 3回転  13分 x 3回転。<br>
     1プロジェクトあたり2回ブース発表。<br>
-    <img width='100%' src="/assets/img/spinner.svg" alt="デモ展示タイムターブル"
-     data-src="/assets/img/final_2024_demo.png"
-     class="lazyload" loading="lazy" />
+    <img width='100%' alt="デモ展示タイムターブル"
+     src="/assets/img/final_2024_demo.png"
+     loading="lazy" />
     -->
   </li>
   <li>17:15 〜 17:30 スポンサー賞発表・修了式</li>

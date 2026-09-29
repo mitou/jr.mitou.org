@@ -29,8 +29,8 @@ description: 未踏ジュニアへの応募から採択までの流れをまと�
 </center>
 
 <a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">
-  <img src="/assets/img/highlights-for-creators.min.webp" data-src="/assets/img/highlights-for-creators.webp"
-       alt="Movies for Prospective Creators" width="100%" class="lazyload" loading="lazy">
+  <img src="/assets/img/highlights-for-creators.webp"
+       alt="Movies for Prospective Creators" width="100%" loading="lazy">
 </a>
 
 <a class="button" href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">応募者向けの動画を見る</a>
@@ -71,7 +71,7 @@ description: 未踏ジュニアへの応募から採択までの流れをまと�
 ### 5. インタビュー [<i class="fa-light fa-microphone-stand"></i>](#interview)（2026年4月18日〜5月2日） {#interview}
 あなたの提案書に興味を持ったメンターが、**オンラインで 30 分程度のインタビュー**を行います。**5分間の発表時間**を設けるので、提案書の内容をまとめた発表スライドをご準備いただけると幸いです。発表後、メンターからいくつか質問をさせていただきます。採択可否の結果はその場では通知されません。
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/mtg.svg" alt="ミーティング" width="50%" class="post-photo lazyload">
+<img src="/assets/img/illustration/mtg.svg" alt="ミーティング" width="50%" class="post-photo" loading="lazy">
 
 <br>
 
@@ -103,7 +103,7 @@ description: 未踏ジュニアへの応募から採択までの流れをまと�
 
 <br>
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/boost.svg" alt="ブースト合宿" width="50%" class="post-photo lazyload">
+<img src="/assets/img/illustration/boost.svg" alt="ブースト合宿" width="50%" class="post-photo" loading="lazy">
 
 <br>
 

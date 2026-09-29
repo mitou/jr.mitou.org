@@ -31,10 +31,9 @@ U-22プログラミングコンテストの審査員に未踏関係者が何人�
 
 そこで、そのとき持っていたアイデアを、（未踏ジュニアのメンターである）[安川さん](/mentors/#yohei_yasukawa)と[西尾さん](/mentors/#hirokazu_nishio)に相談したところ、「ここをもっとこうすると面白いんじゃないか」みたいなアドバイスをもらいました。この経験が、未踏ジュニアに直結したと思っています。
 
-<img class="top-img lazyload" loading="lazy"
+<img class="top-img" loading="lazy"
      style="border-radius: 6px;"
-      src="/assets/img/interviews/sugano_kaede_2.webp"
- data-src="/assets/img/interviews/sugano_kaede_2.webp"
+ src="/assets/img/interviews/sugano_kaede_2.webp"
       alt="2017年度 未踏ジュニアキャンプの様子"
     title="2017年度 未踏ジュニアキャンプの様子">
 
@@ -97,9 +96,8 @@ U-22プログラミングコンテストの審査員に未踏関係者が何人�
 
 それが、未踏ジュニアを経験して自分が一番変わったところかなと思います。
 
-<img class="top-img lazyload" loading="lazy"
-      src="/assets/img/interviews/sugano_kaede_3.webp"
- data-src="/assets/img/interviews/sugano_kaede_3.webp"
+<img class="top-img" loading="lazy"
+ src="/assets/img/interviews/sugano_kaede_3.webp"
       alt="成果報告会の様子"
     title="成果報告会の様子">
 
@@ -152,9 +150,8 @@ U-22プログラミングコンテストの審査員に未踏関係者が何人�
 
 なぜかというと、未踏ジュニアの期間中、自分が作っているものについて話を聞いてもらう機会がたくさんあるんです。ちょっと進捗が出たらメンターさんに言いますし、合宿では、未踏ジュニアを修了された先輩にも話を聞いてもらえたりします。成果報告会も、もちろん、そうですし。いろんな人に話を聞いてもらって、「これ、いいね」と言ってもらえると、モチベーションになりますし、作っているサービスの力が増すような気がしています。自分がそうだったので、これは本当にお勧めです。
 
-<img class="top-img lazyload" loading="lazy"
-      src="/assets/img/interviews/sugano_kaede_4.webp"
- data-src="/assets/img/interviews/sugano_kaede_4.webp"
+<img class="top-img" loading="lazy"
+ src="/assets/img/interviews/sugano_kaede_4.webp"
       alt="未踏ジュニア修了式の様子"
     title="未踏ジュニア修了式の様子">
 

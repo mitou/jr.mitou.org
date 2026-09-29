@@ -10,7 +10,7 @@
     <div class="endorsement-card">
       <div class="endorsement-card-head">
         <div class="endorsement-person">
-          <img src="/assets/img/spinner.svg" data-src="/assets/img/{{ endorsement.photo }}" alt="{{ endorsement.name }}さんの写真" class="lazyload endorsement-photo" loading="lazy">
+          <img src="/assets/img/{{ endorsement.photo }}" alt="{{ endorsement.name }}さんの写真" class="endorsement-photo" loading="lazy">
           <div class="endorsement-meta">
             <p class="endorsement-name">{{ endorsement.name }}</p>
             <p class="endorsement-title">{{ endorsement.title }}</p>
@@ -19,7 +19,7 @@
         </div>
         <div class="endorsement-logo">
           <a href="{{ sponsor.link }}" target="_blank" rel="noopener">
-            <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }} ロゴ" class="lazyload" loading="lazy">
+            <img src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }} ロゴ" loading="lazy">
           </a>
         </div>
       </div>

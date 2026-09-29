@@ -10,8 +10,8 @@ redirect_from:
 
 本ページでは、応募に必要な書類（提案書）がダウンロードできます。また、提案書の書き方で悩んでいる人のために、過去の提案書のサンプルや、提案書を書くときのコツ、採択者の体験談などもまとめています。
 
-<img src="/assets/img/spinner.svg" data-src="/assets/img/illustration/chukan.svg"
-     alt="提案書の書き方を相談している様子のイラスト" width="50%" class="post-photo lazyload">
+<img src="/assets/img/illustration/chukan.svg"
+     alt="提案書の書き方を相談している様子のイラスト" width="50%" class="post-photo" loading="lazy">
 
 ## [<i class="fa-light fa-file-import"></i>](#template)  提案書テンプレート {#template}
 
@@ -44,7 +44,7 @@ redirect_from:
   {% endfor %}
 </ul>
 
-<div class='note' style='margin: 30px auto 50px;'><small>提案書の状態から約半年間の支援を得た結果が<a href='/final'>成果報告会</a>での発表となります。最初から完成している必要はありません。有志のクリエータが応募者のために公開しているサンプルが、提案書の準備に役立てば嬉しいです。<br><br><img src="/assets/img/spinner.svg" data-src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" class="lazyload"></small></div>
+<div class='note' style='margin: 30px auto 50px;'><small>提案書の状態から約半年間の支援を得た結果が<a href='/final'>成果報告会</a>での発表となります。最初から完成している必要はありません。有志のクリエータが応募者のために公開しているサンプルが、提案書の準備に役立てば嬉しいです。<br><br><img src="/assets/img/schedule_sample.webp" alt="提案書サンプルの状態" loading="lazy"></small></div>
 
 
 {% assign first_sample = site.data.applications | where: 'type', 'sample' | first %}

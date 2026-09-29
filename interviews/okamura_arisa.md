@@ -24,9 +24,8 @@ thumbnail_alt: 岡村有紗さんの成果報告会の様子
 
 そういう感じで、何か作ってみたいものが、生活していて割と頻繁に、すごく湧き出てくるタイプだったので、未踏ジュニアに応募する前から、作りたいものを作るのが習慣になっていました。
 
-<img class="top-img lazyload" loading="lazy"
-      src="/assets/img/interviews/okamura_arisa_2.webp"
- data-src="/assets/img/interviews/okamura_arisa_2.webp"
+<img class="top-img" loading="lazy"
+ src="/assets/img/interviews/okamura_arisa_2.webp"
       alt="立方体の切断という数学の問題を視覚的に理解するためのアプリ"
     title="立方体の切断という数学の問題を視覚的に理解するためのアプリ">
 
@@ -101,9 +100,8 @@ thumbnail_alt: 岡村有紗さんの成果報告会の様子
 
 （でも蓋を開けてみたら）逆に集まりすぎて、こちらでお願いする人を選ばないといけないみたいな感じになるぐらい、協力するよと言ってくださる方がいて、そのときは、すごく嬉しかったです。
 
-<img class="top-img lazyload" loading="lazy"
-      src="/assets/img/interviews/okamura_arisa_3.webp"
- data-src="/assets/img/interviews/okamura_arisa_3.webp"
+<img class="top-img" loading="lazy"
+ src="/assets/img/interviews/okamura_arisa_3.webp"
       alt="生成AIを使った英単語学習アプリの様子"
     title="生成AIを使った英単語学習アプリの様子">
 
@@ -146,9 +144,8 @@ thumbnail_alt: 岡村有紗さんの成果報告会の様子
 
 自分の触ってみたい分野が広がると、すごい楽しいので、友だち作りに、ぜひ（笑）。
 
-<img class="top-img lazyload" loading="lazy"
-      src="/assets/img/interviews/okamura_arisa_4.webp"
- data-src="/assets/img/interviews/okamura_arisa_4.webp"
+<img class="top-img" loading="lazy"
+ src="/assets/img/interviews/okamura_arisa_4.webp"
       alt="2022年度の未踏ジュニア集合写真"
     title="2022年度の未踏ジュニア集合写真">
 

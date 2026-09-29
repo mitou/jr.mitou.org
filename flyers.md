@@ -27,8 +27,7 @@ redirect_from:
 
 <div id='sample' class='text-center' style='margin-top: 50px;'>
   <a href='/assets/img/flyers/{{ flyer["id"] }}.pdf'>
-    <img class='flyer-sample lazyload' loading='lazy'
-         src='/assets/img/spinner.svg' data-src='/assets/img/flyers/{{ flyer["id"] }}.webp'
+    <img class='flyer-sample' loading='lazy' src='/assets/img/flyers/{{ flyer["id"] }}.webp'
          alt='未踏ジュニアのチラシ（サンプル）' />
   </a>
   <small>※

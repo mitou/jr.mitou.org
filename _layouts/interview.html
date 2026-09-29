@@ -12,9 +12,8 @@
       {% assign creator_id = page.name | remove: '.md' %}
       {% assign interview  = site.data.interviews | find: 'creator', creator_id  %}
 
-      <img class="top-img lazyload" loading="lazy"
-           style="border-radius: 6px; border-width: 5px; border-style: solid; border-color: #28a13a; margin: 50px auto 30px;"
-             src="/assets/img/spinner.svg" data-src="{{ page.thumbnail }}"
+      <img class="top-img"
+           style="border-radius: 6px; border-width: 5px; border-style: solid; border-color: #28a13a; margin: 50px auto 30px;" src="{{ page.thumbnail }}"
              alt="{{ page.thumbnail_alt }}"
            title="{{ page.thumbnail_alt }}">
 

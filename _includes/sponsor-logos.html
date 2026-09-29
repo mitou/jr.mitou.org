@@ -3,9 +3,9 @@
     {% for sponsor in site.data.sponsors %}
     <a href="{{ sponsor.link }}" target="_blank">
       {% if sponsor.type == 'platinum' %}
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="lazyload sponsor-logo-platinum">
+      <img src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-logo-platinum" loading="lazy">
       {% elsif sponsor.type == 'gold' %}
-      <img src="/assets/img/spinner.svg" data-src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="lazyload sponsor-logo-gold">
+      <img src="/assets/img/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="sponsor-logo-gold" loading="lazy">
       {% endif %}
     </a>
     {% endfor %}
