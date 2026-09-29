@@ -99,7 +99,6 @@
   description: 「MineraLens」は、鉱物の3Dモデルに結晶構造データによる原子配列を重ね、「見える鉱物」と「見えない構造」を同時に観察できる学習アプリです。例えばダイヤモンドと石墨を並べ、結合や結晶系から「なぜ硬さや劈開が違うのか？」を探ることができます。BASICモードは問いから観察へ、ADVANCEDモードは出典付きデータで検証へ。見た目・構造・性質をつなげ、「なぜ？」と発見が生まれる体験を作ります。
   year: 2026
   mentor_id: shoya_ishimaru
-  link: https://mineralens.vercel.app/
   creator_ids:
   - noa_shimada
 
