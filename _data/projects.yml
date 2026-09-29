@@ -7,7 +7,9 @@
 #  description_en: 上記概要の英語版。例：Visible is a service that diagnoses the accessibility of websites. ...
 #  thumbnail: サムネイル画像 (省略推奨)。画像は `/assets/img/projects/{#year}/#{id}.webp` に WebP 画像を配置する
 #             サムネイル画像がまだ準備中の場合は `thumbnail: tbu.webp` とご入力ください。
-#  demo: プロジェクトの PV やデモ動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。(Gif にも対応)
+#  promotion: プロジェクトの説明動画 (PV など)。見出しが「説明動画」になる以外は demo と同じ。無い場合はコメントアウト。
+#  promotion_en: 上記に同じ (動画の英語版)。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。(Gif にも対応)
+#  demo: プロジェクトのデモ動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。(Gif にも対応)
 #  demo_en: 上記に同じ (動画の英語版)。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。(Gif にも対応)
 #  final: 未踏ジュニア成果報告会の発表動画。YouTubeの「?v=xxx」の "xxx" 部分。無い場合はコメントアウト。
 #  final_start: （任意）final の動画再生の開始時刻を指定できます。成果報告会の直後で使います。(例: 123)
@@ -40,7 +42,7 @@
 - id: aqua_beacon
   title: AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-
   description: AquaBeaconは、水中での位置推定をより手軽に行うためのシンプルな手法を提案するプロジェクトです。水上の親機から音を送り、水中の子機までの距離を測るとともに、子機の光をカメラで捉えて方向を求めることで、子機の位置を推定します。この位置情報を水中映像と組み合わせ、藻場の分布を地図にする技術への応用を目指します。また、開発した仕組みをオープンソースとして公開し、幅広く活用できるようにします。
-  demo: ujQCqB97oUU
+  promotion: ujQCqB97oUU
   year: 2026
   mentor_id: masato_bito
   link: https://aquabeacon.github.io/
@@ -59,7 +61,7 @@
 - id: harmonic_seam
   title: HarmonicSeam インタラクティブ音楽のための西洋音楽理論に基づく論理検証エンジン
   description: 映画の音楽は、場面の変わり目に合わせて書かれます。ゲームでは、いつ場面と曲が変わるかはプレイヤー次第です。HarmonicSeamは、楽譜データ（MIDI）を解析し、場面が変わると、音楽理論のうえで破綻せずに次の曲へ移れる瞬間まで待って切り替えます。<br><br>「調」が遠いときは、短い「橋」を規則どおりに書いて渡ります。<br><br>最初からそう編曲されていたかのような切り替えが作れます。聴けば早いので、動画もどうぞ。
-  demo: 3J9TTu-TL-8
+  promotion: 3J9TTu-TL-8
   year: 2026
   mentor_id: yohei_yasukawa
   link: https://harmonicseam.github.io/
@@ -86,7 +88,7 @@
 - id: stellaphonic
   title: Stellaphonic - 音で宇宙を感じる新しい天体観測
   description: Stellaphonicは、実在する星の位置を音に変え、耳を頼りに星を探して奏でるアプリです。スマートフォンを空へ向け、音の強弱や左右の違いから星の方向を探り、発見した星を画面上でなぞって演奏します。高齢者や視力が弱い人も星空に親しめることを目指し、旅行先やキャンプ場、街明かりで星が見えにくい場所での観察を支えます。祖父母と孫が発見を楽しみ、星座の形を音とともに記憶に残せる体験を届けます。
-  demo: 5Y_TAsdKTjg
+  promotion: 5Y_TAsdKTjg
   year: 2026
   mentor_id: maki_komuro
   creator_ids:
@@ -120,7 +122,7 @@
 - id: omochi
   title: Omochi - あらゆるプログラムに、共通の操作口を
   description: Omochiは、A2UIを活用して、プログラムに簡単に操作画面を追加するための仕組みです。それぞれのプログラムが提供する画面を組み合わせて、自分の用途に合ったダッシュボードを作れます。小さなスクリプトから、複数のPCで動くツール、エージェントとのやり取りまで。少ないコードで操作画面を用意し、一つのダッシュボードからまとめて使える環境を目指しています。
-  demo: bsFkfsSHJJA
+  promotion: bsFkfsSHJJA
   year: 2026
   mentor_id: kakeru_ishii
   creator_ids:
@@ -145,7 +147,7 @@
 - id: r_akanaly
   title: r_AKanaly - 独自エージェントによる全自動コンピューターウイルス解析機
   description: r_AKanalyは、コンピューターウイルスを全自動で解析し報告書を作成するツールです。隔離環境でウイルスの動作を記録し、重要なつながりを残して圧縮します。生成AIがそこからウイルスの機能を推論し、それを手掛かりにプログラムの中身を仮想環境内の独自エージェントを活用し調べます。特徴や仕組みを判断の根拠とともに分かりやすい報告書にまとめ、セキュリティ製品の改善やウイルスの迅速な周知に役立てます。
-  demo: jbducYlsGMo
+  promotion: jbducYlsGMo
   year: 2026
   mentor_id: yu_ukai
   link: https://r-akanaly.com/
@@ -198,7 +200,7 @@
 - id: invisible_mind
   title: InvisibleMind - LLMエージェントを用いた人工経済による経済学教育アプリ
   description: 「InvisibleMind」は、LLMエージェントが暮らす人工経済で経済学を学ぶアプリです。教科書の経済学は常に合理的な人間を前提にしますが、現実の人はそうではありません。史実を元にしたシナリオで政策や予測を試すと、経済の動きをシミュレーションで確かめられ、大家や市民などの登場人物に「なぜそう動いたのか」をインタビューできます。経済理論が生まれた順に、前の理論がなぜ外れたのかを辿ってみませんか？
-  demo: fkF-3jiEJHc
+  promotion: fkF-3jiEJHc
   year: 2026
   mentor_id: yu_ukai
   creator_ids:
