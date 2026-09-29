@@ -28,10 +28,10 @@ twitter_card: summary_large_image
 {% endif %}
 
 <div style='margin-top: 50px; margin-bottom: 30px;'>
-  <img class='top-img lazyload' src='/assets/img/spinner.svg' alt='{{ translations.altThumbnail[lang] }} - {{ pj_title }}'
-  {% if pj.thumbnail %}    data-src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
-  {% else %}               data-src='{{ page.thumbnail }}'
-  {% endif %}                 title='{{ pj_title }}' style='border-radius: 6px;' loading='lazy' />
+  <img class='top-img' alt='{{ translations.altThumbnail[lang] }} - {{ pj_title }}'
+  {% if pj.thumbnail %}    src='/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}'
+  {% else %}               src='{{ page.thumbnail }}'
+  {% endif %}                 title='{{ pj_title }}' style='border-radius: 6px;' />
 </div>
 
 {{ pj_description }}
@@ -76,8 +76,8 @@ twitter_card: summary_large_image
 {% if pj_intro %}
 ## [{{ translations.introMovie[lang] }}](#intro){: .heading-anchor} {#intro}
 {% if pj_intro contains '.gif' %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='{{ translations.introMovie[lang] }} (Gif)'
-     data-src='/assets/img/projects/{{ pj.year }}/{{ pj_intro }}' loading='lazy'
+<img class='top-img' alt='{{ translations.introMovie[lang] }} (Gif)'
+     src='/assets/img/projects/{{ pj.year }}/{{ pj_intro }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 <div class="youtube">
@@ -90,8 +90,8 @@ twitter_card: summary_large_image
 {% if pj_demo %}
 ## [{{ translations.demoMovie[lang] }}](#demo){: .heading-anchor} {#demo}
 {% if pj_demo contains '.gif' %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='{{ translations.demoMovie[lang] }} (Gif)'
-     data-src='/assets/img/projects/{{ pj.year }}/{{ pj_demo }}' loading='lazy'
+<img class='top-img' alt='{{ translations.demoMovie[lang] }} (Gif)'
+     src='/assets/img/projects/{{ pj.year }}/{{ pj_demo }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 <div class="youtube">
