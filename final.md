@@ -16,7 +16,7 @@ twitter_card: summary_large_image
 <!-- 1. 最初に表示するサムネイル画像。日時と会場を画像に含める（仮。後で差し替え） -->
 <img src="{{ page.thumbnail }}"
      alt="{{ page.this_year }}年度 未踏ジュニア成果報告会 サムネイル画像"
-     class="project-thumbnail" width='100%' loading="lazy" />
+     class="project-thumbnail" width='100%' />
 
 <!-- 2. 現地参加の申し込みやライブ配信の案内は決定次第ここに表示します（プレイベント文言・仮） -->
 <p>2026年度の未踏ジュニア成果報告会を11月8日 (日) に、プラチナスポンサーとしてご支援いただいている、GMO インターネットグループ株式会社様の会場提供にて、<a href='https://peatix.com/event/5204084'>GMO Yours・フクラス</a>にて開催させていただきます。</p>

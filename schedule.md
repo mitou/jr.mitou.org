@@ -11,7 +11,7 @@ thumbnail: /assets/img/schedule.webp
 
 
 ## [<i class="fa-light fa-calendar-clock"></i>](#agenda) 採択後のスケジュール {#agenda}
-<img src="/assets/img/schedule.png" alt="採択後のスケジュール" width="100%" class="post-photo" loading="lazy">
+<img src="/assets/img/schedule.png" alt="採択後のスケジュール" width="100%" class="post-photo">
 
 <div class="tips">以下は暫定スケジュールです。</div>
 
