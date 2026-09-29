@@ -21,12 +21,12 @@ twitter_card: summary_large_image
 {% if page.lang == 'en' %}
   {% assign pj_title       = pj.title_en       | escape %}
   {% assign pj_description = pj.description_en %}
-  {% assign pj_promotion   = pj.promotion_en   | default: pj.promotion %}
+  {% assign pj_intro       = pj.intro_en       | default: pj.intro %}
   {% assign pj_demo        = pj.demo_en        | default: pj.demo %}
 {% else %}
   {% assign pj_title       = pj.title          | escape %}
   {% assign pj_description = pj.description    %}
-  {% assign pj_promotion   = pj.promotion %}
+  {% assign pj_intro       = pj.intro %}
   {% assign pj_demo        = pj.demo %}
 {% endif %}
 
@@ -76,17 +76,17 @@ twitter_card: summary_large_image
 <p class="project-comment">{{ pj.comment }}</p>
 {% endif %}
 
-{% if pj_promotion %}
-## [{{ translations.promotionMovie[lang] }}](#promotion){: .heading-anchor} {#promotion}
-{% if pj_promotion contains '.gif' %}
-<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='{{ translations.promotionMovie[lang] }} (Gif)'
-     data-src='/assets/img/projects/{{ pj.year }}/{{ pj_promotion }}' loading='lazy'
+{% if pj_intro %}
+## [{{ translations.introMovie[lang] }}](#intro){: .heading-anchor} {#intro}
+{% if pj_intro contains '.gif' %}
+<img class='top-img lazyload' src='/assets/img/spinner.svg' alt='{{ translations.introMovie[lang] }} (Gif)'
+     data-src='/assets/img/projects/{{ pj.year }}/{{ pj_intro }}' loading='lazy'
      style='margin-bottom: 10px; border-radius: 6px;' />
 {% else %}
 <div class="youtube">
-  {% include youtube-embed.html id=pj_promotion %}
+  {% include youtube-embed.html id=pj_intro %}
 </div>
-<a href="https://youtu.be/{{ pj_promotion }}" target="_blank" class="button">{{ translations.watchOnYouTube[lang] }}</a>
+<a href="https://youtu.be/{{ pj_intro }}" target="_blank" class="button">{{ translations.watchOnYouTube[lang] }}</a>
 {% endif %}
 {% endif %}
 
