@@ -6,12 +6,12 @@ on:
   pull_request:
     branches:
       - "*"
-  # Allows you to run this workflow manually from the Actions tab
+  # Actions タブからこのワークフローを手動で実行できるようにする
   # https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow
   workflow_dispatch:
 
 jobs:
-  # Test job is always triggered as continuous integration
+  # test ジョブは CI として常に実行する
   test:
     runs-on: ubuntu-latest
     steps:
@@ -39,7 +39,7 @@ jobs:
         JEKYLL_ENV=test bundle exec jekyll doctor
         SKIP_BUILD=true bundle exec rake test
 
-  # Deploy job is triggered only pushed to main branch && CI passed
+  # deploy ジョブは main ブランチへの push で、CI が通ったときだけ実行する
   deploy:
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     needs: test
