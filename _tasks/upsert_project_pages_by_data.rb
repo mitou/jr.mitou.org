@@ -6,7 +6,7 @@ require 'cgi'
 require 'active_support/core_ext/string/filters'
 TRUNCATE_LENGTH = 33
 
-# Remove existing JA/EN pages and re-generate them
+# 既存の日本語／英語ページを削除し、作り直す
 Dir.glob("./_posts/*.md"        ).each { |filename| File.delete(filename) }
 Dir.glob("./_posts/english/*.md").each { |filename| File.delete(filename) }
 
@@ -17,21 +17,21 @@ end
 projects = YAML.load_file("_data/projects.yml", symbolize_names: true)
 projects.each_with_index do |project, index|
   #binding.irb; exit
-  # To inspect & debug specific projects
+  # 特定のプロジェクトを調べる・デバッグするとき
   #next unless project[:year] == 2017
 
-  # Prev/Next project data for navigation
+  # ナビゲーション用の前後のプロジェクトのデータ
   this_year_projects = projects.select{|pj| pj[:year] == project[:year] }
   project_index = this_year_projects.index(project)
   prev_project  = this_year_projects.rotate(project_index - 1).first
   next_project  = this_year_projects.rotate(project_index + 1).first
 
-  # Redirect if existing PJ name changed after published
+  # 公開後に既存の PJ 名を変えたらリダイレクトする
   redirect_base    = "/projects/#{project[:year]}"
   redirect_from_ja = project[:redirect_from] ? "redirect_from:         #{redirect_base}/#{project[:redirect_from]}" : ""
   redirect_from_en = project[:redirect_from] ? "redirect_from: /english#{redirect_base}/#{project[:redirect_from]}" : ""
 
-  # Generate JA/EN project pages from projects.yml
+  # projects.yml から日本語／英語のプロジェクトページを生成する
   project[:thumbnail] ||= if File.exist?("./assets/img/projects/#{project[:year]}/#{project[:id]}.webp")
                             "#{project[:id]}.webp"
                           else
@@ -226,7 +226,7 @@ projects.each_with_index do |project, index|
   File.write(path_ja, page_ja + "\n" + page_shared_contents + "\n" + project_schema_data_type)
   File.write(path_en, page_en + "\n" + page_shared_contents + "\n" + project_schema_data_type) if project.has_english?
 
-  # Add JA/EN *.json pages to check and validate SCHEMA_DATA_TYPE by test suites
+  # テストで SCHEMA_DATA_TYPE を検証できるよう、日本語／英語の *.json ページを追加する
   File.write path_ja.gsub(".md", ".json"), <<~PROJECT_JSON_JA
     ---
     permalink: /projects/#{project[:year]}/#{project[:id]}.json

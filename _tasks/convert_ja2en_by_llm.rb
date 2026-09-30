@@ -1,13 +1,13 @@
 #!/usr/bin/env ruby
 
 require 'yaml'
-require 'ruby/openai' # Translate project with OpenAI from JA to EN
-TARGET_YEAR=2025      # Translate given-year projects from JA to EN
+require 'ruby/openai' # OpenAI でプロジェクトを日本語から英語に翻訳する
+TARGET_YEAR=2025      # 指定した年度のプロジェクトを日本語から英語に翻訳する
 
 OpenAI.configure do |config|
   config.access_token    = ENV.fetch('OPENAI_ACCESS_TOKEN')
-  config.organization_id = ENV.fetch('OPENAI_ORGANIZATION') # Optional.
-  config.request_timeout = 180 # 60 by default.
+  config.organization_id = ENV.fetch('OPENAI_ORGANIZATION') # 任意。
+  config.request_timeout = 180 # 既定値は 60。
 end
 
 client = OpenAI::Client.new

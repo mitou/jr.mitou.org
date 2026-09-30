@@ -24,7 +24,7 @@ task(build: [:clean]) { system 'bundle exec jekyll build' unless ENV['SKIP_BUILD
 desc 'Clean Jekyll cache and build files'
 task(:clean) { system 'bundle exec jekyll clean' unless ENV['SKIP_BUILD'] == 'true' }
 
-# cf. GitHub - gjtorikian/html-proofer
+# 参考: GitHub - gjtorikian/html-proofer
 # https://github.com/gjtorikian/html-proofer
 
 require 'html-proofer'
@@ -36,20 +36,20 @@ task test: [:build] do
     disable_external: ENV['TEST_EXTERNAL_LINKS'] != 'true',
     enforce_https:    true,
 
-    # NOTE: Ignore file, URL, and response as follows
+    # NOTE: 以下のファイル・URL・レスポンスは検査しない
     ignore_files: [
       /google(.*)\.html/,
     ],
     ignore_urls: [
-      # Ignore not-supporting-HTTPS domains and URL params for specific browsers (Chrome).
+      # HTTPS 非対応のドメインと、特定ブラウザ (Chrome) 向けの URL パラメータは検査しない
       /ecomaki.com/,
       /iql-lab.de/,
       /nhiro.org/,
       /meti.go.jp/,
       /#:~:text=/,
-      /twitter.com/,  # Skip testing Twitter URLs
-      /x.com/,        # Skip testing X.com's URLs
-      %r{/mentors/#}, # Ignore anchor links to mentors page
+      /twitter.com/,  # Twitter の URL は検査しない
+      /x.com/,        # X.com の URL は検査しない
+      %r{/mentors/#}, # メンターページへのアンカーリンクは検査しない
     ],
     #ignore_status_codes: [0, 500, 999],
   }
