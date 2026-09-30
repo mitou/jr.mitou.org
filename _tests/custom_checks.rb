@@ -219,16 +219,17 @@ class CustomChecks < ::HTMLProofer::Check
     ) unless sample_ids[1] == prev_id and sample_ids[-1] == next_id
   end
 
-  # https://jr.mitou.org/final にタイムテーブルがあり、発表順が
+  # https://jr.mitou.org/final のタイムテーブルの発表順が、
   # 同じページのプロジェクト一覧 (#projects) の並び順と一致するかチェックする。
+  # タイムテーブルを載せていない時期 (発表順の決定前・成果報告会の後) はチェックしない。
   # NOTE: final-timetable.html は存在しないプロジェクト ID (タイポ等) を黙って飛ばすため、
   #       相対的な順序だけでなくリスト全体が一致するかを比べる。
+  #       リンクは個別ページ (/projects/2026/xxx) とページ内 (#xxx) のどちらの形もある。
   def check_final_order
-    pitch_ids   = @html.css('li.final-timetable > a[href]').map { |node| node['href'].split('/').last }
-    project_ids = @html.css('h2#projects + div.projects > div.project').map { |node| node['id'] }
+    return if @html.at_css('h2#timetable').nil?
 
-    return add_failure("No timetable found in /final (h2#timetable and li.final-timetable)") if
-      @html.at_css('h2#timetable').nil? || pitch_ids.empty?
+    pitch_ids   = @html.css('li.final-timetable > a[href]').map { |node| node['href'].split(%r{[/#]}).last }
+    project_ids = @html.css('div.projects > div.project').map { |node| node['id'] }
 
     add_failure(
       <<~ERROR_MESSAGE
