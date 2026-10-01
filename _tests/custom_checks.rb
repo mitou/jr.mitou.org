@@ -1,10 +1,10 @@
-# See the following 'Custom Tests' section to add tests ;)
+# テストを足すときは、次の 'Custom Tests' の節を参照 ;)
 # https://github.com/gjtorikian/html-proofer#custom-tests
 
 require 'json'
 require 'yaml'
 
-# `rake test` builds with _config.yml, so absolute URLs in _site start with its `url`.
+# `rake test` は _config.yml でビルドするので、_site 内の絶対 URL はその `url` で始まる。
 SITE_URL = YAML.load_file('_config.yml').fetch('url') # => 'https://jr.mitou.org'
 
 class CustomChecks < ::HTMLProofer::Check
@@ -26,7 +26,7 @@ class CustomChecks < ::HTMLProofer::Check
   end
 
   def valid_and_equal_to?(filename)
-    # MEMO: May report same error multiple times, but keeps code simple and clear.
+    # MEMO: 同じエラーを複数回報告することがあるが、コードをシンプルで明快に保つためこうしている。
     if not File.exist?(filename)
       add_failure("No such page found: #{filename}")
       return false
@@ -35,8 +35,8 @@ class CustomChecks < ::HTMLProofer::Check
     @runner.current_filename == filename ? true : false
   end
 
-  # Check if meta tags render data correctly
-  # Example: https://jr.mitou.org/stats
+  # meta タグがデータを正しく描画しているかチェックする
+  # 例: https://jr.mitou.org/stats
   def check_meta_tags
     @html.css('head > meta').each do |node|
       if node.attribute('content') &&
@@ -47,25 +47,25 @@ class CustomChecks < ::HTMLProofer::Check
     end
   end
 
-  # Get JSON API URLs from https://jr.mitou.org/apis
-  # and check if they all return valid JSON data.
+  # https://jr.mitou.org/apis から JSON API の URL を取得し、
+  # すべてが正しい JSON を返すかチェックする。
   def check_json_apis
     @html.css('#index > ul > li').each do |node|
       json_path = node.at_css('a.json').attribute('href').value
-      # e.g. => /projects.json
+      # 例: => /projects.json
 
       add_failure("Invalid JSON format: #{json_path}") if not valid_json?(BASE_PATH + json_path)
 
-      # If given JSON is valid, check columns in it.
-      # And handle both array and non-array JSON structures:
-      # - Array of hash example: https://jr.mitou.org/projects/2025.json
-      # - A single hash example: https://jr.mitou.org/projects/2025/uminavi.json
+      # JSON が正しければ、その中の列をチェックする。
+      # 配列の JSON と配列でない JSON の両方を扱う:
+      # - ハッシュの配列の例: https://jr.mitou.org/projects/2025.json
+      # - 単一のハッシュの例: https://jr.mitou.org/projects/2025/uminavi.json
       responses = Array(JSON.load_file(BASE_PATH + json_path, symbolize_names: true))
       responses.map{ |item| item[:thumbnail] if item.is_a?(Hash) }.compact.each do |thumbnail|
-        # NOTE: `rake test` uses `bundle exec jekyll build` (no --config override),
-        #       so `site.url` is always 'https://jr.mitou.org' and thumbnails are
-        #       stored as absolute URLs. Replace the domain with BASE_PATH to get
-        #       the local file path for File.exist? check.
+        # NOTE: `rake test` は `bundle exec jekyll build` を使う (--config の上書きなし) ため、
+        #       `site.url` は常に 'https://jr.mitou.org' で、サムネイルは絶対 URL で格納される。
+        #       File.exist? でチェックできるよう、ドメインを BASE_PATH に置き換えて
+        #       ローカルのファイルパスにする。
         thumbnail.gsub!(SITE_URL, BASE_PATH)
 
         add_failure(
@@ -85,8 +85,8 @@ class CustomChecks < ::HTMLProofer::Check
     false
   end
 
-  # Check proceeding schedule is correct in time order:
-  # e.g. https://github.com/mitou/jr.mitou.org/pull/180
+  # 選考スケジュールが時系列順になっているかチェックする:
+  # 例: https://github.com/mitou/jr.mitou.org/pull/180
   def check_deadlines
     this_year     = Date.today.year
     prev_text     = ''
@@ -114,15 +114,15 @@ class CustomChecks < ::HTMLProofer::Check
     end
   end
 
-  # Check Creators/Projects YAML data and make CI failed if broken
-  # e.g.: https://github.com/mitou/jr.mitou.org/pull/206
+  # クリエータ／プロジェクトの YAML データをチェックし、壊れていれば CI を落とす
+  # 例: https://github.com/mitou/jr.mitou.org/pull/206
   #
-  # Each creator must belong to exactly one project, in both directions:
-  # - projects.yml: every ID in `creator_ids` exists in creators.yml,
-  #   and each creator is referred to by only one project.
-  # - creators.yml: creator IDs are unique, and `project_id` points to
-  #   the project whose `creator_ids` includes the creator.
-  #   (e.g. `project_id` left as an old ID after renaming a project)
+  # 各クリエータは、ちょうど 1 つのプロジェクトに属する。これを双方向に検査する:
+  # - projects.yml: `creator_ids` のすべての ID が creators.yml に存在し、
+  #   各クリエータを参照するプロジェクトは 1 つだけである。
+  # - creators.yml: クリエータ ID が重複せず、`project_id` が指すプロジェクトの
+  #   `creator_ids` にそのクリエータが含まれている。
+  #   (例: プロジェクトの改名後に `project_id` が古い ID のまま残っている)
   def check_yaml_data
     projects    = YAML.load_file("_data/projects.yml", symbolize_names: true)
     creators    = YAML.load_file("_data/creators.yml", symbolize_names: true)
@@ -164,8 +164,8 @@ class CustomChecks < ::HTMLProofer::Check
     end
   end
 
-  # Check if navigation text in each PJ page fails to be encoded. (文字化け)
-  # Fetched sample PJ page: https://jr.mitou.org/projects/2024/qwet
+  # 各 PJ ページのナビゲーションの文字列が文字化けしていないかチェックする
+  # 対象とするサンプルの PJ ページ: https://jr.mitou.org/projects/2024/qwet
   def check_navi_text
     projects   = YAML.load_file("_data/projects.yml", symbolize_names: true).select { |project| project[:year] == 2024 }
     prev_text  = @html.css('nav > p.prev').text.strip.lines.last.strip[0..-4]
@@ -177,13 +177,13 @@ class CustomChecks < ::HTMLProofer::Check
     add_failure("Unmatched nav text and title:\n\t#{next_text}\n\t#{next_title}") unless next_title.start_with? next_text
   end
 
-  # Check if thumbnail paths in /projects.json all exist as actual files
+  # /projects.json のサムネイルのパスが、すべて実在するファイルかチェックする
   def check_thumbnails
     JSON.load_file(BASE_PATH + '/projects.json', symbolize_names: true).each do |project|
-      # NOTE: `rake test` uses `bundle exec jekyll build` (no --config override),
-      #       so `site.url` is always 'https://jr.mitou.org' and thumbnails are
-      #       stored as absolute URLs. Replace the domain with BASE_PATH to get
-      #       the local file path for File.exist? check.
+      # NOTE: `rake test` は `bundle exec jekyll build` を使う (--config の上書きなし) ため、
+      #       `site.url` は常に 'https://jr.mitou.org' で、サムネイルは絶対 URL で格納される。
+      #       File.exist? でチェックできるよう、ドメインを BASE_PATH に置き換えて
+      #       ローカルのファイルパスにする。
       thumbnail = project[:thumbnail].gsub(SITE_URL, BASE_PATH)
       add_failure(
         <<~ERROR_MESSAGE
@@ -194,14 +194,14 @@ class CustomChecks < ::HTMLProofer::Check
     end
   end
 
-  # Check if a sample application page has correct Next/Prev nav links.
-  # The nav links should be the same order as https://jr.mitou.org/applications/#sample
+  # 提案書サンプルのページに、正しい Next/Prev のナビゲーションリンクがあるかチェックする。
+  # ナビゲーションリンクは次のページと同じ順序になるべき: https://jr.mitou.org/applications/#sample
   def check_app_order
     sample_ids = YAML.load_file("_data/applications.yml", symbolize_names: true)
       .select { |application| application[:type] == 'sample' }
       .map    { |application| application[:project_id] }.reverse
 
-    current_id = sample_ids.first # => The 1st sample application (abecobe)
+    current_id = sample_ids.first # => 1 つ目の提案書サンプル (abecobe)
     prev_id    = @html.css('nav > p.prev > a[href]')[0].attribute_nodes[0].value
     next_id    = @html.css('nav > p.next > a[href]')[0].attribute_nodes[0].value
 
@@ -240,19 +240,19 @@ class CustomChecks < ::HTMLProofer::Check
     ) unless pitch_ids == project_ids
   end
 
-  # Check that searching with ?q=Web never returns UmiNavi (unrelated project).
+  # ?q=Web で検索したときに、無関係なプロジェクト UmiNavi が出ないことをチェックする。
   #
-  # Two assertions:
-  # 1. Searching ALL fields (original broken behavior) DOES return UmiNavi.
-  #    Confirms the bug scenario still exists in the data.
-  #    If this fails, the mentor profile changed and this test needs updating.
-  # 2. Searching only searchTerms fields (fixed behavior) does NOT return UmiNavi.
-  #    Regression guard: fails if searchTerms logic is reverted or broken.
+  # 2 つのアサーション:
+  # 1. 全フィールドを検索する (修正前の壊れた挙動) と UmiNavi が出る。
+  #    バグが起きる状況がデータ上まだ存在することを確認する。
+  #    これが失敗したらメンターのプロフィールが変わったので、このテストを更新する。
+  # 2. searchTerms のフィールドだけを検索する (修正後の挙動) と UmiNavi が出ない。
+  #    回帰防止: searchTerms のロジックが元に戻ったり壊れたりすると失敗する。
   def check_search_results
     query    = 'Web'
     projects = JSON.load_file(BASE_PATH + '/projects.json', symbolize_names: true)
 
-    # 1. All-field search (simulates original broken behavior)
+    # 1. 全フィールドの検索 (修正前の壊れた挙動を再現)
     all_field_results = projects.select do |project|
       project.any? { |_k, v| v.to_s.downcase.include?(query.downcase) }
     end
@@ -261,7 +261,7 @@ class CustomChecks < ::HTMLProofer::Check
       "(mentor profile should contain '#{query}'). Update this test if mentor data changed."
     ) unless all_field_results.any? { |p| p[:id] == 'uminavi' }
 
-    # 2. searchTerms-restricted search (simulates fixed behavior)
+    # 2. searchTerms に絞った検索 (修正後の挙動を再現)
     restricted_results = projects.select do |project|
       fields = [
         project[:title],
@@ -278,7 +278,7 @@ class CustomChecks < ::HTMLProofer::Check
   end
 end
 
-# Custom checks for HTML-Proofer
+# HTML-Proofer のカスタムチェック
 class TrailingSlash < HTMLProofer::Check
   def run
     @html.css('a').each do |node|
@@ -317,7 +317,7 @@ class TrailingSlash < HTMLProofer::Check
   end
 end
 
-# HTML-Proofer doesn't check image URLs in `<meta itemprop="thumbnailUrl">` (structured data).
+# HTML-Proofer は `<meta itemprop="thumbnailUrl">` (構造化データ) の画像 URL をチェックしない。
 class VideoThumbnails < HTMLProofer::Check
   def run
     @html.css('meta[itemprop="thumbnailUrl"]').each do |node|

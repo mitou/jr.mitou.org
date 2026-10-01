@@ -6,7 +6,7 @@ require 'cgi'
 require 'active_support/core_ext/string/filters'
 TRUNCATE_LENGTH = 33
 
-# Remove existing sample pages. They are re-generated later.
+# 既存のサンプルページを削除する。後で作り直す。
 Dir.glob("./applications/*.md"  ).each { File.delete(it) unless it.split('/').last.start_with? 'index.md' }
 
 projects = YAML.load_file("_data/projects.yml", symbolize_names: true)
@@ -16,7 +16,7 @@ project_sample_ids = YAML.load_file("_data/applications.yml", symbolize_names: t
 project_samples = project_sample_ids.map { |sample_id| projects.find { it[:id] == sample_id } }
 
 project_samples.each_with_index do |project, index|
-  # Prev/Next project data for navigation
+  # ナビゲーション用の前後のプロジェクトのデータ
   project_index = project_samples.index(project)
   prev_project  = project_samples.rotate(project_index - 1).first
   next_project  = project_samples.rotate(project_index + 1).first
