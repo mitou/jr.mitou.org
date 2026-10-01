@@ -129,13 +129,13 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='harmonic_seam' title='HarmonicSeam インタラクティブ音楽のための西洋音楽理論に基づく論理検証エンジン'>
+    <a href='harmonic_seam' title='HarmonicSeam - インタラクティブ音楽のための西洋音楽理論に基づく論理検証エンジン'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
         
       {% else %}
-        HarmonicSeam インタラクティブ音楽のための西洋音...
+        HarmonicSeam - インタラクティブ音楽のための西...
       {% endif %}
     </a>
   </p>
