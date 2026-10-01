@@ -22,6 +22,7 @@ class CustomChecks < ::HTMLProofer::Check
     check_app_order      if valid_and_equal_to?(BASE_PATH + '/applications/abecobe.html')
     check_thumbnails     if valid_and_equal_to?(BASE_PATH + '/projects/showcase.html')
     check_search_results if valid_and_equal_to?(BASE_PATH + '/projects/search.html')
+    check_final_order    if valid_and_equal_to?(BASE_PATH + '/final.html')
   end
 
   def valid_and_equal_to?(filename)
@@ -216,6 +217,27 @@ class CustomChecks < ::HTMLProofer::Check
           \s correct: #{sample_ids[-1]}
       ERROR_MESSAGE
     ) unless sample_ids[1] == prev_id and sample_ids[-1] == next_id
+  end
+
+  # https://jr.mitou.org/final のタイムテーブルの発表順が、
+  # 同じページのプロジェクト一覧 (#projects) の並び順と一致するかチェックする。
+  # タイムテーブルを載せていない時期 (発表順の決定前・成果報告会の後) はチェックしない。
+  # NOTE: final-timetable.html は存在しないプロジェクト ID (タイポ等) を黙って飛ばすため、
+  #       相対的な順序だけでなくリスト全体が一致するかを比べる。
+  #       リンクは個別ページ (/projects/2026/xxx) とページ内 (#xxx) のどちらの形もある。
+  def check_final_order
+    return if @html.at_css('h2#timetable').nil?
+
+    pitch_ids   = @html.css('li.final-timetable > a[href]').map { |node| node['href'].split(%r{[/#]}).last }
+    project_ids = @html.css('div.projects > div.project').map { |node| node['id'] }
+
+    add_failure(
+      <<~ERROR_MESSAGE
+        The order of pitches in /final#timetable should be the same as /final#projects
+          \s timetable: #{pitch_ids.join(', ')}
+          \s projects:  #{project_ids.join(', ')}
+      ERROR_MESSAGE
+    ) unless pitch_ids == project_ids
   end
 
   # ?q=Web で検索したときに、無関係なプロジェクト UmiNavi が出ないことをチェックする。
