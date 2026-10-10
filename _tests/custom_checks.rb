@@ -12,7 +12,7 @@ class CustomChecks < ::HTMLProofer::Check
 
   # JSON API で空の値を許すフィールド。データ側で意図的に空にしているものだけを書く。
   BLANK_ALLOWED = [
-    :affilication, # 所属を持たないメンターがいる (/mentors.json と /projects*.json の mentor)
+    :affiliation, # 所属を持たないメンターがいる (/mentors.json と /projects*.json の mentor)
   ]
 
   def run

@@ -7,7 +7,7 @@
     "id"           : "{{ mentor.id }}",
     "url"          : "{{ site.url }}/mentors/#{{ mentor.id }}",
     "name"         : "{{ mentor.name.last }} {{ mentor.name.first }}",
-    "affilication" : "{{ mentor.affiliation }}",
+    "affiliation"  : "{{ mentor.affiliation }}",
     "interested"   : "{{ mentor.interested | escape }}",
     "bio"          : "{{ mentor.bio | escape }}",
     "img"          : "{{ site.url }}/assets/img/mentors/{{ mentor.img }}",
