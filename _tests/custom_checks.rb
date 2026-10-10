@@ -73,8 +73,8 @@ class CustomChecks < ::HTMLProofer::Check
 
       # 空の値は、データに無いフィールドをテンプレートが読んでいるか、データの入れ忘れの可能性が高い。
       # NOTE: Liquid は "{{ x }}" の中で nil を "" と出力するので、null だけでなく空文字も検査する。
-      blank_keys(json).each do |key|
-        add_failure("Blank value: #{key} (#{json_path})")
+      blank_keys(json).uniq.each do |key|
+        add_failure("Blank value: #{key} (#{json_path}). 意図的な空なら BLANK_ALLOWED に追加してください")
       end
 
       responses.map{ |item| item[:thumbnail] if item.is_a?(Hash) }.compact.each do |thumbnail|
