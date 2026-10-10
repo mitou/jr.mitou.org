@@ -18,6 +18,7 @@ class CustomChecks < ::HTMLProofer::Check
     check_json_apis      if valid_and_equal_to?(BASE_PATH + '/apis.html')
     check_deadlines      if valid_and_equal_to?(BASE_PATH + '/guideline.html')
     check_yaml_data      if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
+    check_yearly_jsons   if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
     check_navi_text      if valid_and_equal_to?(BASE_PATH + '/projects/2024/qwet.html')
     check_app_order      if valid_and_equal_to?(BASE_PATH + '/applications/abecobe.html')
     check_thumbnails     if valid_and_equal_to?(BASE_PATH + '/projects/showcase.html')
@@ -47,14 +48,16 @@ class CustomChecks < ::HTMLProofer::Check
     end
   end
 
-  # https://jr.mitou.org/apis から JSON API の URL を取得し、
+  # https://jr.mitou.org/apis.json から JSON API の URL を取得し、
   # すべてが正しい JSON を返すかチェックする。
+  # NOTE: /apis の HTML はプロジェクト別 API をパターンだけで示すため、全件を持つ apis.json を使う。
   def check_json_apis
-    @html.css('#index > ul > li').each do |node|
-      json_path = node.at_css('a.json').attribute('href').value
+    JSON.load_file(BASE_PATH + '/apis.json').each do |api|
+      json_path = api['to_json_url'].delete_prefix(SITE_URL)
       # 例: => /projects.json
 
-      add_failure("Invalid JSON format: #{json_path}") if not valid_json?(BASE_PATH + json_path)
+      # NOTE: 壊れた JSON を下で再度読むと例外が非同期タスク内で握りつぶされ、テストが成功扱いになる
+      next add_failure("Invalid JSON format: #{json_path}") if not valid_json?(BASE_PATH + json_path)
 
       # JSON が正しければ、その中の列をチェックする。
       # 配列の JSON と配列でない JSON の両方を扱う:
@@ -85,6 +88,15 @@ class CustomChecks < ::HTMLProofer::Check
           ERROR_MESSAGE
         ) if not File.exist? thumbnail
       end
+    end
+  end
+
+  # 年度別のプロジェクト一覧 (/projects/YYYY) に、JSON 版 (/projects/YYYY.json) があるかチェックする。
+  # 新年度は projects/YYYY.json をコピーして作るため、作り忘れると JSON API だけが抜ける。
+  def check_yearly_jsons
+    Dir.glob(BASE_PATH + '/projects/[0-9][0-9][0-9][0-9].html').each do |html|
+      json = html.delete_suffix('.html') + '.json'
+      add_failure("No yearly JSON API: #{json.delete_prefix(BASE_PATH)}") if not File.exist? json
     end
   end
 
