@@ -27,16 +27,24 @@ redirect_from:
   以下は<a href="https://github.com/mitou/jr.mitou.org/blob/main/_tests/custom_checks.rb">自動テスト</a>などで使われている内部向け API のため、予告なく変更・削除される場合がある点にご注意ください。
 </div>
 
-<div id='index'>
+<div>
   <ul>
-    {% for api in site.data.apis %}
+    {% for api in site.data.api_pages %}
     <li>
       <a class='json' href='{{ api.to_json }}'>{{ api.to_json }}</a>
       <small>(<a href='{{ api.to_html }}'>&raquo; HTML で見る</a>)</small>
     </li>
     {% endfor %}
+    {% for api in site.data.api_patterns %}
+    <li>
+      <code>{{ api.pattern }}</code> ({{ api.count }}件)
+      <br><small>例: <a class='json' href='{{ api.example.to_json }}'>{{ api.example.to_json }}</a></small>
+    </li>
+    {% endfor %}
   </ul>
 </div>
+
+<small>すべての API の URL は <a href='/apis.json'>/apis.json</a> から取得できます。</small>
 
 <div class="note">
   上記は<a href="https://github.com/mitou/jr.mitou.org/blob/main/_tests/custom_checks.rb">自動テスト</a>などで使われている内部向け API のため、予告なく変更・削除される場合がある点にご注意ください。

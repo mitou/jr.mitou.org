@@ -60,6 +60,13 @@ module Reading
 
       apis = (json_pages + json_posts).sort_by { |api| api['to_json'] }
       site.data['apis'] = apis
+
+      # /apis ページでは、件数の多いプロジェクト別 API をパターンと例だけで示す
+      site.data['api_pages']    = json_pages.sort_by { |api| api['to_json'] }
+      site.data['api_patterns'] = json_posts
+        .sort_by  { |api| api['to_json'] }
+        .group_by { |api| api['to_json'].sub(%r{/\d{4}/[^/]+\.json\z}, '/{YYYY}/{project_id}.json') }
+        .map      { |pattern, list| { 'pattern' => pattern, 'count' => list.size, 'example' => list.last } }
     end
   end
 end
