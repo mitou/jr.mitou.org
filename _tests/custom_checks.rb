@@ -55,7 +55,8 @@ class CustomChecks < ::HTMLProofer::Check
       json_path = api['to_json_url'].delete_prefix(SITE_URL)
       # 例: => /projects.json
 
-      add_failure("Invalid JSON format: #{json_path}") if not valid_json?(BASE_PATH + json_path)
+      # NOTE: 壊れた JSON を下で再度読むと例外が非同期タスク内で握りつぶされ、テストが成功扱いになる
+      next add_failure("Invalid JSON format: #{json_path}") if not valid_json?(BASE_PATH + json_path)
 
       # JSON が正しければ、その中の列をチェックする。
       # 配列の JSON と配列でない JSON の両方を扱う:
