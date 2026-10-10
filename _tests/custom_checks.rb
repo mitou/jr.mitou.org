@@ -61,6 +61,16 @@ class CustomChecks < ::HTMLProofer::Check
       # - ハッシュの配列の例: https://jr.mitou.org/projects/2025.json
       # - 単一のハッシュの例: https://jr.mitou.org/projects/2025/uminavi.json
       responses = Array(JSON.load_file(BASE_PATH + json_path, symbolize_names: true))
+
+      # 全要素で空のキーは、データに無いフィールドをテンプレートが読んでいる可能性が高い。
+      # 一部の要素だけ空のキーは、データ側で意図的に空にしていることがあるので検査しない。
+      items = responses.grep(Hash)
+      if items.size > 1
+        items.flat_map(&:keys).uniq.select { |key| items.all? { |item| item[key].to_s.empty? } }.each do |key|
+          add_failure("Blank in all items: #{key} (#{json_path})")
+        end
+      end
+
       responses.map{ |item| item[:thumbnail] if item.is_a?(Hash) }.compact.each do |thumbnail|
         # NOTE: `rake test` は `bundle exec jekyll build` を使う (--config の上書きなし) ため、
         #       `site.url` は常に 'https://jr.mitou.org' で、サムネイルは絶対 URL で格納される。
