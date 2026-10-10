@@ -10,6 +10,11 @@ SITE_URL = YAML.load_file('_config.yml').fetch('url') # => 'https://jr.mitou.org
 class CustomChecks < ::HTMLProofer::Check
   BASE_PATH = '_site'
 
+  # JSON API で空の値を許すフィールド。データ側で意図的に空にしているものだけを書く。
+  BLANK_ALLOWED = [
+    :affilication, # 所属を持たないメンターがいる (/mentors.json と /projects*.json の mentor)
+  ]
+
   def run
     current_filename = @runner.current_filename
     puts "\tchecking ... " + current_filename.delete_prefix('_site').split('.').first
@@ -63,15 +68,13 @@ class CustomChecks < ::HTMLProofer::Check
       # 配列の JSON と配列でない JSON の両方を扱う:
       # - ハッシュの配列の例: https://jr.mitou.org/projects/2025.json
       # - 単一のハッシュの例: https://jr.mitou.org/projects/2025/uminavi.json
-      responses = Array(JSON.load_file(BASE_PATH + json_path, symbolize_names: true))
+      json      = JSON.load_file(BASE_PATH + json_path, symbolize_names: true)
+      responses = Array(json)
 
-      # 全要素で空のキーは、データに無いフィールドをテンプレートが読んでいる可能性が高い。
-      # 一部の要素だけ空のキーは、データ側で意図的に空にしていることがあるので検査しない。
-      items = responses.grep(Hash)
-      if items.size > 1
-        items.flat_map(&:keys).uniq.select { |key| items.all? { |item| item[key].to_s.empty? } }.each do |key|
-          add_failure("Blank in all items: #{key} (#{json_path})")
-        end
+      # 空の値は、データに無いフィールドをテンプレートが読んでいるか、データの入れ忘れの可能性が高い。
+      # NOTE: Liquid は "{{ x }}" の中で nil を "" と出力するので、null だけでなく空文字も検査する。
+      blank_keys(json).each do |key|
+        add_failure("Blank value: #{key} (#{json_path})")
       end
 
       responses.map{ |item| item[:thumbnail] if item.is_a?(Hash) }.compact.each do |thumbnail|
@@ -88,6 +91,17 @@ class CustomChecks < ::HTMLProofer::Check
           ERROR_MESSAGE
         ) if not File.exist? thumbnail
       end
+    end
+  end
+
+  # ネストした値も含めて、空の値を持つキーを 'mentor.name' のような形で返す。
+  def blank_keys(value, path = [])
+    case value
+    when Hash  then value.flat_map { |key, child| blank_keys(child, path + [key]) }
+    when Array then value.flat_map { |child| blank_keys(child, path) }
+    else
+      blank = value.nil? || value == ''
+      blank && !BLANK_ALLOWED.include?(path.last) ? [path.join('.')] : []
     end
   end
 
