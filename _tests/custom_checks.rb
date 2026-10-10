@@ -18,6 +18,7 @@ class CustomChecks < ::HTMLProofer::Check
     check_json_apis      if valid_and_equal_to?(BASE_PATH + '/apis.html')
     check_deadlines      if valid_and_equal_to?(BASE_PATH + '/guideline.html')
     check_yaml_data      if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
+    check_yearly_jsons   if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
     check_navi_text      if valid_and_equal_to?(BASE_PATH + '/projects/2024/qwet.html')
     check_app_order      if valid_and_equal_to?(BASE_PATH + '/applications/abecobe.html')
     check_thumbnails     if valid_and_equal_to?(BASE_PATH + '/projects/showcase.html')
@@ -77,6 +78,15 @@ class CustomChecks < ::HTMLProofer::Check
           ERROR_MESSAGE
         ) if not File.exist? thumbnail
       end
+    end
+  end
+
+  # 年度別のプロジェクト一覧 (/projects/YYYY) に、JSON 版 (/projects/YYYY.json) があるかチェックする。
+  # 新年度は projects/YYYY.json をコピーして作るため、作り忘れると JSON API だけが抜ける。
+  def check_yearly_jsons
+    Dir.glob(BASE_PATH + '/projects/[0-9][0-9][0-9][0-9].html').each do |html|
+      json = html.delete_suffix('.html') + '.json'
+      add_failure("No yearly JSON API: #{json.delete_prefix(BASE_PATH)}") if not File.exist? json
     end
   end
 
