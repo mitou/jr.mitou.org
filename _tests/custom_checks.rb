@@ -47,11 +47,12 @@ class CustomChecks < ::HTMLProofer::Check
     end
   end
 
-  # https://jr.mitou.org/apis から JSON API の URL を取得し、
+  # https://jr.mitou.org/apis.json から JSON API の URL を取得し、
   # すべてが正しい JSON を返すかチェックする。
+  # NOTE: /apis の HTML はプロジェクト別 API をパターンだけで示すため、全件を持つ apis.json を使う。
   def check_json_apis
-    @html.css('#index > ul > li').each do |node|
-      json_path = node.at_css('a.json').attribute('href').value
+    JSON.load_file(BASE_PATH + '/apis.json').each do |api|
+      json_path = api['to_json_url'].delete_prefix(SITE_URL)
       # 例: => /projects.json
 
       add_failure("Invalid JSON format: #{json_path}") if not valid_json?(BASE_PATH + json_path)
