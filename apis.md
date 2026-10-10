@@ -20,7 +20,8 @@ redirect_from:
 </div>
 
 
-## 内部向け API 一覧（[自動テスト用](https://github.com/mitou/jr.mitou.org/blob/main/_tests/custom_checks.rb)）
+
+## [<i class="fas fa-gear green"></i>](#index) 内部向け API 一覧 {#index}
 
 <div class="note">
   以下は<a href="https://github.com/mitou/jr.mitou.org/blob/main/_tests/custom_checks.rb">自動テスト</a>などで使われている内部向け API のため、予告なく変更・削除される場合がある点にご注意ください。
