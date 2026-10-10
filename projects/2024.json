@@ -1,0 +1,11 @@
+---
+# Copy and paste this file in /projects directory.
+# Not necessary to tweak any parameter. Just copy-and-paste it. ;)
+# Example: $ cp 2021.json 2022.json
+---
+
+{% assign this_year = page.path | remove: 'projects/' | remove: '.json' | abs %}
+{% assign projects  = site.data.projects | where_exp: "pj", "pj.year == this_year" %}
+
+{% include projects2json.json %}
+
