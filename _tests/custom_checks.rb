@@ -225,11 +225,10 @@ class CustomChecks < ::HTMLProofer::Check
     add_failure("Unmatched acceptance rate in body: #{text}")        unless @html.text.include?(text)
   end
 
-  # 英語版のトップページで、累計の採択率が累計の件数から計算した値になっているかチェックする
+  # 英語版のトップページで、採択率の範囲が直近 3 年度の最小〜最大になっているかチェックする
   def check_english_top_rate
-    stats = YAML.load_file("_data/stats.yml", symbolize_names: true)
-    rate  = (stats.sum { it[:projects] } * 100.0 / stats.sum { it[:applications] }).round(1)
-    text  = "Acceptance rate: #{rate}%"
+    rates = YAML.load_file("_data/stats.yml", symbolize_names: true).first(3).map { it[:acceptance_rate] }
+    text  = "Acceptance rate in the last 3 years: #{rates.min}-#{rates.max}%"
 
     add_failure("Unmatched acceptance rate in /english: #{text}") unless @html.text.include?(text)
   end

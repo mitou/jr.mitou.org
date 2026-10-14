@@ -78,6 +78,7 @@ Creators who have shown their outstanding performance during MITOU Junior progra
 {% assign total_projects     = total_projects     | plus: stat.projects %}
 {% assign total_creators     = total_creators     | plus: stat.creators %}
 {% endfor %}
+{% assign recent_rates = site.data.stats | slice: 0, 3 | map: 'acceptance_rate' | sort %}
 
 
 ## [<i class="fa-light fa-newspaper"></i>](#news) Media & Awards {#news}
@@ -107,7 +108,7 @@ Our alumni are creating new values after the program as well. Here are a few exa
 
 ## [<i class="fa-light fa-books"></i>](#showcase) Projects Showcase {#showcase}
 
-Up to now <strong>{{ total_applications }} applications</strong> are submitted to our MITOU Junior program, and we support <strong>{{ total_projects }} projects</strong> and <strong>{{ total_creators }} creators</strong>. ([Acceptance rate: {{ total_projects | times: 100.0 | divided_by: total_applications | round: 1 }}%](/english/stats))
+Up to now <strong>{{ total_applications }} applications</strong> are submitted to our MITOU Junior program, and we support <strong>{{ total_projects }} projects</strong> and <strong>{{ total_creators }} creators</strong>. ([Acceptance rate in the last 3 years: {{ recent_rates.first }}-{{ recent_rates.last }}%](/english/stats))
 
 <!-- Projects を時系列順にソートし、初年度と最新年度を取得する -->
 {% assign oldest_pj = site.data.projects | sort: 'year' | first %}
