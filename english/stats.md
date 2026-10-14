@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Stats of MITOU Junior
-description: This page provides statistics on the MITOU Junior program, including the number of applications, selected projects, and acceptance rate. Feel free to use and share this information. In {{ site.data.stats[0].year }}, we received {{ site.data.stats[0].applications }} applications and supported {{ site.data.stats[0].projects }} projects, resulting in an acceptance rate of {{ site.data.stats[0].competition_rate }}%.
+description: This page provides statistics on the MITOU Junior program, including the number of applications, selected projects, and acceptance rate. Feel free to use and share this information. In {{ site.data.stats[0].year }}, we received {{ site.data.stats[0].applications }} applications and supported {{ site.data.stats[0].projects }} projects, resulting in an acceptance rate of {{ site.data.stats[0].acceptance_rate }}%.
 thumbnail: /assets/img/stats.webp
 lang:   en
 ---
@@ -61,7 +61,7 @@ lang:   en
 <script src="https://code.highcharts.com/highcharts.js"></script>
 
 {% assign current_stat = site.data.stats[0] %}
-<p style='margin-top: 50px;'>This page provides statistics on the MITOU Junior program, including the number of applications, selected projects, and acceptance rate. Feel free to use and share this information.<br><br>In {{ current_stat.year }}, we received <b>{{ current_stat.applications }} applications</b> and supported <b>{{ current_stat.projects }} projects</b>, resulting in an acceptance rate of <b>{{ current_stat.competition_rate }}%</b>.</p>
+<p style='margin-top: 50px;'>This page provides statistics on the MITOU Junior program, including the number of applications, selected projects, and acceptance rate. Feel free to use and share this information.<br><br>In {{ current_stat.year }}, we received <b>{{ current_stat.applications }} applications</b> and supported <b>{{ current_stat.projects }} projects</b>, resulting in an acceptance rate of <b>{{ current_stat.acceptance_rate }}%</b>.</p>
 
 <center><small>( <i class="fas fa-mouse-pointer green"></i> Place the cursor or tap to check the number.)</small></center>
 
