@@ -28,6 +28,7 @@ class CustomChecks < ::HTMLProofer::Check
     check_app_order      if valid_and_equal_to?(BASE_PATH + '/applications/abecobe.html')
     check_thumbnails     if valid_and_equal_to?(BASE_PATH + '/projects/showcase.html')
     check_search_results if valid_and_equal_to?(BASE_PATH + '/projects/search.html')
+    check_english_stats  if valid_and_equal_to?(BASE_PATH + '/english/stats.html')
     check_final_order    if valid_and_equal_to?(BASE_PATH + '/final.html')
   end
 
@@ -211,6 +212,16 @@ class CustomChecks < ::HTMLProofer::Check
 
     add_failure("Unmatched nav text and title:\n\t#{prev_text}\n\t#{prev_title}") unless prev_title.start_with? prev_text
     add_failure("Unmatched nav text and title:\n\t#{next_text}\n\t#{next_title}") unless next_title.start_with? next_text
+  end
+
+  # 英語版の統計ページで、採択率 (acceptance rate) に倍率 (competition_rate) を出していないかチェックする
+  def check_english_stats
+    rate = YAML.load_file("_data/stats.yml", symbolize_names: true).first[:acceptance_rate]
+    text = "acceptance rate of #{rate}%"
+    description = @html.at_css('head > meta[name="description"]')['content']
+
+    add_failure("Unmatched acceptance rate in description: #{text}") unless description.include? text
+    add_failure("Unmatched acceptance rate in body: #{text}")        unless @html.text.include?(text)
   end
 
   # /projects.json のサムネイルのパスが、すべて実在するファイルかチェックする
