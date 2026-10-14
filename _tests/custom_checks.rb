@@ -29,6 +29,7 @@ class CustomChecks < ::HTMLProofer::Check
     check_thumbnails     if valid_and_equal_to?(BASE_PATH + '/projects/showcase.html')
     check_search_results if valid_and_equal_to?(BASE_PATH + '/projects/search.html')
     check_english_stats  if valid_and_equal_to?(BASE_PATH + '/english/stats.html')
+    check_english_top_rate if valid_and_equal_to?(BASE_PATH + '/english/index.html')
     check_final_order    if valid_and_equal_to?(BASE_PATH + '/final.html')
   end
 
@@ -222,6 +223,15 @@ class CustomChecks < ::HTMLProofer::Check
 
     add_failure("Unmatched acceptance rate in description: #{text}") unless description.include? text
     add_failure("Unmatched acceptance rate in body: #{text}")        unless @html.text.include?(text)
+  end
+
+  # 英語版のトップページで、累計の採択率が累計の件数から計算した値になっているかチェックする
+  def check_english_top_rate
+    stats = YAML.load_file("_data/stats.yml", symbolize_names: true)
+    rate  = (stats.sum { it[:projects] } * 100.0 / stats.sum { it[:applications] }).round(1)
+    text  = "Acceptance rate: #{rate}%"
+
+    add_failure("Unmatched acceptance rate in /english: #{text}") unless @html.text.include?(text)
   end
 
   # /projects.json のサムネイルのパスが、すべて実在するファイルかチェックする
