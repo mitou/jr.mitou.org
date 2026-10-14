@@ -203,7 +203,7 @@ class CustomChecks < ::HTMLProofer::Check
   end
 
   # _data/stats.yml の倍率・採択率・認定率が、件数から計算した値を正しく丸めた値かチェックする。
-  # 丸めの桁は年度によって小数第 1 位か第 2 位なので、どちらかに一致すればよい。
+  # 比率は有効数字 3 桁で書く（10 以上なら小数第 1 位、10 未満なら小数第 2 位）。
   def check_stats_rates
     YAML.load_file("_data/stats.yml", symbolize_names: true).each do |stat|
       rates = {
@@ -215,13 +215,14 @@ class CustomChecks < ::HTMLProofer::Check
         next if stat[key].nil?
 
         expected = numerator.fdiv(denominator)
+        expected = expected.round(expected < 10 ? 2 : 1)
         add_failure(
           <<~ERROR_MESSAGE
             Unmatched #{key} in _data/stats.yml
               \s Year:  #{stat[:year]}
-              \s Value: #{stat[key]} (expected: #{expected.round(1)} or #{expected.round(2)})
+              \s Value: #{stat[key]} (expected: #{expected})
           ERROR_MESSAGE
-        ) unless [expected.round(1), expected.round(2)].include?(stat[key])
+        ) unless stat[key] == expected
       end
     end
   end
