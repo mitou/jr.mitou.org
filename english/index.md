@@ -42,7 +42,7 @@ Creators will be able to learn from mentors and other [MITOU Program](https://ww
 
 
 ### [<i class="fas fa-badge-dollar green"></i>](#supports-development) Financial Support {#supports-development}
-  
+
 Each group will be eligible to receive up to [500K Yen](https://www.google.com/search?q=500,000+Yen+to+USD) as funding for development.
 
 <img src="/assets/img/about_dev.webp"
@@ -78,6 +78,7 @@ Creators who have shown their outstanding performance during MITOU Junior progra
 {% assign total_projects     = total_projects     | plus: stat.projects %}
 {% assign total_creators     = total_creators     | plus: stat.creators %}
 {% endfor %}
+{% assign recent_rates = site.data.stats | slice: 0, 3 | map: 'acceptance_rate' | sort %}
 
 
 ## [<i class="fa-light fa-newspaper"></i>](#news) Media & Awards {#news}
@@ -107,7 +108,7 @@ Our alumni are creating new values after the program as well. Here are a few exa
 
 ## [<i class="fa-light fa-books"></i>](#showcase) Projects Showcase {#showcase}
 
-Up to now <strong>{{ total_applications }} applications</strong> are submitted to our MITOU Junior program, and we support <strong>{{ total_projects }} projects</strong> and <strong>{{ total_creators }} creators</strong>. ([Acceptance rate: 10-13%](/english/stats))
+Up to now <strong>{{ total_applications }} applications</strong> are submitted to our MITOU Junior program, and we support <strong>{{ total_projects }} projects</strong> and <strong>{{ total_creators }} creators</strong>. ([Acceptance rate in the last 3 years: {{ recent_rates.first }}-{{ recent_rates.last }}%](/english/stats))
 
 <!-- Projects を時系列順にソートし、初年度と最新年度を取得する -->
 {% assign oldest_pj = site.data.projects | sort: 'year' | first %}
@@ -252,7 +253,7 @@ Example timeline. Details may vary from year to year.
     <h5>Message</h5>
     <p>
       Since the launch of the <a href='https://www.ipa.go.jp/en/about/it-talents/mitou.html'>MITOU Programs</a> in 2000, we have increasingly focused on younger creators. <a href='https://en.wikipedia.org/wiki/Information_technology'>Information Technology</a> (IT) is not just for adults; I believe it's essential to discover and nurture an understanding of IT from a very young age. The MITOU Junior program is designed to facilitate it by providing an environment where young people can do more than just 'learn.' They can develop and enhance their skills, growing into talented IT professionals. This program is an opportunity for them to spread their wings and realize their full potential.</p>
-      
+
     <a class="button" href="https://www.youtube.com/watch?v=SSsyV9O__GU&list=PLNObH2jlC6leiUTypiJYO2zUcwBg7M0Bg">Watch message on YouTube (in Japanese)</a>
   </div>
 </div>
