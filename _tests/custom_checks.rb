@@ -22,6 +22,7 @@ class CustomChecks < ::HTMLProofer::Check
     check_meta_tags
     check_json_apis      if valid_and_equal_to?(BASE_PATH + '/apis.html')
     check_deadlines      if valid_and_equal_to?(BASE_PATH + '/guideline.html')
+    check_stats_rates    if valid_and_equal_to?(BASE_PATH + '/stats.html')
     check_yaml_data      if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
     check_yearly_jsons   if valid_and_equal_to?(BASE_PATH + '/projects/index.html')
     check_navi_text      if valid_and_equal_to?(BASE_PATH + '/projects/2024/qwet.html')
@@ -198,6 +199,31 @@ class CustomChecks < ::HTMLProofer::Check
             \s Project ID: #{creator[:project_id]}
         ERROR_MESSAGE
       ) unless project && project[:creator_ids].to_a.include?(creator[:id])
+    end
+  end
+
+  # _data/stats.yml の倍率・採択率・認定率が、件数から計算した値を正しく丸めた値かチェックする。
+  # 比率は有効数字 3 桁で書く（10 以上なら小数第 1 位、10 未満なら小数第 2 位）。
+  def check_stats_rates
+    YAML.load_file("_data/stats.yml", symbolize_names: true).each do |stat|
+      rates = {
+        competition_rate: [stat[:applications], stat[:projects]],
+        acceptance_rate:  [stat[:projects] * 100, stat[:applications]],
+        spc_rate:         [stat[:spc].to_i * 100, stat[:creators]],
+      }
+      rates.each do |key, (numerator, denominator)|
+        next if stat[key].nil?
+
+        expected = numerator.fdiv(denominator)
+        expected = expected.round(expected < 10 ? 2 : 1)
+        add_failure(
+          <<~ERROR_MESSAGE
+            Unmatched #{key} in _data/stats.yml
+              \s Year:  #{stat[:year]}
+              \s Value: #{stat[key]} (expected: #{expected})
+          ERROR_MESSAGE
+        ) unless stat[key] == expected
+      end
     end
   end
 

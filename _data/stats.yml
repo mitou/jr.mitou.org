@@ -16,7 +16,7 @@
   acceptance_rate:  10.5 # 10.490 %
   creators: 18
   spc: 14
-  spc_rate: 77.7 # 85.0 %
+  spc_rate: 77.8 # 77.778 %
 
 
 - year: 2024
@@ -26,12 +26,12 @@
   acceptance_rate:  14.5 # 14.530 %
   creators: 20
   spc: 10
-  spc_rate: 50.0 # 85.0 %
+  spc_rate: 50.0 # 50.000 %
 
 - year: 2023
   applications: 110
   projects: 14
-  competition_rate: 7.85 # 7.8571 倍
+  competition_rate: 7.86 # 7.8571 倍
   acceptance_rate:  12.7 # 12.727 %
   creators: 14
   spc: 12
@@ -41,7 +41,7 @@
   applications: 107
   projects: 12
   competition_rate: 8.92 # 8.9167 倍
-  acceptance_rate:  11.4 # 11.215 %
+  acceptance_rate:  11.2 # 11.215 %
   creators: 14
   spc: 10
   spc_rate: 71.4 # 71.429 %
