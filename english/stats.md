@@ -15,7 +15,7 @@ lang:   en
 }
 </style>
 
-<script src="/assets/js/Chart.bundle.js"></script>
+<script src="/assets/js/chart.umd.min.js"></script>
 
 {% assign current_stat = site.data.stats[0] %}
 <p style='margin-top: 50px;'>This page provides statistics on the MITOU Junior program, including the number of applications, selected projects, and acceptance rate. Feel free to use and share this information.<br><br>In {{ current_stat.year }}, we received <b>{{ current_stat.applications }} applications</b> and supported <b>{{ current_stat.projects }} projects</b>, resulting in an acceptance rate of <b>{{ current_stat.acceptance_rate }}%</b>.</p>

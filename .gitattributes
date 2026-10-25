@@ -12,5 +12,5 @@ _layouts/*  linguist-language=Ruby
 *.pdf binary
 
 # Exclude vendored files from statistics.
-assets/js/Chart.bundle.js         linguist-vendored
+assets/js/chart.umd.min.js        linguist-vendored
 assets/js/simple-jekyll-search.js linguist-vendored

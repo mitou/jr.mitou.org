@@ -14,7 +14,7 @@ thumbnail: /assets/img/stats.webp
 }
 </style>
 
-<script src="/assets/js/Chart.bundle.js"></script>
+<script src="/assets/js/chart.umd.min.js"></script>
 
 
 {% assign current_stat = site.data.stats[0] %}
