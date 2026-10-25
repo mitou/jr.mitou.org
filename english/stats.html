@@ -4,260 +4,328 @@
     gtag('js', new Date());
     gtag('config', 'G-GWHM8P0RTE');
   </script> </head> <body> <header> <a href="/english/" hreflang="en" class="header-logo pc"><img src="/assets/img/mitoujr-logo-square.png" alt="Logo of MITOU Junior" loading="lazy"></a> <a href="/english/" hreflang="en" class="header-logo ph"><img src="/assets/img/mitoujr-logo-rect.png" alt="Logo of MITOU Junior" loading="lazy"></a> <label for="nav-check" class="ph nav-hamburger"><img src="/assets/img/bars.svg" alt="メニュー" style="width:24px;" loading="lazy"></label> <input type="checkbox" id="nav-check" style="display:none;"/> <nav class="topnav pc"> <div class="header-left"> <a hreflang="en" href="/english/#top">TOP</a> <a hreflang="en" href="/english/#news">Media & Awards</a> <a hreflang="en" href="/english/projects">Project Showcase</a> <a hreflang="en" href="/english/#agenda">Program Agenda</a> <a hreflang="en" href="/english/stats">Stats</a> <a hreflang="en" href="/english/#contact">Contact</a> </div> <a hreflang="ja" href="/stats" class="header-button"> <span style='color: white; font-size: 80%;'>Switch to Japanese</span> </a> </nav> <label for="nav-check" class="header-back"></label> </header> <div class="main"> <div class="page-head"> <h1>Stats of MITOU Junior</h1> </div> <div class="post"> <style type="text/css">
-@import '/assets/css/highcharts.css';
-
-#container {
+.stats-chart {
+  position: relative;
   height: 400px;
   max-width: 800px;
   margin: 0 auto;
- }
-
- @media screen and (max-width: 800px) {
-   #container {
-     width: 98vw;
-     margin-left: calc(-49vw + 50%);
-   }
- }
-
-
-/* For series of applications */
-.highcharts-color-0 {
-  fill:   rgb(40, 161, 58);
-  stroke: rgb(40, 161, 58);
 }
-.highcharts-point {
-  fill: rgb(40, 161, 58);
-}
-.highcharts-axis-labels {
-  fill: #000000;
- }
-.highcharts-axis-line {
-  stroke: rgb(40, 161, 58);
-}
+</style> <script src="/assets/js/Chart.bundle.js"></script> <p style="margin-top: 50px;">This page provides statistics on the MITOU Junior program, including the number of applications, selected projects, and acceptance rate. Feel free to use and share this information.<br/><br/>In 2026, we received <b>231 applications</b> and supported <b>19 projects</b>, resulting in an acceptance rate of <b>8.23%</b>.</p> <center><small>( <i class="fas fa-mouse-pointer green"></i> Place the cursor or tap to check the number.)</small></center> <h2 style="margin-bottom: 60px;">Applications</h2> <div class="stats-chart"><canvas id="applications"></canvas></div> <script type="text/javascript">
+(function () {
+  var green = 'rgb(40, 161, 58)';
+  var font  = '"Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif';
 
-/* For another series (Not using for now) */
-.highcharts-color-1 {
-  fill: #90ed7d;
-  stroke: #90ed7d;
-}
-.highcharts-axis.highcharts-color-1 .highcharts-axis-line {
-  stroke: #90ed7d;
-}
-.highcharts-axis.highcharts-color-1 text {
-  fill: #90ed7d;
-}
+  // マウスを重ねた時の吹き出しを HTML で描く（Chart.js の吹き出しは値だけを太字にできない）。
+  // 薄い灰色の地に緑の枠と影、点を指す矢印、見出しはページの言語の年（「2021年」「2021」）
+  window.statsChartTooltip = window.statsChartTooltip || function (context) {
+    var chart  = context.chart;
+    var holder = chart.canvas.parentNode;
+    var box    = holder.querySelector('.stats-chart-tooltip');
+    if (!box) {
+      box = document.createElement('div');
+      box.className = 'stats-chart-tooltip';
+      box.style.cssText = 'position:absolute; z-index:1; pointer-events:none; white-space:nowrap; text-align:left;' +
+        'opacity:0; transition:opacity .15s; padding:5px 8px 6px; border:1px solid ' + green + '; border-radius:5px;' +
+        'background:rgba(247,247,247,0.85); box-shadow:1px 1px 3px rgba(0,0,0,0.25);' +
+        'color:#333; font-size:12px; line-height:16px; font-family:' + font + ';';
+      // 矢印は緑の三角に、地の色の三角を 1px ずらして重ねる
+      box.innerHTML = '<div class="arrow" style="position:absolute; bottom:-7px; margin-left:-7px; border:7px solid transparent; border-bottom:0; border-top-color:' + green + ';"></div>' +
+        '<div class="arrow" style="position:absolute; bottom:-6px; margin-left:-6px; border:6px solid transparent; border-bottom:0; border-top-color:#f7f7f7;"></div>' +
+        '<div><span class="header" style="font-size:10px;"></span><br><span style="color:' + green + ';">●</span> <span class="name"></span>: <b class="value"></b></div>';
+      holder.appendChild(box);
+    }
 
-.highcharts-axis-line {
-  stroke-width: 2px;
-}
-.highcharts-yaxis {
-  stroke-width: 0px;
-}
-</style> <script src="https://code.highcharts.com/highcharts.js"></script> <p style="margin-top: 50px;">This page provides statistics on the MITOU Junior program, including the number of applications, selected projects, and acceptance rate. Feel free to use and share this information.<br/><br/>In 2026, we received <b>231 applications</b> and supported <b>19 projects</b>, resulting in an acceptance rate of <b>8.23%</b>.</p> <center><small>( <i class="fas fa-mouse-pointer green"></i> Place the cursor or tap to check the number.)</small></center> <h2 style="margin-bottom: 60px;">Applications</h2> <div id="applications"></div> <script type="text/javascript">
-Highcharts.chart('applications', {
-   chart: {
-     type: 'column',
-     styledMode: true
-   },
+    var tooltip = context.tooltip;
+    if (tooltip.opacity === 0 || !tooltip.dataPoints || !tooltip.dataPoints.length) {
+      box.style.opacity = 0;
+      return;
+    }
 
-   title: {
-     text: ''
-   },
+    var point = tooltip.dataPoints[0];
+    var lang  = document.documentElement.lang || undefined;
+    box.querySelector('.header').textContent = new Intl.DateTimeFormat(lang, { year: 'numeric' }).format(new Date(Number(point.label), 0, 1));
+    box.querySelector('.name').textContent   = point.dataset.label;
+    box.querySelector('.value').textContent  = point.parsed.y.toLocaleString(lang);
 
-   yAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     labels: {
-       enabled: false,
-     },
-   }],
-   xAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     type: 'datetime',
-     labels: {
-       format: '{value:%Y}',
-     },
-     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
-   }],
+    // 点（棒は上端）の真上に置く。グラフの外にはみ出す時は箱だけずらし、矢印は点を指したままにする
+    var x = chart.canvas.offsetLeft + point.element.x;
+    var y = chart.canvas.offsetTop + point.element.y;
+    var left = Math.max(0, Math.min(x - box.offsetWidth / 2, holder.clientWidth - box.offsetWidth));
+    box.style.left = left + 'px';
+    box.style.top  = (y - box.offsetHeight - 10) + 'px';
+    box.querySelectorAll('.arrow').forEach(function (arrow) { arrow.style.left = (x - left) + 'px'; });
+    box.style.opacity = 1;
+  };
 
-   plotOptions: {
-     column: {
-       borderRadius: 5
-     }
-   },
+  new Chart(document.getElementById('applications'), {
+    type: 'bar',
+    data: {
+      labels: ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026'],
+      datasets: [{
+        label: 'Number of applications submitted',
+        data: [15, 41, 105, 127, 115, 123, 107, 110, 117, 143, 231],
+        backgroundColor: green,
+        borderColor: green,
+        borderWidth: 0,
+        borderRadius: 5,
+        categoryPercentage: 0.6,
+        barPercentage: 0.8,
+        // マウスを重ねた棒は少し薄くする（Highcharts の fill-opacity: 0.75）
+        hoverBackgroundColor: 'rgba(40, 161, 58, 0.75)',
+        pointRadius: 4,
+        pointBorderWidth: 0,
+        // マウスを重ねた点は半径を 2 増やし、周りに半径 10・透明度 0.25 の輪を付ける（Highcharts の既定）
+        pointHoverRadius: 6,
+        pointHoverBorderWidth: 8,
+        pointHoverBorderColor: 'rgba(40, 161, 58, 0.25)',
+        pointHoverBackgroundColor: green
+      }]
+    },
+    options: {
+      maintainAspectRatio: false,
+      animation: { duration: 500 },
+      // 横方向で一番近い年を示す（Highcharts の既定）
+      interaction: { mode: 'nearest', axis: 'x', intersect: false },
+      scales: {
+        x: {
+          grid: { display: false },
+          border: { color: green, width: 2 },
+          ticks: { color: '#000', font: { family: font, size: 11 } }
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: '#e6e6e6' },
+          border: { display: false },
+          ticks: { display: false }
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            usePointStyle: true,
+            pointStyle: 'circle',
+            boxWidth: 8,
+            boxHeight: 8,
+            color: '#333',
+            font: { family: font, size: 12, weight: 'bold' }
+          }
+        },
+        tooltip: { enabled: false, external: window.statsChartTooltip }
+      }
+    }
+  });
+})();
+</script> <h2 style="margin-bottom: 60px;">Selected Projects</h2> <div class="stats-chart"><canvas id="selections"></canvas></div> <script type="text/javascript">
+(function () {
+  var green = 'rgb(40, 161, 58)';
+  var font  = '"Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif';
 
-   series: [
-     {
-       name: 'Number of applications submitted',
-       data: [
-	 
-	 [Date.parse('2016'), 15],
-	 
-	 [Date.parse('2017'), 41],
-	 
-	 [Date.parse('2018'), 105],
-	 
-	 [Date.parse('2019'), 127],
-	 
-	 [Date.parse('2020'), 115],
-	 
-	 [Date.parse('2021'), 123],
-	 
-	 [Date.parse('2022'), 107],
-	 
-	 [Date.parse('2023'), 110],
-	 
-	 [Date.parse('2024'), 117],
-	 
-	 [Date.parse('2025'), 143],
-	 
-	 [Date.parse('2026'), 231]
-	 
-       ]
-     }
-   ]
-});
-</script> <h2 style="margin-bottom: 60px;">Selected Projects</h2> <div id="selections"></div> <script type="text/javascript">
-Highcharts.chart('selections', {
-   chart: {
-     type: 'column',
-     styledMode: true
-   },
+  // マウスを重ねた時の吹き出しを HTML で描く（Chart.js の吹き出しは値だけを太字にできない）。
+  // 薄い灰色の地に緑の枠と影、点を指す矢印、見出しはページの言語の年（「2021年」「2021」）
+  window.statsChartTooltip = window.statsChartTooltip || function (context) {
+    var chart  = context.chart;
+    var holder = chart.canvas.parentNode;
+    var box    = holder.querySelector('.stats-chart-tooltip');
+    if (!box) {
+      box = document.createElement('div');
+      box.className = 'stats-chart-tooltip';
+      box.style.cssText = 'position:absolute; z-index:1; pointer-events:none; white-space:nowrap; text-align:left;' +
+        'opacity:0; transition:opacity .15s; padding:5px 8px 6px; border:1px solid ' + green + '; border-radius:5px;' +
+        'background:rgba(247,247,247,0.85); box-shadow:1px 1px 3px rgba(0,0,0,0.25);' +
+        'color:#333; font-size:12px; line-height:16px; font-family:' + font + ';';
+      // 矢印は緑の三角に、地の色の三角を 1px ずらして重ねる
+      box.innerHTML = '<div class="arrow" style="position:absolute; bottom:-7px; margin-left:-7px; border:7px solid transparent; border-bottom:0; border-top-color:' + green + ';"></div>' +
+        '<div class="arrow" style="position:absolute; bottom:-6px; margin-left:-6px; border:6px solid transparent; border-bottom:0; border-top-color:#f7f7f7;"></div>' +
+        '<div><span class="header" style="font-size:10px;"></span><br><span style="color:' + green + ';">●</span> <span class="name"></span>: <b class="value"></b></div>';
+      holder.appendChild(box);
+    }
 
-   title: {
-     text: ''
-   },
+    var tooltip = context.tooltip;
+    if (tooltip.opacity === 0 || !tooltip.dataPoints || !tooltip.dataPoints.length) {
+      box.style.opacity = 0;
+      return;
+    }
 
-   yAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     labels: {
-       enabled: false,
-     },
-   }],
-   xAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     type: 'datetime',
-     labels: {
-       format: '{value:%Y}',
-     },
-     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
-   }],
+    var point = tooltip.dataPoints[0];
+    var lang  = document.documentElement.lang || undefined;
+    box.querySelector('.header').textContent = new Intl.DateTimeFormat(lang, { year: 'numeric' }).format(new Date(Number(point.label), 0, 1));
+    box.querySelector('.name').textContent   = point.dataset.label;
+    box.querySelector('.value').textContent  = point.parsed.y.toLocaleString(lang);
 
-   plotOptions: {
-     column: {
-       borderRadius: 5
-     }
-   },
+    // 点（棒は上端）の真上に置く。グラフの外にはみ出す時は箱だけずらし、矢印は点を指したままにする
+    var x = chart.canvas.offsetLeft + point.element.x;
+    var y = chart.canvas.offsetTop + point.element.y;
+    var left = Math.max(0, Math.min(x - box.offsetWidth / 2, holder.clientWidth - box.offsetWidth));
+    box.style.left = left + 'px';
+    box.style.top  = (y - box.offsetHeight - 10) + 'px';
+    box.querySelectorAll('.arrow').forEach(function (arrow) { arrow.style.left = (x - left) + 'px'; });
+    box.style.opacity = 1;
+  };
 
-   series: [
-     {
-       name: 'Number of projects selected',
-       data: [
-	 
-	 [Date.parse('2016'), 3],
-	 
-	 [Date.parse('2017'), 11],
-	 
-	 [Date.parse('2018'), 12],
-	 
-	 [Date.parse('2019'), 13],
-	 
-	 [Date.parse('2020'), 15],
-	 
-	 [Date.parse('2021'), 14],
-	 
-	 [Date.parse('2022'), 12],
-	 
-	 [Date.parse('2023'), 14],
-	 
-	 [Date.parse('2024'), 17],
-	 
-	 [Date.parse('2025'), 15],
-	 
-	 [Date.parse('2026'), 19]
-	 
-       ]
-     }
-   ]
-});
-</script> <h2 style="margin-bottom: 60px;">Acceptance Rate</h2> <div id="rates"></div> <script type="text/javascript">
-Highcharts.chart('rates', {
-   chart: {
-     type: 'line',
-     styledMode: true
-   },
+  new Chart(document.getElementById('selections'), {
+    type: 'bar',
+    data: {
+      labels: ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026'],
+      datasets: [{
+        label: 'Number of projects selected',
+        data: [3, 11, 12, 13, 15, 14, 12, 14, 17, 15, 19],
+        backgroundColor: green,
+        borderColor: green,
+        borderWidth: 0,
+        borderRadius: 5,
+        categoryPercentage: 0.6,
+        barPercentage: 0.8,
+        // マウスを重ねた棒は少し薄くする（Highcharts の fill-opacity: 0.75）
+        hoverBackgroundColor: 'rgba(40, 161, 58, 0.75)',
+        pointRadius: 4,
+        pointBorderWidth: 0,
+        // マウスを重ねた点は半径を 2 増やし、周りに半径 10・透明度 0.25 の輪を付ける（Highcharts の既定）
+        pointHoverRadius: 6,
+        pointHoverBorderWidth: 8,
+        pointHoverBorderColor: 'rgba(40, 161, 58, 0.25)',
+        pointHoverBackgroundColor: green
+      }]
+    },
+    options: {
+      maintainAspectRatio: false,
+      animation: { duration: 500 },
+      // 横方向で一番近い年を示す（Highcharts の既定）
+      interaction: { mode: 'nearest', axis: 'x', intersect: false },
+      scales: {
+        x: {
+          grid: { display: false },
+          border: { color: green, width: 2 },
+          ticks: { color: '#000', font: { family: font, size: 11 } }
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: '#e6e6e6' },
+          border: { display: false },
+          ticks: { display: false }
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            usePointStyle: true,
+            pointStyle: 'circle',
+            boxWidth: 8,
+            boxHeight: 8,
+            color: '#333',
+            font: { family: font, size: 12, weight: 'bold' }
+          }
+        },
+        tooltip: { enabled: false, external: window.statsChartTooltip }
+      }
+    }
+  });
+})();
+</script> <h2 style="margin-bottom: 60px;">Acceptance Rate</h2> <div class="stats-chart"><canvas id="rates"></canvas></div> <script type="text/javascript">
+(function () {
+  var green = 'rgb(40, 161, 58)';
+  var font  = '"Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif';
 
-   title: {
-     text: ''
-   },
+  // マウスを重ねた時の吹き出しを HTML で描く（Chart.js の吹き出しは値だけを太字にできない）。
+  // 薄い灰色の地に緑の枠と影、点を指す矢印、見出しはページの言語の年（「2021年」「2021」）
+  window.statsChartTooltip = window.statsChartTooltip || function (context) {
+    var chart  = context.chart;
+    var holder = chart.canvas.parentNode;
+    var box    = holder.querySelector('.stats-chart-tooltip');
+    if (!box) {
+      box = document.createElement('div');
+      box.className = 'stats-chart-tooltip';
+      box.style.cssText = 'position:absolute; z-index:1; pointer-events:none; white-space:nowrap; text-align:left;' +
+        'opacity:0; transition:opacity .15s; padding:5px 8px 6px; border:1px solid ' + green + '; border-radius:5px;' +
+        'background:rgba(247,247,247,0.85); box-shadow:1px 1px 3px rgba(0,0,0,0.25);' +
+        'color:#333; font-size:12px; line-height:16px; font-family:' + font + ';';
+      // 矢印は緑の三角に、地の色の三角を 1px ずらして重ねる
+      box.innerHTML = '<div class="arrow" style="position:absolute; bottom:-7px; margin-left:-7px; border:7px solid transparent; border-bottom:0; border-top-color:' + green + ';"></div>' +
+        '<div class="arrow" style="position:absolute; bottom:-6px; margin-left:-6px; border:6px solid transparent; border-bottom:0; border-top-color:#f7f7f7;"></div>' +
+        '<div><span class="header" style="font-size:10px;"></span><br><span style="color:' + green + ';">●</span> <span class="name"></span>: <b class="value"></b></div>';
+      holder.appendChild(box);
+    }
 
-   yAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     labels: {
-       enabled: false,
-     },
-   }],
-   xAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     type: 'datetime',
-     labels: {
-       format: '{value:%Y}',
-     },
-     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
-   }],
+    var tooltip = context.tooltip;
+    if (tooltip.opacity === 0 || !tooltip.dataPoints || !tooltip.dataPoints.length) {
+      box.style.opacity = 0;
+      return;
+    }
 
-   plotOptions: {
-     column: {
-       borderRadius: 5
-     }
-   },
+    var point = tooltip.dataPoints[0];
+    var lang  = document.documentElement.lang || undefined;
+    box.querySelector('.header').textContent = new Intl.DateTimeFormat(lang, { year: 'numeric' }).format(new Date(Number(point.label), 0, 1));
+    box.querySelector('.name').textContent   = point.dataset.label;
+    box.querySelector('.value').textContent  = point.parsed.y.toLocaleString(lang);
 
-   series: [
-     {
-       name: 'Acceptance Rate (%)',
-       data: [
-	 
-	 [Date.parse('2016'), 20.0],
-	 
-	 [Date.parse('2017'), 26.8],
-	 
-	 [Date.parse('2018'), 11.4],
-	 
-	 [Date.parse('2019'), 10.2],
-	 
-	 [Date.parse('2020'), 13.0],
-	 
-	 [Date.parse('2021'), 11.4],
-	 
-	 [Date.parse('2022'), 11.2],
-	 
-	 [Date.parse('2023'), 12.7],
-	 
-	 [Date.parse('2024'), 14.5],
-	 
-	 [Date.parse('2025'), 10.5],
-	 
-	 [Date.parse('2026'), 8.23]
-	 
-       ]
-     }
-   ]
-});
+    // 点（棒は上端）の真上に置く。グラフの外にはみ出す時は箱だけずらし、矢印は点を指したままにする
+    var x = chart.canvas.offsetLeft + point.element.x;
+    var y = chart.canvas.offsetTop + point.element.y;
+    var left = Math.max(0, Math.min(x - box.offsetWidth / 2, holder.clientWidth - box.offsetWidth));
+    box.style.left = left + 'px';
+    box.style.top  = (y - box.offsetHeight - 10) + 'px';
+    box.querySelectorAll('.arrow').forEach(function (arrow) { arrow.style.left = (x - left) + 'px'; });
+    box.style.opacity = 1;
+  };
+
+  new Chart(document.getElementById('rates'), {
+    type: 'line',
+    data: {
+      labels: ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026'],
+      datasets: [{
+        label: 'Acceptance Rate (%)',
+        data: [20.0, 26.8, 11.4, 10.2, 13.0, 11.4, 11.2, 12.7, 14.5, 10.5, 8.23],
+        backgroundColor: green,
+        borderColor: green,
+        borderWidth: 2,
+        borderRadius: 5,
+        categoryPercentage: 0.6,
+        barPercentage: 0.8,
+        // マウスを重ねた棒は少し薄くする（Highcharts の fill-opacity: 0.75）
+        hoverBackgroundColor: 'rgba(40, 161, 58, 0.75)',
+        pointRadius: 4,
+        pointBorderWidth: 0,
+        // マウスを重ねた点は半径を 2 増やし、周りに半径 10・透明度 0.25 の輪を付ける（Highcharts の既定）
+        pointHoverRadius: 6,
+        pointHoverBorderWidth: 8,
+        pointHoverBorderColor: 'rgba(40, 161, 58, 0.25)',
+        pointHoverBackgroundColor: green
+      }]
+    },
+    options: {
+      maintainAspectRatio: false,
+      animation: { duration: 500 },
+      // 横方向で一番近い年を示す（Highcharts の既定）
+      interaction: { mode: 'nearest', axis: 'x', intersect: false },
+      scales: {
+        x: {
+          grid: { display: false },
+          border: { color: green, width: 2 },
+          ticks: { color: '#000', font: { family: font, size: 11 } }
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: '#e6e6e6' },
+          border: { display: false },
+          ticks: { display: false }
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            usePointStyle: true,
+            pointStyle: 'circle',
+            boxWidth: 8,
+            boxHeight: 8,
+            color: '#333',
+            font: { family: font, size: 12, weight: 'bold' }
+          }
+        },
+        tooltip: { enabled: false, external: window.statsChartTooltip }
+      }
+    }
+  });
+})();
 </script> <h3> <a href="/projects/2026" style="font-weight: bold;">2026</a> </h3> <ul> <li><b>231 applications</b> were submitted.</li> <li><b>19 projects</b> were selected.</li> <li><b>8.23%</b> is the acceptance rate.</li> </ul> <p>MITOU Junior program in 2026 is now in progress. Number of creators and who received outstanding performance award will be published by late this year or early next year.</p> <h3> <a href="/projects/2025" style="font-weight: bold;">2025</a> </h3> <ul> <li><b>143 applications</b> were submitted.</li> <li><b>15 projects</b> were selected.</li> <li><b>10.5%</b> is the acceptance rate.</li> </ul> <p><b>18 creators</b> joined in the MITOU Junior program in 2025. <b>14 in 18 creators (77.8 %)</b> received an outstanding performance award this year.</p> <h3> <a href="/projects/2024" style="font-weight: bold;">2024</a> </h3> <ul> <li><b>117 applications</b> were submitted.</li> <li><b>17 projects</b> were selected.</li> <li><b>14.5%</b> is the acceptance rate.</li> </ul> <p><b>20 creators</b> joined in the MITOU Junior program in 2024. <b>10 in 20 creators (50.0 %)</b> received an outstanding performance award this year.</p> <h3> <a href="/projects/2023" style="font-weight: bold;">2023</a> </h3> <ul> <li><b>110 applications</b> were submitted.</li> <li><b>14 projects</b> were selected.</li> <li><b>12.7%</b> is the acceptance rate.</li> </ul> <p><b>14 creators</b> joined in the MITOU Junior program in 2023. <b>12 in 14 creators (85.7 %)</b> received an outstanding performance award this year.</p> <h3> <a href="/projects/2022" style="font-weight: bold;">2022</a> </h3> <ul> <li><b>107 applications</b> were submitted.</li> <li><b>12 projects</b> were selected.</li> <li><b>11.2%</b> is the acceptance rate.</li> </ul> <p><b>14 creators</b> joined in the MITOU Junior program in 2022. <b>10 in 14 creators (71.4 %)</b> received an outstanding performance award this year.</p> <h3> <a href="/projects/2021" style="font-weight: bold;">2021</a> </h3> <ul> <li><b>123 applications</b> were submitted.</li> <li><b>14 projects</b> were selected.</li> <li><b>11.4%</b> is the acceptance rate.</li> </ul> <p><b>14 creators</b> joined in the MITOU Junior program in 2021. <b>7 in 14 creators (50.0 %)</b> received an outstanding performance award this year.</p> <h3> <a href="/projects/2020" style="font-weight: bold;">2020</a> </h3> <ul> <li><b>115 applications</b> were submitted.</li> <li><b>15 projects</b> were selected.</li> <li><b>13.0%</b> is the acceptance rate.</li> </ul> <p><b>22 creators</b> joined in the MITOU Junior program in 2020. <b>9 in 22 creators (40.9 %)</b> received an outstanding performance award this year.</p> <h3> <a href="/projects/2019" style="font-weight: bold;">2019</a> </h3> <ul> <li><b>127 applications</b> were submitted.</li> <li><b>13 projects</b> were selected.</li> <li><b>10.2%</b> is the acceptance rate.</li> </ul> <p><b>16 creators</b> joined in the MITOU Junior program in 2019. <b>9 in 16 creators (56.3 %)</b> received an outstanding performance award this year.</p> <h3> <a href="/projects/2018" style="font-weight: bold;">2018</a> </h3> <ul> <li><b>105 applications</b> were submitted.</li> <li><b>12 projects</b> were selected.</li> <li><b>11.4%</b> is the acceptance rate.</li> </ul> <p><b>14 creators</b> joined in the MITOU Junior program in 2018. <b>6 in 14 creators (42.9 %)</b> received an outstanding performance award this year.</p> <h3> <a href="/projects/2017" style="font-weight: bold;">2017</a> </h3> <ul> <li><b>41 applications</b> were submitted.</li> <li><b>11 projects</b> were selected.</li> <li><b>26.8%</b> is the acceptance rate.</li> </ul> <p><b>18 creators</b> joined in the MITOU Junior program in 2017. <b>6 in 18 creators (33.3 %)</b> received an outstanding performance award this year.</p> <h3> <a href="/projects/2016" style="font-weight: bold;">2016</a> </h3> <ul> <li><b>15 applications</b> were submitted.</li> <li><b>3 projects</b> were selected.</li> <li><b>20.0%</b> is the acceptance rate.</li> </ul> <p><b>4 creators</b> joined in the MITOU Junior program in 2016. Outstanding performace award started since 2017, so N/A this year.</p> <h2 id="total"><a href="#total"><i class="fa-light fa-chart-user"></i></a> Cumulative Data</h2> <p style="margin-top: 50px;"> The cumulative data from fiscal year 2016 to 2026 is as follows: <ul> <li>Total applications submitted: <b>1234</b></li> <li>Total projects selected: <b>145</b></li> <li>Total creators supported: <b>175</b></li> </ul> </p> <p><a href="/english/projects" class="button">See projects showcase</a></p> <h2 id="contact"><a href="#contact"><i class="fa-light fa-envelope"></i></a> Contact</h2> <div style="margin-top: 50px;"> <p>Let us know if you have any questions or interests to the MITOU Junior program.</p> <div class="text-center" style="margin-top: 30px;"> <i class="fas fa-envelope green" style="font-size:36px;"></i><br/> <a href="mailto:jr@mitou.org">jr@mitou.org</a> </div> </div> </div> </div> <footer> <a hreflang="en" href="/english/">Top</a> <a hreflang="en" href="/english/#news">Media & Awards</a> <a hreflang="en" href="/english/projects">Project Showcase</a> <a hreflang="en" href="/english/#agenda">Program Agenda</a> <a hreflang="en" href="/english/stats">Stats</a> <a hreflang="en" href="/english/#contact">Contact</a> <a hreflang="ja" href="/">Switch to Japanese</a> <div class="sns"> <a href="https://x.com/mitoujr"><i class="fab fa-x-twitter"></i></a> <a href="https://facebook.com/mitoujr"><i class="fab fa-facebook"></i></a> <a href="https://github.com/mitou/jr.mitou.org"><i class="fab fa-github"></i></a> <a href="https://anchor.fm/mitoujr"><i class="fab fa-spotify"></i></a> <a href="https://youtube.com/mitoujr"><i class="fab fa-youtube"></i></a> </div> <span class="copyright">Copyright &copy; <a href='/english/#organizer' style='padding: 0 0 0 0; color: #666; font-weight: lighter;'>MITOU Foundation</a> - MITOU Junior Team </span> </footer> </body> </html>

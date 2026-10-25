@@ -299,6 +299,7 @@ $ bundle exec rake test
 
 - [Font Awesome](https://fontawesome.com/license/) - :copyright: Fonticons, Inc.
 - [Twemoji](https://twemoji.twitter.com/) - :copyright: 2020 Twitter, Inc and other contributors.
+- [Chart.js](https://www.chartjs.org/) - :copyright: 2025 Chart.js Contributors（[統計情報](https://jr.mitou.org/stats)のグラフ。MIT License）
 
 [各プロジェクト](https://jr.mitou.org/projects/)のカバー画像やデモ動画、および説明文などは当該プロジェクトのクリエータの著作物となります。その他のロゴ画像やプロフィール画像、および説明文なども同様に、各著作者の著作物となります。
 
