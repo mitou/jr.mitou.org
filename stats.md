@@ -6,58 +6,15 @@ thumbnail: /assets/img/stats.webp
 ---
 
 <style type="text/css">
-@import '/assets/css/highcharts.css';
-
-#container {
+.stats-chart {
+  position: relative;
   height: 400px;
   max-width: 800px;
   margin: 0 auto;
- }
-
- @media screen and (max-width: 800px) {
-   #container {
-     width: 98vw;
-     margin-left: calc(-49vw + 50%);
-   }
- }
-
-
-/* For series of 応募数 */
-.highcharts-color-0 {
-  fill: rgb(40, 161, 58);
-  stroke: rgb(40, 161, 58);
-}
-.highcharts-point {
-  fill: rgb(40, 161, 58);
-}
-.highcharts-axis-labels {
-  fill: #000000;
- }
-.highcharts-axis-line {
-  stroke: rgb(40, 161, 58);
-}
-
-/* For another series (Not using for now) */
-.highcharts-color-1 {
-  fill: #90ed7d;
-  stroke: #90ed7d;
-}
-.highcharts-axis.highcharts-color-1 .highcharts-axis-line {
-  stroke: #90ed7d;
-}
-.highcharts-axis.highcharts-color-1 text {
-  fill: #90ed7d;
-}
-
-.highcharts-axis-line {
-  stroke-width: 2px;
-}
-.highcharts-yaxis {
-  stroke-width: 0px;
 }
 </style>
 
-<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="/assets/js/Chart.bundle.js"></script>
 
 
 {% assign current_stat = site.data.stats[0] %}
@@ -73,57 +30,7 @@ thumbnail: /assets/img/stats.webp
   応募数の推移
 </h2>
 
-<div id="applications"></div>
-<script type="text/javascript">
-Highcharts.chart('applications', {
-   chart: {
-     type: 'column',
-     styledMode: true
-   },
-
-   title: {
-     text: ''
-   },
-
-   yAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     labels: {
-       enabled: false,
-     },
-   }],
-   xAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     type: 'datetime',
-     labels: {
-       format: '{value:%Y}',
-     },
-     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
-   }],
-
-   plotOptions: {
-     column: {
-       borderRadius: 5
-     }
-   },
-
-   series: [
-     {
-       name: '応募数',
-       data: [
-	 {% for stat in site.data.stats reversed %}
-	 [Date.parse('{{ stat.year }}'), {{ stat.applications }}]{% unless forloop.last %},{% endunless %}
-	 {% endfor %}
-       ]
-     }
-   ]
-});
-</script>
+{% include stats-chart.html id='applications' type='bar' field='applications' label='応募数' %}
 
 
 <h2 id='support' style="margin-bottom: 60px;">
@@ -131,57 +38,7 @@ Highcharts.chart('applications', {
   採択数の推移
 </h2>
 
-<div id="selections"></div>
-<script type="text/javascript">
-Highcharts.chart('selections', {
-   chart: {
-     type: 'column',
-     styledMode: true
-   },
-
-   title: {
-     text: ''
-   },
-
-   yAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     labels: {
-       enabled: false,
-     },
-   }],
-   xAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     type: 'datetime',
-     labels: {
-       format: '{value:%Y}',
-     },
-     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
-   }],
-
-   plotOptions: {
-     column: {
-       borderRadius: 5
-     }
-   },
-
-   series: [
-     {
-       name: '採択数',
-       data: [
-	 {% for stat in site.data.stats reversed %}
-	 [Date.parse('{{ stat.year }}'), {{ stat.projects }}]{% unless forloop.last %},{% endunless %}
-	 {% endfor %}
-       ]
-     }
-   ]
-});
-</script>
+{% include stats-chart.html id='selections' type='bar' field='projects' label='採択数' %}
 
 
 <h2 id='rate' style="margin-bottom: 60px;">
@@ -189,57 +46,7 @@ Highcharts.chart('selections', {
   倍率の推移
 </h2>
 
-<div id="rates"></div>
-<script type="text/javascript">
-Highcharts.chart('rates', {
-   chart: {
-     type: 'line',
-     styledMode: true
-   },
-
-   title: {
-     text: ''
-   },
-
-   yAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     labels: {
-       enabled: false,
-     },
-   }],
-   xAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     type: 'datetime',
-     labels: {
-       format: '{value:%Y}',
-     },
-     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
-   }],
-
-   plotOptions: {
-     column: {
-       borderRadius: 5
-     }
-   },
-
-   series: [
-     {
-       name: '倍率',
-       data: [
-	 {% for stat in site.data.stats reversed %}
-	 [Date.parse('{{ stat.year }}'), {{ stat.competition_rate }}]{% unless forloop.last %},{% endunless %}
-	 {% endfor %}
-       ]
-     }
-   ]
-});
-</script>
+{% include stats-chart.html id='rates' type='line' field='competition_rate' label='倍率' %}
 
 
 <!-- 累計の統計情報 -->

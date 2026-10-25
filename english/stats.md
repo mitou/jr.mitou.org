@@ -7,58 +7,15 @@ lang:   en
 ---
 
 <style type="text/css">
-@import '/assets/css/highcharts.css';
-
-#container {
+.stats-chart {
+  position: relative;
   height: 400px;
   max-width: 800px;
   margin: 0 auto;
- }
-
- @media screen and (max-width: 800px) {
-   #container {
-     width: 98vw;
-     margin-left: calc(-49vw + 50%);
-   }
- }
-
-
-/* For series of applications */
-.highcharts-color-0 {
-  fill:   rgb(40, 161, 58);
-  stroke: rgb(40, 161, 58);
-}
-.highcharts-point {
-  fill: rgb(40, 161, 58);
-}
-.highcharts-axis-labels {
-  fill: #000000;
- }
-.highcharts-axis-line {
-  stroke: rgb(40, 161, 58);
-}
-
-/* For another series (Not using for now) */
-.highcharts-color-1 {
-  fill: #90ed7d;
-  stroke: #90ed7d;
-}
-.highcharts-axis.highcharts-color-1 .highcharts-axis-line {
-  stroke: #90ed7d;
-}
-.highcharts-axis.highcharts-color-1 text {
-  fill: #90ed7d;
-}
-
-.highcharts-axis-line {
-  stroke-width: 2px;
-}
-.highcharts-yaxis {
-  stroke-width: 0px;
 }
 </style>
 
-<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="/assets/js/Chart.bundle.js"></script>
 
 {% assign current_stat = site.data.stats[0] %}
 <p style='margin-top: 50px;'>This page provides statistics on the MITOU Junior program, including the number of applications, selected projects, and acceptance rate. Feel free to use and share this information.<br><br>In {{ current_stat.year }}, we received <b>{{ current_stat.applications }} applications</b> and supported <b>{{ current_stat.projects }} projects</b>, resulting in an acceptance rate of <b>{{ current_stat.acceptance_rate }}%</b>.</p>
@@ -68,164 +25,14 @@ lang:   en
 <!--<a href="/english" class="button">Back to top</a>-->
 
 <h2 style="margin-bottom: 60px;">Applications</h2>
-<div id="applications"></div>
-<script type="text/javascript">
-Highcharts.chart('applications', {
-   chart: {
-     type: 'column',
-     styledMode: true
-   },
-
-   title: {
-     text: ''
-   },
-
-   yAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     labels: {
-       enabled: false,
-     },
-   }],
-   xAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     type: 'datetime',
-     labels: {
-       format: '{value:%Y}',
-     },
-     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
-   }],
-
-   plotOptions: {
-     column: {
-       borderRadius: 5
-     }
-   },
-
-   series: [
-     {
-       name: 'Number of applications submitted',
-       data: [
-	 {% for stat in site.data.stats reversed %}
-	 [Date.parse('{{ stat.year }}'), {{ stat.applications }}]{% unless forloop.last %},{% endunless %}
-	 {% endfor %}
-       ]
-     }
-   ]
-});
-</script>
+{% include stats-chart.html id='applications' type='bar' field='applications' label='Number of applications submitted' %}
 
 <h2 style="margin-bottom: 60px;">Selected Projects</h2>
-<div id="selections"></div>
-<script type="text/javascript">
-Highcharts.chart('selections', {
-   chart: {
-     type: 'column',
-     styledMode: true
-   },
-
-   title: {
-     text: ''
-   },
-
-   yAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     labels: {
-       enabled: false,
-     },
-   }],
-   xAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     type: 'datetime',
-     labels: {
-       format: '{value:%Y}',
-     },
-     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
-   }],
-
-   plotOptions: {
-     column: {
-       borderRadius: 5
-     }
-   },
-
-   series: [
-     {
-       name: 'Number of projects selected',
-       data: [
-	 {% for stat in site.data.stats reversed %}
-	 [Date.parse('{{ stat.year }}'), {{ stat.projects }}]{% unless forloop.last %},{% endunless %}
-	 {% endfor %}
-       ]
-     }
-   ]
-});
-</script>
+{% include stats-chart.html id='selections' type='bar' field='projects' label='Number of projects selected' %}
 
 
 <h2 style="margin-bottom: 60px;">Acceptance Rate</h2>
-<div id="rates"></div>
-<script type="text/javascript">
-Highcharts.chart('rates', {
-   chart: {
-     type: 'line',
-     styledMode: true
-   },
-
-   title: {
-     text: ''
-   },
-
-   yAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     labels: {
-       enabled: false,
-     },
-   }],
-   xAxis: [{
-     className: 'highcharts-color-0',
-     title: {
-       text: ''
-     },
-     type: 'datetime',
-     labels: {
-       format: '{value:%Y}',
-     },
-     tickInterval: Date.UTC(2016, 0, 1) - Date.UTC(2015, 0, 1)
-   }],
-
-   plotOptions: {
-     column: {
-       borderRadius: 5
-     }
-   },
-
-   series: [
-     {
-       name: 'Acceptance Rate (%)',
-       data: [
-	 {% for stat in site.data.stats reversed %}
-	 [Date.parse('{{ stat.year }}'), {{ stat.acceptance_rate }}]{% unless forloop.last %},{% endunless %}
-	 {% endfor %}
-       ]
-     }
-   ]
-});
-</script>
+{% include stats-chart.html id='rates' type='line' field='acceptance_rate' label='Acceptance Rate (%)' %}
 
 
 {% for stat in site.data.stats %}

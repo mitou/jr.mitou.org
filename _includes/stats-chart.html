@@ -1,0 +1,63 @@
+{% comment %}
+  年度ごとの統計を Chart.js で描く（/stats と /english/stats）
+  使い方: {% include stats-chart.html id='applications' type='bar' field='applications' label='応募数' %}
+  見た目は、以前の Highcharts（styledMode）に合わせている
+{% endcomment %}
+<div class="stats-chart"><canvas id="{{ include.id }}"></canvas></div>
+<script type="text/javascript">
+(function () {
+  var green = 'rgb(40, 161, 58)';
+  var font  = '"Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif';
+  new Chart(document.getElementById('{{ include.id }}'), {
+    type: '{{ include.type }}',
+    data: {
+      labels: [{% for stat in site.data.stats reversed %}'{{ stat.year }}'{% unless forloop.last %}, {% endunless %}{% endfor %}],
+      datasets: [{
+        label: '{{ include.label }}',
+        data: [{% for stat in site.data.stats reversed %}{{ stat[include.field] }}{% unless forloop.last %}, {% endunless %}{% endfor %}],
+        backgroundColor: green,
+        borderColor: green,
+        borderWidth: {% if include.type == 'line' %}2{% else %}0{% endif %},
+        borderRadius: 5,
+        categoryPercentage: 0.6,
+        barPercentage: 0.8,
+        pointRadius: 4,
+        pointHoverRadius: 5,
+        pointBorderWidth: 0
+      }]
+    },
+    options: {
+      maintainAspectRatio: false,
+      animation: { duration: 500 },
+      interaction: { mode: 'index', intersect: false },
+      scales: {
+        x: {
+          grid: { display: false },
+          border: { color: green, width: 2 },
+          ticks: { color: '#000', font: { family: font, size: 11 } }
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: '#e6e6e6' },
+          border: { display: false },
+          ticks: { display: false }
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            usePointStyle: true,
+            pointStyle: 'circle',
+            boxWidth: 8,
+            boxHeight: 8,
+            color: '#333',
+            font: { family: font, size: 12, weight: 'bold' }
+          }
+        },
+        tooltip: { titleFont: { family: font }, bodyFont: { family: font } }
+      }
+    }
+  });
+})();
+</script>
