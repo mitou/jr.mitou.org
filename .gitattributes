@@ -12,6 +12,5 @@ _layouts/*  linguist-language=Ruby
 *.pdf binary
 
 # Exclude vendored files from statistics.
-assets/css/highcharts.css         linguist-vendored
-assets/css/highcharts.scss        linguist-vendored
+assets/js/Chart.bundle.js         linguist-vendored
 assets/js/simple-jekyll-search.js linguist-vendored

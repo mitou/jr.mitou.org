@@ -1,0 +1,113 @@
+{% comment %}
+  年度ごとの統計を Chart.js で描く（/stats と /english/stats）
+  使い方: {% include stats-chart.html id='applications' type='bar' field='applications' label='応募数' %}
+  見た目とマウスを重ねた時の動きは、以前の Highcharts（styledMode）に合わせている
+{% endcomment %}
+<div class="stats-chart"><canvas id="{{ include.id }}"></canvas></div>
+<script type="text/javascript">
+(function () {
+  var green = 'rgb(40, 161, 58)';
+  var font  = '"Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif';
+
+  // マウスを重ねた時の吹き出しを HTML で描く（Chart.js の吹き出しは値だけを太字にできない）。
+  // 薄い灰色の地に緑の枠と影、点を指す矢印、見出しはページの言語の年（「2021年」「2021」）
+  window.statsChartTooltip = window.statsChartTooltip || function (context) {
+    var chart  = context.chart;
+    var holder = chart.canvas.parentNode;
+    var box    = holder.querySelector('.stats-chart-tooltip');
+    if (!box) {
+      box = document.createElement('div');
+      box.className = 'stats-chart-tooltip';
+      box.style.cssText = 'position:absolute; z-index:1; pointer-events:none; white-space:nowrap; text-align:left;' +
+        'opacity:0; transition:opacity .15s; padding:5px 8px 6px; border:1px solid ' + green + '; border-radius:5px;' +
+        'background:rgba(247,247,247,0.85); box-shadow:1px 1px 3px rgba(0,0,0,0.25);' +
+        'color:#333; font-size:12px; line-height:16px; font-family:' + font + ';';
+      // 矢印は緑の三角に、地の色の三角を 1px ずらして重ねる
+      box.innerHTML = '<div class="arrow" style="position:absolute; bottom:-7px; margin-left:-7px; border:7px solid transparent; border-bottom:0; border-top-color:' + green + ';"></div>' +
+        '<div class="arrow" style="position:absolute; bottom:-6px; margin-left:-6px; border:6px solid transparent; border-bottom:0; border-top-color:#f7f7f7;"></div>' +
+        '<div><span class="header" style="font-size:10px;"></span><br><span style="color:' + green + ';">●</span> <span class="name"></span>: <b class="value"></b></div>';
+      holder.appendChild(box);
+    }
+
+    var tooltip = context.tooltip;
+    if (tooltip.opacity === 0 || !tooltip.dataPoints || !tooltip.dataPoints.length) {
+      box.style.opacity = 0;
+      return;
+    }
+
+    var point = tooltip.dataPoints[0];
+    var lang  = document.documentElement.lang || undefined;
+    box.querySelector('.header').textContent = new Intl.DateTimeFormat(lang, { year: 'numeric' }).format(new Date(Number(point.label), 0, 1));
+    box.querySelector('.name').textContent   = point.dataset.label;
+    box.querySelector('.value').textContent  = point.parsed.y.toLocaleString(lang);
+
+    // 点（棒は上端）の真上に置く。グラフの外にはみ出す時は箱だけずらし、矢印は点を指したままにする
+    var x = chart.canvas.offsetLeft + point.element.x;
+    var y = chart.canvas.offsetTop + point.element.y;
+    var left = Math.max(0, Math.min(x - box.offsetWidth / 2, holder.clientWidth - box.offsetWidth));
+    box.style.left = left + 'px';
+    box.style.top  = (y - box.offsetHeight - 10) + 'px';
+    box.querySelectorAll('.arrow').forEach(function (arrow) { arrow.style.left = (x - left) + 'px'; });
+    box.style.opacity = 1;
+  };
+
+  new Chart(document.getElementById('{{ include.id }}'), {
+    type: '{{ include.type }}',
+    data: {
+      labels: [{% for stat in site.data.stats reversed %}'{{ stat.year }}'{% unless forloop.last %}, {% endunless %}{% endfor %}],
+      datasets: [{
+        label: '{{ include.label }}',
+        data: [{% for stat in site.data.stats reversed %}{{ stat[include.field] }}{% unless forloop.last %}, {% endunless %}{% endfor %}],
+        backgroundColor: green,
+        borderColor: green,
+        borderWidth: {% if include.type == 'line' %}2{% else %}0{% endif %},
+        borderRadius: 5,
+        categoryPercentage: 0.6,
+        barPercentage: 0.8,
+        // マウスを重ねた棒は少し薄くする（Highcharts の fill-opacity: 0.75）
+        hoverBackgroundColor: 'rgba(40, 161, 58, 0.75)',
+        pointRadius: 4,
+        pointBorderWidth: 0,
+        // マウスを重ねた点は半径を 2 増やし、周りに半径 10・透明度 0.25 の輪を付ける（Highcharts の既定）
+        pointHoverRadius: 6,
+        pointHoverBorderWidth: 8,
+        pointHoverBorderColor: 'rgba(40, 161, 58, 0.25)',
+        pointHoverBackgroundColor: green
+      }]
+    },
+    options: {
+      maintainAspectRatio: false,
+      animation: { duration: 500 },
+      // 横方向で一番近い年を示す（Highcharts の既定）
+      interaction: { mode: 'nearest', axis: 'x', intersect: false },
+      scales: {
+        x: {
+          grid: { display: false },
+          border: { color: green, width: 2 },
+          ticks: { color: '#000', font: { family: font, size: 11 } }
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: '#e6e6e6' },
+          border: { display: false },
+          ticks: { display: false }
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            usePointStyle: true,
+            pointStyle: 'circle',
+            boxWidth: 8,
+            boxHeight: 8,
+            color: '#333',
+            font: { family: font, size: 12, weight: 'bold' }
+          }
+        },
+        tooltip: { enabled: false, external: window.statsChartTooltip }
+      }
+    }
+  });
+})();
+</script>
