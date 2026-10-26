@@ -10,10 +10,9 @@ on:
   # https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow
   workflow_dispatch:
 
-# GITHUB_TOKEN で main への push と、gh-pages への公開（peaceiris/actions-gh-pages）をするので書き込みが要る。
-# リポジトリの既定が読み取りだけでも動くように書いておく
+# test ジョブは読み取りだけで足りる（PR のコードがビルド中に GITHUB_TOKEN で書き込めないようにする）
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   # test ジョブは CI として常に実行する
@@ -49,6 +48,9 @@ jobs:
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     needs: test
     runs-on: ubuntu-latest
+    # GITHUB_TOKEN で main への push と、gh-pages への公開（peaceiris/actions-gh-pages）をするので書き込みが要る
+    permissions:
+      contents: write
     steps:
     - name: ☑️ Checkout code
       uses: actions/checkout@v7
