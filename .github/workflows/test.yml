@@ -10,6 +10,11 @@ on:
   # https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow
   workflow_dispatch:
 
+# GITHUB_TOKEN で main への push と、gh-pages への公開（peaceiris/actions-gh-pages）をするので書き込みが要る。
+# リポジトリの既定が読み取りだけでも動くように書いておく
+permissions:
+  contents: write
+
 jobs:
   # test ジョブは CI として常に実行する
   test:
