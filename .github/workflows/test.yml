@@ -20,12 +20,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: ☑️ Checkout code
-      uses: actions/checkout@v7
+      uses: actions/checkout@v7.0.1
       with:
         fetch-depth: 0
 
     - name: 💎 Setup Ruby
-      uses: ruby/setup-ruby@v1
+      uses: ruby/setup-ruby@v1.335.0
       with:
         bundler-cache: true
 
@@ -53,12 +53,12 @@ jobs:
       contents: write
     steps:
     - name: ☑️ Checkout code
-      uses: actions/checkout@v7
+      uses: actions/checkout@v7.0.1
       with:
         fetch-depth: 0
 
     - name: 💎 Setup Ruby
-      uses: ruby/setup-ruby@v1
+      uses: ruby/setup-ruby@v1.335.0
       with:
         bundler-cache: true
 
@@ -96,7 +96,7 @@ jobs:
 
     - name: 🚀 Deploy to GitHub Pages
       if:   github.ref == 'refs/heads/main' && job.status == 'success'
-      uses: peaceiris/actions-gh-pages@v4
+      uses: peaceiris/actions-gh-pages@v4.1.0
       with:
         personal_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir:    ./_site
