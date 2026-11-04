@@ -22,6 +22,7 @@ twitter_card: summary_large_image
 <p>2026年度の未踏ジュニア成果報告会を11月8日 (日) に、プラチナスポンサーとしてご支援いただいている、GMO インターネットグループ株式会社様の会場提供にて、<a href='https://peatix.com/event/5204084'>GMO Yours・フクラス</a>にて開催させていただきます。</p>
 
 <div class="flex">
+  <a class="button" href="https://peatix.com/event/5204084">現地参加を申し込む</a>
 </div>
 
 <!-- 3. ライブ配信 URL が決まったら、ページ冒頭に埋め込む -->
@@ -37,7 +38,6 @@ twitter_card: summary_large_image
 
 <div class='flex'>
   <a class="button" href="https://youtu.be/rJ2Nb3odExo">YouTube で見る</a>
-  <a class="button" href="https://peatix.com/event/5204084">現地参加を申し込む</a>
 </div>
 
 
