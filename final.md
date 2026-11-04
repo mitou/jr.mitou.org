@@ -5,6 +5,7 @@ this_year: 2026
 thumbnail: /assets/img/final_2026.png # 仮。素材支給後に差し替え
 description: 未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！
 twitter_card: summary_large_image
+live_autoplay: false # 発表当日は true にするとライブ配信がミュートで自動再生される
 
 # this_year を変更すると、表示したい年度の採択プロジェクトに切り替わります。
 # 成果報告会の公開準備が整ったら this_year を今年度の数字に変更してください。
@@ -31,9 +32,9 @@ twitter_card: summary_large_image
   ライブ配信
 </h2>
 
-<!-- NOTE: 発表当日は src パラメータに &autoplay=1&mute=1 を入れると、自動でライブ配信が見れる -->
+<!-- NOTE: 発表当日は front matter の live_autoplay を true にする。終わったら false に戻し、include に start=<秒> を足す -->
 <div class='youtube'>
-  {% include youtube-embed.html id="rJ2Nb3odExo" year=page.this_year title="未踏ジュニア成果報告会" %}
+  {% include youtube-embed.html id="rJ2Nb3odExo" year=page.this_year title="未踏ジュニア成果報告会" autoplay=page.live_autoplay %}
 </div>
 
 <div class='flex'>

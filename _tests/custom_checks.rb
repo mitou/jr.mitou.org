@@ -411,3 +411,18 @@ class VideoThumbnails < HTMLProofer::Check
     end
   end
 end
+
+# 成果報告会の当日は /final の front matter で live_autoplay: true にして自動再生する。
+# ブラウザはミュートしていない自動再生を止めるので autoplay と mute は必ず一緒に付け、
+# 部品（_includes/youtube-embed.html）を使う他のページには自動再生を出さない。
+class YouTubeAutoplay < HTMLProofer::Check
+  def run
+    @html.css('iframe[src*="youtube.com/embed"]').each do |node|
+      src = node['src']
+      next unless src.include?('autoplay=1')
+
+      add_failure("YouTube autoplay without mute=1: #{src}", line: node.line) unless src.include?('mute=1')
+      add_failure("YouTube autoplay outside /final: #{src}", line: node.line) unless @runner.current_filename == '_site/final.html'
+    end
+  end
+end
