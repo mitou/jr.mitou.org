@@ -127,14 +127,34 @@ live_autoplay: true # 発表当日は true にするとライブ配信がミュ�
 
 <ul>
   <li>
-    16:15 〜 17:15 作品展示（ポスター）・質疑応答（30分ずつ、前半10件／後半9件）<br>
-    <!-- もしデモ展示テーブルがあれば合わせて表示
-    18分 x 3回転  13分 x 3回転。<br>
-    1プロジェクトあたり2回ブース発表。<br>
-    <img width='100%' alt="デモ展示タイムターブル"
-     src="/assets/img/final_2024_demo.png"
-     loading="lazy" />
-    -->
+    16:15 〜 17:15 作品展示（ポスター）・質疑応答（30分ずつ、前半9件／後半10件）<br>
+    {% comment %} デモブースのタイムテーブル。「ブース:前半のプロジェクトID:後半のプロジェクトID」で並べる（空欄はそのまま空にする） {% endcomment %}
+    {% assign demo_booths = "A:pentect:frey,B:kintsugi_4d_dojo:monika,C:harmonic_seam:omochi,D:kinetic_fit:aroute,E:aqua_beacon:origami_cp,F:stellaphonic:unframe,G:minera_lens:esor_frame,H:mahgician:nagi,I:r_akanaly:invisible_mind,J::jenga_builder" | split: "," %}
+    <table class='final-demo-timetable'>
+      <thead>
+        <tr><th>ブース</th><th>前半 16:15 〜</th><th>後半 16:45 〜</th></tr>
+      </thead>
+      <tbody>
+        {% for booth in demo_booths %}
+        {% assign cols = booth | split: ":" %}
+        <tr>
+          <th>{{ cols[0] }}</th>
+          {% for i in (1..2) %}
+          {% assign demo_id = cols[i] | strip %}
+          {% assign demo_pj = site.data.projects | find: "id", demo_id %}
+          <td>{% if demo_pj %}<a href='/projects/{{ demo_pj.year }}/{{ demo_pj.id }}'>{{ demo_pj.title }}</a>{% else %}―{% endif %}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <style>
+      table.final-demo-timetable { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.9em; }
+      table.final-demo-timetable th,
+      table.final-demo-timetable td { border: 1px solid #ccc; padding: 0.4em 0.6em; vertical-align: top; text-align: left; }
+      table.final-demo-timetable thead th { background: #f5f5f5; white-space: nowrap; }
+      table.final-demo-timetable tbody th { text-align: center; white-space: nowrap; width: 3em; }
+    </style>
   </li>
   <li>17:15 〜 17:30 スポンサー賞発表・修了式</li>
 </ul>
