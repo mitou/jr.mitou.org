@@ -48,7 +48,7 @@ jobs:
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     needs: test
     runs-on: ubuntu-latest
-    # GITHUB_TOKEN で main への push と、gh-pages への公開（peaceiris/actions-gh-pages）をするので書き込みが要る
+    # GITHUB_TOKEN で main へ push する（_posts の自動生成）ので書き込みが要る
     permissions:
       contents: write
     steps:
@@ -94,9 +94,23 @@ jobs:
       run: |
         JEKYLL_ENV=production bundle exec jekyll build
 
-    - name: 🚀 Deploy to GitHub Pages
-      if:   github.ref == 'refs/heads/main' && job.status == 'success'
-      uses: peaceiris/actions-gh-pages@v4.1.0
+    # 公式の Pages の action で配る。以前は第三者の peaceiris/actions-gh-pages に書き込みのトークンを渡し、
+    # gh-pages ブランチへ push していた。ここではビルドした _site を成果物として上げ、下の pages ジョブが配る
+    - name: 📦 Upload site for GitHub Pages
+      uses: actions/upload-pages-artifact@v5.0.0
       with:
-        personal_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir:    ./_site
+        path: ./_site
+
+  pages:
+    name: 🚀 Deploy to GitHub Pages
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      pages:    write  # Pages に配る
+      id-token: write  # 配布元がこの workflow であることを確かめる
+    environment:
+      name: github-pages
+      url:  ${{ steps.deployment.outputs.page_url }}
+    steps:
+    - id:   deployment
+      uses: actions/deploy-pages@v5.0.1

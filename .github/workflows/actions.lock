@@ -10,7 +10,8 @@ workflows:
         - 'yasslab/dependabot_auto_merge@main'
     '.github/workflows/test.yml':
         - 'actions/checkout@v7.0.1'
-        - 'peaceiris/actions-gh-pages@v4.1.0'
+        - 'actions/deploy-pages@v5.0.1'
+        - 'actions/upload-pages-artifact@v5.0.0'
         - 'ruby/setup-ruby@v1.335.0'
     '.github/workflows/verify-lockfile.yml':
         - 'actions/checkout@v7.0.1'
@@ -20,6 +21,23 @@ dependencies:
         commit: 'sha1-3d3c42e5aac5ba805825da76410c181273ba90b1'
         owner_id: 44036562
         repo_id: 197814629
+    'actions/deploy-pages@v5.0.1':
+        ref: 'v5.0.1'
+        commit: 'sha1-368f82528645a54fb793d4d04e342629a3f51346'
+        owner_id: 44036562
+        repo_id: 438112499
+    'actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f':
+        ref: 'v7.0.0'
+        commit: 'sha1-bbbca2ddaa5d8feaa63e36b76fdaad77386f024f'
+        owner_id: 44036562
+        repo_id: 192625955
+    'actions/upload-pages-artifact@v5.0.0':
+        ref: 'v5.0.0'
+        commit: 'sha1-fc324d3547104276b827a68afc52ff2a11cc49c9'
+        owner_id: 44036562
+        repo_id: 496012378
+        uses:
+            - 'actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f'
     'dependabot/fetch-metadata@21025c705c08248db411dc16f3619e6b5f9ea21a':
         ref: 'v2.5.0'
         commit: 'sha1-21025c705c08248db411dc16f3619e6b5f9ea21a'
@@ -30,11 +48,6 @@ dependencies:
         commit: 'sha1-9b3254085494b55a0f7c4c2b3d2d52cc712ce370'
         owner_id: 9919
         repo_id: 259445878
-    'peaceiris/actions-gh-pages@v4.1.0':
-        ref: 'v4.1.0'
-        commit: 'sha1-84c30a85c19949d7eee79c4ff27748b70285e453'
-        owner_id: 30958501
-        repo_id: 187915200
     'ruby/setup-ruby@v1.335.0':
         ref: 'v1.335.0'
         commit: 'sha1-7f797815d8adceb1c412e7abefdd1ab4abc47a5f'
