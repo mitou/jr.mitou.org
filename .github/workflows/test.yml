@@ -48,9 +48,15 @@ jobs:
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     needs: test
     runs-on: ubuntu-latest
-    # GITHUB_TOKEN で main への push と、gh-pages への公開（peaceiris/actions-gh-pages）をするので書き込みが要る
+    # GITHUB_TOKEN で main への push をするので contents の書き込みが要る。
+    # Pages への公開（actions/deploy-pages）には pages と id-token の書き込みが要る
     permissions:
       contents: write
+      pages:    write
+      id-token: write
+    environment:
+      name: github-pages
+      url:  ${{ steps.deployment.outputs.page_url }}
     steps:
     - name: ☑️ Checkout code
       uses: actions/checkout@v7.0.1
@@ -94,9 +100,14 @@ jobs:
       run: |
         JEKYLL_ENV=production bundle exec jekyll build
 
-    - name: 🚀 Deploy to GitHub Pages
-      if:   github.ref == 'refs/heads/main' && job.status == 'success'
-      uses: peaceiris/actions-gh-pages@v4.1.0
+    - name: 📦 Upload site for GitHub Pages
+      uses: actions/upload-pages-artifact@v5.0.0
       with:
-        personal_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir:    ./_site
+        path: ./_site
+
+    # GitHub Pages 側のファイル反映 (syncing_files) が 10 分を超えることがあるので、既定の 10 分より長く待つ
+    - name: 🚀 Deploy to GitHub Pages
+      id:   deployment
+      uses: actions/deploy-pages@v5.0.1
+      with:
+        timeout: 2400000
