@@ -23,15 +23,12 @@ this_year: 2026
 
   <!--【〆切後のアナウンス】-->
   <!--<a href="/guideline" class="dialog ignore-sp">たくさんのご応募ありがとうございました!!</a>-->
-
   <!--【成果報告前のアナウンス】-->
-  <a href="/final" class="dialog ignore-sp">🆕 成果報告会の参加申込開始! (11月8日)</a>
-
+  <!--<a href="/final" class="dialog ignore-sp">🆕 成果報告会の参加申込開始! (11月8日)</a>-->
   <!--【成果報告日のアナウンス】-->
-  <!--<a href="/final" class="dialog ignore-sp">⚡️ 成果報告会、ライブ配信中！</a>-->
-
   <!--【成果報告後のアナウンス】-->
-  <!--<a href="/final" class="dialog ignore-sp">🆕 成果報告会の動画が公開されました！</a>-->
+  <a href="/final" class="dialog ignore-sp">🆕 成果報告会の動画が公開されました！</a>
+
 </div>
 
 <section id="about">
