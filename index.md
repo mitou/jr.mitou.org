@@ -26,6 +26,7 @@ this_year: 2026
   <!--【成果報告前のアナウンス】-->
   <!--<a href="/final" class="dialog ignore-sp">🆕 成果報告会の参加申込開始! (11月8日)</a>-->
   <!--【成果報告日のアナウンス】-->
+  <!--<a href="/final" class="dialog ignore-sp">⚡️ 成果報告会、ライブ配信中！</a>-->
   <!--【成果報告後のアナウンス】-->
   <a href="/final" class="dialog ignore-sp">🆕 成果報告会の動画が公開されました！</a>
 
@@ -136,7 +137,7 @@ this_year: 2026
     質問は <a href="https://twitter.com/mitoujr">@MitouJr</a> や<a href="/q-box">匿名質問箱</a>でも受付中！
   </p>
 
-  
+
   <div class='flex'>
     <a class="button" href="https://www.youtube.com/playlist?list=PLNObH2jlC6lc3c-gRpILyQrMhlqBIRjKr" target="_blank">応募者向けの動画を見る</a>
     <a class="button" href="/applications#tips">応募者向けの記事を見る</a>
