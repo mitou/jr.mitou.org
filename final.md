@@ -38,7 +38,7 @@ live_autoplay: false # 発表当日は true にするとライブ配信がミュ
 
 <!-- NOTE: 発表当日は front matter の live_autoplay を true にする。終わったら false に戻し、include に start=<秒> を足す -->
 <div class='youtube'>
-  {% include youtube-embed.html id="rJ2Nb3odExo" year=page.this_year title="未踏ジュニア成果報告会" autoplay=page.live_autoplay %}
+  {% include youtube-embed.html id="rJ2Nb3odExo" start=1765 year=page.this_year title="未踏ジュニア成果報告会" autoplay=page.live_autoplay %}
 </div>
 
 <div class='flex'>
