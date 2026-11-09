@@ -5,6 +5,8 @@ this_year: 2026
 thumbnail: /assets/img/final_2026.png # 仮。素材支給後に差し替え
 description: 未踏ジュニアに採択されたクリエータの成果一覧ページです。プロジェクト毎の詳細も辿れるのでぜひチェックしてみてください！
 twitter_card: summary_large_image
+live_id:    rJ2Nb3odExo # ライブ配信の YouTube の動画 ID。埋め込みと「YouTube で見る」の両方に使う
+live_start: 1765        # 配信が終わったら本編の開始秒を書く（配信前・配信中は 0）。埋め込みと「YouTube で見る」の両方に使う
 live_autoplay: false # 発表当日は true にするとライブ配信がミュートで自動再生される
 
 # this_year を変更すると、表示したい年度の採択プロジェクトに切り替わります。
@@ -36,13 +38,13 @@ live_autoplay: false # 発表当日は true にするとライブ配信がミュ
   ライブ配信
 </h2>
 
-<!-- NOTE: 発表当日は front matter の live_autoplay を true にする。終わったら false に戻し、include に start=<秒> を足す -->
+<!-- NOTE: 動画 ID と開始秒は front matter の live_id・live_start で変える。発表当日は live_autoplay を true にし、終わったら false に戻して live_start に本編の開始秒を書く -->
 <div class='youtube'>
-  {% include youtube-embed.html id="rJ2Nb3odExo" start=1765 year=page.this_year title="未踏ジュニア成果報告会" autoplay=page.live_autoplay %}
+  {% include youtube-embed.html id=page.live_id start=page.live_start year=page.this_year title="未踏ジュニア成果報告会" autoplay=page.live_autoplay %}
 </div>
 
 <div class='flex'>
-  <a class="button" href="https://youtu.be/rJ2Nb3odExo">YouTube で見る</a>
+  <a class="button" href="https://youtu.be/{{ page.live_id }}{% if page.live_start > 0 %}?t={{ page.live_start }}{% endif %}">YouTube で見る</a>
 </div>
 
 

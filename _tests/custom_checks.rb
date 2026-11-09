@@ -3,6 +3,7 @@
 
 require 'json'
 require 'yaml'
+require 'uri'
 
 # `rake test` は _config.yml でビルドするので、_site 内の絶対 URL はその `url` で始まる。
 SITE_URL = YAML.load_file('_config.yml').fetch('url') # => 'https://jr.mitou.org'
@@ -423,6 +424,32 @@ class YouTubeAutoplay < HTMLProofer::Check
 
       add_failure("YouTube autoplay without mute=1: #{src}", line: node.line) unless src.include?('mute=1')
       add_failure("YouTube autoplay outside /final: #{src}", line: node.line) unless @runner.current_filename == '_site/final.html'
+    end
+  end
+end
+
+# 埋め込みの開始秒（start=）と、同じ動画を開く「YouTube で見る」のリンクの開始秒（t=）をそろえる。
+# 2026 年の /final で埋め込みにだけ start を足し、リンクが動画の先頭（待機画面）を開いていた。
+class YouTubeStartTime < HTMLProofer::Check
+  def run
+    starts = {}
+    @html.css('iframe[src*="youtube.com/embed/"]').each do |node|
+      uri = URI(node['src'])
+      id  = uri.path.delete_prefix('/embed/')
+      next if id == 'videoseries'
+
+      starts[id] = URI.decode_www_form(uri.query.to_s).to_h['start'].to_i
+    end
+
+    @html.css('a[href^="https://youtu.be/"]').each do |node|
+      uri = URI(node['href'])
+      id  = uri.path.delete_prefix('/')
+      next unless starts.key?(id)
+
+      t = URI.decode_www_form(uri.query.to_s).to_h['t'].to_i
+      next if t == starts[id]
+
+      add_failure("Unmatched YouTube start time: embed start=#{starts[id]} but link #{node['href']}", line: node.line)
     end
   end
 end
