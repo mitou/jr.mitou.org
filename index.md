@@ -9,7 +9,7 @@ this_year: 2026
 ---
 
 <div class="cover-photo">
-  <img src="/assets/img/2025_cover.webp" alt="2025年度 未踏ジュニア集合写真" class="top-img">
+  <img src="/assets/img/2026_cover.webp" alt="2026年度 未踏ジュニア集合写真" class="top-img">
 
   <!--【チラシのアナウンス】-->
   <!--<a href="/flyers" class="dialog ignore-sp">🆕 チラシ配布のお願い (〆 2月2日 23:59)</a>-->
