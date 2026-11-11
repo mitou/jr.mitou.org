@@ -42,9 +42,9 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 2016年から未踏ジュニアが始まり、これまでに **{{ total_applications }} 件の応募をいただき、{{ total_creators }} 名のクリエータを支援・採択**してきました。
 
 <div class="cover-photo">
-  <img src="/assets/img/2025_cover.webp"
-     title="2025年度の未踏ジュニア集合写真 @ GMO Yours・フクラス" class="top-img"
-       alt="2025年度の未踏ジュニア集合写真 @ GMO Yours・フクラス">
+  <img src="/assets/img/2026_cover.webp"
+     title="2026年度の未踏ジュニア集合写真 @ GMO Yours・フクラス" class="top-img"
+       alt="2026年度の未踏ジュニア集合写真 @ GMO Yours・フクラス">
 
 </div>
 
