@@ -43,8 +43,8 @@ description: 小中高生クリエータ支援プログラム『未踏ジュニ�
 
 <div class="cover-photo">
   <img src="/assets/img/2026_cover.webp"
-     title="2025年度の未踏ジュニア集合写真 @ GMO Yours・フクラス" class="top-img"
-       alt="2025年度の未踏ジュニア集合写真 @ GMO Yours・フクラス">
+     title="2026年度の未踏ジュニア集合写真 @ GMO Yours・フクラス" class="top-img"
+       alt="2026年度の未踏ジュニア集合写真 @ GMO Yours・フクラス">
 
 </div>
 
