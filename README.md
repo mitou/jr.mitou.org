@@ -235,7 +235,8 @@ $ bundle exec rake test
 1. [`/projects`](https://github.com/mitou/jr.mitou.org/blob/main/projects) ディレクトリに `20xx.md` ファイルと `20xx.json` ファイルを追加する
 1. コメントアウトされているトップページ ([`index.md`](https://github.com/mitou/jr.mitou.org/blob/main/index.md?plain=1)) のアナウンス情報を更新する
 1. 成果報告会ページ ([`final.md`](https://github.com/mitou/jr.mitou.org/blob/main/final.md?plain=1) のコメント情報にしたがってサムネイル情報などを更新する
-1. 成果報告会が終わったら [`_data/finals.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/finals.md?plain=1) を更新する
+1. 成果報告会が終わったら [`_data/finals.yml`](https://github.com/mitou/jr.mitou.org/blob/main/_data/finals.yml) を更新する
+1. [お知らせに追記](#how-to-update-news)する。日付は成果報告会の開催日、リンク先は `/final` ではなく `https://jr.mitou.org/projects/20xx` (`/final` は毎年入れ替わるため) にする (例: `20xx年度の未踏ジュニア成果報告会を YouTube から公開 (公式)`)
 
 ローカル環境で生成結果を確認したい場合は、上記セクション「[Webサイトの仕組みを改善したい](https://github.com/mitou/jr.mitou.org#how-to-build)」の手順に沿って進めてください。
 
