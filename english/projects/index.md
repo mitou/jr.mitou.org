@@ -10,7 +10,7 @@ description: |
     {% assign total_creators = total_creators | plus: stat.creators %}
   {% endfor %}
   This pages showcases {{ total_projects }} projects accepted and boosted by MITOU Junior program for U-17.
-thumbnail: /assets/img/projects/index.webp
+thumbnail: /assets/img/projects/index_en.webp
 latest_en_year: 2026
 
 # latest_en_year を変更すると本ページの採択プロジェクトが切り替わります。
