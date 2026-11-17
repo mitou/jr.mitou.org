@@ -85,13 +85,13 @@ latest_en_year: 2026
 	<!-- Show thumbnail image if already set. -->
 	<a href="/english/projects/{{ pj.year }}/{{ pj.id }}">
 	  <img src="/assets/img/projects/{{ pj.year }}/{{ pj.thumbnail }}"
-           alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail" loading="lazy" />
+           alt="{{ pj.title_en | default: pj.title | escape }}" title="{{ pj.title_en | default: pj.title | escape }}" class="project-thumbnail" loading="lazy" />
 	</a>
 	{% else %}
 	<!-- Show WebP thumbnail image in the default path. -->
 	<a href="/english/projects/{{ pj.year }}/{{ pj.id }}">
 	  <img src="/assets/img/projects/{{ pj.year }}/{{ pj.id }}.webp"
-               alt="{{ pj.title }}" title="{{ pj.title }}" class="project-thumbnail" loading="lazy" />
+               alt="{{ pj.title_en | default: pj.title | escape }}" title="{{ pj.title_en | default: pj.title | escape }}" class="project-thumbnail" loading="lazy" />
 	</a>
 	{% endif %}
 
