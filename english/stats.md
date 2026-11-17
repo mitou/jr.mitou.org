@@ -2,7 +2,7 @@
 layout: post
 title:  Stats of MITOU Junior
 description: This page provides statistics on the MITOU Junior program, including the number of applications, selected projects, and acceptance rate. Feel free to use and share this information. In {{ site.data.stats[0].year }}, we received {{ site.data.stats[0].applications }} applications and supported {{ site.data.stats[0].projects }} projects, resulting in an acceptance rate of {{ site.data.stats[0].acceptance_rate }}%.
-thumbnail: /assets/img/stats.webp
+thumbnail: /assets/img/stats_en.webp
 lang:   en
 ---
 
