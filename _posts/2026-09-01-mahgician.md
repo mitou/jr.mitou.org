@@ -133,7 +133,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        MineraLens - A 3D Learning App...
       {% else %}
         MineraLens - 結晶構造から鉱物の「なぜ」を探る3...
       {% endif %}
@@ -145,7 +145,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        An Origami Crease Pattern Crea...
       {% else %}
         LLMを用いた折り紙展開図作成ツール
       {% endif %}

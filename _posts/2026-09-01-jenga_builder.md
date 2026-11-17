@@ -133,7 +133,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        r_AKanaly - A Fully Automated ...
       {% else %}
         r_AKanaly - 独自エージェントによる全自動コンピュ...
       {% endif %}
@@ -145,7 +145,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        ~ARoute~ "A 3D Map for Intuiti...
       {% else %}
         ~ARoute~「駅構内を直感的に理解できる3Dマップ」
       {% endif %}

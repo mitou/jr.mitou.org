@@ -133,7 +133,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        Stellaphonic - A New Way of St...
       {% else %}
         Stellaphonic - 音で宇宙を感じる新しい天体観測
       {% endif %}
@@ -145,7 +145,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        Mahgician - A Mahjong System T...
       {% else %}
         Mahgician - IoT牌によるリアルとデジタルを融合...
       {% endif %}

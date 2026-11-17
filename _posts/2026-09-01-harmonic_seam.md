@@ -133,7 +133,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        Kintsugi 4D Dojo — An Experien...
       {% else %}
         Kintsugi 4D Dojo ― 金継ぎを最高の思い出に...
       {% endif %}
@@ -145,7 +145,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        kinetic fit - Your Own Keyboar...
       {% else %}
         kinetic fit - スマホでスキャンするだけであなた...
       {% endif %}

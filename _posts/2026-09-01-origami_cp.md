@@ -133,7 +133,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        Mahgician - A Mahjong System T...
       {% else %}
         Mahgician - IoT牌によるリアルとデジタルを融合...
       {% endif %}
@@ -145,7 +145,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        Omochi - A Common Control Inte...
       {% else %}
         Omochi - あらゆるプログラムに、共通の操作口を
       {% endif %}

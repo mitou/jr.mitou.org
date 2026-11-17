@@ -133,7 +133,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        Unframe - A Presentation App U...
       {% else %}
         Unframe - MRを使ったプレゼンテーションアプリ
       {% endif %}
@@ -145,7 +145,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        nagi - A Device That Suppresse...
       {% else %}
         nagi - アトピー性皮膚炎の無意識の掻破行動を抑制するデバイス
       {% endif %}

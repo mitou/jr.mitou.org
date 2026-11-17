@@ -133,7 +133,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        HarmonicSeam - A Logic Verific...
       {% else %}
         HarmonicSeam - インタラクティブ音楽のための西...
       {% endif %}
@@ -145,7 +145,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        Pentect - A Secure Proxy for S...
       {% else %}
         Pentect - 機密情報をAIに安全に渡すためのセキュア...
       {% endif %}

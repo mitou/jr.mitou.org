@@ -133,7 +133,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        nagi - A Device That Suppresse...
       {% else %}
         nagi - アトピー性皮膚炎の無意識の掻破行動を抑制するデバイス
       {% endif %}
@@ -145,7 +145,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        AquaBeacon - A System for Loca...
       {% else %}
         AquaBeacon -光と音を組み合わせて藻場でも位置推定...
       {% endif %}

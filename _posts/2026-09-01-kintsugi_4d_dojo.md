@@ -133,7 +133,7 @@ twitter_card: summary_large_image
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
-        
+        AquaBeacon - A System for Loca...
       {% else %}
         AquaBeacon -光と音を組み合わせて藻場でも位置推定...
       {% endif %}
@@ -145,7 +145,7 @@ twitter_card: summary_large_image
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
-        
+        HarmonicSeam - A Logic Verific...
       {% else %}
         HarmonicSeam - インタラクティブ音楽のための西...
       {% endif %}
