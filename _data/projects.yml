@@ -41,7 +41,10 @@
 # 2026年度
 - id: aqua_beacon
   title: AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-
+  title_en: AquaBeacon - A System for Localization and Mapping Even in Seaweed Beds by Combining Light and Sound
   description: AquaBeaconは、水中での位置推定をより手軽に行うためのシンプルな手法を提案するプロジェクトです。水上の親機から音を送り、水中の子機までの距離を測るとともに、子機の光をカメラで捉えて方向を求めることで、子機の位置を推定します。この位置情報を水中映像と組み合わせ、藻場の分布を地図にする技術への応用を目指します。また、開発した仕組みをオープンソースとして公開し、幅広く活用できるようにします。
+  description_en: |
+    AquaBeacon is a project that proposes a simple method for making underwater localization easier. A base unit on the surface emits sound to measure the distance to an underwater unit, while a camera captures the light from the underwater unit to determine its direction, and together these estimate the unit's position. The project aims to combine this position information with underwater video and apply it to mapping the distribution of seaweed beds. The system will also be released as open source so that it can be widely used.
   intro: ujQCqB97oUU
   final: jGBAJyodWLg
   final_start: 31
@@ -53,7 +56,10 @@
 
 - id: kintsugi_4d_dojo
   title: Kintsugi 4D Dojo ― 金継ぎを最高の思い出にする体験・支援アプリ
+  title_en: Kintsugi 4D Dojo — An Experience and Support App That Makes Kintsugi a Lasting Memory
   description: 「Kintsugi 4D Dojo」は、金継ぎを「知っている」から「やってみよう」、そして「できた！」へ繋げるWebアプリです。撮影した写真で金継ぎをWeb上で疑似体験し、自分らしい修復方法を金継ぎ師のアドバイスを受けながら試すことができます。最後に、完成した作品を3Dで表現し、そこに込めた物語を組み合わせて「3D＋物語＝4D」として共有できます。あなたも「Kintsugi 4D Dojo」で、大切なものを自分の手で蘇らせてみませんか？
+  description_en: |
+    "Kintsugi 4D Dojo" is a web app that takes people from "knowing about" kintsugi to "let's try it" and then to "I did it!" Using a photo you take, you can try kintsugi virtually on the web and experiment with your own way of repairing while receiving advice from a kintsugi craftsperson. Finally, you can present the finished piece in 3D and share it together with the story behind it as "3D + Story = 4D." Why not try bringing something precious back to life with your own hands in "Kintsugi 4D Dojo"?
   final: a6tM41N4u1g
   final_start: 29
   year: 2026
@@ -64,7 +70,14 @@
 
 - id: harmonic_seam
   title: HarmonicSeam - インタラクティブ音楽のための西洋音楽理論に基づく論理検証エンジン
+  title_en: HarmonicSeam - A Logic Verification Engine Based on Western Music Theory for Interactive Music
   description: 映画の音楽は、場面の変わり目に合わせて書かれます。ゲームでは、いつ場面と曲が変わるかはプレイヤー次第です。HarmonicSeam は、楽譜データ（MIDI）を解析し、場面が変わると、音楽理論のうえで破綻せずに次の曲へ移れる瞬間まで待って切り替えます。<br><br>「調」が遠いときは、短い「橋」を規則どおりに書いて渡ります。<br><br>最初からそう編曲されていたかのような切り替えが作れます。聴けば早いので、動画もどうぞ。
+  description_en: |
+    Film music is written to match the transitions between scenes. In games, however, when the scene and the music change is up to the player. HarmonicSeam analyzes score data (MIDI) and, when the scene changes, waits until the moment it can move to the next piece without breaking the rules of music theory, then switches.
+
+    When the keys are far apart, it writes a short "bridge" by the rules and crosses over.
+
+    The result is a transition that sounds as if it had been arranged that way from the start. It is quickest to understand by listening, so please watch the video as well.
   intro: 3J9TTu-TL-8
   demo: Th9F_Nxc8Kg
   final: -XNiBGwfEeQ
@@ -77,7 +90,10 @@
 
 - id: kinetic_fit
   title: kinetic fit - スマホでスキャンするだけであなただけのキーボードを
+  title_en: kinetic fit - Your Own Keyboard, Just by Scanning with a Smartphone
   description: kinetic fitは、手のいくつかのポーズをスマートフォンで3Dスキャンし、そこから抽出される「骨格データ」とユーザーの普段のキーボード入力から抽出される「入力文書の解析」によりその人の体にフィットするキーボードの「筐体」と「配列」を生成します。このプロジェクトでは、必要な指の動きを少なくすることによる「タイピング速度の向上」と、手首の角度や肩の開き方の改善による「長期タイピングの疲労の軽減」を目的としています。
+  description_en: |
+    kinetic fit generates a keyboard "case" and "layout" that fit each user's body, using "skeletal data" extracted from 3D scans of several hand poses taken with a smartphone, together with an "analysis of typed text" extracted from the user's everyday keyboard input. The project aims to "increase typing speed" by reducing the finger movements required, and to "reduce fatigue from long typing sessions" by improving wrist angles and shoulder posture.
   final: XDTtRGsNfr4
   final_start: 60
   year: 2026
@@ -87,7 +103,10 @@
 
 - id: pentect
   title: Pentect - 機密情報をAIに安全に渡すためのセキュアプロキシ
+  title_en: Pentect - A Secure Proxy for Safely Passing Confidential Information to AI
   description: 「Pentect」は、AIエージェントの通信に含まれる機密情報をマスキングするセキュアプロキシです。APIキーやパスワード、個人情報などを検出し、隠します。マスキングした情報はツールの実行時にクライアントで復元するため、モデルに元の値を渡さずにAPI呼び出しなどを行えます。Claude CodeやCodexなどで利用できます。
+  description_en: |
+    "Pentect" is a secure proxy that masks confidential information contained in the communications of AI agents. It detects and hides API keys, passwords, personal information, and more. Because the masked information is restored on the client when a tool is executed, API calls and other operations can be performed without passing the original values to the model. It can be used with Claude Code, Codex, and other tools.
   final: 1z-UmLMzgMo
   final_start: 54
   year: 2026
@@ -98,7 +117,10 @@
 
 - id: stellaphonic
   title: Stellaphonic - 音で宇宙を感じる新しい天体観測
+  title_en: Stellaphonic - A New Way of Stargazing That Lets You Feel the Universe Through Sound
   description: Stellaphonicは、実在する星の位置を音に変え、耳を頼りに星を探して奏でるアプリです。スマートフォンを空へ向け、音の強弱や左右の違いから星の方向を探り、発見した星を画面上でなぞって演奏します。高齢者や視力が弱い人も星空に親しめることを目指し、旅行先やキャンプ場、街明かりで星が見えにくい場所での観察を支えます。祖父母と孫が発見を楽しみ、星座の形を音とともに記憶に残せる体験を届けます。
+  description_en: |
+    Stellaphonic is an app that turns the positions of real stars into sound, letting users find stars by ear and play them. Users point a smartphone at the sky, find the direction of a star from changes in loudness and differences between left and right, and then trace the stars they have found on the screen to perform. Aiming to help older people and people with low vision enjoy the night sky, it supports stargazing at travel destinations, campsites, and places where city lights make stars hard to see. It offers an experience in which grandparents and grandchildren enjoy discoveries together and remember the shapes of constellations along with their sounds.
   intro: 5Y_TAsdKTjg
   final: n4B-2qRvmI0
   final_start: 71
@@ -109,7 +131,10 @@
 
 - id: minera_lens
   title: MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ
+  title_en: MineraLens - A 3D Learning App for Exploring the "Why" of Minerals Through Crystal Structures
   description: 「MineraLens」は、鉱物の3Dモデルに結晶構造データによる原子配列を重ね、「見える鉱物」と「見えない構造」を同時に観察できる学習アプリです。例えばダイヤモンドと石墨を並べ、結合や結晶系から「なぜ硬さや劈開が違うのか？」を探ることができます。BASICモードは問いから観察へ、ADVANCEDモードは出典付きデータで検証へ。見た目・構造・性質をつなげ、「なぜ？」と発見が生まれる体験を作ります。
+  description_en: |
+    "MineraLens" is a learning app that overlays atomic arrangements from crystal structure data onto 3D models of minerals, so that users can observe "visible minerals" and "invisible structures" at the same time. For example, users can place diamond and graphite side by side and explore, from their bonds and crystal systems, "why do their hardness and cleavage differ?" BASIC mode leads from questions to observation, and ADVANCED mode leads to verification with sourced data. By connecting appearance, structure, and properties, it creates an experience in which questions and discoveries arise.
   final: Va2sgTAjh0M
   final_start: 50
   year: 2026
@@ -119,7 +144,10 @@
 
 - id: mahgician
   title: Mahgician - IoT牌によるリアルとデジタルを融合する麻雀システム
+  title_en: Mahgician - A Mahjong System That Blends the Real and the Digital with IoT Tiles
   description: 本プロジェクトでは、実物の麻雀牌を使った対面麻雀に、デジタルゲームのような演出やアシストを加えることを目指して、IoT麻雀牌とそれを用いた麻雀システムを開発しました。実物の牌を囲んで遊ぶ楽しさはそのままに、ゲーム状況に応じてリーチや和了を演出することで、リアル麻雀とデジタル麻雀のいいとこ取りをした、新しい麻雀体験を実現します。
+  description_en: |
+    In this project, we developed IoT mahjong tiles and a mahjong system that uses them, aiming to add the effects and assistance of digital games to face-to-face mahjong played with physical tiles. While keeping the fun of playing around real tiles, it presents effects for riichi and winning hands according to the state of the game, creating a new mahjong experience that combines the best of real and digital mahjong.
   final: _T0z1leUUpo
   final_start: 26
   year: 2026
@@ -129,7 +157,10 @@
 
 - id: origami_cp
   title: LLMを用いた折り紙展開図作成ツール
+  title_en: An Origami Crease Pattern Creation Tool Using LLMs
   description: 作りたい折り紙を言葉で伝えると、AIが新しい展開図と完成予想図を生成するツールです。正方形一枚から切らずに折れることや、山折り・谷折りの矛盾、完成形の見た目を確かめながら、生成と修正を繰り返します。既存の折り方を再現するだけでなく、専門的な知識や経験が必要だった創作折り紙を、より自由に楽しめる環境を目指します。
+  description_en: |
+    A tool in which AI generates a new crease pattern and a preview of the finished model when you describe in words the origami you want to make. It repeats generation and revision while checking that the model can be folded from a single square sheet without cutting, that there are no contradictions between mountain and valley folds, and how the finished model will look. Beyond reproducing existing folding methods, it aims to create an environment where people can enjoy creative origami, which used to require specialized knowledge and experience, more freely.
   final: EQ58ghDZ5FY
   final_start: 65
   year: 2026
@@ -139,7 +170,10 @@
 
 - id: omochi
   title: Omochi - あらゆるプログラムに、共通の操作口を
+  title_en: Omochi - A Common Control Interface for Every Program
   description: Omochiは、A2UIを活用して、プログラムに簡単に操作画面を追加するための仕組みです。それぞれのプログラムが提供する画面を組み合わせて、自分の用途に合ったダッシュボードを作れます。小さなスクリプトから、複数のPCで動くツール、エージェントとのやり取りまで。少ないコードで操作画面を用意し、一つのダッシュボードからまとめて使える環境を目指しています。
+  description_en: |
+    Omochi is a framework that uses A2UI to easily add control screens to programs. Users can combine the screens provided by each program to build a dashboard suited to their own needs. From small scripts to tools running across multiple PCs and interactions with agents, it aims to provide an environment where control screens can be prepared with little code and used together from a single dashboard.
   intro: bsFkfsSHJJA
   final: K652dGYDFlc
   final_start: 47
@@ -151,7 +185,10 @@
 
 - id: frey
   title: Frey - 地形から文明までの惑星シミュレータ
+  title_en: Frey - A Planet Simulator from Terrain to Civilization
   description: Freyは、シミュレーションから生まれた架空の惑星を観察し、「なぜ？」を辿ってゆくWebツールです。地形によって気候が変わり、それが食料生産、ひいては人口分布、産業にまで影響します。地図のレイヤーを切り替え、時間を動かすことで、普段は見えにくい自然環境と社会の関係を探ることができます。とある惑星の今ができるまでを、のぞいてみませんか？
+  description_en: |
+    Frey is a web tool for observing a fictional planet born from simulation and tracing the "why" behind it. Terrain shapes the climate, which in turn affects food production and, ultimately, population distribution and industry. By switching map layers and moving time forward, users can explore relationships between the natural environment and society that are usually hard to see. Why not take a look at how a certain planet came to be the way it is today?
   final: P2zUeP241ck
   final_start: 89
   year: 2026
@@ -161,8 +198,15 @@
 
 - id: monika
   title: "Monika: AIエージェントのための知識管理ツールチェイン"
+  title_en: 'Monika: A Knowledge Management Toolchain for AI Agents'
   link: https://github.com/KijitoraFinch/Monika
   description: メモやドキュメント、マニュアルなどなど、大量の文書を管理するのはとにかく大変です。ハイパーリンクや変更検知といった手法を使ってようやくまともに扱うことが可能になります。<br><br>実は、現代のAIエージェントは同様の問題に直面しています。LLMは長期的な記憶が十分ではなく、プロジェクトについての知識を文書で残す必要があります。しかしながら、現状実用的に行われている管理手法は、単なるフォルダ分けなどに留まっており、モデル性能の向上に伴い可能になった巨大なプロジェクトの遂行には対応できません。<br><br>Monikaは、エージェントの利用する知識管理のためのツールチェインを提供し、この問題にアプローチします。
+  description_en: |
+    Managing a large number of documents, such as notes, documentation, and manuals, is simply hard. Only with techniques such as hyperlinks and change detection does it finally become manageable.
+
+    In fact, today's AI agents face the same problem. LLMs lack sufficient long-term memory, so knowledge about a project needs to be kept in documents. However, the management methods in practical use today stop at simple folder organization and cannot support the large projects that have become feasible as model performance has improved.
+
+    Monika addresses this problem by providing a toolchain for managing the knowledge that agents use.
   final: 7R4OheAruXs
   final_start: 71
   year: 2026
@@ -172,7 +216,10 @@
 
 - id: r_akanaly
   title: r_AKanaly - 独自エージェントによる全自動コンピューターウイルス解析機
+  title_en: r_AKanaly - A Fully Automated Computer Virus Analyzer Using a Custom Agent
   description: r_AKanalyは、コンピューターウイルスを全自動で解析し報告書を作成するツールです。隔離環境でウイルスの動作を記録し、重要なつながりを残して圧縮します。生成AIがそこからウイルスの機能を推論し、それを手掛かりにプログラムの中身を仮想環境内の独自エージェントを活用し調べます。特徴や仕組みを判断の根拠とともに分かりやすい報告書にまとめ、セキュリティ製品の改善やウイルスの迅速な周知に役立てます。
+  description_en: |
+    r_AKanaly is a tool that analyzes computer viruses fully automatically and writes reports. It records the behavior of a virus in an isolated environment and compresses the record while keeping the important connections. Generative AI infers the virus's functions from it, and using these as clues, a custom agent examines the contents of the program inside a virtual environment. It summarizes the features and mechanisms, together with the grounds for each judgment, in an easy-to-understand report, helping to improve security products and to share information about viruses quickly.
   intro: jbducYlsGMo
   final: F8FC0ALlsC4
   final_start: 46
@@ -184,7 +231,10 @@
 
 - id: jenga_builder
   title: JengaBuilder - フィジカルAIによるジェンガタワーの全自動セットアップ
+  title_en: JengaBuilder - Fully Automated Jenga Tower Setup with Physical AI
   description: 本プロジェクトは、ロボットアーム「SO-101」を活用し、崩れたジェンガを全自動で積み直すシステムです。人間の遠隔操作の軌跡をAIに学習させることによる柔軟な動作と、ロボット特有のプログラムによる高精度な動きを共存させた自動化システムを構築します。全自動雀卓から着想を得た、シュールな面白さと、人間とロボットのインタラクションをテーマとした、エンターテインメントロボットの実現を目指します。
+  description_en: |
+    This project is a system that uses the "SO-101" robot arm to restack a collapsed Jenga tower fully automatically. It builds an automation system that combines flexible movements, learned by AI from the trajectories of human teleoperation, with the high-precision movements of programmed robot control. Inspired by automatic mahjong tables, it aims to create an entertainment robot themed on surreal fun and the interaction between humans and robots.
   final: N2IUp_7xoT8
   final_start: 25
   year: 2026
@@ -194,7 +244,10 @@
 
 - id: aroute
   title: ~ARoute~「駅構内を直感的に理解できる3Dマップ」
+  title_en: ~ARoute~ "A 3D Map for Intuitively Understanding Train Stations"
   description: 「ARoute」は、 駅という複雑な空間をわかりやすく表現する新しい3Dフロアマップです。従来の駅構内図の場合、階層の位置関係が把握しづらいという難点がありましたが、ARouteはボクセルを用いて立体的に表現することで、不要な情報を省きながら、階層同士のつながりを直感的に理解できます。また、マップ作成時には3D表示を保ちながら、各階層を2Dのレイヤーとして切り替え・簡単に編集ができるため、誰でも簡単に駅のマップを作成することができます。
+  description_en: |
+    "ARoute" is a new 3D floor map that presents the complex space of a train station in an easy-to-understand way. With conventional station maps, it is difficult to grasp how the floors are positioned relative to one another, but ARoute represents the station in 3D using voxels, leaving out unnecessary information so that users can intuitively understand how the floors connect. When creating a map, each floor can be switched and easily edited as a 2D layer while keeping the 3D view, so anyone can easily create a station map.
   final: n-289L6Z_KM
   final_start: 34
   year: 2026
@@ -205,7 +258,10 @@
 
 - id: unframe
   title: Unframe - MRを使ったプレゼンテーションアプリ
+  title_en: Unframe - A Presentation App Using MR
   description: MRはPCにはない表現能力を持っています。しかし、ただ単純にその表現能力をプレゼンに活用しようとすれば、表現の広さからかえって情報を見づらくし、プレゼンに必要な情報を見やすくまとめる力を損なわせてしまいます。Unframeは、MRをプレゼンテーションで活用することで起こる問題を身体やアニメーションを使って打ち消し、枠にとらわれない新しいプレゼンの形を作り出します。
+  description_en: |
+    MR has expressive capabilities that PCs do not. However, simply using those capabilities in presentations can make information harder to see because of their very breadth, undermining a presentation's ability to organize the necessary information clearly. Unframe uses the body and animation to counteract the problems that arise when MR is used in presentations, creating a new form of presentation that is not bound by a frame.
   final: jMhocnUvzeM
   final_start: 100
   year: 2026
@@ -217,7 +273,10 @@
 
 - id: esor_frame
   title: EsorFrame - 悩みを前進させるAI相談支援サービス
+  title_en: EsorFrame - An AI Counseling Support Service That Helps You Move Forward with Your Worries
   description: EsorFrameは、より良いAI相談支援のあり方を探り、そこで得た知見を活かしながら開発している内省支援Webアプリです。悩みを「話して終わり」にせず、AIとの対話から事実・解釈・別の見方・取れる行動を整理して可視化し、必要に応じて異なる視点も提示します。実際の開発や検証を重ねながら支援の形そのものを問い直し、次の一歩や、その先の自己解決につながる仕組みを目指しています。
+  description_en: |
+    EsorFrame is a web app that supports self-reflection, developed while exploring better forms of AI counseling support and applying the insights gained. Rather than letting worries end with "just talking," it organizes and visualizes facts, interpretations, other perspectives, and possible actions through dialogue with AI, and presents different viewpoints when needed. Through repeated development and testing, it keeps rethinking the form of support itself, aiming for a system that leads to the next step and, beyond that, to resolving worries on one's own.
   final: AdPk0Og7jDk
   final_start: 50
   year: 2026
@@ -227,7 +286,10 @@
 
 - id: nagi
   title: nagi - アトピー性皮膚炎の無意識の掻破行動を抑制するデバイス
+  title_en: nagi - A Device That Suppresses Unconscious Scratching in Atopic Dermatitis
   description: アトピーが治らない原因は、本当にかゆみだけなのでしょうか？実は、ストレスや習慣によって、かゆくなくても快感や安心感を求めて掻いてしまう行動があります。では、その掻破に気づかせ、得ていた報酬を別の刺激に置き換えられたら？nagiは、この仮説をもとに、振動による気づきと報酬の代替感覚の2段階で掻破行動を抑制し、ストレスと掻破の結びつきを断つことで、アトピー性皮膚炎の完治への一歩を目指すデバイスです。
+  description_en: |
+    Is itching really the only reason atopic dermatitis does not heal? In fact, because of stress or habit, people may scratch even when they are not itchy, seeking pleasure or a sense of relief. What if we could make people aware of that scratching and replace the reward they were getting with a different stimulus? Based on this hypothesis, nagi is a device that suppresses scratching in two stages, awareness through vibration and a substitute sensation for the reward, and aims to take a step toward completely healing atopic dermatitis by breaking the link between stress and scratching.
   final: xOzksbLKS2k
   final_start: 116
   year: 2026
@@ -237,7 +299,10 @@
 
 - id: invisible_mind
   title: InvisibleMind - LLMエージェントを用いた人工経済による経済学教育アプリ
+  title_en: InvisibleMind - An Economics Education App Using an Artificial Economy with LLM Agents
   description: 「InvisibleMind」は、LLMエージェントが暮らす人工経済で経済学を学ぶアプリです。教科書の経済学は常に合理的な人間を前提にしますが、現実の人はそうではありません。史実を元にしたシナリオで政策や予測を試すと、経済の動きをシミュレーションで確かめられ、大家や市民などの登場人物に「なぜそう動いたのか」をインタビューできます。経済理論が生まれた順に、前の理論がなぜ外れたのかを辿ってみませんか？
+  description_en: |
+    "InvisibleMind" is an app for learning economics in an artificial economy inhabited by LLM agents. Textbook economics always assumes rational people, but real people are not like that. By trying policies and predictions in scenarios based on historical events, users can check how the economy moves through simulation and interview characters such as landlords and citizens about "why they acted that way." Why not trace economic theories in the order they emerged and find out why the earlier theories missed the mark?
   intro: fkF-3jiEJHc
   final: rFzqlMUf8rM
   final_start: 60
