@@ -12,7 +12,7 @@ latest_en_year: 2026
 
 ## [<i class="fa-light fa-mountain"></i>](#about) What's MITOU Junior? {#about}
 
-MITOU Junior is a half-year-long program to enhance young innovative creators in Japan. This program, initiated by the [MITOU Foundation](https://www.mitou.org/index_en.html) in 2016 and originating from the government-backed [MITOU Program](https://www.ipa.go.jp/en/about/it-talents/mitou.html), has received support from various companies and organizations since its inception. With that support we offer the following benefits.
+MITOU Junior is a half-year-long program that supports young innovative creators in Japan. This program, initiated by the [MITOU Foundation](https://www.mitou.org/index_en.html) in 2016 and originating from the government-backed [MITOU Program](https://www.ipa.go.jp/en/about/it-talents/mitou.html), has received support from various companies and organizations since its inception. With that support we offer the following benefits.
 
 <br>
 
@@ -31,7 +31,7 @@ Creators will be able to learn from mentors and other [MITOU Program](https://ww
   <meta itemprop="contentUrl"           content="https://youtube.googleapis.com/v/qcMk-CLo21c">
   <meta itemprop="embedUrl"             content="https://www.youtube.com/embed/qcMk-CLo21c?rel=0">
   <meta itemprop="name"                 content="What is MITOU Junior program?">
-  <meta itemprop="description"          content="MITOU Junior is a half-year-long program to enhance young innovative creators in Japan. This program, initiated by the MITOU Foundation in 2016 and originating from the government-backed MITOU Program, has received support from various companies and organizations since its inception. With that support we offer the following benefits.">
+  <meta itemprop="description"          content="MITOU Junior is a half-year-long program that supports young innovative creators in Japan. This program, initiated by the MITOU Foundation in 2016 and originating from the government-backed MITOU Program, has received support from various companies and organizations since its inception. With that support we offer the following benefits.">
 
   {% include youtube-embed.html id="qcMk-CLo21c" title="What is MITOU Junior program?" %}
 </div>
