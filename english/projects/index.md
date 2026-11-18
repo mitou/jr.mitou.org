@@ -9,7 +9,7 @@ description: |
     {% assign total_projects = total_projects | plus: stat.projects %}
     {% assign total_creators = total_creators | plus: stat.creators %}
   {% endfor %}
-  This pages showcases {{ total_projects }} projects accepted and boosted by MITOU Junior program for U-17.
+  This page showcases {{ total_projects }} projects accepted and boosted by MITOU Junior program for U-17.
 thumbnail: /assets/img/projects/index_en.webp
 latest_en_year: 2026
 
@@ -31,7 +31,7 @@ latest_en_year: 2026
     U-17 Projects
   </h2>
   <p>
-    This pages showcases projects accepted and boosted by <a href='/english'>MITOU Junior</a> program for U-17. (<strong>{{ total_projects }} projects</strong> / <strong>{{ total_creators }} creators</strong>)
+    This page showcases projects accepted and boosted by <a href='/english'>MITOU Junior</a> program for U-17. (<strong>{{ total_projects }} projects</strong> / <strong>{{ total_creators }} creators</strong>; see <a href='/english/stats'>Stats</a>)
   </p>
 
   <ul style="list-style: none; text-align: center; padding: 30px 0px;">
