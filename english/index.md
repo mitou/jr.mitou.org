@@ -63,7 +63,7 @@ If necessary, places to develop will be provided. And transportation and accommo
 
 ### [<i class="fas fa-link green"></i>](#supports-awarding) Award outstanding performance {#supports-awarding}
 
-Creators who have shown their outstanding performance during MITOU Junior program get an outstanding performance award. The award is highly recognized for Admissions Office of several universities, including [Keio University SFC](https://www.sfc.keio.ac.jp/en/), [Kindai University](https://www.kindai.ac.jp/english/) and [Tokyo Metropolitan University](https://www.tmu.ac.jp/english/index.html).
+Creators who have shown their outstanding performance during MITOU Junior program get an outstanding performance award. The award is highly recognized by the admissions offices of several universities, including [Keio University SFC](https://www.sfc.keio.ac.jp/en/), [Kindai University](https://www.kindai.ac.jp/english/) and [Tokyo Metropolitan University](https://www.tmu.ac.jp/english/index.html).
 
 <img src="/assets/img/about_awarding.webp"
  title="Award ceremony for graduates of the MITOU Junior program at The University of Tokyo." class="top-img" loading="lazy"
@@ -108,7 +108,7 @@ Our alumni are creating new values after the program as well. Here are a few exa
 
 ## [<i class="fa-light fa-books"></i>](#showcase) Projects Showcase {#showcase}
 
-Up to now <strong>{{ total_applications }} applications</strong> are submitted to our MITOU Junior program, and we support <strong>{{ total_projects }} projects</strong> and <strong>{{ total_creators }} creators</strong>. ([Acceptance rate in the last 3 years: {{ recent_rates.first }}-{{ recent_rates.last }}%](/english/stats))
+So far, <strong>{{ total_applications }} applications</strong> have been submitted to the MITOU Junior program, and we have supported <strong>{{ total_projects }} projects</strong> and <strong>{{ total_creators }} creators</strong>. ([Acceptance rate in the last 3 years: {{ recent_rates.first }}-{{ recent_rates.last }}%](/english/stats))
 
 <!-- Projects を時系列順にソートし、初年度と最新年度を取得する -->
 {% assign oldest_pj = site.data.projects | sort: 'year' | first %}
@@ -216,7 +216,7 @@ Example projects, accepted and boosted by our program, are as follows.
 
 - **Target:** Individuals and groups (up to 4 members) who are 17 years old or younger as of April 1st.
 - **Due Date:** The application form typically opens on March 10th and closes in early April.
-- **Duration:** About 6 months support from June to November, including [Demo Day](/final) at the end.
+- **Duration:** About 6 months of support from June to November, including [Demo Day](/final) at the end.
 - **Fee:** Free
   - Transportation and accommodation costs for events such as the kickoff camp and demo day will also be covered.
 
@@ -275,4 +275,4 @@ Example timeline. Details may vary from year to year.
 
 ## [<i class="fa-light fa-hand-holding-heart"></i>](#sponsors) Sponsors & Supporters {#sponsors}
 
-MITOU Junior program has 10+ financial and in-kind sponsors. Also we have 10+ supporters, including MEXT ([Ministry of Education, Culture, Sports, Science and Technology](https://www.mext.go.jp/en/)) and METI ([Ministry of Economy, Trade and Industry](https://www.meti.go.jp/english/)).
+MITOU Junior program has 10+ financial and in-kind sponsors. We also have 10+ supporters, including MEXT ([Ministry of Education, Culture, Sports, Science and Technology](https://www.mext.go.jp/en/)) and METI ([Ministry of Economy, Trade and Industry](https://www.meti.go.jp/english/)).

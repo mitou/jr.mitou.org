@@ -54,7 +54,7 @@ sponsorText:
 
 supporterHeading:
   ja: '後援 '
-  en: 'Supported by Japanese goverment'
+  en: 'Supported by the Japanese government'
 
 collaboratorHeading:
   ja: '協力団体'
@@ -76,7 +76,7 @@ altThumbnail:
 
 downloadOnGitHub:
   ja: ダウンロードする
-  en: Donwload codes on GitHub
+  en: Download code on GitHub
 
 viewOnGitHub:
   ja: ソースコードを見る
