@@ -50,9 +50,9 @@ lang:   en
 </ul>
 
 {% if stat.year == 2016 %}
-<b>{{ stat.creators }} creators</b> joined in the MITOU Junior program in {{ stat.year }}. Outstanding performace award started since 2017, so N/A this year.
+<b>{{ stat.creators }} creators</b> joined the MITOU Junior program in {{ stat.year }}. The outstanding performance award started in 2017, so N/A this year.
 {% elsif stat.creators and stat.spc %}
-<b>{{ stat.creators }} creators</b> joined in the MITOU Junior program in {{ stat.year }}. <b>{{ stat.spc }} in {{ stat.creators }} creators ({{ stat.spc_rate }} %)</b> received an outstanding performance award this year.
+<b>{{ stat.creators }} creators</b> joined the MITOU Junior program in {{ stat.year }}. <b>{{ stat.spc }} of {{ stat.creators }} creators ({{ stat.spc_rate }} %)</b> received an outstanding performance award this year.
 {% else %}
 MITOU Junior program in {{ stat.year }} is now in progress. Number of creators and who received outstanding performance award will be published by late this year or early next year.
 {% endif %}
