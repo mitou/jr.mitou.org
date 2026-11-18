@@ -17,7 +17,8 @@
       if (frame.contentWindow) frame.contentWindow.postMessage(JSON.stringify(message), ORIGIN);
     }
 
-    // プレイヤーは listening を受け取ってから状態を送り返す。準備ができるまで送り直す
+    // プレイヤーは listening を受け取ってから状態を送り返す。返事が来るまで送り直す
+    // （iframe の load を待つと、先に読み込み終えた時に取りこぼすので、すぐ送り始める）
     var tries = 0;
     var timer = setInterval(function () {
       if (heard || ++tries > 40) return clearInterval(timer);
@@ -26,14 +27,13 @@
 
     window.addEventListener('message', function (event) {
       if (event.origin !== ORIGIN || event.source !== frame.contentWindow) return;
-      heard = true;
 
       var data;
       try { data = JSON.parse(event.data); } catch (e) { return; }
+      if (!data.info) return;
+      heard = true;
 
-      var playing = (data.event === 'onStateChange' && data.info === 1) ||
-                    (data.event === 'infoDelivery' && data.info && data.info.playerState === 1);
-      if (!playing || applied) return;
+      if (data.event !== 'infoDelivery' || data.info.playerState !== 1 || applied) return;
 
       // 字幕は再生が始まってから読み込まれるので、最初の再生で 1 回だけ指定する
       applied = true;

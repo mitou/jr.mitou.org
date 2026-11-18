@@ -111,7 +111,7 @@ twitter_card: summary_large_image
 <div class="note" style="margin-top: 30px;">
   <span style="font-weight: bold; margin-left: -4px;">English subtitles:</span><br>
   They turn on automatically when you play the video.<br>
-  If not: Click <strong>Watch on YouTube</strong> below <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
+  If they don&#39;t: Click <strong>Watch on YouTube</strong> below <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
   Click CC icon <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
   Click Settings <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
   Click Subtitles/CC <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
