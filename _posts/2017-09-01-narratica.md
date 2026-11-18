@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='anki_cookie' title='暗記クッキー'>
+    <a href='anki_cookie' title='{% if page.lang == "en" %}Memory Cookies{% else %}暗記クッキー{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='savacs' title='見守りフォトスタンド'>
+    <a href='savacs' title='{% if page.lang == "en" %}Monitoring Photo Stand{% else %}見守りフォトスタンド{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

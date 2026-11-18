@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='smart_pen' title='スマートペン'>
+    <a href='smart_pen' title='{% if page.lang == "en" %}Smart Pen{% else %}スマートペン{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='vr_picture_book_maker' title='VR絵本メーカー'>
+    <a href='vr_picture_book_maker' title='{% if page.lang == "en" %}VR Picture Book Maker{% else %}VR絵本メーカー{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='curepathy' title='Curepathy -子供の興味を深めるアプリ-'>
+    <a href='curepathy' title='{% if page.lang == "en" %}Curepathy - An App to Deepen Children&#39;s Interests{% else %}Curepathy -子供の興味を深めるアプリ-{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='augment' title='Augment － リアルタイム音階推定を用いた音楽ゲーム'>
+    <a href='augment' title='{% if page.lang == "en" %}Augment - A Music Game Utilizing Real-Time Scale Estimation{% else %}Augment － リアルタイム音階推定を用いた音楽ゲーム{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

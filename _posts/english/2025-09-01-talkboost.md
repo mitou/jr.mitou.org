@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='nextrouter' title='NextRouter -ベストエフォート型光回線を複数利用することで高速に通信を行うルータの開発-'>
+    <a href='nextrouter' title='{% if page.lang == "en" %}NextRouter - Development of a Router That Achieves High-Speed Communication by Utilizing Multiple Best-Effort Optical Lines{% else %}NextRouter -ベストエフォート型光回線を複数利用することで高速に通信を行うルータの開発-{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='kigo' title='KIGO -ろう者と健常者の間の心理的な壁を越える装置-'>
+    <a href='kigo' title='{% if page.lang == "en" %}KIGO - A Device to Bridge the Psychological Gap Between Deaf and Hearing People -{% else %}KIGO -ろう者と健常者の間の心理的な壁を越える装置-{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

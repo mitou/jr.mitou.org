@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='spaghetian' title='Spaghetian - 電気と電磁石だけでCPUを自作する！'>
+    <a href='spaghetian' title='{% if page.lang == "en" %}Spaghetian - Building a CPU Using Only Electricity and Electromagnets{% else %}Spaghetian - 電気と電磁石だけでCPUを自作する！{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='poet' title='Poet ~詩人のための創作ツール~'>
+    <a href='poet' title='{% if page.lang == "en" %}Poet ~A Creative Tool for Poets~{% else %}Poet ~詩人のための創作ツール~{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

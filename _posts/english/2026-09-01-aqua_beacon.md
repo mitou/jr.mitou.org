@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='invisible_mind' title='InvisibleMind - LLMエージェントを用いた人工経済による経済学教育アプリ'>
+    <a href='invisible_mind' title='{% if page.lang == "en" %}InvisibleMind - An Economics Education App Using an Artificial Economy with LLM Agents{% else %}InvisibleMind - LLMエージェントを用いた人工経済による経済学教育アプリ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='kintsugi_4d_dojo' title='Kintsugi 4D Dojo ― 金継ぎを最高の思い出にする体験・支援アプリ'>
+    <a href='kintsugi_4d_dojo' title='{% if page.lang == "en" %}Kintsugi 4D Dojo — An Experience and Support App That Makes Kintsugi a Lasting Memory{% else %}Kintsugi 4D Dojo ― 金継ぎを最高の思い出にする体験・支援アプリ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

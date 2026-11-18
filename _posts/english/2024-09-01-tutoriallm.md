@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='co_encoder' title='Co-Encoder - LLMのためのコンテキスト圧縮エンコーダ'>
+    <a href='co_encoder' title='{% if page.lang == "en" %}Co-Encoder - Context Compression Encoder for LLMs{% else %}Co-Encoder - LLMのためのコンテキスト圧縮エンコーダ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='qwet' title='QWET -  感動を撒き散らす世界初3Dライブエンジン'>
+    <a href='qwet' title='{% if page.lang == "en" %}QWET - The World&#39;s First 3D Live Engine That Spreads Emotion{% else %}QWET -  感動を撒き散らす世界初3Dライブエンジン{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

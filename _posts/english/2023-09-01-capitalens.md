@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='stask' title='Stask - 学生の課題進捗を助けるアプリ'>
+    <a href='stask' title='{% if page.lang == "en" %}Stask - An App to Assist Students with Task Progress{% else %}Stask - 学生の課題進捗を助けるアプリ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='3d_printed_brushless_motor' title='3Dプリンタで作る自作モーター'>
+    <a href='3d_printed_brushless_motor' title='{% if page.lang == "en" %}Creating a DIY Motor with a 3D Printer{% else %}3Dプリンタで作る自作モーター{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

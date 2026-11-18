@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='tactica_note' title='TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート'>
+    <a href='tactica_note' title='{% if page.lang == "en" %}TacticaNote - A Soccer Notebook to Support Verbalization for Youth Players{% else %}TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='inton' title='INTON - 放送部員のためのイントネーション練習アプリ'>
+    <a href='inton' title='{% if page.lang == "en" %}INTON - Intonation Practice App for Broadcasting Club Members{% else %}INTON - 放送部員のためのイントネーション練習アプリ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

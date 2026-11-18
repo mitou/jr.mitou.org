@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='utips' title='UTIPS - 家事の情報共有サービス'>
+    <a href='utips' title='{% if page.lang == "en" %}UTIPS - Household Information Sharing Service{% else %}UTIPS - 家事の情報共有サービス{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='smile_meeting_room' title='スマイル会議室 - IoTで会議室の効率的な利用を'>
+    <a href='smile_meeting_room' title='{% if page.lang == "en" %}Smile Conference Room - Efficient Use of Conference Rooms with IoT{% else %}スマイル会議室 - IoTで会議室の効率的な利用を{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

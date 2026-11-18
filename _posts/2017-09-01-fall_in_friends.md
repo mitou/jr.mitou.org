@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='savacs' title='見守りフォトスタンド'>
+    <a href='savacs' title='{% if page.lang == "en" %}Monitoring Photo Stand{% else %}見守りフォトスタンド{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='draw_code' title='DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜'>
+    <a href='draw_code' title='{% if page.lang == "en" %}DrawCode: Create HTML Freely by Connecting Blocks{% else %}DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

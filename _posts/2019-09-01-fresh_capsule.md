@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='tea' title='Tea - 仮想経済シミュレーションプラットフォームとゲーム'>
+    <a href='tea' title='{% if page.lang == "en" %}Tea - Virtual Economy Simulation Platform and Game{% else %}Tea - 仮想経済シミュレーションプラットフォームとゲーム{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='smart_vj' title='SmartVJ - 参加型の新しいメディアアート'>
+    <a href='smart_vj' title='{% if page.lang == "en" %}SmartVJ - A New Form of Participatory Media Art{% else %}SmartVJ - 参加型の新しいメディアアート{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

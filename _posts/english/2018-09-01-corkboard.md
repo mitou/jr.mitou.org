@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='vreath' title='Vreath - 暗号通貨の入手障壁を下げるための、独自合意アルゴリズムの開発'>
+    <a href='vreath' title='{% if page.lang == "en" %}Vreath - Development of a Unique Consensus Algorithm to Lower Barriers to Acquiring Cryptocurrency{% else %}Vreath - 暗号通貨の入手障壁を下げるための、独自合意アルゴリズムの開発{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='touch_buy' title='TouchBuy - VRにおけるECの在り方の模索'>
+    <a href='touch_buy' title='{% if page.lang == "en" %}TouchBuy - Exploring the Future of E-Commerce in VR{% else %}TouchBuy - VRにおけるECの在り方の模索{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

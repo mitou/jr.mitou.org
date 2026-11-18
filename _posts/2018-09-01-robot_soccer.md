@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='touch_buy' title='TouchBuy - VRにおけるECの在り方の模索'>
+    <a href='touch_buy' title='{% if page.lang == "en" %}TouchBuy - Exploring the Future of E-Commerce in VR{% else %}TouchBuy - VRにおけるECの在り方の模索{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='memory_capsule' title='メモリーカプセル - カプセルを通して繋がるSNS'>
+    <a href='memory_capsule' title='{% if page.lang == "en" %}Memory Capsule - A Social Networking Service Connecting Through Capsules{% else %}メモリーカプセル - カプセルを通して繋がるSNS{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

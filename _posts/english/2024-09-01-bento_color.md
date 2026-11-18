@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='sakubun_otasuke' title='作文おたすけアプリ - 作文が苦手をお手伝いするアプリ'>
+    <a href='sakubun_otasuke' title='{% if page.lang == "en" %}Essay Assistance App - An App to Help Those Who Struggle with Writing Essays{% else %}作文おたすけアプリ - 作文が苦手をお手伝いするアプリ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='mimamori_compass' title='みまもりコンパス - 認知症高齢者のための発見共有システム'>
+    <a href='mimamori_compass' title='{% if page.lang == "en" %}Monitoring Compass - A Discovery Sharing System for Elderly People with Dementia{% else %}みまもりコンパス - 認知症高齢者のための発見共有システム{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

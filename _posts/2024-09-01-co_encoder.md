@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='mimamori_compass' title='みまもりコンパス - 認知症高齢者のための発見共有システム'>
+    <a href='mimamori_compass' title='{% if page.lang == "en" %}Monitoring Compass - A Discovery Sharing System for Elderly People with Dementia{% else %}みまもりコンパス - 認知症高齢者のための発見共有システム{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='tutoriallm' title='TutoriaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア'>
+    <a href='tutoriallm' title='{% if page.lang == "en" %}TutoriaLLM - Programming learning software with AI Tutorials{% else %}TutoriaLLM - AIチュートリアルを使ったプログラミング学習ソフトウェア{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='capitalens' title='Capitalens'>
+    <a href='capitalens' title='{% if page.lang == "en" %}Capitalens{% else %}Capitalens{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='code_museum' title='Code Museum - 読むことだけに特化したソースコードエディタ'>
+    <a href='code_museum' title='{% if page.lang == "en" %}Code Museum - A Source Code Editor Specializing Only in Reading{% else %}Code Museum - 読むことだけに特化したソースコードエディタ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

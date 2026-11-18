@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='aikyo' title='aikyo - 相互につながるAIキャラクターを作成するバックエンドフレームワーク'>
+    <a href='aikyo' title='{% if page.lang == "en" %}aikyo - A backend framework for creating interconnected AI characters{% else %}aikyo - 相互につながるAIキャラクターを作成するバックエンドフレームワーク{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='talkboost' title='TalkBoost - 吃音者の発話の自発性を促進し、積極的に話すことを支援するアプリ'>
+    <a href='talkboost' title='{% if page.lang == "en" %}TalkBoost - An application that promotes spontaneous speech and supports active communication for people who stutter{% else %}TalkBoost - 吃音者の発話の自発性を促進し、積極的に話すことを支援するアプリ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

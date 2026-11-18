@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='manage_stock' title='ManageStock - 家庭向け在庫管理アプリ'>
+    <a href='manage_stock' title='{% if page.lang == "en" %}ManageStock - Inventory Management App for Households{% else %}ManageStock - 家庭向け在庫管理アプリ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='virtual_presents' title='VirtualPresents - 仮想世界で用いるWebサービス'>
+    <a href='virtual_presents' title='{% if page.lang == "en" %}VirtualPresents - A Web Service for Use in Virtual Worlds{% else %}VirtualPresents - 仮想世界で用いるWebサービス{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

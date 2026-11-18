@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='anyget' title='&gt;&gt;Anyget/掲示板形式小説執筆支援ツール'>
+    <a href='anyget' title='{% if page.lang == "en" %}&gt;&gt;Anyget/ Bulletin Board Style Novel Writing Support Tool{% else %}&gt;&gt;Anyget/掲示板形式小説執筆支援ツール{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='web_koten' title='Web個展 - Webであることを活かしたオンライン展示形式の模索'>
+    <a href='web_koten' title='{% if page.lang == "en" %}Web Solo Exhibition - Exploring Online Exhibition Formats Leveraging the Web{% else %}Web個展 - Webであることを活かしたオンライン展示形式の模索{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

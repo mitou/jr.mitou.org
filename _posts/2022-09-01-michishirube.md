@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='motion_rapid' title='Motion Rapid - 動画編集ソフトのようなUIでCSSアニメーションを作成するツール'>
+    <a href='motion_rapid' title='{% if page.lang == "en" %}Motion Rapid - A Tool for Creating CSS Animations with a Video Editing Software-like UI{% else %}Motion Rapid - 動画編集ソフトのようなUIでCSSアニメーションを作成するツール{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='hak' title='HAK － Hand Action Keyboard － 物理的なタッチを必要としない装着型入力デバイス'>
+    <a href='hak' title='{% if page.lang == "en" %}HAK - Hand Action Keyboard - A Wearable Input Device That Does Not Require Physical Touch{% else %}HAK － Hand Action Keyboard － 物理的なタッチを必要としない装着型入力デバイス{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

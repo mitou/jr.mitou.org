@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='oshaberi_taskboard' title='おしゃべりなタスクボード – アナログ的な操作で子供の自己管理を補助できる、忘れ防止装置'>
+    <a href='oshaberi_taskboard' title='{% if page.lang == "en" %}Chatty Task Board – A Device to Prevent Forgetfulness and Support Children’s Self-Management Through Analog-like operation{% else %}おしゃべりなタスクボード – アナログ的な操作で子供の自己管理を補助できる、忘れ防止装置{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='paper_cad' title='Paper CAD - ミニチュア建物を簡単に設計するための2D/3D統合CAD'>
+    <a href='paper_cad' title='{% if page.lang == "en" %}Paper CAD - An Integrated 2D/3D CAD System for Easy Design of Architectural Models{% else %}Paper CAD - ミニチュア建物を簡単に設計するための2D/3D統合CAD{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

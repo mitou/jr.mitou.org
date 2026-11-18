@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='digikan' title='Digikan - 漢字に興味を持ってもらうためのゲーム'>
+    <a href='digikan' title='{% if page.lang == "en" %}Digikan - A Game to Foster Interest in Kanji{% else %}Digikan - 漢字に興味を持ってもらうためのゲーム{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='bento_color' title='BentoColor - テンプレートを使って簡単に彩り豊かなお弁当を作るアプリ'>
+    <a href='bento_color' title='{% if page.lang == "en" %}BentoColor - An App for Easily Creating Colorful Bento Boxes Using Templates{% else %}BentoColor - テンプレートを使って簡単に彩り豊かなお弁当を作るアプリ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

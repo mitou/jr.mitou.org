@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='abecobe' title='abecobe - シンプルかつ難しいパズルゲーム'>
+    <a href='abecobe' title='{% if page.lang == "en" %}abecobe - A Simple Yet Challenging Puzzle Game{% else %}abecobe - シンプルかつ難しいパズルゲーム{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='relay_master' title='リレーマスター'>
+    <a href='relay_master' title='{% if page.lang == "en" %}Relay Master{% else %}リレーマスター{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

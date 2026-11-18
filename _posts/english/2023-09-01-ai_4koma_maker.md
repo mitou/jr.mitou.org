@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='a9n' title='A9N: HALを用いて移植容易性を実現するマイクロカーネル'>
+    <a href='a9n' title='{% if page.lang == "en" %}A9N: A Microkernel Achieving Portability Using HAL{% else %}A9N: HALを用いて移植容易性を実現するマイクロカーネル{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='be_free' title='Be Free - 話せない人が自由に会話できるアプリ'>
+    <a href='be_free' title='{% if page.lang == "en" %}Be Free - An App That Allows Non-Speakers to Communicate Freely{% else %}Be Free - 話せない人が自由に会話できるアプリ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

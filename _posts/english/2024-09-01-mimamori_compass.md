@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='bento_color' title='BentoColor - テンプレートを使って簡単に彩り豊かなお弁当を作るアプリ'>
+    <a href='bento_color' title='{% if page.lang == "en" %}BentoColor - An App for Easily Creating Colorful Bento Boxes Using Templates{% else %}BentoColor - テンプレートを使って簡単に彩り豊かなお弁当を作るアプリ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='co_encoder' title='Co-Encoder - LLMのためのコンテキスト圧縮エンコーダ'>
+    <a href='co_encoder' title='{% if page.lang == "en" %}Co-Encoder - Context Compression Encoder for LLMs{% else %}Co-Encoder - LLMのためのコンテキスト圧縮エンコーダ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

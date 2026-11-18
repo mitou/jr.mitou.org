@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='harmonic_seam' title='HarmonicSeam - インタラクティブ音楽のための西洋音楽理論に基づく論理検証エンジン'>
+    <a href='harmonic_seam' title='{% if page.lang == "en" %}HarmonicSeam - A Logic Verification Engine Based on Western Music Theory for Interactive Music{% else %}HarmonicSeam - インタラクティブ音楽のための西洋音楽理論に基づく論理検証エンジン{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='pentect' title='Pentect - 機密情報をAIに安全に渡すためのセキュアプロキシ'>
+    <a href='pentect' title='{% if page.lang == "en" %}Pentect - A Secure Proxy for Safely Passing Confidential Information to AI{% else %}Pentect - 機密情報をAIに安全に渡すためのセキュアプロキシ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

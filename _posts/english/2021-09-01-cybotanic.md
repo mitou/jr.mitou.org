@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='mark_sdgs' title='マークみっけ！for SDGs'>
+    <a href='mark_sdgs' title='{% if page.lang == "en" %}Mark Finder! for SDGs{% else %}マークみっけ！for SDGs{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='telport' title='TELPort/テルポート：音波による高速通信プロトコル及び、スピーカーとマイクを介した送受信アプリ'>
+    <a href='telport' title='{% if page.lang == "en" %}TELPort: High-Speed Communication Protocol Using Sound Waves and Transmission/Reception Application via Speaker and Microphone{% else %}TELPort/テルポート：音波による高速通信プロトコル及び、スピーカーとマイクを介した送受信アプリ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='maglev_sphere_mobility' title='磁気浮上型球体駆動モビリティーの開発'>
+    <a href='maglev_sphere_mobility' title='{% if page.lang == "en" %}Development of a Magnetic Levitation Spherical Drive Mobility System{% else %}磁気浮上型球体駆動モビリティーの開発{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='fairy_guide' title='FairyGuide - しゃべるぬいぐるみとめぐる思い出に残る旅'>
+    <a href='fairy_guide' title='{% if page.lang == "en" %}FairyGuide - A Memorable Journey with a Talking Plush Toy{% else %}FairyGuide - しゃべるぬいぐるみとめぐる思い出に残る旅{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

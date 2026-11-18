@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='study_rec' title='StudyRec - タイムラプスやポモドーロ・タイマーを使って勉強時間を管理する学習アプリ'>
+    <a href='study_rec' title='{% if page.lang == "en" %}StudyRec - A Learning App to Manage Study Time Using Time-Lapse and Pomodoro Timer{% else %}StudyRec - タイムラプスやポモドーロ・タイマーを使って勉強時間を管理する学習アプリ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='fluxel' title='Fluxel - 磁気浮上式リニア電磁加速投射機の開発と応用'>
+    <a href='fluxel' title='{% if page.lang == "en" %}Fluxel - Development and Application of a Magnetic Levitation Linear Electromagnetic Acceleration Launcher{% else %}Fluxel - 磁気浮上式リニア電磁加速投射機の開発と応用{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

@@ -465,3 +465,23 @@ class YouTubeStartTime < HTMLProofer::Check
     end
   end
 end
+
+# 英語のプロジェクトページでは、マウスを乗せた時や画像の代わりに出る文（title・alt 属性）も英語にする。
+# 表示する題名だけ英語にして、「Prev / Next」の title とメニューの alt が日本語のままだった。
+class EnglishAttributes < HTMLProofer::Check
+  JAPANESE = /[\p{Hiragana}\p{Katakana}\p{Han}]/
+
+  def run
+    return unless @runner.current_filename.start_with?('_site/english/projects/')
+    # 旧 URL から移すだけのページ（redirect_from。_layouts/redirect.html）は読まれないので見ない
+    return if @html.css('script').any? { |s| s.text.include?('window.location.replace(') }
+
+    @html.css('[title], [alt]').each do |node|
+      %w[title alt].each do |name|
+        next unless node[name].to_s.match?(JAPANESE)
+
+        add_failure("Japanese #{name} on an English page: #{node[name]}", line: node.line)
+      end
+    end
+  end
+end

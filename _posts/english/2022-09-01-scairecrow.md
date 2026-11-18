@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='noxicel' title='Noxicel - 英作文とAIを用いた英単語学習アプリ'>
+    <a href='noxicel' title='{% if page.lang == "en" %}Noxicel - An English Vocabulary Learning App Using English Composition and AI{% else %}Noxicel - 英作文とAIを用いた英単語学習アプリ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='sanitas' title='Sanitas 努力量を共有して美容と健康を支えるアプリ'>
+    <a href='sanitas' title='{% if page.lang == "en" %}Sanitas: An App Supporting Beauty and Health by Sharing Effort Data{% else %}Sanitas 努力量を共有して美容と健康を支えるアプリ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

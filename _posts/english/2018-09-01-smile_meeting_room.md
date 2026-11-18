@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='lets_eigo_puzzle' title='Let&#39;sえいごパズル! - 変化するキューブで楽しく学ぶ英単語'>
+    <a href='lets_eigo_puzzle' title='{% if page.lang == "en" %}Let&#39;s English Puzzle! - Learn English Vocabulary Enjoyably with Transforming Cubes{% else %}Let&#39;sえいごパズル! - 変化するキューブで楽しく学ぶ英単語{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='vreath' title='Vreath - 暗号通貨の入手障壁を下げるための、独自合意アルゴリズムの開発'>
+    <a href='vreath' title='{% if page.lang == "en" %}Vreath - Development of a Unique Consensus Algorithm to Lower Barriers to Acquiring Cryptocurrency{% else %}Vreath - 暗号通貨の入手障壁を下げるための、独自合意アルゴリズムの開発{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

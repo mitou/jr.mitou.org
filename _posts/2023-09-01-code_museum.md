@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='3d_printed_brushless_motor' title='3Dプリンタで作る自作モーター'>
+    <a href='3d_printed_brushless_motor' title='{% if page.lang == "en" %}Creating a DIY Motor with a 3D Printer{% else %}3Dプリンタで作る自作モーター{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='lescued' title='lescued - AIで好みの曲を生成するシステム'>
+    <a href='lescued' title='{% if page.lang == "en" %}lescued - A System for Generating Preferred Music Using AI{% else %}lescued - AIで好みの曲を生成するシステム{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

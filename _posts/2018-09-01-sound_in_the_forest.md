@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='memory_capsule' title='メモリーカプセル - カプセルを通して繋がるSNS'>
+    <a href='memory_capsule' title='{% if page.lang == "en" %}Memory Capsule - A Social Networking Service Connecting Through Capsules{% else %}メモリーカプセル - カプセルを通して繋がるSNS{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='toubans' title='Toubans! -LINEで設定・通知できる当番お知らせサービス'>
+    <a href='toubans' title='{% if page.lang == "en" %}Toubans! - A Duty Notification Service Configurable and Notifiable via LINE{% else %}Toubans! -LINEで設定・通知できる当番お知らせサービス{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

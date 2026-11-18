@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='stellaphonic' title='Stellaphonic - 音で宇宙を感じる新しい天体観測'>
+    <a href='stellaphonic' title='{% if page.lang == "en" %}Stellaphonic - A New Way of Stargazing That Lets You Feel the Universe Through Sound{% else %}Stellaphonic - 音で宇宙を感じる新しい天体観測{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='mahgician' title='Mahgician - IoT牌によるリアルとデジタルを融合する麻雀システム'>
+    <a href='mahgician' title='{% if page.lang == "en" %}Mahgician - A Mahjong System That Blends the Real and the Digital with IoT Tiles{% else %}Mahgician - IoT牌によるリアルとデジタルを融合する麻雀システム{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

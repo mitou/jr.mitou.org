@@ -127,7 +127,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='fudey' title='Fudey - Sensory Calligraphy'>
+    <a href='fudey' title='{% if page.lang == "en" %}Fudey - Sensory Calligraphy{% else %}Fudey - Sensory Calligraphy{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -139,7 +139,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='mathmosis' title='Mathmosis - 数学学習支援AIを搭載したタブレット向けアプリ'>
+    <a href='mathmosis' title='{% if page.lang == "en" %}Mathmosis - A Tablet Application Equipped with an AI for Supporting Mathematics Learning{% else %}Mathmosis - 数学学習支援AIを搭載したタブレット向けアプリ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

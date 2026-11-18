@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='robot_soccer' title='強化学習を用いたロボットサッカーシミュレーション'>
+    <a href='robot_soccer' title='{% if page.lang == "en" %}Robot Soccer Simulation Using Reinforcement Learning{% else %}強化学習を用いたロボットサッカーシミュレーション{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='sound_in_the_forest' title='Sound in the forest - 複数のスマートフォンによる「動く音」の表現'>
+    <a href='sound_in_the_forest' title='{% if page.lang == "en" %}Sound in the forest - Representation of &quot;Moving Sound&quot; Using Multiple Smartphones{% else %}Sound in the forest - 複数のスマートフォンによる「動く音」の表現{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
