@@ -18,16 +18,16 @@
 - q: 未踏ジュニアは誰が運営していますか？
   a: 未踏ジュニアは、未踏事業を運営する IPA と相互協力協定を締結した、<a href='/#organizer'>一般社団法人未踏</a>によって運営されています。<a href='/mentors'>メンター</a>を含め、未踏修了生のボランティアと、企業・団体様からのご支援により運営されています。運営にかかる費用は<a href='#sponsors'>スポンサー各社</a>の支援によって賄われています。<a href='/about'>[詳細を見る]</a>
   q_en: Who runs the MITOU Junior program?
-  a_en: <a href='https://www.mitou.org/'>MITOU Foundation</a> runs the program, with volunteers including project managers and MITOU graduates, and support from companies and organizations.
+  a_en: <a href='https://www.mitou.org/'>MITOU Foundation</a> runs the program, with volunteers including mentors and MITOU graduates, and support from companies and organizations.
 
 - q: 未踏ジュニアに採択されると、どのような支援を受けられますか？
   a: 担当のメンターが定期的なミーティングを通じて、主に開発計画や技術的課題などの相談に乗るほか、1プロジェクトにつき50万円を上限として開発に関連する費用を全額支援します。また、期間中に採択者全員が集まるイベント（ブースト会議/中間合宿など）を開催し、メンターをはじめとする未踏関係者や、プロジェクトに関連する専門家からフィードバックを得る機会を提供します。<br><br>プロジェクト期間の最後には成果報告会が開催され、開発したものを多くの人の前で発表する経験もできます。<a href='/schedule'>[採択後の流れを見る]</a>
   q_en: If accepted, what support can I get?
-  a_en: An assigned mentor will support development scheduling and development issues through regular meetings. Also, up to <a href='https://www.google.com/search?q=500,000+Yen+to+USD'>500K Yen</a> is given per project to cover all the development costs. In addition, there are events at which all participants come together (such as Kickoff Camp and Demo Day) and get feedback from project managers and other MITOU-related personnel and experts related to projects.
+  a_en: An assigned mentor will support development scheduling and development issues through regular meetings. Also, up to <a href='https://www.google.com/search?q=500,000+Yen+to+USD'>500K Yen</a> is given per project to cover all the development costs. In addition, there are events at which all participants come together (such as Kickoff Camp and Demo Day) and get feedback from mentors and other MITOU-related personnel and experts related to projects.
 
 - q: 地方や海外在住なのですが、合宿や成果報告会に参加するための交通費は支給されますか？
   a: 日本国内に居住の場合、プロジェクト期間中の公式イベントへの交通費と合宿の費用は、各プロジェクトの開発予算とは別に支給されます。海外に居住の場合、日本までの渡航費は支給されません。
-  q_en: I live outside Tokyo in Japan or overseas. Will the transportation fee be covered to attend camps and the demo day?
+  q_en: I live outside Tokyo in Japan or overseas. Will the transportation fee be covered to attend camps and Demo Day?
   a_en: Aside from the project development cost, transportation and camp costs for official events will be covered if you live in Japan. If you live abroad, the transportation cost to Japan is not covered.
 
 - q: 入院中・海外在住などの理由で合宿や報告会への参加が難しいのですが、応募はできますか？
@@ -53,7 +53,7 @@
 - q: 提案したプロジェクトは、期間内に完成させる必要がありますか？
   a: 特にそういった要件はありませんが、粗削りでも、聴衆にコンセプトを伝えられるプロトタイプを<a href='/final'>成果報告会</a>までに用意できることが望ましいです。
   q_en: Should the project be finished during the project period?
-  a_en: It is not a requirement, but it is good if, even though it may be rough, you have a prototype to explain to the audience by <a href='/final'>the demo day</a>.
+  a_en: It is not a requirement, but it is good if, even though it may be rough, you have a prototype to explain to the audience by <a href='/final'>Demo Day</a>.
 
 - q: プロジェクト期間中は、どの程度の時間を作業に割く必要がありますか？
   a: 作業のペースは基本的に採択者ごとに柔軟に対応します。未踏ジュニアは仕事ではないですし、学生の本分は学業と考えております。例えば、担当のメンターと事前に相談して試験前は学業に専念する（＝作業はしない）、と決めるプロジェクトもあります。詳細は関連動画「<a href='https://www.youtube.com/watch?v=UgrS5DQOs9Y'>困ったときのガイドライン - YouTube</a>」をご視聴ください。
