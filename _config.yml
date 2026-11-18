@@ -21,6 +21,23 @@ defaults:
       path:    'redirects/*'
     values:
       sitemap: false
+  # 本文の無いファイル（JSON API・所有権の確認用・404）。載せると Search Console がソフト 404 などと報告する
+  - scope:
+      path:    '_posts/*.json'
+    values:
+      sitemap: false
+  - scope:
+      path:    '_posts/english/*.json'
+    values:
+      sitemap: false
+  - scope:
+      path:    'google*.html'
+    values:
+      sitemap: false
+  - scope:
+      path:    'english/404.html'
+    values:
+      sitemap: false
 
 # Feed settings: https://github.com/jekyll/jekyll-feed
 feed:

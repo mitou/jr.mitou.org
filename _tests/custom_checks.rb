@@ -33,6 +33,7 @@ class CustomChecks < ::HTMLProofer::Check
     check_english_stats  if valid_and_equal_to?(BASE_PATH + '/english/stats.html')
     check_english_top_rate if valid_and_equal_to?(BASE_PATH + '/english/index.html')
     check_final_order    if valid_and_equal_to?(BASE_PATH + '/final.html')
+    check_sitemap        if valid_and_equal_to?(BASE_PATH + '/index.html')
   end
 
   def valid_and_equal_to?(filename)
@@ -43,6 +44,17 @@ class CustomChecks < ::HTMLProofer::Check
     end
 
     @runner.current_filename == filename ? true : false
+  end
+
+  # 検索エンジンに読んでほしい本文の無いファイルが sitemap.xml に載っていないかチェックする。
+  # 載っていると、Search Console がソフト 404 などとして報告する。
+  def check_sitemap
+    locs = File.read(BASE_PATH + '/sitemap.xml').scan(%r{<loc>(.*?)</loc>}).flatten
+    add_failure('sitemap.xml has no top page') if not locs.include?(SITE_URL + '/')
+
+    locs.grep(%r{(\.json|/google\h+\.html|/404\.html)\z}).each do |loc|
+      add_failure("Non-content file in sitemap.xml: #{loc}")
+    end
   end
 
   # meta タグがデータを正しく描画しているかチェックする
