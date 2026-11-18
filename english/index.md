@@ -83,7 +83,7 @@ Creators who have shown their outstanding performance during MITOU Junior progra
 
 ## [<i class="fa-light fa-newspaper"></i>](#news) Media & Awards {#news}
 
-Our alumni are creating new values after the program as well. Here are a few examples.
+Our alumni continue to create new things after the program. Here are a few examples.
 
 {% include news-list.html %}
 
@@ -221,7 +221,7 @@ Example projects, accepted and boosted by our program, are as follows.
   - Transportation and accommodation costs for events such as the kickoff camp and Demo Day will also be covered.
 
 <div class='flex'>
-  <a href="/english/stats" class="button">Check statistics</a>
+  <a href="/english/stats" class="button">View statistics</a>
   <a href='/guideline' class='button'>Check detailed timeline (in Japanese)</a>
 </div>
 

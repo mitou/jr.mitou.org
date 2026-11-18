@@ -53,7 +53,7 @@ latest_en_year: 2026
   <!-- Projects を時系列順にソートし、初年度と最新年度を取得する -->
   {% for this_year in (oldest_pj.year..latest_en_year) reversed %}
     <h3 id='{{ this_year }}'>
-      <a href='#{{ this_year }}' style='color: #333; font-weight: bold;'>{{ this_year }}'s projects</a>
+      <a href='#{{ this_year }}' style='color: #333; font-weight: bold;'>{{ this_year }} projects</a>
       <span style='font-size: small;'>（<a href='#top'>Back to top &uarr;</a>）</span>
     </h3>
 
