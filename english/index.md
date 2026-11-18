@@ -118,7 +118,7 @@ So far, <strong>{{ total_applications }} applications</strong> have been submitt
 Example projects, accepted and boosted by our program, are as follows.
 
 <h3 id='{{ latest_en_year }}'>
-  <a href='#{{ latest_en_year }}' style='color: #333; font-weight: bold;'>{{ latest_en_year }}'s projects</a>
+  <a href='#{{ latest_en_year }}' style='color: #333; font-weight: bold;'>{{ latest_en_year }} projects</a>
   <!--<span style='font-size: small;'>（<a href='#top'>Back to top &uarr;</a>）</span>-->
 </h3>
 
