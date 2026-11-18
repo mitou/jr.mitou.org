@@ -106,7 +106,7 @@ Our alumni are creating new values after the program as well. Here are a few exa
 
 <br>
 
-## [<i class="fa-light fa-books"></i>](#showcase) Projects Showcase {#showcase}
+## [<i class="fa-light fa-books"></i>](#showcase) Project Showcase {#showcase}
 
 So far, <strong>{{ total_applications }} applications</strong> have been submitted to the MITOU Junior program, and we have supported <strong>{{ total_projects }} projects</strong> and <strong>{{ total_creators }} creators</strong>. ([Acceptance rate in the last 3 years: {{ recent_rates.first }}-{{ recent_rates.last }}%](/english/stats))
 
@@ -218,7 +218,7 @@ Example projects, accepted and boosted by our program, are as follows.
 - **Due Date:** The application form typically opens on March 10th and closes in early April.
 - **Duration:** About 6 months of support from June to November, including [Demo Day](/final) at the end.
 - **Fee:** Free
-  - Transportation and accommodation costs for events such as the kickoff camp and demo day will also be covered.
+  - Transportation and accommodation costs for events such as the kickoff camp and Demo Day will also be covered.
 
 <div class='flex'>
   <a href="/english/stats" class="button">Check statistics</a>
@@ -227,7 +227,7 @@ Example projects, accepted and boosted by our program, are as follows.
 
 
 <!--
-### Timeline: From application to selection, kickoff camp to demo day.
+### Timeline: From application to selection, kickoff camp to Demo Day.
 
 Example timeline. Details may vary from year to year.
 
