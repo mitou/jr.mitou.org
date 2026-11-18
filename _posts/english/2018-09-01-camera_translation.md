@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='toubans' title='Toubans! -LINEで設定・通知できる当番お知らせサービス'>
+    <a href='toubans' title='{% if page.lang == "en" %}Toubans! - A Duty Notification Service Configurable and Notifiable via LINE{% else %}Toubans! -LINEで設定・通知できる当番お知らせサービス{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='life_watcher' title='Life Watcher - 急変する持病を持つ人のための警報システム'>
+    <a href='life_watcher' title='{% if page.lang == "en" %}Life Watcher - An Alert System for Individuals with Sudden Changes in Chronic Conditions{% else %}Life Watcher - 急変する持病を持つ人のための警報システム{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

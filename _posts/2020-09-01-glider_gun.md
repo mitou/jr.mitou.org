@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='skimer' title='SKIMER - LINEで手軽にやること管理'>
+    <a href='skimer' title='{% if page.lang == "en" %}SKIMER - Easy Task Management with LINE{% else %}SKIMER - LINEで手軽にやること管理{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='align' title='Align - バッテリー残量からはじまるエモチャット'>
+    <a href='align' title='{% if page.lang == "en" %}Align - Emotion Chat Starting from Battery Level{% else %}Align - バッテリー残量からはじまるエモチャット{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

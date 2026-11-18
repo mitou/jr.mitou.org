@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='jellyfish_alert' title='クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム'>
+    <a href='jellyfish_alert' title='{% if page.lang == "en" %}Jellyfish Alert - Edge AI System for Monitoring the Arrival of Poisonous Jellyfish{% else %}クラゲアラート - 毒クラゲ漂着監視のためのエッジAIシステム{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='ai_study' title='AI study - LLMによる穴埋め問題を活用した英単語学習アプリ'>
+    <a href='ai_study' title='{% if page.lang == "en" %}AI study - English Vocabulary Learning App Using Fill-in-the-Blank Questions with LLM{% else %}AI study - LLMによる穴埋め問題を活用した英単語学習アプリ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

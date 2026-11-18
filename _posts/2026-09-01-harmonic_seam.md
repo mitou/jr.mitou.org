@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='kintsugi_4d_dojo' title='Kintsugi 4D Dojo ― 金継ぎを最高の思い出にする体験・支援アプリ'>
+    <a href='kintsugi_4d_dojo' title='{% if page.lang == "en" %}Kintsugi 4D Dojo — An Experience and Support App That Makes Kintsugi a Lasting Memory{% else %}Kintsugi 4D Dojo ― 金継ぎを最高の思い出にする体験・支援アプリ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='kinetic_fit' title='kinetic fit - スマホでスキャンするだけであなただけのキーボードを'>
+    <a href='kinetic_fit' title='{% if page.lang == "en" %}kinetic fit - Your Own Keyboard, Just by Scanning with a Smartphone{% else %}kinetic fit - スマホでスキャンするだけであなただけのキーボードを{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

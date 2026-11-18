@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='minera_lens' title='MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ'>
+    <a href='minera_lens' title='{% if page.lang == "en" %}MineraLens - A 3D Learning App for Exploring the &quot;Why&quot; of Minerals Through Crystal Structures{% else %}MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='origami_cp' title='LLMを用いた折り紙展開図作成ツール'>
+    <a href='origami_cp' title='{% if page.lang == "en" %}An Origami Crease Pattern Creation Tool Using LLMs{% else %}LLMを用いた折り紙展開図作成ツール{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

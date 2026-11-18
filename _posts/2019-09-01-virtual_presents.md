@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='relay_master' title='リレーマスター'>
+    <a href='relay_master' title='{% if page.lang == "en" %}Relay Master{% else %}リレーマスター{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='edge_guided_anime_characters_generation' title='Edge-guided Anime Characters Generation'>
+    <a href='edge_guided_anime_characters_generation' title='{% if page.lang == "en" %}Edge-guided Anime Characters Generation{% else %}Edge-guided Anime Characters Generation{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

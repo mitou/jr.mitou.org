@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='papa' title='学校現場における情報共有やスケジューリングを支援するウェブアプリの提案'>
+    <a href='papa' title='{% if page.lang == "en" %}Proposal for a Web Application to Support Information Sharing and Scheduling in School Settings{% else %}学校現場における情報共有やスケジューリングを支援するウェブアプリの提案{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='narratica' title='narratica〜ストーリーコンサルタント〜'>
+    <a href='narratica' title='{% if page.lang == "en" %}narratica: Story Consultant{% else %}narratica〜ストーリーコンサルタント〜{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

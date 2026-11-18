@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='draw_code' title='DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜'>
+    <a href='draw_code' title='{% if page.lang == "en" %}DrawCode: Create HTML Freely by Connecting Blocks{% else %}DrawCode　〜ブロックをつなげて自由にHTMLを描こう〜{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='smile_iot' title='SmileI/OT'>
+    <a href='smile_iot' title='{% if page.lang == "en" %}SmileI/OT{% else %}SmileI/OT{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='lescued' title='lescued - AIで好みの曲を生成するシステム'>
+    <a href='lescued' title='{% if page.lang == "en" %}lescued - A System for Generating Preferred Music Using AI{% else %}lescued - AIで好みの曲を生成するシステム{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='a9n' title='A9N: HALを用いて移植容易性を実現するマイクロカーネル'>
+    <a href='a9n' title='{% if page.lang == "en" %}A9N: A Microkernel Achieving Portability Using HAL{% else %}A9N: HALを用いて移植容易性を実現するマイクロカーネル{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='reproduce' title='reprODucE - 生物学に特化したシミュレーションソフト'>
+    <a href='reproduce' title='{% if page.lang == "en" %}reprODucE - Simulation Software Specializing in Biology{% else %}reprODucE - 生物学に特化したシミュレーションソフト{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='tactica_note' title='TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート'>
+    <a href='tactica_note' title='{% if page.lang == "en" %}TacticaNote - A Soccer Notebook to Support Verbalization for Youth Players{% else %}TacticaNote - 育成年代の選手の言語化をサポートするサッカーノート{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='rocat' title='Rocat ～モデルロケットを使ったSTEM教育～'>
+    <a href='rocat' title='{% if page.lang == "en" %}Rocat: STEM Education Using Model Rockets{% else %}Rocat ～モデルロケットを使ったSTEM教育～{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='guinfra' title='GUInfra〜GUIで建てるインフラストラクチャー〜'>
+    <a href='guinfra' title='{% if page.lang == "en" %}GUInfra: Building Infrastructure with a GUI{% else %}GUInfra〜GUIで建てるインフラストラクチャー〜{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

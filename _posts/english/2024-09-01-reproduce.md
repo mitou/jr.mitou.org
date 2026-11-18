@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='swaq' title='SWAQ - 特定の問題にちょっと強くなった量子アニーリングシミュレーター'>
+    <a href='swaq' title='{% if page.lang == "en" %}SWAQ - A Quantum Annealing Simulator with Enhanced Capabilities for Specific Problems{% else %}SWAQ - 特定の問題にちょっと強くなった量子アニーリングシミュレーター{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='maglev_sphere_mobility' title='磁気浮上型球体駆動モビリティーの開発'>
+    <a href='maglev_sphere_mobility' title='{% if page.lang == "en" %}Development of a Magnetic Levitation Spherical Drive Mobility System{% else %}磁気浮上型球体駆動モビリティーの開発{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

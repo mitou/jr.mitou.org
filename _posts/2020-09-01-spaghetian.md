@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='brush_talk' title='ぶらっしゅとーく〜小さな子どものための筆談アプリ〜'>
+    <a href='brush_talk' title='{% if page.lang == "en" %}Brush Talk: A Communication App for Young Children{% else %}ぶらっしゅとーく〜小さな子どものための筆談アプリ〜{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='color_overlap' title='Color Overlap - 光の三原色RGBを使ったパズルゲーム'>
+    <a href='color_overlap' title='{% if page.lang == "en" %}Color Overlap - A Puzzle Game Using the Three Primary Colors of Light (RGB){% else %}Color Overlap - 光の三原色RGBを使ったパズルゲーム{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

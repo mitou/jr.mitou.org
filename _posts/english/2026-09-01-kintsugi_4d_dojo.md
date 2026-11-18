@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='aqua_beacon' title='AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-'>
+    <a href='aqua_beacon' title='{% if page.lang == "en" %}AquaBeacon - A System for Localization and Mapping Even in Seaweed Beds by Combining Light and Sound{% else %}AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='harmonic_seam' title='HarmonicSeam - インタラクティブ音楽のための西洋音楽理論に基づく論理検証エンジン'>
+    <a href='harmonic_seam' title='{% if page.lang == "en" %}HarmonicSeam - A Logic Verification Engine Based on Western Music Theory for Interactive Music{% else %}HarmonicSeam - インタラクティブ音楽のための西洋音楽理論に基づく論理検証エンジン{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

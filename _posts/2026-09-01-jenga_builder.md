@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='r_akanaly' title='r_AKanaly - 独自エージェントによる全自動コンピューターウイルス解析機'>
+    <a href='r_akanaly' title='{% if page.lang == "en" %}r_AKanaly - A Fully Automated Computer Virus Analyzer Using a Custom Agent{% else %}r_AKanaly - 独自エージェントによる全自動コンピューターウイルス解析機{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='aroute' title='~ARoute~「駅構内を直感的に理解できる3Dマップ」'>
+    <a href='aroute' title='{% if page.lang == "en" %}~ARoute~ &quot;A 3D Map for Intuitively Understanding Train Stations&quot;{% else %}~ARoute~「駅構内を直感的に理解できる3Dマップ」{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

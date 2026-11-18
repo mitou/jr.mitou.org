@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='critica' title='critica  - 手軽で直感的なリアクション回収ツール'>
+    <a href='critica' title='{% if page.lang == "en" %}critica - A Simple and Intuitive Feedback Collection Tool{% else %}critica  - 手軽で直感的なリアクション回収ツール{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='levo' title='Levo - 全く新しい近未来的デザインのエアソフトガン'>
+    <a href='levo' title='{% if page.lang == "en" %}Levo - A Completely New Futuristic Design for Airsoft Guns{% else %}Levo - 全く新しい近未来的デザインのエアソフトガン{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='unframe' title='Unframe - MRを使ったプレゼンテーションアプリ'>
+    <a href='unframe' title='{% if page.lang == "en" %}Unframe - A Presentation App Using MR{% else %}Unframe - MRを使ったプレゼンテーションアプリ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='nagi' title='nagi - アトピー性皮膚炎の無意識の掻破行動を抑制するデバイス'>
+    <a href='nagi' title='{% if page.lang == "en" %}nagi - A Device That Suppresses Unconscious Scratching in Atopic Dermatitis{% else %}nagi - アトピー性皮膚炎の無意識の掻破行動を抑制するデバイス{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

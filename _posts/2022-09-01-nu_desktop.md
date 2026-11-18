@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='hak' title='HAK － Hand Action Keyboard － 物理的なタッチを必要としない装着型入力デバイス'>
+    <a href='hak' title='{% if page.lang == "en" %}HAK - Hand Action Keyboard - A Wearable Input Device That Does Not Require Physical Touch{% else %}HAK － Hand Action Keyboard － 物理的なタッチを必要としない装着型入力デバイス{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='noxicel' title='Noxicel - 英作文とAIを用いた英単語学習アプリ'>
+    <a href='noxicel' title='{% if page.lang == "en" %}Noxicel - An English Vocabulary Learning App Using English Composition and AI{% else %}Noxicel - 英作文とAIを用いた英単語学習アプリ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

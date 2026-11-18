@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='be_free' title='Be Free - 話せない人が自由に会話できるアプリ'>
+    <a href='be_free' title='{% if page.lang == "en" %}Be Free - An App That Allows Non-Speakers to Communicate Freely{% else %}Be Free - 話せない人が自由に会話できるアプリ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='hato' title='Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム'>
+    <a href='hato' title='{% if page.lang == "en" %}Hopefully Automatic Train Operation (HATO): Immersive Automatic Model Train Control System{% else %}Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

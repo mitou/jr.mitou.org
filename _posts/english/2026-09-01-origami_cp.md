@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='mahgician' title='Mahgician - IoT牌によるリアルとデジタルを融合する麻雀システム'>
+    <a href='mahgician' title='{% if page.lang == "en" %}Mahgician - A Mahjong System That Blends the Real and the Digital with IoT Tiles{% else %}Mahgician - IoT牌によるリアルとデジタルを融合する麻雀システム{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='omochi' title='Omochi - あらゆるプログラムに、共通の操作口を'>
+    <a href='omochi' title='{% if page.lang == "en" %}Omochi - A Common Control Interface for Every Program{% else %}Omochi - あらゆるプログラムに、共通の操作口を{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

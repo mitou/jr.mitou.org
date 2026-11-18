@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='voice_commander' title='Voice Commander ～命令×ポーズ×チェス～'>
+    <a href='voice_commander' title='{% if page.lang == "en" %}Voice Commander: Commands × Poses × Che{% else %}Voice Commander ～命令×ポーズ×チェス～{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='smart_pen' title='スマートペン'>
+    <a href='smart_pen' title='{% if page.lang == "en" %}Smart Pen{% else %}スマートペン{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

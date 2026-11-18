@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='r-order' title='R-Order - 学校版UberEatsを実現するデリバリーサービス'>
+    <a href='r-order' title='{% if page.lang == "en" %}R-Order - A Delivery Service Realizing the School Version of UberEats{% else %}R-Order - 学校版UberEatsを実現するデリバリーサービス{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='michishirube' title='スマート盲導杖『みちしる兵衛』～AI搭載白杖による視覚障害者歩行支援～'>
+    <a href='michishirube' title='{% if page.lang == "en" %}Smart Guide Cane &#39;Michishirube&#39; ~ AI-Powered White Cane for Assisting the Visually Impaired ~{% else %}スマート盲導杖『みちしる兵衛』～AI搭載白杖による視覚障害者歩行支援～{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

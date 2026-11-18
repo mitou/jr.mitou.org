@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='pentect' title='Pentect - 機密情報をAIに安全に渡すためのセキュアプロキシ'>
+    <a href='pentect' title='{% if page.lang == "en" %}Pentect - A Secure Proxy for Safely Passing Confidential Information to AI{% else %}Pentect - 機密情報をAIに安全に渡すためのセキュアプロキシ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='minera_lens' title='MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ'>
+    <a href='minera_lens' title='{% if page.lang == "en" %}MineraLens - A 3D Learning App for Exploring the &quot;Why&quot; of Minerals Through Crystal Structures{% else %}MineraLens - 結晶構造から鉱物の「なぜ」を探る3D学習アプリ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

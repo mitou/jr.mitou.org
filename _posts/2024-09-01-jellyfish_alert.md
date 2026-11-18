@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='qwet' title='QWET -  感動を撒き散らす世界初3Dライブエンジン'>
+    <a href='qwet' title='{% if page.lang == "en" %}QWET - The World&#39;s First 3D Live Engine That Spreads Emotion{% else %}QWET -  感動を撒き散らす世界初3Dライブエンジン{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='picto_plate' title='PictoPlate - レストランでのメニュー問題解決アプリ'>
+    <a href='picto_plate' title='{% if page.lang == "en" %}PictoPlate - An App to Solve Menu Issues in Restaurants{% else %}PictoPlate - レストランでのメニュー問題解決アプリ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

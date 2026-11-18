@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='hato' title='Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム'>
+    <a href='hato' title='{% if page.lang == "en" %}Hopefully Automatic Train Operation (HATO): Immersive Automatic Model Train Control System{% else %}Hopefully Automatic Train Operation: 没入感を高める!? Nゲージ列車 全自動走行システム{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='bakusoku_agv' title='新型独立ステアリング機構の開発およびそれを用いたAGVモジュールの開発'>
+    <a href='bakusoku_agv' title='{% if page.lang == "en" %}Development of a New Independent Steering Mechanism and AGV Module Using It{% else %}新型独立ステアリング機構の開発およびそれを用いたAGVモジュールの開発{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

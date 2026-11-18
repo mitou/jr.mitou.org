@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='gen5' title='Gen5 - 自然言語とGUIの融合による柔軟な画像編集エディタ'>
+    <a href='gen5' title='{% if page.lang == "en" %}Gen5 - A Flexible Image Editing Editor Integrating Natural Language and GUI{% else %}Gen5 - 自然言語とGUIの融合による柔軟な画像編集エディタ{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='aikyo' title='aikyo - 相互につながるAIキャラクターを作成するバックエンドフレームワーク'>
+    <a href='aikyo' title='{% if page.lang == "en" %}aikyo - A backend framework for creating interconnected AI characters{% else %}aikyo - 相互につながるAIキャラクターを作成するバックエンドフレームワーク{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

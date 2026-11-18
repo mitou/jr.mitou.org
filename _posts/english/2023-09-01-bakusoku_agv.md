@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='motion_simulator' title='ゼロから作るMotion Simulator'>
+    <a href='motion_simulator' title='{% if page.lang == "en" %}Creating a Motion Simulator from Scratch{% else %}ゼロから作るMotion Simulator{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='niwangojs' title='niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン'>
+    <a href='niwangojs' title='{% if page.lang == "en" %}niwango.js - An Execution Engine for Niwango, Programmable via Video Comments{% else %}niwango.js - 動画のコメントでプログラミング可能なニワン語の実行エンジン{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

@@ -125,7 +125,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='nagi' title='nagi - アトピー性皮膚炎の無意識の掻破行動を抑制するデバイス'>
+    <a href='nagi' title='{% if page.lang == "en" %}nagi - A Device That Suppresses Unconscious Scratching in Atopic Dermatitis{% else %}nagi - アトピー性皮膚炎の無意識の掻破行動を抑制するデバイス{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -137,7 +137,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='aqua_beacon' title='AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-'>
+    <a href='aqua_beacon' title='{% if page.lang == "en" %}AquaBeacon - A System for Localization and Mapping Even in Seaweed Beds by Combining Light and Sound{% else %}AquaBeacon -光と音を組み合わせて藻場でも位置推定とマッピングを行うシステム-{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

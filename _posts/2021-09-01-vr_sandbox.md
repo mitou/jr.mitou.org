@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='mock_up' title='mock up: 動画編集ソフトウェアフレームワーク'>
+    <a href='mock_up' title='{% if page.lang == "en" %}mock up: Video Editing Software Framework{% else %}mock up: 動画編集ソフトウェアフレームワーク{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='mark_sdgs' title='マークみっけ！for SDGs'>
+    <a href='mark_sdgs' title='{% if page.lang == "en" %}Mark Finder! for SDGs{% else %}マークみっけ！for SDGs{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

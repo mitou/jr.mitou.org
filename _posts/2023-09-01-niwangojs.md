@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='bakusoku_agv' title='新型独立ステアリング機構の開発およびそれを用いたAGVモジュールの開発'>
+    <a href='bakusoku_agv' title='{% if page.lang == "en" %}Development of a New Independent Steering Mechanism and AGV Module Using It{% else %}新型独立ステアリング機構の開発およびそれを用いたAGVモジュールの開発{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='stask' title='Stask - 学生の課題進捗を助けるアプリ'>
+    <a href='stask' title='{% if page.lang == "en" %}Stask - An App to Assist Students with Task Progress{% else %}Stask - 学生の課題進捗を助けるアプリ{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}

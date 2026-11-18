@@ -124,7 +124,7 @@ twitter_card: summary_large_image
 
 <nav>
   <p class='nav prev'>
-    <a href='camera_translation' title='写して翻訳'>
+    <a href='camera_translation' title='{% if page.lang == "en" %}Camera Translation{% else %}写して翻訳{% endif %}'>
       &larr; {{ translations.navPrev[lang] }}
       <br>
       {% if page.lang == 'en' %}
@@ -136,7 +136,7 @@ twitter_card: summary_large_image
   </p>
 
   <p class='nav next'>
-    <a href='utips' title='UTIPS - 家事の情報共有サービス'>
+    <a href='utips' title='{% if page.lang == "en" %}UTIPS - Household Information Sharing Service{% else %}UTIPS - 家事の情報共有サービス{% endif %}'>
       {{ translations.navNext[lang] }} &rarr;
       <br>
       {% if page.lang == 'en' %}
