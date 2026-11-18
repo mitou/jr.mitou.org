@@ -112,13 +112,8 @@ twitter_card: summary_large_image
 
 {% if page.lang == 'en' %}
 <div class="note" style="margin-top: 30px;">
-  <span style="font-weight: bold; margin-left: -4px;">To show English subtitles:</span><br>
-  Play video <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
-  Click CC icon <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
-  Click Settings <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
-  Click Subtitles/CC <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
-  Click Auto-translate <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
-  Click English <small>(or other language you prefer)</small>
+  <strong>English subtitles</strong> turn on automatically when you play the video.<br>
+  <small>If not: Watch on YouTube &rarr; CC &rarr; Settings &rarr; Subtitles/CC &rarr; Auto-translate &rarr; English</small>
 </div>
 {% endif %}
 
