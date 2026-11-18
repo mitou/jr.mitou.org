@@ -111,7 +111,7 @@ twitter_card: summary_large_image
 {% if page.lang == 'en' %}
 <div class="note" style="margin-top: 30px;">
   <span style="font-weight: bold; margin-left: -4px;">To show English subtitles:</span><br>
-  Play video <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
+  Click <strong>Watch on YouTube</strong> below <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
   Click CC icon <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
   Click Settings <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
   Click Subtitles/CC <span class='ignore-sp'>&rarr;</span><span class='ignore-pc'>&darr;</span><br class='ignore-pc'>
